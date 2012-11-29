@@ -135,28 +135,28 @@ RTE.default {
         removeTags = center, sdfield
         removeTagsAndContents = style,script
 
-        # Buttons die gezeigt/versteckt werden
+        # Buttons to show/hide
         showButtons = textstyle, textstylelabel, blockstyle, blockstylelabel, bold, italic, orderedlist, unorderedlist, insertcharacter, chMode, link, image, removeformat, toggleborders, tableproperties, subscript, superscript, rowproperties, rowinsertabove, rowinsertunder, rowdelete, rowsplit, columninsertbefore, columninsertafter, columndelete, columnsplit, cellproperties, cellinsertbefore, cellinsertafter, celldelete, cellsplit, cellmerge, insertcharacter, undo, redo, left, center, right
         hideButtons = fontstyle, formatblock, strikethrough,lefttoright, righttoleft, textcolor, bgcolor, textindicator, line, underline, emoticon, user, spellcheck, inserttag, justifyfull, acronym, table, copy, cut, paste, about, showhelp, outdent, indent, findreplace
 
-        # Hält die RTE Icons gegroupt zusammen
+        # Group RTE Icons
         keepButtonGroupTogether = 1
 
-        # blendet Statusbar in htmlarea aus
+        # Hide status bar
         showStatusBar =  0
 
         proc {
-                # tags die erlaubt / verboten sind
+                # Allowed / Denied tags
                 allowTags = table, tbody, tr, th, td, h1, h2, h3, h4, h5, h6, div, p, br, span, ul, ol, li, re, blockquote, strong, em, b, i, u, sub, sup, strike, a, img, nobr, hr, tt, q, cite, abbr, acronym, center
                 denyTags = font
 
-                # br wird nicht zu p konvertiert
+                # Don't convert <br> to <p>
                 dontConvBRtoParagraph = 1
 
-                # tags sind erlaubt außerhalt von p, div
+                # Tags allowed outside <p> and <div>
                 allowTagsOutside = img,hr
 
-                # erlaubte attribute in p, div tags
+                # Attributes allowed in <p> and <div>
                 keepPDIVattribs = align,class,style,id
 
                 # List all class selectors that are allowed on the way to the database
@@ -164,20 +164,20 @@ RTE.default {
                         muted,text-warning,text-error,text-info,text-success
                 )       
 
-                # html parser einstellungen
+                # html parser settings
                 HTMLparser_rte {
 
-                        # tags die erlaubt/verboten sind
+                        # Allowed / Denied tags
                         allowTags < RTE.default.proc.allowTags
                         denyTags < RTE.default.proc.denyTags
 
-                        # tags die untersagt sind
+                        # Remove tags
                         removeTags = font
 
-                        # entfernt html-kommentare
+                        # Remove html comments
                         removeComments = 1
 
-                        # tags die nicht übereinstimmen werden nicht entfernt (protect / 1 / 0)
+                        # Tags that don't match, won't be removed
                         keepNonMatchedTags = 0
                 }
 
@@ -186,7 +186,7 @@ RTE.default {
                 entryHTMLparser_db = 1
                 entryHTMLparser_db {
 
-                        # tags die erlaubt/verboten sind
+                        # Allowed / Denied tags
                         allowTags < RTE.default.proc.allowTags
                         denyTags < RTE.default.proc.denyTags
 
@@ -197,7 +197,7 @@ RTE.default {
 
                         # htmlSpecialChars = 1
        
-                        ## align attribute werden erlaubt
+                        ## Align attributes are allowed
                         tags {
                                 p.fixAttrib.align.unset >
                                 p.allowedAttribs = class,style,align
@@ -206,28 +206,28 @@ RTE.default {
 
                                 hr.allowedAttribs = class
 
-                                # b und i tags werden ersetzt (em / strong)
+                                # Convert <b> and <i> to <strong> and <em>
                                 b.remap = strong
                                 i.remap = em
 
-                                ## img tags werden erlaubt
+                                ## Allow img tags
                                 img >
                         }
                 }
 
         }
 
-        # Classes: Ausrichtung
+        # Classes: Alignment
         buttons.blockstyle.tags.div.allowedClasses (
                 align-left, align-center, align-right
         )
 
-        # Classes: Eigene Stile
+        # Classes: Own styles
         buttons.textstyle.tags.span.allowedClasses = muted,text-warning,text-error,text-info,text-success
         buttons.image.properties.class.allowedClasses= rte_image
 
 
-        # Classes für Links (These classes should also be in the list of allowedClasses)
+        # Classes for Links (These classes should also be in the list of allowedClasses)
         #classesAnchor = 
         buttons.link.properties.class.allowedClasses = 
         
@@ -238,7 +238,6 @@ RTE.default {
                 mail = 
         }
 
-        # zeigt alle CSS-Klassen die in rte.css vorhanden sind
         #showTagFreeClasses = 1
         buttons.blockstyle.showTagFreeClasses = 1
         buttons.textstyle.showTagFreeClasses = 1
@@ -246,11 +245,11 @@ RTE.default {
         # Do not allow insertion of the following tags
         hideTags = font
 
-        # Tabellen Optionen in der RTE Toolbar
+        # Table options in RTE toolbar
         hideTableOperationsInToolbar = 0
         keepToggleBordersInToolbar = 1
 
-        # Tabellen Editierungs-Optionen (cellspacing/ cellpadding / border)
+        # Table editing
         disableSpacingFieldsetInTableOperations = 1
         disableAlignmentFieldsetInTableOperations=1
         disableColorFieldsetInTableOperations=1
@@ -266,7 +265,7 @@ RTE.default.FE < RTE.default
 RTE.default.FE.userElements >
 RTE.default.FE.userLinks >
 
-# Breite des RTE in Fullscreen-Ansicht
+# Width of the RTE in fullscreen mode
 TCEFORM.tt_content.bodytext.RTEfullScreenWidth= 80%
 
 # # RTE Configuration [END]

@@ -13,7 +13,7 @@ admPanel {
  
 setup.override.edit_docModuleUpload = 0
 
-# # Benutzereinstellungen beschränken [BEGIN]
+# # Limit user settings [BEGIN]
 
 setup.override {
     edit_RTE = 1
@@ -33,4 +33,4 @@ setup.override {
     newsoverlay = 0
 }
 
-# # Benutzereinstellungen beschränken [END]
+# # Limit user settings [END]
