@@ -1,0 +1,69 @@
+/* Default Styles BEGIN  - DO NOT MODIFY */
+
+p.muted,
+span.muted {
+    color: #999999;    
+}
+
+p.text-warning,
+a.text-warning,
+span.text-warning {
+    color: #c09853;    
+}
+
+a.text-warning:hover {
+    color: #a47e3c;
+}
+
+p.text-error,
+span.text-error {
+  color: #b94a48;
+}
+
+p.text-error, 
+a.text-error:hover {
+  color: #953b39;
+}
+
+p.text-info,
+span.text-info {
+  color: #3a87ad;
+}
+
+p.text-info,
+a.text-info:hover {
+  color: #2d6987;
+}
+
+p.text-success,
+span.text-success {
+  color: #468847;
+}
+
+p.text-success,
+a.text-success:hover {
+  color: #356635;
+}
+
+p.align-left,
+span.align-left {
+    text-align: left;
+}
+
+p.align-center,
+span.align-center {
+    text-align: center;
+}
+
+p.align-right,
+span.align-right {
+    text-align: right;
+}
+
+/* Default Styles BEGIN  - DO NOT MODIFY */
+
+/* Custom Styles BEGIN */
+
+
+
+/* Custom Styles END */
