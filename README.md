@@ -5,24 +5,24 @@ t3bootstrap is a TYPO3 collection of tools, flexible content elements ([TemplaVo
 ## Features
 
 * Pre-configured default language **German** and second languange **English**
-* The default image and text with image content element is deactivated as it brings problems to twitter Bootstrap; there are two new flexible content elements, where the name ***flexible*** is really appropriate :)
-* Flexible content elements for **buttons**, with customizable styles, containers with customizable colors (all via the backend and records)
-* Flexible content elements for **columns** (1,2,3,4) where you can dynamically set the width and offset, according to twitter Bootstrap guidelines
+* The default image and text with image content elements are deactivated as they bring problems to twitter Bootstrap; there are two new flexible content elements, where the name ***flexible*** is really appropriate :)
+* Flexible content elements for **buttons**, with customizable styles, **containers** with customizable colors (all via the backend and records)
+* Flexible content elements for **columns** (1,2,3,4) where you can dynamically set the **width** and **offset**, according to twitter Bootstrap guidelines
 * **A backend module to configure the project after installation:**
 	* You can set the project name, the basedomains, a copyright notice, which appears in the source code, backend users and choose if the project will be a responsive website or not
 	* Passwords of the backend users and install tool are generated dynamically
 	* The default databases and contents are imported automatically
 * A backend module to test your site on different device sizes (powered by [The Responsinator](http://www.responsinator.com/))
 * All TypoScript (setup, constants, FCE, TSConfig) is **outsourced** into files for better **versioning with SVN or GIT**
-* German and english language packs for extensions and the TYPO3 Backend
+* German and English **language packs** for extensions and the TYPO3 Backend
 * Pre-configured **SEO optimizations** like Google Analytics, Canonical URL, facebook OG Tags and Google Sitemap
 * You can access all basic configurations via the **TypoScript Contant Editor** in the TYPO3 Backend module
-* **A list of integrated extensions:** All the extension come pre-configured and with custom settings
+* **A list of integrated extensions:** All the extensions come pre-configured and with custom settings
 	* [news](http://typo3.org/extensions/repository/view/news)
 	* [powermail](http://typo3.org/extensions/repository/view/powermail)
 	* [kickstarter](http://typo3.org/extensions/repository/view/kickstarter)
 	* [jftcaforms](http://typo3.org/extensions/repository/view/jftcaforms)
-	* medmobilehide - *an extension to set the display mode for every content element*
+	* medmobilehide - *an extension to set the display mode for every content element, according twitter Bootstrap*
 	* [lorem_ipsum](http://typo3.org/extensions/repository/view/lorem_ipsum) *(customized)*
 	* [rzpagetreetools](http://typo3.org/extensions/repository/view/rzpagetreetools)
 	* [realurl_clearcache](http://typo3.org/extensions/repository/view/realurl_clearcache)
