@@ -12,7 +12,7 @@ t3bootstrap is a TYPO3 collection of tools, flexible content elements ([TemplaVo
 	* You can set the project name, the basedomains, a copyright notice, which appears in the source code, backend users and choose if the project will be a responsive website or not
 	* Passwords of the backend users and install tool are generated dynamically
 	* The default databases and contents are imported automatically
-* A backend module to test your site on different device sizes (**powered by** [The Responsinator](http://www.responsinator.com/))
+* A backend module to test your site on different device sizes (powered by [The Responsinator](http://www.responsinator.com/))
 * All TypoScript (setup, constants, FCE, TSConfig) is **outsourced** into files for better **versioning with SVN or GIT**
 * German and english language packs for extensions and the TYPO3 Backend
 * Pre-configured **SEO optimizations** like Google Analytics, Canonical URL, facebook OG Tags and Google Sitemap
