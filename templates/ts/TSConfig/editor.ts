@@ -1,4 +1,3 @@
-#options.pageTree.showNavTitle = 1
 options.clearCache.all = 1
 options.clearCache.pages = 1 
 options.createFoldersInEB = 1

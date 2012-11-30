@@ -2,7 +2,7 @@
 
 TCEMAIN.permissions {
 	# # Editor user group
-        groupid = 3
+    groupid = 3
 	user = show,editcontent,edit,delete,new
 	group = show,editcontent,edit,delete,new
 	everybody = show,editcontent,edit,delete,new

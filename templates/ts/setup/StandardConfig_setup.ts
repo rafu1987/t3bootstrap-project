@@ -2,7 +2,7 @@
 
 config {
     admPanel = 1
-    headerComment = TYPO3 implementation by medialis.net - online marketing & entwicklung
+    headerComment = TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung 
     typolinkLinkAccessRestrictedPages = 1
     removeDefaultJS = 1
     inlineStyle2TempFile = 1
@@ -30,7 +30,7 @@ page.headerData.1 {
     }
 }
 
-# # Muss beim LIVE gehen, deaktiviert werden
+# # Deactivate, when page goes online
 page.meta.robots = noindex, nofollow
 
 page.headerData.555 = TEXT

@@ -30,7 +30,7 @@ t3bootstrap {
     newsButtonMoreClass = btn btn-primary
 
     # cat=t3bootstrap/t3b/70; type=string; label=Facebook OG site name: For the news detail pages
-    fbOGSitename = T3Bootstrap
+    fbOGSitename = Project
 
     # cat=t3bootstrap/t3b/80; type=string; label=Facebook OG admins: For the news detail pages
     fbAdmins = 100000096245580
