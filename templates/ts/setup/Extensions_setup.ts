@@ -41,6 +41,7 @@ config {
 
 page.jsFooterInline.800 = COA
 page.jsFooterInline.800 {
+	wrap = (function($) {$(document).ready(function() { $('a[class*=lightbox]').fancybox({|});  });})(jQuery);
     10 >
     10 = TEXT
     10.value (
@@ -200,6 +201,14 @@ plugin {
 }
 
 # # TemplaVoilà [END]
+
+# # Google Maps [BEGIN]
+
+plugin.tx_rzgooglemaps2_pi1 {
+    googleMapsSubmitClasses = {$t3bootstrap.googleMapsSubmitClasses}
+}
+
+# # Google Maps [END]
 
 # # SEO [BEGIN]
 

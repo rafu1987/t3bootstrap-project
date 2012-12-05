@@ -29,6 +29,9 @@ t3bootstrap {
     # cat=t3bootstrap/t3b/60; type=string; label=News more button CSS Class: One or more CSS classes for the news more button
     newsButtonMoreClass = btn btn-primary
 
+    # cat=t3bootstrap/t3b/50; type=string; label=Google Maps Submit CSS Class: One or more CSS classes for the Google Maps submit button
+    googleMapsSubmitClasses = btn btn-primary   
+
     # cat=t3bootstrap/t3b/70; type=string; label=Facebook OG site name: For the news detail pages
     fbOGSitename = Project
 

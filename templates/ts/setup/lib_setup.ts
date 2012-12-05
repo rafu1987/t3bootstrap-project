@@ -2,7 +2,7 @@
 
 lib.brandName = TEXT
 lib.brandName {
-  value = Project
+  value = Project 
   stdWrap {
     typolink {
       parameter = {$t3bootstrap.basedomain.de}

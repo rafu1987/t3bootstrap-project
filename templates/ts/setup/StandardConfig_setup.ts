@@ -2,7 +2,7 @@
 
 config {
     admPanel = 1
-    headerComment = TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung TYPO3 implementation by medialis.net - online marketing & entwicklung 
+    headerComment = TYPO3 implementation by medialis.net - online marketing & entwicklung
     typolinkLinkAccessRestrictedPages = 1
     removeDefaultJS = 1
     inlineStyle2TempFile = 1
