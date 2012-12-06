@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>rzpagetreetools</description>
+        <type></type>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="hideInMenu">Hide in menus</label>
+            <label index="showInMenu">Show in menus</label>
+            <label index="subMenu">Page type</label>
+            <label index="standardPage">Standard</label>
+            <label index="backendPage">Backend User Section</label>
+            <label index="shortcutPage">Shortcut</label>
+            <label index="mountPage">Mount Point</label>
+            <label index="urlPage">Link to External URL</label>
+            <label index="storageFolder">Folder</label>
+            <label index="trashPage">Recycler</label> 
+            <label index="menuPage">Menu Separator</label> 
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="hideInMenu">In Menüs verbergen</label>
+            <label index="showInMenu">In Menüs anzeigen</label>
+            <label index="subMenu">Seitentyp</label>
+            <label index="standardPage">Standard</label>
+            <label index="backendPage">Backend-Benutzerbereich</label>
+            <label index="shortcutPage">Verweis</label>
+            <label index="mountPage">Einstiegspunkt</label>
+            <label index="urlPage">Link zu externer URL</label>
+            <label index="storageFolder">Storage Folder</label>
+            <label index="trashPage">Papierkorb</label> 
+            <label index="menuPage">Trennzeichen für Menü</label> 
+        </languageKey>            
+    </data>
+</T3locallang>
