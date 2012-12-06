@@ -17,7 +17,6 @@ plugin.tx_medfancyboxcontent_pi1 {
             topRatio = 0.5
         }
         link {
-            title = Open in fancybox
             class = btn btn-primary
             wrap = <p>|</p>
         }

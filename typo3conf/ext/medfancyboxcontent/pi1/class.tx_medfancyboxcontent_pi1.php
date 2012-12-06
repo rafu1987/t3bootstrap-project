@@ -91,7 +91,7 @@ class tx_medfancyboxcontent_pi1 extends tslib_pibase {
         
         // Get link title
         $linkTitle = $this->getFlexform("linkTitle");
-        if(!$linkTitle) $linkTitle = $this->conf['settings.']['link.']['title'];
+        if(!$linkTitle) $linkTitle = $this->pi_getLL('linkTitle');
         
         // Get link class
         $linkClass = $this->getFlexform("linkClass", "options");

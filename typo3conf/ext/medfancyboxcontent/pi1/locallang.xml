@@ -7,9 +7,11 @@
 	<data type="array">
 		<languageKey index="default" type="array">
 			<label index="noBaseUrl"><![CDATA[<h4>The base URL isn't configured.</h4><p>Please set <b>config.baseURL</b> in your TypoScript setup in order for medfancyboxcontent to work properly.</p>]]></label>
+			<label index="linkTitle">Open in Fancybox</label>
 		</languageKey>
 		<languageKey index="de" type="array">
 			<label index="noBaseUrl"><![CDATA[<h4>Die Base URL ist nicht konfiguriert.</h4><p>Bitte setze <b>config.baseURL</b> in deinem TypoScript setup, damit medfancyboxcontent korrekt funktioniert.</p>]]></label>
+			<label index="linkTitle">In Fancybox öffnen</label>
 		</languageKey>
 	</data>
 </T3locallang>
