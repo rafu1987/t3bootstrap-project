@@ -1,0 +1,2 @@
+# cat=basic; type=string; label=Cache time in seconds: Here you can set the scriptmerger cache time in seconds
+cacheTime = 86400
