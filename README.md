@@ -2,6 +2,8 @@
 
 t3bootstrap is a TYPO3 collection of tools, flexible content elements ([TemplaVoilà](http://typo3.org/extensions/repository/view/templavoila)), custom helper extensions and the basic [twitter Bootstrap](http://twitter.github.com/bootstrap/) framework. Initially developed by us for us, we'll try to move forward to a public version, for you to try out.
 
+*t3bootstrap uses version **2.2.1** of twitter Bootstrap*
+
 ## Requirements
 * TYPO3 stable version **4.7.7** Source - Get it here: [http://get.typo3.org/4.7](http://get.typo3.org/4.7)
 * PHP version 5.3.x
@@ -78,7 +80,10 @@ Now, if you click on the page module, you should see a dummy page tree with some
 	* [t3jquery](http://typo3.org/extensions/repository/view/t3jquery)
 	* [rzdummyimage](http://typo3.org/extensions/repository/view/rzdummyimage)
 	* [templavoila](http://typo3.org/extensions/repository/view/templavoila)
-	* [medmarkdown](https://github.com/medialis/medmarkdown)	
+	* [medmarkdown](https://github.com/medialis/medmarkdown)
+	
+## ToDo's
+* Implement a way to change the default language in the configurator (right now, German is configured as the default language; of course you can change that with a few steps in the backend by yourself).
 
 **Powered by [medialis.net UG (haftungsbeschränkt)](http://www.medialis.net)**
 
