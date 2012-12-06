@@ -6,7 +6,7 @@ config {
     typolinkLinkAccessRestrictedPages = 1
     removeDefaultJS = 1
     inlineStyle2TempFile = 1
-    spamProtectEmailAddresses = 1
+    spamProtectEmailAddresses = 0
     doctype = html5
     xmlprologue = none
     xhtml_cleaning = all
