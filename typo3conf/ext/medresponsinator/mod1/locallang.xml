@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for module &quot;web_txmedresponsinatorM1&quot;</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="title">Responsinator</label>
+            <label index="choose_page">Please choose a page on the left</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="title">Responsinator</label>
+            <label index="choose_page">Bitte zuerst links eine Seite auswählen</label>
+        </languageKey>
+    </data>
+</T3locallang>
