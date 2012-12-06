@@ -507,16 +507,18 @@ $settingsContent = "<?php
 		                    foreach($beUsers as $beUser) {
 		                    	$userData = explode(",",$beUser);
 		                    	
-								$insertArray = array(						
-									'username' => trim(str_replace('"','',stripslashes($userData[0]))),	
-									'admin' => trim(str_replace('"','',stripslashes($userData[5]))),
-									'realName' => trim(str_replace('"','',stripslashes($userData[1]))),
-									'email' => trim(str_replace('"','',stripslashes($userData[2]))),
-									'lang' => trim(str_replace('"','',stripslashes($userData[3]))),
-									'tstamp' => time(),
-									'crdate' => time(),
-									'usergroup' => trim(str_replace('"','',stripslashes($userData[4])))				
-								);
+		                    	if(!$userData[0] != 'admin') {
+									$insertArray = array(						
+										'username' => trim(str_replace('"','',stripslashes($userData[0]))),	
+										'admin' => trim(str_replace('"','',stripslashes($userData[5]))),
+										'realName' => trim(str_replace('"','',stripslashes($userData[1]))),
+										'email' => trim(str_replace('"','',stripslashes($userData[2]))),
+										'lang' => trim(str_replace('"','',stripslashes($userData[3]))),
+										'tstamp' => time(),
+										'crdate' => time(),
+										'usergroup' => trim(str_replace('"','',stripslashes($userData[4])))				
+									);
+								}
 								
 								$resBeUser = $GLOBALS['TYPO3_DB']->exec_INSERTquery('be_users', $insertArray);                    
 		                    }
