@@ -463,7 +463,7 @@ $settingsContent = "<?php
 	                    /* Update page ID 1 BEGIN */
 	
 	                    $updateArrayMod = array(
-	                        //'tx_medbootstraptools_bootstrapconfig' => 1,
+	                        'tx_medbootstraptools_bootstrapconfig' => 1,
 	                        'title' => ucfirst($projectNameUpper)
 	                    );
 	
