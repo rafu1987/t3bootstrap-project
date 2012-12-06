@@ -6,14 +6,14 @@
     </meta>
     <data type="array">
         <languageKey index="default" type="array">
-            <label index="mlang_tabs_tab">T3Bootstrap Configuration</label>
-            <label index="mlang_labels_tabdescr">T3Bootstrap Configuration</label>
-            <label index="mlang_labels_tablabel">T3Bootstrap Configuration</label>
+            <label index="mlang_tabs_tab">t3bootstrap Configuration</label>
+            <label index="mlang_labels_tabdescr">t3bootstrap Configuration</label>
+            <label index="mlang_labels_tablabel">t3bootstrap Configuration</label>
         </languageKey>
         <languageKey index="de" type="array">
-            <label index="mlang_tabs_tab">T3Bootstrap Konfiguration</label>
-            <label index="mlang_labels_tabdescr">T3Bootstrap Konfiguration</label>
-            <label index="mlang_labels_tablabel">T3Bootstrap Konfiguration</label>
+            <label index="mlang_tabs_tab">t3bootstrap Konfiguration</label>
+            <label index="mlang_labels_tabdescr">t3bootstrap Konfiguration</label>
+            <label index="mlang_labels_tablabel">t3bootstrap Konfiguration</label>
         </languageKey>
     </data>
 </T3locallang>

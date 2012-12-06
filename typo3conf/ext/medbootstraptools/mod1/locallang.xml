@@ -6,14 +6,14 @@
     </meta>
     <data type="array">
         <languageKey index="default" type="array">
-            <label index="title">T3Bootstrap Configuration</label>
+            <label index="title">t3bootstrap Configuration</label>
             <label index="installToolPassword">Install Tool Password:</label>
-            <label index="configAlready">T3Bootstrap was already configured</label>
+            <label index="configAlready">t3bootstrap was already configured</label>
             <label index="projectName">Project name:</label>
             <label index="adminUser">Admin user</label>
             <label index="responsive">Responsive:</label>
             <label index="save">Save</label>
-            <label index="configSaved">The T3Bootstrap config was saved</label>
+            <label index="configSaved">The t3bootstrap config was saved</label>
             <label index="backendPasses">The Backend Passes are:</label>
             <label index="adminUserInfo">(1 User per row, Mode: "User name","Name","eMail address","Language","User group (ID)","Admin (0/1)")</label>
             <label index="admin">Admin</label>
@@ -43,14 +43,14 @@
             <label index="generalSettings">General Settings</label> 
         </languageKey>
         <languageKey index="de" type="array">
-            <label index="title">T3Bootstrap Konfiguration</label>
+            <label index="title">t3bootstrap Konfiguration</label>
             <label index="installToolPassword">Install Tool Passwort:</label>
-            <label index="configAlready">T3Bootstrap wurde bereits konfiguriert</label>
+            <label index="configAlready">t3bootstrap wurde bereits konfiguriert</label>
             <label index="projectName">Projekt Name:</label>
             <label index="adminUser">Admin Benutzer</label>
             <label index="responsive">Responsive:</label>
             <label index="save">Speichern</label>
-            <label index="configSaved">Die T3Bootstrap Konfiguration wurde gespeichert</label>
+            <label index="configSaved">Die t3bootstrap Konfiguration wurde gespeichert</label>
             <label index="backendPasses">Die Backend Passwörter sind:</label>
             <label index="adminUserInfo">(1 Benutzer pro Zeile, Form: "Benutzername","Name","E-Mail Adresse","Sprache","Benutzergruppe (ID)","Admin (0/1)")</label>
             <label index="admin">Admin</label>
