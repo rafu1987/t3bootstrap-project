@@ -1,0 +1,20 @@
+.rzgooglemaps2_navigation_menue {
+    margin: 0 0 10px 0;
+}
+
+.rzgooglemaps2_navigation_menue a {
+    padding: 0 5px 0 0;
+    text-decoration: none;
+}
+
+.rzgooglemaps2_navigation_menue a:hover {
+    text-decoration: none;
+}
+
+.rzgooglemaps2_navigation_menue a:first-child {
+    font-weight: bold;
+}
+
+.rzgooglemaps2_navigation_content input.rzgooglemaps2_submit {
+    margin-top: -10px;
+}

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>rzgooglemaps2 Template</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <!-- ###TEMPLATE### begin -->
+            <div class="rzgooglemaps2_navigation rzgooglemaps2_navigation_###CE_ID###">
+                <div class="rzgooglemaps2_navigation_menue">
+                    <a href="javascript:void(0);" class="rzgooglemaps2_fromhere">###FROM_HERE_LABEL###</a>
+                    <a href="javascript:void(0);" class="rzgooglemaps2_tohere">###TO_HERE_LABEL###</a>
+                </div>
+                <div class="rzgooglemaps2_navigation_content">
+                    <form name="search_route" method="get" action="http://maps.google.com/" target="_blank">
+                        <input type="text" name="saddr" class="rzgooglemaps2_input_1" />
+                        <input type="hidden" name="daddr" value="###ADDRESS###" class="rzgooglemaps2_input_2" />
+                        <a href="javascript:void(0);" class="rzgooglemaps2_submit ###BUTTON_CLASSES###">###ROUTE_LABEL### <i class="icon-chevron-right icon-white"></i></a>
+                    </form>
+                </div>                    
+            </div>
+        <!-- ###TEMPLATE### end -->
+    </body>
+</html>

@@ -1,0 +1,8 @@
+plugin.tx_rzgooglemaps2_pi1 {
+    templateFile = typo3conf/ext/rzgooglemaps2/res/template/rzgooglemaps2-template.html
+    apiUrl = {$plugin.tx_rzgooglemaps2_pi1.apiUrl}
+    jsFile = {$plugin.tx_rzgooglemaps2_pi1.jsFile}
+    cssFile = {$plugin.tx_rzgooglemaps2_pi1.cssFile}
+    jQueryLibrary = {$plugin.tx_rzgooglemaps2_pi1.jQueryLibrary}
+    googleMapsSubmitClasses = {$plugin.tx_rzgooglemaps2_pi1.googleMapsSubmitClasses}
+}

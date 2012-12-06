@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>database</type>
+        <description>Language labels for extension 'rzgooglemaps2' forms</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="rzgooglemaps2.pi_flexform.sheet_general">General</label>
+            <label index="rzgooglemaps2.pi_flexform.sheet_options">Options</label>
+            <label index="rzgooglemaps2.pi_flexform.address">Address</label>
+            <label index="rzgooglemaps2.pi_flexform.zip">ZIP Code</label>
+            <label index="rzgooglemaps2.pi_flexform.city">City</label>
+            <label index="rzgooglemaps2.pi_flexform.country">Country</label>
+            <label index="rzgooglemaps2.pi_flexform.latitude">Latitude</label>
+            <label index="rzgooglemaps2.pi_flexform.longitude">Longitude</label>
+            <label index="rzgooglemaps2.pi_flexform.infoText">Info text</label>
+            <label index="rzgooglemaps2.pi_flexform.infoWindowAutoOpen">Open info window automatically</label>
+            <label index="rzgooglemaps2.pi_flexform.width">Width of map</label>
+            <label index="rzgooglemaps2.pi_flexform.height">Height of map (in px)</label>
+            <label index="rzgooglemaps2.pi_flexform.zoom">Zoom</label>
+            <label index="rzgooglemaps2.pi_flexform.mapType">Map type</label>
+            <label index="rzgooglemaps2.pi_flexform.mapType1">Road map</label>
+            <label index="rzgooglemaps2.pi_flexform.mapType2">Satellite map</label>
+            <label index="rzgooglemaps2.pi_flexform.mapType3">Hybrid map</label>
+            <label index="rzgooglemaps2.pi_flexform.mapType4">Terrain map</label>
+            <label index="rzgooglemaps2.pi_flexform.controls">(De-)activate controls</label>
+            <label index="rzgooglemaps2.pi_flexform.controls1">Pan (deactivate)</label>
+            <label index="rzgooglemaps2.pi_flexform.controls2">Zoom (deactivate)</label>
+            <label index="rzgooglemaps2.pi_flexform.controls3">Map type (deactivate)</label>
+            <label index="rzgooglemaps2.pi_flexform.controls4">Scale (activate)</label>
+            <label index="rzgooglemaps2.pi_flexform.controls5">Streetview (deactivate)</label>
+            <label index="rzgooglemaps2.pi_flexform.controls6">Overview map (deactivate)</label>
+            <label index="rzgooglemaps2.pi_flexform.navigation">Navigation</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="rzgooglemaps2.pi_flexform.sheet_general">Allgemein</label>
+            <label index="rzgooglemaps2.pi_flexform.sheet_options">Optionen</label>    
+            <label index="rzgooglemaps2.pi_flexform.address">Adresse</label>
+            <label index="rzgooglemaps2.pi_flexform.zip">PLZ</label>
+            <label index="rzgooglemaps2.pi_flexform.city">Stadt</label>
+            <label index="rzgooglemaps2.pi_flexform.country">Land</label>
+            <label index="rzgooglemaps2.pi_flexform.latitude">Längengrad</label>
+            <label index="rzgooglemaps2.pi_flexform.longitude">Breitengrad</label>            
+            <label index="rzgooglemaps2.pi_flexform.infoText">Infotext</label>
+            <label index="rzgooglemaps2.pi_flexform.infoWindowAutoOpen">Infofenster automatisch öffnen</label>
+            <label index="rzgooglemaps2.pi_flexform.width">Breite der Karte</label>
+            <label index="rzgooglemaps2.pi_flexform.height">Höhe der Karte (in px)</label>
+            <label index="rzgooglemaps2.pi_flexform.zoom">Zoom</label>
+            <label index="rzgooglemaps2.pi_flexform.mapType">Kartentyp</label>
+            <label index="rzgooglemaps2.pi_flexform.mapType1">Straßenkarte</label>
+            <label index="rzgooglemaps2.pi_flexform.mapType2">Satelittenansicht</label>
+            <label index="rzgooglemaps2.pi_flexform.mapType3">Hybridansicht</label>
+            <label index="rzgooglemaps2.pi_flexform.mapType4">Geländeansicht</label> 
+            <label index="rzgooglemaps2.pi_flexform.controls">Controls (de-)aktivieren</label>
+            <label index="rzgooglemaps2.pi_flexform.controls1">Pan (deaktivieren)</label>
+            <label index="rzgooglemaps2.pi_flexform.controls2">Zoom (deaktivieren)</label>
+            <label index="rzgooglemaps2.pi_flexform.controls3">Kartentyp (deaktivieren)</label>
+            <label index="rzgooglemaps2.pi_flexform.controls4">Scale (aktivieren)</label>
+            <label index="rzgooglemaps2.pi_flexform.controls5">Streetview (deaktivieren)</label>
+            <label index="rzgooglemaps2.pi_flexform.controls6">Übersichtskarte (deaktivieren)</label> 
+            <label index="rzgooglemaps2.pi_flexform.navigation">Navigation</label>
+        </languageKey>
+    </data>
+</T3locallang>  
