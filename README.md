@@ -19,7 +19,7 @@ Just install your TYPO3 source. For that go through the 1-2-3 installer, and whe
 
 You don't need to configure anything else; t3bootstrap will do that for you later.
 
-Then get the latest t3bootstrap version and put the **fileadmin** and **typo3conf** folders inside your TYPO3 installation. This brings some basic configuration. You have to clear the TYPO3 cache and reload the backend.
+Then get the latest t3bootstrap version, unzip the downloaded file and put all the containing files and folders inside your TYPO3 installation. This brings some basic configuration. You have to clear the TYPO3 cache and reload the backend.
 
 After the reload you will find a new backend module called **T3Bootstrap configuration**. Click on the module and go through the settings. When finished, click the **Save** button at the bottom of the page.
 
