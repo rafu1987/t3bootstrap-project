@@ -21,3 +21,4 @@ styles_*.css
 ._*
 Thumbs.db
 /index.php
+_.htaccess
