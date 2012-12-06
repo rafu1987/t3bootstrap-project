@@ -28,6 +28,9 @@ $TYPO3_CONF_VARS['FE']['loginSecurityLevel']  = 'rsa';	//  Modified or inserted 
 // Updated by TYPO3 Core Update Manager 31-10-12 16:14:39
 $typo_db = 'typo3';	//  Modified or inserted by TYPO3 Install Tool.
 
+$TYPO3_CONF_VARS['GFX']['im_path_lzw'] = '/usr/local/bin/';
+$TYPO3_CONF_VARS['GFX']['im_path'] = '/usr/local/bin/';
+
 @include(PATH_typo3conf . 'settings.php');
 
 $TYPO3_CONF_VARS['GFX']['jpg_quality'] = '100';	//  Modified or inserted by TYPO3 Install Tool.
