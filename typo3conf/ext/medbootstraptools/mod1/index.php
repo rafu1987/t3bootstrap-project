@@ -512,7 +512,6 @@ $settingsContent = "<?php
 	                    /**
 	                    * @todo Is there another way to get the database connection values from localconf.php
 	                    * @todo Replace @mysql_connect, as TYPO3 Backend is already connected; change import script class
-	                    * @todo Change typo3_test database to $typo_db
 	                    */
 	                    
 	                    // Include localconf to get database settings
