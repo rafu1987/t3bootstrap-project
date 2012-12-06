@@ -206,7 +206,7 @@ class tx_medbootstraptools_module1 extends t3lib_SCbase {
 	                    // Rename dir
 	                    rename($path . $projectDir, $path . $projectName);
 	
-	                    /* Change files END */
+	                    /* Change files BEGIN */
 	                    
 	                    // Files to change
 	                    $files = array(
@@ -287,8 +287,17 @@ class tx_medbootstraptools_module1 extends t3lib_SCbase {
 		                    // Open file
 		                    $data4 = file_get_contents($f4);
 		                    
-		                    // Add data
-		                    $data4 = $data4 . "\n\nt3bootstrap {\n\tbasedomain.de = ".$basedomainDE."\n\tbasedomain.en = ".$basedomainEN."\n}";
+// Add data
+$data4 = "".$data4."
+
+# # medbootstraptools [BEGIN]
+
+t3bootstrap {
+\tbasedomain.de = ".$basedomainDE."
+\tbasedomain.en = ".$basedomainEN."
+}
+
+# # medbootstraptools [END]";
 		                    
 		                    // Write file
 		                    file_put_contents($f4, $data4);
@@ -305,10 +314,144 @@ class tx_medbootstraptools_module1 extends t3lib_SCbase {
 	                        $dataResp = str_replace("bootstrap-responsive","no-responsive",$dataResp);
 	                        
 	                        file_put_contents($resp, $dataResp);
+	                        
+	                        // Rename t3bootstrap responsive
+	                        $t3bootstrapResp = PATH_site . 'fileadmin/templates/default/less/t3bootstrap-responsive.less';
+	                        rename($t3bootstrapResp,$t3bootstrapResp.'_doNotUse');
+	                        
+		                    // File
+		                    $lessConfigFile = PATH_site . 'fileadmin/templates/ts/setup/Extensions_setup.ts';
+		                    
+		                    // Get content
+		                    $lessConfigFileContent = file_get_contents($lessConfigFile);
+		                    
+		                    // Remove LESS config for responsive CSS file
+		                    $lessConfigFileContent = preg_replace('/t3bootstrap-responsive {[^{}]*}/', '', $lessConfigFileContent);	
+		                    
+		                    // Write file
+		                    file_put_contents($lessConfigFile, $lessConfigFileContent);                        
 	                    }
 	                    
 	                    /* Responsive or not END */
 	
+	                    /* Install Tool password BEGIN */
+	
+	                    $localconfFile = PATH_site . 'typo3conf/localconf.php';
+	                    $localconfData = file_get_contents($localconfFile);
+	
+	                    $newInstallPassword = $this->generatePW();
+	
+	                    $localConfContent = "// Updated by medbootstraptools " . date("d.m.y", time()) . " " . date("H:i:s", time()) . "\n\$TYPO3_CONF_VARS['BE']['installToolPassword'] = '" . md5($newInstallPassword) . "';";
+	
+	                    $localconfData = str_replace("?>", "\n" . $localConfContent . "\n?>", $localconfData);
+	                    file_put_contents($localconfFile, $localconfData);
+	
+	                    /* Install Tool password END */
+	                    
+	                    /* Update site name BEGIN */
+	                    
+	                    // Get localconf
+	                    $data = file_get_contents($localconfFile);
+	                    
+	                    $data = str_replace("\$TYPO3_CONF_VARS['SYS']['sitename'] = '".ucfirst($projectDir)."';", "\$TYPO3_CONF_VARS['SYS']['sitename'] = '".ucfirst($projectNameUpper)."';", $data);
+	
+	                    // Write file
+	                    file_put_contents($localconfFile, $data);                    
+	                    
+	                    /* Update site name END */	                    
+	                    
+	                    /* Settings LIVE/PREVIEW server BEGIN */
+	                    
+	                    // Get file
+	                    $settingsFile = PATH_typo3conf . 'settings.php';
+	                    
+	                    // Get settings
+	                    $server = $_POST['live_server'];
+	                    $host = $_POST['live_host'];
+	                    $username = $_POST['live_username'];
+	                    $dbPassword = $_POST['live_password'];
+	                    $database = $_POST['live_database'];
+	                    $imPath = $_POST['live_impath'];
+	                    
+	                    $previewServer = $_POST['preview_server'];
+	                    $previewHost = $_POST['preview_host'];
+	                    $previewUsername = $_POST['preview_username'];
+	                    $previewDbPassword = $_POST['preview_password'];
+	                    $previewDatabase = $_POST['preview_database'];	 
+	                    $previewImPath = $_POST['preview_impath'];                   
+	                    
+	                    // Get content
+	                    if(!$server && !$host && !$username && !$dbPassword && !$database && !$previewServer && !$previewHost && !$previewUsername && !$previewDbPassword && !$previewDatabase && !$imPath && !$previewImPath) {
+$settingsContent = "<?php
+\$TYPO3_CONF_VARS['GFX']['im_path_lzw'] = '/usr/local/bin/';
+\$TYPO3_CONF_VARS['GFX']['im_path'] = '/usr/local/bin/';
+?>";
+	                    }
+	                    else {
+$settingsContent = "<?php
+\tif(\$_SERVER['SERVER_NAME'] == '".$server."') {
+\t\t\$typo_db_username = '".$username."';
+\t\t\$typo_db_password = '".$dbPassword."';
+\t\t\$typo_db_host = '".$host."';
+\t\t\$typo_db = '".$database."';
+\t\t\$TYPO3_CONF_VARS['GFX']['im_path_lzw'] = '".$imPath."';
+\t\t\$TYPO3_CONF_VARS['GFX']['im_path'] = '".$imPath."';
+\t}
+\telse if(\$_SERVER['SERVER_NAME'] == '".$previewServer."') {
+\t\t\$typo_db_username = '".$previewUsername."';
+\t\t\$typo_db_password = '".$previewDbPassword."';
+\t\t\$typo_db_host = '".$previewHost."';
+\t\t\$typo_db = '".$previewDatabase."';
+\t\t\$TYPO3_CONF_VARS['GFX']['im_path_lzw'] = '".$previewImPath."';
+\t\t\$TYPO3_CONF_VARS['GFX']['im_path'] = '".$previewImPath."';
+\t}
+?>";
+	                    }
+	                    
+	                    file_put_contents($settingsFile, $settingsContent);	                    
+	                    
+	                    /* Settings LIVE/PREVIEW server END */                 
+	                    
+	                    /* Import database BEGIN */
+	                    
+	                    /**
+	                    * @todo Is there another way to get the database connection values from localconf.php
+	                    * @todo Replace @mysql_connect, as TYPO3 Backend is already connected; change import script class
+	                    */
+	                    
+	                    // Include localconf to get database settings
+	                	include(PATH_typo3conf . 'localconf.php');
+	                	
+	                	// Connect to database
+	                	$connection = @mysql_connect($typo_db_host,$typo_db_username,$typo_db_password);
+	                		                	
+	                	// Get SQL file
+	                	$filename = PATH_typo3conf.'ext/medbootstraptools/mod1/sql/t3bootstrap.sql';
+	                	$compress = false;
+	                	
+						$dump = new phpMyImporter($typo_db,$connection,$filename,$compress);
+						$dump->utf8 = true; // Uses UTF8 connection with MySQL server, default: true                  
+						
+						$dump->doImport();
+						
+						/* Clear sys_log and be_sessions table after import [BEGIN] */
+						
+						mysql_query("TRUNCATE TABLE sys_log"); 
+						//mysql_query("TRUNCATE TABLE be_sessions"); 
+						
+						/* Clear sys_log and be_sessions table after import [END] */
+						
+	                    /* Import database END */
+	                    
+	                    /* Update contact form BEGIN */
+	                    
+	                    $email = $_POST['project_email'];	                    
+	                    
+	                    $GLOBALS['TYPO3_DB']->sql_query("UPDATE tt_content SET pi_flexform = REPLACE(pi_flexform, 'your@email.de', '".$email."') WHERE uid=103");	                    
+	                    $GLOBALS['TYPO3_DB']->sql_query("UPDATE tt_content SET pi_flexform = REPLACE(pi_flexform, '".ucfirst($projectDirUpper)."', '".ucfirst($projectNameUpper)."') WHERE uid=103");	                    
+	                    
+	                    /* Update contact form END */	  
+	                   
 	                    /* Templavoilà BEGIN */
 	
 	                    $GLOBALS['TYPO3_DB']->sql_query("UPDATE tx_templavoila_datastructure SET belayout = REPLACE(belayout, '" . $projectDir . "', '" . $projectName . "') WHERE uid=1");
@@ -316,6 +459,39 @@ class tx_medbootstraptools_module1 extends t3lib_SCbase {
 	                    $GLOBALS['TYPO3_DB']->sql_query("UPDATE tx_templavoila_tmplobj SET fileref_md5 = MD5(fileref) WHERE uid=1");
 	                    
 	                    /* Templavoilà BEGIN */
+	
+	                    /* Update page ID 1 BEGIN */
+	
+	                    $updateArrayMod = array(
+	                        //'tx_medbootstraptools_bootstrapconfig' => 1,
+	                        'title' => ucfirst($projectNameUpper)
+	                    );
+	
+	                    $resMod = $GLOBALS['TYPO3_DB']->exec_UPDATEquery('pages', 'uid=1', $updateArrayMod);
+	
+	                    /* Update page ID 1  END */
+	                   
+	                    /* Update user group ID 2 BEGIN */
+	                    
+	                    $updateArrayUser = array(
+	                        'title' => ucfirst($projectNameUpper).' '.$GLOBALS['LANG']->getLL('admin'),
+	                        'description' => ucfirst($projectNameUpper).' '.$GLOBALS['LANG']->getLL('adminUserGroup')
+	                    );
+	
+	                    $resMod = $GLOBALS['TYPO3_DB']->exec_UPDATEquery('be_groups', 'uid=2', $updateArrayUser);                    
+	                    
+	                    /* Update user group ID 2 END */             
+	                    
+	                    /* Update user group ID 3 BEGIN */
+	                    
+	                    $updateArrayUser2 = array(
+	                        'title' => ucfirst($projectNameUpper).' '.$GLOBALS['LANG']->getLL('editor'),
+	                        'description' => ucfirst($projectNameUpper).' '.$GLOBALS['LANG']->getLL('editorUserGroup')
+	                    );
+	
+	                    $resMod2 = $GLOBALS['TYPO3_DB']->exec_UPDATEquery('be_groups', 'uid=3', $updateArrayUser2);                    
+	                    
+	                    /* Update user group ID 3 END */	 
 	                    
 	                    /* Create backend users BEGIN */
 	                    
@@ -384,159 +560,7 @@ class tx_medbootstraptools_module1 extends t3lib_SCbase {
 	                        $i++;
 	                    }
 	
-	                    /* Backend user passwords END */
-	
-	                    /* Install Tool password BEGIN */
-	
-	                    $localconfFile = PATH_site . 'typo3conf/localconf.php';
-	                    $localconfData = file_get_contents($localconfFile);
-	
-	                    $newInstallPassword = $this->generatePW();
-	
-	                    $localConfContent = "// Updated by medbootstraptools " . date("d.m.y", time()) . " " . date("H:i:s", time()) . "\n\$TYPO3_CONF_VARS['BE']['installToolPassword'] = '" . md5($newInstallPassword) . "';";
-	
-	                    $localconfData = str_replace("?>", "\n" . $localConfContent . "\n?>", $localconfData);
-	                    file_put_contents($localconfFile, $localconfData);
-	
-	                    /* Install Tool password END */
-	
-	                    /* Update page ID 1 BEGIN */
-	
-	                    $updateArrayMod = array(
-	                        //'tx_medbootstraptools_bootstrapconfig' => 1,
-	                        'title' => ucfirst($projectNameUpper)
-	                    );
-	
-	                    $resMod = $GLOBALS['TYPO3_DB']->exec_UPDATEquery('pages', 'uid=1', $updateArrayMod);
-	
-	                    /* Update page ID 1  END */
-	                   
-	                    /* Update user group ID 2 BEGIN */
-	                    
-	                    $updateArrayUser = array(
-	                        'title' => ucfirst($projectNameUpper).' '.$GLOBALS['LANG']->getLL('admin'),
-	                        'description' => ucfirst($projectNameUpper).' '.$GLOBALS['LANG']->getLL('adminUserGroup')
-	                    );
-	
-	                    $resMod = $GLOBALS['TYPO3_DB']->exec_UPDATEquery('be_groups', 'uid=2', $updateArrayUser);                    
-	                    
-	                    /* Update user group ID 2 END */             
-	                    
-	                    /* Update user group ID 3 BEGIN */
-	                    
-	                    $updateArrayUser2 = array(
-	                        'title' => ucfirst($projectNameUpper).' '.$GLOBALS['LANG']->getLL('editor'),
-	                        'description' => ucfirst($projectNameUpper).' '.$GLOBALS['LANG']->getLL('editorUserGroup')
-	                    );
-	
-	                    $resMod2 = $GLOBALS['TYPO3_DB']->exec_UPDATEquery('be_groups', 'uid=3', $updateArrayUser2);                    
-	                    
-	                    /* Update user group ID 3 END */
-	                    
-	                    /* Update site name BEGIN */
-	                    
-	                    // Get localconf
-	                    $data = file_get_contents($localconfFile);
-	                    
-	                    $data = str_replace("\$TYPO3_CONF_VARS['SYS']['sitename'] = '".ucfirst($projectDir)."';", "\$TYPO3_CONF_VARS['SYS']['sitename'] = '".ucfirst($projectNameUpper)."';", $data);
-	
-	                    // Write file
-	                    file_put_contents($localconfFile, $data);                    
-	                    
-	                    /* Update site name END */
-	                    
-	                    /* Update contact form BEGIN */
-	                    
-	                    $email = $_POST['project_email'];	                    
-	                    
-	                    $GLOBALS['TYPO3_DB']->sql_query("UPDATE tt_content SET pi_flexform = REPLACE(pi_flexform, 'your@email.de', '".$email."') WHERE uid=103");	                    
-	                    $GLOBALS['TYPO3_DB']->sql_query("UPDATE tt_content SET pi_flexform = REPLACE(pi_flexform, '".ucfirst($projectDirUpper)."', '".ucfirst($projectNameUpper)."') WHERE uid=103");	                    
-	                    
-	                    /* Update contact form END */	   
-	                    
-	                    /* Settings LIVE/PREVIEW server BEGIN */
-	                    
-	                    // Get file
-	                    $settingsFile = PATH_typo3conf . 'settings.php';
-	                    
-	                    // Get settings
-	                    $server = $_POST['live_server'];
-	                    $host = $_POST['live_host'];
-	                    $username = $_POST['live_username'];
-	                    $dbPassword = $_POST['live_password'];
-	                    $database = $_POST['live_database'];
-	                    $imPath = $_POST['live_impath'];
-	                    
-	                    $previewServer = $_POST['preview_server'];
-	                    $previewHost = $_POST['preview_host'];
-	                    $previewUsername = $_POST['preview_username'];
-	                    $previewDbPassword = $_POST['preview_password'];
-	                    $previewDatabase = $_POST['preview_database'];	 
-	                    $previewImPath = $_POST['preview_impath'];                   
-	                    
-	                    // Get content
-	                    if(!$server && !$host && !$username && !$dbPassword && !$database && !$previewServer && !$previewHost && !$previewUsername && !$previewDbPassword && !$previewDatabase && !$imPath && !$previewImPath) {
-$settingsContent = "<?php
-\$TYPO3_CONF_VARS['GFX']['im_path_lzw'] = '/usr/local/bin/';
-\$TYPO3_CONF_VARS['GFX']['im_path'] = '/usr/local/bin/';
-?>";
-	                    }
-	                    else {
-$settingsContent = "<?php
-\tif(\$_SERVER['SERVER_NAME'] == '".$server."') {
-\t\t\$typo_db_username = '".$username."';
-\t\t\$typo_db_password = '".$dbPassword."';
-\t\t\$typo_db_host = '".$host."';
-\t\t\$typo_db = '".$database."';
-\t\t\$TYPO3_CONF_VARS['GFX']['im_path_lzw'] = '".$imPath."';
-\t\t\$TYPO3_CONF_VARS['GFX']['im_path'] = '".$imPath."';
-\t}
-\telse if(\$_SERVER['SERVER_NAME'] == '".$previewServer."') {
-\t\t\$typo_db_username = '".$previewUsername."';
-\t\t\$typo_db_password = '".$previewDbPassword."';
-\t\t\$typo_db_host = '".$previewHost."';
-\t\t\$typo_db = '".$previewDatabase."';
-\t\t\$TYPO3_CONF_VARS['GFX']['im_path_lzw'] = '".$previewImPath."';
-\t\t\$TYPO3_CONF_VARS['GFX']['im_path'] = '".$previewImPath."';
-\t}
-?>";
-	                    }
-	                    
-	                    file_put_contents($settingsFile, $settingsContent);
-	                    
-	                    
-	                    /* Settings LIVE/PREVIEW server END */                 
-	                    
-	                    /* Import database BEGIN */
-	                    
-	                    /**
-	                    * @todo Is there another way to get the database connection values from localconf.php
-	                    * @todo Replace @mysql_connect, as TYPO3 Backend is already connected; change import script class
-	                    */
-	                    
-	                    // Include localconf to get database settings
-	                	include(PATH_typo3conf . 'localconf.php');
-	                	
-	                	// Connect to database
-	                	$connection = @mysql_connect($typo_db_host,$typo_db_username,$typo_db_password);
-	                	
-	                	// Get SQL file
-	                	$filename = PATH_typo3conf.'ext/medbootstraptools/mod1/sql/t3bootstrap.sql';
-	                	$compress = false;
-	                	
-						$dump = new phpMyImporter($typo_db,$connection,$filename,$compress);
-						$dump->utf8 = true; // Uses UTF8 connection with MySQL server, default: true                  
-						
-						$dump->doImport();
-						
-						/* Clear sys_log and be_sessions table after import [BEGIN] */
-						
-						mysql_query("TRUNCATE TABLE sys_log"); 
-						mysql_query("TRUNCATE TABLE be_sessions"); 
-						
-						/* Clear sys_log and be_sessions table after import [END] */
-						
-	                    /* Import database END */
+	                    /* Backend user passwords END */	                                      
 	
 	                    // Success message
 	                    $successMessageContent = '<h3>'.$GLOBALS['LANG']->getLL('configSaved').'</h3>';
