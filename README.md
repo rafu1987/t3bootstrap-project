@@ -21,7 +21,11 @@ You don't need to configure anything else; t3bootstrap will do that for you late
 
 Then get the latest t3bootstrap version, unzip the downloaded file and put all the containing files and folders inside your TYPO3 installation. This brings some basic configuration. You have to clear the TYPO3 cache and reload the backend.
 
-After the reload you will find a new backend module called **T3Bootstrap configuration**. Click on the module and go through the settings. When finished, click the **Save** button at the bottom of the page.
+After the reload you will find a new backend module called **T3Bootstrap configuration** in the admin tools section. Click on the module and go through the settings. When finished, click the **Save** button at the bottom of the page.
+
+Note the admin password and install tool password (and all the other generated passwords, if you created users with the configurator) and reload the page. You will have to log in the backend again with the new password, which was just generated automatically.
+
+Now, if you click on the page module, you should see a dummy page tree with some content elements.
 
 ### Be aware that you can only do the settings the first time you call the module; after hitting the save button, you won't be able to configure anything through the backend module anymore.
 
