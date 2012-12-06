@@ -1,0 +1,27 @@
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:medmarkdown/locallang_flexform.xml:medmarkdown.pi_flexform.sheet_general</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>	                      
+                    <text>
+                        <TCEforms>
+                            <label>LLL:EXT:medmarkdown/locallang_flexform.xml:medmarkdown.pi_flexform.text</label>
+                            <config>
+                                <type>text</type>
+                                <form_type>user</form_type>
+                                <userFunc>tx_medmarkdown_text->user_text</userFunc> 
+                            </config>
+                        </TCEforms>
+                    </text>                                     
+                </el>
+            </ROOT>
+        </sDEF>       
+    </sheets>
+</T3DataStructure>
