@@ -525,7 +525,7 @@ $settingsContent = "<?php
 	                	$filename = PATH_typo3conf.'ext/medbootstraptools/mod1/sql/t3bootstrap.sql';
 	                	$compress = false;
 	                	
-						$dump = new phpMyImporter('typo3_test',$connection,$filename,$compress);
+						$dump = new phpMyImporter($typo_db,$connection,$filename,$compress);
 						$dump->utf8 = true; // Uses UTF8 connection with MySQL server, default: true                  
 						
 						$dump->doImport();

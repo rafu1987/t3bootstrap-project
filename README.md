@@ -1,6 +1,30 @@
-# t3bootstrap
+# t3bootstrap - TYPO3 & Bootstrap
 
-t3bootstrap is a TYPO3 collection of tools, flexible content elements ([TemplaVoilà](http://typo3.org/extensions/repository/view/templavoila)), custom helper extensions and the basic [twitter Bootstrap](http://twitter.github.com/bootstrap/) framework. Initially developed by us for us, we'll try to move forward to a public version, for you to try out. At the moment, this repository only brings the ***fileadmin*** folder of the whole installation.
+t3bootstrap is a TYPO3 collection of tools, flexible content elements ([TemplaVoilà](http://typo3.org/extensions/repository/view/templavoila)), custom helper extensions and the basic [twitter Bootstrap](http://twitter.github.com/bootstrap/) framework. Initially developed by us for us, we'll try to move forward to a public version, for you to try out.
+
+## Requirements
+* TYPO3 stable version **4.7.7** Source - Get it here: [http://get.typo3.org/4.7](http://get.typo3.org/4.7)
+* PHP version 5.3.x
+* MySQL version 5.0.x-5.1.x
+* A webserver to run TYPO3 on
+
+## Installation
+### Follow the installation steps carefully and as described here. Only then, we can guarantee, that t3bootstrap will work for you. Please use t3bootstrap only on a fresh TYPO3 installation.
+
+Just install your TYPO3 source. For that go through the 1-2-3 installer, and when finished log in to the backend with:
+
+> Username: *admin*  
+> Password: *password*  
+> Install Tool Password: *joh316*
+
+You don't need to configure anything else; t3bootstrap will do that for you later.
+
+Then get the latest t3bootstrap version and put the **fileadmin** and **typo3conf** folders inside your TYPO3 installation. This brings some basic configuration. You have to clear the TYPO3 cache and reload the backend.
+
+After the reload you will find a new backend module called **T3Bootstrap configuration**. Click on the module and go through the settings. When finished, click the **Save** button at the bottom of the page.
+
+### Be aware that you can only do the settings the first time you call the module; after hitting the save button, you won't be able to configure anything through the backend module anymore.
+
 
 ## Features
 
@@ -49,7 +73,8 @@ t3bootstrap is a TYPO3 collection of tools, flexible content elements ([TemplaVo
 	* medbootstraptools
 	* [t3jquery](http://typo3.org/extensions/repository/view/t3jquery)
 	* [rzdummyimage](http://typo3.org/extensions/repository/view/rzdummyimage)
-	* [templavoila](http://typo3.org/extensions/repository/view/templavoila)	
+	* [templavoila](http://typo3.org/extensions/repository/view/templavoila)
+	* [medmarkdown](https://github.com/medialis/medmarkdown)	
 
 **Powered by [medialis.net UG (haftungsbeschränkt)](http://www.medialis.net)**
 
