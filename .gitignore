@@ -16,3 +16,9 @@ README.txt
 RELEASE_NOTES.txt
 ENABLE_INSTALL_TOOL
 temp_*
+t3bootstrap_*.css
+t3bootstrap-responsive_*.css
+styles_*.css
+._*
+Thumbs.db
+/index.php

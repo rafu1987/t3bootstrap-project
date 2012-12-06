@@ -394,7 +394,16 @@ class user_t3bootstrap {
         $background = $this->cObj->stdWrap($content, $conf['background.']);
         $custom = $this->cObj->stdWrap($content, $conf['custom.']);
         
-        if($custom) $textColor = $this->getContrastYIQ($custom);        
+        if($custom) {        	
+            $res = $GLOBALS['TYPO3_DB']->exec_SELECTquery('hex', 'tx_medbootstraptools_colors', 'hidden=0 AND deleted=0 AND uid=' . $custom, '', '', '');
+            $row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res);
+
+            $customStyleFinal = $row['hex']; 
+        	
+        	if($customStyleFinal != 'transparent') {
+        		$textColor = $this->getContrastYIQ(str_replace("#","",$customStyleFinal));
+        	}  
+        }   
 
         switch ($background) {
             case 1:
@@ -429,7 +438,7 @@ class user_t3bootstrap {
         $g = hexdec(substr($hexcolor, 2, 2));
         $b = hexdec(substr($hexcolor, 4, 2));
         $yiq = (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
-        
+                
         if($yiq >= 128) {
             $yigFinal = '';
         }

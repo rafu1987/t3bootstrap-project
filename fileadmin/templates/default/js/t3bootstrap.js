@@ -75,5 +75,10 @@
         $("a.powermail_submit").click(function(e) {
             $(this).parents("form").submit();
         });
+        
+        // Text white links (not for buttons)
+        $(".text-white a").not(".btn").css({
+	        color: "white"
+        });
     });
 })(jQuery);
