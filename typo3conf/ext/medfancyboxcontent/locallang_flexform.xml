@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>database</type>
+        <description>Language labels for extension 'medfancyboxcontent' forms</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="medfancyboxcontent.pi_flexform.sheet_general">General</label>
+            <label index="medfancyboxcontent.pi_flexform.sheet_options">Options</label>
+            <label index="medfancyboxcontent.pi_flexform.ce">Content Elements</label>
+            <label index="medfancyboxcontent.pi_flexform.width">Width</label>
+            <label index="medfancyboxcontent.pi_flexform.height">Height</label>
+            <label index="medfancyboxcontent.pi_flexform.autoSize">Auto Size (Width + Height)</label>
+            <label index="medfancyboxcontent.pi_flexform.autoHeight">Auto height</label> 
+            <label index="medfancyboxcontent.pi_flexform.autoWidth">Auto width</label> 
+            <label index="medfancyboxcontent.pi_flexform.closeBtn">Close button</label>
+            <label index="medfancyboxcontent.pi_flexform.closeClick">Close click</label>
+            <label index="medfancyboxcontent.pi_flexform.padding">Padding</label>
+            <label index="medfancyboxcontent.pi_flexform.linkTitle">Link title</label>
+            <label index="medfancyboxcontent.pi_flexform.linkClass">Link CSS Classes</label>  
+            <label index="medfancyboxcontent.pi_flexform.modal">Modal</label> 
+            <label index="medfancyboxcontent.pi_flexform.topRatio">Top ratio</label> 
+            <label index="medfancyboxcontent.pi_flexform.type">Type</label> 
+            <label index="medfancyboxcontent.pi_flexform.type_ce">Content Elements</label> 
+            <label index="medfancyboxcontent.pi_flexform.type_iframe">Iframe</label> 
+            <label index="medfancyboxcontent.pi_flexform.type_media">Media</label> 
+            <label index="medfancyboxcontent.pi_flexform.link">Link</label> 
+            <label index="medfancyboxcontent.pi_flexform.fitToView">Fit to view</label>   
+            <label index="medfancyboxcontent.pi_flexform.autoOpen">Automatically open fancybox</label>      
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="medfancyboxcontent.pi_flexform.sheet_general">Allgemein</label>
+            <label index="medfancyboxcontent.pi_flexform.sheet_options">Optionen</label>
+            <label index="medfancyboxcontent.pi_flexform.ce">Content Elemente</label> 
+            <label index="medfancyboxcontent.pi_flexform.width">Breite</label>
+            <label index="medfancyboxcontent.pi_flexform.height">Höhe</label>  
+            <label index="medfancyboxcontent.pi_flexform.autoSize">Automatische Größe (Breite + Höhe)</label> 
+            <label index="medfancyboxcontent.pi_flexform.autoHeight">Automatische Höhe</label> 
+            <label index="medfancyboxcontent.pi_flexform.autoWidth">Automatische Breite</label> 
+            <label index="medfancyboxcontent.pi_flexform.closeBtn">Schließen Button</label>
+            <label index="medfancyboxcontent.pi_flexform.closeClick">Schließen auf Klick</label>  
+            <label index="medfancyboxcontent.pi_flexform.padding">Padding</label>    
+            <label index="medfancyboxcontent.pi_flexform.linkTitle">Linktitel</label>  
+            <label index="medfancyboxcontent.pi_flexform.linkClass">Link CSS Klassen</label>    
+            <label index="medfancyboxcontent.pi_flexform.modal">Modal</label>  
+            <label index="medfancyboxcontent.pi_flexform.topRatio">Top ratio</label>  
+            <label index="medfancyboxcontent.pi_flexform.type">Typ</label> 
+            <label index="medfancyboxcontent.pi_flexform.type_ce">Content Elemente</label> 
+            <label index="medfancyboxcontent.pi_flexform.type_iframe">Iframe</label>   
+            <label index="medfancyboxcontent.pi_flexform.type_media">Media</label>  
+            <label index="medfancyboxcontent.pi_flexform.link">Link</label>      
+            <label index="medfancyboxcontent.pi_flexform.fitToView">Fit to view</label>  
+            <label index="medfancyboxcontent.pi_flexform.autoOpen">fancybox automatisch öffnen</label>          
+        </languageKey>
+    </data>
+</T3locallang>  

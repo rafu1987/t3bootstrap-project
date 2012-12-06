@@ -1,0 +1,29 @@
+# # Include newer version of fancybox2 js to fix bug with media helper
+page.includeJSFooter {
+    jquery_fancybox = typo3conf/ext/medfancyboxcontent/res/js/jquery.fancybox.js
+}
+
+# # Include newer version of fancybox2 css
+page.includeCSS {
+	fancybox = typo3conf/ext/medfancyboxcontent/res/css/jquery.fancybox.css
+}
+
+plugin.tx_medfancyboxcontent_pi1 {
+    settings {
+        fancybox {
+            width = 800
+            height = 800
+            padding = 20
+            topRatio = 0.5
+        }
+        link {
+            title = Open in fancybox
+            class = btn btn-primary
+            wrap = <p>|</p>
+        }
+        contentWrap {
+            wrap = <div id="c{register:ceID}-fancybox" style="display:none;">|</div>
+            insertData = 1
+        }
+    }
+}
