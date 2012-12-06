@@ -1,0 +1,176 @@
+#####
+#
+# Example .htaccess file for TYPO3 CMS - for use with Apache Webserver
+#
+# This file includes settings for the following configuration options:
+#
+# - Compression via TYPO3
+# - Settings for mod_rewrite (URL-Rewriting)
+# - PHP optimisation
+# - Miscellaneous
+#
+# If you want to use it, you have to copy it to the root folder of your TYPO3 installation (if its
+# not there already) and rename it to '.htaccess'. To make .htaccess files work, you might need to
+# adjust the 'AllowOverride' directive in your Apache configuration file.
+#
+# IMPORTANT: You may need to change this file depending on your TYPO3 installation!
+#
+# Lines starting with a # are treated as comment and ignored by the web server.
+#
+# You should change every occurance of TYPO3root/ to the location where you have your website in.
+# For example:
+# If you have your website located at http://mysite.com/
+# then your TYPO3root/ is just empty (remove 'TYPO3root/')
+# If you have your website located at http://mysite.com/some/path/
+# then your TYPO3root/ is some/path/ (search and replace)
+#
+# You can also use this configuration in your httpd.conf, but then you have to modify some lines,
+# see the comments (search for 'httpd.conf')
+#
+# Questions about this file go to the matching Install mailing list, see
+# http://typo3.org/documentation/mailing-lists/
+#
+####
+
+
+### Begin: Compression via TYPO3 ###
+
+# Compressing resource files will save bandwidth and so improve loading speed especially for users
+# with slower internet connections. TYPO3 can compress the .js and .css files for you.
+# *) Uncomment the following lines and
+# *) Set $TYPO3_CONF_VARS['BE']['compressionLevel'] = '9' for the Backend
+# *) Set $TYPO3_CONF_VARS['FE']['compressionLevel'] = '9' together with the TypoScript properties
+#    config.compressJs and config.compressCss for GZIP compression of Frontend JS and CSS files.
+
+#<FilesMatch "\.js\.gzip$">
+#	AddType "text/javascript" .gzip
+#</FilesMatch>
+#<FilesMatch "\.css\.gzip$">
+#	AddType "text/css" .gzip
+#</FilesMatch>
+#AddEncoding gzip .gzip
+
+### End: Compression via TYPO3 ###
+
+
+### Begin: Browser caching of ressource files ###
+
+# Enable long browser caching for JavaScript and CSS files.
+
+# This affects Frontend and Backend and increases performance.
+# You can also add other file extensions (like gif, png, jpg), if you want them to be longer cached, too.
+
+<FilesMatch "\.(js|css)$">
+  <IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresDefault "access plus 7 days"
+  </IfModule>
+  FileETag MTime Size
+</FilesMatch>
+
+### End: Browser caching of ressource files ###
+
+
+### Begin: Settings for mod_rewrite ###
+
+# You need rewriting, if you use a URL-Rewriting extension (RealURL, CoolUri).
+
+<IfModule mod_rewrite.c>
+
+# Enable URL rewriting
+RewriteEngine On
+
+# Change this path, if your TYPO3 installation is located in a subdirectory of the website root.
+#RewriteBase /
+
+# Rule for versioned static files, configured through:
+# - $TYPO3_CONF_VARS['BE']['versionNumberInFilename']
+# - $TYPO3_CONF_VARS['FE']['versionNumberInFilename']
+# IMPORTANT: This rule has to be the very first RewriteCond in order to work!
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)\.(\d+)\.(php|js|css|png|jpg|gif|gzip)$ $1.$3 [L]
+
+# Basic security checks
+# - Restrict access to deleted files in Recycler directories
+# - Restrict access to TypoScript files in default templates directories
+# - Restrict access to Private extension directories
+# For httpd.conf, use these lines instead of the next ones:
+# RewriteRule ^/TYPO3root/fileadmin/(.*/)?_recycler_/ - [F]
+# RewriteRule ^/TYPO3root/fileadmin/templates/.*(\.txt|\.ts)$ - [F]
+# RewriteRule ^/TYPO3root/typo3conf/ext/[^/]+/Resources/Private/ - [F]
+RewriteRule ^fileadmin/(.*/)?_recycler_/ - [F]
+RewriteRule ^fileadmin/templates/.*(\.txt|\.ts)$ - [F]
+RewriteRule ^typo3conf/ext/[^/]+/Resources/Private/ - [F]
+
+# Stop rewrite processing, if we are in the typo3/ directory.
+# For httpd.conf, use this line instead of the next one:
+# RewriteRule ^/TYPO3root/(typo3/|t3lib/|fileadmin/|typo3conf/|typo3temp/|uploads/|favicon\.ico) - [L]
+RewriteRule ^(typo3/|t3lib/|fileadmin/|typo3conf/|typo3temp/|uploads/|favicon\.ico) - [L]
+
+# If the file/symlink/directory does not exist => Redirect to index.php.
+# For httpd.conf, you need to prefix each '%{REQUEST_FILENAME}' with '%{DOCUMENT_ROOT}'.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+
+# Main URL rewriting.
+# For httpd.conf, use this line instead of the next one:
+# RewriteRule .* /TYPO3root/index.php [L]
+RewriteRule .* index.php [L]
+
+</IfModule>
+
+### End: Settings for mod_rewrite ###
+
+
+### Begin: PHP optimisation ###
+
+# If you do not change the following settings, the default values will be used.
+
+# TYPO3 works fine with register_globals turned off.
+# This is highly recommended, if your web server has it turned on.
+#php_flag register_globals off
+
+### End: PHP optimisation ###
+
+
+
+### Begin: Miscellaneous ###
+
+# Make sure that directory listings are disabled.
+#Options -Indexes
+
+### End: Miscellaneous ###
+
+
+# Add your own rules here.
+# ...
+
+### BEGIN EXT:scriptmerger ###
+
+# Removal of ETag (saves some bytes; the last modified header is still there)
+FileETag MTime Size
+<IfModule mod_headers.c>
+	FileETag none
+</IfModule>
+
+# Client caching of JS/CSS files (because they are merged with an applied hash!)
+# Note: Unsetting of the last modified header causes a permant 200 Ok status
+<FilesMatch "\.(merge|min|gz)(\.gz)?\.(js|css)">
+	<IfModule mod_expires.c>
+		ExpiresActive on
+		ExpiresDefault "access plus 1 year"
+	</IfModule>
+
+	<IfModule mod_headers.c>
+		Header append Cache-Control "public"
+	</IfModule>
+</FilesMatch>
+
+# deliver the uncompressed file if gzip encoding isn't accepted
+AddEncoding x-gzip .gz
+RewriteCond %{HTTP:accept-encoding} !gzip [NC]
+RewriteRule ^typo3temp/scriptmerger/compressed/(.+)\.gz\.(js|css) typo3temp/scriptmerger/uncompressed/$1.$2 [L,NC]
+
+### END EXT:scriptmerger ###
