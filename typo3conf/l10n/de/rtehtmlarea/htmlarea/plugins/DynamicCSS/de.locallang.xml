@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Default">Standard</label>
+      <label index="Undefined">Undefiniert</label>
+      <label index="DynamicCSSStyleTooltip">Dem Absatz eine Formatierung zuweisen</label>
+      <label index="frame-frame1">Rahmen mit grauem Hintergrund</label>
+      <label index="frame-frame2">Rahmen mit gelbem Hintergrund</label>
+      <label index="important">Wichtig</label>
+      <label index="name-of-person">Name der Person</label>
+      <label index="detail">Detail</label>
+      <label index="component-items">Komponenten</label>
+      <label index="action-items">Aktionen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

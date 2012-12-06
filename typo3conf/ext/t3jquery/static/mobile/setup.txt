@@ -1,0 +1,4 @@
+
+page.includeCSS {
+	t3jquery-mobile = {$plugin.tx_t3jquery.file.Mobile}
+}

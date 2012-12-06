@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Substitute this occurrence?">Diesen Eintrag ändern?</label>
+      <label index="Enter the text you want to find">Einen Suchbegriff eingeben</label>
+      <label index="Inform a replacement word">Dies wird alle Fundstellen löschen.</label>
+      <label index="found items">gefundene</label>
+      <label index="replaced items">ersetzte Einträge</label>
+      <label index="found item">Eintrag gefunden</label>
+      <label index="replaced item">Eintrag ersetzt</label>
+      <label index="not found">nicht gefunden</label>
+      <label index="Find and Replace">Suchen und Ersetzen</label>
+      <label index="Options">Optionen</label>
+      <label index="Whole words only">Nur ganze Wörter</label>
+      <label index="Case sensitive search">Groß- und Kleinschreibung beachten</label>
+      <label index="Substitute all occurrences">Alle Fundstellen ersetzen</label>
+      <label index="Search for:">Suche nach:</label>
+      <label index="Replace with:">Ersetze durch:</label>
+      <label index="Actions">Aktionen</label>
+      <label index="Clear">Löschen</label>
+      <label index="Highlight">Hervorheben</label>
+      <label index="Undo">Rückgängig</label>
+      <label index="Next">Nächster</label>
+      <label index="Done">Fertig</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="folderTree">Verzeichnisbaum</label>
+      <label index="uploadImage">Bild hochladen</label>
+      <label index="path">Pfad</label>
+      <label index="images">Bilder</label>
+      <label index="magicImage_msg">Im "Zauber"-Modus kann eine (in Grenzen) beliebige Grafik mit beliebiger Größe ausgewählt werden. Die Grafik wird automatisch in ein Web-Grafikformat umgewandelt. Größenänderungen werden nachträglich vorgenommen, um die Grafikgröße und die Anzeigequalität zu optimieren.</label>
+      <label index="plainImage_msg">Im "Normal"-Modus können nur Web-Grafikformate (JPG, GIF und PNG) bis zu einer Auflösung von %1$sx%2$s Pixeln verwendet werden. Dieser Modus ist zur Verwendung bereits für das Web optimierter Grafiken vorgesehen.</label>
+      <label index="class">Stil</label>
+      <label index="width">Breite</label>
+      <label index="height">Höhe</label>
+      <label index="border">Rand</label>
+      <label index="margin_tb">Seitenrand oben/unten</label>
+      <label index="margin_lr">Seitenrand links/rechts</label>
+      <label index="padding_top">Oberer innerer Abstand</label>
+      <label index="padding_right">Rechter innerer Abstand</label>
+      <label index="padding_bottom">Unterer innerer Abstand</label>
+      <label index="padding_left">Linker innerer Abstand</label>
+      <label index="float">Umfließen</label>
+      <label index="notSet">Nicht gesetzt</label>
+      <label index="nonFloating">Nicht umfließen</label>
+      <label index="left">Links</label>
+      <label index="right">Rechts</label>
+      <label index="title">Titel</label>
+      <label index="alt">Alternativtext</label>
+      <label index="update">Aktualisieren</label>
+      <label index="magicImage">Neues Zauberbild</label>
+      <label index="plainImage">Neues normales Bild</label>
+      <label index="dragDropImage">Drag and Drop</label>
+      <label index="currentImage">Aktuelles Bild</label>
+      <label index="bytes">Byte</label>
+      <label index="pixels">Pixel</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

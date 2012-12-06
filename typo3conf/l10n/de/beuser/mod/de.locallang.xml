@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="pageTitle">Seitentitel:</label>
+      <label index="path">Pfad:</label>
+      <label index="user">Benutzer:</label>
+      <label index="group">Gruppe:</label>
+      <label index="everybody">Alle:</label>
+      <label index="thisUser">Dieser Benutzer:</label>
+      <label index="mainGroup">Hauptgruppe:</label>
+      <label index="editLock">Bearbeitungssperre verhindert Bearbeitung komplett</label>
+      <label index="noReadAccess">Der Benutzer hat keinen Lesezugriff auf diese Datenbankfreigaben!</label>
+      <label index="live">[LIVE]</label>
+      <label index="defaultDraft">[Standardentwurf]</label>
+      <label index="notAccessible">WARNUNG: Kein Zugriff auf Seiten-ID der Datenbankfreigabe der Arbeitsumgebung:</label>
+      <label index="compareUserSettings">Benutzereinstellungen vergleichen</label>
+      <label index="listUsersOnline">Angemeldete Benutzer anzeigen</label>
+      <label index="backendUserAdministration">Verwaltung der Backend-Benutzer</label>
+      <label index="filemounts">Verzeichnisfreigaben</label>
+      <label index="webmounts">Datenbankfreigaben</label>
+      <label index="defaultUploadPath">Standardhochladeverzeichnis</label>
+      <label index="mainUserGroup">Hauptbenutzergruppe</label>
+      <label index="memberOfGroups">Mitglied von Gruppen</label>
+      <label index="pageTypesAccess">Zugriff auf Seitentypen</label>
+      <label index="selectTables">Tabellen anzeigen</label>
+      <label index="modifyTables">Tabellen ändern</label>
+      <label index="nonExcludeFields">Erlaubte Ausschlussfelder</label>
+      <label index="explicitAllowDeny">Feldwerte explizit erlauben/verbieten</label>
+      <label index="limitToLanguages">Auf Sprachen einschränken</label>
+      <label index="workspacePermissions">Berechtigungen für Arbeitsumgebung</label>
+      <label index="workspaceMembership">Mitgliedschaften in Arbeitsumgebung</label>
+      <label index="customOptions">Benutzerdefinierte Optionen</label>
+      <label index="modules">Module</label>
+      <label index="tsconfig">TSconfig (Baumansicht)</label>
+      <label index="tsconfigHL">TSconfig (chronologisch als Code)</label>
+      <label index="nonMountedReadablePages">Nicht-freigegebene lesbare Seiten:</label>
+      <label index="backToOverview">&lt; Zurück zur Übersicht</label>
+      <label index="userInfo">Benutzerinformation</label>
+      <label index="groupBy">Anordnen nach:</label>
+      <label index="update">Aktualisieren</label>
+      <label index="groupAndCompareUsers">Benutzer anordnen und vergleichen</label>
+      <label index="tooManyUsers">Es gab zu viele Benutzer:</label>
+      <label index="canOnlyDisplay">Sie können höchstens die folgende Anzahl Benutzer gleichzeitig anzeigen:</label>
+      <label index="newUser">Neuen Benutzer erstellen</label>
+      <label index="usernames">Benutzernamen:</label>
+      <label index="switchUserTo">Benutzer wechseln zu:</label>
+      <label index="changeToMode">[Wechseln-zu-Modus]</label>
+      <label index="switchBackMode">[Rückschalt-Modus]</label>
+      <label index="cachedGrouplistsUpdated">(Alle gecachten Gruppenlisten aktualisiert.)</label>
+      <label index="result">Ergebnis</label>
+      <label index="showInformation">Informationen anzeigen</label>
+      <label index="sureToDelete">Dieses Element tatsächlich löschen?</label>
+      <label index="delete">Löschen(!)</label>
+      <label index="timestamp">Zeitstempel:</label>
+      <label index="host">Host:</label>
+      <label index="username">Benutzername:</label>
+      <label index="whoIsOnline">Wer ist online</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

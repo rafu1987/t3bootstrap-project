@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="workspaces" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="sys_filemounts.tabs.staging" xml:space="preserve" approved="yes">
+        <source>Staging</source>
+      <target state="translated">Stufen</target></trans-unit>
+      <trans-unit id="sys_workspace.custom_stages" xml:space="preserve" approved="yes">
+        <source>Custom stages:</source>
+      <target state="translated">Benutzerdefinierte Stufen:</target></trans-unit>
+      <trans-unit id="sys_workspace_stage.responsible_persons" xml:space="preserve" approved="yes">
+        <source>Responsible persons:</source>
+      <target state="translated">Verantwortliche Benutzer:</target></trans-unit>
+      <trans-unit id="sys_workspace_stage.default_mailcomment" xml:space="preserve" approved="yes">
+        <source>Default mail comment:</source>
+      <target state="translated">Standardkommentar für E-Mails:</target></trans-unit>
+      <trans-unit id="sys_workspace_stage.parentid" xml:space="preserve" approved="yes">
+        <source>UID of parent record:</source>
+      <target state="translated">UID des Stammdatensatzes:</target></trans-unit>
+      <trans-unit id="sys_workspace_stage.parenttable" xml:space="preserve" approved="yes">
+        <source>Parent table:</source>
+      <target state="translated">Stammtabelle:</target></trans-unit>
+      <trans-unit id="sys_workspace_stage" xml:space="preserve" approved="yes">
+        <source>Workspace Stage</source>
+      <target state="translated">Arbeitsumgebungsstufe</target></trans-unit>
+      <trans-unit id="tabs.notification_settings" xml:space="preserve" approved="yes">
+        <source>Notification settings</source>
+      <target state="translated">Benachrichtigungseinstellungen</target></trans-unit>
+      <trans-unit id="sys_workspace.edit_notification_mode" xml:space="preserve" approved="yes">
+        <source>Edit stage: Recipient suggestion checkboxes</source>
+      <target state="translated">Stufe Bearbeiten: Checkboxen für Empfängervorschläge </target></trans-unit>
+      <trans-unit id="sys_workspace.notification_mode.0" xml:space="preserve" approved="yes">
+        <source>All are selected per default (can be changed)</source>
+      <target state="translated">Alle sind standardmäßig ausgewählt (anpassen möglich)</target></trans-unit>
+      <trans-unit id="sys_workspace.notification_mode.1" xml:space="preserve" approved="yes">
+        <source>Some are selected per default (defaults cannot be unchecked)</source>
+      <target state="translated">Einige sind standardmäßig ausgewählt (abwählen nicht möglich)</target></trans-unit>
+      <trans-unit id="sys_workspace.notification_mode.2" xml:space="preserve" approved="yes">
+        <source>All are selected per default (cannot be changed)</source>
+      <target state="translated">Alle standardmäßig ausgewählt (anpassen nicht möglich)</target></trans-unit>
+      <trans-unit id="sys_workspace.edit_notification_defaults" xml:space="preserve" approved="yes">
+        <source>Edit stage: default notification mail recipients</source>
+      <target state="translated">Stufe Bearbeiten: Standardempfänger für Benachrichtigungen per E-Mail</target></trans-unit>
+      <trans-unit id="sys_workspace.edit_allow_notificaton_settings" xml:space="preserve" approved="yes">
+        <source>Allow notification settings during stage change back to edit stage</source>
+      <target state="translated">Ändern der Benachrichtigungseinstellungen bei Rückstufung auf Bearbeiten erlauben</target></trans-unit>
+      <trans-unit id="sys_workspace.publish_notification_mode" xml:space="preserve" approved="yes">
+        <source>Ready to publish stage: Recipient suggestion checkboxes</source>
+      <target state="translated">Stufe Bereit für Veröffentlichung: Checkboxen für Empfängervorschläge</target></trans-unit>
+      <trans-unit id="sys_workspace.publish_notification_defaults" xml:space="preserve" approved="yes">
+        <source>Ready to publish stage: default notification mail recipients</source>
+      <target state="translated">Stufe Bereit für Veröffentlichung: Standardempfänger für Benachrichtigungen per E-Mail</target></trans-unit>
+      <trans-unit id="sys_workspace.publish_allow_notificaton_settings" xml:space="preserve" approved="yes">
+        <source>Allow notification settings during stage change to ready to publish</source>
+      <target state="translated">Ändern der Benachrichtigungseinstellungen bei Hochstufung auf "Bereit für Veröffentlichung" erlauben</target></trans-unit>
+      <trans-unit id="tabs.general" xml:space="preserve" approved="yes">
+        <source>General</source>
+      <target state="translated">Allgemein</target></trans-unit>
+      <trans-unit id="sys_workspace_stage.notification_mode" xml:space="preserve" approved="yes">
+        <source>Recipient suggestion checkboxes</source>
+      <target state="translated">Checkboxen für Empfängervorschläge</target></trans-unit>
+      <trans-unit id="sys_workspace_stage.notification_defaults" xml:space="preserve" approved="yes">
+        <source>Default notification mail recipients</source>
+      <target state="translated">Standardempfänger für Benachrichtigungen per E-Mail</target></trans-unit>
+      <trans-unit id="sys_workspace_stage.allow_notificaton_settings" xml:space="preserve" approved="yes">
+        <source>Allow notification settings during stage change</source>
+      <target state="translated">Ändern der Benachrichtigungseinstellungen bei Stufenänderung erlauben</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">TemplaVoilà-Kontrollzentrum</label>
+      <label index="storagefolders">Speicherordner</label>
+      <label index="datastructures">Datenstrukturen</label>
+      <label index="templateobjects">Vorlagenobjekte</label>
+      <label index="templatefiles">Vorlagendateien</label>
+      <label index="pagetemplates">Seiten-Templates</label>
+      <label index="filereference">Dateiverweis</label>
+      <label index="description">Beschreibung</label>
+      <label index="fces">Flexible CE</label>
+      <label index="other">Andere</label>
+      <label index="unknown">Unbekannt "%s"</label>
+      <label index="losttos">Verlorene VOs [%s]</label>
+      <label index="overview">XML-Datei</label>
+      <label index="dstotitle">DS/VO-Titel</label>
+      <label index="localization">Lokalisierung</label>
+      <label index="containerstatus">Container-Status</label>
+      <label index="mappingstatus">Abbildungsstatus</label>
+      <label index="usagecount">Verwendungshäufigkeit</label>
+      <label index="templatestatus">Vorlagenstatus</label>
+      <label index="rendertype">Darstellungstyp</label>
+      <label index="language">Sprache</label>
+      <label index="globalprocessing_xml">Globale Verarbeitung &lt;strong&gt;XML&lt;/strong&gt;</label>
+      <label index="localprocessing_xml">Lokale Verarbeitung &lt;strong&gt;XML&lt;/strong&gt;</label>
+      <label index="usedby">Verwendet von</label>
+      <label index="created">Erstellt</label>
+      <label index="updated">Aktualisiert</label>
+      <label index="noicon">[Kein Symbol]</label>
+      <label index="filenotfound">[Datei nicht gefunden!]</label>
+      <label index="createnewto">Neues Vorlagenobjekt erstellen</label>
+      <label index="overview">XML-Datei</label>
+      <label index="containerwithseparatelocalization">Container-Element mit separater Lokalisierung!</label>
+      <label index="mixofcontentandref">Mischung aus Inhalt und Referenzierung. In Ordnung, aber Vorsicht ist geboten!</label>
+      <label index="nocontentfields">Kein Inhaltsfeld. Es wird empfohlen, "&lt;langDisable&gt;" = 1 zu setzen</label>
+      <label index="towasupdated">Die Vorlagendatei wurde seit der letzten Abbildung geändert. Das Vorlagenobjekt muss ggf. neu abgebildet werden.</label>
+      <label index="warning_mappingstatus">%s (VO: "%s")</label>
+      <label index="mapping_uptodate">Abbildung ist auf aktuellem Stand.</label>
+      <label index="update_mapping">Abbildung aktualisieren</label>
+      <label index="notmapped">Noch keine Abbildung durchgeführt!</label>
+      <label index="updatemapping_info">- &lt;em&gt;(Dies kann auch bedeuten, dass das VO mit einer älteren TemplaVoilà-Version bearbeitet wurde. In diesem Fall die Abbildungs nochmals speichern und dadurch aktualisieren.)&lt;/em&gt;</label>
+      <label index="map">Abbilden</label>
+      <label index="remap">Erneut Abbilden</label>
+      <label index="preview">Vorschau</label>
+      <label index="toused_title">Titel</label>
+      <label index="toused_pid">Seiten-ID</label>
+      <label index="toused_path">Pfad</label>
+      <label index="toused_workspace">Arbeitsumgebung</label>
+      <label index="toused_uid">UID</label>
+      <label index="toused_header">Kopfbereich</label>
+      <label index="toused_usedin">In %s Elementen verwendet</label>
+      <label index="noaccess">Kein Zugriff</label>
+      <label index="usage">Verwendung</label>
+      <label index="action">Aktion</label>
+      <label index="refresh">Auffrischen</label>
+      <label index="invalidtemplatevalues">Ungültige Werte in %s Elementen</label>
+      <label index="noerrorsfound">Keine Fehler gefunden!</label>
+      <label index="byuser">von Benutzer</label>
+      <label index="file">Datei</label>
+      <label index="usagecount">Verwendungshäufigkeit</label>
+      <label index="newdsto">Neue DS/VO</label>
+      <label index="usedfiles">Verwendete Dateien</label>
+      <label index="templatearchive">Vorlagenarchiv</label>
+      <label index="configuration">Konfiguration</label>
+      <label index="fceislocalized">FCE-Element ist lokalisiert</label>
+      <label index="fceinlineislocalized">Unter-FCEs des FCE sind lokalisiert</label>
+      <label index="casttointeger">Aus dem eingegebenen Wert wird eine ganze Zahl erstellt</label>
+      <label index="hsced">Im eingegebenen Wert vorhandene Sonderzeichen werden in HTML-Entitäten umgewandelt</label>
+      <label index="hsc_on">[HTML-Code ist nicht verfügbar]</label>
+      <label index="hsc_off">[HTML-Code wird wie eingegeben dargestellt]</label>
+      <label index="stdwrap">Der eingegebene/berechnete Wert wird umschlossen</label>
+      <label index="redundant">redundant</label>
+      <label index="illegalcharacters">Eingabe enthält unzulässige Zeichen und/oder mehrere Zeilen</label>
+      <label index="newsitewizard_menuhtmlcode">Hier der HTML-Code aus dem Template, der das Menü umschließt</label>
+      <label index="newsitewizard_menuenc">Das Menü scheint aus Menüeinträgen zu bestehen, die in %s eingeschlossen sind.</label>
+      <label index="newsitewizard_menunoa">Das Menü scheint aus Menüeinträgen zu bestehen, die abgesehen von den a-Tags nicht in Blocktags eingeschlossen sind.</label>
+      <label index="newsitewizard_menuwrap">Darüber hinaus scheint das gesamte Menü mit dem Tag %s umschlossen zu sein.</label>
+      <label index="newsitewizard_menudiv">Zwischen den Menüeinträgen scheint sich ein visuelles Trennelement mit folgendem HTML-Code zu befinden: "%s" Es wird zwischen allen Elementen eingefügt.</label>
+      <label index="newsitewizard_menuimg">Die Menüeinträge wurden als Bilder erkannt - TYPO3 wird versuchen, automatisch grafische Menüeinträge zu erzeugen (GMENU). Diese müssen angepaßt werden, damit sie dem Originalerscheinungsbild entsprechen!</label>
+      <label index="newsitewizard_menumouseover">Es scheint, daß zuvor eine Mouseover-Funktion verwendet wurde, daher wurde auch ein Roll-Over-Effekt hinzugefügt.</label>
+      <label index="newsitewizard_menuts">Basierend auf dieser Analyse wird für das Menü folgende TypoScript-Konfiguration vorgeschlagen:</label>
+      <label index="newsitewizard_menufinetune">Die Konfiguration kann hier vor dem Speichern angepaßt werden:</label>
+      <label index="newsitewizard_menuwritets">%s TypoScript-Code schreiben</label>
+      <label index="newsitewizard_menufinished">Die grundlegende Web-Site sollte nun funktionieren. Wie es scheint, haben Sie %s keinem Element zugewiesen, daher wird der Konfigurationsvorgang für das Menü übersprungen.</label>
+      <label index="newsitewizard_menunext">Weiter...</label>
+      <label index="newsitewizard_step5">Schritt 5 %s: Versuch, ein dynamisches Menü zu erstellen</label>
+      <label index="newsitewizard_sitecreated">&lt;b&gt;Herzlichen Glückwunsch!&lt;/b&gt; Sie haben die grundlegende Erstellung einer neuen Web-Site unter TYPO3 mit der TemplaVoilà-Engine abgeschlossen. Nach Drücken von "Assistent beenden!" können Sie mit dem Modul Web&gt;Seite Seiten bearbeiten!</label>
+      <label index="newsitewizard_finish">Assistent beenden!</label>
+      <label index="newsitewizard_done">Schritt 6: Fertig</label>
+      <label index="newsitewizard_basicsshouldwork">Die Basis der Web-Site steht nun bereit. Jedoch muss %s noch konfiguriert werden, so dass TYPO3 automatisch ein Menü passend zum Seitenbaum generiert. Dies beinhaltet die Konfiguration des TypoScript-Objektpfads "lib.%s". Dies ist eine technische Aufgabe, welche Kenntnisse über TypoScript erfordert um diese 100%% anzupassen.&lt;br/&gt;Um Sie beim Start mit %s zu unterstützen wird dieser Assistent das Menü der Vorlagendatei analysieren. Sollte das Menü als Reihe von wiederkehrenden Blöcken mit A-Tags erstellt worden sein, besteht eine gute Chance, dass dies gelingt. Unten sehen Sie das Ergebnis.</label>
+      <label index="newsitewizard_headerinclude">Abschließend müssen Sie auch festlegen welche Teile des HTML-Kopfs eingebunden werden. Es ist z.B. wichtig alle Abschnitte mit CSS-Angaben einzubinden um eine korrekte grafische Darstellung der Website beizubehalten.&lt;br/&gt;Sie können auch das body-Tag auswählen, wenn sie das Original-body-Tag beibehalten wollen.&lt;br/&gt;Diese Animation zeigt ein Beispiel des Vorgangs:</label>
+      <label index="newsitewizard_headerselect">Teile des HTML-Headers auswählen</label>
+      <label index="newsitewizard_step4">Schritt 4: Teile des HTML-Headers auswählen</label>
+      <label index="newsitewizard_maintemplate">Haupt-Template</label>
+      <label index="newsitewizard_created">Eine neue Site wurde erstellt und übernommen.</label>
+      <label index="newsitewizard_step3error">Es ist ein Fehler aufgetreten. Entweder haben Sie in letzten Formular keinen Namen für die Web-Site oder keinen Benutzernamen eingegeben!</label>
+      <label index="newsitewizard_step3ready">Sie können nun festlegen an welcher Stelle im HTML-Code der von TYPO3 generierte Seiteninhalt und das Hauptmenü eingefügt werden sollen. Dieser Prozess heißt "Mapping".&lt;br/&gt;Die nachfolgende Animation zeigt den Ablauf. Bitte sehen Sie sich diese gut an um das Vorgehen kennenzulernen und Starten das Mapping durch Klick auf die Schaltfläche darunter. Beenden Sie den Prozess durch Klick auf "Speichern und Schließen".</label>
+      <label index="newsitewizard_startmapping">Abbildungsvorgang starten</label>
+      <label index="newsitewizard_beginmapping">Schritt 3: Abbildungsvorgang starten</label>
+      <label index="newsitewizard_firststep">Der erste Schritt ist es eine HTML-Datei als Basis für das neue Web-Site-Design zu wählen. Unten sehen Sie eine liste von HTML-Dateien im Ordner "%s". Klicken Sie auf den "Vorschau"-Link um das Aussehen der Datei zu prüfen und, sobald Sie die richtige Template-Datei gefunden haben, auf den "Als Template auswählen"-Link um fortzufahren.&lt;br/&gt;Sollte jene Dateiliste leer sein, müssen Sie nun die gewünschte Templatedatei in den Templateordner kopieren. Anschließend drücken Sie die Auffrischen-Schaltfläche.</label>
+      <label index="newsitewizard_selecttemplate">Schritt 1: Die HTML-Vorlagendatei auswählen</label>
+      <label index="newsitewizard_error">Fehler im TemplaVoilà-Assistenten</label>
+      <label index="newsitewizard_errornodir">Das Template-Verzeichnis ist leer oder konnte nicht gefunden werden. Bitte vor Starten des Assistenten erstellen.</label>
+      <label index="newsitewizard_templateselected">Die Vorlagendatei "%s" ist nun ausgewählt:</label>
+      <label index="newsitewizard_step2next">Als nächstes sollten Sie Standardwerte für die neue Web-Site eingeben. Mit diesen Grundinformationen kann die Grundstruktur der Web-Site erstellt werden!</label>
+      <label index="newsitewizard_step2_name">Name der Site</label>
+      <label index="newsitewizard_step2_url">URL der Web-Site</label>
+      <label index="newsitewizard_step2_editor">Benutzername des Redakteurs</label>
+      <label index="newsitewizard_step2_required">(Pflichtangabe)</label>
+      <label index="newsitewizard_step2_optional">(Optional)</label>
+      <label index="newsitewizard_step2_createnewsite">Neue Site erstellen</label>
+      <label index="newsitewizard_step2_notemplatefound">Keine Vorlagendatei gefunden!?</label>
+      <label index="newsitewizard_step2_valuename">Dieser Wert wird in der Titelleiste des Browsers angezeigt und ist der Standardname der ersten Seite im Seitenbaum.</label>
+      <label index="newsitewizard_step2_valueurl">Wenn die URL der Web-Site bekannt ist, geben Sie sie hier bitte ein, z.B. "www.meinedomaene.com".</label>
+      <label index="newsitewizard_step2_username">Geben Sie den Benutzernamen eines neuen Benutzers bzw. einer Benutzergruppe ein, die in der Lage sein soll, die Seiten der neuen Web-Site zu bearbeiten. (Das Passwort wird standardmäßig auf "password" gesetzt. Vergessen Sie nicht, es zu ändern!)</label>
+      <label index="newsitewizard_step2">Schritt 2: Standardwerte für die neue Site festlegen</label>
+      <label index="newsitewizard_usedtimes">%s Mal verwendet</label>
+      <label index="newsitewizard_notused">Noch nicht verwendet</label>
+      <label index="newsitewizard_preview">[Erst Vorschau anzeigen]</label>
+      <label index="newsitewizard_choose">[Als Template auswählen]</label>
+      <label index="dsdetails_nobasicdefinitions">Das Element besitzt keine grundlegenden Definitionen!</label>
+      <label index="dsdetails_notceformdefinitions">Das Element besitzt keine TCE-form-Definitionen!</label>
+      <label index="dsdetails_notes">Bemerkungen</label>
+      <label index="dsdetails_ts">TypoScript</label>
+      <label index="dsdetails_column">Spalten-Positionierung</label>
+      <label index="dsdetails_preset">Für das Element verwendete Voreinstellung</label>
+      <label index="dsdetails_tsutilize">verwende die VO-Struktur %s wie im &lt;TypoScriptObjPath&gt;-Eintrag definiert</label>
+      <label index="dsdetails_tslines">%d Zeilen TypoScript-Code im &lt;TypoScript&gt;-Eintrag</label>
+      <label index="dsdetails_tsconstants">%d TypoScript-Konstanten zur Verwendun im &lt;TypoScript&gt;-Eintrag definiert</label>
+      <label index="warnings">Warnungen</label>
+      <label index="fatalerrors">Schwere Fehler</label>
+      <label index="invaliddatastructure_xmlbroken">Das Element "%1$s" innerhalb der Datenstruktur scheint ungültiges XML zu enthalten. Daher können die erforderlichen Daten nicht angezeigt werden.</label>
+      <label index="wiz_title">Neue-Site-Assistent</label>
+      <label index="wiz_step">Schritt %s</label>
+      <label index="description_pagesWithCertainDsTo">Die folgenden Seiten innerhalb der Rootline enthalten Datenstrukturen und Vorlagenobjekte</label>
+      <label index="newsitewizard_intro">Wenn Sie eine neue Web-Site auf Basis der TemplaVoila-Template-Engine erstellen wollen, kann dieser Assistenten die Basisarbeit für Sie übernehmen.
+Die Schritte hierbei sind:
+- Erstellung einer neuen Website-Wurzel, eines Ablageordners und Beispielseiten.
+- Erstellung der Haupt-TemplaVoila-Vorlage, inkl. Zuweisung ("Mapping") eines Inhaltsbereichs und eines Hauptmenüs.
+- Erstellung des Backend-Benutzer und einer zugehörigen -Gruppe um nur jene Website zu bearbeiten.
+
+Sie sollten eine HTML-Vorlage vorbereiten bevor Sie diesen Assistente starten; einfach eine Vorlage in HTML erstellen und diese inkl. Grafiken und CSS-Dateien in einem Unterordner von "%s" relativ zum Wurzelverzeichnis der Website ablegen.
+Hinweis zu Menüs: Wenn Sie in Hauptmenü in die Vorlage einfügen, platzieren Sie diese in einen Container (wie &lt;div&gt;, &lt;table&gt; oder &lt;tr&gt;) und schließen Sie jeden Menüeintrag mit einem Block-Tag ein (wie &lt;tr&gt;, &lt;td&gt; oder &lt;div&gt;). Verwenden Sie A-Tags für die Links. Falls sie abweichende Vorlagen für normale und aktive Menüeintrage wünschen, legen Sie erst einen Menüeintrag für "Aktiv" und danach "Normale" Menüeintrage an, so dass der Assistent die richtige Konfiguration erkennen kann.
+Hinweis zu Stylesheets (CSS): Die Inhaltselemente von TYPO3 werden in normalen HTML-Tags wie &lt;p&gt;, &lt;h1&gt; to &lt;h6&gt;, &lt;ol&gt; notiert. Es empfiehlt sich im Stylesheet für jene Tags passende Stile bereits zu Beginn zu definieren. Dies erspart einige spätere Feinarbeiten.</label>
+      <label index="newsitewizard_startnow">Assistent jetzt starten!</label>
+      <label index="newsitewizard_cancel">Assistent abbrechen</label>
+      <label index="newsitewizard_problem">&lt;em&gt;Es gilt noch technische Probleme zu lösen bevor Sie mit dem Assistent beginnen können! Details finden Sie unten. Bitte lösen Sie erst jene Probleme und kehren dann hierhin zurück.&lt;/em&gt;</label>
+      <label index="newsitewizard_missingext">Erweiterung fehlt!</label>
+      <label index="newsitewizard_missingconf">Konfiguration fehlt!</label>
+      <label index="newsitewizard_missingconf_description">Die Konfiguration der TemplaVoila-Erweiterung fehlt. Bitte leeren Sie den Cache und prüfen Sie erneut die Konfiguration über den Extension-Manager.</label>
+      <label index="newsitewizard_missingdir">Verzeichnis fehlt!</label>
+      <label index="newsitewizard_missingext_description">Vor Start dieses Assistent ist die Installation einiger Erweiterungen notwendig. Unten sehen Sie welche Erweiterungen benötigt werden und welche derzeit nicht verfügbar sind. Bitte verwenden Sie den Erweiterungsmanager um jene zuerst zu installieren.</label>
+      <label index="newsitewizard_missingext_extkey">Erweiterungsschlüssel:</label>
+      <label index="newsitewizard_missingext_installed">Installiert?</label>
+      <label index="newsitewizard_missingext_yes">Ja</label>
+      <label index="newsitewizard_missingext_no">Nein</label>
+      <label index="newsitewizard_missingdir_instruction">Das Verzeichnis "%s" (relativ zur Wurzel der Website) existiert nicht! Dort müssen die HTML-Vorlagen abgelegt werden. Bitte erstellen Sie jenes Verzeichnis &lt;u&gt;bevor Sie diesen Assistent starten&lt;/u&gt;. Gehen Sie dazu wie folgt vor:
+
+- Gehen Sie zum Modul Datei &gt; Dateiliste
+- Klicken Sie auf das Icon der "%s"-Wurzel und wählen Sie "Erstellen" aus dem Kontent-Menü.
+- Geben Sie den Namen "templates" für das Verzeichnis an und klicken Sie die "Erstellen"-Schaltfläche.
+- Kehren Sie zu diesem Assistenten zurück.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

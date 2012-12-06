@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="OK" xml:space="preserve" approved="yes">
+        <source>OK</source>
+      <target state="translated">OK</target></trans-unit>
+      <trans-unit id="Cancel" xml:space="preserve" approved="yes">
+        <source>Cancel</source>
+      <target state="translated">Abbrechen</target></trans-unit>
+      <trans-unit id="Delete" xml:space="preserve" approved="yes">
+        <source>Delete</source>
+      <target state="translated">Löschen</target></trans-unit>
+      <trans-unit id="Close" xml:space="preserve" approved="yes">
+        <source>Close</source>
+      <target state="translated">Schließen</target></trans-unit>
+      <trans-unit id="Not set" xml:space="preserve" approved="yes">
+        <source>Not set</source>
+      <target state="translated">Nicht gesetzt</target></trans-unit>
+      <trans-unit id="General" xml:space="preserve" approved="yes">
+        <source>General</source>
+      <target state="translated">Allgemein</target></trans-unit>
+      <trans-unit id="Alignment:" xml:space="preserve" approved="yes">
+        <source>Text alignment:</source>
+      <target state="translated">Ausrichtung:</target></trans-unit>
+      <trans-unit id="Alignment not set" xml:space="preserve" approved="yes">
+        <source>Not set</source>
+      <target state="translated">Nicht gewählt</target></trans-unit>
+      <trans-unit id="Left" xml:space="preserve" approved="yes">
+        <source>Left</source>
+      <target state="translated">Links</target></trans-unit>
+      <trans-unit id="Center" xml:space="preserve" approved="yes">
+        <source>Center</source>
+      <target state="translated">Zentriert</target></trans-unit>
+      <trans-unit id="Right" xml:space="preserve" approved="yes">
+        <source>Right</source>
+      <target state="translated">Rechts</target></trans-unit>
+      <trans-unit id="Texttop" xml:space="preserve" approved="yes">
+        <source>Texttop</source>
+      <target state="translated">Text Oben</target></trans-unit>
+      <trans-unit id="Absmiddle" xml:space="preserve" approved="yes">
+        <source>Absmiddle</source>
+      <target state="translated">Absolut zentriert</target></trans-unit>
+      <trans-unit id="Baseline" xml:space="preserve" approved="yes">
+        <source>Baseline</source>
+      <target state="translated">Grundlinie</target></trans-unit>
+      <trans-unit id="Absbottom" xml:space="preserve" approved="yes">
+        <source>Absbottom</source>
+      <target state="translated">Absolut unten</target></trans-unit>
+      <trans-unit id="Bottom" xml:space="preserve" approved="yes">
+        <source>Bottom</source>
+      <target state="translated">Unten</target></trans-unit>
+      <trans-unit id="Middle" xml:space="preserve" approved="yes">
+        <source>Middle</source>
+      <target state="translated">Mitte</target></trans-unit>
+      <trans-unit id="Top" xml:space="preserve" approved="yes">
+        <source>Top</source>
+      <target state="translated">Oben</target></trans-unit>
+      <trans-unit id="Justify" xml:space="preserve" approved="yes">
+        <source>Justify</source>
+      <target state="translated">Blocksatz</target></trans-unit>
+      <trans-unit id="Float:" xml:space="preserve" approved="yes">
+        <source>Float:</source>
+      <target state="translated">Umfließen:</target></trans-unit>
+      <trans-unit id="Non-floating" xml:space="preserve" approved="yes">
+        <source>Non-floating</source>
+      <target state="translated">Nicht umfließen</target></trans-unit>
+      <trans-unit id="Layout" xml:space="preserve" approved="yes">
+        <source>Layout</source>
+      <target state="translated">Layout</target></trans-unit>
+      <trans-unit id="Spacing and padding" xml:space="preserve" approved="yes">
+        <source>Spacing and padding</source>
+      <target state="translated">Zwischenraum</target></trans-unit>
+      <trans-unit id="Horizontal:" xml:space="preserve" approved="yes">
+        <source>Horizontal:</source>
+      <target state="translated">Horizontal:</target></trans-unit>
+      <trans-unit id="Horizontal padding" xml:space="preserve" approved="yes">
+        <source>Horizontal padding</source>
+      <target state="translated">Horizontaler Abstand</target></trans-unit>
+      <trans-unit id="Vertical:" xml:space="preserve" approved="yes">
+        <source>Vertical:</source>
+      <target state="translated">Vertikal:</target></trans-unit>
+      <trans-unit id="Vertical padding" xml:space="preserve" approved="yes">
+        <source>Vertical padding</source>
+      <target state="translated">Vertikaler Abstand</target></trans-unit>
+      <trans-unit id="Border" xml:space="preserve" approved="yes">
+        <source>Border</source>
+      <target state="translated">Rahmen</target></trans-unit>
+      <trans-unit id="Border thickness:" xml:space="preserve" approved="yes">
+        <source>Border thickness:</source>
+      <target state="translated">Rahmenstärke:</target></trans-unit>
+      <trans-unit id="Leave empty for no border" xml:space="preserve" approved="yes">
+        <source>Leave empty for no border</source>
+      <target state="translated">Geben Sie keinen Wert ein, wenn Sie keinen Rahmen wünschen</target></trans-unit>
+      <trans-unit id="Insert/Modify Link" xml:space="preserve" approved="yes">
+        <source>Insert/Modify Link</source>
+      <target state="translated">Link einfügen/verändern</target></trans-unit>
+      <trans-unit id="Insert link" xml:space="preserve" approved="yes">
+        <source>Insert link</source>
+      <target state="translated">Link einfügen</target></trans-unit>
+      <trans-unit id="Modify link" xml:space="preserve" approved="yes">
+        <source>Modify link</source>
+      <target state="translated">Link verändern</target></trans-unit>
+      <trans-unit id="URL:" xml:space="preserve" approved="yes">
+        <source>URL:</source>
+      <target state="translated">URL:</target></trans-unit>
+      <trans-unit id="link_href_tooltip" xml:space="preserve" approved="yes">
+        <source>Enter the link URL here</source>
+      <target state="translated">Geben Sie die Link-URL hier ein</target></trans-unit>
+      <trans-unit id="link_url_required" xml:space="preserve" approved="yes">
+        <source>Please enter the URL where this link points to</source>
+      <target state="translated">Bitte geben Sie die URL ein, auf die dieser Link zeigt</target></trans-unit>
+      <trans-unit id="Title (tooltip):" xml:space="preserve" approved="yes">
+        <source>Title:</source>
+      <target state="translated">Titel (Kurzinfo):</target></trans-unit>
+      <trans-unit id="link_title_tooltip" xml:space="preserve" approved="yes">
+        <source>Enter the link tooltip here</source>
+      <target state="translated">Geben Sie die Link-Kurzinfo hier ein</target></trans-unit>
+      <trans-unit id="Target:" xml:space="preserve" approved="yes">
+        <source>Target:</source>
+      <target state="translated">Ziel:</target></trans-unit>
+      <trans-unit id="link_target_tooltip" xml:space="preserve" approved="yes">
+        <source>Select the name of the target frame</source>
+      <target state="translated">Wählen Sie den Namen des Ziel-Frames</target></trans-unit>
+      <trans-unit id="target_none" xml:space="preserve" approved="yes">
+        <source>None (use implicit)</source>
+      <target state="translated">Keines (benutze impliziertes Ziel)</target></trans-unit>
+      <trans-unit id="target_blank" xml:space="preserve" approved="yes">
+        <source>New window (_blank)</source>
+      <target state="translated">Neues Fenster (_blank)</target></trans-unit>
+      <trans-unit id="target_self" xml:space="preserve" approved="yes">
+        <source>Same frame (_self)</source>
+      <target state="translated">Gleicher Frame (_self)</target></trans-unit>
+      <trans-unit id="target_top" xml:space="preserve" approved="yes">
+        <source>Top frame (_top)</source>
+      <target state="translated">Top-Frame (_top)</target></trans-unit>
+      <trans-unit id="target_other" xml:space="preserve" approved="yes">
+        <source>Other frame</source>
+      <target state="translated">Anderer Frame</target></trans-unit>
+      <trans-unit id="Insert Custom Element" xml:space="preserve" approved="yes">
+        <source>Insert Custom Element</source>
+      <target state="translated">Benutzerdefiniertes Element einfügen</target></trans-unit>
+      <trans-unit id="Insert Table" xml:space="preserve" approved="yes">
+        <source>Insert Table</source>
+      <target state="translated">Tabelle einfügen</target></trans-unit>
+      <trans-unit id="Dimension" xml:space="preserve" approved="yes">
+        <source>Dimension</source>
+      <target state="translated">Größe</target></trans-unit>
+      <trans-unit id="Rows:" xml:space="preserve" approved="yes">
+        <source>Rows:</source>
+      <target state="translated">Zeilen:</target></trans-unit>
+      <trans-unit id="Number of rows" xml:space="preserve" approved="yes">
+        <source>Number of rows</source>
+      <target state="translated">Anzahl Zeilen</target></trans-unit>
+      <trans-unit id="You must enter a number of rows" xml:space="preserve" approved="yes">
+        <source>You must enter a number of rows</source>
+      <target state="translated">Sie müssen eine Anzahl Zeilen angeben</target></trans-unit>
+      <trans-unit id="Cols:" xml:space="preserve" approved="yes">
+        <source>Cols:</source>
+      <target state="translated">Spalten:</target></trans-unit>
+      <trans-unit id="Number of columns" xml:space="preserve" approved="yes">
+        <source>Number of columns</source>
+      <target state="translated">Anzahl Spalten</target></trans-unit>
+      <trans-unit id="You must enter a number of columns" xml:space="preserve" approved="yes">
+        <source>You must enter a number of columns</source>
+      <target state="translated">Sie müssen eine Anzahl Spalten eingeben</target></trans-unit>
+      <trans-unit id="Width:" xml:space="preserve" approved="yes">
+        <source>Width:</source>
+      <target state="translated">Breite:</target></trans-unit>
+      <trans-unit id="Width of the table" xml:space="preserve" approved="yes">
+        <source>Width of the table</source>
+      <target state="translated">Breite der Tabelle</target></trans-unit>
+      <trans-unit id="Percent" xml:space="preserve" approved="yes">
+        <source>Percent</source>
+      <target state="translated">Prozent</target></trans-unit>
+      <trans-unit id="Pixels" xml:space="preserve" approved="yes">
+        <source>Pixels</source>
+      <target state="translated">Pixel</target></trans-unit>
+      <trans-unit id="Em" xml:space="preserve" approved="yes">
+        <source>Em</source>
+      <target state="translated">Em</target></trans-unit>
+      <trans-unit id="Width unit" xml:space="preserve" approved="yes">
+        <source>Width unit</source>
+      <target state="translated">Einheit</target></trans-unit>
+      <trans-unit id="Text alignment" xml:space="preserve" approved="yes">
+        <source>Text alignment</source>
+      <target state="translated">Textausrichtung</target></trans-unit>
+      <trans-unit id="Where the table should float" xml:space="preserve" approved="yes">
+        <source>Specifies where the table should float</source>
+      <target state="translated">Wo soll die Tabelle schweben</target></trans-unit>
+      <trans-unit id="Cell spacing:" xml:space="preserve" approved="yes">
+        <source>Cell spacing:</source>
+      <target state="translated">Zellenabstand:</target></trans-unit>
+      <trans-unit id="Space between adjacent cells" xml:space="preserve" approved="yes">
+        <source>Space between adjacent cells</source>
+      <target state="translated">Der Abstand zwischen benachbarten Zellen</target></trans-unit>
+      <trans-unit id="Cell padding:" xml:space="preserve" approved="yes">
+        <source>Cell padding:</source>
+      <target state="translated">Textabstand:</target></trans-unit>
+      <trans-unit id="Space between content and border in cell" xml:space="preserve" approved="yes">
+        <source>Space between content and border in cell</source>
+      <target state="translated">Der Abstand zwischen dem Inhalt und dem Rand einer Zelle</target></trans-unit>
+      <trans-unit id="Insert Image" xml:space="preserve" approved="yes">
+        <source>Insert/Modify Image</source>
+      <target state="translated">Bild einfügen</target></trans-unit>
+      <trans-unit id="Insert image" xml:space="preserve" approved="yes">
+        <source>Insert image</source>
+      <target state="translated">Bild einfügen</target></trans-unit>
+      <trans-unit id="Modify image" xml:space="preserve" approved="yes">
+        <source>Modify image</source>
+      <target state="translated">Bild verändern</target></trans-unit>
+      <trans-unit id="Image URL:" xml:space="preserve" approved="yes">
+        <source>Image URL:</source>
+      <target state="translated">Bild-URL:</target></trans-unit>
+      <trans-unit id="Enter the image URL here" xml:space="preserve" approved="yes">
+        <source>Enter the image URL here</source>
+      <target state="translated">Geben Sie die URL des Bildes hier ein</target></trans-unit>
+      <trans-unit id="Preview" xml:space="preserve" approved="yes">
+        <source>Preview</source>
+      <target state="translated">Vorschau</target></trans-unit>
+      <trans-unit id="Preview the image in a new window" xml:space="preserve" approved="yes">
+        <source>Preview the image in a new window</source>
+      <target state="translated">Betrachten Sie eine Vorschau des Bildes in einem neuen Fenster</target></trans-unit>
+      <trans-unit id="Alternate text:" xml:space="preserve" approved="yes">
+        <source>Alternate text:</source>
+      <target state="translated">Alternativer Text:</target></trans-unit>
+      <trans-unit id="For browsers that dont support images" xml:space="preserve" approved="yes">
+        <source>For browsers that don't support images</source>
+      <target state="translated">Für Browser, die keine Bildanzeige unterstützen</target></trans-unit>
+      <trans-unit id="Where the image should float" xml:space="preserve" approved="yes">
+        <source>Specifies where the image should float</source>
+      <target state="translated">Legt fest, wo das Bild schweben soll</target></trans-unit>
+      <trans-unit id="Image alignment:" xml:space="preserve" approved="yes">
+        <source>Image alignment:</source>
+      <target state="translated">Bildausrichtung:</target></trans-unit>
+      <trans-unit id="Positioning of this image" xml:space="preserve" approved="yes">
+        <source>Positioning of this image relative to text</source>
+      <target state="translated">Position dieses Bildes</target></trans-unit>
+      <trans-unit id="Image Preview" xml:space="preserve" approved="yes">
+        <source>Image Preview</source>
+      <target state="translated">Bildvorschau</target></trans-unit>
+      <trans-unit id="image_url_first" xml:space="preserve" approved="yes">
+        <source>You have to enter the image URL first</source>
+      <target state="translated">Sie müssen zuerst die Bild-URL eingeben</target></trans-unit>
+      <trans-unit id="image_url_required" xml:space="preserve" approved="yes">
+        <source>You must enter the image URL</source>
+      <target state="translated">Sie müssen die Bild-URL eingeben</target></trans-unit>
+      <trans-unit id="Select Color" xml:space="preserve" approved="yes">
+        <source>Select Color</source>
+      <target state="translated">Wählen Sie eine Farbe</target></trans-unit>
+      <trans-unit id="Insert/Modify Acronym" xml:space="preserve" approved="yes">
+        <source>Insert/Modify Acronym or Abbreviation</source>
+      <target state="translated">Akronym oder Abkürzung einfügen/bearbeiten</target></trans-unit>
+      <trans-unit id="About HTMLArea" xml:space="preserve" approved="yes">
+        <source>About htmlArea RTE</source>
+      <target state="translated">Über htmlArea RTE</target></trans-unit>
+      <trans-unit id="About" xml:space="preserve" approved="yes">
+        <source>About</source>
+      <target state="translated">Über</target></trans-unit>
+      <trans-unit id="free_editor" xml:space="preserve" approved="yes">
+        <source>A free and open-source editor for &lt;textarea&gt; fields, featuring integration with TYPO3.</source>
+      <target state="translated">Ein in TYPO3 integrierter, freier WYSIWYG-Editor für &lt;textarea&gt;-Felder.</target></trans-unit>
+      <trans-unit id="Browser support" xml:space="preserve" approved="yes">
+        <source>Browser support</source>
+      <target state="translated">Browser-Unterstützung</target></trans-unit>
+      <trans-unit id="Mozilla_or_IE" xml:space="preserve" approved="yes">
+        <source>For Firefox 1.5+, SeaMonkey 1.0+, Safari 3.0.4+, Google Chrome 1.0+ and Opera 9.62+ on any platform, and for Internet Explorer 6.0+ on Windows.</source>
+      <target state="translated">Für Firefox 1.5+, SeaMonkey 1.0+, Safari 3.0.4+, Google Chrome 1.0+ und Opera 9.62+ (jede Plattform) oder Internet Explorer 6.0+ (Windows).</target></trans-unit>
+      <trans-unit id="product_documentation" xml:space="preserve" approved="yes">
+        <source>For more information, please visit:</source>
+      <target state="translated">Weitere Informationen erhalten Sie unter:</target></trans-unit>
+      <trans-unit id="All rights reserved." xml:space="preserve" approved="yes">
+        <source>All Rights Reserved.</source>
+      <target state="translated">Alle Rechte vorbehalten.</target></trans-unit>
+      <trans-unit id="License" xml:space="preserve" approved="yes">
+        <source>License</source>
+      <target state="translated">Lizenz</target></trans-unit>
+      <trans-unit id="htmlArea License (based on BSD license)" xml:space="preserve" approved="yes">
+        <source>htmlArea RTE License, based on BSD License</source>
+      <target state="translated">htmlArea RTE Lizenz, basiert auf der BSD-Lizenz</target></trans-unit>
+      <trans-unit id="Plugins" xml:space="preserve" approved="yes">
+        <source>Plugins</source>
+      <target state="translated">Plug-Ins</target></trans-unit>
+      <trans-unit id="Name" xml:space="preserve" approved="yes">
+        <source>Name</source>
+      <target state="translated">Name</target></trans-unit>
+      <trans-unit id="Developer" xml:space="preserve" approved="yes">
+        <source>Developer</source>
+      <target state="translated">Entwickler</target></trans-unit>
+      <trans-unit id="Sponsored by" xml:space="preserve" approved="yes">
+        <source>Sponsored by</source>
+      <target state="translated">Gesponsort von</target></trans-unit>
+      <trans-unit id="The following plugins have been loaded." xml:space="preserve" approved="yes">
+        <source>The following plugins have been loaded.</source>
+      <target state="translated">Die folgenden Plug-Ins sind geladen.</target></trans-unit>
+      <trans-unit id="No plugins have been loaded." xml:space="preserve" approved="yes">
+        <source>No plugins have been loaded.</source>
+      <target state="translated">Keine Plug-Ins geladen.</target></trans-unit>
+      <trans-unit id="User agent reports:" xml:space="preserve" approved="yes">
+        <source>User agent reports:</source>
+      <target state="translated">Browserinformationen:</target></trans-unit>
+      <trans-unit id="style" xml:space="preserve" approved="yes">
+        <source>Paragraph:</source>
+      <target state="translated">Absatz:</target></trans-unit>
+      <trans-unit id="Block style label" xml:space="preserve" approved="yes">
+        <source>Block style:</source>
+      <target state="translated">Blockstil:</target></trans-unit>
+      <trans-unit id="text_style" xml:space="preserve" approved="yes">
+        <source>Text style:</source>
+      <target state="translated">Textstil:</target></trans-unit>
+      <trans-unit id="LeftToRight" xml:space="preserve" approved="yes">
+        <source>Left to right</source>
+      <target state="translated">Links nach rechts</target></trans-unit>
+      <trans-unit id="RightToLeft" xml:space="preserve" approved="yes">
+        <source>Right to left</source>
+      <target state="translated">Rechts nach links</target></trans-unit>
+      <trans-unit id="Language" xml:space="preserve" approved="yes">
+        <source>Language</source>
+      <target state="translated">Sprache</target></trans-unit>
+      <trans-unit id="Text direction" xml:space="preserve" approved="yes">
+        <source>Text direction</source>
+      <target state="translated">Textrichtung</target></trans-unit>
+      <trans-unit id="Language:" xml:space="preserve" approved="yes">
+        <source>Language:</source>
+      <target state="translated">Sprache:</target></trans-unit>
+      <trans-unit id="Text direction:" xml:space="preserve" approved="yes">
+        <source>Text direction:</source>
+      <target state="translated">Textrichtung:</target></trans-unit>
+      <trans-unit id="No language mark" xml:space="preserve" approved="yes">
+        <source>No language</source>
+      <target state="translated">Keine Sprache</target></trans-unit>
+      <trans-unit id="Remove language mark" xml:space="preserve" approved="yes">
+        <source>Remove language</source>
+      <target state="translated">Sprache entfernen</target></trans-unit>
+      <trans-unit id="statusBarStyle" xml:space="preserve" approved="yes">
+        <source>Style</source>
+      <target state="translated">Stil</target></trans-unit>
+      <trans-unit id="statusBarReady" xml:space="preserve" approved="yes">
+        <source>Ready</source>
+      <target state="translated">Bereit</target></trans-unit>
+      <trans-unit id="word" xml:space="preserve" approved="yes">
+        <source>word</source>
+      <target state="translated">Wort</target></trans-unit>
+      <trans-unit id="words" xml:space="preserve" approved="yes">
+        <source>words</source>
+      <target state="translated">Worte</target></trans-unit>
+    </body>
+  </file>
+</xliff>

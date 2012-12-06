@@ -1,0 +1,6 @@
+plugin.tx_t3jquery {
+
+	# cat=plugin.tx_t3jquery.ui-swanky-purse/file/010; type=file[css]; label=jQuery UI Swanky-Purse
+	file.UI-Swanky-Purse = EXT:t3jquery/res/css/ui-1.9.x/swanky-purse/jquery-ui.css
+
+}

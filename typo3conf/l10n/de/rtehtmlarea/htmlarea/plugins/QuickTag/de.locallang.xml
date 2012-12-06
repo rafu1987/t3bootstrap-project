@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Quick Tag Editor">Tag einfügen</label>
+      <label index="Enter the TAG you want to insert">Den einzufügenden Tag eingeben</label>
+      <label index="You have to select some text">Sie müssen einen Text markieren</label>
+      <label index="There are some unclosed quote">Nicht geschlossene Anführungszeichen gefunden</label>
+      <label index="This attribute already exists in the TAG">Dieses Attribut existiert bereits für diesen Tag</label>
+      <label index="No CSS class avaiable">Keine CSS-Klassen verfügbar</label>
+      <label index="OPTIONS">Optionen</label>
+      <label index="ATTRIBUTES">Attribute</label>
+      <label index="TAGs">Tags</label>
+      <label index="Colors">Farben</label>
+      <label index="Ok">OK</label>
+      <label index="Cancel">Abbrechen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

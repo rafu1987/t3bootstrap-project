@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="access_noDSaccess">Sie haben für die Datenstruktur dieses Datensatzes keine Zugriffsberechtigung.</label>
+      <label index="access_noTOaccess">Sie haben für das Vorlagenobjekt dieses Datensatzes keine Zugriffsberechtigung.</label>
+      <label index="access_noModifyAccess">Änderung des Datensatzes %s: %d ist nicht erlaubt, da der Benutzer keine Zugriffsberechtigung für seine DS und/oder TO hat.</label>
+      <label index="access_noCreateAccess">Erstellen eines Datensatzes in %s ist nicht erlaubt, da der Benutzer keine Zugriffsberechtigung für seine DS und/oder TO hat.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

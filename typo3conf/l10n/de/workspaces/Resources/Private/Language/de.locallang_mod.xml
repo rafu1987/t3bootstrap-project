@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_tabs_tab">Arbeitsumgebungen</label>
+      <label index="mlang_labels_tabdescr">Dieses Modul stellt eine Übersicht aller Elemente der aktuellen Arbeitsumgebung dar. Es ermöglicht darüber hinaus Arbeitsschritte zur Überprüfung und Veröffentlichung der Elemente durchzuführen.</label>
+      <label index="mlang_labels_tablabel">Arbeitsumgebungen erstellen und verwalten</label>
+      <label index="autopublishTask.name">Arbeitsumgebung: automatische Veröffentlichung</label>
+      <label index="autopublishTask.description">Dieser Task sucht in jeder Arbeitsumgebung Elemente mit einem Veröffentlichungsdatum in der Vergangenheit und veröffentlicht diese.</label>
+      <label index="cleanupPreviewLinkTask.name">Arbeitsumgebungen: Vorschau-Links aufräumen</label>
+      <label index="cleanupPreviewLinkTask.description">Dieser Task löscht veraltete Vorschau-Links</label>
+      <label index="stage_ready_to_publish">Bereit zum Veröffentlichen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

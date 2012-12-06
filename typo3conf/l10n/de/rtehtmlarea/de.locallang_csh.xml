@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">htmlArea RTE</label>
+      <label index=".description">htmlArea RTE ist ein freier Open-Source-Editor auf Basis von Ext JS zur Bearbeitung in &lt;textarea&gt;-Feldern. Er bietet eine enge Integration an TYPO3.</label>
+      <label index=".details">htmlArea RTE unterstützt die folgenden Browser: Firefox 1.5+, SeaMonkey 1.0+, Safari 3.0.4+, Google Chrome 1.0+ und Opera 9.62+ auf jeder Plattform und Internet Explorer 6.0+ unter Windows.</label>
+      <label index=".seeAlso">xEXT_rtehtmlarea_General:beUserSettings, xEXT_rtehtmlarea_EditElement, xEXT_rtehtmlarea_Language, xEXT_rtehtmlarea_PlainText, xEXT_rtehtmlarea_RemoveFormat</label>
+      <label index="beUserSettings.alttitle">Einstellungen des BE-Benutzers</label>
+      <label index="beUserSettings.description">In den Einstellungen des Backend-Benutzers können Sie einige Einstellungen des RTE festlegen.</label>
+      <label index="beUserSettings.seeAlso">xEXT_rtehtmlarea_General:rteWidth,xEXT_rtehtmlarea_General:rteHeight,xEXT_rtehtmlarea_General:rteResize,xEXT_rtehtmlarea_General:rteMaxHeight,xEXT_rtehtmlarea_PlainText:behaviour,_MOD_user_setup</label>
+      <label index="rteWidth.alttitle">Standardbreite des RTE in px oder %</label>
+      <label index="rteWidth.description">Mit dieser Optionen können Sie die Ausgangsbreite des RTE festlegen.</label>
+      <label index="rteWidth.details">Diese Option legt die Breite des RTE fest, wenn er das erste Mal angezeigt wird. Sie kann als Zahl in Pixel oder in Prozent angegeben werden.</label>
+      <label index="rteHeight.alttitle">Standardhöhe des RTE in px</label>
+      <label index="rteHeight.description">Mit dieser Optionen können Sie die Ausgangshöhe des RTE festlegen.</label>
+      <label index="rteHeight.details">Diese Option legt die Höhe des RTE fest, wenn er das erste Mal angezeigt wird. Sie muss als Zahl in Pixel, nicht in Prozent angegeben werden. Die Höhe, die Sie angeben, sollte genügend Raum für die Menüleiste, den Editierbereich und die Statusleiste des RTE lassen.</label>
+      <label index="rteResize.alttitle">Größe des RTE veränderbar machen</label>
+      <label index="rteResize.description">Mit dieser Option können Sie die Größe des RTE veränderbar machen. Es wird ein Griff an der unteren rechten Ecke des RTE erscheinen, mit dem Sie die Größe anpassen können.</label>
+      <label index="rteMaxHeight.alttitle">Maximale Höhe des in der Größe veränderbaren RTE in Pixel</label>
+      <label index="rteMaxHeight.description">Die Höhe, die Sie angeben, sollte genügend Raum für die Menüleiste, den Editierbereich und die Statusleiste des RTE lassen. Standardwert ist 2000.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

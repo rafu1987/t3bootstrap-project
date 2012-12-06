@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mod_indexed_search">Indexsuche</label>
+      <label index="mod2_indexed_search">Indexsuche - Statistik</label>
+      <label index="ignoreExtensions">Erweiterung %s wurde auf Ignorieren gesetzt.</label>
+      <label index="pdfToolsNotFound">PDF-Dienstprogramme nicht im Pfad "%1$spdftotext" und/oder "%1$spdfinfo" gefunden</label>
+      <label index="pdfToolsDisabled">PDF-Dienstprogramme deaktiviert.</label>
+      <label index="pdfToolsFailed">PDFtoText kann Dokument nicht verarbeiten: "%s". PDF-Datei könnte für Druck gesperrt oder verschlüsselt sein.</label>
+      <label index="catdocNotFound">catdoc-Dienstprogramm nicht im Pfad "%scatdoc" gefunden</label>
+      <label index="catdocDisabled">catdoc-Dienstprogramm (Word-Dateien) deaktiviert</label>
+      <label index="ppthtmlNotFound">ppthtml-Dienstprogramm zum Lesen von Powerpoint-Dateien nicht in Pfad "%sppthtml" gefunden</label>
+      <label index="ppthtmlDisabled">ppthtml-Dienstprogramme (Powerpoint-Dateien) deaktiviert</label>
+      <label index="xlhtmlNotFound">xlhtml-Dienstprogramm zum Lesen von Excel-Dateien nicht im Pfad "%sxlhtml" gefunden</label>
+      <label index="xlhtmlDisabled">xlhtml-Dienstprogramme (Excel-Dateien) deaktiviert</label>
+      <label index="unzipNotFound">unzip-Dienstprogramm zum Lesen von OpenOffice.org-Dateien nicht im Pfad "%sunzip" gefunden</label>
+      <label index="unzipDisabled">unzip-Dienstprogramm (OpenOffice.org-Dateien) deaktiviert</label>
+      <label index="unrtfNotFound">unrtf-Dienstprogramm zum Lesen von RTF-Dateien nicht im Pfad "%sunrtf" gefunden</label>
+      <label index="unrtfDisabled">unrtf-Dienstprogramm (RTF-Dateien) deaktiviert</label>
+      <label index="extension.PDF">PDF (*.%s)</label>
+      <label index="extension.DOC">MS Word (*.%s)</label>
+      <label index="extension.PP">MS Powerpoint (*.%s)</label>
+      <label index="extension.XLS">MS Excel (*.%s)</label>
+      <label index="extension.SXC">OpenOffice.org Calc (*.%s)</label>
+      <label index="extension.SXI">OpenOffice.org Impress (*.%s)</label>
+      <label index="extension.SXW">OpenOffice.org Writer (*.%s)</label>
+      <label index="extension.ODS">ODF-Tabellenkalkulation (*.%s)</label>
+      <label index="extension.ODP">ODF-Präsentation (*.%s)</label>
+      <label index="extension.ODT">ODF-Text (*.%s)</label>
+      <label index="extension.RTF">Rich-Text-Format (*.%s)</label>
+      <label index="extension.images">Bilder (*.%s)</label>
+      <label index="extension.HTML">Web-Seiten (*.%s)</label>
+      <label index="extension.TXT">Textdateien (*.%s)</label>
+      <label index="extension.CSV">Komma-getrennte Werte (*.%s)</label>
+      <label index="extension.XML">Extensible-Markup-Language (*.%s)</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

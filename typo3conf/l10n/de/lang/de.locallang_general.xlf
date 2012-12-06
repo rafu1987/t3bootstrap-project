@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="LGL.endtime" xml:space="preserve" approved="yes">
+        <source>Stop:</source>
+      <target state="translated">Stopp:</target></trans-unit>
+      <trans-unit id="LGL.hidden" xml:space="preserve" approved="yes">
+        <source>Hide:</source>
+      <target state="translated">Verbergen:</target></trans-unit>
+      <trans-unit id="LGL.timestamp" xml:space="preserve">
+        <source>Last Modified:</source>
+      </trans-unit>
+      <trans-unit id="LGL.creationDate" xml:space="preserve">
+        <source>Created At:</source>
+      </trans-unit>
+      <trans-unit id="LGL.creationUserId" xml:space="preserve">
+        <source>Created By:</source>
+      </trans-unit>
+      <trans-unit id="LGL.starttime" xml:space="preserve" approved="yes">
+        <source>Start:</source>
+      <target state="translated">Start:</target></trans-unit>
+      <trans-unit id="LGL.fe_group" xml:space="preserve" approved="yes">
+        <source>Access:</source>
+      <target state="translated">Zugriff:</target></trans-unit>
+      <trans-unit id="LGL.hide_at_login" xml:space="preserve" approved="yes">
+        <source>Hide at login</source>
+      <target state="translated">Nach Anmeldung verbergen</target></trans-unit>
+      <trans-unit id="LGL.any_login" xml:space="preserve" approved="yes">
+        <source>Show at any login</source>
+      <target state="translated">Anzeigen, wenn angemeldet</target></trans-unit>
+      <trans-unit id="LGL.usergroups" xml:space="preserve" approved="yes">
+        <source>__Usergroups:__</source>
+      <target state="translated">__Benutzergruppen:__</target></trans-unit>
+      <trans-unit id="LGL.type" xml:space="preserve" approved="yes">
+        <source>Type:</source>
+      <target state="translated">Typ:</target></trans-unit>
+      <trans-unit id="LGL.description" xml:space="preserve" approved="yes">
+        <source>Description:</source>
+      <target state="translated">Beschreibung:</target></trans-unit>
+      <trans-unit id="LGL.prependAtCopy" xml:space="preserve" approved="yes">
+        <source>(copy %s)</source>
+      <target state="translated">(Kopie %s)</target></trans-unit>
+      <trans-unit id="LGL.layout" xml:space="preserve" approved="yes">
+        <source>Layout:</source>
+      <target state="translated">Layout:</target></trans-unit>
+      <trans-unit id="LGL.default_value" xml:space="preserve" approved="yes">
+        <source>Default</source>
+      <target state="translated">Standard</target></trans-unit>
+      <trans-unit id="LGL.normal" xml:space="preserve" approved="yes">
+        <source>Normal</source>
+      <target state="translated">Normal</target></trans-unit>
+      <trans-unit id="LGL.images" xml:space="preserve" approved="yes">
+        <source>Images:</source>
+      <target state="translated">Bilder:</target></trans-unit>
+      <trans-unit id="LGL.image" xml:space="preserve" approved="yes">
+        <source>Image:</source>
+      <target state="translated">Bild:</target></trans-unit>
+      <trans-unit id="LGL.caption" xml:space="preserve" approved="yes">
+        <source>Caption:</source>
+      <target state="translated">Bildunterschrift:</target></trans-unit>
+      <trans-unit id="LGL.subheader" xml:space="preserve" approved="yes">
+        <source>Subheader:</source>
+      <target state="translated">Untertitel:</target></trans-unit>
+      <trans-unit id="LGL.text" xml:space="preserve" approved="yes">
+        <source>Text:</source>
+      <target state="translated">Text:</target></trans-unit>
+      <trans-unit id="LGL.name" xml:space="preserve" approved="yes">
+        <source>Name:</source>
+      <target state="translated">Name:</target></trans-unit>
+      <trans-unit id="LGL.first_name" xml:space="preserve" approved="yes">
+        <source>First name:</source>
+      <target state="translated">Vorname:</target></trans-unit>
+      <trans-unit id="LGL.middle_name" xml:space="preserve" approved="yes">
+        <source>Middle name:</source>
+      <target state="translated">Mittlerer Name:</target></trans-unit>
+      <trans-unit id="LGL.last_name" xml:space="preserve" approved="yes">
+        <source>Last name:</source>
+      <target state="translated">Nachname:</target></trans-unit>
+      <trans-unit id="LGL.title" xml:space="preserve" approved="yes">
+        <source>Title:</source>
+      <target state="translated">Titel:</target></trans-unit>
+      <trans-unit id="LGL.title_person" xml:space="preserve" approved="yes">
+        <source>Title:</source>
+      <target state="translated">Titel:</target></trans-unit>
+      <trans-unit id="LGL.address" xml:space="preserve" approved="yes">
+        <source>Address:</source>
+      <target state="translated">Adresse:</target></trans-unit>
+      <trans-unit id="LGL.phone" xml:space="preserve" approved="yes">
+        <source>Phone:</source>
+      <target state="translated">Telefon:</target></trans-unit>
+      <trans-unit id="LGL.fax" xml:space="preserve" approved="yes">
+        <source>Fax:</source>
+      <target state="translated">Fax:</target></trans-unit>
+      <trans-unit id="LGL.author" xml:space="preserve" approved="yes">
+        <source>Author:</source>
+      <target state="translated">Autor:</target></trans-unit>
+      <trans-unit id="LGL.email" xml:space="preserve" approved="yes">
+        <source>Email:</source>
+      <target state="translated">E-Mail:</target></trans-unit>
+      <trans-unit id="LGL.company" xml:space="preserve" approved="yes">
+        <source>Company:</source>
+      <target state="translated">Firma:</target></trans-unit>
+      <trans-unit id="LGL.city" xml:space="preserve" approved="yes">
+        <source>City:</source>
+      <target state="translated">Stadt:</target></trans-unit>
+      <trans-unit id="LGL.zip" xml:space="preserve" approved="yes">
+        <source>Zipcode:</source>
+      <target state="translated">PLZ:</target></trans-unit>
+      <trans-unit id="LGL.country" xml:space="preserve" approved="yes">
+        <source>Country:</source>
+      <target state="translated">Land:</target></trans-unit>
+      <trans-unit id="LGL.www" xml:space="preserve" approved="yes">
+        <source>www:</source>
+      <target state="translated">WWW:</target></trans-unit>
+      <trans-unit id="LGL.lastlogin" xml:space="preserve" approved="yes">
+        <source>Last login:</source>
+      <target state="translated">Letzte Anmeldung:</target></trans-unit>
+      <trans-unit id="LGL.note" xml:space="preserve" approved="yes">
+        <source>Note:</source>
+      <target state="translated">Bemerkung:</target></trans-unit>
+      <trans-unit id="LGL.parameters" xml:space="preserve" approved="yes">
+        <source>Parameters:</source>
+      <target state="translated">Parameter:</target></trans-unit>
+      <trans-unit id="LGL.code" xml:space="preserve" approved="yes">
+        <source>CODE:</source>
+      <target state="translated">CODE:</target></trans-unit>
+      <trans-unit id="LGL.links" xml:space="preserve" approved="yes">
+        <source>Links</source>
+      <target state="translated">Links</target></trans-unit>
+      <trans-unit id="LGL.language" xml:space="preserve" approved="yes">
+        <source>Language:</source>
+      <target state="translated">Sprache:</target></trans-unit>
+      <trans-unit id="LGL.category" xml:space="preserve" approved="yes">
+        <source>Category:</source>
+      <target state="translated">Kategorie:</target></trans-unit>
+      <trans-unit id="LGL.shortcut_page" xml:space="preserve" approved="yes">
+        <source>Shortcut to page:</source>
+      <target state="translated">Verweis auf Seite:</target></trans-unit>
+      <trans-unit id="LGL.keywords" xml:space="preserve" approved="yes">
+        <source>Keywords (,):</source>
+      <target state="translated">Stichworte (kommagetrennt):</target></trans-unit>
+      <trans-unit id="LGL.disable" xml:space="preserve" approved="yes">
+        <source>Disable:</source>
+      <target state="translated">Inaktiv:</target></trans-unit>
+      <trans-unit id="LGL.baseStorage" xml:space="preserve">
+        <source>Storage:</source>
+      </trans-unit>
+      <trans-unit id="LGL.folder" xml:space="preserve">
+        <source>Folder:</source>
+      </trans-unit>
+      <trans-unit id="LGL.startingpoint" xml:space="preserve" approved="yes">
+        <source>Startingpoint:</source>
+      <target state="translated">Ausgangspunkt:</target></trans-unit>
+      <trans-unit id="LGL.disableRTE" xml:space="preserve" approved="yes">
+        <source>Disable Rich Text Editor:</source>
+      <target state="translated">Rich-Text-Editor deaktivieren:</target></trans-unit>
+      <trans-unit id="LGL.external" xml:space="preserve" approved="yes">
+        <source>External URL</source>
+      <target state="translated">Externe URL</target></trans-unit>
+      <trans-unit id="LGL.recursive" xml:space="preserve" approved="yes">
+        <source>Recursive:</source>
+      <target state="translated">Rekursiv:</target></trans-unit>
+      <trans-unit id="LGL.l18n_parent" xml:space="preserve" approved="yes">
+        <source>Transl.Orig:</source>
+      <target state="translated">Ursprungstext:</target></trans-unit>
+      <trans-unit id="LGL.allLanguages" xml:space="preserve" approved="yes">
+        <source>[All]</source>
+      <target state="translated">[Alle]</target></trans-unit>
+      <trans-unit id="LGL.versionLabel" xml:space="preserve" approved="yes">
+        <source>Versioning Label:</source>
+      <target state="translated">Versionierungskennzeichen:</target></trans-unit>
+      <trans-unit id="LGL.error" xml:space="preserve" approved="yes">
+        <source>Error!</source>
+      <target state="translated">Fehler!</target></trans-unit>
+    </body>
+  </file>
+</xliff>

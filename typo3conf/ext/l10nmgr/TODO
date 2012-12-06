@@ -1,0 +1,17 @@
+	* TODO and/or nice to have
+
+2009-01-28 Daniel Zielinski <d.zielinski@l10ntech.de>
+
+	* Secure login for POST interface
+	* Import of XML files vi CLI (Daniel Z. working on it)
+	* E-Mail notification upon export success (CLI) (Daniel Z. working on it)
+	* E-Mail notification upon import success (CLI)
+
+2007-11-13 Daniel Zielinski <d.zielinski@l10ntech.de>
+
+	* Documentation (Translation into German and Spanish can be done at Saarland University )
+	* Translation of frontend labels => some draft translations exist
+	* Workflow support with email notification and download center (Kasper working on it?)
+	* Automatic substitution of links to documents in fileadmin? Integrating translated PDFs can take quite some time. Same for images.
+	* Automatic substitution of L= parameters in HTML content elements (as advanced option?)
+	* Export to l10n package with documentation and settings files?	

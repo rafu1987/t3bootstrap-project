@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Der Datensatz "Seite" repräsentiert gewöhnlicherweise eine Webseite in TYPO3. Alle Seiten haben eine ID (UID) über welche diese verlinkt und referenziert werden können. Der Datensatz "Seite" enthält nicht die Inhalte der Seite. Hierfür werden Datensätze vom Typ "Inhaltselement" verwendet.</label>
+      <label index=".details"/>
+      <label index="_.seeAlso"/>
+      <label index="_.image">EXT:lang/cshimages/pages_1.png,
+EXT:lang/cshimages/pages_2.png,</label>
+      <label index=".image_descr"/>
+      <label index="title.description">Geben Sie hier den Titel der Seite oder des Ordners an. Dieses Feld ist ein Pflichtfeld.</label>
+      <label index="title.details"/>
+      <label index="_title.image">EXT:lang/cshimages/pages_3.png</label>
+      <label index="title.image_descr"/>
+      <label index="doktype.description"/>
+      <label index="doktype.details"/>
+      <label index="_doktype.seeAlso"/>
+      <label index="_doktype.image">EXT:lang/cshimages/pages_4.png</label>
+      <label index="doktype.image_descr"/>
+      <label index="TSconfig.description">Seiten-TSconfig</label>
+      <label index="TSconfig.details"/>
+      <label index="TSconfig.syntax">Basis TypoScipt Syntax &lt;em&gt;ohne&lt;/em&gt; Konstanten.
+
+Es wird empfohlen, dass nur Admin-Benutzer Zugang zu diesem Bereich haben!</label>
+      <label index="_TSconfig.seeAlso"/>
+      <label index="_TSconfig.image">EXT:lang/cshimages/pages_5.png</label>
+      <label index="TSconfig.image_descr"/>
+      <label index="php_tree_stop.description"/>
+      <label index="php_tree_stop.details"/>
+      <label index="_php_tree_stop.seeAlso">_MOD_web_info:pagetree_overview</label>
+      <label index="_php_tree_stop.image">EXT:lang/cshimages/pages_8.png,
+EXT:lang/cshimages/pages_6.png,
+EXT:lang/cshimages/pages_7.png</label>
+      <label index="php_tree_stop.image_descr"/>
+      <label index="storage_pid.description"/>
+      <label index="storage_pid.details"/>
+      <label index="_storage_pid.seeAlso"/>
+      <label index="editlock.description"/>
+      <label index="fe_login_mode.description"/>
+      <label index="fe_login_mode.details"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Eine "Aktion" ist ein vordefinierter Arbeitsablauf, welcher im Aufgabenzentrum von dazu autorisierten Benutzergruppen gestartet werden kann.</label>
+      <label index=".details">Derzeit können Aktionen dazu verwendet werden, zusätzliche Backend-Benutzer anzulegen (ohne selbst Administrator zu sein). Desweiteren können Sie vordefinierte Datenbankabfragen (SELECT FROM) als Aktion definieren. Das Abfrageergebnis wird dabei in einer CSV-Datei (kommagetrennte Werteliste) zurückgeliefert. Aktionen können Backend-Benutzergruppen zugeordnet und durch einen einzigen Mausklick im Aufgabenzentrum ausgelöst werden.</label>
+      <label index="title.description">Geben Sie einen Namen für die Aktion an. Dieser Name wird in der Übersicht der verfügbaren Aktionen innerhalb des Aufgabenzentrums angezeigt.</label>
+      <label index="description.description">Beschreiben Sie, was genau die Aktion bewirkt.</label>
+      <label index="hidden.description">Wählen Sie diese Option, wenn Sie die Aktion vor normalen Benutzern verstecken wollen.</label>
+      <label index="hidden.details">Damit ist es Ihnen als Administrator möglich, eine Aktion zu entwickeln oder zu verändern. Während der Entwicklungsphase ist die Aktion dann nur für Administratoren sichtbar und nur diese können sie auch ausführen.</label>
+      <label index="type.description">Wählen Sie die Art der Aktion.</label>
+      <label index="type.details">&lt;strong&gt;"Neuen Backend-Benutzer anlegen"&lt;/strong&gt; erlaubt es, neue Benutzer mit klar definierten Rechten anzulegen. Mit diesem Aktionstyp können Sie die Benutzerverwaltung an andere Systembenutzer delegieren, ohne diesen dazu gleich volle Administrationsrechte zu erteilen. Wenn Sie diese Option wählen, müssen Sie in festlegen, welchen bereits vorhandenen Benutzer Sie als "Vorlage" für neue Benutzer verwendet wollen, welchen Namenspräfix durch diese Aktion neu erstellte Benutzer erhalten sollen und ob zusammen mit dem Benutzer gleichzeitig auch ein entsprechendes Heimatverzeichnis erstellt werden soll. Abschließend können Sie noch festlegen, welchen Benutzerguppen neu angelegte Benutzer zugewiesen werden können. &lt;strong&gt;"SQL-Abfrage"&lt;/strong&gt; erlaubt es, eine vordefinierte Datenbankabfrage (SQL SELECT) auszuführen. Das Ergebnis dieser Abfrage wird dann als CSV-Datei zurückgeliefert. Nachdem Sie die Aktion angelegt haben, müssen Sie noch das Modul Werkzeuge &gt; DBint aufrufen. Dort können Sie die eigentliche SQL-Abfrage erstellen und abspeichern. Sobald die Abfrage das gewünschte Ergebnis liefert, können Sie diese Abfrage der eben erstellten Aktion zuweisen, indem Sie im Menüpunkt "Laden/Speichern" den Namen der Aktion auswählen und dann abspeichern. Danach steht die Aktion dann im Aufgabenzentrum zur Verfügung. Achten Sie darauf, dass als Ausgabeformat für die Datenbankabfrage CSV gewählt haben!</label>
+      <label index="assign_to_groups.description">Wählen Sie die Backend-Benutzergruppen, denen Sie diese Aktion im Aufgabenzentrum zur Verfügung stellen wollen.</label>
+      <label index="t1_userprefix.description">Geben Sie einen Präfix an, den durch eine Aktion neu angelegte Benutzernamen automatisch erhalten sollen (z.B. "neu_").</label>
+      <label index="t1_allowed_groups.description">Geben Sie hier gegebenenfalls die Backend-Benutzergruppen an, welche der Benutzer beim Erstellen neuer Backend-Benutzer zuweisen darf.</label>
+      <label index="t1_create_user_dir.description">Mit dieser Option können Sie beim Erstellen neuer Benutzer gleichzeitig auch deren private Heimatverzeichnisse erzeugen lassen.</label>
+      <label index="t1_create_user_dir.details">&lt;strong&gt;Bemerkung:&lt;/strong&gt; damit Sie diese Option nutzen können, müssen Sie zuerst die Variablen $TYPO3_CONF_VARS["BE"]["userHomePath"] und $TYPO3_CONF_VARS["BE"]["lockRootPath"] richtig konfigurieren. Die angegebenen Verzeichnisse müssen beschreibbar sein!</label>
+      <label index="t1_copy_of_user.description">Geben Sie den Namen eines bereits existierenden Backend-Benutzers an, dessen Einstellungen als Vorlage für neue Benutzer dienen soll.</label>
+      <label index="t1_copy_of_user.details">Mit Ausnahme der persönlichen Informationen (Name, Benutzername, Passwort und E-Mail) werden alle Werte dieses Benutzers auf den neu angelegten Benutzer übertragen. Sollte der Benutzer, der als Vorlage zur Erstellung dient, einer Benutzergruppe angehören, die nicht in den "Benutzergruppen, die durch die Aktion zugewiesen werden können" aufgeführt ist, so wird der neue Benutzer dennoch in dieser Gruppe angelegt. Der Ersteller kann die Gruppenzugehörigkeit aber nicht mehr ändern.</label>
+      <label index="t4_recordsToEdit.description">[FILL IN] sys_action-&gt;t4_recordsToEdit</label>
+      <label index="t3_listPid.description">[FILL IN] sys_action-&gt;t3_listPid</label>
+      <label index="t3_tables.description">[FILL IN] sys_action-&gt;t3_tables</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

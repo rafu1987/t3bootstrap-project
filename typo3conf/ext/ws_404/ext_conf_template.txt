@@ -1,0 +1,11 @@
+  # cat=basic/enable; type=integer; label=Pages id 404 error:Pages id of the page which contains error content. Should be separated by coma for different domains 
+pagesFor404Error = 
+
+  # cat=basic/enable; type=string; label=Language variable:By default it should be L.  
+languageVar = L
+
+  # cat=basic/enable; type=string; label=typeNum parameter:Available values of typeNum parameter. Should be separated by coma.  
+typeNum =
+
+  # cat=basic/enable; type=string; label=disable for static file:Disable pagesFor404Error rendering for specific static files. For better perfomance. Should be separated by coma.  
+staticFiles = gif,jpg,jpeg,png,txt,log,css,js,ico,xml,doc,docx,pdf

@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="reports" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="status_report_title" xml:space="preserve" approved="yes">
+        <source>Status Report</source>
+      <target state="translated">Statusbericht</target></trans-unit>
+      <trans-unit id="status_report_description" xml:space="preserve" approved="yes">
+        <source>Get a status report about your site's operation and any detected problems.</source>
+      <target state="translated">Erhalten Sie einen Statusbericht über Ihre Website und erkannte Probleme.</target></trans-unit>
+      <trans-unit id="status_report_explanation" xml:space="preserve" approved="yes">
+        <source>Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on TYPO3's support mailinglists and project issue trackers.</source>
+      <target state="translated">Hier finden Sie eine kurze Übersicht über die Parameter der Website sowie in der Installation festgestellte Probleme. Diese Informationen können für Support-Anfragen in den TYPO3-Mailinglisten und -Bugtrackern hilfreich sein.</target></trans-unit>
+      <trans-unit id="status_ok" xml:space="preserve" approved="yes">
+        <source>OK</source>
+      <target state="translated">OK</target></trans-unit>
+      <trans-unit id="status_insecure" xml:space="preserve" approved="yes">
+        <source>Insecure</source>
+      <target state="translated">Unsicher</target></trans-unit>
+      <trans-unit id="status_disabled" xml:space="preserve" approved="yes">
+        <source>Disabled</source>
+      <target state="translated">Deaktiviert</target></trans-unit>
+      <trans-unit id="status_enabled" xml:space="preserve" approved="yes">
+        <source>Enabled</source>
+      <target state="translated">Aktiviert</target></trans-unit>
+      <trans-unit id="status_enabledPermanently" xml:space="preserve" approved="yes">
+        <source>Enabled permanently</source>
+      <target state="translated">Dauerhaft aktiviert</target></trans-unit>
+      <trans-unit id="status_enabledTemporarily" xml:space="preserve" approved="yes">
+        <source>Enabled temporarily</source>
+      <target state="translated">Temporär aktiviert</target></trans-unit>
+      <trans-unit id="status_empty" xml:space="preserve" approved="yes">
+        <source>Empty</source>
+      <target state="translated">Leer</target></trans-unit>
+      <trans-unit id="status_none" xml:space="preserve">
+        <source>None</source>
+      </trans-unit>
+      <trans-unit id="status_connectionFailed" xml:space="preserve" approved="yes">
+        <source>Connection Failed</source>
+      <target state="translated">Verbindung fehlgeschlagen</target></trans-unit>
+      <trans-unit id="status_updateComplete" xml:space="preserve" approved="yes">
+        <source>Update Complete</source>
+      <target state="translated">Aktualisierung vollständig</target></trans-unit>
+      <trans-unit id="status_updateIncomplete" xml:space="preserve" approved="yes">
+        <source>Update Incomplete</source>
+      <target state="translated">Aktualisierung nicht vollständig</target></trans-unit>
+      <trans-unit id="status_problemNotification" xml:space="preserve" approved="yes">
+        <source>One or more problems were detected with your TYPO3 installation. Please check the %sstatus report%s for more information.</source>
+      <target state="translated">Ein oder mehrere Probleme in Ihrer TYPO3-Installation wurden festgestellt. Bitte prüfen Sie die %sStatusberichte%s für mehr Informationen.</target></trans-unit>
+      <trans-unit id="status_typo3" xml:space="preserve" approved="yes">
+        <source>TYPO3 System</source>
+      <target state="translated">TYPO3-System</target></trans-unit>
+      <trans-unit id="status_system" xml:space="preserve" approved="yes">
+        <source>System</source>
+      <target state="translated">System</target></trans-unit>
+      <trans-unit id="status_security" xml:space="preserve" approved="yes">
+        <source>Security</source>
+      <target state="translated">Sicherheit</target></trans-unit>
+      <trans-unit id="status_configuration" xml:space="preserve" approved="yes">
+        <source>Configuration</source>
+      <target state="translated">Konfiguration</target></trans-unit>
+      <trans-unit id="status_referenceIndex" xml:space="preserve" approved="yes">
+        <source>Reference Index</source>
+      <target state="translated">Referenz-Index</target></trans-unit>
+      <trans-unit id="status_memcachedConfiguration" xml:space="preserve" approved="yes">
+        <source>Memcached Configuration</source>
+      <target state="translated">Memcached-Konfiguration</target></trans-unit>
+      <trans-unit id="status_PhpSafeMode" xml:space="preserve" approved="yes">
+        <source>PHP safe_mode</source>
+      <target state="translated">PHP-Safe-Mode</target></trans-unit>
+      <trans-unit id="status_PhpMagicQuotesGpc" xml:space="preserve" approved="yes">
+        <source>PHP magic_quotes_gpc</source>
+      <target state="translated">PHP: magic_quotes_gpc</target></trans-unit>
+      <trans-unit id="status_CreatedFilePermissions" xml:space="preserve">
+        <source>Permissions of created files</source>
+      </trans-unit>
+      <trans-unit id="status_CreatedFilePermissions.writable" xml:space="preserve">
+        <source>Files created by TYPO3 are configured to be world writeable. Depending on your server configuration, this can be a security risk. It is usually better to configure the create mask to not allow writing to files by "others". A sane default is often '0660' for $GLOBALS['TYPO3_CONF_VARS']['BE']['fileCreateMask']. This can be set in the install tool.</source>
+      </trans-unit>
+      <trans-unit id="status_CreatedDirectoryPermissions" xml:space="preserve">
+        <source>Permissions of created directories</source>
+      </trans-unit>
+      <trans-unit id="status_CreatedDirectoryPermissions.writable" xml:space="preserve">
+        <source>Directories created by TYPO3 are configured to be world writeable. Depending on your server configuration, this can be a security risk. It is usually better to configure the create mask to not allow writing to directories by "others". A sane default is often '2770' for $GLOBALS['TYPO3_CONF_VARS']['BE']['folderCreateMask']. This can be set in the install tool.</source>
+      </trans-unit>
+      <trans-unit id="status_adminUserAccount" xml:space="preserve" approved="yes">
+        <source>Admin User Account</source>
+      <target state="translated">Admin-Benutzerkonten</target></trans-unit>
+      <trans-unit id="status_encryptionKey" xml:space="preserve" approved="yes">
+        <source>Encryption Key</source>
+      <target state="translated">Verschlüsselungsschlüssel</target></trans-unit>
+      <trans-unit id="status_saltedPasswords" xml:space="preserve">
+        <source>Backend user password hashes</source>
+      </trans-unit>
+      <trans-unit id="status_saltedPasswords_infoText" xml:space="preserve">
+        <source>During the configuration check of saltedpasswords the following issues have been found:</source>
+      </trans-unit>
+      <trans-unit id="status_saltedPasswords_notInstalled" xml:space="preserve">
+        <source>The saltedpasswords extension is not installed. The passwords are only hashed with md5 which is considered to be insecure. Install and configure the saltedpasswords extension and run the scheduler task to convert all passwords to salted hashes.</source>
+      </trans-unit>
+      <trans-unit id="status_saltedPasswords_notAllPasswordsHashed" xml:space="preserve">
+        <source>Some backend user passwords are found to be only md5 hashed. Run the scheduler task to convert all passwords to salted hashes.</source>
+      </trans-unit>
+      <trans-unit id="status_fileDenyPattern" xml:space="preserve" approved="yes">
+        <source>File Deny Pattern</source>
+      <target state="translated">Dateiverweigerungsmuster</target></trans-unit>
+      <trans-unit id="status_htaccessUploadProtection" xml:space="preserve" approved="yes">
+        <source>.htaccess Upload Protection</source>
+      <target state="translated">.htaccess-Hochladeschutz</target></trans-unit>
+      <trans-unit id="status_installToolPassword" xml:space="preserve" approved="yes">
+        <source>Install Tool Password</source>
+      <target state="translated">Passwort für das Installations-Tool</target></trans-unit>
+      <trans-unit id="status_installTool" xml:space="preserve" approved="yes">
+        <source>Install Tool</source>
+      <target state="translated">Installations-Tool</target></trans-unit>
+      <trans-unit id="status_phpVersion" xml:space="preserve" approved="yes">
+        <source>PHP Version</source>
+      <target state="translated">PHP-Version</target></trans-unit>
+      <trans-unit id="status_phpTooOld" xml:space="preserve" approved="yes">
+        <source>Your PHP installation is too old.</source>
+      <target state="translated">Ihre PHP-Version ist zu alt.</target></trans-unit>
+      <trans-unit id="status_phpMemory" xml:space="preserve" approved="yes">
+        <source>PHP Memory Limit</source>
+      <target state="translated">PHP-Memory-Limit</target></trans-unit>
+      <trans-unit id="status_phpMemoryRecommendation" xml:space="preserve" approved="yes">
+        <source>Depending on your configuration, TYPO3 can run with a %1$s PHP memory limit. However, a %2$s PHP memory limit or above is recommended, especially if your site uses additional extensions.</source>
+      <target state="translated">Je nachdem, wie Sie TYPO3 konfiguriert haben, kann TYPO3 mit einem PHP-Memory-Limit von %1$s laufen. Trotzdem wird ein Memory-Limit von mindestens %2$s empfohlen, besonders wenn Ihre Seite zahlreiche Erweiterungen benutzt.</target></trans-unit>
+      <trans-unit id="status_phpMemoryRequirement" xml:space="preserve" approved="yes">
+        <source>Depending on your configuration, TYPO3 can run with a %1$s PHP memory limit. However, a %2$s PHP memory limit or above is required especially if your site uses additional extensions.</source>
+      <target state="translated">Je nachdem, wie Sie TYPO3 konfiguriert haben, kann TYPO3 mit einem PHP-Memory-Limit von %1$s laufen. Trotzdem wird ein Memory-Limit von mindestens %2$s benötigt, besonders wenn Ihre Seite zahlreiche Erweiterungen benutzt.</target></trans-unit>
+      <trans-unit id="status_phpMemoryEditLimit" xml:space="preserve" approved="yes">
+        <source>Increase the memory limit by editing the memory_limit parameter in the file %s and then restart your web server (or contact your system administrator or hosting provider for assistance).</source>
+      <target state="translated">Erhöhen Sie das Memory-Limit, indem Sie den Parameter "memory_limit" in der Datei %s bearbeiten und Ihren Webserver dann neustarten. Alternativ fragen Sie Ihren Systemadministrator oder Hosting-Provider um Hilfe.</target></trans-unit>
+      <trans-unit id="status_phpMemoryContactAdmin" xml:space="preserve" approved="yes">
+        <source>Contact your system administrator or hosting provider for assistance with increasing your PHP memory limit.</source>
+      <target state="translated">Fragen Sie Ihren Systemadministrator oder Hosting-Provider um Hilfe, um das Memory-Limit zu erhöhen.</target></trans-unit>
+      <trans-unit id="status_phpMemoryUnlimited" xml:space="preserve">
+        <source>unlimited</source>
+      </trans-unit>
+      <trans-unit id="status_phpPeakMemory" xml:space="preserve" approved="yes">
+        <source>PHP peak memory usage</source>
+      <target state="translated">PHP: Höchste Speichernutzung</target></trans-unit>
+      <trans-unit id="status_phpPeakMemoryTooHigh" xml:space="preserve" approved="yes">
+        <source>During a request %2$s of the memory limit was used. On %4$s a request to %5$s used %1$s of %3$s.</source>
+      <target state="translated">Während einer Anfrage wurden %2$s des Memory-Limits genutzt. Am %4$s nutzte eine Anfrage an %5$s %1$s von %3$s.</target></trans-unit>
+      <trans-unit id="status_phpPeakMemoryClearFlag" xml:space="preserve" approved="yes">
+        <source>Clear this flag</source>
+      <target state="translated">Diese Option zurücksetzen</target></trans-unit>
+      <trans-unit id="status_phpRegisterGlobals" xml:space="preserve" approved="yes">
+        <source>PHP Register Globals</source>
+      <target state="translated">PHP: Register Globals</target></trans-unit>
+      <trans-unit id="status_phpRegisterGlobalsEnabled" xml:space="preserve" approved="yes">
+        <source>%s is enabled. TYPO3 requires this configuration directive to be disabled.</source>
+      <target state="translated">%s ist aktiviert. Sie müssen diese Einstellung deaktivieren, damit TYPO3 ordnungsgemäß funktioniert.</target></trans-unit>
+      <trans-unit id="status_phpRegisterGlobalsSecurity" xml:space="preserve" approved="yes">
+        <source>Your site may not be secure when %s is enabled.</source>
+      <target state="translated">Ihre Seite ist potenziell unsicher, wenn %s aktiviert ist.</target></trans-unit>
+      <trans-unit id="status_phpRegisterGlobalsHowToChange" xml:space="preserve" approved="yes">
+        <source>how to change configuration settings</source>
+      <target state="translated">Wie Sie diese Konfigurationseinstellungen ändern</target></trans-unit>
+      <trans-unit id="status_phpRegisterGlobalsPHPManual" xml:space="preserve" approved="yes">
+        <source>The PHP manual has instructions for %s.</source>
+      <target state="translated">Das PHP-Handbuch enthält weitere Anweisungen für %s.</target></trans-unit>
+      <trans-unit id="status_webServer" xml:space="preserve" approved="yes">
+        <source>Web Server</source>
+      <target state="translated">Webserver</target></trans-unit>
+      <trans-unit id="status_phpModules" xml:space="preserve" approved="yes">
+        <source>PHP Modules</source>
+      <target state="translated">PHP-Module</target></trans-unit>
+      <trans-unit id="status_phpModulesMissing" xml:space="preserve" approved="yes">
+        <source>One or more modules are missing.</source>
+      <target state="translated">Es fehlen ein oder mehrere Module</target></trans-unit>
+      <trans-unit id="status_phpModulesList" xml:space="preserve" approved="yes">
+        <source>The following PHP module(s) is/are missing: %s.</source>
+      <target state="translated">Es fehlen nachfolgende PHP Module: %s.</target></trans-unit>
+      <trans-unit id="status_phpModulesInfo" xml:space="preserve" approved="yes">
+        <source>You need to install and enable these modules to let TYPO3 function correctly.</source>
+      <target state="translated">Diese Module müssen installiert und aktiviert sein, damit TYPO3 korrekt funktioniert.</target></trans-unit>
+      <trans-unit id="status_phpModulesGroup" xml:space="preserve" approved="yes">
+        <source>one of: %s</source>
+      <target state="translated">eins von: %s</target></trans-unit>
+      <trans-unit id="status_phpModulesPresent" xml:space="preserve" approved="yes">
+        <source>All required modules are installed.</source>
+      <target state="translated">Alle benötigten Module sind installiert.</target></trans-unit>
+      <trans-unit id="status_installEnabledTemporarily" xml:space="preserve" approved="yes">
+        <source>The Install Tool is temporarily enabled. Delete the file "%s" when you have finished setting up TYPO3. If not used the Install Tool will be disabled automatically in %s minutes.</source>
+      <target state="translated">Das Installations-Tool ist temporär aktiviert. Löschen Sie die Datei "%s", wenn Sie die Installation von TYPO3 abgeschlossen haben. Wenn Sie das Installations-Tool nicht benutzen, wird es in %s Minuten automatisch deaktiviert.</target></trans-unit>
+      <trans-unit id="status_configuration_DeprecationLog" xml:space="preserve" approved="yes">
+        <source>Deprecation Log</source>
+      <target state="translated">Protokoll für Aufrufe veralteter Funktionen</target></trans-unit>
+      <trans-unit id="status_configuration_DeprecationLogEnabled" xml:space="preserve" approved="yes">
+        <source>The deprecation log tracks whether old APIs are being used in extensions. Depending on the extensions you use and whether they use deprecated APIs it can happen that the log takes up quite some space over time. The more space it takes up, the more it may affect your installation's performance. It is recommended to disable deprecation log in production environments.</source>
+      <target state="translated">Das Protokoll für Aufrufe veralteter Funktionen hält fest, ob Erweiterungen alte APIs nutzen. Abhängig von den Erweiterungen, die Sie benutzen, und davon, ob diese veraltete APIs verwenden, kann das Protokoll mit der Zeit viel Platz beanspruchen. Je größer es wird, desto mehr kann es die Leistung Ihrer Installation beeinträchtigen. Es wird empfohlen, das Protokoll für Aufrufe veralteter Funktionen in Produktionsumgebungen zu deaktivieren.</target></trans-unit>
+      <trans-unit id="status_configuration_DeprecationLogFile" xml:space="preserve" approved="yes">
+        <source>You can find the deprecation log file at %s.</source>
+      <target state="translated">Sie können das Protokoll für Aufrufe veralteter Funktionen unter %s finden.</target></trans-unit>
+      <trans-unit id="status_configuration_DeprecationLogSize" xml:space="preserve" approved="yes">
+        <source>Your deprecation log file currently takes up %s.</source>
+      <target state="translated">Ihr Protokoll für Aufrufe veralteter Funktionen hat gegenwärtig eine Größe von %s.</target></trans-unit>
+      <trans-unit id="status_configuration_DeprecationLogDeleteLink" xml:space="preserve">
+        <source>Delete deprecation log file.</source>
+      </trans-unit>
+      <trans-unit id="status_configuration_DeprecationLogDeletedSuccessful" xml:space="preserve">
+        <source>The deprecation log file was successfully deleted.</source>
+      </trans-unit>
+      <trans-unit id="status_configuration_DeprecationLogDeletionFailed" xml:space="preserve">
+        <source>The deprecation log file could not be deleted!</source>
+      </trans-unit>
+      <trans-unit id="status_configuration_PhpSafeModeEnabled" xml:space="preserve" approved="yes">
+        <source>PHP INI setting safe_mode "On" is deprecated since PHP 5.3 and is not supported by TYPO3 anymore.</source>
+      <target state="translated">Die Einstellung safe_mode "On" in php.ini wird seit PHP 5.2 nicht mehr empfohlen und ist seit PHP 5.3 veraltet. Sie sollte nicht mehr benutzt werden.</target></trans-unit>
+      <trans-unit id="status_configuration_PhpMagicQuotesGpcEnabled" xml:space="preserve" approved="yes">
+        <source>PHP INI setting magic_quotes_gpc "On" is deprecated since PHP 5.3. You are advised to set it to "Off" until it gets completely removed.</source>
+      <target state="translated">Die Einstellung magic_quotes_gpc "On" in php.ini ist seit PHP 5.3 veraltet. Bis diese Einstellung entfernt wird, sollte der Wert auf "Off" gesetzt werden.</target></trans-unit>
+      <trans-unit id="status_updateTaskTitle" xml:space="preserve" approved="yes">
+        <source>System Status Update</source>
+      <target state="translated">Aktualisierung des Systemstatus</target></trans-unit>
+      <trans-unit id="status_updateTaskDescription" xml:space="preserve" approved="yes">
+        <source>Runs a system status check and sends notifications if problems have been found.</source>
+      <target state="translated">Führt eine Überprüfung des Systemstatus durch und versendet eine Mitteilung, wenn Probleme gefunden wurden.</target></trans-unit>
+      <trans-unit id="status_updateTaskField_notificationEmail" xml:space="preserve" approved="yes">
+        <source>Notification Email Address</source>
+      <target state="translated">E-Mail-Adresse für Bericht</target></trans-unit>
+      <trans-unit id="status_updateTaskField_notificationEmail_invalid" xml:space="preserve" approved="yes">
+        <source>Empty or invalid notification email address.</source>
+      <target state="translated">Leere oder ungültige E-Mail-Adresse.</target></trans-unit>
+      <trans-unit id="status_updateTask_email_subject" xml:space="preserve" approved="yes">
+        <source>System Status Notification for site %s</source>
+      <target state="translated">Systemstatus-Bericht für Seite %s</target></trans-unit>
+      <trans-unit id="status_updateTask_email_site" xml:space="preserve" approved="yes">
+        <source>Site</source>
+      <target state="translated">Seite</target></trans-unit>
+      <trans-unit id="status_updateTask_email_issues" xml:space="preserve" approved="yes">
+        <source>Issues</source>
+      <target state="translated">Probleme</target></trans-unit>
+      <trans-unit id="status_oldXclassUsage" xml:space="preserve">
+        <source>Old XCLASS method used</source>
+      </trans-unit>
+      <trans-unit id="status_oldXclassUsageFound" xml:space="preserve">
+        <source>Old XCLASS method is used in %d cases:</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

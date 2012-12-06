@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Path">Pfad</label>
+      <label index="TEXT_MODE">Sie befinden sich im TEXT-MODUS. Benutzen Sie die Schaltfläche [&lt;&gt;], um zurück in den WYSIWYG-Modus zu wechseln.</label>
+      <label index="ActiveX-required">Wenn Sie den Editor innerhalb des Internet Explorers verwenden wollen, müssen Sie ActiveX-Controls zulassen.</label>
+      <label index="HTML-document-not-well-formed">Das HTML-Dokument ist nicht wohlgeformt.</label>
+      <label index="Moz-Clipboard">Unprivilegierte Skripte können aus Sicherheitsgründen Ausschneiden/Kopieren/Einfügen nicht nutzen. Klicken Sie auf Ja, um einen technischen Hinweis von mozilla.org (auf englisch) zu lesen, der Ihnen zeigt, wie Sie Skripten den Zugriff auf die Zwischenablage ermöglichen.</label>
+      <label index="Moz-Extension">Aus Sicherheitsgründen dürfen unprivilegierte Applikationen nicht auf die Zwischenablage zugreifen. Klicken Sie auf Ja, um eine Komponente zu installieren, die Programmen dieser TYPO3-Site erlaubt, auf die Zwischenablage zuzugreifen und Kopieren, Ausschneiden und Einfügen zu verwenden.</label>
+      <label index="Moz-Extension-Success">Die Installation war erfolgreich. Sie müssen Ihren Browser verlassen und erneut starten, damit die Änderungen wirksam werden.</label>
+      <label index="Moz-Extension-Failure">Das Firefox Add-on "AllowClipboard Helper" konnte nicht installiert werden.</label>
+      <label index="Moz-Extension-Install-Not-Enabled">Die Installation kann nicht durchgeführt werden. Bitte ändern Sie Ihre Browser-Einstellungen so, dass eine Software-Installation von dieser TYPO3-Site zugelassen wird.</label>
+      <label index="Allow-Clipboard-Helper-Extension">Aus Sicherheitsgründen dürfen unprivilegierte Applikationen nicht auf die Zwischenablage zugreifen. Klicken Sie auf OK, um eine Komponente zu installieren, mit der Sie die Websites angeben können, die Zugriff auf die Zwischenablage erhalten sollen und Inhalte kopieren, ausschneiden und einfügen dürfen.</label>
+      <label index="Mozilla-Org-Install-Not-Enabled">Die Installation kann nicht durchgeführt werden. Bitte ändern Sie Ihre Browser-Einstellungen so, dass eine Software-Installation von der Site https://addons.mozilla.org zugelassen wird.</label>
+      <label index="Allow-Clipboard-Helper-Extension-Success">Die Installation war erfolgreich. Sie müssen Ihren Browser verlassen und erneut starten, damit die Änderungen wirksam werden. Wählen Sie dann in Ihrem Browser unter [Extras | AllowClipboard Helper] diejenigen Sites aus, denen der Zugriff auf die Zwischenablage gewährt werden soll.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

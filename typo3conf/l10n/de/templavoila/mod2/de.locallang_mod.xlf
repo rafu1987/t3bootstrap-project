@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:55:14 UTC 2011" product-name="templavoila">
+    <header/>
+    <body>
+      <trans-unit id="mlang_tabs_tab" approved="yes">
+        <source>TemplaVoilà</source>
+        <target state="translated">TemplaVoilà</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr" approved="yes">
+        <source>TemplaVoilà Control Center lists all Data Structures and Template Objects available</source>
+        <target state="translated">Das TemplaVoilà-Kontrollzentrum gibt einen Überblick über alle verfügbaren Datenstrukturen und Vorlagenobjekte</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tablabel" approved="yes">
+        <source>TemplaVoilà Control Center</source>
+        <target state="translated">TemplaVoilà-Kontrollzentrum</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="noTitle" xml:space="preserve" approved="yes">
+        <source>No title</source>
+      <target state="translated">Kein Titel</target></trans-unit>
+      <trans-unit id="expand" xml:space="preserve" approved="yes">
+        <source>Expand category</source>
+      <target state="translated">Kategorie erweitern</target></trans-unit>
+      <trans-unit id="noTextSelection" xml:space="preserve" approved="yes">
+        <source>Error: There was no selected text to wrap.</source>
+      <target state="translated">Fehler: Kein Text zum Umbrechen ausgewählt.</target></trans-unit>
+      <trans-unit id="pixels" xml:space="preserve" approved="yes">
+        <source>Pixels</source>
+      <target state="translated">Bildpunkte</target></trans-unit>
+      <trans-unit id="filesize" xml:space="preserve" approved="yes">
+        <source>Filesize</source>
+      <target state="translated">Dateigröße</target></trans-unit>
+    </body>
+  </file>
+</xliff>

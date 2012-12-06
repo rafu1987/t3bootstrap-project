@@ -1,0 +1,14 @@
+plugin.tx_in2facebook {
+	view {
+		# cat=plugin.tx_in2facebook/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:in2facebook/Resources/Private/Templates/
+		# cat=plugin.tx_in2facebook/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:in2facebook/Resources/Private/Partials/
+		# cat=plugin.tx_in2facebook/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:in2facebook/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_in2facebook//a; type=int+; label=Default storage PID
+		storagePid = 
+	}
+}

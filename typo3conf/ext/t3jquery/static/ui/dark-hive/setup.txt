@@ -1,0 +1,4 @@
+
+page.includeCSS {
+	t3jquery-ui-dark-hive = {$plugin.tx_t3jquery.file.UI-Dark-Hive}
+}

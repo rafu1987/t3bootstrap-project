@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;web_txl10nmgrM1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="general.title">L10N Manager</label>
+			<label index="general.no_data">No configurations are available.</label>
+			<label index="general.description.message">Please select one of the following L10N Manager configurations to start the export/import (click on the title).</label>
+			<label index="general.list.configuration.title">Available configurations:</label>
+			<label index="general.list.headline.info.title">Info</label>
+			<label index="general.list.headline.title.title">Title</label>
+			<label index="general.list.headline.path.title">Path</label>
+			<label index="general.list.headline.depth.title">Depth</label>
+			<label index="general.list.headline.pid.title">PID</label>
+			<label index="general.list.headline.tables.title">Tables</label>
+			<label index="general.list.headline.exclude.title">Exclude</label>
+			<label index="general.list.headline.include.title">Include</label>
+
+			<label index="general.list.infodetail.pid.title">Parent page: </label>
+			<label index="general.list.infodetail.title.title">Title: </label>
+			<label index="general.list.infodetail.filenameprefix.title">Filename: </label>
+			<label index="general.list.infodetail.depth.title">Depth: </label>
+			<label index="general.list.infodetail.sourceLangStaticId.title">Language: </label>
+			<label index="general.list.infodetail.default">Default</label>
+			<label index="general.list.infodetail.tablelist.title">Tables: </label>
+			<label index="general.list.infodetail.exclude.title">Exclude: </label>
+			<label index="general.list.infodetail.include.title">Include: </label>
+			<label index="general.list.headline.incfcewithdefaultlanguage.title">Default FCE</label>
+			<label index="general.list.infodetail.displaymode.title">Display mode: </label>
+			<label index="general.list.infodetail.incfcewithdefaultlanguage.title">Include FCE width default language: </label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="general.title">L10N Manager</label>
+			<label index="general.no_data">Es wurden noch keine Einstellungen angelegt.</label>
+			<label index="general.description.message">Wählen Sie eine der folgenden L10N-Manager-Konfigurationen aus, um mit dem Export/Import zu beginnen.</label>
+			<label index="general.list.configuration.title">Verfügbare Konfigurationen:</label>
+			<label index="general.list.headline.info.title">Info</label>
+			<label index="general.list.headline.title.title">Titel</label>
+			<label index="general.list.headline.path.title">Pfad</label>
+			<label index="general.list.headline.depth.title">Ebenen</label>
+			<label index="general.list.headline.pid.title">PID</label>
+			<label index="general.list.headline.tables.title">Tabellen</label>
+			<label index="general.list.headline.exclude.title">Auszuschließen</label>
+			<label index="general.list.headline.include.title">Einzuschließen</label>
+			<label index="general.list.headline.incfcewithdefaultlanguage.title">Default FCE</label>
+
+			<label index="general.list.infodetail.pid.title">Übergeordnete Seite: </label>
+			<label index="general.list.infodetail.title.title">Titel: </label>
+			<label index="general.list.infodetail.filenameprefix.title">Dateiname: </label>
+			<label index="general.list.infodetail.depth.title">Ebenen: </label>
+			<label index="general.list.infodetail.sourceLangStaticId.title">Sprache: </label>
+			<label index="general.list.infodetail.tablelist.title">Tabellen: </label>
+			<label index="general.list.infodetail.exclude.title">Auszuschließen: </label>
+			<label index="general.list.infodetail.include.title">Einzuschließen: </label>
+			<label index="general.list.infodetail.displaymode.title">Anzeigemodus: </label>
+			<label index="general.list.infodetail.incfcewithdefaultlanguage.title">FCE mit Standardsprache einschließen: </label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="general.title">L10N Manager</label>
+			<label index="general.description.message">S'il vous plaît, sélectionnez une des configuration L10N Manager suivantes pour commencer l'exportation/importation.</label>
+			<label index="general.list.configuration.title">Configurations disponibles:</label>
+			<label index="general.list.headline.info.title">Info</label>
+			<label index="general.list.headline.title.title">Titre</label>
+			<label index="general.list.headline.path.title">Chemin</label>
+			<label index="general.list.headline.depth.title">Profondeur</label>
+			<label index="general.list.headline.pid.title">PID</label>
+			<label index="general.list.headline.tables.title">Tableaux</label>
+			<label index="general.list.headline.exclude.title">Exclure</label>
+			<label index="general.list.headline.include.title">Inclure</label>
+			<label index="general.list.infodetail.pid.title">Page parente: </label>
+			<label index="general.list.infodetail.title.title">Titre: </label>
+			<label index="general.list.infodetail.filenameprefix.title">Nom du fichier: </label>
+			<label index="general.list.infodetail.depth.title">Profondeur: </label>
+			<label index="general.list.infodetail.sourceLangStaticId.title">Langue: </label>
+			<label index="general.list.infodetail.tablelist.title">Tableaux: </label>
+			<label index="general.list.infodetail.exclude.title">Exclure: </label>
+			<label index="general.list.infodetail.include.title">Inclure: </label>
+			<label index="general.list.infodetail.displaymode.title">Mode d'affichage: </label>
+			<label index="general.list.infodetail.incfcewithdefaultlanguage.title">Inclure FCE avec langue par défault: </label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="general.title">L10N Manager</label>
+			<label index="general.description.message">Por favor, seleccione una de las siguientes configuraciones para iniciar el exporte/importe.</label>
+			<label index="general.list.configuration.title">Configuraciones disponibles:</label>
+			<label index="general.list.headline.info.title">Información</label>
+			<label index="general.list.headline.title.title">Titulo</label>
+			<label index="general.list.headline.path.title">Localización</label>
+			<label index="general.list.headline.depth.title">Niveles</label>
+			<label index="general.list.headline.pid.title">PID</label>
+			<label index="general.list.headline.tables.title">Tablas</label>
+			<label index="general.list.headline.exclude.title">Excluir</label>
+			<label index="general.list.headline.include.title">Incluir</label>
+			<label index="general.list.infodetail.pid.title">Página primaria: </label>
+			<label index="general.list.infodetail.title.title">Titulo: </label>
+			<label index="general.list.infodetail.filenameprefix.title">Nombre del archivo: </label>
+			<label index="general.list.infodetail.depth.title">Niveles: </label>
+			<label index="general.list.infodetail.sourceLangStaticId.title">Idioma: </label>
+			<label index="general.list.infodetail.tablelist.title">Tablas: </label>
+			<label index="general.list.infodetail.exclude.title">Excluir: </label>
+			<label index="general.list.infodetail.include.title">Incluir: </label>
+			<label index="general.list.infodetail.displaymode.title">Modo display: </label>
+			<label index="general.list.infodetail.incfcewithdefaultlanguage.title">Incluir FCE con idoma estándar: </label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="general.title">L10N Manager</label>
+			<label index="general.description.message">Per favore, seleziona una delle seguenti configurazioni L10N Manager per iniziare la exportazione/importazione.</label>
+			<label index="general.list.configuration.title">Configurazioni disponibli:</label>
+			<label index="general.list.headline.info.title">Info</label>
+			<label index="general.list.headline.title.title">Titolo</label>
+			<label index="general.list.headline.path.title">Percorso</label>
+			<label index="general.list.headline.depth.title">Livelli</label>
+			<label index="general.list.headline.pid.title">PID</label>
+			<label index="general.list.headline.tables.title">Tabelle</label>
+			<label index="general.list.headline.exclude.title">Excludere</label>
+			<label index="general.list.headline.include.title">Includere</label>
+
+			<label index="general.list.infodetail.pid.title">Pagina padre: </label>
+			<label index="general.list.infodetail.title.title">Titolo: </label>
+			<label index="general.list.infodetail.filenameprefix.title">Nome del file: </label>
+			<label index="general.list.infodetail.depth.title">Livelli: </label>
+			<label index="general.list.infodetail.sourceLangStaticId.title">Lingua: </label>
+			<label index="general.list.infodetail.tablelist.title">Tabelle: </label>
+			<label index="general.list.infodetail.exclude.title">Excludere: </label>
+			<label index="general.list.infodetail.include.title">Includere: </label>
+			<label index="general.list.infodetail.displaymode.title">Modo display: </label>
+			<label index="general.list.infodetail.incfcewithdefaultlanguage.title">Includere FCE con lingua default: </label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+	</orig_hash>
+	<orig_text type="array">
+	</orig_text>
+</T3locallang>

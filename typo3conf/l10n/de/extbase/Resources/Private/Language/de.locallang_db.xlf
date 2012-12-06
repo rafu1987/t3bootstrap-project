@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="extbase" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="fe_users.tx_extbase_type" xml:space="preserve" approved="yes">
+        <source>Record Type</source>
+      <target state="translated">Datensatztyp</target></trans-unit>
+      <trans-unit id="fe_users.tx_extbase_type.0" xml:space="preserve" approved="yes">
+        <source>undefined</source>
+      <target state="translated">nicht definiert</target></trans-unit>
+      <trans-unit id="fe_users.tx_extbase_type.Tx_Extbase_Domain_Model_FrontendUser" xml:space="preserve" approved="yes">
+        <source>Tx_Extbase_Domain_Model_FrontendUser</source>
+      <target state="translated">Tx_Extbase_Domain_Model_FrontendUser</target></trans-unit>
+      <trans-unit id="fe_groups.tx_extbase_type" xml:space="preserve" approved="yes">
+        <source>Record Type</source>
+      <target state="translated">Datensatztyp</target></trans-unit>
+      <trans-unit id="fe_groups.tx_extbase_type.0" xml:space="preserve" approved="yes">
+        <source>undefined</source>
+      <target state="translated">nicht definiert</target></trans-unit>
+      <trans-unit id="fe_groups.tx_extbase_type.Tx_Extbase_Domain_Model_FrontendUserGroup" xml:space="preserve" approved="yes">
+        <source>Tx_Extbase_Domain_Model_FrontendUserGroup</source>
+      <target state="translated">Tx_Extbase_Domain_Model_FrontendUserGroup</target></trans-unit>
+      <trans-unit id="task.action" xml:space="preserve" approved="yes">
+        <source>CommandController Command</source>
+      <target state="translated">CommandController-Befehl</target></trans-unit>
+      <trans-unit id="task.name" xml:space="preserve" approved="yes">
+        <source>Extbase CommandController Task</source>
+      <target state="translated">Extbase-CommandController-Task</target></trans-unit>
+      <trans-unit id="task.description" xml:space="preserve" approved="yes">
+        <source>Allows Extbase CommandController commands to be configured and executed through the scheduler framework.</source>
+      <target state="translated">Erlaubt die Konfiguration von CommandController-Befehlen und deren Ausführung über das Planer-Framework.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

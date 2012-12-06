@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Legt eigene Arbeitsumgebungsstufen in TYPO3 fest, welche es Gruppen von Menschen erlauben, in einem vorab definierten Prozess miteinander zu arbeiten. Mehr Informationen über Arbeitsumgebungen erhalten Sie im Dokument "Inside TYPO3".</label>
+      <label index="title.description">Den Namen der Arbeitsumgebungsstufe eingeben.</label>
+      <label index="responsible_persons.description">Legen Sie fest, welche BE-Benutzer für diese Arbeitsumgebungs-Stufe verantwortlich sind. Die ausgewählten BE-Benutzer sind potentielle Empfänger von E-Mail-Benachrichtigungen bei Stufenänderungen.</label>
+      <label index="default_mailcomment.description">Hier kann ein E-Mail-Kommentar angegeben werden, welcher standardmäßig in die Benachrichtigung bei Stufenänderung eingefügt wird. Wird hier kein Kommentar eingegeben ist es möglich vor jeder Stufenänderung einen Kommentar abzugeben.</label>
+      <label index="notification_mode.description">Es stehen drei Einstellungen für Vorschläge für Empfänger bei Stufenänderungen zur Verfüfung. Im Allgemeinen bietet sich die Standardoption an. Genaue Erläuterungen der einzelnen Optionen entnehmen Sie bitte der Dokumentation.</label>
+      <label index="notification_defaults.description">Wählen Sie BE-Benutzer oder BE-Benutzergruppen aus, welche standardmäßig Benachrichtigungen per E-Mail empfangen sollen. Wählen Sie nur Benutzer/Gruppen aus, welche ebenfalls als verantwortlich für diese Stufe festgelegt sind.</label>
+      <label index="allow_notificaton_settings.description">Deaktivieren Sie diese Option um die Felder "Empfänger" sowie "zusätzliche Empfänger" beim Popup-Fenster bzgl. einer Stufen-Änderung zu verbergen. Es werden dennoch im Hintergrund Benachrichtigungen verschickt, jedoch anhand der Einstellungen für die Arbeitsumgebungsstufe.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_tabs_tab">Aufgaben</label>
+      <label index="task_overview">Übersicht</label>
+      <label index="error_header">Fehler</label>
+      <label index="error-access">Kein Zugriff auf dieses Modul.</label>
+      <label index="error_no-instance">Die Klasse "%s" implementiert nicht das Aufgaben-Interface. Das ist aber nötig, um hier angezeigt zu werden.</label>
+      <label index="no-tasks">Noch keine Aufgaben eingetragen.</label>
+      <label index="lReplyAddress">Antwortadresse ist Ihre E-Mail-Adresse</label>
+      <label index="lSelf">Selbst</label>
+      <label index="lSendNew">Nachricht senden</label>
+      <label index="lSendReply">Nachricht beantworten</label>
+      <label index="listSeparator_Groups">__Gruppen:__</label>
+      <label index="lHomedir">Home-Verzeichnis</label>
+      <label index="lNone">[kein]</label>
+      <label index="lCreate">Anlegen</label>
+      <label index="lCancel">Abbrechen</label>
+      <label index="lDelete_warning">Diesen Benutzer tatsächlich löschen?</label>
+      <label index="lDelete">Löschen</label>
+      <label index="lUpdate">Aktualisieren</label>
+      <label index="task_description">Beschreibung, lorem ipsum...</label>
+      <label index="taskcenter-about">&lt;p&gt;Das Menü auf der linken Seite zeigt alle angelegten Aufgaben und erlaubt es, die Aufgaben in einer effizienten Art und Weise zu erledigen.&lt;/p&gt; &lt;ul class="withicons"&gt; &lt;li&gt;Klicken Sie auf den Titel einer Aufgabe, um eine detaillierte Ansicht der Aufgabe zu erhalten.&lt;/li&gt; &lt;li&gt;Klicken Sie auf den Pfeil auf der rechten Seite, um das Untermenü der Aufgabe zu öffnen oder zu schließen.&lt;/li&gt; &lt;/ul&gt; &lt;br /&gt; &lt;strong&gt;Hinweis:&lt;/strong&gt; Stellen Sie das Aufgabenzentrum als Standardmodul nach Ihrem Login ein, um noch schneller zu sein!</label>
+      <label index="taskcenter-adminheader">Aufgabe anlegen</label>
+      <label index="taskcenter-admin">Es ist sehr leicht, das Aufgabenzentrum um eine eigene Aufgabe zu erweitern. Mehr Informationen finden Sie im Handbuch zur Erweiterung "Taskcenter".</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

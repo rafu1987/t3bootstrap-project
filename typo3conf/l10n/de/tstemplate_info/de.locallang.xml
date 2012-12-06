@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="delete">Löschen:</label>
+      <label index="toTop">Nach oben:</label>
+      <label index="fileChanged">Datei geändert</label>
+      <label index="resourceUpdated">Ressource '%s' wurde aktualisiert.</label>
+      <label index="templateInformation">Template-Informationen:</label>
+      <label index="title">Titel des Templates:</label>
+      <label index="sitetitle">Titel der Website:</label>
+      <label index="description">Beschreibung:</label>
+      <label index="allowedExtensions">Erlaubte Erweiterungen:</label>
+      <label index="maxFilesize">Maximale Dateigröße:</label>
+      <label index="uploadResource">Ressource hochladen:</label>
+      <label index="newTextResource">Neue Textressource (geben Sie einen Namen an):</label>
+      <label index="copyResource">Kopie der Ressource erstellen:</label>
+      <label index="updateResourceList">Ressourcenliste aktualisieren:</label>
+      <label index="constants">Konstanten:</label>
+      <label index="file">Datei:</label>
+      <label index="editResource">Ressource bearbeiten:</label>
+      <label index="filesizeExceeded">Dateigröße überschreitet %s KB</label>
+      <label index="notAllowed">Dateien größer als %s KB können nicht bearbeitet werden.</label>
+      <label index="setup">Setup:</label>
+      <label index="resources">Ressourcen:</label>
+      <label index="editToView">(bearbeiten um anzuzeigen, %s Zeilen)</label>
+      <label index="editTemplateRecord">Vollständigen Template-Datensatz bearbeiten</label>
+      <label index="includeTypoScriptFileContent">TypoScript-Dateiinhalte einbinden</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

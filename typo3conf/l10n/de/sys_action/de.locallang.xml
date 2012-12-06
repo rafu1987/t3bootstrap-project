@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="sys_action">Aktion</label>
+      <label index="description">Eine 'Aktion' ist eine Konfiguration einer speziellen Aufgabe, die von zugeordneten Benutzergruppen im Aufgabenzentrum ausgeführt werden kann.</label>
+      <label index="new-sys_action">Neue Aktion erstellen</label>
+      <label index="edit-sys_action">Datensatz bearbeiten</label>
+      <label index="action_error-not-found">Die Aktion existiert nicht</label>
+      <label index="action_not-found">Keine Aktionen gefunden</label>
+      <label index="action_not-found-description">Momentan sind noch keine Aktionen festgelegt worden!</label>
+      <label index="action_error-access">Sie haben keine ausreichenden Rechte, um diesen Datensatz anzuzeigen. Bitte fragen Sie Ihren Administrator, diese für Sie zu setzen.</label>
+      <label index="error-wrong-email">Die E-Mail-Adresse ist falsch.</label>
+      <label index="error-username-empty">Das Feld 'Benutzername' ist leer.</label>
+      <label index="error-password-empty">Das Feld 'Passwort' ist leer.</label>
+      <label index="error-wrong-user">Sie dürfen diesen Benutzer nicht bearbeiten.</label>
+      <label index="success">Erfolg</label>
+      <label index="success-user-created">Der Benutzer wurde erstellt.</label>
+      <label index="success-user-updated">Der Benutzer wurde aktualisiert.</label>
+      <label index="action_noType">Fehler: Für die Aktion wurde kein Typ definiert.</label>
+      <label index="action_notReady">Fehler: Die Konfiguration der Aktion ist nicht abgeschlossen.</label>
+      <label index="action_download_file">Klicken Sie hier, um die exportierten Daten als Datei herunterzuladen.</label>
+      <label index="action_editQuery">Abfrage bearbeiten</label>
+      <label index="action_createQuery">Abfrage erstellen</label>
+      <label index="action_emptyQuery">Abfrage ist leer, erstellen Sie zunächst eine!</label>
+      <label index="action_error">Befehlsfehler!</label>
+      <label index="action_lowlevelMissing">Um eine Abfrage erstellen zu können, muss die Erweiterung "lowlevel" installiert sein.</label>
+      <label index="action_BEu_hidden">Benutzer deaktivieren</label>
+      <label index="action_BEu_username">Benutzername</label>
+      <label index="action_BEu_password">Passwort</label>
+      <label index="action_BEu_realName">Richtiger Name</label>
+      <label index="action_BEu_email">E-Mail</label>
+      <label index="action_BEu_usergroups">Mitglied der Gruppen</label>
+      <label index="action_t2_result">Ergebnis der Anfrage</label>
+      <label index="action_Create">Backend-Benutzer anlegen</label>
+      <label index="action_Update">Backend-Benutzer aktualisieren</label>
+      <label index="action_t1_listOfUsers">Liste der Backend-Benutzer</label>
+      <label index="action_BEu_db_mount">Seitenbaumstartpunkte</label>
+      <label index="action_t4_edit">Zu bearbeitenden Datensatz auswählen:</label>
+      <label index="action_toolbaritem">Systemaktionen öffnen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

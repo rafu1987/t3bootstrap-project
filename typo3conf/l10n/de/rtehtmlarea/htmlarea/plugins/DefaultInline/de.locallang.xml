@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Bold-Tooltip">Fett</label>
+      <label index="Italic-Tooltip">Kursiv</label>
+      <label index="StrikeThrough-Tooltip">Durchgestrichen</label>
+      <label index="Subscript-Tooltip">Tiefgestellt</label>
+      <label index="Superscript-Tooltip">Hochgestellt</label>
+      <label index="Underline-Tooltip">Unterstrichen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

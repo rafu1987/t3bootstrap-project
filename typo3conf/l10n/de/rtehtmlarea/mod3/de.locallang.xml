@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="removeLink">Link entfernen</label>
+      <label index="uploadImage">Bild hochladen</label>
+      <label index="update">Aktualisieren</label>
+      <label index="path">Pfad</label>
+      <label index="page">Seite</label>
+      <label index="file">Datei</label>
+      <label index="extUrl">Externe URL</label>
+      <label index="email">E-Mail</label>
+      <label index="special">Spezial</label>
+      <label index="folderTree">Verzeichnisbaum</label>
+      <label index="files">Dateien</label>
+      <label index="target">Zielfenster</label>
+      <label index="linkRelationship">Beziehung</label>
+      <label index="target_popUpWindow">In neuem Fenster öffnen</label>
+      <label index="target_popUpWindow_width">Breite</label>
+      <label index="target_popUpWindow_height">Höhe</label>
+      <label index="anchor_class">Stil</label>
+      <label index="anchor_title">Titel</label>
+      <label index="newWindow">Neues Fenster</label>
+      <label index="top">Ganzes Fenster</label>
+      <label index="none">Keiner. Neuen Link setzen!</label>
+      <label index="pageTree">Seitenbaum</label>
+      <label index="contentElements">Inhaltselemente</label>
+      <label index="selectRecords">Datensätze auswählen</label>
+      <label index="addToList">Zur Liste hinzufügen...</label>
+      <label index="info">Info</label>
+      <label index="emailAddress">E-Mail-Adresse</label>
+      <label index="setLink">Link setzen</label>
+      <label index="clickToRedrawFullSize">Das Bild ist größer als angezeigt! Zur Anzeige in voller Größe bitte anklicken.</label>
+      <label index="findDragDrop">Das gewünschte Bild suchen, anklicken und in den Editor im Hauptfenster ziehen!</label>
+      <label index="noWebFolder">Sie können Bilder aus diesem Verzeichnis nicht herüberziehen, da sie im internen Bereich des Servers liegen.</label>
+      <label index="currentLink">Aktueller Link</label>
+      <label index="invalidChar">FEHLER: Ungültiges Zeichen im Dateipfad gefunden (%s). Datei kann nicht hinzugefügt werden!</label>
+      <label index="page_id">Seiten-ID</label>
+      <label index="query_parameters">Abfrageparameter</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

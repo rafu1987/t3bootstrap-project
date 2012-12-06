@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Seite anzeigen</label>
+      <label index="mlang_labels_tabdescr">Zeigt die aktuelle Seite an und lässt Sie den Inhalt direkt bearbeiten.</label>
+      <label index="mlang_tabs_tab">Anzeigen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

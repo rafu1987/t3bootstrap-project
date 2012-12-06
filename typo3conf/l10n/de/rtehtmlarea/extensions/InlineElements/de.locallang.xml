@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="No markup">Kein Textformat</label>
+      <label index="Bold">Fett</label>
+      <label index="BiDi override">BiDi übersteuern</label>
+      <label index="Large text">Großer Text</label>
+      <label index="Citation">Zitatquelle</label>
+      <label index="Code">Code</label>
+      <label index="Definition">Definition</label>
+      <label index="Deleted text">Gelöschter Text</label>
+      <label index="Emphasis">Betonung</label>
+      <label index="Inserted text">Eingefügter Text</label>
+      <label index="Italic">Kursiv</label>
+      <label index="Keyboard">Tastatur</label>
+      <label index="Label">Label</label>
+      <label index="Monospaced text">Text mit dicktengleicher Schrift</label>
+      <label index="Quotation">Zitat</label>
+      <label index="Sample">Beispiel</label>
+      <label index="Small text">Kleiner Text</label>
+      <label index="Style container">Stilbehälter</label>
+      <label index="Strike-through">Durchgestrichen</label>
+      <label index="Strong emphasis">Starke Betonung</label>
+      <label index="Subscript">Tiefgestellt</label>
+      <label index="Superscript">Hochgestellt</label>
+      <label index="Underline">Unterstrichen</label>
+      <label index="Variable">Variable</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

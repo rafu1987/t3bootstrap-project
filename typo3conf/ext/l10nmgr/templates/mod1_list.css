@@ -1,0 +1,23 @@
+table#translationObjectList {
+	text-align: left;
+	font-size: 12px;
+	font-family: verdana;
+	background: #c0c0c0;
+}
+
+table#translationObjectList thead tr,
+table#translationObjectList tfoot tr {
+	background: #c0c0c0;
+}
+
+table#translationObjectList tbody tr {
+	background: #f0f0f0;
+}
+
+td, th {
+	border: 1px solid white;
+}
+
+table#translationObjectList tr.odd {
+	background-color:#cdd;
+}

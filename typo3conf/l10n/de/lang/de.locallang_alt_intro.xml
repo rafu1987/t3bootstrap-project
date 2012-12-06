@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="introtext">Content-Management-System</label>
+      <label index="introtext2">Dies ist eine kurze Beschreibung der vorhandenen Module:</label>
+      <label index="endText">Die verfügbaren Funktionen können abhängig von der Website und Ihren Zugriffsrechten variieren.</label>
+      <label index="userInfo">Sie sind angemeldet als:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

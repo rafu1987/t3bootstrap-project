@@ -1,0 +1,4 @@
+
+page.includeCSS {
+	t3jquery-ui-ui-lightness = {$plugin.tx_t3jquery.file.UI-UI-Lightness}
+}

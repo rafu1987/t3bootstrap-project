@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="default_search_word_entry" xml:space="preserve" approved="yes">
+        <source>Search for</source>
+      <target state="translated">Suche nach</target><note>100%</note></trans-unit>
+      <trans-unit id="submit_button_label" xml:space="preserve" approved="yes">
+        <source>Search</source>
+      <target state="translated">Suche</target></trans-unit>
+      <trans-unit id="opt_type_0" xml:space="preserve" approved="yes">
+        <source>Distinct word</source>
+      <target state="translated">Ganzes Wort</target></trans-unit>
+      <trans-unit id="opt_type_1" xml:space="preserve" approved="yes">
+        <source>Part of word</source>
+      <target state="translated">Wortteil</target></trans-unit>
+      <trans-unit id="opt_type_2" xml:space="preserve" approved="yes">
+        <source>First part of word</source>
+      <target state="translated">Wortanfang</target></trans-unit>
+      <trans-unit id="opt_type_3" xml:space="preserve" approved="yes">
+        <source>Last part of word</source>
+      <target state="translated">Wortende</target></trans-unit>
+      <trans-unit id="opt_type_10" xml:space="preserve" approved="yes">
+        <source>Sounds like</source>
+      <target state="translated">Aussprache</target></trans-unit>
+      <trans-unit id="opt_type_20" xml:space="preserve" approved="yes">
+        <source>Sentence</source>
+      <target state="translated">Ganzer Satz</target></trans-unit>
+      <trans-unit id="opt_defOp_0" xml:space="preserve" approved="yes">
+        <source>All words (AND)</source>
+      <target state="translated">Alle Wörter (UND)</target></trans-unit>
+      <trans-unit id="opt_defOp_1" xml:space="preserve" approved="yes">
+        <source>Any words (OR)</source>
+      <target state="translated">Jedes Wort (ODER)</target></trans-unit>
+      <trans-unit id="opt_sections_0" xml:space="preserve" approved="yes">
+        <source>Whole site</source>
+      <target state="translated">Ganze Website</target></trans-unit>
+      <trans-unit id="opt_sections_-1" xml:space="preserve" approved="yes">
+        <source>Only this page</source>
+      <target state="translated">Nur diese Seite</target></trans-unit>
+      <trans-unit id="opt_sections_-2" xml:space="preserve" approved="yes">
+        <source>Top + level 1</source>
+      <target state="translated">Homepage + Ebene 1</target></trans-unit>
+      <trans-unit id="opt_sections_-3" xml:space="preserve" approved="yes">
+        <source>Level 2 and out</source>
+      <target state="translated">Ebene 2 und tiefer</target></trans-unit>
+      <trans-unit id="opt_freeIndexUid_-1" xml:space="preserve" approved="yes">
+        <source>All, mixed</source>
+      <target state="translated">Alle, gemischt</target></trans-unit>
+      <trans-unit id="opt_freeIndexUid_-2" xml:space="preserve" approved="yes">
+        <source>All, categorized</source>
+      <target state="translated">Alle, kategorisiert</target></trans-unit>
+      <trans-unit id="opt_freeIndexUid_0" xml:space="preserve" approved="yes">
+        <source>Pages</source>
+      <target state="translated">Seiten</target></trans-unit>
+      <trans-unit id="opt_freeIndexUid_header_-1" xml:space="preserve" approved="yes">
+        <source>Mixed categories</source>
+      <target state="translated">gemischte Kategorien</target></trans-unit>
+      <trans-unit id="opt_freeIndexUid_header_0" xml:space="preserve" approved="yes">
+        <source>Website Pages</source>
+      <target state="translated">Web-Seiten</target></trans-unit>
+      <trans-unit id="opt_media_-1" xml:space="preserve" approved="yes">
+        <source>All media</source>
+      <target state="translated">Alle Medien</target></trans-unit>
+      <trans-unit id="opt_media_0" xml:space="preserve" approved="yes">
+        <source>Internal pages</source>
+      <target state="translated">Interne Seiten</target></trans-unit>
+      <trans-unit id="opt_media_-2" xml:space="preserve" approved="yes">
+        <source>All External</source>
+      <target state="translated">Alle externen Seiten</target></trans-unit>
+      <trans-unit id="opt_order_rank_flag" xml:space="preserve" approved="yes">
+        <source>Weight/Frequency</source>
+      <target state="translated">Trefferquote/Vorkommen</target></trans-unit>
+      <trans-unit id="opt_order_rank_freq" xml:space="preserve" approved="yes">
+        <source>Frequency</source>
+      <target state="translated">Vorkommen</target></trans-unit>
+      <trans-unit id="opt_order_rank_first" xml:space="preserve" approved="yes">
+        <source>Close to top</source>
+      <target state="translated">Nähe zum Dokumentanfang</target></trans-unit>
+      <trans-unit id="opt_order_rank_count" xml:space="preserve" approved="yes">
+        <source>Number of words</source>
+      <target state="translated">Anzahl der Worte</target></trans-unit>
+      <trans-unit id="opt_order_mtime" xml:space="preserve" approved="yes">
+        <source>Date Modified</source>
+      <target state="translated">Letzte Änderung</target></trans-unit>
+      <trans-unit id="opt_order_title" xml:space="preserve" approved="yes">
+        <source>Document title</source>
+      <target state="translated">Dokumententitel</target></trans-unit>
+      <trans-unit id="opt_order_crdate" xml:space="preserve" approved="yes">
+        <source>Creation date</source>
+      <target state="translated">Erstelldatum</target></trans-unit>
+      <trans-unit id="opt_group_sections" xml:space="preserve" approved="yes">
+        <source>Section hierarchy</source>
+      <target state="translated">Bereichshierarchie</target></trans-unit>
+      <trans-unit id="opt_group_flat" xml:space="preserve" approved="yes">
+        <source>Flat list</source>
+      <target state="translated">Flache Liste</target></trans-unit>
+      <trans-unit id="opt_lang_-1" xml:space="preserve" approved="yes">
+        <source>All languages</source>
+      <target state="translated">Alle Sprachen</target></trans-unit>
+      <trans-unit id="opt_lang_0" xml:space="preserve" approved="yes">
+        <source>Default</source>
+      <target state="translated">Standard</target></trans-unit>
+      <trans-unit id="opt_desc_0" xml:space="preserve" approved="yes">
+        <source>Highest first</source>
+      <target state="translated">Höchste zuerst</target></trans-unit>
+      <trans-unit id="opt_desc_1" xml:space="preserve" approved="yes">
+        <source>Lowest first</source>
+      <target state="translated">Geringste zuerst</target></trans-unit>
+      <trans-unit id="opt_RL1" xml:space="preserve" approved="yes">
+        <source>Level 1:</source>
+      <target state="translated">Ebene 1:</target></trans-unit>
+      <trans-unit id="opt_RL1ALL" xml:space="preserve" approved="yes">
+        <source>All pages on level 1</source>
+      <target state="translated">Alle Seiten auf Ebene 1</target></trans-unit>
+      <trans-unit id="opt_RL2" xml:space="preserve" approved="yes">
+        <source>- Level 2:</source>
+      <target state="translated">- Ebene 2:</target></trans-unit>
+      <trans-unit id="opt_RL2ALL" xml:space="preserve" approved="yes">
+        <source>- All pages on level 2</source>
+      <target state="translated">- alle Seiten auf Ebene 2</target></trans-unit>
+      <trans-unit id="form_legend" xml:space="preserve" approved="yes">
+        <source>Search form</source>
+      <target state="translated">Suchformular</target></trans-unit>
+      <trans-unit id="form_searchFor" xml:space="preserve" approved="yes">
+        <source>Search for:</source>
+      <target state="translated">Suchen nach:</target></trans-unit>
+      <trans-unit id="form_extResume" xml:space="preserve" approved="yes">
+        <source>Extended resume</source>
+      <target state="translated">Erweiterte Vorschau</target></trans-unit>
+      <trans-unit id="form_atATime" xml:space="preserve" approved="yes">
+        <source>at a time</source>
+      <target state="translated">pro Seite</target></trans-unit>
+      <trans-unit id="form_orderBy" xml:space="preserve" approved="yes">
+        <source>Order by:</source>
+      <target state="translated">Sortieren nach:</target></trans-unit>
+      <trans-unit id="form_fromSection" xml:space="preserve" approved="yes">
+        <source>From section:</source>
+      <target state="translated">Aus dem Bereich:</target></trans-unit>
+      <trans-unit id="form_freeIndexUid" xml:space="preserve" approved="yes">
+        <source>Category:</source>
+      <target state="translated">Kategorie:</target></trans-unit>
+      <trans-unit id="form_searchIn" xml:space="preserve" approved="yes">
+        <source>Search in:</source>
+      <target state="translated">Suche in:</target></trans-unit>
+      <trans-unit id="form_match" xml:space="preserve" approved="yes">
+        <source>Match:</source>
+      <target state="translated">Vergleich:</target></trans-unit>
+      <trans-unit id="form_style" xml:space="preserve" approved="yes">
+        <source>Style:</source>
+      <target state="translated">Ansicht:</target></trans-unit>
+      <trans-unit id="rules_header" xml:space="preserve" approved="yes">
+        <source>Rules:</source>
+      <target state="translated">Regeln:</target></trans-unit>
+      <trans-unit id="rules_text" xml:space="preserve" approved="yes">
+        <source>Only words with 2 or more characters are accepted
+Max 200 chars total
+Space is used to split words, "" can be used to search for a whole string (not indexed search then)
+AND, OR and NOT are prefix words, overruling the default operator
++/|/- equals AND, OR and NOT as operators.
+All search words are converted to lowercase.</source>
+      <target state="translated">Nur Wörter mit 2 oder mehr Zeichen werden akzeptiert. Maximal 200 Zeichen insgesamt. Leerzeichen werden zur Trennung von Worten verwendet, "" kann für die Suche nach ganzen Zeichenfolgen benutzt werden (keine Indexsuche). UND, ODER und NICHT sind Suchoperatoren, die den standardmäßigen Operator überschreiben. +/|/- entspricht UND, ODER und NICHT als Operatoren. Alle Suchwörter werden zu Kleinschreibung konvertiert.</target></trans-unit>
+      <trans-unit id="searchFor" xml:space="preserve" approved="yes">
+        <source>Search for</source>
+      <target state="translated">Suche nach</target></trans-unit>
+      <trans-unit id="searchFor_or" xml:space="preserve" approved="yes">
+        <source>or</source>
+      <target state="translated">oder</target></trans-unit>
+      <trans-unit id="searchFor_and" xml:space="preserve" approved="yes">
+        <source>and</source>
+      <target state="translated">und</target></trans-unit>
+      <trans-unit id="searchFor_butNot" xml:space="preserve" approved="yes">
+        <source>but not</source>
+      <target state="translated">aber nicht</target></trans-unit>
+      <trans-unit id="noResults" xml:space="preserve" approved="yes">
+        <source>NO results found.</source>
+      <target state="translated">KEINE Ergebnisse gefunden.</target></trans-unit>
+      <trans-unit id="inSection" xml:space="preserve" approved="yes">
+        <source>in the section</source>
+      <target state="translated">im Bereich</target></trans-unit>
+      <trans-unit id="inNsection" xml:space="preserve" approved="yes">
+        <source>in %s section:</source>
+      <target state="translated">in %s Bereich:</target></trans-unit>
+      <trans-unit id="inNsections" xml:space="preserve" approved="yes">
+        <source>in %s sections:</source>
+      <target state="translated">in %s Bereichen:</target></trans-unit>
+      <trans-unit id="word_page" xml:space="preserve" approved="yes">
+        <source>page</source>
+      <target state="translated">Seite</target></trans-unit>
+      <trans-unit id="word_pages" xml:space="preserve" approved="yes">
+        <source>pages</source>
+      <target state="translated">Seiten</target></trans-unit>
+      <trans-unit id="unnamedSection" xml:space="preserve" approved="yes">
+        <source>Other</source>
+      <target state="translated">Andere</target></trans-unit>
+      <trans-unit id="link_regularSearch" xml:space="preserve" approved="yes">
+        <source>Regular search</source>
+      <target state="translated">Normale Suche</target></trans-unit>
+      <trans-unit id="link_advancedSearch" xml:space="preserve" approved="yes">
+        <source>Advanced search</source>
+      <target state="translated">Erweiterte Suche</target></trans-unit>
+      <trans-unit id="res_path" xml:space="preserve" approved="yes">
+        <source>Path:</source>
+      <target state="translated">Pfad:</target></trans-unit>
+      <trans-unit id="res_modified" xml:space="preserve" approved="yes">
+        <source>Modified:</source>
+      <target state="translated">Geändert:</target></trans-unit>
+      <trans-unit id="res_created" xml:space="preserve" approved="yes">
+        <source>Created:</source>
+      <target state="translated">Erstellt:</target></trans-unit>
+      <trans-unit id="res_size" xml:space="preserve" approved="yes">
+        <source>Size:</source>
+      <target state="translated">Größe:</target></trans-unit>
+      <trans-unit id="res_noResume" xml:space="preserve" approved="yes">
+        <source>Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</source>
+      <target state="translated">Hinweis: Der Inhalt dieser Seite entspricht nicht exakt der Suche. Die Seitenvorschau wird nicht angezeigt.</target></trans-unit>
+      <trans-unit id="res_otherMatching" xml:space="preserve" approved="yes">
+        <source>Other matching pages in the same document:</source>
+      <target state="translated">Andere passenden Seiten im selben Dokument:</target></trans-unit>
+      <trans-unit id="res_otherPageAsWell" xml:space="preserve" approved="yes">
+        <source>INFO: There was another page indexed as well... Probably indexed with another or no usergroup.</source>
+      <target state="translated">Information: Eine andere Seite wurde auch indexiert... Diese wurde vermutlich mit einer anderen oder keiner Benutzergruppe indexiert.</target></trans-unit>
+      <trans-unit id="res_memberGroups" xml:space="preserve" approved="yes">
+        <source>Require membership of group numbers %s</source>
+      <target state="translated">Erfordert Mitgliedschaft der Gruppe(n) Nummer %s</target></trans-unit>
+      <trans-unit id="pi_list_browseresults_prev" xml:space="preserve" approved="yes">
+        <source>&lt; Previous</source>
+      <target state="translated">&lt; Zurück</target></trans-unit>
+      <trans-unit id="pi_list_browseresults_page" xml:space="preserve" approved="yes">
+        <source>Page</source>
+      <target state="translated">Seite</target></trans-unit>
+      <trans-unit id="pi_list_browseresults_next" xml:space="preserve" approved="yes">
+        <source>Next &gt;</source>
+      <target state="translated">Nächste &gt;</target></trans-unit>
+      <trans-unit id="pi_list_browseresults_display" xml:space="preserve" approved="yes">
+        <source>Displaying results ###TAG_BEGIN###%s to %s###TAG_END### out of ###TAG_BEGIN###%s###TAG_END###</source>
+      <target state="translated">Anzeige der Ergebnisse ###TAG_BEGIN###%s bis %s###TAG_END### von insgesamt ###TAG_BEGIN###%s###TAG_END###</target></trans-unit>
+      <trans-unit id="local_operator_AND" xml:space="preserve" approved="yes">
+        <source>AND</source>
+      <target state="translated">UND</target></trans-unit>
+      <trans-unit id="local_operator_OR" xml:space="preserve" approved="yes">
+        <source>OR</source>
+      <target state="translated">ODER</target></trans-unit>
+      <trans-unit id="local_operator_NOT" xml:space="preserve" approved="yes">
+        <source>NOT</source>
+      <target state="translated">NICHT</target></trans-unit>
+      <trans-unit id="makerating_addToCurrentSearch" xml:space="preserve" approved="yes">
+        <source>Add to current search words</source>
+      <target state="translated">Den derzeitigen Suchbegriffen hinzufügen</target></trans-unit>
+      <trans-unit id="maketitle_matches" xml:space="preserve" approved="yes">
+        <source>matches</source>
+      <target state="translated">Treffer</target></trans-unit>
+    </body>
+  </file>
+</xliff>

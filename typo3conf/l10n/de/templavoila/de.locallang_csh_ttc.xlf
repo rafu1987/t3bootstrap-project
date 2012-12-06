@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:55:14 UTC 2011" product-name="templavoila">
+    <header/>
+    <body>
+      <trans-unit id="tx_templavoila_ds.description" approved="yes">
+        <source>Choose a Data Structure for this Flexible Content Element</source>
+        <target state="translated">Wählen Sie eine Datenstruktur für dieses flexible Inhaltselement.</target>
+      </trans-unit>
+      <trans-unit id="tx_templavoila_to.description" approved="yes">
+        <source>Select a Template Object that automatically maps the Data Structure to the HTML template</source>
+        <target state="translated">Wählen Sie ein Template-Objekt, welches automatisch die Datenstruktur auf das HTML-Template abbildet.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Wählen Sie ein Vorlagen-Objekt, welches automatisch die Datenstruktur mit der HTML-Vorlage verknüpft.</target></alt-trans></trans-unit>
+      <trans-unit id="tx_templavoila_flex.description" approved="yes">
+        <source>Fill in the flexible content for this content element structure.</source>
+        <target state="translated">Geben Sie den flexiblen Inhalt für diese Inhaltselement-Struktur ein.</target>
+      </trans-unit>
+      <trans-unit id="tx_templavoila_pito.description">
+        <source>[FILL IN] tx_templavoila_pito</source>
+      <target/><alt-trans xml:space="preserve" origin="ulinn"><target>[FILL IN] tx_templavoila_pito</target></alt-trans></trans-unit>
+    </body>
+  </file>
+</xliff>

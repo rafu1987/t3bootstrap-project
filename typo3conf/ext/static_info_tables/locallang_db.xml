@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Static Info Tables</description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="static_territories.title">Territory</label>
+            <label index="static_territories_item.tr_iso_nr">ISO nr territory code:</label>
+            <label index="static_territories_item.tr_parent_iso_nr">Parent territory code:</label>
+            <label index="static_territories_item.tr_name_en">Name (EN):</label>
+            <label index="static_countries.title">Countries</label>
+            <label index="static_countries_item.cn_iso_2">ISO 3166-1 A2 Country code:</label>
+            <label index="static_countries_item.cn_iso_3">ISO 3166-1 A3 Country code:</label>
+            <label index="static_countries_item.cn_iso_nr">ISO 3166-1 Nr Country code:</label>
+            <label index="static_countries_item.cn_official_name_local">Official name (local):</label>
+            <label index="static_countries_item.cn_official_name_en">Official name (EN):</label>
+            <label index="static_countries_item.cn_capital">Capital:</label>
+            <label index="static_countries_item.cn_tldomain">Top level domain:</label>
+            <label index="static_countries_item.cn_currency_iso_nr">ISO 4217 Nr Currency code:</label>
+            <label index="static_countries_item.cn_currency_iso_3">ISO 4217 A3 Currency code:</label>
+            <label index="static_countries_item.cn_phone">Int. phone prefix:</label>
+            <label index="static_countries_item.cn_uno_member">UN member:</label>
+            <label index="static_countries_item.cn_eu_member">EU member:</label>
+            <label index="static_countries_item.cn_address_format">Address format:</label>
+            <label index="static_countries_item.cn_address_format_1">zip city</label>
+            <label index="static_countries_item.cn_address_format_2">city zip</label>
+            <label index="static_countries_item.cn_address_format_3">city region-code zip</label>
+            <label index="static_countries_item.cn_address_format_4">city (region-name) zip</label>
+            <label index="static_countries_item.cn_address_format_5">city/zip</label>
+            <label index="static_countries_item.cn_address_format_6">zip city, region-code</label>
+            <label index="static_countries_item.cn_address_format_7">zip city region-code</label>
+            <label index="static_countries_item.cn_address_format_8">zip city (region-name)</label>
+            <label index="static_countries_item.cn_address_format_9">city - region-code/zip</label>
+            <label index="static_countries_item.cn_zone_flag">Zone flag:</label>
+            <label index="static_countries_item.cn_short_local">Short name (local):</label>
+            <label index="static_countries_item.cn_short_en">Short name (EN):</label>
+            <label index="static_country_zones.title">Country subdivisions</label>
+            <label index="static_country_zones_item.zn_country_iso_nr">ISO 3166-1 Nr Country code:</label>
+            <label index="static_country_zones_item.zn_country_iso_2">ISO 3166-1 A2 Country code:</label>
+            <label index="static_country_zones_item.zn_country_iso_3">ISO 3166-1 A3 Country code:</label>
+            <label index="static_country_zones_item.zn_code">ISO 3166-2 Country Zone code:</label>
+            <label index="static_country_zones_item.zn_name_en">Name (EN):</label>
+            <label index="static_languages.title">Languages</label>
+            <label index="static_languages_item.lg_iso_2">ISO 639-1 A2 Language code:</label>
+            <label index="static_languages_item.lg_collate_locale">Collating locale:</label>
+            <label index="static_languages_item.lg_name_en">Name (EN):</label>
+            <label index="static_languages_item.lg_typo3">Typo3 language code:</label>
+            <label index="static_languages_item.lg_sacred">Sacred language:</label>
+            <label index="static_languages_item.lg_constructed">Constructed language:</label>
+            <label index="static_currencies.title">Currencies</label>
+            <label index="static_currencies_item.cu_iso_3">ISO 4217 A3 Currency code:</label>
+            <label index="static_currencies_item.cu_iso_nr">ISO 4217 Nr Currency code:</label>
+            <label index="static_currencies_item.cu_name_en">Name (EN):</label>
+            <label index="static_currencies_item.cu_sub_name_en">Sub name (EN):</label>
+            <label index="static_currencies_item.cu_symbol_left">Symbol left:</label>
+            <label index="static_currencies_item.cu_symbol_right">Symbol right:</label>
+            <label index="static_currencies_item.cu_thousands_point">Thousands point:</label>
+            <label index="static_currencies_item.cu_decimal_point">Decimal point:</label>
+            <label index="static_currencies_item.cu_decimal_digits">Decimal digits:</label>
+            <label index="static_currencies_item.cu_sub_divisor">Divisor:</label>
+            <label index="static_currencies_item.cu_sub_symbol_left">Sub symbol left:</label>
+            <label index="static_currencies_item.cu_sub_symbol_right">Sub symbol right:</label>
+			<label index="static_markets.title">Markets</label>
+			<label index="static_markets.country">Country:</label>
+			<label index="static_markets.mic">MIC:</label>
+			<label index="static_markets.institution_description">Institution:</label>
+			<label index="static_markets.acronym">Acronym:</label>
+			<label index="static_markets.city">City:</label>
+			<label index="static_markets.url">URL:</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="static_countries.title">Länder</label>
+            <label index="static_countries_item.cn_iso_2">Ländercode nach ISO 3166 A2:</label>
+            <label index="static_countries_item.cn_iso_3">Ländercode nach ISO 3166 A3:</label>
+            <label index="static_countries_item.cn_iso_nr">Ländercode nach ISO 3166 Nr:</label>
+            <label index="static_countries_item.cn_official_name_local">Offizieller Name (lokal):</label>
+            <label index="static_countries_item.cn_official_name_en">Offizieller Name (EN):</label>
+            <label index="static_countries_item.cn_capital">Hauptstadt:</label>
+            <label index="static_countries_item.cn_tldomain">Toplevel Domain:</label>
+            <label index="static_countries_item.cn_currency_iso_nr">Währungscode nach ISO 4217 Nr:</label>
+            <label index="static_countries_item.cn_currency_iso_3">Währungscode nach ISO 4217 A3:</label>
+            <label index="static_countries_item.cn_phone">Tel. Vorwahl:</label>
+            <label index="static_countries_item.cn_eu_member">EU-Mitglied:</label>
+            <label index="static_countries_item.cn_address_format">Adressformat:</label>
+            <label index="static_countries_item.cn_address_format_1">PLZ Ort</label>
+            <label index="static_countries_item.cn_address_format_2">Ort PLZ</label>
+            <label index="static_countries_item.cn_address_format_3">Ort Regionskürzel PLZ</label>
+            <label index="static_countries_item.cn_address_format_4">Stadt (Region) PLZ</label>
+            <label index="static_countries_item.cn_address_format_5">Stadt/PLZ</label>
+            <label index="static_countries_item.cn_address_format_6">PLZ Ort, Regionskürzel</label>
+            <label index="static_countries_item.cn_address_format_7">PLZ Ort (Regionskürzel)</label>
+            <label index="static_countries_item.cn_address_format_8">PLZ Stadt (Region)</label>
+            <label index="static_countries_item.cn_zone_flag">Zone flag:</label>
+            <label index="static_countries_item.cn_short_local">Kurzname (lokal):</label>
+            <label index="static_countries_item.cn_short_en">Kurzname (EN):</label>
+            <label index="static_country_zones.title">Landesteile (Bundesländer)</label>
+            <label index="static_country_zones_item.zn_country_iso_nr">Ländercode nach ISO 3166 Nr:</label>
+            <label index="static_country_zones_item.zn_country_iso_2">Ländercode nach ISO 3166 A2:</label>
+            <label index="static_country_zones_item.zn_country_iso_3">Ländercode nach ISO 3166 A3:</label>
+            <label index="static_country_zones_item.zn_code">Landesgliederungscode nach ISO 3166-2:</label>
+            <label index="static_languages.title">Sprachen</label>
+            <label index="static_languages_item.lg_iso_2">Sprachcode nach ISO 639-1 A2:</label>
+            <label index="static_languages_item.lg_name_en">Name (EN):</label>
+            <label index="static_languages_item.lg_typo3">Typo3 Sprachcode:</label>
+            <label index="static_currencies.title">Währungen</label>
+            <label index="static_currencies_item.cu_iso_3">Währungscode nach ISO 4217 A3:</label>
+            <label index="static_currencies_item.cu_iso_nr">Währungscode nach ISO 4217 Nr:</label>
+            <label index="static_currencies_item.cu_name_en">Name (EN):</label>
+            <label index="static_currencies_item.cu_sub_name_en">Sub-Name (EN):</label>
+            <label index="static_currencies_item.cu_symbol_left">Symbol links:</label>
+            <label index="static_currencies_item.cu_symbol_right">Symbol rechts:</label>
+            <label index="static_currencies_item.cu_thousands_point">Tausender Punkt:</label>
+            <label index="static_currencies_item.cu_decimal_point">Dezimal Punkt:</label>
+            <label index="static_currencies_item.cu_decimal_digits">Dezimalstellen:</label>
+            <label index="static_currencies_item.cu_sub_divisor">Divisor:</label>
+            <label index="static_currencies_item.cu_sub_symbol_left">Sub-Symbol links:</label>
+            <label index="static_currencies_item.cu_sub_symbol_right">Sub-Symbol rechts:</label>
+			<label index="static_markets.title">Marktplätze</label>
+			<label index="static_markets.country">Land:</label>
+			<label index="static_markets.mic">MIC:</label>
+			<label index="static_markets.institution_description">Institution:</label>
+			<label index="static_markets.acronym">Abkürzung:</label>
+			<label index="static_markets.city">Stadt:</label>
+			<label index="static_markets.url">URL:</label>
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+            <label index="static_countries_item.cn_iso_2">Codice nazione ISO 3166-1 A2:</label>
+            <label index="static_countries_item.cn_iso_3">Codice nazione ISO 3166-1 A3:</label>
+            <label index="static_countries_item.cn_iso_nr">Numero codice nazione ISO 3166-1 Nr:</label>
+            <label index="static_countries_item.cn_official_name_local">Nome ufficiale (locale):</label>
+            <label index="static_countries_item.cn_official_name_en">Nome ufficiale (EN):</label>
+            <label index="static_countries_item.cn_capital">Capitale:</label>
+            <label index="static_countries_item.cn_tldomain">Dominio di primo livello:</label>
+            <label index="static_countries_item.cn_currency_iso_nr">Numero codice valuta ISO 4217 Nr:</label>
+            <label index="static_countries_item.cn_currency_iso_3">Codice valuta ISO 4217 A3:</label>
+            <label index="static_countries_item.cn_phone">Prefisso internazionale:</label>
+            <label index="static_countries_item.cn_eu_member">Membro UE:</label>
+            <label index="static_countries_item.cn_address_format">Formato indirizzo:</label>
+            <label index="static_countries_item.cn_address_format_1">CAP città</label>
+            <label index="static_countries_item.cn_address_format_2">città cap</label>
+            <label index="static_countries_item.cn_address_format_3">città regione cap</label>
+            <label index="static_countries_item.cn_zone_flag">Zone flag:</label>
+            <label index="static_countries_item.cn_short_local">Nome breve (locale):</label>
+            <label index="static_countries_item.cn_short_en">Nome breve (EN):</label>
+            <label index="static_country_zones_item.zn_country_iso_nr">Numero codice nazione ISO:</label>
+            <label index="static_country_zones_item.zn_country_iso_2">Codice nazione ISO 2:</label>
+            <label index="static_country_zones_item.zn_country_iso_3">Codice nazione ISO 3:</label>
+            <label index="static_country_zones_item.zn_code">Codice zona:</label>
+            <label index="static_languages_item.lg_iso_2">Codice lingua ISO 2:</label>
+            <label index="static_languages_item.lg_name_en">Nome (EN):</label>
+            <label index="static_currencies_item.cu_iso_3">Codice valuta ISO 3:</label>
+            <label index="static_currencies_item.cu_iso_nr">Numero codice valuta ISO:</label>
+            <label index="static_currencies_item.cu_name_en">Nome (EN):</label>
+            <label index="static_currencies_item.cu_sub_name_en">Nome decimali (EN):</label>
+            <label index="static_currencies_item.cu_symbol_left">Simbolo a sinistra:</label>
+            <label index="static_currencies_item.cu_symbol_right">Simbolo a destra:</label>
+            <label index="static_currencies_item.cu_thousands_point">Simbolo raggruppamento cifre:</label>
+            <label index="static_currencies_item.cu_decimal_point">Separatore decimale:</label>
+            <label index="static_currencies_item.cu_decimal_digits">Cifre decimali:</label>
+            <label index="static_currencies_item.cu_sub_divisor">Rapporto decimali/unità:</label>
+            <label index="static_currencies_item.cu_sub_symbol_left">Simbolo decimali a sinistra:</label>
+            <label index="static_currencies_item.cu_sub_symbol_right">Simbolo decimali a destra:</label>
+        </languageKey>
+        <languageKey index="fr" type="array">
+            <label index="static_territories.title">Territoire</label>
+            <label index="static_territories_item.tr_iso_nr">Code de territoire:</label>
+            <label index="static_territories_item.tr_parent_iso_nr">Code du territoire contenant celui-ci:</label>
+            <label index="static_territories_item.tr_name_en">Nom (EN):</label>
+            <label index="static_countries.title">Pays</label>
+            <label index="static_countries_item.cn_iso_2">Code de pays ISO 3166-1 A2:</label>
+            <label index="static_countries_item.cn_iso_3">Code de pays ISO 3166-1 A3:</label>
+            <label index="static_countries_item.cn_iso_nr">Code de pays ISO 3166-1 numérique:</label>
+            <label index="static_countries_item.cn_official_name_local">Nom officiel (local):</label>
+            <label index="static_countries_item.cn_official_name_en">Nom officiel (EN):</label>
+            <label index="static_countries_item.cn_capital">Capitale:</label>
+            <label index="static_countries_item.cn_tldomain">Domaine de premier niveau:</label>
+            <label index="static_countries_item.cn_currency_iso_nr">Code de devise ISO 4217 numérique:</label>
+            <label index="static_countries_item.cn_currency_iso_3">Code de devise ISO 4217 A3:</label>
+            <label index="static_countries_item.cn_phone">Préfixe téléphonique international:</label>
+            <label index="static_countries_item.cn_uno_member">Membre de l'ONU:</label>
+            <label index="static_countries_item.cn_eu_member">Membre de l'Union européenne:</label>
+            <label index="static_countries_item.cn_address_format">Format d'adresse:</label>
+            <label index="static_countries_item.cn_address_format_1">code-postal  localité</label>
+            <label index="static_countries_item.cn_address_format_2">localité code-postal</label>
+            <label index="static_countries_item.cn_address_format_3">localité code-de-région code-postal</label>
+            <label index="static_countries_item.cn_address_format_4">localité (nom-de-région) code-postal</label>
+            <label index="static_countries_item.cn_address_format_5">localité/code-postal</label>
+            <label index="static_countries_item.cn_address_format_6">code-postal localité, code-de-région</label>
+            <label index="static_countries_item.cn_address_format_7">code-postal localité code-de-région</label>
+            <label index="static_countries_item.cn_address_format_8">code-postal localité (nom-de-région)</label>
+            <label index="static_countries_item.cn_address_format_9">localité - code-de-région/code-postal</label>
+            <label index="static_countries_item.cn_zone_flag">Indicateur de subdivision:</label>
+            <label index="static_countries_item.cn_short_local">Nom court (local):</label>
+            <label index="static_countries_item.cn_short_en">Nom court (EN):</label>
+            <label index="static_country_zones.title">Subdivision de pays</label>
+            <label index="static_country_zones_item.zn_country_iso_nr">Code de pays ISO 3166-1 numérique:</label>
+            <label index="static_country_zones_item.zn_country_iso_2">Code de pays ISO 3166-1 A2:</label>
+            <label index="static_country_zones_item.zn_country_iso_3">Code de pays ISO 3166-1 A3:</label>
+            <label index="static_country_zones_item.zn_code">Code de subdivision de pays ISO 3166-2:</label>
+            <label index="static_country_zones_item.zn_name_en">Nom (EN):</label>
+            <label index="static_languages.title">Langue</label>
+            <label index="static_languages_item.lg_iso_2">Code de langue ISO 639-1 A2:</label>
+            <label index="static_languages_item.lg_collate_locale">Localisation pour la comparaison de chaînes:</label>
+            <label index="static_languages_item.lg_name_en">Nom (EN):</label>
+            <label index="static_languages_item.lg_typo3">Code de langue Typo3:</label>
+            <label index="static_languages_item.lg_sacred">Langue sacrée:</label>
+            <label index="static_languages_item.lg_constructed">Langue construite:</label>
+            <label index="static_currencies.title">Devise</label>
+            <label index="static_currencies_item.cu_iso_3">Code de devise ISO 4217 A3:</label>
+            <label index="static_currencies_item.cu_iso_nr">Code de devise ISO 4217 numérique:</label>
+            <label index="static_currencies_item.cu_name_en">Nom (EN):</label>
+            <label index="static_currencies_item.cu_sub_name_en">Nom de subdivision (EN):</label>
+            <label index="static_currencies_item.cu_symbol_left">Symbole à gauche:</label>
+            <label index="static_currencies_item.cu_symbol_right">Symbole à droite:</label>
+            <label index="static_currencies_item.cu_thousands_point">Marque des milliers:</label>
+            <label index="static_currencies_item.cu_decimal_point">Marque décimale:</label>
+            <label index="static_currencies_item.cu_decimal_digits">Nombre de décimales:</label>
+            <label index="static_currencies_item.cu_sub_divisor">Diviseur:</label>
+            <label index="static_currencies_item.cu_sub_symbol_left">Symbole à gauche - Subdivision:</label>
+            <label index="static_currencies_item.cu_sub_symbol_right">Symbole à droite - Subdivision:</label>
+        </languageKey>
+        <languageKey index="es" type="array">
+            <label index="static_countries.title">País - Datos státicos</label>
+            <label index="static_countries_item.cn_iso_2">Código de país ISO 3166-1 A2:</label>
+            <label index="static_countries_item.cn_iso_3">Código de país ISO 3166-1 A3:</label>
+            <label index="static_countries_item.cn_iso_nr">Código de país ISO 3166-1 numérico:</label>
+            <label index="static_countries_item.cn_official_name_local">Nombre oficial (local):</label>
+            <label index="static_countries_item.cn_official_name_en">Nombre oficial (EN):</label>
+            <label index="static_countries_item.cn_capital">Capital:</label>
+            <label index="static_countries_item.cn_tldomain">Dominio de primer nivel:</label>
+            <label index="static_countries_item.cn_currency_iso_nr">Código de divisa ISO 4217 numérico:</label>
+            <label index="static_countries_item.cn_currency_iso_3">Código de divisa ISO 4217 A3:</label>
+            <label index="static_countries_item.cn_phone">Prefijo telefónico internacional:</label>
+            <label index="static_countries_item.cn_eu_member">Miembro de la Union európea:</label>
+            <label index="static_countries_item.cn_address_format">Formato de dirección:</label>
+            <label index="static_countries_item.cn_address_format_1">código-postal  localidad</label>
+            <label index="static_countries_item.cn_address_format_2">localidad  código-postal</label>
+            <label index="static_countries_item.cn_address_format_3">localidad código-de-región  código-postal</label>
+            <label index="static_countries_item.cn_address_format_4">localidad (nombre-de-región) código-postal</label>
+            <label index="static_countries_item.cn_address_format_5">localidad/código-postal</label>
+            <label index="static_countries_item.cn_address_format_6">código-postal localidad, código-de-región</label>
+            <label index="static_countries_item.cn_address_format_7">código-postal localidad código-de-región</label>
+            <label index="static_countries_item.cn_address_format_8">código-postal localidad (nombre-de-región)</label>
+            <label index="static_countries_item.cn_zone_flag">Indicador de subdivisión:</label>
+            <label index="static_countries_item.cn_short_local">Nombre corto (local):</label>
+            <label index="static_countries_item.cn_short_en">Nombre corto (EN):</label>
+            <label index="static_country_zones.title">Subdivisión de país - Datos státicos</label>
+            <label index="static_country_zones_item.zn_country_iso_nr">Código de país ISO numérico:</label>
+            <label index="static_country_zones_item.zn_country_iso_2">Código de país ISO 2:</label>
+            <label index="static_country_zones_item.zn_country_iso_3">Código de país ISO 3:</label>
+            <label index="static_country_zones_item.zn_code">Código de subdivisión de país:</label>
+            <label index="static_languages.title">Idioma - Datos státicos</label>
+            <label index="static_languages_item.lg_iso_2">Código de idioma ISO 2:</label>
+            <label index="static_languages_item.lg_collate_locale">Localidad para la comparación de cadenas:</label>
+            <label index="static_languages_item.lg_name_en">Nombre de idioma (EN):</label>
+            <label index="static_languages_item.lg_typo3">Código de idioma Typo3:</label>
+            <label index="static_currencies.title">Divisa - Datos státicos</label>
+            <label index="static_currencies_item.cu_iso_3">Código de divisa ISO 3:</label>
+            <label index="static_currencies_item.cu_iso_nr">Código de divisa ISO numérico:</label>
+            <label index="static_currencies_item.cu_name_en">Nombre (EN):</label>
+            <label index="static_currencies_item.cu_sub_name_en">Nombre de subdivisión (EN):</label>
+            <label index="static_currencies_item.cu_symbol_left">Símbolo a la izquierda:</label>
+            <label index="static_currencies_item.cu_symbol_right">Símbolo a la derecha:</label>
+            <label index="static_currencies_item.cu_thousands_point">Marca de los miles:</label>
+            <label index="static_currencies_item.cu_decimal_point">Marca decimal:</label>
+            <label index="static_currencies_item.cu_decimal_digits">Número de decimales:</label>
+            <label index="static_currencies_item.cu_sub_divisor">Divisor:</label>
+            <label index="static_currencies_item.cu_sub_symbol_left">Símbolo a la izquierda - Subdivisión:</label>
+            <label index="static_currencies_item.cu_sub_symbol_right">Símbolo a la derecha - Subdivisión:</label>
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+            <label index="static_countries_item.cn_iso_2">Kod kraju ISO 2:</label>
+            <label index="static_countries_item.cn_iso_3">Kod kraju ISO 3:</label>
+            <label index="static_countries_item.cn_iso_nr">Kod kraju ISO nr:</label>
+            <label index="static_countries_item.cn_official_name_local">Nazwa oficjalna (lokalna):</label>
+            <label index="static_countries_item.cn_official_name_en">Nazwa oficjalna (EN):</label>
+            <label index="static_countries_item.cn_capital">Stolica:</label>
+            <label index="static_countries_item.cn_tldomain">Domena najwyższego poziomu:</label>
+            <label index="static_countries_item.cn_currency_iso_nr">Kod waluty ISO nr:</label>
+            <label index="static_countries_item.cn_currency_iso_3">Kod waluty ISO 3:</label>
+            <label index="static_countries_item.cn_phone">Prefiks tel.:</label>
+            <label index="static_countries_item.cn_eu_member">Członek EU:</label>
+            <label index="static_countries_item.cn_address_format">Format adresu:</label>
+            <label index="static_countries_item.cn_address_format_1">kod pocztowy, miasto</label>
+            <label index="static_countries_item.cn_address_format_2">miasto, kod pocztowy</label>
+            <label index="static_countries_item.cn_address_format_3">miasto, region, kod pocztowy</label>
+            <label index="static_countries_item.cn_zone_flag">Flaga strefy:</label>
+            <label index="static_countries_item.cn_short_local">Krótka nazwa (lokalna):</label>
+            <label index="static_countries_item.cn_short_en">Krótka nazwa (EN):</label>
+            <label index="static_countries_item.cn_short_dk">Krótka nazwa (DK):</label>
+            <label index="static_countries_item.cn_short_de">Krótka nazwa (DE):</label>
+            <label index="static_country_zones_item.zn_country_iso_nr">Kod kraju ISO nr:</label>
+            <label index="static_country_zones_item.zn_country_iso_2">Kod kraju ISO 2:</label>
+            <label index="static_country_zones_item.zn_country_iso_3">Kod kraju ISO 3:</label>
+            <label index="static_country_zones_item.zn_code">Kod strefy:</label>
+            <label index="static_languages_item.lg_iso_2">Kod języka ISO 2:</label>
+            <label index="static_languages_item.lg_name_en">Nazwa (EN):</label>
+            <label index="static_languages_item.lg_name_fr">Nazwa (FR):</label>
+            <label index="static_languages_item.lg_name_de">Nazwa (DE):</label>
+            <label index="static_languages_item.lg_name_es">Nazwa (ES):</label>
+            <label index="static_languages_item.lg_name_nl">Nazwa (NL):</label>
+            <label index="static_currencies_item.cu_iso_3">Kod waluty ISO 3:</label>
+            <label index="static_currencies_item.cu_iso_nr">Kod waluty ISO nr:</label>
+            <label index="static_currencies_item.cu_name_en">Nazwa (EN):</label>
+            <label index="static_currencies_item.cu_sub_name_en">Podnazwa (EN):</label>
+            <label index="static_currencies_item.cu_name_de">Nazwa (DE):</label>
+            <label index="static_currencies_item.cu_sub_name_de">Podnazwa (DE):</label>
+            <label index="static_currencies_item.cu_symbol_left">Symbol z lewej:</label>
+            <label index="static_currencies_item.cu_symbol_right">Symbol z prawej:</label>
+            <label index="static_currencies_item.cu_thousands_point">Separator tysięcy:</label>
+            <label index="static_currencies_item.cu_decimal_point">Separator części dziesiętnych:</label>
+            <label index="static_currencies_item.cu_decimal_digits">Liczba cyfr dziesiętnych:</label>
+            <label index="static_currencies_item.cu_sub_divisor">Separator:</label>
+            <label index="static_currencies_item.cu_sub_symbol_left">Podsymbol z lewej:</label>
+            <label index="static_currencies_item.cu_sub_symbol_right">Podsymbol z prawej:</label>
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="static_countries.title">Pysyvät maatiedot</label>
+            <label index="static_countries_item.cn_iso_2">ISO 2 maa koodi:</label>
+            <label index="static_countries_item.cn_iso_3">ISO 3 maa koodi:</label>
+            <label index="static_countries_item.cn_iso_nr">ISO nr maa koodi:</label>
+            <label index="static_countries_item.cn_official_name_local">Virallinen nimi (paikallinen):</label>
+            <label index="static_countries_item.cn_official_name_en">Virallinen nimi (EN):</label>
+            <label index="static_countries_item.cn_capital">Päkaupunki:</label>
+            <label index="static_countries_item.cn_tldomain">Päätason domain:</label>
+            <label index="static_countries_item.cn_currency_iso_nr">ISO 2 maa koodi:</label>
+            <label index="static_countries_item.cn_currency_iso_3">ISO 2 maa koodi:</label>
+            <label index="static_countries_item.cn_phone">Kans.väl. puhelin nro:</label>
+            <label index="static_countries_item.cn_eu_member">Eu jäsen:</label>
+            <label index="static_countries_item.cn_address_format">Osoitteen malli:</label>
+            <label index="static_countries_item.cn_address_format_1">postinumero, kaupunki</label>
+            <label index="static_countries_item.cn_address_format_2">kaupunki, postinumero</label>
+            <label index="static_countries_item.cn_address_format_3">kaupunki, alue, postinumero</label>
+            <label index="static_countries_item.cn_address_format_4">kaupunki (aluenimi) postinumero</label>
+            <label index="static_countries_item.cn_address_format_5">kaupunki / postinumero</label>
+            <label index="static_countries_item.cn_address_format_6">kaupunki, aluekoodi</label>
+            <label index="static_countries_item.cn_address_format_7">kaupunki aluekoodi</label>
+            <label index="static_countries_item.cn_address_format_8">kaupunki (aluenimi)</label>
+            <label index="static_countries_item.cn_zone_flag">Vyöhyke lippu:</label>
+            <label index="static_countries_item.cn_short_local">Lyhyt nimi (paikallinen):</label>
+            <label index="static_countries_item.cn_short_en">Lyhyt nimi (EN):</label>
+            <label index="static_countries_item.cn_short_dk">Lyhyt nimi (DK):</label>
+            <label index="static_countries_item.cn_short_de">Lyhyt nimi (DE):</label>
+            <label index="static_country_zones.title">Pysyvät maatietojen alajaot</label>
+            <label index="static_country_zones_item.zn_country_iso_nr">ISO nr maa koodi:</label>
+            <label index="static_country_zones_item.zn_country_iso_2">ISO 2 maa koodi:</label>
+            <label index="static_country_zones_item.zn_country_iso_3">ISO 3 maa koodi:</label>
+            <label index="static_country_zones_item.zn_code">Vyöhyke koodi:</label>
+            <label index="static_languages.title">Kielet</label>
+            <label index="static_languages_item.lg_iso_2">ISO 2 maa koodi:</label>
+            <label index="static_languages_item.lg_name_en">Nimi (EN):</label>
+            <label index="static_languages_item.lg_name_fr">Nimi (FR):</label>
+            <label index="static_languages_item.lg_name_de">Nimi (DE):</label>
+            <label index="static_languages_item.lg_name_es">Nimi (ES):</label>
+            <label index="static_languages_item.lg_name_nl">Nimi (NL):</label>
+            <label index="static_languages_item.lg_typo3">Typo3 kieli koodi:</label>
+            <label index="static_currencies.title">Pysyvät valuuttakoodit</label>
+            <label index="static_currencies_item.cu_iso_3">ISO 2 maa koodi:</label>
+            <label index="static_currencies_item.cu_iso_nr">ISO 2 maa koodi:</label>
+            <label index="static_currencies_item.cu_name_en">Nimi (EN):</label>
+            <label index="static_currencies_item.cu_sub_name_en">Alanimi (EN):</label>
+            <label index="static_currencies_item.cu_name_de">Nimi (DE):</label>
+            <label index="static_currencies_item.cu_sub_name_de">Alanimi (DE):</label>
+            <label index="static_currencies_item.cu_symbol_left">Symbooli vasen;</label>
+            <label index="static_currencies_item.cu_symbol_right">Symbooli oikea:</label>
+            <label index="static_currencies_item.cu_thousands_point">Tuhannen merkki;</label>
+            <label index="static_currencies_item.cu_decimal_point">Desimaalipiste:</label>
+            <label index="static_currencies_item.cu_decimal_digits">Desimaalien määrä:</label>
+            <label index="static_currencies_item.cu_sub_divisor">Jakaja:</label>
+            <label index="static_currencies_item.cu_sub_symbol_left">Alasymbooli vasen;</label>
+            <label index="static_currencies_item.cu_sub_symbol_right">Alasymbooli oikea:</label>
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+            <label index="static_countries.title">Страны</label>
+            <label index="static_countries_item.cn_iso_2">Код страны ISO 2:</label>
+            <label index="static_countries_item.cn_iso_3">Код страны ISO 3:</label>
+            <label index="static_countries_item.cn_iso_nr">Код страны №:</label>
+            <label index="static_countries_item.cn_official_name_local">Официальное название (местное):</label>
+            <label index="static_countries_item.cn_official_name_en">Официальное название (англ.):</label>
+            <label index="static_countries_item.cn_capital">Столица:</label>
+            <label index="static_countries_item.cn_tldomain">Домен верхнего уровня:</label>
+            <label index="static_countries_item.cn_currency_iso_nr">Код валюты ISO №:</label>
+            <label index="static_countries_item.cn_currency_iso_3">Код валюты ISO 3:</label>
+            <label index="static_countries_item.cn_phone">Международный код:</label>
+            <label index="static_countries_item.cn_eu_member">Состоит в Евросоюзе:</label>
+            <label index="static_countries_item.cn_address_format">Формат адреса:</label>
+            <label index="static_countries_item.cn_address_format_1">индекс город</label>
+            <label index="static_countries_item.cn_address_format_2">город индекс</label>
+            <label index="static_countries_item.cn_address_format_3">город код-региона индекс</label>
+            <label index="static_countries_item.cn_address_format_4">город (код-региона) индекс</label>
+            <label index="static_countries_item.cn_address_format_5">город/индекс</label>
+            <label index="static_countries_item.cn_address_format_6">индекс город, код-региона</label>
+            <label index="static_countries_item.cn_address_format_7">индекс город код-региона</label>
+            <label index="static_countries_item.cn_address_format_8">индекс город (код-региона)</label>
+            <label index="static_countries_item.cn_zone_flag">Флаг зоны:</label>
+            <label index="static_countries_item.cn_short_local">Короткое имя (местное):</label>
+            <label index="static_countries_item.cn_short_en">Короткое имя (англ):</label>
+            <label index="static_countries_item.cn_short_dk">Короткое имя (датск):</label>
+            <label index="static_countries_item.cn_short_de">Короткое имя (нем):</label>
+            <label index="static_country_zones.title">Разделы страны:</label>
+            <label index="static_country_zones_item.zn_country_iso_nr">Код страны ISO №:</label>
+            <label index="static_country_zones_item.zn_country_iso_2">Код страны ISO 2:</label>
+            <label index="static_country_zones_item.zn_country_iso_3">Код страны ISO 3:</label>
+            <label index="static_country_zones_item.zn_code">Код зоны:</label>
+            <label index="static_languages.title">Языки</label>
+            <label index="static_languages_item.lg_iso_2">Код языка ISO 2:</label>
+            <label index="static_languages_item.lg_name_en">Имя (англ):</label>
+            <label index="static_languages_item.lg_name_fr">Имя (франц):</label>
+            <label index="static_languages_item.lg_name_de">Имя (нем):</label>
+            <label index="static_languages_item.lg_name_es">Имя (испан):</label>
+            <label index="static_languages_item.lg_name_nl">Имя (голл):</label>
+            <label index="static_languages_item.lg_typo3">Код языка Typo3:</label>
+            <label index="static_currencies.title">Валюты</label>
+            <label index="static_currencies_item.cu_iso_3">Код валюты ISO 3:</label>
+            <label index="static_currencies_item.cu_iso_nr">Код валюты ISO №:</label>
+            <label index="static_currencies_item.cu_name_en">Имя (англ):</label>
+            <label index="static_currencies_item.cu_sub_name_en">Под-имя (англ):</label>
+            <label index="static_currencies_item.cu_name_de">Имя (нем):</label>
+            <label index="static_currencies_item.cu_sub_name_de">Под-имя (нем):</label>
+            <label index="static_currencies_item.cu_symbol_left">Символы слева:</label>
+            <label index="static_currencies_item.cu_symbol_right">Символы справа:</label>
+            <label index="static_currencies_item.cu_thousands_point">Разделитель тысяч:</label>
+            <label index="static_currencies_item.cu_decimal_point">Разделитель дроби:</label>
+            <label index="static_currencies_item.cu_decimal_digits">Дробных цифр:</label>
+            <label index="static_currencies_item.cu_sub_divisor">Делитель:</label>
+            <label index="static_currencies_item.cu_sub_symbol_left">Подсимвол слева:</label>
+            <label index="static_currencies_item.cu_sub_symbol_right">Подсимвол справа:</label>
+        </languageKey>
+        <languageKey index="ro" type="array">
+            <label index="static_countries_item.cn_iso_2">Codul ISO 2 al tarii:</label>
+            <label index="static_countries_item.cn_iso_3">Codul ISO 3 al tarii:</label>
+            <label index="static_countries_item.cn_iso_nr">Codul ISO al tarii:</label>
+            <label index="static_countries_item.cn_official_name_local">Numele oficial (local):</label>
+            <label index="static_countries_item.cn_official_name_en">Numele oficial (EN):</label>
+            <label index="static_countries_item.cn_capital">Capitala:</label>
+            <label index="static_countries_item.cn_tldomain">Domeniu de varf:</label>
+            <label index="static_countries_item.cn_currency_iso_nr">Numarul ISO al valutei:</label>
+            <label index="static_countries_item.cn_currency_iso_3">Codul ISO 3 al valutei:</label>
+            <label index="static_countries_item.cn_phone">Prefix telefon intern:</label>
+            <label index="static_countries_item.cn_eu_member">Membru EU:</label>
+            <label index="static_countries_item.cn_address_format">Format adresa:</label>
+            <label index="static_countries_item.cn_address_format_1">zip, oras</label>
+            <label index="static_countries_item.cn_address_format_2">oras, zip</label>
+            <label index="static_countries_item.cn_address_format_3">oras, regiune, zip</label>
+            <label index="static_countries_item.cn_zone_flag">Steagul zonei:</label>
+            <label index="static_countries_item.cn_short_local">Nume prescurtat (local):</label>
+            <label index="static_countries_item.cn_short_en">Nume prescurtat (EN):</label>
+            <label index="static_countries_item.cn_short_dk">Nume prescurtat (DK):</label>
+            <label index="static_countries_item.cn_short_de">Nume prescurtat (DE):</label>
+            <label index="static_country_zones_item.zn_country_iso_nr">Codul ISO al tarii:</label>
+            <label index="static_country_zones_item.zn_country_iso_2">Codul ISO 2 al tarii:</label>
+            <label index="static_country_zones_item.zn_country_iso_3">Codul ISO 3 al tarii:</label>
+            <label index="static_country_zones_item.zn_code">Codul zonei:</label>
+            <label index="static_languages_item.lg_iso_2">Codul ISO 2 al limbii:</label>
+            <label index="static_languages_item.lg_name_en">Nume (EN):</label>
+            <label index="static_currencies_item.cu_iso_3">Codul ISO 3 al valutei:</label>
+            <label index="static_currencies_item.cu_iso_nr">Numarul ISO al valutei:</label>
+            <label index="static_currencies_item.cu_name_en">Nume (EN):</label>
+            <label index="static_currencies_item.cu_sub_name_en">Subnume (EN):</label>
+            <label index="static_currencies_item.cu_name_de">Nume (DE):</label>
+            <label index="static_currencies_item.cu_sub_name_de">Subnume (DE):</label>
+            <label index="static_currencies_item.cu_symbol_left">Simbol stanga:</label>
+            <label index="static_currencies_item.cu_symbol_right">Simbol dreapta:</label>
+            <label index="static_currencies_item.cu_thousands_point">Punct mii:</label>
+            <label index="static_currencies_item.cu_decimal_point">Punct zecimal:</label>
+            <label index="static_currencies_item.cu_decimal_digits">Caractere decimale:</label>
+            <label index="static_currencies_item.cu_sub_divisor">Diviziune:</label>
+            <label index="static_currencies_item.cu_sub_symbol_left">Subsimbol dreapta:</label>
+            <label index="static_currencies_item.cu_sub_symbol_right">Subsimbol stanga:</label>
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+            <label index="static_countries.title">Países</label>
+            <label index="static_countries_item.cn_iso_2">Código ISO 2 do país:</label>
+            <label index="static_countries_item.cn_iso_3">Código ISO 3 do país:</label>
+            <label index="static_countries_item.cn_iso_nr">Código ISO nr do país:</label>
+            <label index="static_countries_item.cn_official_name_local">Nome oficial (local):</label>
+            <label index="static_countries_item.cn_official_name_en">Nome oficial (EN):</label>
+            <label index="static_countries_item.cn_capital">Capital:</label>
+            <label index="static_countries_item.cn_tldomain">Domínio nível 1:</label>
+            <label index="static_countries_item.cn_currency_iso_nr">Código ISO nr da moeda:</label>
+            <label index="static_countries_item.cn_currency_iso_3">Código ISO 3 da moeda:</label>
+            <label index="static_countries_item.cn_phone">Prefixo internacional de telefone:</label>
+            <label index="static_countries_item.cn_eu_member">Membro da UE:</label>
+            <label index="static_countries_item.cn_address_format">Formato de endereço:</label>
+            <label index="static_countries_item.cn_address_format_1">cep cidade</label>
+            <label index="static_countries_item.cn_address_format_2">cidade cep</label>
+            <label index="static_countries_item.cn_address_format_3">cidade código-da-região cep</label>
+            <label index="static_countries_item.cn_address_format_4">cidade (nome-da-região) cep</label>
+            <label index="static_countries_item.cn_address_format_5">cidade/cep</label>
+            <label index="static_countries_item.cn_address_format_6">cidade cep, código-da-região</label>
+            <label index="static_countries_item.cn_address_format_7">cep cidade código-da-região</label>
+            <label index="static_countries_item.cn_address_format_8">cep cidade (nome-da-região)</label>
+            <label index="static_countries_item.cn_zone_flag">Zona:</label>
+            <label index="static_countries_item.cn_short_local">Nome curto (local):</label>
+            <label index="static_countries_item.cn_short_en">Nome curto (EN):</label>
+            <label index="static_country_zones.title">Subdivisões do país</label>
+            <label index="static_country_zones_item.zn_country_iso_nr">Código ISO nr do país:</label>
+            <label index="static_country_zones_item.zn_country_iso_2">Código ISO 2 do país:</label>
+            <label index="static_country_zones_item.zn_country_iso_3">Código ISO 3 do país:</label>
+            <label index="static_country_zones_item.zn_code">Código da zona:</label>
+            <label index="static_languages.title">Idiomas</label>
+            <label index="static_languages_item.lg_iso_2">Código ISO 2 do idioma:</label>
+            <label index="static_languages_item.lg_name_en">Nome (EN):</label>
+            <label index="static_languages_item.lg_typo3">Código de idioma Typo3:</label>
+            <label index="static_currencies.title">Moedas</label>
+            <label index="static_currencies_item.cu_iso_3">Código ISO 3 da moeda:</label>
+            <label index="static_currencies_item.cu_iso_nr">Código ISO nr da moeda:</label>
+            <label index="static_currencies_item.cu_name_en">Nome (EN):</label>
+            <label index="static_currencies_item.cu_sub_name_en">Sub nome (EN):</label>
+            <label index="static_currencies_item.cu_symbol_left">Símbolo esquerda:</label>
+            <label index="static_currencies_item.cu_symbol_right">Símbolo direita:</label>
+            <label index="static_currencies_item.cu_thousands_point">Pontuação de milhar:</label>
+            <label index="static_currencies_item.cu_decimal_point">Pontuação decimal:</label>
+            <label index="static_currencies_item.cu_decimal_digits">Dígitos decimais:</label>
+            <label index="static_currencies_item.cu_sub_divisor">Divisor:</label>
+            <label index="static_currencies_item.cu_sub_symbol_left">Sub-símbolo esquerda:</label>
+            <label index="static_currencies_item.cu_sub_symbol_right">Sub-símbolo direita:</label>
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+        <languageKey index="hi" type="array">
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="static_territories.title" type="integer">1297305</label>
+            <label index="static_territories_item.tr_iso_nr" type="integer">192875832</label>
+            <label index="static_territories_item.tr_parent_iso_nr" type="integer">96465878</label>
+            <label index="static_territories_item.tr_name_en" type="integer">145837609</label>
+            <label index="static_countries.title" type="integer">126932382</label>
+            <label index="static_countries_item.cn_iso_2" type="integer">47145425</label>
+            <label index="static_countries_item.cn_iso_3" type="integer">129658471</label>
+            <label index="static_countries_item.cn_iso_nr" type="integer">46311532</label>
+            <label index="static_countries_item.cn_official_name_local" type="integer">148211490</label>
+            <label index="static_countries_item.cn_official_name_en" type="integer">129404335</label>
+            <label index="static_countries_item.cn_capital" type="integer">129085910</label>
+            <label index="static_countries_item.cn_tldomain" type="integer">172508763</label>
+            <label index="static_countries_item.cn_currency_iso_nr" type="integer">210330190</label>
+            <label index="static_countries_item.cn_currency_iso_3" type="integer">73243628</label>
+            <label index="static_countries_item.cn_phone" type="integer">98600083</label>
+            <label index="static_countries_item.cn_uno_member" type="integer">92583675</label>
+            <label index="static_countries_item.cn_eu_member" type="integer">220675826</label>
+            <label index="static_countries_item.cn_address_format" type="integer">258176925</label>
+            <label index="static_countries_item.cn_address_format_1" type="integer">259286835</label>
+            <label index="static_countries_item.cn_address_format_2" type="integer">29075071</label>
+            <label index="static_countries_item.cn_address_format_3" type="integer">220926361</label>
+            <label index="static_countries_item.cn_address_format_4" type="integer">116426090</label>
+            <label index="static_countries_item.cn_address_format_5" type="integer">236589604</label>
+            <label index="static_countries_item.cn_address_format_6" type="integer">115480938</label>
+            <label index="static_countries_item.cn_address_format_7" type="integer">155192228</label>
+            <label index="static_countries_item.cn_address_format_8" type="integer">37972116</label>
+            <label index="static_countries_item.cn_address_format_9" type="integer">148567540</label>
+            <label index="static_countries_item.cn_zone_flag" type="integer">216200146</label>
+            <label index="static_countries_item.cn_short_local" type="integer">226207428</label>
+            <label index="static_countries_item.cn_short_en" type="integer">203255010</label>
+            <label index="static_country_zones.title" type="integer">14543292</label>
+            <label index="static_country_zones_item.zn_country_iso_nr" type="integer">46311532</label>
+            <label index="static_country_zones_item.zn_country_iso_2" type="integer">47145425</label>
+            <label index="static_country_zones_item.zn_country_iso_3" type="integer">129658471</label>
+            <label index="static_country_zones_item.zn_code" type="integer">117876527</label>
+            <label index="static_country_zones_item.zn_name_en" type="integer">145837609</label>
+            <label index="static_languages.title" type="integer">60853806</label>
+            <label index="static_languages_item.lg_iso_2" type="integer">161337573</label>
+            <label index="static_languages_item.lg_collate_locale" type="integer">163422937</label>
+            <label index="static_languages_item.lg_name_en" type="integer">145837609</label>
+            <label index="static_languages_item.lg_typo3" type="integer">19890474</label>
+            <label index="static_languages_item.lg_sacred" type="integer">197758038</label>
+            <label index="static_languages_item.lg_constructed" type="integer">246329471</label>
+            <label index="static_currencies.title" type="integer">234683459</label>
+            <label index="static_currencies_item.cu_iso_3" type="integer">73243628</label>
+            <label index="static_currencies_item.cu_iso_nr" type="integer">210330190</label>
+            <label index="static_currencies_item.cu_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_sub_name_en" type="integer">77949357</label>
+            <label index="static_currencies_item.cu_symbol_left" type="integer">82440994</label>
+            <label index="static_currencies_item.cu_symbol_right" type="integer">912726</label>
+            <label index="static_currencies_item.cu_thousands_point" type="integer">97936547</label>
+            <label index="static_currencies_item.cu_decimal_point" type="integer">194134052</label>
+            <label index="static_currencies_item.cu_decimal_digits" type="integer">153453876</label>
+            <label index="static_currencies_item.cu_sub_divisor" type="integer">181976944</label>
+            <label index="static_currencies_item.cu_sub_symbol_left" type="integer">257294363</label>
+            <label index="static_currencies_item.cu_sub_symbol_right" type="integer">180538285</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="static_countries.title" type="integer">126932382</label>
+            <label index="static_countries_item.cn_iso_2" type="integer">47145425</label>
+            <label index="static_countries_item.cn_iso_3" type="integer">129658471</label>
+            <label index="static_countries_item.cn_iso_nr" type="integer">46311532</label>
+            <label index="static_countries_item.cn_official_name_local" type="integer">148211490</label>
+            <label index="static_countries_item.cn_official_name_en" type="integer">129404335</label>
+            <label index="static_countries_item.cn_capital" type="integer">129085910</label>
+            <label index="static_countries_item.cn_tldomain" type="integer">172508763</label>
+            <label index="static_countries_item.cn_currency_iso_nr" type="integer">210330190</label>
+            <label index="static_countries_item.cn_currency_iso_3" type="integer">73243628</label>
+            <label index="static_countries_item.cn_phone" type="integer">98600083</label>
+            <label index="static_countries_item.cn_eu_member" type="integer">220675826</label>
+            <label index="static_countries_item.cn_address_format" type="integer">258176925</label>
+            <label index="static_countries_item.cn_address_format_1" type="integer">259286835</label>
+            <label index="static_countries_item.cn_address_format_2" type="integer">29075071</label>
+            <label index="static_countries_item.cn_address_format_3" type="integer">220926361</label>
+            <label index="static_countries_item.cn_address_format_4" type="integer">116426090</label>
+            <label index="static_countries_item.cn_address_format_5" type="integer">236589604</label>
+            <label index="static_countries_item.cn_address_format_6" type="integer">115480938</label>
+            <label index="static_countries_item.cn_address_format_7" type="integer">155192228</label>
+            <label index="static_countries_item.cn_address_format_8" type="integer">37972116</label>
+            <label index="static_countries_item.cn_zone_flag" type="integer">216200146</label>
+            <label index="static_countries_item.cn_short_local" type="integer">226207428</label>
+            <label index="static_countries_item.cn_short_en" type="integer">203255010</label>
+            <label index="static_country_zones.title" type="integer">14543292</label>
+            <label index="static_country_zones_item.zn_country_iso_nr" type="integer">46311532</label>
+            <label index="static_country_zones_item.zn_country_iso_2" type="integer">47145425</label>
+            <label index="static_country_zones_item.zn_country_iso_3" type="integer">129658471</label>
+            <label index="static_country_zones_item.zn_code" type="integer">117876527</label>
+            <label index="static_languages.title" type="integer">60853806</label>
+            <label index="static_languages_item.lg_iso_2" type="integer">161337573</label>
+            <label index="static_languages_item.lg_name_en" type="integer">145837609</label>
+            <label index="static_languages_item.lg_typo3" type="integer">19890474</label>
+            <label index="static_currencies.title" type="integer">234683459</label>
+            <label index="static_currencies_item.cu_iso_3" type="integer">73243628</label>
+            <label index="static_currencies_item.cu_iso_nr" type="integer">210330190</label>
+            <label index="static_currencies_item.cu_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_sub_name_en" type="integer">77949357</label>
+            <label index="static_currencies_item.cu_symbol_left" type="integer">82440994</label>
+            <label index="static_currencies_item.cu_symbol_right" type="integer">912726</label>
+            <label index="static_currencies_item.cu_thousands_point" type="integer">97936547</label>
+            <label index="static_currencies_item.cu_decimal_point" type="integer">194134052</label>
+            <label index="static_currencies_item.cu_decimal_digits" type="integer">153453876</label>
+            <label index="static_currencies_item.cu_sub_divisor" type="integer">181976944</label>
+            <label index="static_currencies_item.cu_sub_symbol_left" type="integer">257294363</label>
+            <label index="static_currencies_item.cu_sub_symbol_right" type="integer">180538285</label>
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+            <label index="static_countries_item.cn_iso_2" type="integer">47145425</label>
+            <label index="static_countries_item.cn_iso_3" type="integer">129658471</label>
+            <label index="static_countries_item.cn_iso_nr" type="integer">46311532</label>
+            <label index="static_countries_item.cn_official_name_local" type="integer">148211490</label>
+            <label index="static_countries_item.cn_official_name_en" type="integer">129404335</label>
+            <label index="static_countries_item.cn_capital" type="integer">129085910</label>
+            <label index="static_countries_item.cn_tldomain" type="integer">172508763</label>
+            <label index="static_countries_item.cn_currency_iso_nr" type="integer">210330190</label>
+            <label index="static_countries_item.cn_currency_iso_3" type="integer">73243628</label>
+            <label index="static_countries_item.cn_phone" type="integer">98600083</label>
+            <label index="static_countries_item.cn_eu_member" type="integer">220675826</label>
+            <label index="static_countries_item.cn_address_format" type="integer">258176925</label>
+            <label index="static_countries_item.cn_address_format_1" type="integer">259286835</label>
+            <label index="static_countries_item.cn_address_format_2" type="integer">29075071</label>
+            <label index="static_countries_item.cn_address_format_3" type="integer">220926361</label>
+            <label index="static_countries_item.cn_zone_flag" type="integer">216200146</label>
+            <label index="static_countries_item.cn_short_local" type="integer">226207428</label>
+            <label index="static_countries_item.cn_short_en" type="integer">203255010</label>
+            <label index="static_country_zones_item.zn_country_iso_nr" type="integer">46311532</label>
+            <label index="static_country_zones_item.zn_country_iso_2" type="integer">47145425</label>
+            <label index="static_country_zones_item.zn_country_iso_3" type="integer">129658471</label>
+            <label index="static_country_zones_item.zn_code" type="integer">117876527</label>
+            <label index="static_languages_item.lg_iso_2" type="integer">161337573</label>
+            <label index="static_languages_item.lg_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_iso_3" type="integer">73243628</label>
+            <label index="static_currencies_item.cu_iso_nr" type="integer">210330190</label>
+            <label index="static_currencies_item.cu_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_sub_name_en" type="integer">77949357</label>
+            <label index="static_currencies_item.cu_symbol_left" type="integer">82440994</label>
+            <label index="static_currencies_item.cu_symbol_right" type="integer">912726</label>
+            <label index="static_currencies_item.cu_thousands_point" type="integer">97936547</label>
+            <label index="static_currencies_item.cu_decimal_point" type="integer">194134052</label>
+            <label index="static_currencies_item.cu_decimal_digits" type="integer">153453876</label>
+            <label index="static_currencies_item.cu_sub_divisor" type="integer">181976944</label>
+            <label index="static_currencies_item.cu_sub_symbol_left" type="integer">257294363</label>
+            <label index="static_currencies_item.cu_sub_symbol_right" type="integer">180538285</label>
+        </languageKey>
+        <languageKey index="fr" type="array">
+            <label index="static_territories.title" type="integer">1297305</label>
+            <label index="static_territories_item.tr_iso_nr" type="integer">192875832</label>
+            <label index="static_territories_item.tr_parent_iso_nr" type="integer">96465878</label>
+            <label index="static_territories_item.tr_name_en" type="integer">145837609</label>
+            <label index="static_countries.title" type="integer">126932382</label>
+            <label index="static_countries_item.cn_iso_2" type="integer">47145425</label>
+            <label index="static_countries_item.cn_iso_3" type="integer">129658471</label>
+            <label index="static_countries_item.cn_iso_nr" type="integer">46311532</label>
+            <label index="static_countries_item.cn_official_name_local" type="integer">148211490</label>
+            <label index="static_countries_item.cn_official_name_en" type="integer">129404335</label>
+            <label index="static_countries_item.cn_capital" type="integer">129085910</label>
+            <label index="static_countries_item.cn_tldomain" type="integer">172508763</label>
+            <label index="static_countries_item.cn_currency_iso_nr" type="integer">210330190</label>
+            <label index="static_countries_item.cn_currency_iso_3" type="integer">73243628</label>
+            <label index="static_countries_item.cn_phone" type="integer">98600083</label>
+            <label index="static_countries_item.cn_uno_member" type="integer">92583675</label>
+            <label index="static_countries_item.cn_eu_member" type="integer">220675826</label>
+            <label index="static_countries_item.cn_address_format" type="integer">258176925</label>
+            <label index="static_countries_item.cn_address_format_1" type="integer">259286835</label>
+            <label index="static_countries_item.cn_address_format_2" type="integer">29075071</label>
+            <label index="static_countries_item.cn_address_format_3" type="integer">220926361</label>
+            <label index="static_countries_item.cn_address_format_4" type="integer">116426090</label>
+            <label index="static_countries_item.cn_address_format_5" type="integer">236589604</label>
+            <label index="static_countries_item.cn_address_format_6" type="integer">115480938</label>
+            <label index="static_countries_item.cn_address_format_7" type="integer">155192228</label>
+            <label index="static_countries_item.cn_address_format_8" type="integer">37972116</label>
+            <label index="static_countries_item.cn_address_format_9" type="integer">148567540</label>
+            <label index="static_countries_item.cn_zone_flag" type="integer">216200146</label>
+            <label index="static_countries_item.cn_short_local" type="integer">226207428</label>
+            <label index="static_countries_item.cn_short_en" type="integer">203255010</label>
+            <label index="static_country_zones.title" type="integer">14543292</label>
+            <label index="static_country_zones_item.zn_country_iso_nr" type="integer">46311532</label>
+            <label index="static_country_zones_item.zn_country_iso_2" type="integer">47145425</label>
+            <label index="static_country_zones_item.zn_country_iso_3" type="integer">129658471</label>
+            <label index="static_country_zones_item.zn_code" type="integer">117876527</label>
+            <label index="static_country_zones_item.zn_name_en" type="integer">145837609</label>
+            <label index="static_languages.title" type="integer">60853806</label>
+            <label index="static_languages_item.lg_iso_2" type="integer">161337573</label>
+            <label index="static_languages_item.lg_collate_locale" type="integer">163422937</label>
+            <label index="static_languages_item.lg_name_en" type="integer">145837609</label>
+            <label index="static_languages_item.lg_typo3" type="integer">19890474</label>
+            <label index="static_languages_item.lg_sacred" type="integer">197758038</label>
+            <label index="static_languages_item.lg_constructed" type="integer">246329471</label>
+            <label index="static_currencies.title" type="integer">234683459</label>
+            <label index="static_currencies_item.cu_iso_3" type="integer">73243628</label>
+            <label index="static_currencies_item.cu_iso_nr" type="integer">210330190</label>
+            <label index="static_currencies_item.cu_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_sub_name_en" type="integer">77949357</label>
+            <label index="static_currencies_item.cu_symbol_left" type="integer">82440994</label>
+            <label index="static_currencies_item.cu_symbol_right" type="integer">912726</label>
+            <label index="static_currencies_item.cu_thousands_point" type="integer">97936547</label>
+            <label index="static_currencies_item.cu_decimal_point" type="integer">194134052</label>
+            <label index="static_currencies_item.cu_decimal_digits" type="integer">153453876</label>
+            <label index="static_currencies_item.cu_sub_divisor" type="integer">181976944</label>
+            <label index="static_currencies_item.cu_sub_symbol_left" type="integer">257294363</label>
+            <label index="static_currencies_item.cu_sub_symbol_right" type="integer">180538285</label>
+        </languageKey>
+        <languageKey index="es" type="array">
+            <label index="static_countries.title" type="integer">126932382</label>
+            <label index="static_countries_item.cn_iso_2" type="integer">47145425</label>
+            <label index="static_countries_item.cn_iso_3" type="integer">129658471</label>
+            <label index="static_countries_item.cn_iso_nr" type="integer">46311532</label>
+            <label index="static_countries_item.cn_official_name_local" type="integer">148211490</label>
+            <label index="static_countries_item.cn_official_name_en" type="integer">129404335</label>
+            <label index="static_countries_item.cn_capital" type="integer">129085910</label>
+            <label index="static_countries_item.cn_tldomain" type="integer">172508763</label>
+            <label index="static_countries_item.cn_currency_iso_nr" type="integer">210330190</label>
+            <label index="static_countries_item.cn_currency_iso_3" type="integer">73243628</label>
+            <label index="static_countries_item.cn_phone" type="integer">98600083</label>
+            <label index="static_countries_item.cn_eu_member" type="integer">220675826</label>
+            <label index="static_countries_item.cn_address_format" type="integer">258176925</label>
+            <label index="static_countries_item.cn_address_format_1" type="integer">259286835</label>
+            <label index="static_countries_item.cn_address_format_2" type="integer">29075071</label>
+            <label index="static_countries_item.cn_address_format_3" type="integer">220926361</label>
+            <label index="static_countries_item.cn_address_format_4" type="integer">116426090</label>
+            <label index="static_countries_item.cn_address_format_5" type="integer">236589604</label>
+            <label index="static_countries_item.cn_address_format_6" type="integer">115480938</label>
+            <label index="static_countries_item.cn_address_format_7" type="integer">155192228</label>
+            <label index="static_countries_item.cn_address_format_8" type="integer">37972116</label>
+            <label index="static_countries_item.cn_zone_flag" type="integer">216200146</label>
+            <label index="static_countries_item.cn_short_local" type="integer">226207428</label>
+            <label index="static_countries_item.cn_short_en" type="integer">203255010</label>
+            <label index="static_country_zones.title" type="integer">14543292</label>
+            <label index="static_country_zones_item.zn_country_iso_nr" type="integer">46311532</label>
+            <label index="static_country_zones_item.zn_country_iso_2" type="integer">47145425</label>
+            <label index="static_country_zones_item.zn_country_iso_3" type="integer">129658471</label>
+            <label index="static_country_zones_item.zn_code" type="integer">117876527</label>
+            <label index="static_languages.title" type="integer">60853806</label>
+            <label index="static_languages_item.lg_iso_2" type="integer">161337573</label>
+            <label index="static_languages_item.lg_collate_locale" type="integer">163422937</label>
+            <label index="static_languages_item.lg_name_en" type="integer">145837609</label>
+            <label index="static_languages_item.lg_typo3" type="integer">19890474</label>
+            <label index="static_currencies.title" type="integer">234683459</label>
+            <label index="static_currencies_item.cu_iso_3" type="integer">73243628</label>
+            <label index="static_currencies_item.cu_iso_nr" type="integer">210330190</label>
+            <label index="static_currencies_item.cu_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_sub_name_en" type="integer">77949357</label>
+            <label index="static_currencies_item.cu_symbol_left" type="integer">82440994</label>
+            <label index="static_currencies_item.cu_symbol_right" type="integer">912726</label>
+            <label index="static_currencies_item.cu_thousands_point" type="integer">97936547</label>
+            <label index="static_currencies_item.cu_decimal_point" type="integer">194134052</label>
+            <label index="static_currencies_item.cu_decimal_digits" type="integer">153453876</label>
+            <label index="static_currencies_item.cu_sub_divisor" type="integer">181976944</label>
+            <label index="static_currencies_item.cu_sub_symbol_left" type="integer">257294363</label>
+            <label index="static_currencies_item.cu_sub_symbol_right" type="integer">180538285</label>
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+            <label index="static_countries_item.cn_iso_2" type="integer">47145425</label>
+            <label index="static_countries_item.cn_iso_3" type="integer">129658471</label>
+            <label index="static_countries_item.cn_iso_nr" type="integer">46311532</label>
+            <label index="static_countries_item.cn_official_name_local" type="integer">148211490</label>
+            <label index="static_countries_item.cn_official_name_en" type="integer">129404335</label>
+            <label index="static_countries_item.cn_capital" type="integer">129085910</label>
+            <label index="static_countries_item.cn_tldomain" type="integer">172508763</label>
+            <label index="static_countries_item.cn_currency_iso_nr" type="integer">210330190</label>
+            <label index="static_countries_item.cn_currency_iso_3" type="integer">73243628</label>
+            <label index="static_countries_item.cn_phone" type="integer">98600083</label>
+            <label index="static_countries_item.cn_eu_member" type="integer">220675826</label>
+            <label index="static_countries_item.cn_address_format" type="integer">258176925</label>
+            <label index="static_countries_item.cn_address_format_1" type="integer">259286835</label>
+            <label index="static_countries_item.cn_address_format_2" type="integer">29075071</label>
+            <label index="static_countries_item.cn_address_format_3" type="integer">220926361</label>
+            <label index="static_countries_item.cn_zone_flag" type="integer">216200146</label>
+            <label index="static_countries_item.cn_short_local" type="integer">226207428</label>
+            <label index="static_countries_item.cn_short_en" type="integer">203255010</label>
+            <label index="static_countries_item.cn_short_dk" type="integer">222419149</label>
+            <label index="static_countries_item.cn_short_de" type="integer">222419149</label>
+            <label index="static_country_zones_item.zn_country_iso_nr" type="integer">46311532</label>
+            <label index="static_country_zones_item.zn_country_iso_2" type="integer">47145425</label>
+            <label index="static_country_zones_item.zn_country_iso_3" type="integer">129658471</label>
+            <label index="static_country_zones_item.zn_code" type="integer">117876527</label>
+            <label index="static_languages_item.lg_iso_2" type="integer">161337573</label>
+            <label index="static_languages_item.lg_name_en" type="integer">145837609</label>
+            <label index="static_languages_item.lg_name_fr" type="integer">222419149</label>
+            <label index="static_languages_item.lg_name_de" type="integer">222419149</label>
+            <label index="static_languages_item.lg_name_es" type="integer">222419149</label>
+            <label index="static_languages_item.lg_name_nl" type="integer">222419149</label>
+            <label index="static_currencies_item.cu_iso_3" type="integer">73243628</label>
+            <label index="static_currencies_item.cu_iso_nr" type="integer">210330190</label>
+            <label index="static_currencies_item.cu_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_sub_name_en" type="integer">77949357</label>
+            <label index="static_currencies_item.cu_name_de" type="integer">222419149</label>
+            <label index="static_currencies_item.cu_sub_name_de" type="integer">222419149</label>
+            <label index="static_currencies_item.cu_symbol_left" type="integer">82440994</label>
+            <label index="static_currencies_item.cu_symbol_right" type="integer">912726</label>
+            <label index="static_currencies_item.cu_thousands_point" type="integer">97936547</label>
+            <label index="static_currencies_item.cu_decimal_point" type="integer">194134052</label>
+            <label index="static_currencies_item.cu_decimal_digits" type="integer">153453876</label>
+            <label index="static_currencies_item.cu_sub_divisor" type="integer">181976944</label>
+            <label index="static_currencies_item.cu_sub_symbol_left" type="integer">257294363</label>
+            <label index="static_currencies_item.cu_sub_symbol_right" type="integer">180538285</label>
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+            <label index="static_countries.title" type="integer">126932382</label>
+            <label index="static_countries_item.cn_iso_2" type="integer">47145425</label>
+            <label index="static_countries_item.cn_iso_3" type="integer">129658471</label>
+            <label index="static_countries_item.cn_iso_nr" type="integer">46311532</label>
+            <label index="static_countries_item.cn_official_name_local" type="integer">148211490</label>
+            <label index="static_countries_item.cn_official_name_en" type="integer">129404335</label>
+            <label index="static_countries_item.cn_capital" type="integer">129085910</label>
+            <label index="static_countries_item.cn_tldomain" type="integer">172508763</label>
+            <label index="static_countries_item.cn_currency_iso_nr" type="integer">210330190</label>
+            <label index="static_countries_item.cn_currency_iso_3" type="integer">73243628</label>
+            <label index="static_countries_item.cn_phone" type="integer">98600083</label>
+            <label index="static_countries_item.cn_eu_member" type="integer">220675826</label>
+            <label index="static_countries_item.cn_address_format" type="integer">258176925</label>
+            <label index="static_countries_item.cn_address_format_1" type="integer">259286835</label>
+            <label index="static_countries_item.cn_address_format_2" type="integer">29075071</label>
+            <label index="static_countries_item.cn_address_format_3" type="integer">220926361</label>
+            <label index="static_countries_item.cn_address_format_4" type="integer">116426090</label>
+            <label index="static_countries_item.cn_address_format_5" type="integer">236589604</label>
+            <label index="static_countries_item.cn_address_format_6" type="integer">115480938</label>
+            <label index="static_countries_item.cn_address_format_7" type="integer">155192228</label>
+            <label index="static_countries_item.cn_address_format_8" type="integer">37972116</label>
+            <label index="static_countries_item.cn_zone_flag" type="integer">216200146</label>
+            <label index="static_countries_item.cn_short_local" type="integer">226207428</label>
+            <label index="static_countries_item.cn_short_en" type="integer">203255010</label>
+            <label index="static_countries_item.cn_short_dk" type="integer">222419149</label>
+            <label index="static_countries_item.cn_short_de" type="integer">222419149</label>
+            <label index="static_country_zones.title" type="integer">14543292</label>
+            <label index="static_country_zones_item.zn_country_iso_nr" type="integer">46311532</label>
+            <label index="static_country_zones_item.zn_country_iso_2" type="integer">47145425</label>
+            <label index="static_country_zones_item.zn_country_iso_3" type="integer">129658471</label>
+            <label index="static_country_zones_item.zn_code" type="integer">117876527</label>
+            <label index="static_languages.title" type="integer">60853806</label>
+            <label index="static_languages_item.lg_iso_2" type="integer">161337573</label>
+            <label index="static_languages_item.lg_name_en" type="integer">145837609</label>
+            <label index="static_languages_item.lg_name_fr" type="integer">222419149</label>
+            <label index="static_languages_item.lg_name_de" type="integer">222419149</label>
+            <label index="static_languages_item.lg_name_es" type="integer">222419149</label>
+            <label index="static_languages_item.lg_name_nl" type="integer">222419149</label>
+            <label index="static_languages_item.lg_typo3" type="integer">19890474</label>
+            <label index="static_currencies.title" type="integer">234683459</label>
+            <label index="static_currencies_item.cu_iso_3" type="integer">73243628</label>
+            <label index="static_currencies_item.cu_iso_nr" type="integer">210330190</label>
+            <label index="static_currencies_item.cu_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_sub_name_en" type="integer">77949357</label>
+            <label index="static_currencies_item.cu_name_de" type="integer">222419149</label>
+            <label index="static_currencies_item.cu_sub_name_de" type="integer">222419149</label>
+            <label index="static_currencies_item.cu_symbol_left" type="integer">82440994</label>
+            <label index="static_currencies_item.cu_symbol_right" type="integer">912726</label>
+            <label index="static_currencies_item.cu_thousands_point" type="integer">97936547</label>
+            <label index="static_currencies_item.cu_decimal_point" type="integer">194134052</label>
+            <label index="static_currencies_item.cu_decimal_digits" type="integer">153453876</label>
+            <label index="static_currencies_item.cu_sub_divisor" type="integer">181976944</label>
+            <label index="static_currencies_item.cu_sub_symbol_left" type="integer">257294363</label>
+            <label index="static_currencies_item.cu_sub_symbol_right" type="integer">180538285</label>
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+            <label index="static_countries.title" type="integer">126932382</label>
+            <label index="static_countries_item.cn_iso_2" type="integer">47145425</label>
+            <label index="static_countries_item.cn_iso_3" type="integer">129658471</label>
+            <label index="static_countries_item.cn_iso_nr" type="integer">46311532</label>
+            <label index="static_countries_item.cn_official_name_local" type="integer">148211490</label>
+            <label index="static_countries_item.cn_official_name_en" type="integer">129404335</label>
+            <label index="static_countries_item.cn_capital" type="integer">129085910</label>
+            <label index="static_countries_item.cn_tldomain" type="integer">172508763</label>
+            <label index="static_countries_item.cn_currency_iso_nr" type="integer">210330190</label>
+            <label index="static_countries_item.cn_currency_iso_3" type="integer">73243628</label>
+            <label index="static_countries_item.cn_phone" type="integer">98600083</label>
+            <label index="static_countries_item.cn_eu_member" type="integer">220675826</label>
+            <label index="static_countries_item.cn_address_format" type="integer">258176925</label>
+            <label index="static_countries_item.cn_address_format_1" type="integer">259286835</label>
+            <label index="static_countries_item.cn_address_format_2" type="integer">29075071</label>
+            <label index="static_countries_item.cn_address_format_3" type="integer">220926361</label>
+            <label index="static_countries_item.cn_address_format_4" type="integer">116426090</label>
+            <label index="static_countries_item.cn_address_format_5" type="integer">236589604</label>
+            <label index="static_countries_item.cn_address_format_6" type="integer">115480938</label>
+            <label index="static_countries_item.cn_address_format_7" type="integer">155192228</label>
+            <label index="static_countries_item.cn_address_format_8" type="integer">37972116</label>
+            <label index="static_countries_item.cn_zone_flag" type="integer">216200146</label>
+            <label index="static_countries_item.cn_short_local" type="integer">226207428</label>
+            <label index="static_countries_item.cn_short_en" type="integer">203255010</label>
+            <label index="static_countries_item.cn_short_dk" type="integer">222419149</label>
+            <label index="static_countries_item.cn_short_de" type="integer">222419149</label>
+            <label index="static_country_zones.title" type="integer">14543292</label>
+            <label index="static_country_zones_item.zn_country_iso_nr" type="integer">46311532</label>
+            <label index="static_country_zones_item.zn_country_iso_2" type="integer">47145425</label>
+            <label index="static_country_zones_item.zn_country_iso_3" type="integer">129658471</label>
+            <label index="static_country_zones_item.zn_code" type="integer">117876527</label>
+            <label index="static_languages.title" type="integer">60853806</label>
+            <label index="static_languages_item.lg_iso_2" type="integer">161337573</label>
+            <label index="static_languages_item.lg_name_en" type="integer">145837609</label>
+            <label index="static_languages_item.lg_name_fr" type="integer">222419149</label>
+            <label index="static_languages_item.lg_name_de" type="integer">222419149</label>
+            <label index="static_languages_item.lg_name_es" type="integer">222419149</label>
+            <label index="static_languages_item.lg_name_nl" type="integer">222419149</label>
+            <label index="static_languages_item.lg_typo3" type="integer">19890474</label>
+            <label index="static_currencies.title" type="integer">234683459</label>
+            <label index="static_currencies_item.cu_iso_3" type="integer">73243628</label>
+            <label index="static_currencies_item.cu_iso_nr" type="integer">210330190</label>
+            <label index="static_currencies_item.cu_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_sub_name_en" type="integer">77949357</label>
+            <label index="static_currencies_item.cu_name_de" type="integer">222419149</label>
+            <label index="static_currencies_item.cu_sub_name_de" type="integer">222419149</label>
+            <label index="static_currencies_item.cu_symbol_left" type="integer">82440994</label>
+            <label index="static_currencies_item.cu_symbol_right" type="integer">912726</label>
+            <label index="static_currencies_item.cu_thousands_point" type="integer">97936547</label>
+            <label index="static_currencies_item.cu_decimal_point" type="integer">194134052</label>
+            <label index="static_currencies_item.cu_decimal_digits" type="integer">153453876</label>
+            <label index="static_currencies_item.cu_sub_divisor" type="integer">181976944</label>
+            <label index="static_currencies_item.cu_sub_symbol_left" type="integer">257294363</label>
+            <label index="static_currencies_item.cu_sub_symbol_right" type="integer">180538285</label>
+        </languageKey>
+        <languageKey index="ro" type="array">
+            <label index="static_countries_item.cn_iso_2" type="integer">47145425</label>
+            <label index="static_countries_item.cn_iso_3" type="integer">129658471</label>
+            <label index="static_countries_item.cn_iso_nr" type="integer">46311532</label>
+            <label index="static_countries_item.cn_official_name_local" type="integer">148211490</label>
+            <label index="static_countries_item.cn_official_name_en" type="integer">129404335</label>
+            <label index="static_countries_item.cn_capital" type="integer">129085910</label>
+            <label index="static_countries_item.cn_tldomain" type="integer">172508763</label>
+            <label index="static_countries_item.cn_currency_iso_nr" type="integer">210330190</label>
+            <label index="static_countries_item.cn_currency_iso_3" type="integer">73243628</label>
+            <label index="static_countries_item.cn_phone" type="integer">98600083</label>
+            <label index="static_countries_item.cn_eu_member" type="integer">220675826</label>
+            <label index="static_countries_item.cn_address_format" type="integer">258176925</label>
+            <label index="static_countries_item.cn_address_format_1" type="integer">259286835</label>
+            <label index="static_countries_item.cn_address_format_2" type="integer">29075071</label>
+            <label index="static_countries_item.cn_address_format_3" type="integer">220926361</label>
+            <label index="static_countries_item.cn_zone_flag" type="integer">216200146</label>
+            <label index="static_countries_item.cn_short_local" type="integer">226207428</label>
+            <label index="static_countries_item.cn_short_en" type="integer">203255010</label>
+            <label index="static_countries_item.cn_short_dk" type="integer">222419149</label>
+            <label index="static_countries_item.cn_short_de" type="integer">222419149</label>
+            <label index="static_country_zones_item.zn_country_iso_nr" type="integer">46311532</label>
+            <label index="static_country_zones_item.zn_country_iso_2" type="integer">47145425</label>
+            <label index="static_country_zones_item.zn_country_iso_3" type="integer">129658471</label>
+            <label index="static_country_zones_item.zn_code" type="integer">117876527</label>
+            <label index="static_languages_item.lg_iso_2" type="integer">161337573</label>
+            <label index="static_languages_item.lg_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_iso_3" type="integer">73243628</label>
+            <label index="static_currencies_item.cu_iso_nr" type="integer">210330190</label>
+            <label index="static_currencies_item.cu_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_sub_name_en" type="integer">77949357</label>
+            <label index="static_currencies_item.cu_name_de" type="integer">222419149</label>
+            <label index="static_currencies_item.cu_sub_name_de" type="integer">222419149</label>
+            <label index="static_currencies_item.cu_symbol_left" type="integer">82440994</label>
+            <label index="static_currencies_item.cu_symbol_right" type="integer">912726</label>
+            <label index="static_currencies_item.cu_thousands_point" type="integer">97936547</label>
+            <label index="static_currencies_item.cu_decimal_point" type="integer">194134052</label>
+            <label index="static_currencies_item.cu_decimal_digits" type="integer">153453876</label>
+            <label index="static_currencies_item.cu_sub_divisor" type="integer">181976944</label>
+            <label index="static_currencies_item.cu_sub_symbol_left" type="integer">257294363</label>
+            <label index="static_currencies_item.cu_sub_symbol_right" type="integer">180538285</label>
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+            <label index="static_countries.title" type="integer">126932382</label>
+            <label index="static_countries_item.cn_iso_2" type="integer">47145425</label>
+            <label index="static_countries_item.cn_iso_3" type="integer">129658471</label>
+            <label index="static_countries_item.cn_iso_nr" type="integer">46311532</label>
+            <label index="static_countries_item.cn_official_name_local" type="integer">148211490</label>
+            <label index="static_countries_item.cn_official_name_en" type="integer">129404335</label>
+            <label index="static_countries_item.cn_capital" type="integer">129085910</label>
+            <label index="static_countries_item.cn_tldomain" type="integer">172508763</label>
+            <label index="static_countries_item.cn_currency_iso_nr" type="integer">210330190</label>
+            <label index="static_countries_item.cn_currency_iso_3" type="integer">73243628</label>
+            <label index="static_countries_item.cn_phone" type="integer">98600083</label>
+            <label index="static_countries_item.cn_eu_member" type="integer">220675826</label>
+            <label index="static_countries_item.cn_address_format" type="integer">258176925</label>
+            <label index="static_countries_item.cn_address_format_1" type="integer">259286835</label>
+            <label index="static_countries_item.cn_address_format_2" type="integer">29075071</label>
+            <label index="static_countries_item.cn_address_format_3" type="integer">220926361</label>
+            <label index="static_countries_item.cn_address_format_4" type="integer">116426090</label>
+            <label index="static_countries_item.cn_address_format_5" type="integer">236589604</label>
+            <label index="static_countries_item.cn_address_format_6" type="integer">115480938</label>
+            <label index="static_countries_item.cn_address_format_7" type="integer">155192228</label>
+            <label index="static_countries_item.cn_address_format_8" type="integer">37972116</label>
+            <label index="static_countries_item.cn_zone_flag" type="integer">216200146</label>
+            <label index="static_countries_item.cn_short_local" type="integer">226207428</label>
+            <label index="static_countries_item.cn_short_en" type="integer">203255010</label>
+            <label index="static_country_zones.title" type="integer">14543292</label>
+            <label index="static_country_zones_item.zn_country_iso_nr" type="integer">46311532</label>
+            <label index="static_country_zones_item.zn_country_iso_2" type="integer">47145425</label>
+            <label index="static_country_zones_item.zn_country_iso_3" type="integer">129658471</label>
+            <label index="static_country_zones_item.zn_code" type="integer">117876527</label>
+            <label index="static_languages.title" type="integer">60853806</label>
+            <label index="static_languages_item.lg_iso_2" type="integer">161337573</label>
+            <label index="static_languages_item.lg_name_en" type="integer">145837609</label>
+            <label index="static_languages_item.lg_typo3" type="integer">19890474</label>
+            <label index="static_currencies.title" type="integer">234683459</label>
+            <label index="static_currencies_item.cu_iso_3" type="integer">73243628</label>
+            <label index="static_currencies_item.cu_iso_nr" type="integer">210330190</label>
+            <label index="static_currencies_item.cu_name_en" type="integer">145837609</label>
+            <label index="static_currencies_item.cu_sub_name_en" type="integer">77949357</label>
+            <label index="static_currencies_item.cu_symbol_left" type="integer">82440994</label>
+            <label index="static_currencies_item.cu_symbol_right" type="integer">912726</label>
+            <label index="static_currencies_item.cu_thousands_point" type="integer">97936547</label>
+            <label index="static_currencies_item.cu_decimal_point" type="integer">194134052</label>
+            <label index="static_currencies_item.cu_decimal_digits" type="integer">153453876</label>
+            <label index="static_currencies_item.cu_sub_divisor" type="integer">181976944</label>
+            <label index="static_currencies_item.cu_sub_symbol_left" type="integer">257294363</label>
+            <label index="static_currencies_item.cu_sub_symbol_right" type="integer">180538285</label>
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+        <languageKey index="hi" type="array">
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+        <languageKey index="hi" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

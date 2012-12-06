@@ -1,0 +1,41 @@
+plugin.tx_staticinfotables_pi1 {
+
+   countryCode = {$plugin.tx_staticinfotables_pi1.countryCode}
+   countriesAllowed = {$plugin.tx_staticinfotables_pi1.countriesAllowed}
+   countryZoneCode = {$plugin.tx_staticinfotables_pi1.countryZoneCode}
+   currencyCode = {$plugin.tx_staticinfotables_pi1.currencyCode}
+   languageCode = {$plugin.tx_staticinfotables_pi1.languageCode}
+   onChangeAttribute = {$plugin.tx_staticinfotables_pi1.onChangeAttribute}
+
+   addressFormat {
+## See www.upu.int
+## Semi-colon (;)-separated address lines
+## Examples of address format 1: Austria, Denmark, France, Germany, Russia
+      1 = %street;%zip  %city;%countryName
+
+## Examples of address format 2: India
+      2 = %street;%city %zip;%countryName
+
+## Examples of address format 3: Australia, USA
+      3 = %street;%city %countrySubdivisionCode  %zip;%countryName
+
+## Example of address format 4: Canada
+      4 = %street;%city (%countrySubdivisionName) %zip;%countryName
+
+## Example of address format 5: Great Britain
+      5 = %street;%city;%zip%countryName
+
+## Example of address format 6: Mexico
+      6 = %street;%zip %city, %countrySubdivisionCode;%countryName
+
+## Example of address format 7: Italy
+      7 = %street;%zip %city %countrySubdivisionCode;%countryName
+
+## Example of address format 8: Spain
+      8 = %street;%zip %city (%countrySubdivisionName);%countryName
+
+## Example of address format 9: Brazil
+      9 = %street;%city - %countrySubdivisionCode;%zip;%countryName
+   }
+}
+

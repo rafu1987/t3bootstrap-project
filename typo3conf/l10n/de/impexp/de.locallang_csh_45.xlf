@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="import.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Tip: Import into a Folder&lt;/b&gt;
+To make sure that no records are lost during the import, you can make yourself safe by importing into a Folder you create first. After the import you can move all records to the final destinations. An example of such a scenario is if you configured the export to include relations; In that case a number of records may follow the export outside the page tree structure you are exporting. To make sure that all of these external records are written to the database, importing into a Folder is a good idea.
+
+&lt;b&gt;Error messages:&lt;/b&gt; Remember to consult the Message-tab before/after importing to see if there are any error messages there!</source>
+      <target state="translated">&lt;b&gt;Tipp: Import in einen Ordner&lt;/ b&gt;
+Um sicherzustellen, dass keine Datensätze beim Import verloren gehen, können Sie zur Sicherheit in einem Ordner importieren, den Sie zuvor erstellen. Nach dem Import können Sie alle Datensätze an die endgültigen Bestimmungsorte verschieben. Ein Beispiel für ein solches Szenario ist, wenn Sie den Export so konfigurieren, Beziehungen zu beinhalten; In diesem Fall wird eine Anzahl von Datensätzen außerhalb der exportierten SeitenbaumStruktur im Export enthalten sein. Um sicherzustellen, dass alle diese externen Datensätze in die Datenbank geschrieben werden, ist es eine gute Idee in einem Ordner zu importieren.
+
+&lt;b&gt;Fehlermeldungen:&lt;/ b&gt; Denken Sie daran, den Nachrichten-Tab vor/nach dem Import anzusehen, ob es irgendwelche Fehlermeldungen gibt!</target></trans-unit>
+    </body>
+  </file>
+</xliff>

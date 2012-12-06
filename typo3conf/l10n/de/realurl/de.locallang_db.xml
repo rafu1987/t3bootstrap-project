@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="pages.tx_realurl_pathsegment">Pfadsegment für untergeordnete Seiten:</label>
+      <label index="pages.tx_realurl_exclude">Nicht in sprechende URL aufnehmen:</label>
+      <label index="pages.tx_realurl_path_override">Den gesamten Pfad überschreiben</label>
+      <label index="pages.tx_realurl_nocache">RealURL-Cache deaktivieren</label>
+      <label index="moduleFunction.tx_realurl_modfunc1">RealURL-Verwaltung</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

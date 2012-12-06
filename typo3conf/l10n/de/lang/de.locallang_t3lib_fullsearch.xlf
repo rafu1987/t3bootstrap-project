@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="query_loaded" xml:space="preserve" approved="yes">
+        <source>Query "%s" loaded!</source>
+      <target state="translated">Abfrage "%s" geladen!</target></trans-unit>
+      <trans-unit id="query_from_action_loaded" xml:space="preserve" approved="yes">
+        <source>Query from action "%s" loaded!</source>
+      <target state="translated">Abfrage aus Aktion "%s" geladen!</target></trans-unit>
+      <trans-unit id="query_saved" xml:space="preserve" approved="yes">
+        <source>Query saved!</source>
+      <target state="translated">Abfrage gespeichert!</target></trans-unit>
+      <trans-unit id="query_notsaved" xml:space="preserve" approved="yes">
+        <source>No query saved!</source>
+      <target state="translated">Keine Abfrage gespeichert!</target></trans-unit>
+      <trans-unit id="query_removed" xml:space="preserve" approved="yes">
+        <source>"%s" query entry removed!</source>
+      <target state="translated">Abfrageeintrag "%s" entfernt!</target></trans-unit>
+    </body>
+  </file>
+</xliff>

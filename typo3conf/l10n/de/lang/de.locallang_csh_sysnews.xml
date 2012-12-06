@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="hidden.description">Mit dieser Option können Sie die Nachricht verbergen. Sie wird dann nicht auf der Loginseite angezeigt.</label>
+      <label index="title.description">Geben Sie den Titel der Nachricht ein.</label>
+      <label index="content.description">Der Inhalt der Nachricht, um Redakteure auf dem Laufenden zu halten. HTML-Elemente sind nicht möglich, Zeilenumbrüche aber sind erlaubt.</label>
+      <label index=".description">System-Nachrichten werden auf der TYPO3-Loginseite angezeigt. Sie ermöglichen es Administratoren, Redakteure über anstehende Wartungsarbeiten und Ähnliches zu informieren.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

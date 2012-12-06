@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">Über TYPO3</label>
+      <label index="typo3_logo">TYPO3-Logo</label>
+      <label index="information">Informationen zu TYPO3</label>
+      <label index="welcome">TYPO3 Content-Management-System</label>
+      <label index="minor">TYPO3 ist ein flexibles und professionelles Open-Source-Web-CMS basierend auf PHP und MySQL.&lt;br /&gt;&lt;br /&gt;TYPO3 ist &lt;b&gt;frei verfügbar&lt;/b&gt; unter der &lt;a href="http://typo3.com/1316.0.html" target="_blank"&gt;TYPO3-Lizenz (GNU/GPL)&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;%s %s&lt;br /&gt;</label>
+      <label index="community_credits">Die TYPO3-Community</label>
+      <label index="information_detail">Besuchen Sie &lt;a href="http://typo3.org/community/" target="_blank"&gt;typo3.org/community/&lt;/a&gt;, um zu erfahren, warum TYPO3 rockt!</label>
+      <label index="coredevs">Kern-Team</label>
+      <label index="coredevs_detail">Die vollständige Liste der Mitglieder erhalten Sie unter &lt;a href="http://typo3.org/teams/core/members/" target="_blank"&gt;typo3.org/teams/core/members/&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Das Git-Depot und das Änderungsprotokoll finden Sie &lt;a href="http://forge.typo3.org/projects/show/typo3v4-core/" target="_blank"&gt;hier&lt;/a&gt;.</label>
+      <label index="extension_authors">Entwickler der installierten Erweiterungen</label>
+      <label index="extension_list_info">Dies ist eine Liste der Menschen, die zu den Erweiterungen, die Sie in Ihrer Installation benutzen, beigetragen haben.</label>
+      <label index="extension">Erweiterung</label>
+      <label index="extension_author">Entwickler</label>
+      <label index="mlang_labels_tablabel">Informationen über TYPO3</label>
+      <label index="mlang_labels_tabdescr">Zeigt die grundlegenden Informationen zu TYPO3, Versionsinformationen und Lizenzbedingungen an.</label>
+      <label index="mlang_tabs_tab">Über TYPO3</label>
+      <label index="donation_header">TYPO3 Geldspenden</label>
+      <label index="donation_message">Es wäre großartig, wenn Sie Geld spenden würden. TYPO3 ist Open-Source-Software und auf Geldspenden von Benutzern und Unterstützern angewiesen.&lt;br/&gt; &lt;b&gt;Danke&lt;/b&gt;, dass Sie dieses großartige Content-Management-System mit Ihrer Hilfe noch besser machen!</label>
+      <label index="donation_button">Jetzt spenden</label>
+      <label index="external_libraries">Externe Bibliotheken</label>
+      <label index="external_thanks">Der TYPO3-Kern benutzt und bedankt sich zugleich bei folgenden Open Source Projekten:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

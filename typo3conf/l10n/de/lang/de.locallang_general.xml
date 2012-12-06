@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="LGL.endtime">Stopp:</label>
+      <label index="LGL.hidden">Verbergen:</label>
+      <label index="LGL.timestamp"/>
+      <label index="LGL.creationDate"/>
+      <label index="LGL.creationUserId"/>
+      <label index="LGL.starttime">Start:</label>
+      <label index="LGL.fe_group">Zugriff:</label>
+      <label index="LGL.hide_at_login">Nach Anmeldung verbergen</label>
+      <label index="LGL.any_login">Anzeigen, wenn angemeldet</label>
+      <label index="LGL.usergroups">__Benutzergruppen:__</label>
+      <label index="LGL.type">Typ:</label>
+      <label index="LGL.description">Beschreibung:</label>
+      <label index="LGL.prependAtCopy">(Kopie %s)</label>
+      <label index="LGL.layout">Layout:</label>
+      <label index="LGL.default_value">Standard</label>
+      <label index="LGL.normal">Normal</label>
+      <label index="LGL.images">Bilder:</label>
+      <label index="LGL.image">Bild:</label>
+      <label index="LGL.caption">Bildunterschrift:</label>
+      <label index="LGL.subheader">Untertitel:</label>
+      <label index="LGL.text">Text:</label>
+      <label index="LGL.name">Name:</label>
+      <label index="LGL.first_name">Vorname:</label>
+      <label index="LGL.middle_name">Mittlerer Name:</label>
+      <label index="LGL.last_name">Nachname:</label>
+      <label index="LGL.title">Titel:</label>
+      <label index="LGL.title_person">Titel:</label>
+      <label index="LGL.address">Adresse:</label>
+      <label index="LGL.phone">Telefon:</label>
+      <label index="LGL.fax">Fax:</label>
+      <label index="LGL.author">Autor:</label>
+      <label index="LGL.email">E-Mail:</label>
+      <label index="LGL.company">Firma:</label>
+      <label index="LGL.city">Stadt:</label>
+      <label index="LGL.zip">PLZ:</label>
+      <label index="LGL.country">Land:</label>
+      <label index="LGL.www">WWW:</label>
+      <label index="LGL.lastlogin">Letzte Anmeldung:</label>
+      <label index="LGL.note">Bemerkung:</label>
+      <label index="LGL.parameters">Parameter:</label>
+      <label index="LGL.code">CODE:</label>
+      <label index="LGL.links">Links</label>
+      <label index="LGL.language">Sprache:</label>
+      <label index="LGL.category">Kategorie:</label>
+      <label index="LGL.shortcut_page">Verweis auf Seite:</label>
+      <label index="LGL.keywords">Stichworte (kommagetrennt):</label>
+      <label index="LGL.disable">Inaktiv:</label>
+      <label index="LGL.baseStorage"/>
+      <label index="LGL.folder"/>
+      <label index="LGL.startingpoint">Ausgangspunkt:</label>
+      <label index="LGL.disableRTE">Rich-Text-Editor deaktivieren:</label>
+      <label index="LGL.external">Externe URL</label>
+      <label index="LGL.recursive">Rekursiv:</label>
+      <label index="LGL.l18n_parent">Ursprungstext:</label>
+      <label index="LGL.allLanguages">[Alle]</label>
+      <label index="LGL.versionLabel">Versionierungskennzeichen:</label>
+      <label index="LGL.error">Fehler!</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

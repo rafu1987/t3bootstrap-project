@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="Substitute this occurrence?" xml:space="preserve" approved="yes">
+        <source>Substitute this occurrence?</source>
+      <target state="translated">Diesen Eintrag ändern?</target></trans-unit>
+      <trans-unit id="Enter the text you want to find" xml:space="preserve" approved="yes">
+        <source>Enter the text you want to find</source>
+      <target state="translated">Einen Suchbegriff eingeben</target></trans-unit>
+      <trans-unit id="Inform a replacement word" xml:space="preserve" approved="yes">
+        <source>This will erase all occurrences.</source>
+      <target state="translated">Dies wird alle Fundstellen löschen.</target></trans-unit>
+      <trans-unit id="found items" xml:space="preserve" approved="yes">
+        <source>found items</source>
+      <target state="translated">gefundene</target></trans-unit>
+      <trans-unit id="replaced items" xml:space="preserve" approved="yes">
+        <source>replaced items</source>
+      <target state="translated">ersetzte Einträge</target></trans-unit>
+      <trans-unit id="found item" xml:space="preserve" approved="yes">
+        <source>item found</source>
+      <target state="translated">Eintrag gefunden</target></trans-unit>
+      <trans-unit id="replaced item" xml:space="preserve" approved="yes">
+        <source>item replaced</source>
+      <target state="translated">Eintrag ersetzt</target></trans-unit>
+      <trans-unit id="not found" xml:space="preserve" approved="yes">
+        <source>not found</source>
+      <target state="translated">nicht gefunden</target></trans-unit>
+      <trans-unit id="Find and Replace" xml:space="preserve" approved="yes">
+        <source>Find And Replace</source>
+      <target state="translated">Suchen und Ersetzen</target></trans-unit>
+      <trans-unit id="Options" xml:space="preserve" approved="yes">
+        <source>Options</source>
+      <target state="translated">Optionen</target></trans-unit>
+      <trans-unit id="Whole words only" xml:space="preserve" approved="yes">
+        <source>Whole words only</source>
+      <target state="translated">Nur ganze Wörter</target></trans-unit>
+      <trans-unit id="Case sensitive search" xml:space="preserve" approved="yes">
+        <source>Case sensitive search</source>
+      <target state="translated">Groß- und Kleinschreibung beachten</target></trans-unit>
+      <trans-unit id="Substitute all occurrences" xml:space="preserve" approved="yes">
+        <source>Substitute all occurrences</source>
+      <target state="translated">Alle Fundstellen ersetzen</target></trans-unit>
+      <trans-unit id="Search for:" xml:space="preserve" approved="yes">
+        <source>Search for:</source>
+      <target state="translated">Suche nach:</target></trans-unit>
+      <trans-unit id="Replace with:" xml:space="preserve" approved="yes">
+        <source>Replace with:</source>
+      <target state="translated">Ersetze durch:</target></trans-unit>
+      <trans-unit id="Actions" xml:space="preserve" approved="yes">
+        <source>Actions</source>
+      <target state="translated">Aktionen</target></trans-unit>
+      <trans-unit id="Clear" xml:space="preserve" approved="yes">
+        <source>Clear</source>
+      <target state="translated">Löschen</target></trans-unit>
+      <trans-unit id="Highlight" xml:space="preserve" approved="yes">
+        <source>Highlight</source>
+      <target state="translated">Hervorheben</target></trans-unit>
+      <trans-unit id="Undo" xml:space="preserve" approved="yes">
+        <source>Undo</source>
+      <target state="translated">Rückgängig</target></trans-unit>
+      <trans-unit id="Next" xml:space="preserve" approved="yes">
+        <source>Next</source>
+      <target state="translated">Nächster</target></trans-unit>
+      <trans-unit id="Done" xml:space="preserve" approved="yes">
+        <source>Done</source>
+      <target state="translated">Fertig</target></trans-unit>
+    </body>
+  </file>
+</xliff>

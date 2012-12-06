@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="bold" xml:space="preserve" approved="yes">
+        <source>Bold</source>
+      <target state="translated">Fett</target></trans-unit>
+      <trans-unit id="italic" xml:space="preserve" approved="yes">
+        <source>Italic</source>
+      <target state="translated">Kursiv</target></trans-unit>
+      <trans-unit id="underline" xml:space="preserve" approved="yes">
+        <source>Underline</source>
+      <target state="translated">Unterstrichen</target></trans-unit>
+      <trans-unit id="strikethrough" xml:space="preserve" approved="yes">
+        <source>Strikethrough</source>
+      <target state="translated">Durchgestrichen</target></trans-unit>
+      <trans-unit id="subscript" xml:space="preserve" approved="yes">
+        <source>Subscript</source>
+      <target state="translated">Tiefgestellt</target></trans-unit>
+      <trans-unit id="superscript" xml:space="preserve" approved="yes">
+        <source>Superscript</source>
+      <target state="translated">Hochgestellt</target></trans-unit>
+      <trans-unit id="justifyleft" xml:space="preserve" approved="yes">
+        <source>Justify Left</source>
+      <target state="translated">Linksbündig</target></trans-unit>
+      <trans-unit id="justifycenter" xml:space="preserve" approved="yes">
+        <source>Justify Center</source>
+      <target state="translated">Zentrieren</target></trans-unit>
+      <trans-unit id="justifyright" xml:space="preserve" approved="yes">
+        <source>Justify Right</source>
+      <target state="translated">Rechtsbündig</target></trans-unit>
+      <trans-unit id="justifyfull" xml:space="preserve" approved="yes">
+        <source>Justify Full</source>
+      <target state="translated">Blocksatz</target></trans-unit>
+      <trans-unit id="insertorderedlist" xml:space="preserve" approved="yes">
+        <source>Ordered List</source>
+      <target state="translated">Nummerierung</target></trans-unit>
+      <trans-unit id="insertunorderedlist" xml:space="preserve" approved="yes">
+        <source>Bulleted List</source>
+      <target state="translated">Aufzählung</target></trans-unit>
+      <trans-unit id="outdent" xml:space="preserve" approved="yes">
+        <source>Decrease Indent</source>
+      <target state="translated">Einzug verkleinern</target></trans-unit>
+      <trans-unit id="indent" xml:space="preserve" approved="yes">
+        <source>Increase Indent</source>
+      <target state="translated">Einzug vergrößern</target></trans-unit>
+      <trans-unit id="forecolor" xml:space="preserve" approved="yes">
+        <source>Font Color</source>
+      <target state="translated">Zeichenfarbe</target></trans-unit>
+      <trans-unit id="hilitecolor" xml:space="preserve" approved="yes">
+        <source>Background Color</source>
+      <target state="translated">Hintergrundfarbe</target></trans-unit>
+      <trans-unit id="inserthorizontalrule" xml:space="preserve" approved="yes">
+        <source>Horizontal Rule</source>
+      <target state="translated">Horizontale Linie</target></trans-unit>
+      <trans-unit id="createlink" xml:space="preserve" approved="yes">
+        <source>Insert Web Link</source>
+      <target state="translated">Link einfügen</target></trans-unit>
+      <trans-unit id="unlink" xml:space="preserve" approved="yes">
+        <source>Remove link</source>
+      <target state="translated">Link entfernen</target></trans-unit>
+      <trans-unit id="insertimage" xml:space="preserve" approved="yes">
+        <source>Insert/Modify Image</source>
+      <target state="translated">Bild einfügen/verändern</target></trans-unit>
+      <trans-unit id="inserttable" xml:space="preserve" approved="yes">
+        <source>Insert Table</source>
+      <target state="translated">Tabelle einfügen</target></trans-unit>
+      <trans-unit id="htmlmode" xml:space="preserve" approved="yes">
+        <source>Toggle HTML Source</source>
+      <target state="translated">Zur HTML-Ansicht wechseln</target></trans-unit>
+      <trans-unit id="popupeditor" xml:space="preserve" approved="yes">
+        <source>Enlarge the editor</source>
+      <target state="translated">Editor-Fenster vergrößern</target></trans-unit>
+      <trans-unit id="about" xml:space="preserve" approved="yes">
+        <source>About this editor</source>
+      <target state="translated">Über diesen Editor</target></trans-unit>
+      <trans-unit id="showhelp" xml:space="preserve" approved="yes">
+        <source>Help using editor</source>
+      <target state="translated">Hilfe</target></trans-unit>
+      <trans-unit id="textindicator" xml:space="preserve" approved="yes">
+        <source>Current style</source>
+      <target state="translated">Momentaner Stil</target></trans-unit>
+      <trans-unit id="undo" xml:space="preserve" approved="yes">
+        <source>Undo the last action</source>
+      <target state="translated">Letzte Aktion rückgängig machen</target></trans-unit>
+      <trans-unit id="redo" xml:space="preserve" approved="yes">
+        <source>Redo the last action</source>
+      <target state="translated">Letzte Aktion wiederholen</target></trans-unit>
+      <trans-unit id="cut" xml:space="preserve" approved="yes">
+        <source>Cut selection</source>
+      <target state="translated">Auswahl ausschneiden</target></trans-unit>
+      <trans-unit id="copy" xml:space="preserve" approved="yes">
+        <source>Copy selection</source>
+      <target state="translated">Auswahl kopieren</target></trans-unit>
+      <trans-unit id="paste" xml:space="preserve" approved="yes">
+        <source>Paste from clipboard</source>
+      <target state="translated">Aus der Zwischenablage einfügen</target></trans-unit>
+      <trans-unit id="lefttoright" xml:space="preserve" approved="yes">
+        <source>Direction left to right</source>
+      <target state="translated">Schreibrichtung von links nach rechts</target></trans-unit>
+      <trans-unit id="righttoleft" xml:space="preserve" approved="yes">
+        <source>Direction right to left</source>
+      <target state="translated">Schreibrichtung von rechts nach links</target></trans-unit>
+      <trans-unit id="removeformat" xml:space="preserve" approved="yes">
+        <source>Remove formatting</source>
+      <target state="translated">Formatierung entfernen</target></trans-unit>
+      <trans-unit id="print" xml:space="preserve" approved="yes">
+        <source>Print document</source>
+      <target state="translated">Das Dokument drucken</target></trans-unit>
+      <trans-unit id="killword" xml:space="preserve" approved="yes">
+        <source>Clear MSOffice tags</source>
+      <target state="translated">MSOffice &lt;o:&gt; entfernen</target></trans-unit>
+      <trans-unit id="fontname" xml:space="preserve" approved="yes">
+        <source>Font</source>
+      <target state="translated">Schriftart</target></trans-unit>
+      <trans-unit id="fontsize" xml:space="preserve" approved="yes">
+        <source>Font size</source>
+      <target state="translated">Schriftgröße</target></trans-unit>
+      <trans-unit id="formatblock" xml:space="preserve" approved="yes">
+        <source>Type of paragragh</source>
+      <target state="translated">Absatzart</target></trans-unit>
+    </body>
+  </file>
+</xliff>

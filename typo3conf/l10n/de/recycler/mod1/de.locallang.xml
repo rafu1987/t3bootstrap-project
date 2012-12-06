@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">Papierkorb</label>
+      <label index="description">Der Papierkorb erlaubt es, gelöschte Daten auszuwählen und sie wiederherzustellen. Ist auch das übergeordnete Element gelöscht (etwa die Seite, auf der sich das wiederherzustellende Inhaltselement befunden hat), können Sie Datensätze auch rekursiv wiederherstellen.</label>
+      <label index="label_alltables">Alle Tabellen</label>
+      <label index="js.label_lostandfound">Fundbüro</label>
+      <label index="js.label_deletedTab">Gelöschte Daten</label>
+      <label index="js.label_loadMessage">Bitte warten...&lt;br /&gt;Datensätze werden geladen!</label>
+      <label index="js.label_doDelete_confirmText">Diesen Datensatz (UND im Falle einer Seite ALLE Kinddatensätze) tatsächlich löschen?&lt;br /&gt;ACHTUNG: Die Daten werden entgültig aus der Datenbank gelöscht!</label>
+      <label index="js.label_deleteButton_text">Löschen</label>
+      <label index="js.label_deleteButton_tooltip">Ausgewählte Elemente löschen</label>
+      <label index="js.label_undeleteButton_text">Wiederherstellen</label>
+      <label index="js.label_undeleteButton_tooltip">Ausgewählte Elemente wiederherstellen</label>
+      <label index="js.label_error_NoSelectedRows_title">Keine Zeile ausgewählt</label>
+      <label index="js.label_error_NoSelectedRows_msg">Sie müssen eine Zeile auswählen!</label>
+      <label index="js.label_yes">Ja</label>
+      <label index="js.label_no">Nein</label>
+      <label index="js.label_sure">Tatsächlich durchführen?</label>
+      <label index="js.label_crdate">Erstellt</label>
+      <label index="js.label_owner">Besitzer</label>
+      <label index="js.label_tstamp">Letzte Bearbeitung</label>
+      <label index="js.label_clear">Entfernen</label>
+      <label index="js.label_filter">Filter</label>
+      <label index="js.label_title_undelete">Wiederherstellen?</label>
+      <label index="js.label_text_undelete">Datensätze aus Tabellen wiederherstellen:</label>
+      <label index="js.label_title_delete">Löschen?</label>
+      <label index="js.label_text_delete">Datensätze aus Tabellen löschen:</label>
+      <label index="js.label_boxLabel_undelete_recursive">Rekursives Wiederherstellen</label>
+      <label index="js.label_tableMenu_label">Tabelle:</label>
+      <label index="js.label_tableMenu_emptyText">Eine Tabelle auswählen...</label>
+      <label index="js.label_filter_emptyText">Suchbegriff</label>
+      <label index="js.label_search">Suche:</label>
+      <label index="js.label_pagingMessage">Anzeigen der Datensätze {0} - {1} von {2}</label>
+      <label index="js.label_pagingEmpty">Keine Datensätze anzuzeigen</label>
+      <label index="js.label_noValueFound">Keine Datensätze für {0}</label>
+      <label index="js.label_records">Datensätze</label>
+      <label index="js.label_table">Tabelle</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

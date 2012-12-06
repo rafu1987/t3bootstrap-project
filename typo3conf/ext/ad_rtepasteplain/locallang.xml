@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Language labels for ad_rtepasteplain</description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:ad_rtepasteplain/locallang.xml</fileId>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="ad_rtepasteplain.layer.info"><![CDATA[Please insert your text below by pressing Ctrl+V]]></label>
+			<label index="ad_rtepasteplain.layer.insert"><![CDATA[ok]]></label>
+			<label index="ad_rtepasteplain.layer.cancel"><![CDATA[cancel]]></label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="ad_rtepasteplain.layer.info"><![CDATA[Bitte fügen Sie den Text in der folgenden Box über Strg+V ein <br />und bestätigen Sie mit "einfügen".]]></label>
+			<label index="ad_rtepasteplain.layer.insert"><![CDATA[einfügen]]></label>
+			<label index="ad_rtepasteplain.layer.cancel"><![CDATA[abbrechen]]></label>		
+		</languageKey>
+	</data>
+</T3locallang>

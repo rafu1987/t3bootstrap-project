@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Bietet Ihnen die Möglichkeit, Ihre Seiten auch in anderen Sprachen darzustellen.</label>
+      <label index=".details">Diese Datensätze enthalten Felder, die sehr den der Seitendatensätze ähneln, also genau den Feldern, die für übersetzte Versionen einer Seite in andere Sprachen übertragen werden sollten. Legen Sie für jede Sprachversion einer Seite nur genau EINE Alternative Seitensprache an. Andernfalls ist unklar, welche bei der Anzeige benutzt wird. Bevor Sie eine Alternative Seitensprache anlegen, sollten Sie zunächst eine Hauptsprache in der Wurzel Ihrer Website definieren (Website Language). Desweiteren müssen Sie dafür Sorge tragen, dass Ihre TypoScript-Vorlagen zusätzliche Seitensprachen überhaupt unterstützen, denn das ist keine TYPO3-Standardeigenschaft, sondern eine Designaufgabe. Technische gesehen werden die einzelnen Seiteninhalte der Hautsprache mit den Inhalten der alternativen Seitensprache überlagert, sobald diese Inhalte in einer anderen Sprache vorhanden sind und die entsprechende Vorlage Mehrsprachigkeit unterstützt.</label>
+      <label index="_.seeAlso">sys_language, _MOD_web_layout:language_list</label>
+      <label index="hidden.description">Mit dieser Option können Sie die gewählte Sprache zeitweilig deaktivieren (verbergen).</label>
+      <label index="hidden.details">Diese Option ist besonders nützlich, wenn Sie gerade dabei sind, Übersetzungen für die gewählte Sprache anzufertigen. Während dieser Zeit sollten die halbfertigen Übersetzungen noch nicht auf Ihrer Website erscheinen. Als angemeldeter TYPO3-Backend-Benutzer können Sie jedoch mit dem Admin-Panel diese versteckten Inhalte sichtbar machen (Admin Panel &gt; Vorschau &gt; Zeige verborgene Inhalte).</label>
+      <label index="_hidden.seeAlso">pages_language_overlay:starttime, pages_language_overlay:endtime</label>
+      <label index="starttime.description">Die "Start"-Zeit legt fest, ab wann die alternative Seitensprache auf der Web-Seite verfügbar (d.h. online) sein soll.</label>
+      <label index="_starttime.seeAlso">pages_language_overlay:endtime, pages_language_overlay:hidden, pages:starttime</label>
+      <label index="endtime.description">Die "Stop"-Zeit legt fest, ab wann die alternative Seitensprache auf der Web-Seite nicht mehr verfügbar (d.h. offline) sein soll.</label>
+      <label index="_endtime.seeAlso">pages_language_overlay:starttime, pages_language_overlay:hidden, pages:endtime</label>
+      <label index="title.description">Geben Sie einen Namen für die alternative Seitensprache an.</label>
+      <label index="_title.seeAlso">pages:title</label>
+      <label index="subtitle.description">Geben Sie einen Untertitel für die alternative Seitensprache an.</label>
+      <label index="_subtitle.seeAlso">pages:subtitle</label>
+      <label index="keywords.description">Geben Sie Schlüsselwörter für die alternative Seitensprache an.</label>
+      <label index="_keywords.seeAlso">pages:keywords</label>
+      <label index="description.description">Geben Sie eine Beschreibung für die alternative Seitensprache an.</label>
+      <label index="_description.seeAlso">pages:description</label>
+      <label index="abstract.description">Geben Sie eine Zusammenfassung für die alternative Seitensprache an.</label>
+      <label index="_abstract.seeAlso">pages:abstract</label>
+      <label index="author.description">Geben Sie einen Autor für die alternative Seitensprache an.</label>
+      <label index="_author.seeAlso">pages:author</label>
+      <label index="author_email.description">Geben Sie die E-Mail-Adresse des Autors der alternative Seitensprache an.</label>
+      <label index="_author_email.seeAlso">pages:author_email</label>
+      <label index="media.description">Geben Sie Dateien für die alternative Seitensprache an.</label>
+      <label index="_media.seeAlso">pages:media</label>
+      <label index="sys_language_uid.description">Wählen Sie die durch diesen Eintrag dargestellte Sprache.</label>
+      <label index="_sys_language_uid.seeAlso">sys_language, sys_language:title</label>
+      <label index="nav_title.description">Geben Sie einen optionalen Navigationstitel für die alternative Seitensprache an.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Verzeichnisfreigaben beschreiben relative oder absolute Pfade auf dem Server.</label>
+      <label index=".details">Indem Sie eine Verzeichnisfreigabe erstellen und diese Freigabe einer Backend-Benutzergruppe zuweisen, gewähren Sie diesen Benutzern den Zugriff auf die freigegebenen Dateien (über das Menü "Datei &gt; Dateiliste"). Verzeichnisfreigaben können unter Umständen auch Pfade beschreiben, zu denen der Benutzer direkten Zugriff per FTP hat. Stellen Sie in diesem Fall sicher, dass der Web-Server (bzw. der Systembenutzer, unter dessen Kennung der PHP-Prozess läuft) zumindest Leserechte auf diese Dateien hat - andernfalls erscheinen solche Dateien nicht im TYPO3-Datei-Browser! Absolute Pfade für Verzeichnisfreigaben sind nur innerhalb des durch die Systemvariable $TYPO3_CONF_VARS[BE][lockRootPath] festgelegten Pfades möglich.</label>
+      <label index="_.seeAlso">be_groups:file_mountpoints, be_users:file_mountpoints, Mehr über Dateifreigaben | http://typo3.org/documentation/document-library/doc_core_inside/More_about_File_Moun/</label>
+      <label index="_.image">EXT:lang/cshimages/filemount_1.png</label>
+      <label index="title.description">Geben Sie einen Namen für die Verzeichnisfreigabe an. Dieser Name erscheint, wenn Sie Benutzern oder Gruppen diese Verzeichnisfreigabe zuweisen.</label>
+      <label index="_title.image">EXT:lang/cshimages/be_groups_5.png</label>
+      <label index="path.description">Geben Sie den relativen oder absoluten Pfad zur Verzeichnisfreigabe an (abhängig davon, welche Option Sie bei Basis wählen).</label>
+      <label index="path.details">Wenn Sie bei Basis die Option "relativ" wählen, beziehen sich Verzeichnisfreigaben auf Unterordner von "fileadmin/". Beispiel: Um Ihren Benutzern den Ordner "fileadmin/user_upload/" zur Verfügung zu stellen, können Sie zunächst die Basis-Option "relativ" wählen und dann als Pfad "user_upload/" eingeben. Wenn Sie bei Basis die Option "absolut" wählen, beziehen sich Verzeichnisfreigaben auf den absoluten Pfad auf dem Server, also z.B. "/home/ftp_upload" oder "C:/home/ftp_upload". Sie müssen hierbei darauf achten, dass der erste Teil des angegebenen Pfades auch in der Systemvariablen $TYPO3_CONF_VARS[BE][lockRootPath] eingetragen ist. &lt;strong&gt;Hinweis:&lt;/strong&gt; Stellen Sie sicher, dass der Benutzer des Web-Servers, unter dem PHP läuft, &lt;em&gt;mindestens&lt;/em&gt; Leserechte für den Pfad hat. Wenn das nicht der Fall ist, wird die Freigabe ohne weitere Warnung nicht angezeigt. Wenn Sie Probleme mit Verzeichnisfreigaben haben, versuchen Sie zuerst, einen "einfachen" Pfad, wie einen relativen Pfad im Ordner fileadmin/ freizugeben. Wenn das funktioniert, probieren Sie absolute Pfade. Ihre PHP-Konfiguration kann auch weitere Einschränkungen beinhalten, nämlich wenn "Safe Mode" oder "Open Basedir" aktiviert sind. Nutzen Sie in diesem Fall relative Pfade.</label>
+      <label index="_path.seeAlso">sys_filemounts:base, be_groups:file_mountpoints, sys_filemounts</label>
+      <label index="_path.image">EXT:lang/cshimages/be_groups_6.png, EXT:lang/cshimages/be_groups_7.png</label>
+      <label index="path.image_descr">Dies ist eine Verzeichnisfreigabe relativ zum Ordner "fileadmin/". Weil als Pfad "user_upload" eingegeben wurde, ist der freigegebene Ordner "fileadmin/user_upload". Dies ist die Ordnerstruktur von "fileadmin/". Sie finden den Ordner "user_upload" am Ende der Liste.</label>
+      <label index="hidden.description">Verwenden Sie diese Option, um die Verzeichnisfreigabe zeitweilig aufzuheben.</label>
+      <label index="hidden.details">Allen Backend-Benutzern - 'Admin'-Benutzer eingeschlossen - wird der Zugriff auf diese Verzeichnisfreigabe entzogen.</label>
+      <label index="base.description">Legt fest, ob das Feld "Pfad" als absoluter Pfad oder als relativer Pfad (bezogen auf den Ordner fileadmin/) interpretiert werden soll.</label>
+      <label index="_base.seeAlso">sys_filemounts:path</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

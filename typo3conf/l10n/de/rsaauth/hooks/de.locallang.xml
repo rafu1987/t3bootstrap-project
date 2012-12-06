@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="hook_empty_directory">Das temporäre Verzeichnis für RSA ist leer. Dies ist ein Sicherheitsrisiko. Bitte rufen Sie den Erweiterungs-Manager auf, wählen Sie die Erweiterung "RSA-Authentifizierung" aus und legen Sie das Verzeichnis den dortigen Anweisungen entsprechend fest.</label>
+      <label index="hook_directory_not_absolute">Der Pfad des temporären Verzeichnisses für RSA ist nicht absolut. Dies kann zu RSA-Authentifizierungsfehlern führen und stellt ein Sicherheitsrisiko dar. Bitte rufen Sie den Erweiterungs-Manager auf, wählen Sie die Erweiterung "RSA-Authentifizierung" aus und legen Sie das Verzeichnis den dortigen Anweisungen entsprechend fest.</label>
+      <label index="hook_directory_not_exist">Das temporäre Verzeichnis für RSA ist nicht vorhanden. Dies stellt ein Sicherheitsrisiko dar, da für RSA-Operationen ein unsicheres Verzeichnis verwendet wird. Bitte rufen Sie den Erweiterungs-Manager auf, wählen Sie die Erweiterung "RSA-Authentifizierung" aus und legen Sie das Verzeichnis den dortigen Anweisungen entsprechend fest.</label>
+      <label index="hook_directory_not_writable">In das temporäre Verzeichnis für RSA kann nicht geschrieben werden. Dies kann zu RSA-Authentifizierungsfehlern führen und stellt ein Sicherheitsrisiko dar. Bitte rufen Sie den Erweiterungs-Manager auf, wählen Sie die Erweiterung "RSA-Authentifizierung" aus und legen Sie das Verzeichnis den dortigen Anweisungen entsprechend fest.</label>
+      <label index="hook_directory_inside_siteroot">Das temporäre Verzeichnis für RSA befindet sich innerhalb des Wurzelverzeichnisses der Website. Dies stellt ein Sicherheitsrisiko dar. Bitte rufen Sie den Erweiterungs-Manager auf, wählen Sie die Erweiterung "RSA-Authentifizierung" aus und legen Sie das Verzeichnis den dortigen Anweisungen entsprechend fest.</label>
+      <label index="hook_using_cmdline">Die RSA-Authentifizierung konnte das OpenSSL-Modul für PHP nicht finden. Derzeit verwendet die RSA-Authentifizierung daher ein Befehlszeilenprogramm für OpenSSL. Dies ist langsamer und weniger sicher. Bitte ziehen Sie in Betracht, das OpenSSL-Modul für PHP zu installieren.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

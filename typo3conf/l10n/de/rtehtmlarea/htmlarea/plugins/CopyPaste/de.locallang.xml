@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Allow-Clipboard-Helper-Add-On-Title">Firefox Add-on AllowClipboard Helper</label>
+      <label index="Firefox-Security-Prefs-Question-Title">Firefox: Einstellungen zur Zugriffssicherheit der Zwischenablage</label>
+      <label index="Technische Universitat Ilmenau">Technische Universität Ilmenau</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

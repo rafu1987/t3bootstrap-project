@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="mod_indexed_search" xml:space="preserve" approved="yes">
+        <source>Indexed search</source>
+      <target state="translated">Indexsuche</target></trans-unit>
+      <trans-unit id="mod2_indexed_search" xml:space="preserve" approved="yes">
+        <source>Indexed search statistics</source>
+      <target state="translated">Indexsuche - Statistik</target></trans-unit>
+      <trans-unit id="ignoreExtensions" xml:space="preserve" approved="yes">
+        <source>Extension %s was set to be ignored.</source>
+      <target state="translated">Erweiterung %s wurde auf Ignorieren gesetzt.</target></trans-unit>
+      <trans-unit id="pdfToolsNotFound" xml:space="preserve" approved="yes">
+        <source>PDF tools was not found in paths '%1$spdftotext' and/or '%1$spdfinfo'"</source>
+      <target state="translated">PDF-Dienstprogramme nicht im Pfad "%1$spdftotext" und/oder "%1$spdfinfo" gefunden</target></trans-unit>
+      <trans-unit id="pdfToolsDisabled" xml:space="preserve" approved="yes">
+        <source>PDF tools disabled</source>
+      <target state="translated">PDF-Dienstprogramme deaktiviert.</target></trans-unit>
+      <trans-unit id="pdfToolsFailed" xml:space="preserve" approved="yes">
+        <source>PDFtoText Failed on this document: '%s'. Maybe the PDF file is locked for printing or encrypted.</source>
+      <target state="translated">PDFtoText kann Dokument nicht verarbeiten: "%s". PDF-Datei könnte für Druck gesperrt oder verschlüsselt sein.</target></trans-unit>
+      <trans-unit id="catdocNotFound" xml:space="preserve" approved="yes">
+        <source>'catdoc' tool for reading Word-files was not found in path '%scatdoc'</source>
+      <target state="translated">catdoc-Dienstprogramm nicht im Pfad "%scatdoc" gefunden</target></trans-unit>
+      <trans-unit id="catdocDisabled" xml:space="preserve" approved="yes">
+        <source>catdoc tools (Word-files) disabled</source>
+      <target state="translated">catdoc-Dienstprogramm (Word-Dateien) deaktiviert</target></trans-unit>
+      <trans-unit id="ppthtmlNotFound" xml:space="preserve" approved="yes">
+        <source>'ppthtml' tool for reading Powerpoint-files was not found in path '%sppthtml'</source>
+      <target state="translated">ppthtml-Dienstprogramm zum Lesen von Powerpoint-Dateien nicht in Pfad "%sppthtml" gefunden</target></trans-unit>
+      <trans-unit id="ppthtmlDisabled" xml:space="preserve" approved="yes">
+        <source>ppthtml tools (Powerpoint-files) disabled</source>
+      <target state="translated">ppthtml-Dienstprogramme (Powerpoint-Dateien) deaktiviert</target></trans-unit>
+      <trans-unit id="xlhtmlNotFound" xml:space="preserve" approved="yes">
+        <source>'xlhtml' tool for reading Excel-files was not found in path '%sxlhtml'</source>
+      <target state="translated">xlhtml-Dienstprogramm zum Lesen von Excel-Dateien nicht im Pfad "%sxlhtml" gefunden</target></trans-unit>
+      <trans-unit id="xlhtmlDisabled" xml:space="preserve" approved="yes">
+        <source>xlhtml tools (Excel-files) disabled</source>
+      <target state="translated">xlhtml-Dienstprogramme (Excel-Dateien) deaktiviert</target></trans-unit>
+      <trans-unit id="unzipNotFound" xml:space="preserve" approved="yes">
+        <source>'unzip' tool for reading OpenOffice.org-files was not found in path '%sunzip'</source>
+      <target state="translated">unzip-Dienstprogramm zum Lesen von OpenOffice.org-Dateien nicht im Pfad "%sunzip" gefunden</target></trans-unit>
+      <trans-unit id="unzipDisabled" xml:space="preserve" approved="yes">
+        <source>unzip tool (OpenOffice.org-files) disabled</source>
+      <target state="translated">unzip-Dienstprogramm (OpenOffice.org-Dateien) deaktiviert</target></trans-unit>
+      <trans-unit id="unrtfNotFound" xml:space="preserve" approved="yes">
+        <source>'unrtf' tool for reading RTF-files was not found in path '%sunrtf'</source>
+      <target state="translated">unrtf-Dienstprogramm zum Lesen von RTF-Dateien nicht im Pfad "%sunrtf" gefunden</target></trans-unit>
+      <trans-unit id="unrtfDisabled" xml:space="preserve" approved="yes">
+        <source>unrtf tool (RTF-files) disabled</source>
+      <target state="translated">unrtf-Dienstprogramm (RTF-Dateien) deaktiviert</target></trans-unit>
+      <trans-unit id="extension.PDF" xml:space="preserve" approved="yes">
+        <source>PDF (*.%s)</source>
+      <target state="translated">PDF (*.%s)</target></trans-unit>
+      <trans-unit id="extension.DOC" xml:space="preserve" approved="yes">
+        <source>MS Word (*.%s)</source>
+      <target state="translated">MS Word (*.%s)</target></trans-unit>
+      <trans-unit id="extension.PP" xml:space="preserve" approved="yes">
+        <source>MS Powerpoint (*.%s)</source>
+      <target state="translated">MS Powerpoint (*.%s)</target></trans-unit>
+      <trans-unit id="extension.XLS" xml:space="preserve" approved="yes">
+        <source>MS Excel (*.%s)</source>
+      <target state="translated">MS Excel (*.%s)</target></trans-unit>
+      <trans-unit id="extension.SXC" xml:space="preserve" approved="yes">
+        <source>OpenOffice.org Calc (*.%s)</source>
+      <target state="translated">OpenOffice.org Calc (*.%s)</target></trans-unit>
+      <trans-unit id="extension.SXI" xml:space="preserve" approved="yes">
+        <source>OpenOffice.org Impress (*.%s)</source>
+      <target state="translated">OpenOffice.org Impress (*.%s)</target></trans-unit>
+      <trans-unit id="extension.SXW" xml:space="preserve" approved="yes">
+        <source>OpenOffice.org Writer (*.%s)</source>
+      <target state="translated">OpenOffice.org Writer (*.%s)</target></trans-unit>
+      <trans-unit id="extension.ODS" xml:space="preserve" approved="yes">
+        <source>ODF Spreadsheet (*.%s)</source>
+      <target state="translated">ODF-Tabellenkalkulation (*.%s)</target></trans-unit>
+      <trans-unit id="extension.ODP" xml:space="preserve" approved="yes">
+        <source>ODF Presentation (*.%s)</source>
+      <target state="translated">ODF-Präsentation (*.%s)</target></trans-unit>
+      <trans-unit id="extension.ODT" xml:space="preserve" approved="yes">
+        <source>ODF Text (*.%s)</source>
+      <target state="translated">ODF-Text (*.%s)</target></trans-unit>
+      <trans-unit id="extension.RTF" xml:space="preserve" approved="yes">
+        <source>Rich Text Format (*.%s)</source>
+      <target state="translated">Rich-Text-Format (*.%s)</target></trans-unit>
+      <trans-unit id="extension.images" xml:space="preserve" approved="yes">
+        <source>Images (*.%s)</source>
+      <target state="translated">Bilder (*.%s)</target></trans-unit>
+      <trans-unit id="extension.HTML" xml:space="preserve" approved="yes">
+        <source>Webpages (*.%s)</source>
+      <target state="translated">Web-Seiten (*.%s)</target></trans-unit>
+      <trans-unit id="extension.TXT" xml:space="preserve" approved="yes">
+        <source>Textfiles (*.%s)</source>
+      <target state="translated">Textdateien (*.%s)</target></trans-unit>
+      <trans-unit id="extension.CSV" xml:space="preserve" approved="yes">
+        <source>Comma-Separated Values (*.%s)</source>
+      <target state="translated">Komma-getrennte Werte (*.%s)</target></trans-unit>
+      <trans-unit id="extension.XML" xml:space="preserve" approved="yes">
+        <source>Extensible Markup Language (*.%s)</source>
+      <target state="translated">Extensible-Markup-Language (*.%s)</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,2 @@
+"Bug":
+- Difference for FlexForms are stored in the individual configuration records; this results in "wrong diff" shown when viewing translation forms with another configuration that allows translation of the same fields. Maybe the diff should be stored in temp-files globally?

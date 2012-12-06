@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Contents of l10nmgr tasks csh</description>
+		<type>CSH</type>
+		<csh_table>_tasks_txl10nmgr</csh_table>
+		<fileId>EXT:l10nmgr/tasks/locallang_csh_tasks.xml</fileId>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index=".alttitle">L10N Manager</label>
+			<label index=".description">The task from the L10N Manager.</label>
+			<label index="task_fileGarbageCollection_age.alttitle">Age of files</label>
+			<label index="task_fileGarbageCollection_age.description">Age limit beyond which all files should be deleted. Defined as a number of days.</label>
+			<label index="task_fileGarbageCollection_excludePattern.alttitle">Exclude pattern</label>
+			<label index="task_fileGarbageCollection_excludePattern.description">Regular expression pattern for files to exclude from the clean up.</label>
+		</languageKey>
+	</data>
+</T3locallang>

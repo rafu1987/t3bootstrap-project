@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Benutzerprofil bearbeiten</label>
+      <label index="mlang_labels_tabdescr">Dieses Modul dient zur Konfiguration Ihres Backend-Benutzerprofils. Hier können Sie Ihren Namen, Ihre E-Mail-Adresse, die benutzte Backend-Sprache und einige andere allgemeine Systemeigenschaften für Ihr Benutzerkonto festlegen.</label>
+      <label index="mlang_tabs_tab">Einstellungen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:52:11 UTC 2011" product-name="realurl">
+    <header/>
+    <body>
+      <trans-unit id="tx_realurl_nocache.description" approved="yes">
+        <source>Disables RealURL encode and decode cache for this page only</source>
+        <target state="translated">Deaktiviert den RealURL-Encode- und Decode-Cache für diese Seite.</target>
+      </trans-unit>
+      <trans-unit id="tx_realurl_pathsegment.description" approved="yes">
+        <source>URL path segment for this. Only valid URL characters are allowed, namely: latin letters, numbers, underscore and/or minus character.</source>
+        <target state="translated">Pfadsegment für diese Seite. Es sind nur Zeichen für URLs erlaubt, und zwar lateinische Buchstaben, Ziffern, Unterstrich und Bindestrich.</target>
+      </trans-unit>
+      <trans-unit id="tx_realurl_exclude.description" approved="yes">
+        <source>Excludes this page from the speaking URL. Note that this works only if this page is not the target page of the reader.</source>
+        <target state="translated">Nimmt diese Seite nicht in die sprechende URL auf. Beachten Sie, dass dies nur funktioniert, wenn diese Seite nicht die Zielseite des Lesers ist.</target>
+      </trans-unit>
+      <trans-unit id="tx_realurl_pathoverride.description" approved="yes">
+        <source>If checked, the speaking path segment field must contain the whole path to the page (excluding pre- and postVars). This gives an option to override the path completely. Without this option the field defines only a single URL segment for the current page. When overriding the whole path, the path MUST NOT start or end with a slash!</source>
+        <target state="translated">Wenn markiert, muss das Feld "Pfadsegment für untergeordnete Seiten" den gesamten Pfad zur Seite enthalten (außer pre- und postVariablen). Damit ist es möglich, den Pfad vollständig zu überschreiben. Ohne diese Option bestimmt dieses Feld nur ein einzelnes URL-Segment für die aktuelle Seite. Wenn der gesamte Pfad überschrieben wird, darf der angegebene Pfad nicht mit einem Slash anfangen oder enden!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

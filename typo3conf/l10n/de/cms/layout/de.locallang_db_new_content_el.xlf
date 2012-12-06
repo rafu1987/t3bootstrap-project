@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="cms" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="sel1" xml:space="preserve" approved="yes">
+        <source>Please select the type of page content you wish to create:</source>
+      <target state="translated">Wählen Sie bitte den Seiteninhaltstyp aus, den Sie erstellen wollen:</target></trans-unit>
+      <trans-unit id="sel2" xml:space="preserve" approved="yes">
+        <source>Now, click the position where you wish to place the element on the page:</source>
+      <target state="translated">Wählen Sie nun die Position aus, an der das Element auf der Seite positioniert werden soll:</target></trans-unit>
+      <trans-unit id="common" xml:space="preserve" approved="yes">
+        <source>Typical page content</source>
+      <target state="translated">Typischer Seiteninhalt</target></trans-unit>
+      <trans-unit id="common_headerOnly_title" xml:space="preserve" approved="yes">
+        <source>Header Only</source>
+      <target state="translated">Nur Überschrift</target></trans-unit>
+      <trans-unit id="common_headerOnly_description" xml:space="preserve" approved="yes">
+        <source>Adds a header only.</source>
+      <target state="translated">Eine Überschrift.</target></trans-unit>
+      <trans-unit id="common_regularText_title" xml:space="preserve" approved="yes">
+        <source>Regular Text Element</source>
+      <target state="translated">Text</target></trans-unit>
+      <trans-unit id="common_regularText_description" xml:space="preserve" approved="yes">
+        <source>A regular text element with header and bodytext fields.</source>
+      <target state="translated">Ein normales Textelement mit Überschrift und Fließtext.</target></trans-unit>
+      <trans-unit id="common_textImage_title" xml:space="preserve" approved="yes">
+        <source>Text &amp; Images</source>
+      <target state="translated">Text und Bilder</target></trans-unit>
+      <trans-unit id="common_textImage_description" xml:space="preserve" approved="yes">
+        <source>Any number of images wrapped right around a regular text element.</source>
+      <target state="translated">Eine beliebige Anzahl von Bildern mit umfließendem Text.</target></trans-unit>
+      <trans-unit id="common_imagesOnly_title" xml:space="preserve" approved="yes">
+        <source>Images Only</source>
+      <target state="translated">Nur Bilder</target></trans-unit>
+      <trans-unit id="common_imagesOnly_description" xml:space="preserve" approved="yes">
+        <source>Any number of images aligned in columns and rows with a caption.</source>
+      <target state="translated">Eine beliebige Anzahl von in Zeilen und Spalten angeordneten Bildern mit Beschriftung.</target></trans-unit>
+      <trans-unit id="common_bulletList_title" xml:space="preserve" approved="yes">
+        <source>Bullet List</source>
+      <target state="translated">Aufzählung</target></trans-unit>
+      <trans-unit id="common_bulletList_description" xml:space="preserve" approved="yes">
+        <source>A single bullet list.</source>
+      <target state="translated">Eine einzelne Aufzählung.</target></trans-unit>
+      <trans-unit id="common_table_title" xml:space="preserve" approved="yes">
+        <source>Table</source>
+      <target state="translated">Tabelle</target></trans-unit>
+      <trans-unit id="common_table_description" xml:space="preserve" approved="yes">
+        <source>A simple table.</source>
+      <target state="translated">Eine einfache Tabelle.</target></trans-unit>
+      <trans-unit id="special" xml:space="preserve" approved="yes">
+        <source>Special elements</source>
+      <target state="translated">Spezielle Elemente</target></trans-unit>
+      <trans-unit id="special_filelinks_title" xml:space="preserve" approved="yes">
+        <source>File Links</source>
+      <target state="translated">Dateilinks</target></trans-unit>
+      <trans-unit id="special_filelinks_description" xml:space="preserve" approved="yes">
+        <source>Makes a list of files for download.</source>
+      <target state="translated">Erzeugt eine Liste mit Dateien zum Herunterladen.</target></trans-unit>
+      <trans-unit id="special_multimedia_title" xml:space="preserve" approved="yes">
+        <source>Multimedia</source>
+      <target state="translated">Multimedia</target></trans-unit>
+      <trans-unit id="special_multimedia_description" xml:space="preserve" approved="yes">
+        <source>Inserts a media element like a Flash animation, audio file or video clip.</source>
+      <target state="translated">Fügt ein Medienelement ein (z.B. Flash-Animation, Audiodatei, Video).</target></trans-unit>
+      <trans-unit id="special_media_title" xml:space="preserve" approved="yes">
+        <source>Media</source>
+      <target state="translated">Medien</target></trans-unit>
+      <trans-unit id="special_media_description" xml:space="preserve" approved="yes">
+        <source>Inserts a media element like a Flash animation, audio file or video clip.</source>
+      <target state="translated">Fügt ein Medienelement wie eine Flash-Animation, eine Audiodatei oder einen Video-Clip hinzu.</target></trans-unit>
+      <trans-unit id="special_swfobject_title" xml:space="preserve" approved="yes">
+        <source>Inserts a Flash media element.</source>
+      <target state="translated">Fügt ein Flash-Medienelement hinzu.</target></trans-unit>
+      <trans-unit id="special_swfobject_description" xml:space="preserve" approved="yes">
+        <source>Inserts Flash media element, audio file or video clip.</source>
+      <target state="translated">Fügt ein Flash-Medienelement, eine Audiodatei oder einen Video-Clip hinzu.</target></trans-unit>
+      <trans-unit id="special_qtobject_title" xml:space="preserve" approved="yes">
+        <source>Inserts a Quicktime element.</source>
+      <target state="translated">Fügt ein QuickTime-Element hinzu.</target></trans-unit>
+      <trans-unit id="special_qtobject_description" xml:space="preserve" approved="yes">
+        <source>Inserts a Quicktime element like a Quicktime audio file or video clip (*.mov).</source>
+      <target state="translated">Fügt ein QuickTime-Element wie eine QuickTime-Audiodatei oder einen -Video-Clip (*.mov) hinzu.</target></trans-unit>
+      <trans-unit id="special_sitemap_title" xml:space="preserve" approved="yes">
+        <source>Sitemap</source>
+      <target state="translated">Sitemap</target></trans-unit>
+      <trans-unit id="special_menus_title" xml:space="preserve" approved="yes">
+        <source>Special Menus</source>
+      <target state="translated">Spezial-Menüs</target></trans-unit>
+      <trans-unit id="special_menus_description" xml:space="preserve" approved="yes">
+        <source>Creates a menu of pages, sitemap or other special menus.</source>
+      <target state="translated">Erstellt ein Seitenmenü, eine Sitemap oder andere Spezial-Menüs.</target></trans-unit>
+      <trans-unit id="special_plainHTML_title" xml:space="preserve" approved="yes">
+        <source>Plain HTML</source>
+      <target state="translated">Reines HTML</target></trans-unit>
+      <trans-unit id="special_plainHTML_description" xml:space="preserve" approved="yes">
+        <source>With this element you can insert raw HTML code on the page.</source>
+      <target state="translated">Mit diesem Element kann reiner HTML-Quelltext auf der Seite eingefügt werden.</target></trans-unit>
+      <trans-unit id="special_divider_title" xml:space="preserve" approved="yes">
+        <source>Divider</source>
+      <target state="translated">Trenner</target></trans-unit>
+      <trans-unit id="special_divider_description" xml:space="preserve" approved="yes">
+        <source>This element inserts a visual divider, which is by default a horizontal line.</source>
+      <target state="translated">Mit diesem Element wird ein sichtbarer Trenner eingefügt, standardmäßig eine horizontale Linie.</target></trans-unit>
+      <trans-unit id="special_shortcut_title" xml:space="preserve" approved="yes">
+        <source>Insert records</source>
+      <target state="translated">Datensätze einfügen</target></trans-unit>
+      <trans-unit id="special_shortcut_description" xml:space="preserve" approved="yes">
+        <source>With this element you can embed other content elements.</source>
+      <target state="translated">Mit diesem Element werden andere Inhaltselemente eingebunden.</target></trans-unit>
+      <trans-unit id="forms" xml:space="preserve" approved="yes">
+        <source>Form elements</source>
+      <target state="translated">Formulare</target></trans-unit>
+      <trans-unit id="forms_mail_title" xml:space="preserve" approved="yes">
+        <source>Mail Form</source>
+      <target state="translated">Mail-Formular</target></trans-unit>
+      <trans-unit id="forms_mail_description" xml:space="preserve" approved="yes">
+        <source>A mail form allowing website users to submit responses.</source>
+      <target state="translated">Ein E-Mail-Formular, mit dem Besucher mit Ihnen Kontakt aufnehmen können.</target></trans-unit>
+      <trans-unit id="forms_search_title" xml:space="preserve" approved="yes">
+        <source>Search Form</source>
+      <target state="translated">Suchformular</target></trans-unit>
+      <trans-unit id="forms_search_description" xml:space="preserve" approved="yes">
+        <source>Draws a search form and the searchresult if a search is performed.</source>
+      <target state="translated">Zeigt ein Suchformular und die Suchergebnisse, wenn eine Suche durchgeführt wurde.</target></trans-unit>
+      <trans-unit id="forms_login_title" xml:space="preserve" approved="yes">
+        <source>Login Form</source>
+      <target state="translated">Anmeldeformular</target></trans-unit>
+      <trans-unit id="forms_login_description" xml:space="preserve" approved="yes">
+        <source>Login/logout form used to password protect pages allowing only authorised website users and groups access.</source>
+      <target state="translated">Ein An-/Abmeldeformular, um passwortgeschützte Seiten nur für authorisierte Benutzer und Gruppen zugänglich zu machen.</target></trans-unit>
+      <trans-unit id="plugins" xml:space="preserve" approved="yes">
+        <source>Plugins</source>
+      <target state="translated">Plug-Ins</target></trans-unit>
+      <trans-unit id="plugins_general_title" xml:space="preserve" approved="yes">
+        <source>General Plugin</source>
+      <target state="translated">Allgemeines Plug-In</target></trans-unit>
+      <trans-unit id="plugins_general_description" xml:space="preserve" approved="yes">
+        <source>Select this element type to insert a plugin which cannot be found amongst the options below.</source>
+      <target state="translated">Wählen Sie diesen Elementtyp, um ein Plug-In einzufügen, das nicht bei den Optionen oben aufgeführt ist.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

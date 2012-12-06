@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:55:15 UTC 2011" product-name="templavoila">
+    <header/>
+    <body>
+      <trans-unit id="mlang_tabs_tab" approved="yes">
+        <source>Page</source>
+        <target state="translated">Seite</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr" approved="yes">
+        <source>This module allows you to create and edit webpages. It provides a template selector and management for different languages. This page module is part of the extension "TemplaVoilà".</source>
+        <target state="translated">Dieses Modul ermöglicht Ihnen, Seiten zu erstellen und zu bearbeiten. Zusätzlich bietet es einen Assistenten zur Auswahl einer Vorlage und Verwaltung verschiedener Übersetzungen einer Seite. Dieses Seiten-Modul ist Bestandteil der Erweiterung "TemplaVoilà".</target>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tablabel" approved="yes">
+        <source>Create and edit pages</source>
+        <target state="translated">Seiten erstellen und bearbeiten</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

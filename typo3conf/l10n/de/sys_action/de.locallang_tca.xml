@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="sys_action">Befehl</label>
+      <label index="tx_sys_action">Befehle</label>
+      <label index="sys_action.hidden">Deaktiviert:</label>
+      <label index="sys_action.assign_to_groups">Aktion Gruppen zuweisen:</label>
+      <label index="sys_action.t1_userprefix">Benutzerpräfix:</label>
+      <label index="sys_action.t1_allowed_groups">Gruppen, die mit dieser Aktion zugewiesen werden können:</label>
+      <label index="sys_action.t1_create_user_dir">Heimverzeichnis des Benutzers erstellen:</label>
+      <label index="sys_action.t1_copy_of_user">Vorlage für Benutzer:</label>
+      <label index="sys_action.t3_listPid">PID auflisten:</label>
+      <label index="sys_action.t3_tables">Nur Tabelle auflisten:</label>
+      <label index="sys_action.t4_recordsToEdit">Zu bearbeitende Datensätze:</label>
+      <label index="sys_action.type.1">Backend-Benutzer erstellen</label>
+      <label index="sys_action.type.2">SQL-Anfrage</label>
+      <label index="sys_action.type.3">Datensätze auflisten</label>
+      <label index="sys_action.type.4">Datensätze bearbeiten</label>
+      <label index="sys_action.type.5">Neuer Datensatz</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id=".alttitle" xml:space="preserve" approved="yes">
+        <source>Web &gt; Info module</source>
+      <target state="translated">Web &gt; Info</target></trans-unit>
+      <trans-unit id=".description" xml:space="preserve" approved="yes">
+        <source>The idea of the Web&gt;Info module is to be a host module for backend applications that wish to present information / analysis of pages or branches of the page tree. This could be website statistics, caching status information etc.</source>
+      <target state="translated">Das Modul "Web &gt; Info" dient als "Container" für all diejenigen Backend-Erweiterungen, welche Informationen oder Analysen zu einzelnen Seiten oder dem gesamten Seitenbaum liefern. Darunter fallen z.B. Zugriffstatistiken, Cache-Informationen, Änderungsverläufe, Protokolldateien etc.</target></trans-unit>
+      <trans-unit id=".details" xml:space="preserve" approved="yes">
+        <source>Conceptually the Web&gt;Info module is different from the Web&gt;Functions module only by primarily showing information rather than offering functionality. It is up to extension programmers to decide in which of these two modules they want to insert functionality.</source>
+      <target state="translated">Konzeptionell unterscheidet sich das Modul "Web &gt; Info" vom Modul "Web &gt; Funktionen" dadurch, dass es primär Informationen statt Änderungsmöglichkeiten bietet. Es liegt am Programmierer zu entscheiden, in welchem dieser Module seine Backend-Erweiterung erscheinen soll.</target></trans-unit>
+      <trans-unit id="_.seeAlso" xml:space="preserve" approved="yes">
+        <source>_MOD_web_func,
+More about Web&gt;Info module framework | http://typo3.org/documentation/document-library/doc_core_inside/Info_module/,</source>
+        <target state="translated">_MOD_web_func, Mehr über das Modul Web &gt; Info | http://typo3.org/documentation/document-library/doc_core_inside/Info_module/,</target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+      <note>A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+        <source>EXT:lang/cshimages/pagetree_overview_10.png</source>
+        <target state="translated">EXT:lang/cshimages/pagetree_overview_10.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
+        <source>The Web&gt;Info module as provided by the core is an empty shell. It provides an API that extensions can use to attach function menu items to the Info module. Here you see the "Page TSconfig" overview from the extension "info_pagetsconfig".</source>
+      <target state="translated">Der TYPO3-Kern liefert mit dem Modul "Web &gt; Info" lediglich einen leeren Container. Durch eine Programmierschnittstelle (API) können Backend-Erweiterungen Menüeinträge innerhalb des Moduls "Web &gt; Info" zur Verfügung stellen. Hier sehen Sie die "Seiten-TSconfig"-Übersicht der Erweiterung "info_pagetsconfig".</target></trans-unit>
+    </body>
+  </file>
+</xliff>

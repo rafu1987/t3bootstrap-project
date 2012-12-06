@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Spell Checker">Rechtschreibprüfung</label>
+      <label index="CONFIRM_LINK_CLICK">Bitte bestätigen Sie, dass Sie diesem Link folgen möchten</label>
+      <label index="Cancel">Abbrechen</label>
+      <label index="Dictionary">Wörterbuch</label>
+      <label index="Finished list of mispelled words">Fertige Liste der Fehler</label>
+      <label index="I will open it in a new page.">Wird in neuer Seite geöffnet.</label>
+      <label index="Ignore all">Alle ignorieren</label>
+      <label index="Ignore">Ignorieren</label>
+      <label index="NO_ERRORS">Im ausgewählten Wörterbuch wurden keine Fehler gefunden.</label>
+      <label index="NO_ERRORS_CLOSING">Fehlersuche beendet, es wurden keine Fehler gefunden. Die Suche wird nun beendet...</label>
+      <label index="OK">OK</label>
+      <label index="Original word">Ursprüngliches Wort</label>
+      <label index="Please wait. Calling spell checker.">Bitte warten. Die Rechtschreibprüfung wird aufgerufen.</label>
+      <label index="Please wait: changing dictionary to">Bitte warten: das Wörterbuch wird geändert nach</label>
+      <label index="HTMLArea Spell Checker">HTMLArea-Rechtschreibprüfung</label>
+      <label index="QUIT_CONFIRMATION">Hierdurch werden die Änderungen verworfen und die Rechtschreibprüfung beendet. Bitte bestätigen.</label>
+      <label index="Re-check">Nochmals prüfen</label>
+      <label index="Replacement">Ersatz</label>
+      <label index="Replace all">Alle ersetzen</label>
+      <label index="Replace with">Ersetzen durch</label>
+      <label index="Replace">Ersetzen</label>
+      <label index="Learn">Zum Wörterbuch hinzufügen</label>
+      <label index="Revert">Umkehren</label>
+      <label index="SC-spell-check">Rechtschreibprüfung</label>
+      <label index="Suggestions">Vorschläge</label>
+      <label index="One occurrence">Einmal</label>
+      <label index="Two occurrences">Zweimal</label>
+      <label index="occurrences">Anzahl Vorkommen</label>
+      <label index="of the word">des Wortes</label>
+      <label index="was found.">wurde gefunden.</label>
+      <label index="were found.">wurden gefunden.</label>
+      <label index="Info">Info</label>
+      <label index="Document information">Dokumentinformation</label>
+      <label index="No information available">Keine information verfügbar</label>
+      <label index="Total words">Totale Anzahl Wörter</label>
+      <label index="Misspelled words">Fehlerhafte Wörter</label>
+      <label index="Total suggestions">Total Anzahl Vorschläge</label>
+      <label index="Total words suggested">Total Anzahl vorgeschlagener Wörter</label>
+      <label index="Spelling checked in">Rechtschreibprüfung durchgeführt in</label>
+      <label index="seconds">Sekunden</label>
+      <label index="pliz weit ;-)">Bitte warten...</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

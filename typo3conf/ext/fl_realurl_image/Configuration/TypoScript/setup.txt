@@ -1,0 +1,17 @@
+config.fl_realurl_image = {$fl_realurl_image.conf_enable}
+config.fl_realurl_image {
+	# generation of a text basis for a speaking file name
+	data = {$fl_realurl_image.conf_data}
+
+	## stdWrap
+	case = {$fl_realurl_image.conf_case}
+	trim = {$fl_realurl_image.conf_trim}
+	crop = {$fl_realurl_image.conf_crop}
+
+	# additional encoding (optional, stdWrap could potentially do it all, but much work)
+	spaceCharacter = {$fl_realurl_image.conf_spaceCharacter}
+	smartEncoding = {$fl_realurl_image.conf_smartEncoding}
+	folder = {$fl_realurl_image.conf_folder}
+	hashLength = {$fl_realurl_image.conf_hashLength}
+}
+

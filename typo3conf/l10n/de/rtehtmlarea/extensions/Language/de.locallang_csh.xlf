@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id=".alttitle" xml:space="preserve" approved="yes">
+        <source>htmlArea RTE &gt; Language</source>
+      <target state="translated">htmlArea RTE &gt; Sprache</target></trans-unit>
+      <trans-unit id=".description" xml:space="preserve" approved="yes">
+        <source>The Language feature allows to edit the language and text direction attributes of an element in the RTE editing area.</source>
+      <target state="translated">Die Sprachfunktion erlaubt es, die Attribute für Sprache und Textrichtung eines Elements im RTE zu bearbeiten.</target></trans-unit>
+      <trans-unit id=".details" xml:space="preserve" approved="yes">
+        <source>The following items may appear in the RTE toolbar:
+- a selector box that allows to assign the language of contents of an element;
+- two buttons that allow to set the direction of text;
+- another button that allows to make the language marks visible wittin the RTE editing area.
+The language selector box may also appear in some dialogues along with a text direction selector box.</source>
+      <target state="translated">Die folgenden Elemente können in der RTE-Werkzeugleiste erscheinen: - ein Auswahlfeld zum Zuweisen der Sprache zu Inhalten eines Elements; - zwei Schaltflächen zum Setzen der Textrichtung; - eine weitere Schaltfläche, um Sprachmarkierungen innerhalb der RTE-Arbeitsfläche sichtbar zu machen. Das Feld zur Auswahl der Sprache kann auch in anderen Dialogen zusammen mit der Auswahl der Textrichtung angezeigt werden.</target></trans-unit>
+      <trans-unit id=".image" xml:space="preserve" approved="yes">
+        <source>EXT:rtehtmlarea/extensions/Language/skin/images/left_to_right.gif,
+EXT:rtehtmlarea/extensions/Language/skin/images/right_to_left.gif,
+EXT:rtehtmlarea/extensions/Language/skin/images/show-language-marks.gif</source>
+        <target state="translated">EXT:rtehtmlarea/extensions/Language/skin/images/left_to_right.gif, EXT:rtehtmlarea/extensions/Language/skin/images/right_to_left.gif, EXT:rtehtmlarea/extensions/Language/skin/images/show-language-marks.gif</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
+        <source>"Left to right" icon in the editor tool bar.
+"Right to left" icon in the editor tool bar.
+"Show language marks" icon in the editor tool bar.</source>
+      <target state="translated">"Links nach rechts"-Symbol in der Werkzeugleiste. "Rechts nach links"-Symbol in der Werkzeugleiste. "Zeige Sprachhinweise"-Symbol in der Werkzeugleiste.</target></trans-unit>
+      <trans-unit id=".seeAlso" xml:space="preserve" approved="yes">
+        <source>xEXT_rtehtmlarea_Language:languageCombo,
+xEXT_rtehtmlarea_Language:directionCombo</source>
+        <target state="translated">xEXT_rtehtmlarea_Language:languageCombo, xEXT_rtehtmlarea_Language:directionCombo,</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="languageCombo.alttitle" xml:space="preserve" approved="yes">
+        <source>Language of contents</source>
+      <target state="translated">Sprache des Inhalts</target></trans-unit>
+      <trans-unit id="languageCombo.description" xml:space="preserve" approved="yes">
+        <source>Select the language of the contents of the element.</source>
+      <target state="translated">Wählen Sie die Sprache der Inhalte dieses Elements.</target></trans-unit>
+      <trans-unit id="languageCombo.details" xml:space="preserve" approved="yes">
+        <source>The language selector box may appear in the RTE toolbar and in some dialogues.
+The selector shows the language currently assigned to the current element, if any.
+Selecting a language assigns it to the element. If a language was already assigned to the element, it is replaced by the newly selected language.
+Any currently assigned language may be removed by selecting the "Remove language mark" item at the top of the list of the selector box.</source>
+      <target state="translated">Das Feld zur Sprachauswahl kann in der RTE-Werkzeugleiste und in manchen Dialogen erscheinen. Die Auswahl zeigt die Sprache, die aktuell dem ausgewählten Element zugewiesen ist. Das Wählen einer Sprache weist diese dem Element zu. War bereits eine Sprache zugewiesen, wird diese durch die neu gewählte ersetzt. Eine zugewiesene Sprache kann durch Auswählen von "Sprachhinweis entfernen" am Beginn der Liste im Auswahlfeld entfernt werden.</target></trans-unit>
+      <trans-unit id="directionCombo.alttitle" xml:space="preserve" approved="yes">
+        <source>Direction of text</source>
+      <target state="translated">Textrichtung</target></trans-unit>
+      <trans-unit id="directionCombo.description" xml:space="preserve" approved="yes">
+        <source>Select the direction of text within the contents of the element.</source>
+      <target state="translated">Wählen Sie die Textrichtung im Inhalt dieses Elements aus.</target></trans-unit>
+      <trans-unit id="directionCombo.details" xml:space="preserve" approved="yes">
+        <source>The text direction selector box may appear in some dialogues.
+The selector shows the direction of text currently set on the current element, if any.
+Selecting a direction sets it on the element. If a direction was already set on the element, it is replaced by the newly selected direction.
+Any currently set direction may be removed by selecting the "Not set" item at the top of the list of the selector box.</source>
+      <target state="translated">Das Feld zur Auswahl der Textrichtung kann in einigen Dialogen erscheinen. Die Auswahl zeigt die Textrichtung, die aktuell dem ausgewählten Element zugewiesen ist. Das Wählen einer Richtung weist diese dem Element zu. War bereits eine Richtung zugewiesen, wird diese durch die neu gewählte ersetzt. Eine zugewiesene Richtung kann durch Auswählen von "Nicht gesetzt" am Beginn der Liste im Auswahlfeld entfernt werden.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

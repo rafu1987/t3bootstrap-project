@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="LeftToRight-Tooltip">Richtung links nach rechts</label>
+      <label index="RightToLeft-Tooltip">Richtung rechts nach links</label>
+      <label index="Language-Tooltip">Sprache</label>
+      <label index="ShowLanguageMarks-Tooltip">Sprachmarkierungen anzeigen</label>
+      <label index="Technische Universitat Ilmenau">Technische Universität Ilmenau</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,91 @@
+plugin.tx_in2facebook = USER
+plugin.tx_in2facebook {
+	userFunc = tx_extbase_core_bootstrap->run
+	pluginName = Pi1
+	extensionName = In2facebook
+	controller = Opengraph
+	action = show
+	switchableControllerActions {
+		Opengraph {
+			1 = show
+		}
+	}
+	
+	settings {
+		image = COA
+		image {
+			10 = TEXT
+			10 {
+				data = getIndpEnv:HTTP_HOST
+				wrap = http://|/
+			}
+
+			# without watermark
+			/*
+			20 = IMG_RESOURCE
+			20 {
+				file {
+					import.field = image
+					import.dataWrap = uploads/tx_in2facebook/|
+					width = 90c
+					height = 60c
+				}
+			}
+			*/
+
+			# with watermark
+			20 = IMG_RESOURCE
+			20 {
+				file = GIFBUILDER
+				file {
+					XY = 90,60
+					format = jpg
+					quality = 90
+
+					10 = IMAGE
+					10 {
+						file {
+							import.field = image
+							import.dataWrap = uploads/tx_in2facebook/|
+							width = 90c
+							height = 60c
+						}
+					}
+
+					20 = IMAGE
+					20 {
+						file = typo3conf/ext/in2facebook/Resources/Private/Images/TYPO3_Logo.png
+						offset = 62,33
+					}
+				}
+			}
+		}
+	}
+
+	view {
+		templateRootPath = {$plugin.tx_in2facebook.view.templateRootPath}
+	}
+
+	persistence {
+		storagePid = 23
+		classes {
+			Tx_In2facebook_Domain_Model_Opengraph {
+				mapping {
+					tableName = pages
+					columns {
+						tx_in2facebook_title.mapOnProperty = title
+						tx_in2facebook_type.mapOnProperty = type
+						tx_in2facebook_url.mapOnProperty = url
+						tx_in2facebook_image.mapOnProperty = image
+						tx_in2facebook_site_name.mapOnProperty = siteName
+						tx_in2facebook_admins.mapOnProperty = admins
+						tx_in2facebook_description.mapOnProperty = description
+					}
+				}
+			}
+		}
+	}
+}
+
+
+page.headerData.1519 < plugin.tx_in2facebook

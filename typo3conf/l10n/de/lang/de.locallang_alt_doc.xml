@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="deleteItem">Entfernen</label>
+      <label index="deleteWarning">Diesen Datensatz tatsächlich löschen?</label>
+      <label index="undoLastChange">Letzte Änderung zurücknehmen/ausführen (%s Schritte)</label>
+      <label index="recordHistory">Änderungsprotokoll des Datensatzes anzeigen</label>
+      <label index="editWholeRecord">Kompletten Datensatz bearbeiten</label>
+      <label index="openDocs">GEÖFFNETE DOKUMENTE</label>
+      <label index="noDocuments">Keine geöffneten Dokumente</label>
+      <label index="noDocuments_msg">Es sind keine Dokumente zur Bearbeitung geöffnet.</label>
+      <label index="noDocuments_msg2">Rufen Sie %s auf, um die Seite oder den Datensatz zu finden, den Sie bearbeiten möchten.</label>
+      <label index="noDocuments_msg3">Aus dieser Liste können die zuletzt bearbeiteten Datensätze ausgewählt werden:</label>
+      <label index="noDocuments_pagemodule">Web &gt; Seite</label>
+      <label index="noDocuments_OR">oder</label>
+      <label index="noDocuments_listmodule">Web &gt; Liste</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

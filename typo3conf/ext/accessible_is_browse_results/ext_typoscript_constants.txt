@@ -1,0 +1,18 @@
+plugin.tx_indexed_search {
+	# cat=accessible_is_browse_results/ctext/1; type=string; label=pageTitleAdd: 
+	pageTitleAdd= Results for:
+	# cat=accessible_is_browse_results/ctext/2; type=string; label=pageTitlePage:
+	pageTitlePage= Page
+	# cat=accessible_is_browse_results/enable/3; type=boolean; label=addDescriptionToIndex:
+	addDescriptionToIndex=1
+	# cat=accessible_is_browse_results/enable/4; type=boolean; label=addKeywordsToIndex:
+	addKeywordsToIndex=1
+	# cat=accessible_is_browse_results/others/5; type=wrap; label=topBrowserWrap:
+	topBrowserWrap=<div class="tx-indexedsearch-browsebox">|</div>
+	# cat=accessible_is_browse_results/others/6; type=wrap; label=browseBoxWrap:
+	browseBoxWrap=<ul class="browsebox">|</ul>
+	# cat=accessible_is_browse_results/others/7; type=wrap; label=pageWrap:
+	pageWrap=<li>|</li>
+	# cat=accessible_is_browse_results/others/8; type=wrap; label=activePageWrap:
+	activePageWrap=<li class="tx-indexedsearch-browselist-currentPage"><strong>|</strong></li>
+}

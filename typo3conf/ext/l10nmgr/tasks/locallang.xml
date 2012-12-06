@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for tasks in l10nmgr</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="fileGarbageCollection.name">File garbage collection</label>
+			<label index="fileGarbageCollection.description">Deletes all files created or stored by the L10N Manager beyond a certain age.</label>
+			<label index="fileGarbageCollection.age">File age</label>
+			<label index="fileGarbageCollection.invalidAge">Please enter a positive number of days for the file age.</label>
+			<label index="fileGarbageCollection.excludePattern">Exclude pattern</label>
+		</languageKey>
+	</data>
+</T3locallang>

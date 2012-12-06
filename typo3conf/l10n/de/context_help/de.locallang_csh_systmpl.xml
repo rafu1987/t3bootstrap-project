@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">TypoScript-Template-Datensatz.</label>
+      <label index=".details">Die Template-Datensätze bilden das Herzstück für das gesamte Design Ihrer Website. Ganz gleich, wie Sie Ihre Website gestalten wollen, alles fängt damit an, dass ein Template-Datensatz am Anfang Ihres Seitenbaumes steht. Im Grunde genommen legen Sie dazu einfach einen Template-Datensatz an, geben diesem einen Namen und vergewissern sich, dass Sie die Option "Lösche Konstanten, Setup und Rootline" gewählt haben. Dann geben Sie noch einige TypoScript-Zeilen innerhalb des Feldes "Setup" ein und schon kann es losgehen. Das ist natürlich eine stark vereinfachte Darstellung. Für ein erfolgreiches, produktives Arbeiten mit TYPO3 ist es sehr wichtig, dass Sie sich die unten aufgeführten Dokumente sehr aufmerksam durchlesen! Benutzen Sie für Ihre Arbeit mit Templates stets das Modus Web &gt; Template. Es bietet Ihnen spezielle Funktionen, die den Umgang und die Arbeit mit Templates sehr vereinfachen können.</label>
+      <label index="_.seeAlso">StatischeTypoScript-Templates in TSref | http://typo3.org/documentation/document-library/doc_core_tsref/ TypoScript by Example | http://typo3.org/documentation/document-library/doc_core_tsbyex/</label>
+      <label index="_.image">EXT:context_help/cshimages/systemplate.png, EXT:context_help/cshimages/systemplate1.png</label>
+      <label index=".image_descr">Ein Template-Datensatz mit Konstanten- und Setup-Code. Das Modul Web &gt; Template enthält Werkzeuge, die beim Erstellen und Testen von Template hilfreich sein können.</label>
+      <label index="hidden.description">Mit dieser Option können Sie den Template-Datensatz verbergen bzw. deaktivieren.</label>
+      <label index="hidden.details">Wenn der Template-Datensatz der erste Template-Eintrag einer Seite war, so wird stattdessen automatisch der nächste Template-Eintrag aktiviert.</label>
+      <label index="starttime.description">Startzeit. Verwenden Sie diese Option, um ein Template zu einer bestimmten Zeit zu aktivieren.</label>
+      <label index="endtime.description">Stoppzeit. Verwenden Sie diese Option, um ein Template zu einer bestimmten Zeit zu deaktivieren.</label>
+      <label index="title.description">Der Titel des Template-Datensatzes wird lediglich intern verwendet und erscheint zu keiner Zeit innerhalb der Website.</label>
+      <label index="sitetitle.description">Website-Titel. Entspricht dem HTML-Tag &lt;title&gt; und wird normalerweise innerhalb der Titelleiste des Browsers auf jeder Seite angezeigt.</label>
+      <label index="constants.description">TypoScript-Konstanten</label>
+      <label index="_constants.seeAlso">static_template:constants</label>
+      <label index="config.description">TypoScript-Setup-Code</label>
+      <label index="config.details">Hinter TypoScript steckt ein sehr mächtiges Konzept zur Gestaltung dynamischer Websites auf Basis von TYPO3. TypoScript an dieser Stelle zu erklären, würde den Rahmen dieser Onlinehilfe sprengen. Mehr über TypoScript-Templates erfahren Sie deshalb in den Referenzdokumenten &lt;em&gt;TSref&lt;/em&gt;, &lt;em&gt;TypoScript by Example&lt;/em&gt; und &lt;em&gt;Getting Started&lt;/em&gt;.</label>
+      <label index="_config.seeAlso">static_template:config, TSref | http://typo3.org/documentation/document-library/doc_core_tsref/ Getting Started | http://typo3.org/documentation/document-library/doc_tut_quickstart/ TypoScript by Example | http://typo3.org/documentation/document-library/doc_core_tsbyex/ TypoScript-Syntax | http://typo3.org/documentation/document-library/doc_core_ts/</label>
+      <label index="resources.description">Ressourcen für das Template, z.B. Bilddateien, True-Type-Schriften, HTML-Vorlagen usw.</label>
+      <label index="resources.details">Dateiressourcen können innerhalb des TypoScript-Template-Codes durch [dateiname]*.ext angesprochen werden. Der Vorteil dieser Methode: werden Vorlagendatensätze kopiert oder exportiert, bleiben die Referenzen auf die dazugehörigen Ressourcen erhalten und zwar auch für den Fall, dass die Ressourcen geänderte Dateinamen erhalten.</label>
+      <label index="clear.description">Mit diesen Optionen wird die Vererbung des TypoScript-Codes übergeordenter (d.h. im Seitenbaum näher an der Wurzel angesiedelter) Vorlagen unterbunden. Diese Option kann für Konstanten und Setup-Code gesetzt werden.</label>
+      <label index="clear.details">Innerhalb des Moduls Web &gt; Template können Sie sich mit dem Template Analyzer die Vererbungsstruktur für Konstanten und Setup-Code innerhalb des Vorlagenbaumes anzeigen lassen.</label>
+      <label index="_clear.seeAlso">sys_template:root</label>
+      <label index="_clear.image">EXT:context_help/cshimages/systemplate2.png</label>
+      <label index="root.description">Legt fest, dass mit diesem Template die Wurzel des Seitenbaumes (inklusive aller Unterseiten) dargestellt wird.</label>
+      <label index="_root.seeAlso">sys_template:clear</label>
+      <label index="includeStaticAfterBasedOn.description">Mit dieser Option wird festgelegt, dass statische Templates nach den Basis-Templates eingebunden werden (die Reihenfolge der Einbindung also umgekehrt).</label>
+      <label index="includeStaticAfterBasedOn.details">Innerhalb des Moduls Web &gt; Template können Sie sich mit dem Template Analyzer die Reihenfolge der Einbindung aller TypoScript-Daten, welche Ihre Vorlage verwendet, anzeigen lassen.</label>
+      <label index="include_static.description">Einzubindende statische Template-Datensätze</label>
+      <label index="_include_static.seeAlso">static_template</label>
+      <label index="include_static_file.description">Einzubindende statische Template-Dateien</label>
+      <label index="include_static_file.details">Statische Template-Dateien werden durch Erweiterungen registriert bzw. zur Verfügung gestellt, im Gegensatz zu den statischen Template-Datensätzen, welche aus einer statischen Datenbanktabelle (static_template) stammen.</label>
+      <label index="_include_static_file.seeAlso">sys_template:include_static</label>
+      <label index="basedOn.description">Andere Template-Datensätze, die wie "Statische Templates" eingebunden werden.</label>
+      <label index="static_file_mode.description">Mit dieser Option legen Sie die Reihenfolge beim Einbinden statischer Template-Dateien fest.</label>
+      <label index="static_file_mode.details">Wenn Sie sich über die Reihenfolge im Unklaren sind, können Sie sich diese mit dem Modul Web &gt; Template (Template Analyzer) auch anzeigen lassen.</label>
+      <label index="nextLevel.description">Definiert die "Zuständigkeit" eines Template-Datensatzes für die nächst tiefere Ebene innerhalb der Seitenbaumes. Dadurch kann man beispielsweise der Einstiegsseite einer Website ein spezielles Design zuweisen, während alle untergeordenten Seiten ein anderes Design erhalten.</label>
+      <label index="description.description">Geben Sie hier eine Beschreibung für dieses Template an.</label>
+      <label index="editorcfg.description">Editor-Konfiguration für die Erweiterung Stylesheet-Editor.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,1 @@
+plugin.tx_muniProcAdm_pi1.template = {$plugin.muniProcAdm.template}

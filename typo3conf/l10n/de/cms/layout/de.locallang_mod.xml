@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Seiteninfo und Inhalt</label>
+      <label index="mlang_labels_tabdescr">Mit diesem Modul können neue Web-Seiten angelegt und bearbeitet werden. Es bietet einen Quickeditor für schnellen Zugriff auf den Hauptseiteninhalt. Zusätzlich können Sie verschiedene Sprachen und Inhaltsspalten Ihrer Seite verwalten. Darüber hinaus lassen sich spezielle Seiteninhalte wie Gästebücher-, Forums- und Shop-Einträge verwalten. Das Modul zeigt auch Seitenzugriffstatistiken für die einzelnen Seiten an.</label>
+      <label index="mlang_tabs_tab">Seite</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

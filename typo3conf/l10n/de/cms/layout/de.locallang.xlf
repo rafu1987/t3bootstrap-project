@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="cms" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Page content</source>
+      <target state="translated">Seiteninhalt</target></trans-unit>
+      <trans-unit id="advancedFunctions" xml:space="preserve" approved="yes">
+        <source>Advanced functions</source>
+      <target state="translated">Erweiterte Funktionen</target></trans-unit>
+      <trans-unit id="noEditItems" xml:space="preserve" approved="yes">
+        <source>Sorry, you do not have permissions to edit items on this page!</source>
+      <target state="translated">Sie haben leider nicht die notwendigen Rechte, um Elemente dieser Seite zu bearbeiten!</target></trans-unit>
+      <trans-unit id="noEditPage" xml:space="preserve" approved="yes">
+        <source>Sorry, you do not have permissions to edit this page!</source>
+      <target state="translated">Sie haben leider nicht die notwendigen Rechte, um diese Seite zu bearbeiten!</target></trans-unit>
+      <trans-unit id="nextThree" xml:space="preserve" approved="yes">
+        <source>Edit next %s records</source>
+      <target state="translated">Nächste %s Datensätze bearbeiten</target></trans-unit>
+      <trans-unit id="moveUp" xml:space="preserve" approved="yes">
+        <source>Move record up</source>
+      <target state="translated">Datensatz nach oben verschieben</target></trans-unit>
+      <trans-unit id="moveDown" xml:space="preserve" approved="yes">
+        <source>Move record down</source>
+      <target state="translated">Datensatz nach unten verschieben</target></trans-unit>
+      <trans-unit id="unHide" xml:space="preserve" approved="yes">
+        <source>Un-hide</source>
+      <target state="translated">Sichtbar machen</target></trans-unit>
+      <trans-unit id="hide" xml:space="preserve" approved="yes">
+        <source>Hide</source>
+      <target state="translated">Verbergen</target></trans-unit>
+      <trans-unit id="edit" xml:space="preserve" approved="yes">
+        <source>Edit</source>
+      <target state="translated">Bearbeiten</target></trans-unit>
+      <trans-unit id="newAfter" xml:space="preserve" approved="yes">
+        <source>New record after this one</source>
+      <target state="translated">Neuen Datensatz nach diesem anfügen</target></trans-unit>
+      <trans-unit id="newRecordHere" xml:space="preserve" approved="yes">
+        <source>Add a new record at this place</source>
+      <target state="translated">Neuen Datensatz hier hinzufügen</target></trans-unit>
+      <trans-unit id="move_record" xml:space="preserve" approved="yes">
+        <source>Re-position current content element</source>
+      <target state="translated">Datensatz verschieben</target></trans-unit>
+      <trans-unit id="move_page" xml:space="preserve" approved="yes">
+        <source>Move page</source>
+      <target state="translated">Seite verschieben</target></trans-unit>
+      <trans-unit id="deleteItem" xml:space="preserve" approved="yes">
+        <source>Delete</source>
+      <target state="translated">Löschen</target></trans-unit>
+      <trans-unit id="deleteWarning" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to delete this record?</source>
+      <target state="translated">Diesen Datensatz tatsächlich löschen?</target></trans-unit>
+      <trans-unit id="recursiveDeleteWarning" xml:space="preserve" approved="yes">
+        <source>You can recover pages with subpages only with the recycler. Are you sure you want to delete these pages?</source>
+      <target state="translated">Seiten mit Unterseiten können Sie nur mit dem Papierkorb wiederherstellen. Diese Seiten tatsächlich löschen?</target></trans-unit>
+      <trans-unit id="editColumn" xml:space="preserve" approved="yes">
+        <source>Edit this column</source>
+      <target state="translated">Diese Spalte bearbeiten</target></trans-unit>
+      <trans-unit id="editPageProperties_curLang" xml:space="preserve" approved="yes">
+        <source>Edit translation properties</source>
+      <target state="translated">Übersetzungseigenschaften bearbeiten</target></trans-unit>
+      <trans-unit id="editInRTE" xml:space="preserve" approved="yes">
+        <source>Edit in Rich Text Editor</source>
+      <target state="translated">In Rich-Text-Editor bearbeiten</target></trans-unit>
+      <trans-unit id="newPageContent" xml:space="preserve" approved="yes">
+        <source>Create page content</source>
+      <target state="translated">Seiteninhalt anlegen</target></trans-unit>
+      <trans-unit id="newPageContent_copyForLang" xml:space="preserve" approved="yes">
+        <source>Copy default content elements</source>
+      <target state="translated">Standardinhalte kopieren</target></trans-unit>
+      <trans-unit id="newPageContent2" xml:space="preserve" approved="yes">
+        <source>New content</source>
+      <target state="translated">Neuer Inhalt</target></trans-unit>
+      <trans-unit id="newInColumn" xml:space="preserve" approved="yes">
+        <source>Create new record in top of this column</source>
+      <target state="translated">Einen neuen Datensatz am Anfang dieser Spalte erstellen</target></trans-unit>
+      <trans-unit id="records" xml:space="preserve" approved="yes">
+        <source>records</source>
+      <target state="translated">Datensätze</target></trans-unit>
+      <trans-unit id="pageInformation" xml:space="preserve" approved="yes">
+        <source>Page information</source>
+      <target state="translated">Seiteninformationen</target></trans-unit>
+      <trans-unit id="goToTable" xml:space="preserve" approved="yes">
+        <source>Go to table</source>
+      <target state="translated">Gehe zu Tabelle</target></trans-unit>
+      <trans-unit id="internalNotes" xml:space="preserve" approved="yes">
+        <source>Internal notes</source>
+      <target state="translated">Interne Notizen</target></trans-unit>
+      <trans-unit id="clearCache" xml:space="preserve" approved="yes">
+        <source>Click here to clear cache for this page.</source>
+      <target state="translated">Hier klicken, um den Cache dieser Seite zu leeren.</target></trans-unit>
+      <trans-unit id="hiddenCE" xml:space="preserve" approved="yes">
+        <source>Show hidden content elements</source>
+      <target state="translated">Verborgene Inhalte anzeigen</target></trans-unit>
+      <trans-unit id="new_language" xml:space="preserve" approved="yes">
+        <source>Make new translation of this page</source>
+      <target state="translated">Neue Übersetzung dieser Seite anlegen</target></trans-unit>
+      <trans-unit id="newLabel" xml:space="preserve" approved="yes">
+        <source>NEW</source>
+      <target state="translated">NEU</target></trans-unit>
+      <trans-unit id="defaultLanguage" xml:space="preserve" approved="yes">
+        <source>Default</source>
+      <target state="translated">Standard</target></trans-unit>
+      <trans-unit id="editLanguageHeader" xml:space="preserve" approved="yes">
+        <source>Edit language header</source>
+      <target state="translated">Sprach-Header bearbeiten</target></trans-unit>
+      <trans-unit id="editPageProperties" xml:space="preserve" approved="yes">
+        <source>Edit page properties</source>
+      <target state="translated">Seiteneigenschaften bearbeiten</target></trans-unit>
+      <trans-unit id="newRecordGeneral" xml:space="preserve" approved="yes">
+        <source>Create new record</source>
+      <target state="translated">Neuen Datensatz anlegen</target></trans-unit>
+      <trans-unit id="newContentElement" xml:space="preserve" approved="yes">
+        <source>Create new content element</source>
+      <target state="translated">Neues Inhaltselement anlegen</target></trans-unit>
+      <trans-unit id="CEonThisPage" xml:space="preserve" approved="yes">
+        <source>Content elements on this page:</source>
+      <target state="translated">Inhaltselemente auf dieser Seite:</target></trans-unit>
+      <trans-unit id="newPage" xml:space="preserve" approved="yes">
+        <source>Create new page</source>
+      <target state="translated">Neue Seite anlegen</target></trans-unit>
+      <trans-unit id="newPage2" xml:space="preserve" approved="yes">
+        <source>New page</source>
+      <target state="translated">Neue Seite</target></trans-unit>
+      <trans-unit id="noAccess" xml:space="preserve" approved="yes">
+        <source>No edit access</source>
+      <target state="translated">Keine Bearbeitungsberechtigung</target></trans-unit>
+      <trans-unit id="noAccess_msg" xml:space="preserve" approved="yes">
+        <source>You do not have access to edit the requested record.</source>
+      <target state="translated">Sie haben keine Bearbeitungsberechtigung für den angeforderten Datensatz.</target></trans-unit>
+      <trans-unit id="notAssigned" xml:space="preserve" approved="yes">
+        <source>Not assigned</source>
+      <target state="translated">Nicht zugewiesen</target></trans-unit>
+      <trans-unit id="undoLastChange" xml:space="preserve" approved="yes">
+        <source>Undo/Redo last change (%s ago)</source>
+      <target state="translated">Letzte Änderung rückgängig/wiederherstellen (%s Schritte)</target></trans-unit>
+      <trans-unit id="recordHistory" xml:space="preserve" approved="yes">
+        <source>View record change history</source>
+      <target state="translated">Änderungsverlauf des Datensatzes anzeigen</target></trans-unit>
+      <trans-unit id="viewContent" xml:space="preserve" approved="yes">
+        <source>Viewing content of</source>
+      <target state="translated">Inhalt anzeigen von</target></trans-unit>
+      <trans-unit id="tt_board_subject" xml:space="preserve" approved="yes">
+        <source>Subject</source>
+      <target state="translated">Betreff</target></trans-unit>
+      <trans-unit id="tt_board_author" xml:space="preserve" approved="yes">
+        <source>Author</source>
+      <target state="translated">Autor</target></trans-unit>
+      <trans-unit id="tt_board_date" xml:space="preserve" approved="yes">
+        <source>Date</source>
+      <target state="translated">Datum</target></trans-unit>
+      <trans-unit id="tt_board_age" xml:space="preserve" approved="yes">
+        <source>Age</source>
+      <target state="translated">Alter</target></trans-unit>
+      <trans-unit id="tt_board_RE" xml:space="preserve" approved="yes">
+        <source>RE</source>
+      <target state="translated">ANTW</target></trans-unit>
+      <trans-unit id="m_function_0" xml:space="preserve" approved="yes">
+        <source>QuickEdit</source>
+      <target state="translated">Schnelleingabe</target></trans-unit>
+      <trans-unit id="m_function_1" xml:space="preserve" approved="yes">
+        <source>Columns</source>
+      <target state="translated">Spalten</target></trans-unit>
+      <trans-unit id="m_function_2" xml:space="preserve" approved="yes">
+        <source>Languages</source>
+      <target state="translated">Sprachen</target></trans-unit>
+      <trans-unit id="gridView" xml:space="preserve" approved="yes">
+        <source>Grid-View</source>
+      <target state="translated">Rasteransicht</target></trans-unit>
+      <trans-unit id="m_tt_board_0" xml:space="preserve" approved="yes">
+        <source>List topics only</source>
+      <target state="translated">Nur Themenliste</target></trans-unit>
+      <trans-unit id="m_tt_board_expand" xml:space="preserve" approved="yes">
+        <source>Expand Threads</source>
+      <target state="translated">Threads ausklappen</target></trans-unit>
+      <trans-unit id="m_tt_address_0" xml:space="preserve" approved="yes">
+        <source>Short List</source>
+      <target state="translated">Kurze Liste</target></trans-unit>
+      <trans-unit id="m_tt_address_1" xml:space="preserve" approved="yes">
+        <source>Address list</source>
+      <target state="translated">Adressliste</target></trans-unit>
+      <trans-unit id="m_tt_address_2" xml:space="preserve" approved="yes">
+        <source>Personal info</source>
+      <target state="translated">Persönliche Informationen</target></trans-unit>
+      <trans-unit id="m_tt_links_1" xml:space="preserve" approved="yes">
+        <source>Whole URL</source>
+      <target state="translated">Gesamte URL</target></trans-unit>
+      <trans-unit id="m_tt_links_2" xml:space="preserve" approved="yes">
+        <source>Alternative note</source>
+      <target state="translated">Alternative Anmerkung</target></trans-unit>
+      <trans-unit id="m_tt_calender_date" xml:space="preserve" approved="yes">
+        <source>Date</source>
+      <target state="translated">Datum</target></trans-unit>
+      <trans-unit id="m_tt_calender_date_ext" xml:space="preserve" approved="yes">
+        <source>Date - extended</source>
+      <target state="translated">Datum - erweitert</target></trans-unit>
+      <trans-unit id="m_tt_calender_todo" xml:space="preserve" approved="yes">
+        <source>Todo</source>
+      <target state="translated">To-do</target></trans-unit>
+      <trans-unit id="m_tt_calender_todo_ext" xml:space="preserve" approved="yes">
+        <source>Todo - extended</source>
+      <target state="translated">To-do - erweitert</target></trans-unit>
+      <trans-unit id="m_tt_calender_ext" xml:space="preserve" approved="yes">
+        <source>Extended</source>
+      <target state="translated">Erweitert</target></trans-unit>
+      <trans-unit id="m_tt_products_ext" xml:space="preserve" approved="yes">
+        <source>Extended</source>
+      <target state="translated">Erweitert</target></trans-unit>
+      <trans-unit id="m_default" xml:space="preserve" approved="yes">
+        <source>Default</source>
+      <target state="translated">Standard</target></trans-unit>
+      <trans-unit id="clickAPage_header" xml:space="preserve" approved="yes">
+        <source>Web&gt;Page module</source>
+      <target state="translated">Modul Web &gt; Seite</target></trans-unit>
+      <trans-unit id="clickAPage_content" xml:space="preserve" approved="yes">
+        <source>Please click the page title in the page tree to the left to edit page content.</source>
+      <target state="translated">Wenn Sie den Inhalt dieser Seite bearbeiten wollen, klicken Sie bitte auf den Seitentitel im Seitenbaum zur Linken.</target></trans-unit>
+      <trans-unit id="pI_crUser" xml:space="preserve" approved="yes">
+        <source>Created by</source>
+      <target state="translated">Erstellt von</target></trans-unit>
+      <trans-unit id="pI_crDate" xml:space="preserve" approved="yes">
+        <source>Created date</source>
+      <target state="translated">Erstellt am</target></trans-unit>
+      <trans-unit id="pI_lastChange" xml:space="preserve" approved="yes">
+        <source>Last change</source>
+      <target state="translated">Letzte Änderung</target></trans-unit>
+      <trans-unit id="pI_lastChangeContent" xml:space="preserve" approved="yes">
+        <source>Last change, content</source>
+      <target state="translated">Letzte Änderung, Inhalt</target></trans-unit>
+      <trans-unit id="pI_hitsTotal" xml:space="preserve" approved="yes">
+        <source>Total Hits</source>
+      <target state="translated">Gesamtzugriffe</target></trans-unit>
+      <trans-unit id="pI_hitsPeriod" xml:space="preserve" approved="yes">
+        <source>Hits Period</source>
+      <target state="translated">Zugriffszeitraum</target></trans-unit>
+      <trans-unit id="pI_hits24hours" xml:space="preserve" approved="yes">
+        <source>Last 24 hours</source>
+      <target state="translated">Letzte 24 Stunden</target></trans-unit>
+      <trans-unit id="pI_hits10days" xml:space="preserve" approved="yes">
+        <source>Last 10 days</source>
+      <target state="translated">Letzte 10 Tage</target></trans-unit>
+      <trans-unit id="content_from_pid_title" xml:space="preserve" approved="yes">
+        <source>Page uses content from this page: %s</source>
+      <target state="translated">Die Seite benutzt Inhalt von dieser Seite: %s</target></trans-unit>
+      <trans-unit id="goToListModule" xml:space="preserve" approved="yes">
+        <source>Go to list module</source>
+      <target state="translated">Zum Modul Liste gehen</target></trans-unit>
+      <trans-unit id="goToListModuleMessage" xml:space="preserve" approved="yes">
+        <source>The current page is a folder. Folders usually don't contain content elements but are used for collecting other types of records.</source>
+      <target state="translated">Die aktuelle Seite ist ein Ordner. Ordner enthalten gewöhnlich keine Inhaltselemente, sondern werden zum Sammeln anderer Arten von Datensätzen verwendet.</target></trans-unit>
+      <trans-unit id="noPluginSelected" xml:space="preserve" approved="yes">
+        <source>No plugin selected</source>
+      <target state="translated">Kein Plug-In ausgewählt</target></trans-unit>
+    </body>
+  </file>
+</xliff>

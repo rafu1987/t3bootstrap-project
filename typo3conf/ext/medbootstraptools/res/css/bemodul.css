@@ -1,0 +1,32 @@
+html, body {
+    background-color: #F8F8F8 !important;
+}
+
+div.typo3-bigDoc {
+    width: 99%;
+    background: #F8F8F8;
+}
+
+.btn-submit {
+    margin: 25px 0 0 0;
+}
+
+textarea.textarea-beusers {
+	width: 600px;
+	height: 100px;
+}
+
+input.input-long {
+	width: 600px;
+}
+
+input.input-middle {
+	width: 400px;
+}
+
+.settings h4 {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #CDCDCD;
+	padding-bottom: 15px;
+}

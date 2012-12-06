@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 't3jquery'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">T3 jQuery</label>
+
+			<label index="extmng.checkConfigHeader">Warning!</label>
+			<label index="extmng.checkConfig">You have to use the "Update"-Button below to ensure proper working for all functions in this extension.</label>
+
+			<label index="extmng.updatermsgHeader">Important!</label>
+			<label index="extmng.updatermsg">The version you are using, is no longer supported by T3 jQuery, please change to a supported version and create your library again!</label>
+
+			<label index="extmng.updatermsgHeader2">Warning!</label>
+			<label index="extmng.updatermsg2">The jQuery library '%s' was not found, please choose the version of your library and create it with the needed components!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+	</orig_hash>
+	<orig_text type="array">
+	</orig_text>
+</T3locallang>

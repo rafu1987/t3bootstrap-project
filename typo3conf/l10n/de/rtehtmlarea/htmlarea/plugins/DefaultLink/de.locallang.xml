@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="URL">URL</label>
+      <label index="Select some text">Vor dem Erstellen eines Links muss Text markiert werden</label>
+      <label index="frame">Frame-Name:</label>
+      <label index="frame_help">Den Namen des als Ziel zu verwendenden Frames eingeben</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

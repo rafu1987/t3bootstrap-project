@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="wizard_crpages" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="wiz_crMany" xml:space="preserve" approved="yes">
+        <source>Create multiple pages</source>
+      <target state="translated">Mehrere Seiten erzeugen</target></trans-unit>
+      <trans-unit id="wiz_W" xml:space="preserve" approved="yes">
+        <source>W!</source>
+      <target state="translated">W!</target></trans-unit>
+      <trans-unit id="wiz_newPages" xml:space="preserve" approved="yes">
+        <source>Create new pages</source>
+      <target state="translated">Neue Seiten anlegen</target></trans-unit>
+      <trans-unit id="wiz_newPages_page" xml:space="preserve" approved="yes">
+        <source>Page</source>
+      <target state="translated">Seite</target></trans-unit>
+      <trans-unit id="wiz_newPages_currentMenu" xml:space="preserve" approved="yes">
+        <source>New page structure</source>
+      <target state="translated">Neue Seitenstruktur</target></trans-unit>
+      <trans-unit id="wiz_newPages_errorMsg1" xml:space="preserve" approved="yes">
+        <source>You are not allowed to create new subpages to this page!</source>
+      <target state="translated">Sie haben nicht die notwendigen Rechte, um dieser Seite neue Unterseiten hinzuzufügen!</target></trans-unit>
+      <trans-unit id="wiz_newPages_lCreate" xml:space="preserve" approved="yes">
+        <source>Create pages</source>
+      <target state="translated">Seiten anlegen</target></trans-unit>
+      <trans-unit id="wiz_newPages_listEnd" xml:space="preserve" approved="yes">
+        <source>Place new pages after the existing subpages</source>
+      <target state="translated">Neue Seiten nach existierenden Unterseiten anlegen</target></trans-unit>
+      <trans-unit id="wiz_newPages_hidePages" xml:space="preserve" approved="yes">
+        <source>Hide new pages</source>
+      <target state="translated">Neue Seiten verbergen</target></trans-unit>
+      <trans-unit id="wiz_newPages_lCreate_msg1" xml:space="preserve" approved="yes">
+        <source>You're about to create many new pages. Are you sure you want to continue?</source>
+      <target state="translated">Es wird eine größere Anzahl neuer Seiten erstellt. Den Vorgang fortsetzen?</target></trans-unit>
+      <trans-unit id="wiz_newPages_lReset" xml:space="preserve" approved="yes">
+        <source>Clear fields</source>
+      <target state="translated">Felder zurücksetzen</target></trans-unit>
+      <trans-unit id="wiz_newPages_noCreate" xml:space="preserve" approved="yes">
+        <source>No pages were created!</source>
+      <target state="translated">Es wurden keine Seiten erzeugt!</target></trans-unit>
+      <trans-unit id="wiz_newPages_create" xml:space="preserve" approved="yes">
+        <source>The pages were created!</source>
+      <target state="translated">Die Seiten wurden erzeugt!</target></trans-unit>
+      <trans-unit id="wiz_newPages_addMoreLines" xml:space="preserve" approved="yes">
+        <source>Add more lines</source>
+      <target state="translated">Zeilen hinzufügen</target></trans-unit>
+    </body>
+  </file>
+</xliff>

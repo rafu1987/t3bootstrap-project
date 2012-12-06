@@ -1,0 +1,2 @@
+  # cat=basic//10; type=boolean; label= ATTENTION: To import the data you have to select "UPDATE!" in the menu. Before doing so, you may have to create the database fields by clicking the "Make updates" button or the "Update" button here.
+dummy = 0

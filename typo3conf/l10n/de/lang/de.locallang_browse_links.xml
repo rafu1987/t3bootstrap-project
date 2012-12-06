@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="removeLink">Link entfernen</label>
+      <label index="uploadImage">Bild hochladen</label>
+      <label index="update">Aktualisieren</label>
+      <label index="path">Pfad</label>
+      <label index="page">Seite</label>
+      <label index="file">Datei</label>
+      <label index="folder">Ordner</label>
+      <label index="extUrl">Externe URL</label>
+      <label index="email">E-Mail</label>
+      <label index="special">Spezial</label>
+      <label index="folderTree">Verzeichnisbaum</label>
+      <label index="files">Dateien</label>
+      <label index="target">Zielfenster</label>
+      <label index="class">CSS-Klasse</label>
+      <label index="title">Titel</label>
+      <label index="params">Zusätzliche Link-Parameter</label>
+      <label index="target_popUpWindow">In einem neuen Fenster öffnen</label>
+      <label index="target_popUpWindow_width">Breite</label>
+      <label index="target_popUpWindow_height">Höhe</label>
+      <label index="newWindow">Neues Fenster</label>
+      <label index="top">Ganzes Fenster</label>
+      <label index="none">Keiner. Neuen Link setzen!</label>
+      <label index="pageTree">Seitenbaum</label>
+      <label index="contentElements">Inhaltselemente</label>
+      <label index="selectRecords">Datensätze auswählen</label>
+      <label index="addToList">Zur Liste hinzufügen...</label>
+      <label index="info">Info</label>
+      <label index="emailAddress">E-Mail-Adresse</label>
+      <label index="setLink">Link setzen</label>
+      <label index="clickToRedrawFullSize">Das Bild ist größer als angezeigt! Zur Anzeige in voller Größe bitte anklicken.</label>
+      <label index="findDragDrop">Das gewünschte Bild suchen, anklicken und es in den Editor im Hauptfenster ziehen!</label>
+      <label index="noWebFolder">Bilder aus diesem Verzeichnis können nicht herübergezogen werden, da sie im internen Bereich des Servers liegen.</label>
+      <label index="currentLink">Aktueller Link</label>
+      <label index="invalidChar">FEHLER: Ungültiges Zeichen im Dateipfad gefunden (%s). Datei kann nicht hinzugefügt werden!</label>
+      <label index="toggleSelection">Auswahl umkehren</label>
+      <label index="importSelection">Auswahl importieren</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

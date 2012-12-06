@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">TypoScript-Hilfe</label>
+      <label index="display">TypoScript-Hife anzeigen</label>
+      <label index="rebuild">TypoScript-Hilfe neu erzeugen</label>
+      <label index="referenceExplanation">Wählen Sie aus folgenden Referenzdaten</label>
+      <label index="referenceExplanationDetailed">Zum Anzeigen der verschiedenen Popup-Fenster der TypoScript-Hilfe eines der folgenden Referenzsymbole auswählen. Diese Online-Hilfe wird automatisch aus den auf Ihrem TYPO3-Server installierten Erweiterungen erzeugt. Um die Hilfedateien neu erzeugen zu lassen, nachdem Erweiterungen hinzugefügt oder entfernt wurden, benutzen Sie bitte die Funktion "TypoScript-Hilfe neu erzeugen" dieses Moduls.</label>
+      <label index="displayReferences">TypoScript-Online-Hilfe anzeigen</label>
+      <label index="loadedTSfrom">TypoScript geladen von:</label>
+      <label index="sections">Abschnitte</label>
+      <label index="rebuildTS">TypoScript-Onine-Hilfe neu erzeugen</label>
+      <label index="warning_manualsWithoutMarkers">Folgende Handbücher enthalten eine oder mehrere Tabellen ohne Markierungen:</label>
+      <label index="warning_duplicateMarkers">Folgende Markierungen erscheinen in mehreren Handbüchern oder mehrmals im selben Handbuch:</label>
+      <label index="updateWarnings">Aktualisierungswarnung</label>
+      <label index="rebuildExplanation">Der Neuaufbau der Online-Hilfe löscht die Datenbank für die Online-Hilfe vollständig, bevor die TypoScript-Hilfe geladener Erweiterungen verarbeitet wird. Es empfiehlt sich, doc_core_tsref und doc_core_tsconfig ebenfalls zu installieren, damit auch sie verarbeitet werden.</label>
+      <label index="adminAccessOnly">Der Zugriff auf diese Funktion des Moduls ist auf Administratoren beschränkt.</label>
+      <label index="noRebuildOnWindows">Die Neuaufbau-Funktion funktioniert nicht mit Windows-Systemen. Entschuldigung!</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

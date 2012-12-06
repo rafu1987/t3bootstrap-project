@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id=".alttitle" xml:space="preserve" approved="yes">
+        <source>Import/Export</source>
+      <target state="translated">Import/Export</target></trans-unit>
+      <trans-unit id=".description" xml:space="preserve" approved="yes">
+        <source>Native Import/Export module for TYPO3 data. Can export single records, content of tables, single pages or whole branches of the page tree. Includes attached media like image and preserves relations between records. Exports only to TYPO3 specific format, either a binary format (.T3D) or XML. The format is meant for exchange between TYPO3 systems.</source>
+      <target state="translated">Import/Export-Modul für TYPO3-Daten. Kann einzelne Datensätze, Tabelleninhalte, einzelne Seiten oder ganze Zweige des Seitenbaums exportieren. Berücksichtigt eingebundene Medien wie z.B. Bilder und behält Beziehungen zwischen Datensätzen bei. Exportiert nur TYPO3-spezifisches Format, entweder ein binäres Format (.T3D) oder XML. Das Format ist zum Datenaustausch zwischen TYPO3-Systemen vorgesehen.</target></trans-unit>
+      <trans-unit id="_.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/impexp.png</source>
+        <target state="translated">EXT:impexp/cshimages/impexp.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
+        <source>Example of the preview display during export configuration of a page. Notice how records on the page are include plus how references inside the record is found and included as well (bottom of screen).</source>
+      <target state="translated">Beispiel der Vorschauanzeige während der Exportkonfiguration einer Seite. Man beachte, wie die Datensätze auf der Seite einbezogen werden und wie die Referenz innerhalb des Datensatzes gefunden und ebenfalls einbezogen wird.</target></trans-unit>
+      <trans-unit id="export.alttitle" xml:space="preserve" approved="yes">
+        <source>Exporting records from TYPO3</source>
+      <target state="translated">Datensätze aus TYPO3 exportieren</target></trans-unit>
+      <trans-unit id="export.description" xml:space="preserve" approved="yes">
+        <source>To export TYPO3 T3D/XML files you click any record icon or page in the page tree (including the root page!), select "More options" (requires the extensions "extra_page_cm_options" to be installed) and then "Export to .t3d". This will bring up the export interface where you can configure options for your export session.</source>
+      <target state="translated">Um TYPO3-T3D/XML-Dateien zu exportieren, klicken Sie auf ein Datensatz-Symbol im Seitenbaum (inkl. der Root-Seite!), wählen Sie "Mehr Optionen" (erfordert die Installation der Erweiterung "extra_page_cm_options") und dann "Nach .t3d exportieren". Das Export-Interface wird aufgerufen, wo Sie die Optionen für das Exportieren einstellen können.</target></trans-unit>
+      <trans-unit id="export.details" xml:space="preserve" approved="yes">
+        <source>There are a number of methods by which you can export data from TYPO3:
+- Export a single page or branch of the page tree (use page icon context menu)
+- Export a single record from any page (use record icon context menu)
+- Export all records from a specific table on a specific page (using the Web&gt;List module)
+- Export an arbitrary selection of records from the clipboard (using the Web&gt;List module)
+
+The export format observes all TYPO3s methods for relations between the records in the export file. But you will have to configure how these relations are maintained, at least to some degree. Sometimes you would want to include records referred to, at other times you surely want to keep the original mapping. That depends on your objectives with the export.
+
+Regardless of your configuration for export you will always see a complete reflection of all chosen records and their internal relations in the preview display found in the bottom of the export module page.
+
+&lt;b&gt;Error messages:&lt;/b&gt; Remember to consult the Message-tab before exporting if there are any error messages there!</source>
+      <target state="translated">Daten können aus TYPO3 auf verschiedene Art und Weise exportiert werden: - Exportieren einer einzelnen Seite oder eines Zweiges des Seitenbaums (über das Kontextmenü des Seiten-Symbols) - Exportieren eines einzelnen Datensatzes aus einer beliebigen Seite (über das Kontextmenü des Datensatz-Symbols) - Exportieren aller Datensätze einer bestimmten Tabelle einer bestimmten Seite (über das Modul Web &gt; Liste) - Exportieren einer frei wählbaren Auswahl von Datensätzen aus der Zwischenablage (über das Modul Web &gt; Liste) Das Export-Format beachtet alle TYPO3-Methoden für Beziehungen zwischen den Datensätzen in der Export-Datei. Sie müssen jedoch festlegen, wie diese Beziehungen beibehalten werden, zumindest bis zu einem gewissen Grad. Manchmal sollen Datensätze, auf die verwiesen wird, in den Export eingeschlossen werden, in anderen Fällen soll möglicherweise die originale Verknüpfung beibehalten werden. Das hängt vom Zweck des Exports ab. Unabhängig von den Export-Einstellungen werden alle ausgewählten Datensätze und ihre internen Beziehungen in der Vorschau-Anzeige am Fuß der Seite des Export-Moduls wiedergegeben. &lt;b&gt;Fehlermeldungen:&lt;/b&gt; Kontrollieren Sie vor dem Exportieren unter dem Reiter "Meldungen" ob sich dort eventuell Fehlermeldungen befinden!</target></trans-unit>
+      <trans-unit id="_export.seeAlso" xml:space="preserve" approved="yes">
+        <source>xMOD_tx_impexp:import</source>
+        <target state="translated">xMOD_tx_impexp:import</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="_export.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/export.png,
+EXT:impexp/cshimages/export1.png,
+EXT:impexp/cshimages/export2.png</source>
+        <target state="translated">EXT:impexp/cshimages/export.png, EXT:impexp/cshimages/export1.png, EXT:impexp/cshimages/export2.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="export.image_descr" xml:space="preserve" approved="yes">
+        <source>To export a page or record, simply click the icon and select "Export" from the context menu.
+With the Web&gt;List module you can also export all records from a table by first clicking the table title to see only this table, then next to the CSV export you will find the export button for a T3D export of the table.
+You can export the contents of the clipboard as well by simply selecting "Export" in the menu.</source>
+      <target state="translated">Um eine Seite oder einen Datensatz zu exportieren, klicken Sie einfach auf das Symbol und wählen Sie "Exportieren" aus dem Kontextmenü. Mit dem Modul Web &gt; Liste können Sie auch alle Datensätze einer Tabelle exportieren, indem Sie zuerst auf den Tabellentitel klicken, um nur diese Tabelle zu sehen. Neben dem CSV-Export finden Sie die Schaltfläche für einen T3D-Export der Tabelle. Sie können auch den Inhalt der Zwischenablage exportieren, indem sie einfach "Exportieren" im Menü wählen.</target></trans-unit>
+      <trans-unit id="pageTreeCfg.alttitle" xml:space="preserve" approved="yes">
+        <source>Configuration of page tree export</source>
+      <target state="translated">Konfiguration des Seitenbaumexports</target></trans-unit>
+      <trans-unit id="pageTreeCfg.description" xml:space="preserve" approved="yes">
+        <source>Here you configure how a page or a branch of the page tree should be exported. Using the selector box you can set the number of levels of subpages to include in the export.
+By default all records belonging to a page is included when a page is exported.</source>
+      <target state="translated">Hier können Sie einstellen, wie eine Seite oder ein Zweig des Seitenbaums exportiert werden soll. Mit dem Auswahlfeld legen Sie fest, wieviele Unterseitenebenen in den Export eingeschlossen werden sollen.</target></trans-unit>
+      <trans-unit id="_pageTreeCfg.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/pagetreecfg.png</source>
+        <target state="translated">EXT:impexp/cshimages/pagetreecfg.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="pageTreeDisplay.alttitle" xml:space="preserve" approved="yes">
+        <source>Page Tree</source>
+      <target state="translated">Seitenbaum</target></trans-unit>
+      <trans-unit id="pageTreeDisplay.description" xml:space="preserve" approved="yes">
+        <source>Based on the levels selected for page tree export this will show the structure that is about to be exported. If any pages are specifically excluded by the exclude option they are not shown either.</source>
+      <target state="translated">Ausgehend von den ausgewählten Ebenen für den Seitenbaum zeigt dies die Struktur, die zum Export ansteht. Falls Seiten ausdrücklich durch die "Ausschließen-Option" ausgeschlossen wurden, werden sie nicht angezeigt.</target></trans-unit>
+      <trans-unit id="pageTreeMode.alttitle" xml:space="preserve" approved="yes">
+        <source>Levels</source>
+      <target state="translated">Ebenen</target></trans-unit>
+      <trans-unit id="pageTreeMode.description" xml:space="preserve" approved="yes">
+        <source>Here you select how deeply in the page tree from the current starting point to go for this export.</source>
+      <target state="translated">Hier wählen Sie die Ebenentiefe für diesen Export aus, bezogen auf den aktuellen Ausgangspunkt.</target></trans-unit>
+      <trans-unit id="pageTreeMode.details" xml:space="preserve" approved="yes">
+        <source>If you select "Expanded tree" it will base the export on the currently expanded levels of the page tree. Another special option is "Tables on this page" which will not include the page record itself but only include records from tables on the page, depending on the table configuration of course.</source>
+      <target state="translated">Wenn Sie "Erweiterter Baum" auswählen, wird der Export auf Basis der aktuell erweiterten Ebenen erfolgen. Eine weitere Spezial-Option ist "Tabellen auf dieser Seite", die nicht den Seiten-Datensatz selbst, sondern nur die Tabellen der Seite exportiert, natürlich abhängig von der Tabellen-Konfiguration.</target></trans-unit>
+      <trans-unit id="_pageTreeMode.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/impexp_misc.png</source>
+        <target state="translated">EXT:impexp/cshimages/impexp_misc.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="pageTreeRecordLimit.alttitle" xml:space="preserve" approved="yes">
+        <source>Include tables</source>
+      <target state="translated">Einzuschließende Tabellen</target></trans-unit>
+      <trans-unit id="pageTreeRecordLimit.description" xml:space="preserve" approved="yes">
+        <source>When you export a page all records on the page is included by default. By this selector you can pick which tables to include exclusively if there are certain records you are not interested in seeing included.</source>
+      <target state="translated">Beim Export einer Seite werden standardmäßig alle Datensätze der Seite eingeschlossen. Mit diesem Selektor können Sie die einzuschließenden Tabellen auswählen, falls sie einzelne Datensätze nicht einschließen wollen.</target></trans-unit>
+      <trans-unit id="pageTreeRecordLimit.details" xml:space="preserve" approved="yes">
+        <source>In the box "Max number of records" you can set a limit to how many records are selected from a single table. This is a runaway brake in case you have an unusual large amount of records from a table.</source>
+      <target state="translated">In der Box "Höchstwert für Datensätze" können Sie einen Grenzwert dafür setzen, wie viele Datensätze maximal aus einer einzelnen Tabelle ausgewählt werden. Dies ist eine "Notbremse", falls sich ungewöhnlich viele Datensätze in der Tabelle befinden.</target></trans-unit>
+      <trans-unit id="singleRecord.alttitle" xml:space="preserve" approved="yes">
+        <source>Export single record</source>
+      <target state="translated">Einzelnen Datensatz exportieren</target></trans-unit>
+      <trans-unit id="singleRecord.description" xml:space="preserve" approved="yes">
+        <source>This overview tells you which independent records has been independently selected for export.</source>
+      <target state="translated">Dieser Überblick zeigt, welche unabhängigen Datensätze unabhängig von einander für den Export ausgewählt wurden.</target></trans-unit>
+      <trans-unit id="_singleRecord.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/singlerecord.png,
+EXT:impexp/cshimages/export2.png</source>
+        <target state="translated">EXT:impexp/cshimages/singlerecord.png, EXT:impexp/cshimages/export2.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="singleRecord.image_descr" xml:space="preserve" approved="yes">
+        <source>The way to export multiple records like this is using the clipboard like shown below.</source>
+      <target state="translated">Um mehrere Datensätze wie diesen zu exportieren, bitte die Zwischenablage, wie weiter unten gezeigt, benutzen.</target></trans-unit>
+      <trans-unit id="tableList.alttitle" xml:space="preserve" approved="yes">
+        <source>Table export</source>
+      <target state="translated">Tabellenexport</target></trans-unit>
+      <trans-unit id="tableList.description" xml:space="preserve" approved="yes">
+        <source>Export of all records on a page from a specific table. This is configured from the Web&gt;List module where you will have to select table-only view and click a button in the top of the page.</source>
+      <target state="translated">Export aller Datensätze einer Seite aus einer bestimmten Tabelle. Wird vom Modul "Web &gt; Liste" konfiguriert; dort wählen Sie "Nur Tabellenansicht" und klicken oben auf eine Schaltfläche.</target></trans-unit>
+      <trans-unit id="tableList.details" xml:space="preserve" approved="yes">
+        <source>Tip: You can select multiple table lists by simply saving each selecting as a preset and finally load/merge the selections together.</source>
+      <target state="translated">Tipp: Sie können mehrere Tabellen-Listen auswählen, indem sie jede Auswahl als Voreinstellung speichern und dann die Auswahlen laden/zusammenführen.</target></trans-unit>
+      <trans-unit id="_tableList.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/tablelist.png,
+EXT:impexp/cshimages/export1.png</source>
+        <target state="translated">EXT:impexp/cshimages/tablelist.png, EXT:impexp/cshimages/export1.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="tableList.image_descr" xml:space="preserve" approved="yes">
+        <source>Here two tables from different pages are selected. This is done by first selecting the one, saving it as a preset, then select the other and merge with the saved preset.
+Here you see how to use the Web&gt;List module to export all records from a table on a page.</source>
+      <target state="translated">Hier werden zwei Tabellen von verschiedenen Seiten ausgewählt. Dies geschieht, indem man zunächst die erste Tabelle auswählt und als Voreinstellung speichert, dann die nächste auswählt und sie mit den gespeicherten Voreinstellungen zusammenführt. Hier sehen Sie, wie man das Modul Web &gt; Liste benutzt, um alle Datensätze einer Tabelle aus einer Seite zu exportieren.</target></trans-unit>
+      <trans-unit id="tableListMaxNumber.alttitle" xml:space="preserve" approved="yes">
+        <source>Max number to export</source>
+      <target state="translated">Maximale Export-Anzahl</target></trans-unit>
+      <trans-unit id="tableListMaxNumber.description" xml:space="preserve" approved="yes">
+        <source>Run-away brake that will make sure a large amount of records does not halt the interface. Default is 100, but you can change it to anything you like of course.</source>
+      <target state="translated">"Notbremse", die sicherstellt, dass das Interface nicht von einer großen Anzahl Datensätze blockiert wird. Standard ist 100, aber Sie können den Wert natürlich beliebig ändern.</target></trans-unit>
+      <trans-unit id="inclRelations.alttitle" xml:space="preserve" approved="yes">
+        <source>Include relations</source>
+      <target state="translated">Verknüpfungen einbeziehen</target></trans-unit>
+      <trans-unit id="inclRelations.description" xml:space="preserve" approved="yes">
+        <source>Configure the tables from which you want to include records that are found as relations in the main export configuration.</source>
+      <target state="translated">Konfigurieren Sie die Tabellen, aus denen Sie Datensätze, die als Beziehungen in der Haupt-Export-Konfiguration gefunden werden, einbeziehen wollen.</target></trans-unit>
+      <trans-unit id="inclRelations.details" xml:space="preserve" approved="yes">
+        <source>Background: When you export a record in TYPO3 it might contain relations to other records in the system. You have to tell the export interface what to do with these relations. Basically there are three scenarios:
+- If relations are found between records that are all in the export configuration, there is no problem: The relations are automatically mapped to the new id's of those records when imported.
+- If the records related to are not included the relation will be lost (indicated with an error message in the preview) unless you a) either select that table in this selector box in which case all relations to that table will be included or b) if you set the table as a static table (in which case the relation is untouched and imported as-is - but which will of course break if no record with that UID is found in the import system).
+
+&lt;b&gt;Soft References:&lt;/b&gt; Soft references are when a record contains pointers to external files or records but in fields where there are no formal relation configured. Examples of this is when a content element contains a "&amp;lt;link 123&amp;gt;" tag that represents a link to the page 123. This is not picked up formally as a reference, but is found anyhow as a "soft reference". The same goes for &amp;lt;img&amp;gt; tags with images from eg. "fileadmin/".
+By default soft references pointing to records or files will act as normal references; either including the referenced item or showing an error. However you can also choose to exclude the handling of individual soft references or maybe set the value as "editable" upon import. This is done with a selector box in the export preview.</source>
+      <target state="translated">Hintergrund: Wenn Sie einen Datensatz in TYPO3 exportieren, kann er Beziehungen zu anderen Datensätzen des Systems enthalten. Sie müssen dem Export-Interface mitteilen, was mit diesen Beziehungen geschehen soll. Grundsätzlich gibt es drei Szenarios: - Wenn Beziehungen zwischen Datensätzen gefunden werden, die alle in der Export-Konfiguration enthalten sind, gibt es kein Problem: Die Beziehungen werden beim Importieren automatisch auf die neuen IDs dieser Datensätze umgestellt. - Wenn die Datensätze, auf die Beziehungen verweisen, nicht enthalten sind, geht die Beziehung verloren (angezeigt durch eine Fehlermeldung in der Vorschau), außer a) Sie wählen eine Tabelle im Auswahlfeld. In diesem Fall werden alle Beziehungen zu dieser Tabelle einbezogen oder b) Sie bestimmen die Tabelle als "Statische Tabelle" (in diesem Fall wird die Beziehung unverändert importiert - was natürlich zu Fehlern führt, wenn kein Datensatz mit der entsprechenden UID im System gefunden wird) &lt;b&gt;Soft-References ("Weiche Beziehungen"):&lt;/b&gt; Man spricht von "Soft-References", wenn ein Datensatz Zeiger auf externe Dateien oder Datensätze enthält, aber in Feldern, für die keine formale Beziehung konfiguriert ist, z.B. wenn ein Content-Element ein "&amp;lt;link 123&amp;gt;" Tag enthält, das für einen Link zur Seite 123 steht. Das wird formal nicht als Beziehung aufgenommen, wird aber als "Soft-Reference" gefunden. Das gleiche gilt für &amp;lt;img&amp;gt;-Tags mit Bildern aus z.B. "fileadmin/". Standardmäßig verhalten sich Soft-References, die auf Datensätze oder Dateien verweisen, wie normale Beziehungen; entweder die verknüpften Objekte sind enthalten oder es wird eine Fehlermeldung angezeigt. Allerdings kann man auch die Behandlung von Soft-References auch abschalten oder die Werte als "veränderbar" beim Import definieren. Das geschieht mit einem Auswahlfeld in der Export-Vorschau.</target></trans-unit>
+      <trans-unit id="_inclRelations.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/references.png,
+EXT:impexp/cshimages/references1.png,
+EXT:impexp/cshimages/references2.png</source>
+        <target state="translated">EXT:impexp/cshimages/references.png, EXT:impexp/cshimages/references1.png, EXT:impexp/cshimages/references2.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="inclRelations.image_descr" xml:space="preserve" approved="yes">
+        <source>This example shows tree examples of references; a) an image attached to a content element, b) a relation to a frontend usergroup UID, and c) a soft reference found in the bodytext field of a record, here it is the link-tag pointing to the page with UID 1.
+Notice in the previous image how the relation to the frontend user group was lost. This has been corrected in this screenshot where the fe_group table has been selected in the list of table for which to include relations. The result is that the frontend usergroup is included as a record outside the exported pagetree. If you wanted to keep the relation but not include the usergroup you have to set "fe_groups" as a static table instead. See below.
+This example shows a TypoScript Template Record where multiple soft references has been found. The first one is an email address. Here it is configured to be editable. This means that upon import the user will have a chance to edit the value before the import is actually done. This is very useful when exported files are used as templates. Another example includes a PHP script which we don't want to include in the export and therefore we have selected the exclude option for the soft reference.</source>
+      <target state="translated">Dieses Beispiel zeigt drei Beispiele für Beziehungen: a) ein Bild, das mit einem Inhaltselement verknüpft ist, b) eine Beziehung zu einer Frontend-Benutzergruppe UID und c) eine Soft-Reference, die im Bodytext-Feld eines Datensatzes gefunden wurde, in diesem Fall ein Link-Tag, das auf die Seite mit der UID 1 verweist. Beachten Sie im vorangegangenen Bild, wie die Beziehung zu der Frontend-Benutzergruppe verloren ging. Das wurde in diesem Bildschirmfoto korrigiert, indem in der Liste der einzubindenen Tabellen die Tabelle fe_group ausgewählt wurde. Das Ergebnis ist, dass die Front-End-Benutzergruppe als ein Datensatz außerhalb des exportierten Seitenbaums einbezogen wurde. Falls Sie die Beziehung behalten, aber nicht die Benutzergruppe einschließen wollen, müssen Sie "fe_groups" stattdessen als statische Tabelle definieren (siehe unten). Dieses Beispiel zeigt einen TypoScript-Vorlagendatensatz, bei dem mehrere Soft-References gefunden wurden. Die erste ist eine E-Mail-Adresse. Hier ist sie als editierbar ausgewählt. Das bedeutet, dass der Benutzer beim Importieren die Möglichkeit hat, diesen Wert zu ändern, bevor der eigentliche Import ausgeführt wird. Das ist sehr sinnvoll, wenn exportierte Dateien als Vorlagen benutzt werden. Ein anderes Beispiel bindet ein PHP-Script ein, das wir nicht in den Export einbeziehen möchten - darum haben wir die Option Ausschließen für diese Soft-Reference ausgewählt.</target></trans-unit>
+      <trans-unit id="staticRelations.alttitle" xml:space="preserve" approved="yes">
+        <source>Set static tables</source>
+      <target state="translated">Statische Tabellen festlegen</target></trans-unit>
+      <trans-unit id="staticRelations.description" xml:space="preserve" approved="yes">
+        <source>Select which tables in addition to the static TYPO3 tables to keep relations untouched for. Takes precedence over "Include relations" configured tables.</source>
+      <target state="translated">Legen Sie fest, für welche Tabellen (zusätzlich zu den statischen TYPO3-Tabellen) die Beziehungen nicht verändert werden dürfen. Diese Einstellungen haben Vorrang vor den unter "Verknüpfungen einbeziehen" getroffenen Einstellungen.</target></trans-unit>
+      <trans-unit id="staticRelations.details" xml:space="preserve" approved="yes">
+        <source>By default all relations to static tables in TYPO3 are kept untouched. Of course those static tables should be present in the import system in order for this to work correctly. However there might be circumstances where you move information between two systems where theoretically non-static tables should just keep relations untouched. Examples could be "sys_languages" or TemplaVoila data structures / template objects where two systems might contain the same set of records in those tables while you are importing pages and content elements freely.</source>
+      <target state="translated">Standardmäßig werden unter TYPO3 alle Verknüpfungen zu statischen Tabellen nicht berührt. Damit dies funktioniert, sollten diese statischen Tabellen natürlich im Import-System vorhanden sein. Es mag jedoch beim Informationstransfer zwischen zwei Systemen Umstände geben, unter denen Verknüpfungen bei nicht-statische Tabellen unberührt bleiben sollten. Beispiele dafür könnten "sys_languages" oder TemplaVoilà-Datenstrukturen und -Vorlagenobjekte sein, wobei beide Systeme die gleichen Datensätze in Tabellen enthalten, man Seiten und Inhaltselemente jedoch nach freier Auswahl importieren möchte.</target></trans-unit>
+      <trans-unit id="_staticRelations.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/static.png,
+EXT:impexp/cshimages/static1.png</source>
+        <target state="translated">EXT:impexp/cshimages/static.png, EXT:impexp/cshimages/static1.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="staticRelations.image_descr" xml:space="preserve" approved="yes">
+        <source>In this example you see how a number of records are pointing to a System Language record which will become lost relations when imported because the record is not included in the export. However; in the target system the System Languages are exactly the same and therefore you just want a static mapping of the relations.
+The static mapping is obtained by selecting the "sys_language" table as a static template meaning that the relations are kept at their current values assuming that they will be exactly the same in the target system when imported.</source>
+      <target state="translated">In diesem Beispiel kann man sehen, dass eine Reihe von Datensätzen auf einen Systemsprachendatensatz zeigt. Diese Verknüpfung wird beim Importieren verloren gehen, da der Datensatz nicht Teil des Exports ist. Im Zielsystem sind jedoch exakt die gleichen Tabellen vorhanden, und daher ist eine statische Abbildung der Verknüpfungen gewünscht. Diese statische Abbildung erreicht man durch Auswahl der Tabelle "sys_language" als statische Vorlage, d.h. das die Verknüpfungen die derzeitigen Werte behalten, da angenommen werden kann, dass sie auf dem Zielsystem beim Importieren genau übereinstimmen.</target></trans-unit>
+      <trans-unit id="excludedElements.alttitle" xml:space="preserve" approved="yes">
+        <source>Excluded elements</source>
+      <target state="translated">Ausgeschlossene Elemente</target></trans-unit>
+      <trans-unit id="excludedElements.description" xml:space="preserve" approved="yes">
+        <source>By the "Exclude" checkbox you can exclude specific records from the preview display of the export. Which records has been picked for specific exclusion is listed here. You can also clear the exclusion configuration.</source>
+      <target state="translated">Über das Markierungsfeld "Ausschließen" lassen sich bestimmte Datensätze in der Vorschau des Exports ausschließen. Hier wird angezeigt, welche Datensätze für einen bestimmten Ausschluss ausgewählt wurden. Darüber hinaus kann die Ausschlusskonfiguration zurückgesetzt werden.</target></trans-unit>
+      <trans-unit id="_excludedElements.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/excludebox.png</source>
+        <target state="translated">EXT:impexp/cshimages/excludebox.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="htmlCssResources.alttitle" xml:space="preserve" approved="yes">
+        <source>Exclude resources from HTML and CSS files</source>
+      <target state="translated">Ressourcen aus HTML- und CSS-Dateien ausschließen</target></trans-unit>
+      <trans-unit id="htmlCssResources.description" xml:space="preserve" approved="yes">
+        <source>When an HTML or CSS file is found as a soft reference the files are parsed for references to external media (such as images) and if any are found they are also exported. If you don't want this behaviour, click this option.</source>
+      <target state="translated">Werden HTML- oder CSS-Dateien als Soft-References gefunden, so werden die Dateien auf Verweise auf externe Medien (wie etwa Bilder) untersucht und diese ggf. ebenfalls exportiert. Aktivieren Sie diese Option, wenn dieses Verhalten nicht gewünscht ist.</target></trans-unit>
+      <trans-unit id="htmlCssResources.details" xml:space="preserve" approved="yes">
+        <source>Notice: Resources found inside an HTML or CSS file are not analysed further. For instance it means that any CSS files referred to from within an HTML will not be traversed - but CSS files referred to inside the Setup or Constant field of a TypoScript template record will be!</source>
+      <target state="translated">Hinweis: In HTML- und CSS-Dateien gefundene Ressourcen werden nicht weiter analysiert. D.h. beispielsweise, dass CSS-Dateien, auf die in HTML verwiesen wird, nicht untersucht werden - CSS-Dateien, auf die innehalb der Felder Konstanten und Konfiguration einer TypoScript-Vorlage verwiesen wird, jedoch sehr wohl.</target></trans-unit>
+      <trans-unit id="_htmlCssResources.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/htmlcss.png</source>
+        <target state="translated">EXT:impexp/cshimages/htmlcss.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="htmlCssResources.image_descr" xml:space="preserve" approved="yes">
+        <source>In this example you can see that a soft reference has been found pointing to an HTML file inside fileadmin/ Since it was an HTML file it was parsed and further a number of files were found referenced inside it and now included with the export. This feature is specifically created to support export of template configurations where external HTML files play a role.</source>
+      <target state="translated">Dieses Beispiel zeigt, wie eine Soft-Reference gefunden wurde, die auf eine HTML-Datei im Verzeichnis fileadmin/ verweist. Da es sich um eine HTML-Datei handelt, wurde sie verarbeitet, wodurch eine Reihe weiterer Dateien gefunden wurden, auf diese verwiesen wurde und die nun im Export mit eingeschlossen werden. Diese Funktion wurde extra zur Unterstützung von Szenarien mit Vorlagenkonfigurationen entwickelt, bei denen externe HTML-Dateien eine Rolle spielen.</target></trans-unit>
+      <trans-unit id="extensionDependencies.alttitle" xml:space="preserve" approved="yes">
+        <source>Extension Dependencies</source>
+      <target state="translated">Abhängigkeiten von Erweiterungen</target></trans-unit>
+      <trans-unit id="extensionDependencies.description" xml:space="preserve" approved="yes">
+        <source>Select which extensions should be installed in the import system in order for your exported content to work correctly. Examples could be "templavoila" for templating, "css_styled_content" for the template, "tt_news" for a news archive etc.</source>
+      <target state="translated">Wählen Sie, welche Erweiterungen im Zielsystem installiert sein müssen, damit der exportierte Inhalt ordnungsgemäß funktioniert. Beispiele wären etwa "templavoila" für die Vorlagenverarbeitung, "css_styled_content" für die Vorlagen, "tt_news" für ein News-Archiv usw.</target></trans-unit>
+      <trans-unit id="extensionDependencies.details" xml:space="preserve" approved="yes">
+        <source>During import warnings will appear for all selected extensions from this list which were not installed.</source>
+      <target state="translated">Beim Import wird für jede Erweiterung dieser Liste, die nicht installiert ist, eine Warnung angezeigt.</target></trans-unit>
+      <trans-unit id="_extensionDependencies.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/extdep.png</source>
+        <target state="translated">EXT:impexp/cshimages/extdep.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="presets.alttitle" xml:space="preserve" approved="yes">
+        <source>Configuration presets</source>
+      <target state="translated">Voreinstellungen</target></trans-unit>
+      <trans-unit id="presets.description" xml:space="preserve" approved="yes">
+        <source>Enables you to save an export configuration for later re-use. Useful if you need to export the same configuration with regular intervals.</source>
+      <target state="translated">Ermöglicht das Speichern von Export-Einstellungen zur späteren Wiederverwendung. Nützlich, wenn die gleiche Konfiguration regelmäßig exportiert werden muss.</target></trans-unit>
+      <trans-unit id="presets.details" xml:space="preserve" approved="yes">
+        <source>In the "Select preset" box you can select any previously saved preset to load. If you are exporting a page the presets listed will be those found for the start page ID. For records, any preset can be loaded.
+To load a preset, select it in the selector and press "Load". If you press "Merge" instead the settings from the preset will be merged with the current configuration. This is meaningful in cases where you select multiple individual tables or records.
+To save a preset, simply enter a title in the title box and press "Save". This will create a new preset. If you press save while having selected an existing preset you will overwrite it.
+To delete old presets, simply select it and press "Delete".
+
+The checkbox "Public" can be set if you want to share your preset with other users of the system. Otherwise they are personal to you.
+
+In the Taskcenter you can see a list of your presets and jump directly to them.</source>
+      <target state="translated">Unter "Voreinstellungen" können Sie eine Voreinstellung laden, die Sie zuvor gespeichert haben. Wenn Sie eine Seite exportieren, sind die angezeigten Voreinstellungen die, die für die ID der Startseite gelten. Für Datensätze können beliebige Voreinstellungen geladen werden. Um eine Voreinstellung zu laden, wählen Sie sie aus und klicken Sie auf "Laden". Wenn Sie stattdessen "Zusammenführen" wählen, werden die Einstellungen aus der Voreinstellung mit der aktuellen Konfiguration zusammengeführt. Das ist sinnvoll, wenn Sie mehrere einzelne Tabellen oder Datensätze auswählen. Um eine Voreinstellung zu speichern, geben Sie einfach einen Titel unter "Name der neuen Voreinstellung" ein und klicken Sie auf "Speichern". Es wird dann eine neue Voreinstellung erzeugt. Wenn Sie Speichern klicken, während Sie eine bestehende Voreinstellung ausgewählt haben, wird diese überschrieben. Um eine alte Voreinstellung zu löschen, wählen Sie sie einfach aus und klicken Sie auf "Löschen". Das Markierungsfeld "Öffentlich" kann gesetzt werden, wenn Sie Ihre Voreinstellung anderen Nutzern des Systems zugänglich machen möchten. Ansonsten ist sie nur von Ihnen persönlich nutzbar.</target></trans-unit>
+      <trans-unit id="_presets.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/impexp_misc1.png,
+EXT:impexp/cshimages/impexp_misc2.png</source>
+        <target state="translated">EXT:impexp/cshimages/impexp_misc1.png, EXT:impexp/cshimages/impexp_misc2.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="presets.image_descr" xml:space="preserve" approved="yes">
+        <source>The preset selector in the export interface.
+Presets from the task center.</source>
+      <target state="translated">Die Voreinstellungsauswahl im Export-Interface. Voreinstellungen aus dem Aufgabenzentrum.</target></trans-unit>
+      <trans-unit id="metadata.alttitle" xml:space="preserve" approved="yes">
+        <source>Meta data setting</source>
+      <target state="translated">Metadaten</target></trans-unit>
+      <trans-unit id="metadata.description" xml:space="preserve" approved="yes">
+        <source>Set meta data for the export. This is highly encouraged if your exported content goes into eg. a template collection of sorts.</source>
+      <target state="translated">Festlegen der Metadaten für das Exportieren. Die Nutzung wird dringend empfohlen, falls der Inhalt z.B. Teil einer Vorlagensammlung sein soll.</target></trans-unit>
+      <trans-unit id="metadata.details" xml:space="preserve" approved="yes">
+        <source>The meta data will help users of your exported files to know what they can expect to be inside and what things they should be aware of and take into account during import.
+The "Title" and "Description" should contain the basic information about the export.
+The "Notes" field can be used for additional details, especially remarks about intensions or requirements that apply.
+The thumbnail field is used for thumbnails if you need that for your export. This is very useful when export files are used as page templates where the template selector can take advantage of the thumbnail. The format should be a web-format like jpg, gif or png and the dimensions should fit exactly the final display dimensions intended; so don't upload very large images!</source>
+      <target state="translated">Die Metadaten helfen den Nutzern Ihrer Exportdatei zu wissen, was sich in ihr befindet und worauf sie während des Imports achten müssen. Die Felder "Titel" und "Beschreibung" sollten Basisinformationen zur Datei enthalten. Das Feld "Anmerkungen" kann für zusätzliche Details genutzt werden, vor allem für Hinweise zum Zweck der Datei und zu den Voraussetzungen bei der Installation. Das Feld "Vorschaubild" kann für Vorschaubilder genutzt werden, falls Sie diese bei Ihrem Export benötigen. Es ist sehr nützlich, wenn Exportdateien als Seiten-Template eingesetzt werden, wobei der Template-Selektor das Vorschaubild nutzen kann. Als Dateiformat sollten Sie ein Webformat wie jpg, gif oder png nutzen. Die Ausmaße sollten exakt den endgültigen Ausmaßen entsprechen; laden Sie also keine sehr großen Bilder hoch.</target></trans-unit>
+      <trans-unit id="_metadata.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/metadata.png</source>
+        <target state="translated">EXT:impexp/cshimages/metadata.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="fileFormat.alttitle" xml:space="preserve" approved="yes">
+        <source>File format options</source>
+      <target state="translated">Dateiformat</target></trans-unit>
+      <trans-unit id="fileFormat.description" xml:space="preserve" approved="yes">
+        <source>You can export your records to a TYPO3 specific binary format (serialized PHP array) called "T3D". Alternatively you can select a plain-text XML export which potentially can be imported by other applications written to support this format. However the schema of the XML is TYPO3 specific.</source>
+      <target state="translated">Sie können Ihre Datensätze in eine .T3D-Datei exportieren. Diese Datei enthält Ihre Daten in einem TYPO3-spezifischen, binären Format (in Form eines fortgesetzten PHP-Arrays). Alternativ können Sie XML als Format auswählen. Dieses kann theoretisch von anderen Programmen importiert werden, wenn sie dazu programmiert wurden. Allerdings ist das verwendete Schema TYPO3-spezifisch.</target></trans-unit>
+      <trans-unit id="fileFormat.details" xml:space="preserve" approved="yes">
+        <source>Generally you should use the T3D format, preferably compressed. The T3D compressed format normally yields a size about 10 times less than the XML format which is bloaded due to the plain-text nature of the format.
+
+With "Max size of files to include" you can set a limit to the size of attached files to records. This is useful if you have large PDF files or videoclips attached to records which you do not desire (or do desire!) to include; then with this limit you can adjust whether they are allowed in or not.
+
+Entering a file name to save to makes it possible to write your export directly to a file (pressing "Save to filename") instead of downloading it (pressing "Download export"). The correct file extensions depending on file format is automatically applied. Files are saved in a proper filemount in "fileadmin/". This is shown to you upon saving. Existing files are overwritten.</source>
+      <target state="translated">Grundsätzlich sollten Sie das T3D-Format verwenden, vorzugsweise komprimiert. Komprimiert bringt es normalerweise eine Größe, die etwa 10-mal kleiner ist als die des XML-Formats, denn dieses enthält Klartext. Mit "Größenbeschränkung für Dateien" können Sie eine maximale Größe für Dateien angeben, die den Datensätzen angefügt werden sollen. Das ist praktisch, wenn Sie große PDF-Dateien oder Videos haben, die Sie nicht (oder gerade!) hinzufügen wollen. Mit diesem Wert können Sie dann festlegen, ob sie mitexportiert werden oder nicht. Die Angabe eines Dateinamens macht es möglich, Ihren Export direkt als Datei zu speichern (klicken Sie auf "Speichern unter") anstatt ihn herunterzuladen (klicken Sie dazu auf "Exportdatei herunterladen"). Die richtige Dateiendung wird basierend auf Ihrer Wahl automatisch hinzugefügt. Die Dateien werden in eine Dateifreigabe im Ordner "fileadmin/" gespeichert. Dies wird Ihnen nach dem Speichern gezeigt. Bereits bestehende Dateien werden überschrieben.</target></trans-unit>
+      <trans-unit id="_fileFormat.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/fileformat.png</source>
+        <target state="translated">EXT:impexp/cshimages/fileformat.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="import.alttitle" xml:space="preserve" approved="yes">
+        <source>Importing TYPO3 records</source>
+      <target state="translated">TYPO3-Datensätze importieren</target></trans-unit>
+      <trans-unit id="import.description" xml:space="preserve" approved="yes">
+        <source>To import TYPO3 T3D/XML files into the page tree you click any page in the page tree (including the root page!), select "More options" (requires the extensions "extra_page_cm_options" to be installed) and then "Import from .t3d". This will bring up the import interface where you can select a file to import or upload a new one.</source>
+      <target state="translated">Um XML- oder T3D-Dateien in den Seitenbaum zu importieren, können Sie eine beliebige Seite im Seitenbaum anklicken (die Wurzelseite inbegriffen). Wählen Sie dann "Weitere Einstellungen..." (dazu muss die Erweiterung "extra_page_cm_options" installiert sein) und dort "Importieren aus .t3d". Darauf öffnet sich das Import-Formular, in dem sie eine Datei zum Importieren auswählen oder eine neue Datei hochladen können.</target></trans-unit>
+      <trans-unit id="import.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Tip: Import into a Sys Folder&lt;/b&gt;
+To make sure that no records are lost during the import, you can make yourself safe by importing into a SysFolder you create first. After the import you can move all records to the final destinations. An example of such a scenario is if you configured the export to include relations; In that case a number of records may follow the export outside the page tree structure you are exporting. To make sure that all of these external records are written to the database, importing into a SysFolder is a good idea.
+
+&lt;b&gt;Error messages:&lt;/b&gt; Remember to consult the Message-tab before/after importing to see if there are any error messages there!</source>
+      <target state="translated">&lt;b&gt;Tipp: Import in einen SysOrdner&lt;/b&gt; Um sicherzustellen, dass während des Imports keine Datensätze verloren gehen, können Sie den Import in einen SysOrdner, den Sie erst erstellen, durchführen. Nach dem Import können Sie dann alle Datensätze an Ihre endgültigen Positionen bewegen. Ein Beispiel für ein derartiges Szenario ist, wenn Sie beim Export angegeben haben, dass Sie Relationen miteinschließen wollen. In diesem Fall kann eine Anzahl von Datensätzen dem Export außerhalb des Seitenbaums, den Sie exportierten haben, folgen. Um sicherzustellen, dass alle diese externen Datensätze in die Datenbank geschrieben werden, ist ein Import in einen SysOrdner eine gute Idee. &lt;b&gt;Fehlermeldungen:&lt;/b&gt; Denken Sie daran, vor/nach dem Importieren im Tab "Meldungen" zu prüfen, ob dort Fehlermeldungen angezeigt werden!</target></trans-unit>
+      <trans-unit id="_import.seeAlso" xml:space="preserve" approved="yes">
+        <source>xMOD_tx_impexp:export</source>
+        <target state="translated">xMOD_tx_impexp:export</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="_import.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/import.png</source>
+        <target state="translated">EXT:impexp/cshimages/import.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="importFile.alttitle" xml:space="preserve" approved="yes">
+        <source>Select file to import</source>
+      <target state="translated">Importdatei auswählen</target></trans-unit>
+      <trans-unit id="importFile.description" xml:space="preserve" approved="yes">
+        <source>The files displayed are those with an extension T3D or XML from fileadmin/, fileadmin/export/ and your "TEMP" folder (if any).</source>
+      <target state="translated">Es werden die Dateien aus den Verzeichnissen fileadmin/, fileadmin/export/ und dem evtl. vorhandenen Ordner "TEMP" angezeigt, welche die Endung T3D oder XML besitzen.</target></trans-unit>
+      <trans-unit id="_importFile.seeAlso" xml:space="preserve" approved="yes">
+        <source>xMOD_tx_impexp:fileFormat</source>
+        <target state="translated">xMOD_tx_impexp:fileFormat</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="_importFile.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/import_selectfile.png</source>
+        <target state="translated">EXT:impexp/cshimages/import_selectfile.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="update.alttitle" xml:space="preserve" approved="yes">
+        <source>Update instead of Insert</source>
+      <target state="translated">Datensätze aktualisieren</target></trans-unit>
+      <trans-unit id="update.description" xml:space="preserve" approved="yes">
+        <source>By default the import operation inserts new records in the system. Using this option will update existing records.</source>
+      <target state="translated">Standardmäßig fügt der Importvorgang dem System neue Datensätze hinzu. Ist diese Option aktiviert, werden vorhandene Datensätze aktualisiert.</target></trans-unit>
+      <trans-unit id="update.details" xml:space="preserve" approved="yes">
+        <source>There are certain requirements you have to meet if you want the "Update" process to work. The main thing is that the records updated are those with the SAME uid as the uid in the export file. Thus an update operation only makes real sense if the export and import systems are somehow related and the same UIDs can be expected in both ends. Otherwise it will be a mess!
+
+When you update page structures the import operation will automatically try to rearrange records so they also appear in the same hierarchy and order as in the export file. This can be disabled by checking the option "Ignore PID differences globally". In any case you can set individual records to Ignore/Respect the PID with a selectorbox in the preview.
+
+In the preview display you can also select if individual records should be flatly ignored during import or if you want them created as new records instead of being updates.
+As a help for managing updates the preview display will inform you about the path where the existing element with that UID is found. Use this to verify that you get what you expect!
+
+&lt;b&gt;Forcing the UID:&lt;/b&gt;
+If you intend to update a system and some elements from the import are not mappable to a UID already (ei. does not exist) you can choose in the preview display to force the UID during creation. This is an unorthodox thing to do since UIDs are normally created automatically by the database. The option makes most sense if you are trying to "synchronize" a copy of another system. The option may mess up certain database internals and the feature is therefore only available for admins.</source>
+      <target state="translated">Sie müssen bestimmte Voraussetzungen beachten, damit das Aktualisieren funktioniert. Am Wichtigsten ist dabei, dass die aktualisierten Datensätze, &lt;i&gt;DIESELBE&lt;/i&gt; UID haben, wie die in der Exportdatei. Daher ist es nur wirklich sinnvoll zu aktualisieren, wenn das Export- und das Importsystem miteinander zusammenhängen und daher die gleichen UIDs auf beiden Seiten zu erwarten sind. Sonst entsteht großes Durcheinander! Wenn Sie Seitenstrukturen aktualisieren, wird TYPO3 beim Import automatisch versuchen, die Datensätze neu anzuordnen, so dass sie in der gleichen Hierarchie und Reihenfolge erscheinen wie in der Exportdatei. Dieses Verhalten kann deaktiviert werden, indem die Option "PID-Unterschiede global ignorieren" gewählt wird. In jedem Fall können Sie in der Vorschau für einzelne Datensätze individuell wählen, ob die PIDs beibehalten oder ignoriert werden sollen. In der Vorschauansicht können Sie auch wählen, ob einzelne Datensätze während des Imports rundweg ignoriert werden sollen oder ob sie als neue Datensätze erstellt werden sollen anstatt alte Datensätze zu aktualisieren. Um eine Aktualisierung durchzuführen, informiert Sie die Vorschauansicht über den Pfad, in dem das bestehende Element mit dieser UID gefunden wurde. Nutzen Sie diese Information um sicherzustellen, dass Sie das bekommen, was Sie erwarten! &lt;b&gt;Den UID-Wert erzwingen:&lt;/b&gt; Wenn Sie ein System aktualisieren möchten und einige Elemente des Imports nicht einer UID zuzuordnen sind (etwa weil sie nicht existiert), können Sie in der Vorschauansicht wählen, die UID während der Erstellung zu erzwingen. Das ist unorthodox, denn die UIDs werden normalerweise automatisch von der Datenbank erzeugt. Die Option ist am Nützlichsten, wenn Sie versuchen, eine Kopie eines anderen Systems zu "synchronisieren". Sie kann interne Einstellungen der Datenbank in Unordnung bringen und ist daher nur für Administratoren verfügbar.</target></trans-unit>
+      <trans-unit id="_update.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/impexp_misc4.png,
+EXT:impexp/cshimages/update.png</source>
+        <target state="translated">EXT:impexp/cshimages/impexp_misc4.png, EXT:impexp/cshimages/update.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="update.image_descr" xml:space="preserve" approved="yes">
+        <source>In Update mode you can select various settings for each record. You will also be able to see a diff-view where the differences between the existing record and the one from the import is shown.</source>
+      <target state="translated">Im Modus Aktualisieren lassen sich für jeden Datensatz verschiedene Einstellungen vornehmen. Ist ist ebenso möglich, eine diff-Ansicht anzeigen zu lassen, welche die Unterschiede der vorhandenen von den zu importierenden Datensätzen darstellt.</target></trans-unit>
+      <trans-unit id="options.alttitle" xml:space="preserve" approved="yes">
+        <source>Import options</source>
+      <target state="translated">Optionen</target></trans-unit>
+      <trans-unit id="options.description" xml:space="preserve" approved="yes">
+        <source>Various options for import.</source>
+      <target state="translated">Legt verschiedene Optionen für den Importvorgang fest.</target></trans-unit>
+      <trans-unit id="options.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Do not show differences in records&lt;/b&gt;
+When a structure has been imported you will see a difference view of all records which tells you whether the written content matched the import data or if not, what changed. In many cases content &lt;i&gt;should&lt;/i&gt; change (eg. relations and file references) so it is not an error if you see red and green values. Basically the difference view is a feature you can use for visual validation of the import success. It brings piece-of-mind to those who is enlightened to understand what it tells... :-)
+Green strings represent the actual written data while red represents the original value from the import file and black represents data that is the same.
+
+&lt;b&gt;Allow to write banned file extensions (eg. PHP scripts), if any&lt;/b&gt;
+Also an option for admins-only; Allows PHP-files (for example from soft references in TypoScript templates) to be written to the system. This is normally not allowed behavior for security reasons.</source>
+      <target state="translated">&lt;b&gt;Unterschiede zwischen Datensätzen nicht zeigen&lt;/b&gt; Wenn eine Struktur importiert wurde, sehen Sie eine Ansicht aller Datensätze, der Sie eventuelle Unterschiede entnehmen können. Oft &lt;i&gt;sollte&lt;/i&gt; sich der Inhalt ändern (z.B. bei Soft-References); es ist folglich kein Fehler, wenn Sie rote und grüne Werte sehen. Im Prinzip ist diese Unterschieds-Ansicht ein Feature, das Sie nutzen können, um den Erfolg des Imports visuell zu überprüfen. Denjenigen, die sie verstehen, möge sie Seelenfrieden bringen... :-) Grüne Zeichenfolgen stehen für die tatsächlich geschriebenen Daten, während rote für die Originalwerte der Importdatei stehen und schwarze unveränderte Daten darstellen. &lt;b&gt;Verbotene Dateierweiterungen dennoch erlauben (z.B. PHP-Skripte)&lt;/b&gt; Diese Option ist nur von Administratoren nutzbar. Sie erlaubt den Import von PHP-Dateien (zum Beispiel aus Soft-References aus TypoScript-Templates). Normalerweise ist dies sonst aus Sicherheitsgründen nicht erlaubt.</target></trans-unit>
+      <trans-unit id="_options.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/impexp_misc3.png,
+EXT:impexp/cshimages/phpext.png</source>
+        <target state="translated">EXT:impexp/cshimages/impexp_misc3.png, EXT:impexp/cshimages/phpext.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="options.image_descr" xml:space="preserve" approved="yes">
+        <source>Options for import.
+Here you are told that this PHP file cannot be allowed - because you didn't select the option "Allow to write banned file extensions (eg. PHP scripts), if any"</source>
+      <target state="translated">Optionen für das Importieren Hier wird mitgeteilt, dass diese PHP-Datei nicht erlaubt werden kann - weil die Option "Verbotene Dateierweiterungen dennoch erlauben (z.B. PHP-Skripte)" nicht ausgewählt wurde.</target></trans-unit>
+      <trans-unit id="action.alttitle" xml:space="preserve" approved="yes">
+        <source>Import Action</source>
+      <target state="translated">Aktion</target></trans-unit>
+      <trans-unit id="action.description" xml:space="preserve" approved="yes">
+        <source>Press "Preview" to see the content of the import file or update the preview display according to changed configurations.
+Press "Import"/"Update" if you want to perform the actual import.
+
+Before importing make sure you change any editable soft references that are shown in the preview data.</source>
+      <target state="translated">Klicken Sie auf "Vorschau", um den Inhalt der Importdatei zu sehen oder die Vorschau-Ansicht entsprechend der obigen Konfiguration zu aktualisieren. Klicken Sie "Vorschau" - "Import", wenn Sie den eigentlichen Import durchführen wollen. Stellen Sie sicher, dass Sie vor dem Import alle editierbaren Soft-References, die bei den Vorschaudaten angezeigt werden, geändert haben.</target></trans-unit>
+      <trans-unit id="_action.image" xml:space="preserve" approved="yes">
+        <source>EXT:impexp/cshimages/diffview.png</source>
+        <target state="translated">EXT:impexp/cshimages/diffview.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="action.image_descr" xml:space="preserve" approved="yes">
+        <source>Example of the result view after importing. As you can see the RTE attached images (soft references) has been written to new file names and the difference view tells you that the names changed in the bodytext content.</source>
+      <target state="translated">Beispiel der Ergebnis-Ansicht nach dem Importieren: Wie Sie sehen können, wurden die durch den RTE eingefügten Bilder (Soft-References) unter anderen Dateinamen gespeichert. Entsprechend wurden die Links im Seiteninhalt angepasst.</target></trans-unit>
+      <trans-unit id="enableLogging.alttitle" xml:space="preserve" approved="yes">
+        <source>Enable System Logging</source>
+      <target state="translated">Protokollierung aktivieren</target></trans-unit>
+      <trans-unit id="enableLogging.description" xml:space="preserve" approved="yes">
+        <source>If you set this the system backend log will be filled with entries for all the actions that the import actually performs. By default this is left out for the sake of clarity.</source>
+      <target state="translated">Falls aktiviert, werden für alle beim Import tatsächlich durchgeführten Vorgänge Einträge in das System-Backend-Protokoll geschrieben. Aus Gründen der Übersichtlichkeit ist dies standardmäßig deaktiviert.</target></trans-unit>
+      <trans-unit id="upload.alttitle" xml:space="preserve" approved="yes">
+        <source>Upload import file</source>
+      <target state="translated">Importdatei übertragen</target></trans-unit>
+      <trans-unit id="upload.description" xml:space="preserve" approved="yes">
+        <source>Select a file to import from your local computer and upload it here. If the upload completes succesfully you can immediately see its content displayed in the preview display.</source>
+      <target state="translated">Wählen Sie hier eine Datei, die importiert werden soll, auf Ihrem lokalen Rechner zum Hochladen aus. Wird die Übertragung erfolgreich abgeschlossen, so können Sie den Inhalt sofort in der Vorschauansicht sehen.</target></trans-unit>
+      <trans-unit id="upload.details" xml:space="preserve" approved="yes">
+        <source>Notice that there are usually limits set by the server (PHP) to the size of uploaded files at around 2 MB in which case nothing will happen.</source>
+      <target state="translated">Beachten Sie, dass serverseitig idR. Einschränkungen bezüglich der Größe hochzuladender Dateien bei etwa 2 MB bestehen. Bei Überschreiten dieser Grenze wird der Vorgang nicht fortgesetzt.</target></trans-unit>
+      <trans-unit id="task.title" xml:space="preserve" approved="yes">
+        <source>Preset title</source>
+      <target state="translated">Voreinstellungs-Titel</target></trans-unit>
+      <trans-unit id="task.icon" xml:space="preserve" approved="yes">
+        <source>Icon</source>
+      <target state="translated">Symbol</target></trans-unit>
+      <trans-unit id="task.public" xml:space="preserve" approved="yes">
+        <source>Public</source>
+      <target state="translated">Öffentlich</target></trans-unit>
+      <trans-unit id="task.owner" xml:space="preserve" approved="yes">
+        <source>Owner</source>
+      <target state="translated">Besitzer</target></trans-unit>
+      <trans-unit id="task.page" xml:space="preserve" approved="yes">
+        <source>Page</source>
+      <target state="translated">Seite</target></trans-unit>
+      <trans-unit id="task.path" xml:space="preserve" approved="yes">
+        <source>Path</source>
+      <target state="translated">Pfad</target></trans-unit>
+      <trans-unit id="task.meta" xml:space="preserve" approved="yes">
+        <source>Meta data</source>
+      <target state="translated">Metadaten</target></trans-unit>
+      <trans-unit id="task.own" xml:space="preserve" approved="yes">
+        <source>Own</source>
+      <target state="translated">Selbst</target></trans-unit>
+      <trans-unit id="notes" xml:space="preserve" approved="yes">
+        <source>Notes</source>
+      <target state="translated">Anmerkungen</target></trans-unit>
+      <trans-unit id="single-record" xml:space="preserve" approved="yes">
+        <source>Single record</source>
+      <target state="translated">Einzelner Datensatz</target></trans-unit>
+      <trans-unit id="no-presets" xml:space="preserve" approved="yes">
+        <source>No presets found!</source>
+      <target state="translated">Keine Voreinstellungen gefunden!</target></trans-unit>
+    </body>
+  </file>
+</xliff>

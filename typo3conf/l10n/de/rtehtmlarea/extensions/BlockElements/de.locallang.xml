@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="No block">Kein Blockformat</label>
+      <label index="Paragraph">Absatz</label>
+      <label index="Heading 1">Überschrift 1</label>
+      <label index="Heading 2">Überschrift 2</label>
+      <label index="Heading 3">Überschrift 3</label>
+      <label index="Heading 4">Überschrift 4</label>
+      <label index="Heading 5">Überschrift 5</label>
+      <label index="Heading 6">Überschrift 6</label>
+      <label index="Preformatted">Vorformatiert</label>
+      <label index="Long quotation">Zitat</label>
+      <label index="Address">Adresse</label>
+      <label index="Article"/>
+      <label index="Aside"/>
+      <label index="Container">Behälter</label>
+      <label index="Footer"/>
+      <label index="Header"/>
+      <label index="Navigation"/>
+      <label index="Section">Behälter</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

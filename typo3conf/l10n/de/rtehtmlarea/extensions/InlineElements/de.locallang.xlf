@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="No markup" xml:space="preserve" approved="yes">
+        <source>No text format</source>
+      <target state="translated">Kein Textformat</target></trans-unit>
+      <trans-unit id="Bold" xml:space="preserve" approved="yes">
+        <source>Bold</source>
+      <target state="translated">Fett</target></trans-unit>
+      <trans-unit id="BiDi override" xml:space="preserve" approved="yes">
+        <source>BiDi override</source>
+      <target state="translated">BiDi übersteuern</target></trans-unit>
+      <trans-unit id="Large text" xml:space="preserve" approved="yes">
+        <source>Large text</source>
+      <target state="translated">Großer Text</target></trans-unit>
+      <trans-unit id="Citation" xml:space="preserve" approved="yes">
+        <source>Citation</source>
+      <target state="translated">Zitatquelle</target></trans-unit>
+      <trans-unit id="Code" xml:space="preserve" approved="yes">
+        <source>Code</source>
+      <target state="translated">Code</target></trans-unit>
+      <trans-unit id="Definition" xml:space="preserve" approved="yes">
+        <source>Definition</source>
+      <target state="translated">Definition</target></trans-unit>
+      <trans-unit id="Deleted text" xml:space="preserve" approved="yes">
+        <source>Deleted text</source>
+      <target state="translated">Gelöschter Text</target></trans-unit>
+      <trans-unit id="Emphasis" xml:space="preserve" approved="yes">
+        <source>Emphasis</source>
+      <target state="translated">Betonung</target></trans-unit>
+      <trans-unit id="Inserted text" xml:space="preserve" approved="yes">
+        <source>Inserted text</source>
+      <target state="translated">Eingefügter Text</target></trans-unit>
+      <trans-unit id="Italic" xml:space="preserve" approved="yes">
+        <source>Italic</source>
+      <target state="translated">Kursiv</target></trans-unit>
+      <trans-unit id="Keyboard" xml:space="preserve" approved="yes">
+        <source>Keyboard</source>
+      <target state="translated">Tastatur</target></trans-unit>
+      <trans-unit id="Label" xml:space="preserve" approved="yes">
+        <source>Label</source>
+      <target state="translated">Label</target></trans-unit>
+      <trans-unit id="Monospaced text" xml:space="preserve" approved="yes">
+        <source>Monospaced text</source>
+      <target state="translated">Text mit dicktengleicher Schrift</target></trans-unit>
+      <trans-unit id="Quotation" xml:space="preserve" approved="yes">
+        <source>Quotation</source>
+      <target state="translated">Zitat</target></trans-unit>
+      <trans-unit id="Sample" xml:space="preserve" approved="yes">
+        <source>Sample</source>
+      <target state="translated">Beispiel</target></trans-unit>
+      <trans-unit id="Small text" xml:space="preserve" approved="yes">
+        <source>Small text</source>
+      <target state="translated">Kleiner Text</target></trans-unit>
+      <trans-unit id="Style container" xml:space="preserve" approved="yes">
+        <source>Style container</source>
+      <target state="translated">Stilbehälter</target></trans-unit>
+      <trans-unit id="Strike-through" xml:space="preserve" approved="yes">
+        <source>Strike-through</source>
+      <target state="translated">Durchgestrichen</target></trans-unit>
+      <trans-unit id="Strong emphasis" xml:space="preserve" approved="yes">
+        <source>Strong emphasis</source>
+      <target state="translated">Starke Betonung</target></trans-unit>
+      <trans-unit id="Subscript" xml:space="preserve" approved="yes">
+        <source>Subscript</source>
+      <target state="translated">Tiefgestellt</target></trans-unit>
+      <trans-unit id="Superscript" xml:space="preserve" approved="yes">
+        <source>Superscript</source>
+      <target state="translated">Hochgestellt</target></trans-unit>
+      <trans-unit id="Underline" xml:space="preserve" approved="yes">
+        <source>Underline</source>
+      <target state="translated">Unterstrichen</target></trans-unit>
+      <trans-unit id="Variable" xml:space="preserve" approved="yes">
+        <source>Variable</source>
+      <target state="translated">Variable</target></trans-unit>
+    </body>
+  </file>
+</xliff>

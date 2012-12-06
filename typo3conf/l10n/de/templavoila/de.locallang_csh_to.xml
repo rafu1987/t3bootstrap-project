@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description"/>
+      <label index="title.description">Geben Sie einen beschreibenden Titel für das Vorlagenobjekt ein.</label>
+      <label index="datastructure.description">Wählen Sie eine zu verwendende Datenstruktur für dieses Vorlagenobjekt.</label>
+      <label index="fileref.description">Wählen Sie eine HTML-Vorlage als Basis für die Zuweisung.</label>
+      <label index="templatemapping.description">Diese Daten enthalten alle Informationen für TemplaVoilà um eine Datenstruktur auf eine tatsächliche HTML-Vorlagendatei abzubilden.</label>
+      <label index="previewicon.description"/>
+      <label index="description.description">Fügen Sie eine kurze Beschreibung hinzu, welche in Assistenten Benutzern hilft Ihre Templates zu unterscheiden.</label>
+      <label index="rendertype.description">Wählen Sie ob dies ein besonderes Vorlagen-Objekt, z.B. zur Verwendung für eine Druckansicht, oder für eine normale Seite ist.</label>
+      <label index="sys_language_uid.description">Welchen Sie die Sprache für dieses Vorlagen-Objekt.</label>
+      <label index="parent.description">Wenn dieses Vorlagen-Objekt eine Untervorlage ist, wählen Sie das Vater-Objekt von dem die Standardeinstellungen übernommen werden sollen.</label>
+      <label index="localprocessing.description">Sie können die Verarbeitung der in der Datenstruktur definierten Felder überschreiben. Beispielsweise besitzt ein Bild-Feld in der Datenstruktur TypoScript-Einstellungen für maxW und maxH, welche hier angepasst werden können.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Konfigurieren</label>
+      <label index="title.description">Einen Titel für diese Datenstruktur eingeben.</label>
+      <label index="dataprot.description">Dieses XML wird gewöhnlich automatisch vom Abbildungsmodul erzeugt. Es beinhaltet die vollständigen Informationen für diese Datenstruktur.</label>
+      <label index="scope.description">Legt den Typ dieser Datenstruktur fest. Diese Kategorie entscheidet, ob diese Datenstruktur anschließend in den Seiteneigenschaften oder im Assistenten zum Hinzufügen neuer Inhaltselemente erscheint.</label>
+      <label index="previewicon.description">Dieser Datenstruktur kann ein Vorschaubild hinzugefügt werden, um den Benutzern eine Auswahl nach dem Erscheinungsbild zu ermöglichen.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

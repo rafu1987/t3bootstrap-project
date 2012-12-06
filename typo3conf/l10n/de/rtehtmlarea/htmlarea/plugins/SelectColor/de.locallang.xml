@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="CO-forecolor">Textfarbe</label>
+      <label index="CO-hilitecolor">Hintergrundfarbe</label>
+      <label index="CO-forecolor_title">Die Textfarbe wählen</label>
+      <label index="CO-hilitecolor_title">Die Hintergrundfarbe wählen</label>
+      <label index="color_title">Eine Farbe wählen</label>
+      <label index="no_color">Keine Farbe</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="Insert/Modify Acronym" xml:space="preserve" approved="yes">
+        <source>Insert/edit abbreviation</source>
+      <target state="translated">Abkürzung einfügen/bearbeiten</target></trans-unit>
+      <trans-unit id="Insert abbreviation" xml:space="preserve" approved="yes">
+        <source>Insert abbreviation</source>
+      <target state="translated">Abkürzung einfügen</target></trans-unit>
+      <trans-unit id="Edit abbreviation" xml:space="preserve" approved="yes">
+        <source>Edit abbreviation</source>
+      <target state="translated">Abkürzung bearbeiten</target></trans-unit>
+      <trans-unit id="Term_to_abridge" xml:space="preserve" approved="yes">
+        <source>Term to abbreviate</source>
+      <target state="translated">Abzukürzender Begriff</target></trans-unit>
+      <trans-unit id="Defined_acronym" xml:space="preserve" approved="yes">
+        <source>Pre-defined acronyms</source>
+      <target state="translated">Vordefinierte Akronyme</target></trans-unit>
+      <trans-unit id="Defined_abbr" xml:space="preserve" approved="yes">
+        <source>Pre-defined abbreviations</source>
+      <target state="translated">Vordefinierte Abkürzungen</target></trans-unit>
+      <trans-unit id="Term" xml:space="preserve" approved="yes">
+        <source>Term</source>
+      <target state="translated">Begriff</target></trans-unit>
+      <trans-unit id="Unabridged_term" xml:space="preserve" approved="yes">
+        <source>Term</source>
+      <target state="translated">Vollständiger Begriff</target></trans-unit>
+      <trans-unit id="Select_a_term" xml:space="preserve" approved="yes">
+        <source>Select a term</source>
+      <target state="translated">Einen Begriff auswählen</target></trans-unit>
+      <trans-unit id="Abridged_term" xml:space="preserve" approved="yes">
+        <source>Short form</source>
+      <target state="translated">Abgekürzter Begriff</target></trans-unit>
+      <trans-unit id="Acronym" xml:space="preserve" approved="yes">
+        <source>Acronym</source>
+      <target state="translated">Akronym</target></trans-unit>
+      <trans-unit id="Abbreviation" xml:space="preserve" approved="yes">
+        <source>Abbreviation</source>
+      <target state="translated">Abkürzung</target></trans-unit>
+      <trans-unit id="Select_an_acronym" xml:space="preserve" approved="yes">
+        <source>Select an acronym</source>
+      <target state="translated">Ein Akronym auswählen</target></trans-unit>
+      <trans-unit id="Select_an_abbr" xml:space="preserve" approved="yes">
+        <source>Select an abbreviation</source>
+      <target state="translated">Eine Abkürzung auswählen</target></trans-unit>
+      <trans-unit id="Use_this_term" xml:space="preserve" approved="yes">
+        <source>Use this term</source>
+      <target state="translated">Diesen Begriff verwenden</target></trans-unit>
+      <trans-unit id="Use_this_term_explain" xml:space="preserve" approved="yes">
+        <source>Associate this term to the current selection</source>
+      <target state="translated">Diesen Begriff der aktuellen Auswahl zuordnen</target></trans-unit>
+      <trans-unit id="Delete" xml:space="preserve" approved="yes">
+        <source>Delete</source>
+      <target state="translated">Löschen</target></trans-unit>
+      <trans-unit id="Select_a_language" xml:space="preserve" approved="yes">
+        <source>Select a language</source>
+      <target state="translated">Eine Sprache auswählen</target></trans-unit>
+      <trans-unit id="Language_abbr_helpText" xml:space="preserve" approved="yes">
+        <source>This is the language for which the abbreviation is defined</source>
+      <target state="translated">Die Sprache, für die die Abkürzung definiert wurde</target></trans-unit>
+      <trans-unit id="Language_acronym_helpText" xml:space="preserve" approved="yes">
+        <source>This is the language for which the acronym is defined</source>
+      <target state="translated">Die Sprache, für die das Akronym definiert wurde</target></trans-unit>
+    </body>
+  </file>
+</xliff>

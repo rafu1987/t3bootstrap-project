@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="report_title">Installierte Dienste</label>
+      <label index="report_description">Liste aller installierten Dienste mit Angaben zum Status und weiteren Informationen.</label>
+      <label index="report_explanation">Dieser Bericht zeigt eine Liste der installierten Dienste mit detaillierten Informationen zu jedem Dienst. Die Dienste sind nach Typ, Priorität und Qualität sortiert. Dienste, die nicht verfügbar sind, sind mit einem Statusfehler hervorgehoben.</label>
+      <label index="externals_explanation">Die Spalte "Extern" zeigt an, welche externen Programme ein Dienst benötigt. Wenn ein benötigtes Programm fehlt oder nicht ausführbar ist, ist der Dienst nicht verfügbar. Die Suchpfade für ausführbare Programme sind unten aufgelistet.</label>
+      <label index="service_type">Diensttyp: %s</label>
+      <label index="service">Dienst</label>
+      <label index="priority">Priorität</label>
+      <label index="quality">Qualität</label>
+      <label index="subtypes">Untertypen</label>
+      <label index="os">OS</label>
+      <label index="externals">Extern</label>
+      <label index="available">Verfügbar</label>
+      <label index="any">Alle</label>
+      <label index="search_paths">Festgelegte Suchpfade für externe Programme</label>
+      <label index="path">Pfad</label>
+      <label index="valid">Gültig</label>
+      <label index="no_search_paths">Keine Suchpfade festgelegt.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

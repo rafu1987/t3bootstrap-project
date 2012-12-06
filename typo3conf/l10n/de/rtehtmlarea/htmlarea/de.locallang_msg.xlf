@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="Path" xml:space="preserve" approved="yes">
+        <source>Path</source>
+      <target state="translated">Pfad</target></trans-unit>
+      <trans-unit id="TEXT_MODE" xml:space="preserve" approved="yes">
+        <source>You are in TEXT MODE.  Use the [&lt;&gt;] button to switch back to WYSIWYG.</source>
+      <target state="translated">Sie befinden sich im TEXT-MODUS. Benutzen Sie die Schaltfläche [&lt;&gt;], um zurück in den WYSIWYG-Modus zu wechseln.</target></trans-unit>
+      <trans-unit id="ActiveX-required" xml:space="preserve" approved="yes">
+        <source>Loading the editor in Internet Explorer requires the execution of ActiveX controls to be enabled.</source>
+      <target state="translated">Wenn Sie den Editor innerhalb des Internet Explorers verwenden wollen, müssen Sie ActiveX-Controls zulassen.</target></trans-unit>
+      <trans-unit id="HTML-document-not-well-formed" xml:space="preserve" approved="yes">
+        <source>The HTML document is not well-formed.</source>
+      <target state="translated">Das HTML-Dokument ist nicht wohlgeformt.</target></trans-unit>
+      <trans-unit id="Moz-Clipboard" xml:space="preserve" approved="yes">
+        <source>Unprivileged scripts cannot access Cut/Copy/Paste programatically for security reasons. Click YES to see a technical note at mozilla.org which shows you how to allow a script to access the clipboard.</source>
+      <target state="translated">Unprivilegierte Skripte können aus Sicherheitsgründen Ausschneiden/Kopieren/Einfügen nicht nutzen. Klicken Sie auf Ja, um einen technischen Hinweis von mozilla.org (auf englisch) zu lesen, der Ihnen zeigt, wie Sie Skripten den Zugriff auf die Zwischenablage ermöglichen.</target></trans-unit>
+      <trans-unit id="Moz-Extension" xml:space="preserve" approved="yes">
+        <source>For security reasons, unprivileged applications cannot access the clipboard. Click YES to install a component that will enable applications from this site to access the clipboard and perform copy, cut and paste operations.</source>
+      <target state="translated">Aus Sicherheitsgründen dürfen unprivilegierte Applikationen nicht auf die Zwischenablage zugreifen. Klicken Sie auf Ja, um eine Komponente zu installieren, die Programmen dieser TYPO3-Site erlaubt, auf die Zwischenablage zuzugreifen und Kopieren, Ausschneiden und Einfügen zu verwenden.</target></trans-unit>
+      <trans-unit id="Moz-Extension-Success" xml:space="preserve" approved="yes">
+        <source>The installation was successful. You need to exit and restart your browser for the change to take effect.</source>
+      <target state="translated">Die Installation war erfolgreich. Sie müssen Ihren Browser verlassen und erneut starten, damit die Änderungen wirksam werden.</target></trans-unit>
+      <trans-unit id="Moz-Extension-Failure" xml:space="preserve" approved="yes">
+        <source>Sorry, Firefox Add-on AllowClipboard Helper could not be installed.</source>
+      <target state="translated">Das Firefox Add-on "AllowClipboard Helper" konnte nicht installiert werden.</target></trans-unit>
+      <trans-unit id="Moz-Extension-Install-Not-Enabled" xml:space="preserve" approved="yes">
+        <source>The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from this site.</source>
+      <target state="translated">Die Installation kann nicht durchgeführt werden. Bitte ändern Sie Ihre Browser-Einstellungen so, dass eine Software-Installation von dieser TYPO3-Site zugelassen wird.</target></trans-unit>
+      <trans-unit id="Allow-Clipboard-Helper-Extension" xml:space="preserve" approved="yes">
+        <source>For security reasons, unprivileged applications cannot access the clipboard. Click YES to install a component that will enable you to specify the sites or pages that will be allowed to access the clipboard and perform copy, cut and paste operations.</source>
+      <target state="translated">Aus Sicherheitsgründen dürfen unprivilegierte Applikationen nicht auf die Zwischenablage zugreifen. Klicken Sie auf OK, um eine Komponente zu installieren, mit der Sie die Websites angeben können, die Zugriff auf die Zwischenablage erhalten sollen und Inhalte kopieren, ausschneiden und einfügen dürfen.</target></trans-unit>
+      <trans-unit id="Mozilla-Org-Install-Not-Enabled" xml:space="preserve" approved="yes">
+        <source>The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from https://addons.mozilla.org.</source>
+      <target state="translated">Die Installation kann nicht durchgeführt werden. Bitte ändern Sie Ihre Browser-Einstellungen so, dass eine Software-Installation von der Site https://addons.mozilla.org zugelassen wird.</target></trans-unit>
+      <trans-unit id="Allow-Clipboard-Helper-Extension-Success" xml:space="preserve" approved="yes">
+        <source>The installation was successful. You need to exit and restart your browser for the change to take effect. Afterwards, use the AllowClipboard Helper from the tools menu to allow specific sites to use the clipboard.</source>
+      <target state="translated">Die Installation war erfolgreich. Sie müssen Ihren Browser verlassen und erneut starten, damit die Änderungen wirksam werden. Wählen Sie dann in Ihrem Browser unter [Extras | AllowClipboard Helper] diejenigen Sites aus, denen der Zugriff auf die Zwischenablage gewährt werden soll.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

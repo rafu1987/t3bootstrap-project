@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="permissions">Rechte</label>
+      <label index="ch_permissions">Rechte ändern</label>
+      <label index="Legend">Legende</label>
+      <label index="Owner">Besitzer</label>
+      <label index="Group">Gruppe</label>
+      <label index="Everybody">Alle</label>
+      <label index="EditLock">Sperren</label>
+      <label index="EditLock_descr">Diese Seite und alle Inhaltselemente sind für die Bearbeitung durch Nicht-Administratoren gesperrt.</label>
+      <label index="Save">Speichern</label>
+      <label index="Abort">Abbrechen</label>
+      <label index="Edit">BEARBEITEN</label>
+      <label index="recursive">Rekursiv anwenden</label>
+      <label index="pages_affected">Betroffene Seiten</label>
+      <label index="user_overview">Benutzerübersicht</label>
+      <label index="Mode">Modus</label>
+      <label index="Depth">Tiefe</label>
+      <label index="levels">Ebenen</label>
+      <label index="User">Benutzer</label>
+      <label index="def">Definition: "Inhalt" sind alle Datensätze auf einer Seite - außer Datensätzen der Tabelle "pages" (Seiten).</label>
+      <label index="A_Granted">Zugriff erlaubt</label>
+      <label index="A_Denied">Zugriff verwehrt</label>
+      <label index="1">Seite anzeigen</label>
+      <label index="16">Inhalt bearbeiten</label>
+      <label index="2">Seite bearbeiten</label>
+      <label index="4">Seite löschen</label>
+      <label index="8">Neue Seiten</label>
+      <label index="1_t">Seite und Inhalt anzeigen/kopieren.</label>
+      <label index="16_t">Inhalt ändern/erstellen/löschen/verschieben.</label>
+      <label index="2_t">Seite ändern/verschieben (z.B. Seitentitel ändern usw.).</label>
+      <label index="4_t">Seite und Inhalt löschen.</label>
+      <label index="8_t">Neue Seiten unter dieser Seite erstellen.</label>
+      <label index="mlang_labels_tablabel">Seitenbearbeitungsrechte</label>
+      <label index="mlang_labels_tabdescr">Das Setzen der Seitenzugriffsrechte ist elementar, um den Zugriff der Backend-Benutzer auf die einzelnen Seiten zu steuern. Es können einzelne Benutzer und Benutzergruppen als Besitzer der Seite definiert und deren Zugriffsrechte festgelegt werden.</label>
+      <label index="mlang_tabs_tab">Zugriff</label>
+      <label index="WorkspaceWarning">Arbeitsumgebungswarnung</label>
+      <label index="WorkspaceWarningText">In einer Arbeitsumgebung gesetzte Berechtigungen werden erst &lt;em&gt;nach&lt;/em&gt; der Veröffentlichung aktiv! Wenn Sie sofort gültige Berechtigungen benötigen, müssen Sie diese in der LIVE-Arbeitsumgebung setzen. (Berechtigungen werden stets anhand des Datensatzes/Platzhalters einer Entwurfsversion in der LIVE-Arbeitsumgebung ausgewertet.)</label>
+      <label index="notSet">nicht definiert</label>
+      <label index="deleted">gelöscht</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

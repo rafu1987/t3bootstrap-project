@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Bearbeiten von Datensätzen und Dokumenten</label>
+      <label index="mlang_tabs_tab">Geöffnete Dokumente</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

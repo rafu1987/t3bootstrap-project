@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="sys_action" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="sys_action" xml:space="preserve" approved="yes">
+        <source>Action</source>
+      <target state="translated">Befehl</target></trans-unit>
+      <trans-unit id="tx_sys_action" xml:space="preserve" approved="yes">
+        <source>Actions</source>
+      <target state="translated">Befehle</target></trans-unit>
+      <trans-unit id="sys_action.hidden" xml:space="preserve" approved="yes">
+        <source>Deactivated:</source>
+      <target state="translated">Deaktiviert:</target></trans-unit>
+      <trans-unit id="sys_action.assign_to_groups" xml:space="preserve" approved="yes">
+        <source>Assign action to groups:</source>
+      <target state="translated">Aktion Gruppen zuweisen:</target></trans-unit>
+      <trans-unit id="sys_action.t1_userprefix" xml:space="preserve" approved="yes">
+        <source>User prefix:</source>
+      <target state="translated">Benutzerpräfix:</target></trans-unit>
+      <trans-unit id="sys_action.t1_allowed_groups" xml:space="preserve" approved="yes">
+        <source>Groups which may be assigned through the action:</source>
+      <target state="translated">Gruppen, die mit dieser Aktion zugewiesen werden können:</target></trans-unit>
+      <trans-unit id="sys_action.t1_create_user_dir" xml:space="preserve" approved="yes">
+        <source>Create User Home Directory:</source>
+      <target state="translated">Heimverzeichnis des Benutzers erstellen:</target></trans-unit>
+      <trans-unit id="sys_action.t1_copy_of_user" xml:space="preserve" approved="yes">
+        <source>Template user:</source>
+      <target state="translated">Vorlage für Benutzer:</target></trans-unit>
+      <trans-unit id="sys_action.t3_listPid" xml:space="preserve" approved="yes">
+        <source>List pid:</source>
+      <target state="translated">PID auflisten:</target></trans-unit>
+      <trans-unit id="sys_action.t3_tables" xml:space="preserve" approved="yes">
+        <source>List only table:</source>
+      <target state="translated">Nur Tabelle auflisten:</target></trans-unit>
+      <trans-unit id="sys_action.t4_recordsToEdit" xml:space="preserve" approved="yes">
+        <source>Records to edit:</source>
+      <target state="translated">Zu bearbeitende Datensätze:</target></trans-unit>
+      <trans-unit id="sys_action.type.1" xml:space="preserve" approved="yes">
+        <source>Create Backend User</source>
+      <target state="translated">Backend-Benutzer erstellen</target></trans-unit>
+      <trans-unit id="sys_action.type.2" xml:space="preserve" approved="yes">
+        <source>SQL query</source>
+      <target state="translated">SQL-Anfrage</target></trans-unit>
+      <trans-unit id="sys_action.type.3" xml:space="preserve" approved="yes">
+        <source>Record list</source>
+      <target state="translated">Datensätze auflisten</target></trans-unit>
+      <trans-unit id="sys_action.type.4" xml:space="preserve" approved="yes">
+        <source>Edit records</source>
+      <target state="translated">Datensätze bearbeiten</target></trans-unit>
+      <trans-unit id="sys_action.type.5" xml:space="preserve" approved="yes">
+        <source>New Record</source>
+      <target state="translated">Neuer Datensatz</target></trans-unit>
+    </body>
+  </file>
+</xliff>

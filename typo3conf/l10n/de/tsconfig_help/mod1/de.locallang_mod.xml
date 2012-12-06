@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_tabs_tab">TypoScript-Hilfe</label>
+      <label index="mlang_labels_tabdescr">Objektreferenz für TSref, Seiten-TSconfig und Benutzer-TSconfig. Erlaubt zudem Administratoren, die gesamte TypoScript-Online-Referenz mit den Handbüchern sämtlicher installierter Erweiterungen (einschließlich Kern-Dokumentation, falls installiert) neu zu erzeugen.</label>
+      <label index="mlang_labels_tablabel">TypoScript-Hilfe</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

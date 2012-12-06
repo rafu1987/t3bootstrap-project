@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:55:14 UTC 2011" product-name="templavoila">
+    <header/>
+    <body>
+      <trans-unit id=".alttitle" approved="yes">
+        <source>TemplaVoilà Mapping</source>
+        <target state="translated">TemplaVoilà-Abbildung</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>TemplaVoilà Verknüpfung</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_file.description">
+        <source>Modify the structure of this Template and map it with a certain HTML.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Die Struktur dieser Vorlage ändern und sie mit HTML verknüpfen.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_file_showXMLDS.description">
+        <source>This view shows the "source code" of what is built together for the Data Structure. You can later modify this data manually.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Diese Ansicht zeigt den "Quellcode" der Zusammenstellung für die Datenstruktur. Sie können diese Daten später ändern.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_file_loadDSXML.description">
+        <source>On this page, you can select to load an existing XML (either through an existing Data Structure or through a simple copy / paste of XML in the area below, to replace the existing data structure.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Auf dieser Seite können Sie eine bestehende XML-Datei laden um die bestehende Datenstruktur zu ersetzen (entweder über eine bestehende Datenstruktur oder mit einfachem Kopieren und Einfügen des XML-Codes in den unten stehenden Bereich).</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_file_createDSTO.description">
+        <source>Add the Data Structure and Template Object (TemplaVoilà will create both of them for you) to a certain Storage Folder. Please be aware that you have to have an existing Storage Folder in your page tree to select it from the dropdown. If you choose "Page Template" as the "Template Type", the new DS/TO Combo will appear when you edit the page properties. If you select "Content Element", the new TO will appear as a new content element type option when you add a new Content Element within any page.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Hinzufügen der Datenstruktur und des Vorlagenobjekts zu einem bestimmten Speicherordner (TemplaVoilà wird beide für Sie erstellen). Bitte beachten Sie, dass ein Speicherordner in Ihrem Seitenbaum existieren muss damit Sie ihn aus dem Auswahlmenü wählen können. Wenn Sie "Seitenvorlage" wählen, wird die neue Datenstruktur/Vorlagenobjekt-Kombination angezeigt werden wenn Sie die Seiteneigenschaften bearbeiten. Wenn Sie "Inhaltselement" wählen wird das neue Vorlagenobjekt als neuer Inhaltselementtyp erscheinen wenn Sie ein neues Inhaltselement zu einer Seite hinzufügen.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_to.description">
+        <source>This tab shows a list of the Template Object (TO), the file and the correspondig Data Structure (DS)</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Dieser Reiter zeigt eine Liste aus dem Vorlagenobjekt (VO), der Datei und der entsprechenden Datenstruktur (DS).</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_to_htmlheaderparts.description">
+        <source>[FILL IN] mapping_to_htmlheaderparts</source>
+      <target/></trans-unit>
+      <trans-unit id="mapping_to_openInOwnWindow.description">
+        <source>[FILL IN] mapping_to_openInOwnWindow</source>
+      <target/></trans-unit>
+      <trans-unit id="mapping_to_modifyDSTO.description">
+        <source>If you need to modify the structure (the DS that is), e.g. add a new Data Element (a "field") or change the behaviour of a certain Data Element, click here. However, be aware that this modification will erase any custom modification you made to the XML.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Klicken Sie hier falls Sie die Datenstruktur ändern müssen, also zum Beispiel ein neues Datenelement (ein "Feld") hinzufügen oder das Verhalten eines bestimmten Datenelements ändern möchten. Beachten sie jedoch, dass dies alle Änderung die Sie am XML-Code vorgenommen haben löschen wird.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_head_mapping_instructions.description">
+        <source>Additional information for each Data Element and what you have to consider when you map the Data Element to a HTML tag.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Zusätzliche Informationen für jedes Datenelement und was Sie zu beachten haben wenn Sie das Datenelement mit einem HTML-Tag verknüpfen.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_head_sample_data.description">
+        <source>The sample data that is used for the preview (see button below).</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Die Beispieldaten die für die Vorschau genutzt werden (siehe unten stehender Knopf).</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_head_dataElement.description">
+        <source>A hierarchical list of all Data Elements ("fields") in this Template Object.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Eine hierarchische Liste aller Datenelemente ("Felder") in diesem Vorlagenobjekt.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_head_Field.description">
+        <source>"ROOT" is the main container where everything else is stored. The others are the field names.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>"ROOT" ist der Hauptcontainer in dem alles andere gespeichert wird. Die anderen Werte sind die Feldnamen.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_head_HTMLpath.description">
+        <source>Displays the HTML element that is mapped to. Hover over the HTML tag to see the full path inside the XML structure. "OUTER" means that the mapping will also replace the element that the field is mapped to, "INNER" means that the content of the element will be replaced, the element itself will be kept.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Zeigt das verknüpfte HTML-Element an. Halten sie den Mauszeiger über den HTML-Tag um den vollständigen Pfad innerhalb der XML-Struktur zu sehen. "OUTER" bedeutet, dass die Verknüpfung auch das Element ersetzt, auf welches das Feld verweist; "INNER" bedeutet, dass der Inhalt des Elements ersetzt wird, das Element selbst aber erhalten bleibt.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_head_Action.description">
+        <source>"Map" / "Re-Map" allows you to map the field to a certain HTML tag within your HTML file. Use "Ch.Mode" if you only need to modify the OUTER and INNER option.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Zeigt das verknüpfte HTML-Element an. Halten sie den Mauszeiger über den HTML-Tag um den vollständigen Pfad innerhalb der XML-Struktur zu sehen. "OUTER" bedeutet, dass die Verknüpfung auch das Element ersetzt, auf welches das Feld verweist; "INNER" bedeutet, dass der Inhalt des Elements ersetzt wird, das Element selbst aber erhalten bleibt.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_head_Rules.description">
+        <source>Shows additional mapping restrictions (e.g. only map to a specific HTML tag) for a field. This is defined in the Data Structure.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Zeigt weitere Verknüpfungsbeschränkungen für ein Feld an (z.B. ein Feld nur an einen bestimmten HTML-Tag verknüpfen). Diese sind in der Datenstruktur definiert.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_head_Edit.description">
+        <source>Change the details of a Data Element or delete it completely from the data structure.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Die Details eines Datenelements ändern oder es komplett aus der Datenstruktur entfernen.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_window_modes.description">
+        <source>"Exploded Visual" display a view of the HTML template as it looks like (with all the styles), whereas "HTML Source" displays the pure XML structure in a hierarchical source view.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>"Explosionsansicht" zeigt eine Ansicht der HTML-Vorlage an wie sie mit allen Stilen aussieht, während "HTML Quellcode" die reine XML-Struktur in einer hierarchischen Quellcodeansicht zeigt.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_window_help.description">
+        <source>In the screen below you'll see the composite work of the plain HTML template, where the mapped HTML tags are replaced with the sample data (if available).</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Auf der unteren Anzeige sehen Sie die Zusammenstellung der reinen HTML-Vorlage in der die verknüpften HTML-Tags mit den Beispieldaten (falls vorhanden) verknüpft sind.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_basics.description">
+        <source>This screen basically allows you to create certain structure through adding fields (when creating the Data Structure) and then map these fields to HTML tags within a HTML template.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Diese Anzeige erlaubt Ihnen eine gewisse Struktur zu erstellen indem Sie Felder hinzufügen (wenn Sie die Datenstruktur erstellen) und diese Felder mit HTML-Tags in einer HTML-Vorlage verknüpfen.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_to_headerParts.description">
+        <source>When adding a new page template, the Mapping (see other tab) only works on the &lt;body&gt; tag, if you need to add other HTML tags from the HTML &lt;head&gt; tag, you can do this on this screen. Please make sure to hit the "Set" button on the bottom of this list to save your changes. Additional tags in the head part of your HTML can of course be added via regular TypoScript.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Wenn eine neue Seitenvorlage hinzugefügt wird funktioniert das Verknüpfen (siehe anderer Reiter) nur innerhalb des &lt;body&gt;-Tags. Wenn Sie andere HTML-Tags aus dem &lt;head&gt;-Bereich hinzufügen möchten können sie dies hier tun. Bitte stellen Sie sicher, dass Sie den "Set"-Knopf am Ende dieser Liste drücken um Ihre Änderungen zu speichern. Zusätzliche Tags im &lt;head&gt;-Bereich Ihrer HTML-Datei können natürlich mit normalem TypoScript hinzugefügt werden.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_to_headerParts_buttons.description">
+        <source>Press "Clear All" to unset all checkboxes above; "Set" saves the changes of this page (the additional tags), "Save" writes the changes of the Mapping (see other tab) to the database. "Save and return" also writes the mapping to the database, but will also return to the TemplaVoilà Control Center.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Drücken Sie "Alles entfernen" um alle Kontrollkästchen abzuwählen. "Festlegen" speichert die Änderungen auf dieser Seite (die zusätzlichen Tags). "Speichern" schreibt die Änderungen der Verknüpfungen (siehe anderer Reiter) in die Datenbank. "Speichern und zurück" schreibt die Verknüpfungen ebenfalls in die Datenbank und wechselt danach automatisch zum TemplaVoilà Kontrollzentrum.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_editform.description">
+        <source>Select the Mapping Type, a distinguishable name, instructions for the one who will map the data to a HTML template later on (optional). The Editing Type determines how the data on the field should be entered. Mapping rules allow to only map to certain HTML tags or HTML attributes. "a:attr:href" to only allows mapping to href attributes of HTML anchor tags.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Wählen Sie den Verknüpfungstyp, einen eindeutigen Namen, und (optional) Anweisungen für denjenigen der später die Daten mit einer HTML-Vorlage verknüpfen wird. Die Bearbeitungsart bestimmt wie die Daten in das Feld eingegeben werden sollen. Verknüpfungsregeln ermöglichen die Verknüpfung auf bestimmte HTML-Tags oder HTML-Attribute zu begrenzen. "a:attr.href" erlaubt ausschließlich das Verknüpfen von HTML-Anker-Tags.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_addfield.description">
+        <source>Enter a for this data structure unique string and click "Add field" to get to the detailed form for this new field.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Geben Sie einen eindeutigen Namen für diese Datenstruktur an und klicken Sie "Feld hinzufügen" um zum Detail-Eingabefeld für dieses neue Feld zu wechseln.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_modeset.description">
+        <source>"OUTER" means that the mapping will also replace the element that the field is mapped to, "INNER" means that the content of the element will be replaced, the element itself will be kept.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>"OUTER" bedeutet, dass die Verknüpfung auch das Element ersetzt, auf welches das Feld verweist; "INNER" bedeutet, dass der Inhalt des Elements ersetzt wird, das Element selbst aber erhalten bleibt.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_ds.description">
+        <source>The list above is the full representation of all fields, containers and sections within this Data Structure.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Die obige Liste ist die vollständige Auflistung aller Felder, Container und Abteilungen innerhalb dieser Datenstruktur.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_ds_to.description">
+        <source>The above lists all Template Objects that use this Data Structure.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Die obige Liste beinhaltet alle Vorlagenobjekte welche diese Datenstruktur nutzen.</target></alt-trans></trans-unit>
+      <trans-unit id="mapping_ds_showXML.description">
+        <source>The XML code above is the complete source of the Data Structure, and how it's stored in the database.</source>
+      <target/><alt-trans xml:space="preserve" origin="davidarndt"><target>Der obige XML-Code ist der komplette Quellcode der Datenstruktur und seiner Speicherart in der Datenbank.</target></alt-trans></trans-unit>
+    </body>
+  </file>
+</xliff>

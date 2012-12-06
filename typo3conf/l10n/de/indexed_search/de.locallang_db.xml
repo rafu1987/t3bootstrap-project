@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="index_config">Indexierungseinstellungen</label>
+      <label index="index_config.title">Titel:</label>
+      <label index="index_config.description">Beschreibung:</label>
+      <label index="index_config.type.I.1">Datensätze</label>
+      <label index="index_config.type.I.2">Dateipfad auf dem Server</label>
+      <label index="index_config.type.I.3">Externe URL</label>
+      <label index="index_config.type.I.4">Seitenbaum</label>
+      <label index="index_config.type.I.5">Metakonfiguration</label>
+      <label index="index_config.type">Typ:</label>
+      <label index="index_config.depth.I.0">Einzelne Seite</label>
+      <label index="index_config.depth.I.1">1 Ebene</label>
+      <label index="index_config.depth.I.2">2 Ebenen</label>
+      <label index="index_config.depth.I.3">3 Ebenen</label>
+      <label index="index_config.depth">Tiefe:</label>
+      <label index="index_config.table2index">Zu indexierende Tabelle:</label>
+      <label index="index_config.alternative_source_pid">Alternative Quellseite:</label>
+      <label index="index_config.get_params">GET-Parameter-String (mit ###UID###-Ersetzung):</label>
+      <label index="index_config.fields">Felder (erstes ist Titel):</label>
+      <label index="index_config.externalUrl">Externe URL (z.B.: "http://www.domain.org/"):</label>
+      <label index="index_config.chashcalc">cHash-Wert berechnen (Caching erzwingen)?</label>
+      <label index="index_config.filepath">Dateipfad:</label>
+      <label index="index_config.extensions">Beschränken auf folgende Erweiterungen (kommagetrennte Liste):</label>
+      <label index="index_config.url_deny">In diese Sub-URLs nicht weiter absteigen:</label>
+      <label index="index_config.records_indexonchange">Datensätze direkt beim Speichern indexieren:</label>
+      <label index="index_config.timer_next_indexing">Nächste Indexierung ist geplant (wenn leer, dann sofort):</label>
+      <label index="index_config.timer_offset">Zeitversatz nach Mitternacht:</label>
+      <label index="index_config.timer_frequency">Wie häufig soll eine Reindexierung vorgenommen werden?</label>
+      <label index="index_config.timer_frequency.I.0">stündlich</label>
+      <label index="index_config.timer_frequency.I.1">täglich (24 Stunden)</label>
+      <label index="index_config.timer_frequency.I.2">wöchentlich</label>
+      <label index="index_config.recordsbatch">Wie viele Datensätze sollen pro Minute indexiert werden (Standard ist 100):</label>
+      <label index="index_config.set_id">Sitzungs-ID (wenn &gt; Null läuft Indexierungsprozess)</label>
+      <label index="index_config.indexcfgs">Indexierungseinstellungen:</label>
+      <label index="index_config.parameterCfgs">Konfiguration Parameterkombination ([tablename]:&amp;[param]=###UID###):</label>
+      <label index="index_config.rootpage">Wurzelseite:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

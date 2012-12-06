@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<t3jquery>
+	<version type="array">
+		<act>1.7.3</act>
+		<cdn>1.7.3</cdn>
+	</version>
+	<groups type="array">
+		<numIndex index="1" type="array">
+			<name>jQuery UI Core</name>
+			<label>jQuery UI Core</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>Core</name>
+					<label>UI Core</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.uicore</detail>
+					<file>ui/jquery.ui.core.js</file>
+					<depends>jQuery</depends>
+				</numIndex>
+			</files>
+		</numIndex>
+		<numIndex index="2" type="array">
+			<name>jQuery UI Interactions</name>
+			<label>jQuery UI Interactions</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>Draggable</name>
+					<label>Draggable</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.draggable</detail>
+					<file>ui/jquery.ui.draggable.js</file>
+					<depends>Core</depends>
+					<sources type="array">
+						<numIndex index="1">.draggable(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<name>Droppable</name>
+					<label>Droppable</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.droppable</detail>
+					<file>ui/jquery.ui.droppable.js</file>
+					<depends>Core,Draggable</depends>
+					<sources type="array">
+						<numIndex index="1">.droppable(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="3" type="array">
+					<name>Resizable</name>
+					<label>Resizable</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.resizable</detail>
+					<file>ui/jquery.ui.resizable.js</file>
+					<depends>Core</depends>
+					<sources type="array">
+						<numIndex index="1">.resizable(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="4" type="array">
+					<name>Selectable</name>
+					<label>Selectable</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.selectable</detail>
+					<file>ui/jquery.ui.selectable.js</file>
+					<depends>Core</depends>
+					<sources type="array">
+						<numIndex index="1">.selectable(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="5" type="array">
+					<name>Sortable</name>
+					<label>Sortable</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.sortable</detail>
+					<file>ui/jquery.ui.sortable.js</file>
+					<depends>Core</depends>
+					<sources type="array">
+						<numIndex index="1">.sortable(</numIndex>
+					</sources>
+				</numIndex>
+			</files>
+		</numIndex>
+		<numIndex index="3" type="array">
+			<name>jQuery UI Widgets</name>
+			<label>jQuery UI Widgets</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>Accordion</name>
+					<label>Accordion</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.accordion</detail>
+					<file>ui/jquery.ui.accordion.js</file>
+					<depends>Core</depends>
+					<sources type="array">
+						<numIndex index="1">.accordion(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<name>Dialog</name>
+					<label>Dialog</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.dialog</detail>
+					<file>ui/jquery.ui.dialog.js</file>
+					<depends>Core,Draggable,Droppable</depends>
+					<sources type="array">
+						<numIndex index="1">.dialog(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="3" type="array">
+					<name>Slider</name>
+					<label>Slider</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.slider</detail>
+					<file>ui/jquery.ui.slider.js</file>
+					<depends>Core</depends>
+					<sources type="array">
+						<numIndex index="1">.slider(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="4" type="array">
+					<name>Tabs</name>
+					<label>Tabs</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.tabs</detail>
+					<file>ui/jquery.ui.tabs.js</file>
+					<depends>Core</depends>
+					<disturbing>ToolsTabs</disturbing>
+					<sources type="array">
+						<numIndex index="1">.tabs(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="5" type="array">
+					<name>Progressbar</name>
+					<label>Progressbar</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.progressbar</detail>
+					<file>ui/jquery.ui.progressbar.js</file>
+					<depends>Core</depends>
+					<sources type="array">
+						<numIndex index="1">.progressbar(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="6" type="array">
+					<name>Datepicker</name>
+					<label>Datepicker</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.datepicker</detail>
+					<file>ui/jquery.ui.datepicker.js</file>
+					<depends>Core</depends>
+					<sources type="array">
+						<numIndex index="1">.datepicker(</numIndex>
+					</sources>
+					<languages type="array">
+						<numIndex index="1" type="array">
+							<name>Datepicker-AR</name>
+							<label>Arabic</label>
+							<file>ui/i18n/jquery.ui.datepicker-ar.js</file>
+						</numIndex>
+						<numIndex index="2" type="array">
+							<name>Datepicker-BG</name>
+							<label>Bulgarian</label>
+							<file>ui/i18n/jquery.ui.datepicker-bg.js</file>
+						</numIndex>
+						<numIndex index="3" type="array">
+							<name>Datepicker-CA</name>
+							<label>Catalan</label>
+							<file>ui/i18n/jquery.ui.datepicker-ca.js</file>
+						</numIndex>
+						<numIndex index="4" type="array">
+							<name>Datepicker-CS</name>
+							<label>Czech</label>
+							<file>ui/i18n/jquery.ui.datepicker-cs.js</file>
+						</numIndex>
+						<numIndex index="5" type="array">
+							<name>Datepicker-DA</name>
+							<label>Danish</label>
+							<file>ui/i18n/jquery.ui.datepicker-da.js</file>
+						</numIndex>
+						<numIndex index="6" type="array">
+							<name>Datepicker-DE</name>
+							<label>German</label>
+							<file>ui/i18n/jquery.ui.datepicker-de.js</file>
+						</numIndex>
+						<numIndex index="7" type="array">
+							<name>Datepicker-EL</name>
+							<label>Greek (el)</label>
+							<file>ui/i18n/jquery.ui.datepicker-el.js</file>
+						</numIndex>
+						<numIndex index="8" type="array">
+							<name>Datepicker-EO</name>
+							<label>Esperanto</label>
+							<file>ui/i18n/jquery.ui.datepicker-eo.js</file>
+						</numIndex>
+						<numIndex index="9" type="array">
+							<name>Datepicker-ES</name>
+							<label>Espanol</label>
+							<file>ui/i18n/jquery.ui.datepicker-es.js</file>
+						</numIndex>
+						<numIndex index="10" type="array">
+							<name>Datepicker-FA</name>
+							<label>Persian (Farsi)</label>
+							<file>ui/i18n/jquery.ui.datepicker-fa.js</file>
+						</numIndex>
+						<numIndex index="11" type="array">
+							<name>Datepicker-FI</name>
+							<label>Finnish</label>
+							<file>ui/i18n/jquery.ui.datepicker-fi.js</file>
+						</numIndex>
+						<numIndex index="12" type="array">
+							<name>Datepicker-FR</name>
+							<label>French</label>
+							<file>ui/i18n/jquery.ui.datepicker-fr.js</file>
+						</numIndex>
+						<numIndex index="13" type="array">
+							<name>Datepicker-HE</name>
+							<label>Hebrew</label>
+							<file>ui/i18n/jquery.ui.datepicker-he.js</file>
+						</numIndex>
+						<numIndex index="14" type="array">
+							<name>Datepicker-HR</name>
+							<label>Croatian</label>
+							<file>ui/i18n/jquery.ui.datepicker-hr.js</file>
+						</numIndex>
+						<numIndex index="15" type="array">
+							<name>Datepicker-HU</name>
+							<label>Hungarian</label>
+							<file>ui/i18n/jquery.ui.datepicker-hu.js</file>
+						</numIndex>
+						<numIndex index="16" type="array">
+							<name>Datepicker-HY</name>
+							<label>Armenian (UTF-8)</label>
+							<file>ui/i18n/jquery.ui.datepicker-hy.js</file>
+						</numIndex>
+						<numIndex index="17" type="array">
+							<name>Datepicker-ID</name>
+							<label>Indonesian</label>
+							<file>ui/i18n/jquery.ui.datepicker-id.js</file>
+						</numIndex>
+						<numIndex index="18" type="array">
+							<name>Datepicker-IS</name>
+							<label>Icelandic</label>
+							<file>ui/i18n/jquery.ui.datepicker-is.js</file>
+						</numIndex>
+						<numIndex index="19" type="array">
+							<name>Datepicker-IT</name>
+							<label>Italian</label>
+							<file>ui/i18n/jquery.ui.datepicker-it.js</file>
+						</numIndex>
+						<numIndex index="20" type="array">
+							<name>Datepicker-JA</name>
+							<label>Japanese</label>
+							<file>ui/i18n/jquery.ui.datepicker-ja.js</file>
+						</numIndex>
+						<numIndex index="21" type="array">
+							<name>Datepicker-KO</name>
+							<label>Korean</label>
+							<file>ui/i18n/jquery.ui.datepicker-ko.js</file>
+						</numIndex>
+						<numIndex index="22" type="array">
+							<name>Datepicker-LT</name>
+							<label>Lithuanian (UTF-8)</label>
+							<file>ui/i18n/jquery.ui.datepicker-lt.js</file>
+						</numIndex>
+						<numIndex index="23" type="array">
+							<name>Datepicker-LV</name>
+							<label>Latvian (UTF-8)</label>
+							<file>ui/i18n/jquery.ui.datepicker-lv.js</file>
+						</numIndex>
+						<numIndex index="24" type="array">
+							<name>Datepicker-MS</name>
+							<label>Malaysian</label>
+							<file>ui/i18n/jquery.ui.datepicker-ms.js</file>
+						</numIndex>
+						<numIndex index="25" type="array">
+							<name>Datepicker-NL</name>
+							<label>Dutch (UTF-8)</label>
+							<file>ui/i18n/jquery.ui.datepicker-nl.js</file>
+						</numIndex>
+						<numIndex index="26" type="array">
+							<name>Datepicker-NO</name>
+							<label>Norwegian</label>
+							<file>ui/i18n/jquery.ui.datepicker-no.js</file>
+						</numIndex>
+						<numIndex index="27" type="array">
+							<name>Datepicker-PL</name>
+							<label>Polish</label>
+							<file>ui/i18n/jquery.ui.datepicker-pl.js</file>
+						</numIndex>
+						<numIndex index="28" type="array">
+							<name>Datepicker-PT-BR</name>
+							<label>Brazilian</label>
+							<file>ui/i18n/jquery.ui.datepicker-pt-BR.js</file>
+						</numIndex>
+						<numIndex index="29" type="array">
+							<name>Datepicker-RO</name>
+							<label>Romanian</label>
+							<file>ui/i18n/jquery.ui.datepicker-ro.js</file>
+						</numIndex>
+						<numIndex index="30" type="array">
+							<name>Datepicker-RU</name>
+							<label>Russian (UTF-8)</label>
+							<file>ui/i18n/jquery.ui.datepicker-ru.js</file>
+						</numIndex>
+						<numIndex index="31" type="array">
+							<name>Datepicker-SK</name>
+							<label>Slovak</label>
+							<file>ui/i18n/jquery.ui.datepicker-sk.js</file>
+						</numIndex>
+						<numIndex index="32" type="array">
+							<name>Datepicker-SL</name>
+							<label>Slovenian</label>
+							<file>ui/i18n/jquery.ui.datepicker-sl.js</file>
+						</numIndex>
+						<numIndex index="33" type="array">
+							<name>Datepicker-SQ</name>
+							<label>Albanian</label>
+							<file>ui/i18n/jquery.ui.datepicker-sq.js</file>
+						</numIndex>
+						<numIndex index="34" type="array">
+							<name>Datepicker-SR</name>
+							<label>Serbian (SR)</label>
+							<file>ui/i18n/jquery.ui.datepicker-sr.js</file>
+						</numIndex>
+						<numIndex index="35" type="array">
+							<name>Datepicker-SR-SR</name>
+							<label>Serbian (SR-SR)</label>
+							<file>ui/i18n/jquery.ui.datepicker-sr-SR.js</file>
+						</numIndex>
+						<numIndex index="36" type="array">
+							<name>Datepicker-SV</name>
+							<label>Swedish</label>
+							<file>ui/i18n/jquery.ui.datepicker-sv.js</file>
+						</numIndex>
+						<numIndex index="37" type="array">
+							<name>Datepicker-TH</name>
+							<label>Thai</label>
+							<file>ui/i18n/jquery.ui.datepicker-th.js</file>
+						</numIndex>
+						<numIndex index="38" type="array">
+							<name>Datepicker-TR</name>
+							<label>Turkish</label>
+							<file>ui/i18n/jquery.ui.datepicker-tr.js</file>
+						</numIndex>
+						<numIndex index="39" type="array">
+							<name>Datepicker-UK</name>
+							<label>Ukrainian (UTF-8)</label>
+							<file>ui/i18n/jquery.ui.datepicker-uk.js</file>
+						</numIndex>
+						<numIndex index="40" type="array">
+							<name>Datepicker-ZH-CN</name>
+							<label>Chinese (CN)</label>
+							<file>ui/i18n/jquery.ui.datepicker-zh-CN.js</file>
+						</numIndex>
+						<numIndex index="41" type="array">
+							<name>Datepicker-ZH-TW</name>
+							<label>Chinese (TW)</label>
+							<file>ui/i18n/jquery.ui.datepicker-zh-TW.js</file>
+						</numIndex>
+					</languages>
+				</numIndex>
+			</files>
+		</numIndex>
+		<numIndex index="4" type="array">
+			<name>jQuery UI Effects</name>
+			<label>jQuery UI Effects</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>EffectsCore</name>
+					<label>Effects Core</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.core</detail>
+					<file>ui/jquery.effects.core.js</file>
+					<depends>Core</depends>
+					<sources type="array">
+						<numIndex index="1">.effect(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<name>EffectsBlind</name>
+					<label>Effects Blind</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.blind</detail>
+					<file>ui/jquery.effects.blind.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("blind"</numIndex>
+						<numIndex index="2">.show("blind"</numIndex>
+						<numIndex index="3">.hide("blind"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="3" type="array">
+					<name>EffectsBounce</name>
+					<label>Effects Bounce</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.bounce</detail>
+					<file>ui/jquery.effects.bounce.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("bounce"</numIndex>
+						<numIndex index="2">.show("bounce"</numIndex>
+						<numIndex index="3">.hide("bounce"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="4" type="array">
+					<name>EffectsClip</name>
+					<label>Effects Clip</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.clip</detail>
+					<file>ui/jquery.effects.clip.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("clip"</numIndex>
+						<numIndex index="2">.show("clip"</numIndex>
+						<numIndex index="3">.hide("clip"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="5" type="array">
+					<name>EffectsDrop</name>
+					<label>Effects Drop</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.drop</detail>
+					<file>ui/jquery.effects.drop.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("drop"</numIndex>
+						<numIndex index="2">.show("drop"</numIndex>
+						<numIndex index="3">.hide("drop"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="6" type="array">
+					<name>EffectsExplode</name>
+					<label>Effects Explode</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.explode</detail>
+					<file>ui/jquery.effects.explode.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("explode"</numIndex>
+						<numIndex index="2">.show("explode"</numIndex>
+						<numIndex index="3">.hide("explode"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="7" type="array">
+					<name>EffectsFold</name>
+					<label>Effects Fold</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.fold</detail>
+					<file>ui/jquery.effects.fold.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("fold"</numIndex>
+						<numIndex index="2">.show("fold"</numIndex>
+						<numIndex index="3">.hide("fold"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="8" type="array">
+					<name>EffectsHighlight</name>
+					<label>Effects Highlight</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.highlight</detail>
+					<file>ui/jquery.effects.highlight.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("highlight"</numIndex>
+						<numIndex index="2">.show("highlight"</numIndex>
+						<numIndex index="3">.hide("highlight"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="9" type="array">
+					<name>EffectsPulsate</name>
+					<label>Effects Pulsate</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.pulsate</detail>
+					<file>ui/jquery.effects.pulsate.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("pulsate"</numIndex>
+						<numIndex index="2">.show("pulsate"</numIndex>
+						<numIndex index="3">.hide("pulsate"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="10" type="array">
+					<name>EffectsScale</name>
+					<label>Effects Scale</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.scale</detail>
+					<file>ui/jquery.effects.scale.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("scale"</numIndex>
+						<numIndex index="2">.show("scale"</numIndex>
+						<numIndex index="3">.hide("scale"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="11" type="array">
+					<name>EffectsShake</name>
+					<label>Effects Shake</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.shake</detail>
+					<file>ui/jquery.effects.shake.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("shake"</numIndex>
+						<numIndex index="2">.show("shake"</numIndex>
+						<numIndex index="3">.hide("shake"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="12" type="array">
+					<name>EffectsSlide</name>
+					<label>Effects Slide</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.slide</detail>
+					<file>ui/jquery.effects.slide.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("slide"</numIndex>
+						<numIndex index="2">.show("slide"</numIndex>
+						<numIndex index="3">.hide("slide"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="13" type="array">
+					<name>EffectsTransfer</name>
+					<label>Effects Transfer</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.transfer</detail>
+					<file>ui/jquery.effects.transfer.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">.effect("transfer"</numIndex>
+						<numIndex index="2">.show("transfer"</numIndex>
+						<numIndex index="3">.hide("transfer"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="14" type="array">
+					<name>Easing</name>
+					<label>Easing</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.easing</detail>
+					<file>jquery-easing.js</file>
+					<depends>Core,EffectsCore</depends>
+					<sources type="array">
+						<numIndex index="1">easing:</numIndex>
+					</sources>
+				</numIndex>
+			</files>
+		</numIndex>
+	</groups>
+</t3jquery>

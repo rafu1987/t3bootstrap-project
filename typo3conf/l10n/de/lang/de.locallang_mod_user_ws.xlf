@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="mlang_labels_tablabel" xml:space="preserve" approved="yes">
+        <source>Workspace overview</source>
+      <target state="translated">Arbeitsumgebungsübersicht</target></trans-unit>
+      <trans-unit id="mlang_labels_tabdescr" xml:space="preserve" approved="yes">
+        <source>Workspace overview showing the changes you have made in the workspace. Here you can also publish the changes to the website if you are allowed to do that.</source>
+      <target state="translated">Die Arbeitsumgebungsübersicht zeigt Änderungen, die in einer Arbeitsumgebung vorgenommen wurden. Mit den entsprechenden Berechtigungen können Sie die Änderungen an der Website von hier aus veröffentlichen.</target></trans-unit>
+      <trans-unit id="mlang_tabs_tab" xml:space="preserve" approved="yes">
+        <source>Workspace</source>
+      <target state="translated">Arbeitsumgebung</target></trans-unit>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Workspace Manager</source>
+      <target state="translated">Arbeitsumgebungsverwaltung</target></trans-unit>
+      <trans-unit id="menuitem_review" xml:space="preserve" approved="yes">
+        <source>Review and Publish</source>
+      <target state="translated">Begutachten und veröffentlichen</target></trans-unit>
+      <trans-unit id="menuitem_workspaces" xml:space="preserve" approved="yes">
+        <source>Workspace List</source>
+      <target state="translated">Arbeitsumgebungsliste</target></trans-unit>
+      <trans-unit id="filter_drafts" xml:space="preserve" approved="yes">
+        <source>Drafts</source>
+      <target state="translated">Entwürfe</target></trans-unit>
+      <trans-unit id="filter_archive" xml:space="preserve" approved="yes">
+        <source>Archive</source>
+      <target state="translated">Archiv</target></trans-unit>
+      <trans-unit id="filter_all" xml:space="preserve" approved="yes">
+        <source>All</source>
+      <target state="translated">Alle</target></trans-unit>
+      <trans-unit id="diff_no_diff" xml:space="preserve" approved="yes">
+        <source>Do not show differences</source>
+      <target state="translated">Untersch. nicht anzeigen</target></trans-unit>
+      <trans-unit id="diff_show_inline" xml:space="preserve" approved="yes">
+        <source>Show differences inline</source>
+      <target state="translated">Untersch. in Zeile anzeigen</target></trans-unit>
+      <trans-unit id="diff_show_popup" xml:space="preserve" approved="yes">
+        <source>Show diff. popups (branches)</source>
+      <target state="translated">Untersch.-PopUp (Zweige) anzeigen</target></trans-unit>
+      <trans-unit id="label_errors" xml:space="preserve" approved="yes">
+        <source>Errors:</source>
+      <target state="translated">Fehler:</target></trans-unit>
+      <trans-unit id="workspace_description_live" xml:space="preserve" approved="yes">
+        <source>The LIVE workspace allows changes to take effect immediately on the website. However versioning can be applied inside the live workspace and this overview shows you draft and archive versions from the various workspaces, including the LIVE workspace.</source>
+      <target state="translated">Die LIVE-Arbeitsumgebung ermöglicht Änderungen, die sich direkt auf die Website auswirken. Trotzdem kann eine Versionierung in der LIVE-Arbeitsumgebung angelegt werden. Dieser Überblick zeigt die Entwurfs- und Archivversionen der einzelnen Arbeitsumgebungen, inkl. der LIVE-Arbeitsumgebung.</target></trans-unit>
+      <trans-unit id="workspace_description_draft" xml:space="preserve" approved="yes">
+        <source>In the Draft workspace all changes will be made as new versions of the live content. Changes can be previewed, reviewed and eventually published live.</source>
+      <target state="translated">In der Entwurfsarbeitsumgebung werden alle Veränderungen als neue Versionen des Live-Inhalts angelegt. Für Änderungen gibt es eine Vorschau, sie können begutachtet und gegebenenfalls veröffentlicht werden.</target></trans-unit>
+      <trans-unit id="workspace_description_no_access" xml:space="preserve" approved="yes">
+        <source>You have no access to any workspace which might be an error. Please contact you administrator!</source>
+      <target state="translated">Sie haben auf keine Arbeitsumgebung Zugriff, was ein möglicherweise ein Irrtum ist. Bitte setzen Sie sich mit dem Administrator in Verbindung.</target></trans-unit>
+      <trans-unit id="edit_workspace_no_permission" xml:space="preserve" approved="yes">
+        <source>You have no permission to edit this workspace. Only admin users or owners of the workspace can modify its parameters.</source>
+      <target state="translated">Sie haben keine Berechtigung, diese Arbeitsumgebung zu bearbeiten. Nur Administratoren und Eigentümer einer Arbeitsumgebung können ihre Einstellungen ändern.</target></trans-unit>
+      <trans-unit id="create_workspace_no_permission" xml:space="preserve" approved="yes">
+        <source>You have no permission to create workspaces. Only admin users can create workspaces.</source>
+      <target state="translated">Sie haben keine Berechtigung, Arbeitsumgebungen anzulegen. Dies können nur Administratoren.</target></trans-unit>
+      <trans-unit id="submit_publish_workspace" xml:space="preserve" approved="yes">
+        <source>Publish workspace</source>
+      <target state="translated">Arbeitsumgebung veröffentlichen</target></trans-unit>
+      <trans-unit id="submit_publish_workspace_confirmation_1" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to publish all content in "Publish" stage from the workspace?</source>
+      <target state="translated">Alle Inhalte der "Veröffentlichen"-Stufe aus der Arbeitsumgebung tatsächlich veröffentlichen?</target></trans-unit>
+      <trans-unit id="submit_publish_workspace_confirmation_2" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to publish all content from the workspace?</source>
+      <target state="translated">Den gesamten Inhalt der Arbeitsumgebung tatsächlich veröffentlichen?</target></trans-unit>
+      <trans-unit id="submit_swap_workspace" xml:space="preserve" approved="yes">
+        <source>Swap workspace</source>
+      <target state="translated">Arbeitsumgebung austauschen</target></trans-unit>
+      <trans-unit id="submit_swap_workspace_confirmation_1" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to publish (swap) all content in "Publish" stage from the workspace?</source>
+      <target state="translated">Alle Inhalte der "Veröffentlichen"-Stufe aus der Arbeitsumgebung tatsächlich veröffentlichen (austauschen)?</target></trans-unit>
+      <trans-unit id="submit_swap_workspace_confirmation_2" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to publish (swap) all content from the workspace?</source>
+      <target state="translated">Alle Inhalte der Arbeitsumgebung tatsächlich veröffentlichen (austauschen)?</target></trans-unit>
+      <trans-unit id="submit_apply_action_on_selected_elements" xml:space="preserve" approved="yes">
+        <source>Sure you want to perform this action with selected elements?</source>
+      <target state="translated">Diese Aktion mit den ausgewählten Elementen tatsächlich durchführen?</target></trans-unit>
+      <trans-unit id="no_publish_permission" xml:space="preserve" approved="yes">
+        <source>You are not permitted to publish from this workspace</source>
+      <target state="translated">Sie haben keine Berechtigung, aus dieser Arbeitsumgebung zu veröffentlichen.</target></trans-unit>
+      <trans-unit id="label_workspace" xml:space="preserve" approved="yes">
+        <source>Workspace:</source>
+      <target state="translated">Arbeitsumgebung:</target></trans-unit>
+      <trans-unit id="label_description" xml:space="preserve" approved="yes">
+        <source>Description:</source>
+      <target state="translated">Beschreibung:</target></trans-unit>
+      <trans-unit id="label_options" xml:space="preserve" approved="yes">
+        <source>Options:</source>
+      <target state="translated">Optionen:</target></trans-unit>
+      <trans-unit id="label_status" xml:space="preserve" approved="yes">
+        <source>Status:</source>
+      <target state="translated">Status:</target></trans-unit>
+      <trans-unit id="label_pagetree" xml:space="preserve" approved="yes">
+        <source>Pagetree:</source>
+      <target state="translated">Seitenbaum:</target></trans-unit>
+      <trans-unit id="label_live_version" xml:space="preserve" approved="yes">
+        <source>Live Version:</source>
+      <target state="translated">Live-Version:</target></trans-unit>
+      <trans-unit id="label_draft_versions" xml:space="preserve" approved="yes">
+        <source>Workspace Versions:</source>
+      <target state="translated">Entwurfsversionen:</target></trans-unit>
+      <trans-unit id="label_stage" xml:space="preserve" approved="yes">
+        <source>Stage:</source>
+      <target state="translated">Stufe:</target></trans-unit>
+      <trans-unit id="label_publish" xml:space="preserve" approved="yes">
+        <source>Publish:</source>
+      <target state="translated">Veröffentlichen:</target></trans-unit>
+      <trans-unit id="label_lifecycle" xml:space="preserve" approved="yes">
+        <source>Lifecycle:</source>
+      <target state="translated">Lebenszyklus:</target></trans-unit>
+      <trans-unit id="label_access_level" xml:space="preserve" approved="yes">
+        <source>Access level:</source>
+      <target state="translated">Zugangsstufe:</target></trans-unit>
+      <trans-unit id="img_title_publish" xml:space="preserve" approved="yes">
+        <source>Publish</source>
+      <target state="translated">Veröffentlichen</target></trans-unit>
+      <trans-unit id="img_title_swap" xml:space="preserve" approved="yes">
+        <source>Swap</source>
+      <target state="translated">Austauschen</target></trans-unit>
+      <trans-unit id="remove_from_ws_confirmation" xml:space="preserve" approved="yes">
+        <source>Remove from workspace?</source>
+      <target state="translated">Aus der Arbeitsumgebung tatsächlich entfernen?</target></trans-unit>
+      <trans-unit id="img_title_remove_from_ws" xml:space="preserve" approved="yes">
+        <source>Remove from workspace?</source>
+      <target state="translated">Aus der Arbeitsumgebung entfernen?</target></trans-unit>
+      <trans-unit id="img_title_edit_page" xml:space="preserve" approved="yes">
+        <source>Edit page</source>
+      <target state="translated">Seite bearbeiten</target></trans-unit>
+      <trans-unit id="img_title_edit_element" xml:space="preserve" approved="yes">
+        <source>Edit element</source>
+      <target state="translated">Element bearbeiten</target></trans-unit>
+      <trans-unit id="img_title_show_log" xml:space="preserve" approved="yes">
+        <source>Show Log</source>
+      <target state="translated">Protokoll zeigen</target></trans-unit>
+      <trans-unit id="diffview_label_field_name" xml:space="preserve" approved="yes">
+        <source>Fieldname:</source>
+      <target state="translated">Feldname:</target></trans-unit>
+      <trans-unit id="diffview_label_colored_diff_view" xml:space="preserve" approved="yes">
+        <source>Colored diff-view:</source>
+      <target state="translated">Eingefärbte Untersch.-Ansicht:</target></trans-unit>
+      <trans-unit id="diffview_complete_match" xml:space="preserve" approved="yes">
+        <source>Complete match on editable fields.</source>
+      <target state="translated">Komplette Übereinstimmung der bearbeitbaren Felder</target></trans-unit>
+      <trans-unit id="diffview_cannot_find_records" xml:space="preserve" approved="yes">
+        <source>ERROR: Records could strangely not be found!</source>
+      <target state="translated">FEHLER: Seltsamerweise konnten keine Datensätze gefunden werden!</target></trans-unit>
+      <trans-unit id="img_title_show_more" xml:space="preserve" approved="yes">
+        <source>Show more</source>
+      <target state="translated">Mehr anzeigen</target></trans-unit>
+      <trans-unit id="img_title_current_workspace" xml:space="preserve" approved="yes">
+        <source>This is a current workspace!</source>
+      <target state="translated">Das ist eine aktuelle Arbeitsumgebung!</target></trans-unit>
+      <trans-unit id="img_title_create_new_workspace" xml:space="preserve" approved="yes">
+        <source>Create new workspace</source>
+      <target state="translated">Neue Arbeitsumgebung anlegen</target></trans-unit>
+      <trans-unit id="link_text_create_new_workspace" xml:space="preserve" approved="yes">
+        <source>Create new workspace</source>
+      <target state="translated">Neue Arbeitsumgebung anlegen</target></trans-unit>
+      <trans-unit id="edit_workspace_go_back" xml:space="preserve" approved="yes">
+        <source>Go back</source>
+      <target state="translated">Zurück</target></trans-unit>
+      <trans-unit id="edit_workspace_title_edit" xml:space="preserve" approved="yes">
+        <source>Edit workspace</source>
+      <target state="translated">Arbeitsumgebung bearbeiten</target></trans-unit>
+      <trans-unit id="edit_workspace_title_new" xml:space="preserve" approved="yes">
+        <source>Create new workspace</source>
+      <target state="translated">Neue Arbeitsumgebung anlegen</target></trans-unit>
+      <trans-unit id="workspace_list_label_current_workspace" xml:space="preserve" approved="yes">
+        <source>Current:</source>
+      <target state="translated">Aktuell:</target></trans-unit>
+      <trans-unit id="workspace_list_label_workspace_title" xml:space="preserve" approved="yes">
+        <source>Title:</source>
+      <target state="translated">Titel:</target></trans-unit>
+      <trans-unit id="workspace_list_label_workspace_description" xml:space="preserve" approved="yes">
+        <source>Description:</source>
+      <target state="translated">Beschreibung:</target></trans-unit>
+      <trans-unit id="workspace_list_label_owners" xml:space="preserve" approved="yes">
+        <source>Owners:</source>
+      <target state="translated">Besitzer:</target></trans-unit>
+      <trans-unit id="workspace_list_label_members" xml:space="preserve" approved="yes">
+        <source>Members:</source>
+      <target state="translated">Mitglieder:</target></trans-unit>
+      <trans-unit id="workspace_list_label_reviewers" xml:space="preserve" approved="yes">
+        <source>Reviewers:</source>
+      <target state="translated">Gutachter:</target></trans-unit>
+      <trans-unit id="workspace_list_access_admins_only" xml:space="preserve" approved="yes">
+        <source>Admins only</source>
+      <target state="translated">Nur Administratoren</target></trans-unit>
+      <trans-unit id="workspace_list_access_anyone" xml:space="preserve" approved="yes">
+        <source>no restrictions</source>
+      <target state="translated">keine Einschränkungen</target></trans-unit>
+      <trans-unit id="workspace_list_label_file_mountpoints" xml:space="preserve" approved="yes">
+        <source>File mountpoints:</source>
+      <target state="translated">Verzeichnisfreigaben:</target></trans-unit>
+      <trans-unit id="workspace_list_label_db_mountpoints" xml:space="preserve" approved="yes">
+        <source>Database mountpoints:</source>
+      <target state="translated">Datenbankfreigaben:</target></trans-unit>
+      <trans-unit id="workspace_list_label_frozen" xml:space="preserve" approved="yes">
+        <source>Frozen:</source>
+      <target state="translated">Eingefroren:</target></trans-unit>
+      <trans-unit id="workspace_list_label_publish_date" xml:space="preserve" approved="yes">
+        <source>Publish date:</source>
+      <target state="translated">Veröffentlichungsdatum:</target></trans-unit>
+      <trans-unit id="workspace_list_label_unpublish_date" xml:space="preserve" approved="yes">
+        <source>Unpublish date:</source>
+      <target state="translated">Zurückziehungsdatum:</target></trans-unit>
+      <trans-unit id="workspace_list_label_your_access" xml:space="preserve" approved="yes">
+        <source>Your access:</source>
+      <target state="translated">Ihr Zugriff:</target></trans-unit>
+      <trans-unit id="workspace_list_label_workspace_users" xml:space="preserve" approved="yes">
+        <source>Workspace users:</source>
+      <target state="translated">Arbeitsumgebungsbenutzer:</target></trans-unit>
+      <trans-unit id="workspace_list_label_frozen_yes" xml:space="preserve" approved="yes">
+        <source>Yes</source>
+      <target state="translated">Ja</target></trans-unit>
+      <trans-unit id="workspace_list_label_frozen_no" xml:space="preserve" approved="yes">
+        <source>No</source>
+      <target state="translated">Nein</target></trans-unit>
+      <trans-unit id="workspace_list_icon_title_edit_workspace" xml:space="preserve" approved="yes">
+        <source>Edit workspace</source>
+      <target state="translated">Arbeitsumgebung bearbeiten</target></trans-unit>
+      <trans-unit id="workspace_list_icon_title_switch_workspace" xml:space="preserve" approved="yes">
+        <source>Switch workspace</source>
+      <target state="translated">Arbeitsumgebung umschalten</target></trans-unit>
+      <trans-unit id="workspace_list_access_admin" xml:space="preserve" approved="yes">
+        <source>Admin</source>
+      <target state="translated">Administrator</target></trans-unit>
+      <trans-unit id="workspace_list_access_online" xml:space="preserve" approved="yes">
+        <source>Online</source>
+      <target state="translated">Online</target></trans-unit>
+      <trans-unit id="workspace_list_access_offline" xml:space="preserve" approved="yes">
+        <source>Offline</source>
+      <target state="translated">Offline</target></trans-unit>
+      <trans-unit id="workspace_list_access_owner" xml:space="preserve" approved="yes">
+        <source>Owner</source>
+      <target state="translated">Besitzer</target></trans-unit>
+      <trans-unit id="workspace_list_access_member" xml:space="preserve" approved="yes">
+        <source>Member</source>
+      <target state="translated">Mitglied</target></trans-unit>
+      <trans-unit id="workspace_list_access_reviewer" xml:space="preserve" approved="yes">
+        <source>Reviewer</source>
+      <target state="translated">Gutachter</target></trans-unit>
+      <trans-unit id="workspace_list_publishing_count_draft" xml:space="preserve" approved="yes">
+        <source>Draft</source>
+      <target state="translated">Entwurf</target></trans-unit>
+      <trans-unit id="workspace_list_publishing_count_archive" xml:space="preserve" approved="yes">
+        <source>Archive</source>
+      <target state="translated">Archiv</target></trans-unit>
+      <trans-unit id="workspace_list_publishing_count" xml:space="preserve" approved="yes">
+        <source>Published %d times</source>
+      <target state="translated">%d mal veröffentlicht</target></trans-unit>
+      <trans-unit id="stage_sent_to_review" xml:space="preserve" approved="yes">
+        <source>"%s" sent element to "Review"</source>
+      <target state="translated">"%s" hat das Element zum "Begutachten" geschickt</target></trans-unit>
+      <trans-unit id="stage_approved_for_publish" xml:space="preserve" approved="yes">
+        <source>"%s" approved for "Publish"</source>
+      <target state="translated">"%s" hat zum "Veröffentlichen" freigegeben</target></trans-unit>
+      <trans-unit id="stage_rejected" xml:space="preserve" approved="yes">
+        <source>"%s" rejected element!</source>
+      <target state="translated">"%s" hat das Element abgelehnt!</target></trans-unit>
+      <trans-unit id="stage_reset_to_editing" xml:space="preserve" approved="yes">
+        <source>"%s" reset to "Editing"</source>
+      <target state="translated">"%s" hat das Element auf "Bearbeiten" zurückgesetzt</target></trans-unit>
+      <trans-unit id="stage_undefined" xml:space="preserve" approved="yes">
+        <source>[undefined]</source>
+      <target state="translated">[undefiniert]</target></trans-unit>
+      <trans-unit id="stage_label_user_comment" xml:space="preserve" approved="yes">
+        <source>User Comment:</source>
+      <target state="translated">Benutzerkommentar:</target></trans-unit>
+      <trans-unit id="workspace_list_mount_point_inaccessible" xml:space="preserve" approved="yes">
+        <source>This mount point is defined for workspace but not accessible to you. If you need access to this mount point, ask your system administrator to give you access to it.</source>
+      <target state="translated">Diese Freigabe ist für die Arbeitsumgebung definiert, Sie haben aber keinen Zugriff. Wenn Sie Zugriff auf diese Freigabe benötigen, wenden Sie sich an den Systemadministrator.</target></trans-unit>
+      <trans-unit id="workspace_list_file_mount_point_live" xml:space="preserve" approved="yes">
+        <source>Mount points from user profile are used.</source>
+      <target state="translated">Freigaben des Benutzerprofils werden benutzt.</target></trans-unit>
+      <trans-unit id="workspace_list_file_mount_point_draft" xml:space="preserve" approved="yes">
+        <source>File mount points are not available in draft workspace.</source>
+      <target state="translated">Verzeichnisfreigaben sind in der Entwurfsarbeitsumgebung nicht verwendbar.</target></trans-unit>
+      <trans-unit id="workspace_list_file_mount_point_custom" xml:space="preserve" approved="yes">
+        <source>File mount points are not defined for this workspace. Therefore no file mount points available in the workspace.</source>
+      <target state="translated">Verzeichnisfreigaben sind für diese Arbeitsumgebung nicht definiert. Aus diesem Grund sind keine Freigaben in dieser Arbeitsumgebung verfügbar.</target></trans-unit>
+      <trans-unit id="workspace_list_db_mount_point_live" xml:space="preserve" approved="yes">
+        <source>Mount points from user profile are used.</source>
+      <target state="translated">Freigaben des Benutzerprofils werden benutzt.</target></trans-unit>
+      <trans-unit id="workspace_list_db_mount_point_draft" xml:space="preserve" approved="yes">
+        <source>Mount points from user profile are used.</source>
+      <target state="translated">Freigaben des Benutzerprofils werden benutzt.</target></trans-unit>
+      <trans-unit id="workspace_list_db_mount_point_custom" xml:space="preserve" approved="yes">
+        <source>Mount points from user profile are used.</source>
+      <target state="translated">Freigaben des Benutzerprofils werden benutzt.</target></trans-unit>
+      <trans-unit id="publish_title" xml:space="preserve" approved="yes">
+        <source>Publish workspace</source>
+      <target state="translated">Arbeitsumgebung veröffentlichen</target></trans-unit>
+      <trans-unit id="swap_title" xml:space="preserve" approved="yes">
+        <source>Swap workspace</source>
+      <target state="translated">Arbeitsumgebung austauschen</target></trans-unit>
+      <trans-unit id="publish_status" xml:space="preserve" approved="yes">
+        <source>Published records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</source>
+      <target state="translated">Datensätze &lt;strong&gt;%d&lt;/strong&gt; bis &lt;strong&gt;%d&lt;/strong&gt; von &lt;strong&gt;%d&lt;/strong&gt; veröffentlicht.</target></trans-unit>
+      <trans-unit id="swap_status" xml:space="preserve" approved="yes">
+        <source>Swapped records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</source>
+      <target state="translated">Datensätze &lt;strong&gt;%d&lt;/strong&gt; bis &lt;strong&gt;%d&lt;/strong&gt; von &lt;strong&gt;%d&lt;/strong&gt; ausgetauscht.</target></trans-unit>
+      <trans-unit id="publish_prepare" xml:space="preserve" approved="yes">
+        <source>TYPO3 is preparing to publish records.</source>
+      <target state="translated">TYPO3 bereitet die Veröffentlichung der Datensätze vor.</target></trans-unit>
+      <trans-unit id="swap_prepare" xml:space="preserve" approved="yes">
+        <source>TYPO3 is preparing to swap records.</source>
+      <target state="translated">TYPO3 bereitet den Austausch der Datensätze vor.</target></trans-unit>
+      <trans-unit id="please_wait" xml:space="preserve" approved="yes">
+        <source>Please, wait...</source>
+      <target state="translated">Bitte warten...</target></trans-unit>
+      <trans-unit id="return_to_index" xml:space="preserve" approved="yes">
+        <source>Return to Workspace module</source>
+      <target state="translated">Zurück zum Modul Arbeitsumgebung</target></trans-unit>
+      <trans-unit id="do_not_interrupt_publishing_1" xml:space="preserve" approved="yes">
+        <source>Do not interrupt publishing process or</source>
+      <target state="translated">Bitte die Veröffentlichung nicht unterbrechen, da</target></trans-unit>
+      <trans-unit id="do_not_interrupt_publishing_2" xml:space="preserve" approved="yes">
+        <source>workspace may be left in half-published state!</source>
+      <target state="translated">die Arbeitsumgebung sonst evtl. nur teilweise veröffentlicht wird.</target></trans-unit>
+      <trans-unit id="workspace_published" xml:space="preserve" approved="yes">
+        <source>Workspace has been published.</source>
+      <target state="translated">Die Arbeitsumgebung wurde veröffentlicht.</target></trans-unit>
+      <trans-unit id="workspace_swapped" xml:space="preserve" approved="yes">
+        <source>Workspace has been swapped.</source>
+      <target state="translated">Die Arbeitsumgebung wurde ausgetauscht.</target></trans-unit>
+      <trans-unit id="label_reject" xml:space="preserve" approved="yes">
+        <source>Reject</source>
+      <target state="translated">Ablehnen</target></trans-unit>
+      <trans-unit id="label_review" xml:space="preserve" approved="yes">
+        <source>Review</source>
+      <target state="translated">Gutachten</target></trans-unit>
+      <trans-unit id="label_sendtoreview" xml:space="preserve" approved="yes">
+        <source>Send to review</source>
+      <target state="translated">Zum Gutachten</target></trans-unit>
+      <trans-unit id="label_approveforpublishing" xml:space="preserve" approved="yes">
+        <source>Approve for publishing</source>
+      <target state="translated">Zur Veröffentlichung freigeben</target></trans-unit>
+      <trans-unit id="stage_editing" xml:space="preserve" approved="yes">
+        <source>Editing</source>
+      <target state="translated">Bearbeiten</target></trans-unit>
+      <trans-unit id="stage_review" xml:space="preserve" approved="yes">
+        <source>Review</source>
+      <target state="translated">Begutachten</target></trans-unit>
+      <trans-unit id="stage_publish" xml:space="preserve" approved="yes">
+        <source>Publish</source>
+      <target state="translated">Veröffentlichen</target></trans-unit>
+      <trans-unit id="label_subelements" xml:space="preserve" approved="yes">
+        <source>Sub elements</source>
+      <target state="translated">Unterelemente</target></trans-unit>
+      <trans-unit id="label_subelementsdetails" xml:space="preserve" approved="yes">
+        <source>Sub elements, click for details</source>
+      <target state="translated">Unterelemente, Klick für Details</target></trans-unit>
+      <trans-unit id="label_commentforreviewer" xml:space="preserve" approved="yes">
+        <source>Comment for Reviewer:</source>
+      <target state="translated">Anmerkung für den Gutachter:</target></trans-unit>
+      <trans-unit id="label_commentforpublisher" xml:space="preserve" approved="yes">
+        <source>Comment for Publisher:</source>
+      <target state="translated">Anmerkung für den Veröffentlicher:</target></trans-unit>
+      <trans-unit id="label_resetstage" xml:space="preserve" approved="yes">
+        <source>Reset stage</source>
+      <target state="translated">Stufe zurücksetzen</target></trans-unit>
+      <trans-unit id="label_undefined" xml:space="preserve" approved="yes">
+        <source>Undefined</source>
+      <target state="translated">Undefiniert</target></trans-unit>
+      <trans-unit id="explain_reject" xml:space="preserve" approved="yes">
+        <source>Please explain why you reject:</source>
+      <target state="translated">Bitte Grund für die Ablehnung erläutern:</target></trans-unit>
+      <trans-unit id="label_element" xml:space="preserve" approved="yes">
+        <source>Element</source>
+      <target state="translated">Element</target></trans-unit>
+      <trans-unit id="label_page" xml:space="preserve" approved="yes">
+        <source>Page</source>
+      <target state="translated">Seite</target></trans-unit>
+      <trans-unit id="label_branch" xml:space="preserve" approved="yes">
+        <source>Branch</source>
+      <target state="translated">Zweig</target></trans-unit>
+      <trans-unit id="label_newrecord" xml:space="preserve" approved="yes">
+        <source>New element</source>
+      <target state="translated">Neues Element</target></trans-unit>
+      <trans-unit id="label_deletedrecord" xml:space="preserve" approved="yes">
+        <source>Deleted element</source>
+      <target state="translated">Gelöschtes Element</target></trans-unit>
+      <trans-unit id="label_otherversions" xml:space="preserve" approved="yes">
+        <source>Other version(s) in workspace(s):</source>
+      <target state="translated">Andere Version(en) in der Arbeitsumgebung</target></trans-unit>
+      <trans-unit id="label_multipleversions" xml:space="preserve" approved="yes">
+        <source>Multiple versions in same workspace!</source>
+      <target state="translated">Mehrere Versionen in der selben Arbeitsumgebung</target></trans-unit>
+      <trans-unit id="label_nestedversions" xml:space="preserve" approved="yes">
+        <source>Version inside version!</source>
+      <target state="translated">Version innerhalb einer Version!</target></trans-unit>
+      <trans-unit id="label_rejected" xml:space="preserve" approved="yes">
+        <source>Rejected</source>
+      <target state="translated">Abgelehnt</target></trans-unit>
+      <trans-unit id="label_showsubelements" xml:space="preserve" approved="yes">
+        <source>Show sub elements</source>
+      <target state="translated">Unterelemente anzeigen</target></trans-unit>
+      <trans-unit id="label_onlymychanges" xml:space="preserve" approved="yes">
+        <source>Show only my changes</source>
+      <target state="translated">Nur meine Änderungen anzeigen</target></trans-unit>
+      <trans-unit id="label_offlineWSes" xml:space="preserve" approved="yes">
+        <source>Draft workspaces</source>
+      <target state="translated">Entwurfsarbeitsumgebung</target></trans-unit>
+      <trans-unit id="label_allWSes" xml:space="preserve" approved="yes">
+        <source>All workspaces</source>
+      <target state="translated">Alle Arbeitsumgebungen</target></trans-unit>
+      <trans-unit id="label_notapplicable" xml:space="preserve" approved="yes">
+        <source>n/a</source>
+      <target state="translated">k.A.</target></trans-unit>
+      <trans-unit id="label_percentchange" xml:space="preserve" approved="yes">
+        <source>%%% change:</source>
+      <target state="translated">%%% Änderung:</target></trans-unit>
+      <trans-unit id="label_percentChange" xml:space="preserve" approved="yes">
+        <source>%d%% change:</source>
+      <target state="translated">%d%% Änderung:</target></trans-unit>
+      <trans-unit id="label_doaction_default" xml:space="preserve" approved="yes">
+        <source>Do:</source>
+      <target state="translated">Ausführen:</target></trans-unit>
+      <trans-unit id="label_doaction_publish" xml:space="preserve" approved="yes">
+        <source>Publish</source>
+      <target state="translated">Veröffentlichen</target></trans-unit>
+      <trans-unit id="label_doaction_swap" xml:space="preserve" approved="yes">
+        <source>Swap</source>
+      <target state="translated">Austauschen</target></trans-unit>
+      <trans-unit id="label_doaction_release" xml:space="preserve" approved="yes">
+        <source>Remove this version</source>
+      <target state="translated">Diese Version entfernen</target></trans-unit>
+      <trans-unit id="label_doaction_stage_reject" xml:space="preserve" approved="yes">
+        <source>Reject changes</source>
+      <target state="translated">Änderungen ablehnen</target></trans-unit>
+      <trans-unit id="label_doaction_stage_editing" xml:space="preserve" approved="yes">
+        <source>Send to stage: Editing</source>
+      <target state="translated">Auf Stufe setzen: Bearbeiten</target></trans-unit>
+      <trans-unit id="label_doaction_stage_review" xml:space="preserve" approved="yes">
+        <source>Send to stage: Review</source>
+      <target state="translated">Auf Stufe setzen: Begutachten</target></trans-unit>
+      <trans-unit id="label_doaction_stage_publish" xml:space="preserve" approved="yes">
+        <source>Send to stage: Publish</source>
+      <target state="translated">Auf Stufe setzen: Veröffentlichen</target></trans-unit>
+      <trans-unit id="label_doaction_flush" xml:space="preserve" approved="yes">
+        <source>Flush ALL changes/versions</source>
+      <target state="translated">ALLE Änderungen/Versionen löschen</target></trans-unit>
+      <trans-unit id="label_moveto_placeholder" xml:space="preserve" approved="yes">
+        <source>Move-to placeholder (destination)</source>
+      <target state="translated">Platzhalter für Verschieben (Ziel)</target></trans-unit>
+      <trans-unit id="label_moveto_pointer" xml:space="preserve" approved="yes">
+        <source>Move-to pointer (source)</source>
+      <target state="translated">Zeiger für Verschieben (Quelle)</target></trans-unit>
+    </body>
+  </file>
+</xliff>

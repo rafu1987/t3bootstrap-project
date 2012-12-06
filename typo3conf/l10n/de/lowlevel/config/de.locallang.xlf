@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lowlevel" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="configuration" xml:space="preserve" approved="yes">
+        <source>Configuration</source>
+      <target state="translated">Konfiguration</target></trans-unit>
+      <trans-unit id="typo3ConfVars" xml:space="preserve" approved="yes">
+        <source>$TYPO3_CONF_VARS (Global Configuration)</source>
+      <target state="translated">$TYPO3_CONF_VARS (Globale Konfiguration)</target></trans-unit>
+      <trans-unit id="tca" xml:space="preserve" approved="yes">
+        <source>$TCA (Table configuration array)</source>
+      <target state="translated">$TCA (Array für Tabellenkonfiguration)</target></trans-unit>
+      <trans-unit id="tcaDescr" xml:space="preserve" approved="yes">
+        <source>$TCA_DESCR (Table Help Description)</source>
+      <target state="translated">$TCA_DESCR (Beschreibungen für Tabellenhilfe)</target></trans-unit>
+      <trans-unit id="loadedExt" xml:space="preserve" approved="yes">
+        <source>$TYPO3_LOADED_EXT (Loaded Extensions)</source>
+      <target state="translated">$TYPO3_LOADED_EXT (Geladene Erweiterungen)</target></trans-unit>
+      <trans-unit id="tbeStyles" xml:space="preserve" approved="yes">
+        <source>$TBE_STYLES (Skinning Styles)</source>
+      <target state="translated">$TBE_STYLES (Oberflächen-Stile)</target></trans-unit>
+      <trans-unit id="beUser" xml:space="preserve" approved="yes">
+        <source>$BE_USER-&gt;uc (User Settings)</source>
+      <target state="translated">$BE_USER-&gt;uc (Benutzereinstellungen)</target></trans-unit>
+      <trans-unit id="usersettings" xml:space="preserve" approved="yes">
+        <source>$TYPO3_USER_SETTINGS (User Settings Configuration)</source>
+      <target state="translated">$TYPO3_USER_SETTINGS (Konfiguration für Benutzereinstellungen)</target></trans-unit>
+      <trans-unit id="t3services" xml:space="preserve" approved="yes">
+        <source>$T3_SERVICES (Registered Services)</source>
+      <target state="translated">$T3_SERVICES (Registrierte Dienste)</target></trans-unit>
+      <trans-unit id="tbemodulesext" xml:space="preserve" approved="yes">
+        <source>$TBE_MODULES_EXT (BE Modules Extensions)</source>
+      <target state="translated">$TBE_MODULES_EXT (Erweiterungen für BE-Module)</target></trans-unit>
+      <trans-unit id="tbemodules" xml:space="preserve" approved="yes">
+        <source>$TBE_MODULES (BE Modules)</source>
+      <target state="translated">$TBE_MODULES (BE-Module)</target></trans-unit>
+      <trans-unit id="cropLines" xml:space="preserve" approved="yes">
+        <source>Crop lines</source>
+      <target state="translated">Zeilen kappen</target></trans-unit>
+      <trans-unit id="variable" xml:space="preserve" approved="yes">
+        <source>Variable:</source>
+      <target state="translated">Variable:</target></trans-unit>
+      <trans-unit id="copyPaste" xml:space="preserve" approved="yes">
+        <source>(Now, copy/paste this value into the configuration file where you can set it. This is all you can do from here...)</source>
+      <target state="translated">Jetzt können Sie diesen Wert kopieren und in die Konfigurationsdatei einfügen, wo Sie ihn setzen können. Mehr ist hier nicht möglich...</target></trans-unit>
+      <trans-unit id="enterSearchPhrase" xml:space="preserve" approved="yes">
+        <source>Enter search phrase:</source>
+      <target state="translated">Suchbegriff eingeben:</target></trans-unit>
+      <trans-unit id="search" xml:space="preserve" approved="yes">
+        <source>Search</source>
+      <target state="translated">Suchen</target></trans-unit>
+      <trans-unit id="useRegExp" xml:space="preserve" approved="yes">
+        <source>Use regular expression</source>
+      <target state="translated">Regulären Ausdruck verwenden</target></trans-unit>
+      <trans-unit id="writeValue" xml:space="preserve" approved="yes">
+        <source>Write value to configuration file</source>
+      <target state="translated">Wert in Konfigurationsdatei schreiben</target></trans-unit>
+      <trans-unit id="writeMessage" xml:space="preserve" approved="yes">
+        <source>Following line was added to configuration file (%s): %s%s</source>
+      <target state="translated">Die folgende Zeile wurde der Konfigurationsdatei (%s) hinzugefügt: %s%s</target></trans-unit>
+      <trans-unit id="writeMessageFailed" xml:space="preserve" approved="yes">
+        <source>Write to configuration file failed (%s)!</source>
+      <target state="translated">Schreiben der Konfigurationsdatei fehlgeschlagen (%s)!</target></trans-unit>
+    </body>
+  </file>
+</xliff>

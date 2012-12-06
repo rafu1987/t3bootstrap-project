@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the in2facebook extension in the FRONTEND</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_in2facebook_domain_model_opengraph">OpenGraph</label>
+			<label index="tx_in2facebook_domain_model_opengraph.title">title</label>
+			<label index="tx_in2facebook_domain_model_opengraph.type">type</label>
+			<label index="tx_in2facebook_domain_model_opengraph.url">url</label>
+			<label index="tx_in2facebook_domain_model_opengraph.image">image</label>
+			<label index="tx_in2facebook_domain_model_opengraph.site_name">siteName</label>
+			<label index="tx_in2facebook_domain_model_opengraph.admins">admins</label>
+			<label index="tx_in2facebook_domain_model_opengraph.description">description</label>
+		</languageKey>
+	</data>
+</T3locallang>

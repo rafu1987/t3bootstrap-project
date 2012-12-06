@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>CSH for Lorem Ipsum Extension</description>
+		<type>CSH</type>
+		<fileId>EXT:lorem_ipsum/locallang_csh.xml</fileId>
+		<csh_table>xEXT_loremipsum</csh_table>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index=".alttitle">Lorem Ipsum</label>
+			<label index=".description">"Lorem Ipsum" is an extension that creates industry standard dummy text for pages and content elements in TYPO3. Usually it is available as a wizard icon next to form fields.</label>
+		</languageKey>
+	</data>
+</T3locallang>

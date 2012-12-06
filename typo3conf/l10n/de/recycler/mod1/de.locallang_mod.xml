@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_tabs_tab">Papierkorb</label>
+      <label index="mlang_labels_tablabel">TYPO3-Papierkorb</label>
+      <label index="mlang_labels_tabdescr">Der Papierkorb bietet die Möglichkeit, gelöschte Datensätze wiederherzustellen oder sie permanent aus der Datenbank zu löschen. Diese Aktionen können auf einen einzelnen Datensatz, aber auch auf mehrere Datensätze und rekursiv auf alle auf einer Seite enthaltenen Datensätze angewendet werden. Ein Auswahlfilter nach Seiten und Tabellen gibt Ihnen einen schnellen Überblick über die gelöschten Datensätze, bevor Sie Aktionen durchführen.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

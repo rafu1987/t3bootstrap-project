@@ -1,0 +1,12 @@
+lib.in2facebook = COA
+lib.in2facebook {
+	10 = TEXT
+	10 {
+		typolink.parameter.data = TSFE:id
+		typolink.returnLast = url
+		dataWrap = http://{getIndpEnv:HTTP_HOST}/|
+		rawUrlEncode = 1
+	}
+	
+	wrap = <iframe src="http://www.facebook.com/plugins/like.php?href=|&layout=standard&show_faces=true&width=450&action=like&colorscheme=light&height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px; margin: 30px 0 0 0;" allowTransparency="true"></iframe>
+}

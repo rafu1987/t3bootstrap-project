@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_tabs_tab">Links überprüfen</label>
+      <label index="mlang_labels_tabdescr">Überprüfen Sie die Links in Ihrer Website auf Gültigkeit.</label>
+      <label index="mlang_labels_tablabel">Links validieren</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

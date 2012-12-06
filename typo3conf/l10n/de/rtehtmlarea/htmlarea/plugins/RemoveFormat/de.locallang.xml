@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="RemoveFormatTooltip">Formatierung entfernen</label>
+      <label index="Cleaning Area">Bereich</label>
+      <label index="Selection">Ausgewählter Text</label>
+      <label index="All">Gesamt</label>
+      <label index="Remove formatting">Formatierung entfernen</label>
+      <label index="Cleaning options">Art der Formatierung(en), die entfernt werden soll(en)</label>
+      <label index="Formatting:">HTML-Formatierung:</label>
+      <label index="MS Word Formatting:">MS-Word-Formatierung:</label>
+      <label index="Typographical punctuation:">Typographische Zeichen:</label>
+      <label index="Spaces">Geschützte Leerzeichen:</label>
+      <label index="Images:">Bilder:</label>
+      <label index="All HTML:">Alle HTML-Tags:</label>
+      <label index="Select the type of formatting you wish to remove.">Wählen Sie die Art der Formatierung(en), die entfernt werden soll(en).</label>
+      <label index="OK">OK</label>
+      <label index="Cancel">Abbrechen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

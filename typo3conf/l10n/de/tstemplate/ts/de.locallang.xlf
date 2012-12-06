@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="moduleTitle" xml:space="preserve" approved="yes">
+        <source>Template tools</source>
+      <target state="translated">Template-Werkzeuge</target></trans-unit>
+      <trans-unit id="templateAnalyzer" xml:space="preserve" approved="yes">
+        <source>Template Analyzer</source>
+      <target state="translated">Template-Analyse</target></trans-unit>
+      <trans-unit id="constantEditor" xml:space="preserve" approved="yes">
+        <source>Constant Editor</source>
+      <target state="translated">Konstanten-Editor</target></trans-unit>
+      <trans-unit id="infoModify" xml:space="preserve" approved="yes">
+        <source>Info/Modify</source>
+      <target state="translated">Info/Bearbeiten</target></trans-unit>
+      <trans-unit id="objectBrowser" xml:space="preserve" approved="yes">
+        <source>TypoScript Object Browser</source>
+      <target state="translated">TypoScript-Objekt-Browser</target></trans-unit>
+      <trans-unit id="viewTemplates" xml:space="preserve" approved="yes">
+        <source>Viewing templates of</source>
+      <target state="translated">Anzeige der Templates von</target></trans-unit>
+      <trans-unit id="pageName" xml:space="preserve" approved="yes">
+        <source>Page name</source>
+      <target state="translated">Seitenname</target></trans-unit>
+      <trans-unit id="templates" xml:space="preserve" approved="yes">
+        <source># Templates</source>
+      <target state="translated">Anzahl Templates</target></trans-unit>
+      <trans-unit id="isRoot" xml:space="preserve" approved="yes">
+        <source>Is Root?</source>
+      <target state="translated">Ist Anfang der Website</target></trans-unit>
+      <trans-unit id="isExt" xml:space="preserve" approved="yes">
+        <source>Is Ext?</source>
+      <target state="translated">Ist Erweiterung</target></trans-unit>
+      <trans-unit id="overview" xml:space="preserve" approved="yes">
+        <source>This is an overview of the pages in the database containing one or more template records. Click a page title to go to the page.</source>
+      <target state="translated">Dies ist ein Überblick über die Seiten in der Datenbank, die ein oder mehrere Templates enthalten. Klicken Sie auf einen Seitentitel, um zu der Seite zu gehen.</target></trans-unit>
+      <trans-unit id="areYouSure" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to do this?</source>
+      <target state="translated">Vorgang tatsächlich durchführen?</target></trans-unit>
+      <trans-unit id="noTemplate" xml:space="preserve" approved="yes">
+        <source>No template</source>
+      <target state="translated">Kein Template</target></trans-unit>
+      <trans-unit id="noTemplateDescription" xml:space="preserve" approved="yes">
+        <source>There was no template on this page!</source>
+      <target state="translated">Es gibt kein Template auf dieser Seite!</target></trans-unit>
+      <trans-unit id="createTemplate" xml:space="preserve" approved="yes">
+        <source>Create a template record first in order to edit constants!</source>
+      <target state="translated">Erstellen Sie zuerst ein Template, um die Konstanten zu bearbeiten!</target></trans-unit>
+      <trans-unit id="createTemplateToEditConfiguration" xml:space="preserve" approved="yes">
+        <source>You need to create a template record below in order to edit your configuration.</source>
+      <target state="translated">Sie müssen unten ein Template erstellen, um Ihre Konfiguration zu bearbeiten.</target></trans-unit>
+      <trans-unit id="newWebsite" xml:space="preserve" approved="yes">
+        <source>Create new website</source>
+      <target state="translated">Neue Website erstellen</target></trans-unit>
+      <trans-unit id="newWebsiteDescription" xml:space="preserve" approved="yes">
+        <source>If you want this page to be the root of a new website, optionally based on one of the standard templates, then press the button below:</source>
+      <target state="translated">Wenn diese Seite die Wurzel einer neuen Website sein soll, klicken Sie auf die Schaltfläche unten. Sie können optional ein Standard-Template als Grundlage auswählen:</target></trans-unit>
+      <trans-unit id="newWebsiteAction" xml:space="preserve" approved="yes">
+        <source>Create template for a new site</source>
+      <target state="translated">Template für neue Website erstellen</target></trans-unit>
+      <trans-unit id="extTemplate" xml:space="preserve" approved="yes">
+        <source>Create extension template</source>
+      <target state="translated">Erweiterungs-Template erstellen</target></trans-unit>
+      <trans-unit id="extTemplateDescription" xml:space="preserve" approved="yes">
+        <source>An extension template allows you to enter TypoScript values that will affect only this page and subpages.</source>
+      <target state="translated">Ein Erweiterungs-Template erlaubt Ihnen, TypoScript-Werte anzugeben, die nur diese Seite und deren Unterseiten betreffen.</target></trans-unit>
+      <trans-unit id="extTemplateAction" xml:space="preserve" approved="yes">
+        <source>Click here to create an extension template.</source>
+      <target state="translated">Klicken Sie hier, um ein Erweiterungs-Template zu erstellen.</target></trans-unit>
+      <trans-unit id="goToClosest" xml:space="preserve" approved="yes">
+        <source>Go to closest page with template</source>
+      <target state="translated">Zur nächsten Seite mit Template gehen</target></trans-unit>
+      <trans-unit id="goToClosestDescription" xml:space="preserve" approved="yes">
+        <source>Closest template is on page '%s' (uid %s).</source>
+      <target state="translated">Das nächste Template ist auf der Seite '%s' (UID %s).</target></trans-unit>
+      <trans-unit id="goToClosestAction" xml:space="preserve" approved="yes">
+        <source>Click here to go.</source>
+      <target state="translated">Klicken Sie hier, um dieses Template anzuzeigen.</target></trans-unit>
+      <trans-unit id="titleNewSiteStandard" xml:space="preserve" approved="yes">
+        <source>NEW SITE, based on standard</source>
+      <target state="translated">NEUE WEBSITE, basierend auf Standard</target></trans-unit>
+      <trans-unit id="titleNewSite" xml:space="preserve" approved="yes">
+        <source>NEW SITE</source>
+      <target state="translated">NEUE WEBSITE</target></trans-unit>
+    </body>
+  </file>
+</xliff>

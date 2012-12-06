@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<t3jquery>
+	<version type="array">
+		<act>2.1.1</act>
+		<cdn>2.1.1</cdn>
+	</version>
+	<groups type="array">
+		<numIndex index="1" type="array">
+			<name>Bootstrap from Twitter</name>
+			<label>Bootstrap from Twitter</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>BootstrapTransition</name>
+					<label>Transition</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.transition</detail>
+					<file>Bootstrap:bootstrap-transition.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.transition(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<name>BootstrapModal</name>
+					<label>Modal</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.modal</detail>
+					<file>Bootstrap:bootstrap-modal.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.modal(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="3" type="array">
+					<name>BootstrapDropdown</name>
+					<label>Dropdown</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.dropdown</detail>
+					<file>Bootstrap:bootstrap-dropdown.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.dropdown(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="4" type="array">
+					<name>BootstrapScrollspy</name>
+					<label>Scrollspy</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.scrollspy</detail>
+					<file>Bootstrap:bootstrap-scrollspy.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.scrollspy(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="5" type="array">
+					<name>BootstrapTab</name>
+					<label>Tab</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.tab</detail>
+					<file>Bootstrap:bootstrap-tab.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.tab(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="6" type="array">
+					<name>BootstrapTooltip</name>
+					<label>Tooltip</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.tooltip</detail>
+					<file>Bootstrap:bootstrap-tooltip.js</file>
+					<depends>jQuery</depends>
+					<disturbing>ToolsTooltip</disturbing>
+					<sources type="array">
+						<numIndex index="1">.tooltip(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="7" type="array">
+					<name>BootstrapPopover</name>
+					<label>Popover</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.popover</detail>
+					<file>Bootstrap:bootstrap-popover.js</file>
+					<depends>jQuery,BootstrapTooltip</depends>
+					<sources type="array">
+						<numIndex index="1">.popover(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="8" type="array">
+					<name>BootstrapAlert</name>
+					<label>Alert</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.alert</detail>
+					<file>Bootstrap:bootstrap-alert.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.alert(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="9" type="array">
+					<name>BootstrapButton</name>
+					<label>Button</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.button</detail>
+					<file>Bootstrap:bootstrap-button.js</file>
+					<depends>jQuery</depends>
+					<disturbing>Button</disturbing>
+					<sources type="array">
+						<numIndex index="1">.button(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="10" type="array">
+					<name>BootstrapCollapse</name>
+					<label>Collapse</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.collapse</detail>
+					<file>Bootstrap:bootstrap-collapse.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.collapse(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="11" type="array">
+					<name>BootstrapCarousel</name>
+					<label>Carousel</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.carousel</detail>
+					<file>Bootstrap:bootstrap-carousel.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.carousel(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="12" type="array">
+					<name>BootstrapTypeahead</name>
+					<label>Typeahead</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.typeahead</detail>
+					<file>Bootstrap:bootstrap-typeahead.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.typeahead(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="13" type="array">
+					<name>BootstrapAffix</name>
+					<label>Affix</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.bootstrap.affix</detail>
+					<file>Bootstrap:bootstrap-affix.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.affix(</numIndex>
+					</sources>
+				</numIndex>
+			</files>
+		</numIndex>
+	</groups>
+</t3jquery>

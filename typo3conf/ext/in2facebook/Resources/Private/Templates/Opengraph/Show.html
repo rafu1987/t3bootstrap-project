@@ -1,0 +1,28 @@
+HTML Template for in2facebook for the Opengraph Metatags
+See http://developers.facebook.com/docs/opengraph/ for mor information
+
+<f:layout name="default" />
+
+<f:section name="show">
+	<f:if condition="{in2facebook.title}">
+		<meta property="og:title" content="{in2facebook.title}" />
+	</f:if>
+	<f:if condition="{in2facebook.type}">
+		<meta property="og:type" content="{in2facebook.type}" />
+	</f:if>
+	<f:if condition="{in2facebook.url}">
+		<meta property="og:url" content="{in2facebook.url}" />
+	</f:if>
+	<f:if condition="{in2facebook.image}">
+		<meta property="og:image" content="<f:cObject typoscriptObjectPath="plugin.tx_in2facebook.settings.image" data="{in2facebook}" />" />
+	</f:if>
+	<f:if condition="{in2facebook.siteName}">
+		<meta property="og:site_name" content="{in2facebook.siteName}" />
+	</f:if>
+	<f:if condition="{in2facebook.admins}">
+		<meta property="fb:admins" content="{in2facebook.admins}" />
+	</f:if>
+	<f:if condition="{in2facebook.description}">
+		<meta property="og:description" content="{in2facebook.description}" />
+	</f:if>
+</f:section>

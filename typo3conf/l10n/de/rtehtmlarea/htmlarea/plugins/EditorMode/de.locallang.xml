@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="TextMode-Tooltip">Textmodus umschalten</label>
+      <label index="HTMLMode-Tooltip">HTML-Modus umschalten</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

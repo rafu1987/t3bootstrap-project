@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="sel1">Wählen Sie bitte den Seiteninhaltstyp aus, den Sie erstellen wollen:</label>
+      <label index="sel2">Wählen Sie nun die Position aus, an der das Element auf der Seite positioniert werden soll:</label>
+      <label index="common">Typischer Seiteninhalt</label>
+      <label index="common_headerOnly_title">Nur Überschrift</label>
+      <label index="common_headerOnly_description">Eine Überschrift.</label>
+      <label index="common_regularText_title">Text</label>
+      <label index="common_regularText_description">Ein normales Textelement mit Überschrift und Fließtext.</label>
+      <label index="common_textImage_title">Text und Bilder</label>
+      <label index="common_textImage_description">Eine beliebige Anzahl von Bildern mit umfließendem Text.</label>
+      <label index="common_imagesOnly_title">Nur Bilder</label>
+      <label index="common_imagesOnly_description">Eine beliebige Anzahl von in Zeilen und Spalten angeordneten Bildern mit Beschriftung.</label>
+      <label index="common_bulletList_title">Aufzählung</label>
+      <label index="common_bulletList_description">Eine einzelne Aufzählung.</label>
+      <label index="common_table_title">Tabelle</label>
+      <label index="common_table_description">Eine einfache Tabelle.</label>
+      <label index="special">Spezielle Elemente</label>
+      <label index="special_filelinks_title">Dateilinks</label>
+      <label index="special_filelinks_description">Erzeugt eine Liste mit Dateien zum Herunterladen.</label>
+      <label index="special_multimedia_title">Multimedia</label>
+      <label index="special_multimedia_description">Fügt ein Medienelement ein (z.B. Flash-Animation, Audiodatei, Video).</label>
+      <label index="special_media_title">Medien</label>
+      <label index="special_media_description">Fügt ein Medienelement wie eine Flash-Animation, eine Audiodatei oder einen Video-Clip hinzu.</label>
+      <label index="special_swfobject_title">Fügt ein Flash-Medienelement hinzu.</label>
+      <label index="special_swfobject_description">Fügt ein Flash-Medienelement, eine Audiodatei oder einen Video-Clip hinzu.</label>
+      <label index="special_qtobject_title">Fügt ein QuickTime-Element hinzu.</label>
+      <label index="special_qtobject_description">Fügt ein QuickTime-Element wie eine QuickTime-Audiodatei oder einen -Video-Clip (*.mov) hinzu.</label>
+      <label index="special_sitemap_title">Sitemap</label>
+      <label index="special_menus_title">Spezial-Menüs</label>
+      <label index="special_menus_description">Erstellt ein Seitenmenü, eine Sitemap oder andere Spezial-Menüs.</label>
+      <label index="special_plainHTML_title">Reines HTML</label>
+      <label index="special_plainHTML_description">Mit diesem Element kann reiner HTML-Quelltext auf der Seite eingefügt werden.</label>
+      <label index="special_divider_title">Trenner</label>
+      <label index="special_divider_description">Mit diesem Element wird ein sichtbarer Trenner eingefügt, standardmäßig eine horizontale Linie.</label>
+      <label index="special_shortcut_title">Datensätze einfügen</label>
+      <label index="special_shortcut_description">Mit diesem Element werden andere Inhaltselemente eingebunden.</label>
+      <label index="forms">Formulare</label>
+      <label index="forms_mail_title">Mail-Formular</label>
+      <label index="forms_mail_description">Ein E-Mail-Formular, mit dem Besucher mit Ihnen Kontakt aufnehmen können.</label>
+      <label index="forms_search_title">Suchformular</label>
+      <label index="forms_search_description">Zeigt ein Suchformular und die Suchergebnisse, wenn eine Suche durchgeführt wurde.</label>
+      <label index="forms_login_title">Anmeldeformular</label>
+      <label index="forms_login_description">Ein An-/Abmeldeformular, um passwortgeschützte Seiten nur für authorisierte Benutzer und Gruppen zugänglich zu machen.</label>
+      <label index="plugins">Plug-Ins</label>
+      <label index="plugins_general_title">Allgemeines Plug-In</label>
+      <label index="plugins_general_description">Wählen Sie diesen Elementtyp, um ein Plug-In einzufügen, das nicht bei den Optionen oben aufgeführt ist.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

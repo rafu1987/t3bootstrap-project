@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title.description">Geben Sie den den Namen dieser zusätzlichen systemweiten Spracherweiterung an.</label>
+      <label index="hidden.description">Diese Option versteckt die systemweite Spracherweiterung innerhalb des Backend. Backend-Benutzern steht somit diese Systemsprache nicht zur Verfügung.</label>
+      <label index=".description">Definiert, welche alternativen Sprachen auf den einzelnen Web-Seiten verfügbar sind.</label>
+      <label index=".details">Das Modul "Web &gt; Seite" bietet Backend-Benutzern die Möglichkeit, Seiteninhalte nicht nur spaltenweise, sondern auch nach Sprachen getrennt zu editieren. Die verfügbaren Sprachen werden durch die zuvor angelegten alternativen Seitensprachen definiert. Damit eine Web-Seite in einer anderen Sprache verfügbar ist, muss zuvor auf dieser Seite ein Datensatz vom Typ "Alternative Seitensprache" angelegt worden sein.</label>
+      <label index="_.seeAlso">pages_language_overlay</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

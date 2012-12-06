@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="details">Details</label>
+      <label index="syntax">Syntax</label>
+      <label index="seeAlso">Siehe auch</label>
+      <label index="goBack">Zurück</label>
+      <label index="fullDescription">Komplette Beschreibung der Tabelle ansehen</label>
+      <label index="fullDescription_module">Komplette Beschreibung des Moduls ansehen</label>
+      <label index="goToToc">&lt;&lt; Zum Inhaltsverzeichnis</label>
+      <label index="to_top">Nach oben</label>
+      <label index="TOC">Inhaltsverzeichnis</label>
+      <label index="TOC_core">TYPO3-Kernfunktionen</label>
+      <label index="TOC_modules">Backend-Module</label>
+      <label index="TOC_tables">Datenbanktabellen</label>
+      <label index="TOC_extensions">Erweiterungen</label>
+      <label index="TOC_glossary">Glossar</label>
+      <label index="TOC_other">Sonstiges</label>
+      <label index="close">Schließen</label>
+      <label index="title">Lokale TYPO3-Hilfe</label>
+      <label index="manual_title">Lokales TYPO3-Handbuch</label>
+      <label index="introduction">Einleitung</label>
+      <label index="description">Das lokale TYPO3-Handbuch wird dynamisch aus den Hilfetexten dieser TYPO3-Installation erzeugt (kontextabhängige Hilfe). Es enthält eine allgemeine Beschreibung der Kernmodule von TYPO3, Beschreibungen zur Installation bestimmter Backend-Module und Datenbanktabellen, die abhängig von Ihren Zugriffsrechten zur Verfügung stehen.</label>
+      <label index="full_manual">Vollständiges Handbuch (auf einer Seite)</label>
+      <label index="full_manual_chapters">Kapitel des Handbuchs</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

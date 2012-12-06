@@ -1,0 +1,19 @@
+
+plugin.tx_macinasearchbox_pi1.CSS_editor = Plugin: "tx_macinasearchbox_pi1"
+plugin.tx_macinasearchbox_pi1.CSS_editor.selector = .tx-macinasearchbox-pi1
+plugin.tx_macinasearchbox_pi1.CSS_editor.exampleWrap = <HR><strong>Plugin: "tx_macinasearchbox_pi1"</strong><HR><DIV class="tx-macinasearchbox-pi1"> | </DIV>
+plugin.tx_macinasearchbox_pi1.CSS_editor.ch {
+	P = Text
+	P.selector = P
+	P.attribs = BODYTEXT
+	P.example = <P>General text wrapped in &lt;P&gt;:<BR>This is text <A href="#">with a link</A> in it. In principio creavit Deus caelum et terram terra autem erat inanis et vacua et tenebrae super faciem abyssi et spiritus...</P>
+	P.exampleStop = 1
+	P.ch.links = < CSS_editor.ch.A
+	
+	H3 = Header 3
+	H3.selector = H3
+	H3.attribs = HEADER
+	H3.example = <H3>Header 3 example <A href="#"> with link</A></H3><P>Bodytext, Et praeessent diei ac nocti et dividerent lucem ac tenebras et vidit Deus quod esset bonum et factum est...</P>
+	H3.ch.links = < CSS_editor.ch.A
+	H3.exampleStop = 1
+}

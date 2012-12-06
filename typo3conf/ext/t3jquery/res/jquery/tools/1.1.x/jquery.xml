@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<t3jquery>
+	<version type="array">
+		<act>1.1.2</act>
+		<cdn>1.1.2</cdn>
+	</version>
+	<groups type="array">
+		<numIndex index="1" type="array">
+			<name>jQuery TOOLS Tabs</name>
+			<label>jQuery TOOLS Tabs</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>ToolsTabs</name>
+					<label>Tabs</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.tabs</detail>
+					<file>TOOLS:tools.tabs.js</file>
+					<depends>jQuery</depends>
+					<disturbing>Tabs</disturbing>
+					<sources type="array">
+						<numIndex index="1">.tabs(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<name>ToolsTabsSlideshow</name>
+					<label>Slideshow plugin</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.tabsslideshow</detail>
+					<file>TOOLS:tools.tabs.slideshow.js</file>
+					<depends>ToolsTabs</depends>
+					<sources type="array">
+						<numIndex index="1">.slideshow(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="3" type="array">
+					<name>ToolsTabsHistory</name>
+					<label>History plugin</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.tabshistory</detail>
+					<file>TOOLS:tools.tabs.history.js</file>
+					<depends>ToolsTabs</depends>
+					<sources type="array">
+						<numIndex index="1">.history(</numIndex>
+					</sources>
+				</numIndex>
+			</files>
+		</numIndex>
+		<numIndex index="2" type="array">
+			<name>jQuery TOOLS Tooltip</name>
+			<label>jQuery TOOLS Tooltip</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>ToolsTooltip</name>
+					<label>Tooltip</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.tooltip</detail>
+					<file>TOOLS:tools.tooltip.js</file>
+					<depends>jQuery</depends>
+					<disturbing>BootstrapTooltip</disturbing>
+					<sources type="array">
+						<numIndex index="1">.tooltip(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<name>ToolsTooltipSlide</name>
+					<label>Slide effect</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.tooltipslide</detail>
+					<file>TOOLS:tools.tooltip.slide.js</file>
+					<depends>ToolsTooltip</depends>
+				</numIndex>
+				<numIndex index="3" type="array">
+					<name>ToolsTooltipDynamic</name>
+					<label>Dynamic positioning plugin</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.tooltipdynamic</detail>
+					<file>TOOLS:tools.tooltip.dynamic.js</file>
+					<depends>ToolsTooltip</depends>
+					<sources type="array">
+						<numIndex index="1">.dynamic(</numIndex>
+					</sources>
+				</numIndex>
+			</files>
+		</numIndex>
+		<numIndex index="3" type="array">
+			<name>jQuery TOOLS Scrollable</name>
+			<label>jQuery TOOLS Scrollable</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>ToolsScrollable</name>
+					<label>Scrollable</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.scrollable</detail>
+					<file>TOOLS:tools.scrollable.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.scrollable(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<name>ToolsScrollableCircular</name>
+					<label>Circular plugin</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.scrollablecircular</detail>
+					<file>TOOLS:tools.scrollable.circular.js</file>
+					<depends>ToolsScrollable</depends>
+					<sources type="array">
+						<numIndex index="1">.circular(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="3" type="array">
+					<name>ToolsScrollableAutoscroll</name>
+					<label>Autoscroll plugin</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.scrollableautoscroll</detail>
+					<file>TOOLS:tools.scrollable.autoscroll.js</file>
+					<depends>ToolsScrollable</depends>
+					<sources type="array">
+						<numIndex index="1">.autoscroll(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="4" type="array">
+					<name>ToolsScrollableNavigator</name>
+					<label>Navigator plugin</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.scrollablenavigator</detail>
+					<file>TOOLS:tools.scrollable.navigator.js</file>
+					<depends>ToolsScrollable</depends>
+					<sources type="array">
+						<numIndex index="1">.navigator(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="5" type="array">
+					<name>ToolsScrollableMousewheel</name>
+					<label>Mousewheel plugin</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.scrollablemousewheel</detail>
+					<file>TOOLS:tools.scrollable.mousewheel.js</file>
+					<depends>ToolsScrollable</depends>
+					<sources type="array">
+						<numIndex index="1">.mousewheel(</numIndex>
+					</sources>
+				</numIndex>
+			</files>
+		</numIndex>
+		<numIndex index="4" type="array">
+			<name>jQuery TOOLS Overlay</name>
+			<label>jQuery TOOLS Overlay</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>ToolsOverlay</name>
+					<label>Overlay</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.overlay</detail>
+					<file>TOOLS:tools.overlay.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.overlay(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<name>ToolsOverlayGallery</name>
+					<label>Gallery plugin</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.overlaygallery</detail>
+					<file>TOOLS:tools.overlay.gallery.js</file>
+					<depends>ToolsOverlay</depends>
+					<sources type="array">
+						<numIndex index="1">.gallery(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="3" type="array">
+					<name>ToolsOverlayApple</name>
+					<label>Apple effect</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.overlayapple</detail>
+					<file>TOOLS:tools.overlay.apple.js</file>
+					<depends>ToolsOverlay</depends>
+					<sources type="array">
+						<numIndex index="1">effect: 'apple'</numIndex>
+						<numIndex index="2">effect:'apple'</numIndex>
+						<numIndex index="3">effect: "apple"</numIndex>
+						<numIndex index="4">effect:"apple"</numIndex>
+					</sources>
+				</numIndex>
+			</files>
+		</numIndex>
+		<numIndex index="5" type="array">
+			<name>jQuery TOOLS Expose</name>
+			<label>jQuery TOOLS Expose</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>ToolsExpose</name>
+					<label>Expose</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.expose</detail>
+					<file>TOOLS:tools.expose.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.expose(</numIndex>
+					</sources>
+				</numIndex>
+			</files>
+		</numIndex>
+		<numIndex index="6" type="array">
+			<name>jQuery TOOLS Flashembed</name>
+			<label>jQuery TOOLS Flashembed</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>ToolsFlashembed</name>
+					<label>Flashembed</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.flashembed</detail>
+					<file>TOOLS:tools.flashembed.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">flashembed(</numIndex>
+						<numIndex index="2">flashembed.</numIndex>
+					</sources>
+				</numIndex>
+			</files>
+		</numIndex>
+		<numIndex index="7" type="array">
+			<name>jQuery TOOLS Flowplayer</name>
+			<label>jQuery TOOLS Flowplayer</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>ToolsFlowplayer</name>
+					<label>Flowplayer</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.flowplayer</detail>
+					<file>TOOLS:flowplayer.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">$f(</numIndex>
+						<numIndex index="2">.flowplayer(</numIndex>
+						<numIndex index="3">flowplayer(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<name>ToolsFlowplayerControlbar</name>
+					<label>Controlbar plugin</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.flowplayercontrolbar</detail>
+					<file>TOOLS:flowplayer.controls.js</file>
+					<depends>ToolsFlowplayer</depends>
+					<sources type="array">
+						<numIndex index="1">.controls(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="3" type="array">
+					<name>ToolsFlowplayerPlaylist</name>
+					<label>Playlist plugin</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.flowplayerplaylist</detail>
+					<file>TOOLS:flowplayer.playlist.js</file>
+					<depends>ToolsFlowplayer</depends>
+					<sources type="array">
+						<numIndex index="1">.playlist(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="4" type="array">
+					<name>ToolsFlowplayerEmbedding</name>
+					<label>Embedding plugin</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:tools.component.flowplayerembedding</detail>
+					<file>TOOLS:flowplayer.embed.js</file>
+					<depends>ToolsFlowplayer</depends>
+					<sources type="array">
+						<numIndex index="1">.embed(</numIndex>
+						<numIndex index="2">.getEmbedCode(</numIndex>
+					</sources>
+				</numIndex>
+			</files>
+		</numIndex>
+	</groups>
+</t3jquery>

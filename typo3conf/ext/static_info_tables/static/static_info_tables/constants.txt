@@ -1,0 +1,21 @@
+plugin.tx_staticinfotables_pi1 {.
+
+    # cat=plugin.tx_staticinfotables_pi1//; type=string; label= Default currency: ISO alpha-3 code of the default currency used to format an amount.
+   currencyCode = EUR
+
+    # cat=plugin.tx_staticinfotables_pi1//; type=string; label= Default country: ISO alpha-3 code of the default selected country in the drop-down selector.
+   countryCode =
+
+    # cat=plugin.tx_staticinfotables_pi1//; type=string; label= Allowed countries: ISO alpha-3 code of the countries which are allowed in the drop-down selector. The order of the countries will remain in the output.
+   countriesAllowed =
+
+    # cat=plugin.tx_staticinfotables_pi1//; type=string; label= Default country zone: Code of the default selected country zone in drop-down selector.
+   countryZoneCode =
+
+    # cat=plugin.tx_staticinfotables_pi1//; type=string; label= Default language: ISO alpha-2 code of the default selected language in drop-down selector.
+   languageCode =
+
+    # cat=plugin.tx_staticinfotables_pi1//; type=string; label= Onchange attribute : Value of onchange attribute of drop-down selectors, when present.
+   onChangeAttribute = javascript:this.form.submit();
+
+}

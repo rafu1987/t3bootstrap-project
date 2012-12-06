@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="labels.username" xml:space="preserve" approved="yes">
+        <source>Username</source>
+      <target state="translated">Benutzername</target></trans-unit>
+      <trans-unit id="labels.openId" xml:space="preserve" approved="yes">
+        <source>OpenID</source>
+      <target state="translated">OpenID</target></trans-unit>
+      <trans-unit id="labels.password" xml:space="preserve" approved="yes">
+        <source>Password</source>
+      <target state="translated">Passwort</target></trans-unit>
+      <trans-unit id="labels.interface" xml:space="preserve" approved="yes">
+        <source>Interface</source>
+      <target state="translated">Oberfläche</target></trans-unit>
+      <trans-unit id="labels.submitLogin" xml:space="preserve" approved="yes">
+        <source>Login</source>
+      <target state="translated">Anmelden</target></trans-unit>
+      <trans-unit id="labels.submitLogout" xml:space="preserve" approved="yes">
+        <source>Log Out</source>
+      <target state="translated">Abmelden</target></trans-unit>
+      <trans-unit id="labels.donate" xml:space="preserve" approved="yes">
+        <source>Donate</source>
+      <target state="translated">Spenden</target></trans-unit>
+      <trans-unit id="labels.whatIsOpenId" xml:space="preserve" approved="yes">
+        <source>What is OpenId?</source>
+      <target state="translated">Was ist OpenID?</target></trans-unit>
+      <trans-unit id="labels.switchToOpenId" xml:space="preserve" approved="yes">
+        <source>Switch to OpenID</source>
+      <target state="translated">Zum OpenID-Login</target></trans-unit>
+      <trans-unit id="labels.switchToDefault" xml:space="preserve" approved="yes">
+        <source>Switch to default login</source>
+      <target state="translated">Zum Standard-Login</target></trans-unit>
+      <trans-unit id="availableInterfaces" xml:space="preserve" approved="yes">
+        <source>Backend,Front End,Traditional Backend</source>
+      <target state="translated">Backend,Frontend,Traditionelles Backend</target></trans-unit>
+      <trans-unit id="interface.backend" xml:space="preserve" approved="yes">
+        <source>Backend</source>
+      <target state="translated">Backend</target></trans-unit>
+      <trans-unit id="interface.frontend" xml:space="preserve" approved="yes">
+        <source>Frontend</source>
+      <target state="translated">Frontend</target></trans-unit>
+      <trans-unit id="interface.backend_old" xml:space="preserve" approved="yes">
+        <source>Traditional Backend</source>
+      <target state="translated">Traditionelles Backend</target></trans-unit>
+      <trans-unit id="headline" xml:space="preserve" approved="yes">
+        <source>Login to the TYPO3 Backend on ###SITENAME###</source>
+      <target state="translated">Anmeldung am Backend von ###SITENAME###</target></trans-unit>
+      <trans-unit id="info.about" xml:space="preserve" approved="yes">
+        <source>This is the backend login of TYPO3. You need username and password to access this administration interface. If you are a visitor of ###SITENAME###, please visit the public website: ###SITELINK###</source>
+      <target state="translated">Dies ist die Anmeldung am TYPO3-Backend. Um auf die Verwaltungsoberfläche zugreifen zu können, benötigen Sie einen Benutzernamen und ein Passwort. Falls Sie ein Besucher von ###SITENAME### sind, besuchen Sie bitte den öffentlichen Bereich: ###SITELINK###</target></trans-unit>
+      <trans-unit id="info.reset" xml:space="preserve" approved="yes">
+        <source>Reset this form</source>
+      <target state="translated">Formular zurücksetzen</target></trans-unit>
+      <trans-unit id="info.cookies_and_js" xml:space="preserve" approved="yes">
+        <source>(Note: Cookies and JavaScript must be enabled!)</source>
+      <target state="translated">(Hinweis: Cookies und JavaScript müssen aktiviert sein!)</target></trans-unit>
+      <trans-unit id="clear" xml:space="preserve" approved="yes">
+        <source>Clear this field!</source>
+      <target state="translated">Dieses Feld leeren!</target></trans-unit>
+      <trans-unit id="login_process" xml:space="preserve" approved="yes">
+        <source>Verifying Login Data ...</source>
+      <target state="translated">Anmeldedaten werden verifiziert...</target></trans-unit>
+      <trans-unit id="warning.incompatibleBrowserHeadline" xml:space="preserve" approved="yes">
+        <source>Unsupported Browser</source>
+      <target state="translated">Nicht unterstützter Browser</target></trans-unit>
+      <trans-unit id="warning.incompatibleBrowser" xml:space="preserve" approved="yes">
+        <source>You are using an unsupported browser version.</source>
+      <target state="translated">Sie verwenden eine nicht unterstützte Browser-Version.</target></trans-unit>
+      <trans-unit id="warning.incompatibleBrowserInternetExplorer" xml:space="preserve" approved="yes">
+        <source>Please install &lt;a href="http://www.microsoft.com/internetexplorer/" target="_blank" /&gt;a more modern browser version&lt;/a&gt;.</source>
+      <target state="translated">Bitte installieren Sie &lt;a href="http://www.microsoft.com/internetexplorer/" target="_blank" /&gt;eine aktuellere Browser-Version&lt;/a&gt;.</target></trans-unit>
+      <trans-unit id="newsheadline" xml:space="preserve" approved="yes">
+        <source>Important Messages:</source>
+      <target state="translated">Wichtige Meldungen:</target></trans-unit>
+      <trans-unit id="error.login" xml:space="preserve" approved="yes">
+        <source>Your login attempt did not succeed. Make sure to spell your username and password correctly, including upper/lowercase characters.</source>
+      <target state="translated">Der Anmeldeversuch ist fehlgeschlagen. Achten Sie darauf, Benutzernamen und Passwort korrekt einzugeben, einschließlich Groß-/Kleinschreibung.</target></trans-unit>
+      <trans-unit id="error.login.title" xml:space="preserve" approved="yes">
+        <source>Your login attempt did not succeed</source>
+      <target state="translated">Ihr Anmeldeversuch war nicht erfolgreich</target></trans-unit>
+      <trans-unit id="error.login.description" xml:space="preserve" approved="yes">
+        <source>Make sure to spell your username and password correctly, including upper/lowercase characters.</source>
+      <target state="translated">Bitte stellen Sie sicher, dass Ihr Benutzername und Passwort korrekt sind. Groß-/Kleinschreibung wird unterschieden.</target></trans-unit>
+      <trans-unit id="error.javascript" xml:space="preserve" approved="yes">
+        <source>Activate JavaScript, please!</source>
+      <target state="translated">Bitte aktivieren Sie JavaScript!</target></trans-unit>
+      <trans-unit id="error.cookies" xml:space="preserve" approved="yes">
+        <source>Activate Cookies, please!</source>
+      <target state="translated">Bitte aktivieren Sie Cookies!</target></trans-unit>
+      <trans-unit id="error.cookies_ignore" xml:space="preserve" approved="yes">
+        <source>Ignore!</source>
+      <target state="translated">Ignorieren!</target></trans-unit>
+      <trans-unit id="error.capslock" xml:space="preserve" approved="yes">
+        <source>Attention: Caps lock enabled!</source>
+      <target state="translated">Achtung: Feststelltaste aktiviert!</target></trans-unit>
+      <trans-unit id="error.furtherInformation" xml:space="preserve" approved="yes">
+        <source>For more information or further help click here</source>
+      <target state="translated">Weitere Informationen und Hilfe erhalten Sie hier</target></trans-unit>
+      <trans-unit id="warranty.by" xml:space="preserve" approved="yes">
+        <source>Warranty is supplied by %s; %sclick for details.%s</source>
+      <target state="translated">Gewährleistung wird geboten von %s; %sDetails sind hier verfügbar.%s</target></trans-unit>
+      <trans-unit id="no.warranty" xml:space="preserve" approved="yes">
+        <source>TYPO3 comes with ABSOLUTELY NO WARRANTY; %sclick for details.%s</source>
+      <target state="translated">Sie nutzen TYPO3 OHNE GEWÄHRLEISTUNG; %sDetails sind hier verfügbar.%s</target></trans-unit>
+      <trans-unit id="typo3.logo" xml:space="preserve" approved="yes">
+        <source>TYPO3 logo</source>
+      <target state="translated">TYPO3-Logo</target></trans-unit>
+      <trans-unit id="typo3.cms" xml:space="preserve" approved="yes">
+        <source>TYPO3 CMS</source>
+      <target state="translated">TYPO3 CMS</target></trans-unit>
+      <trans-unit id="version.short" xml:space="preserve" approved="yes">
+        <source>ver.</source>
+      <target state="translated">Ver.</target></trans-unit>
+      <trans-unit id="copyright" xml:space="preserve" approved="yes">
+        <source>Copyright</source>
+      <target state="translated">Copyright</target></trans-unit>
+      <trans-unit id="extension.copyright" xml:space="preserve" approved="yes">
+        <source>Extensions are copyright of their respective owners.</source>
+      <target state="translated">Erweiterungen sind Eigentum ihrer jeweiligen Autoren.</target></trans-unit>
+      <trans-unit id="details.link" xml:space="preserve" approved="yes">
+        <source>Go to %s for details.</source>
+      <target state="translated">Weitere Informationen erhalten Sie unter %s.</target></trans-unit>
+      <trans-unit id="free.software" xml:space="preserve" approved="yes">
+        <source>This is free software, and you are welcome to redistribute it under certain conditions; %sclick for details.%s</source>
+      <target state="translated">Dies ist freie Software und Sie dürfen sie unter gewissen Voraussetzungen verbreiten; %sDetails sind hier verfügbar.%s</target></trans-unit>
+      <trans-unit id="keep.notice" xml:space="preserve" approved="yes">
+        <source>Obstructing the appearance of this notice is prohibited by law.</source>
+      <target state="translated">Das Erscheinen dieses Hinweises zu verhindern, ist gesetzlich verboten.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

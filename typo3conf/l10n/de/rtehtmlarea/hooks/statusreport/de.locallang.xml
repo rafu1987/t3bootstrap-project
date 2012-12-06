@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">In Konflikt stehende Erweiterungen installiert</label>
+      <label index="none">Keine</label>
+      <label index="keys">Erweiterungsschlüssel:</label>
+      <label index="uninstall">In Konflikt stehende Erweiterungen sollten deinstalliert werden, damit htmlArea RTE ordnungsgemäß funktioniert.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

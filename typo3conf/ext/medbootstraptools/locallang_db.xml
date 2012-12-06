@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>database</type>
+        <description>Language labels for database tables/fields belonging to extension 'medbootstraptools'</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_medbootstraptools_buttonstyles">twitter bootstrap button styles</label>
+            <label index="tx_medbootstraptools_colors">Custom colors</label>
+            <label index="tx_medbootstraptools_buttonstyles.title">Title</label>
+            <label index="tx_medbootstraptools_buttonstyles.description">CSS Class (withour . or #)</label>
+            <label index="tx_medbootstraptools_colors.title">Title</label>
+            <label index="tx_medbootstraptools_colors.hex">Hex Code</label> 
+            <label index="tx_medbootstraptools_colors.colorpicker">Colorpicker</label>            
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="tx_medbootstraptools_buttonstyles">twitter bootstrap Button Stile</label>
+            <label index="tx_medbootstraptools_colors">Benutzerdefinierte Farben</label>
+            <label index="tx_medbootstraptools_buttonstyles.title">Titel</label>
+            <label index="tx_medbootstraptools_buttonstyles.description">CSS Klasse (ohne . oder #)</label>
+            <label index="tx_medbootstraptools_colors.title">Titel</label>
+            <label index="tx_medbootstraptools_colors.hex">Hex Code</label>  
+            <label index="tx_medbootstraptools_colors.colorpicker">Farbwähler</label>               
+        </languageKey>
+    </data>
+</T3locallang>

@@ -1,0 +1,515 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="Not set" xml:space="preserve" approved="yes">
+        <source>Not set</source>
+      <target state="translated">Nicht gesetzt</target></trans-unit>
+      <trans-unit id="None" xml:space="preserve" approved="yes">
+        <source>None</source>
+      <target state="translated">Keine</target></trans-unit>
+      <trans-unit id="Size and Headers" xml:space="preserve" approved="yes">
+        <source>Size and Headers</source>
+      <target state="translated">Größe und Köpfe</target></trans-unit>
+      <trans-unit id="Headers" xml:space="preserve" approved="yes">
+        <source>Headers</source>
+      <target state="translated">Köpfe</target></trans-unit>
+      <trans-unit id="CSS Style" xml:space="preserve" approved="yes">
+        <source>Style</source>
+      <target state="translated">CSS-Stil</target></trans-unit>
+      <trans-unit id="Class:" xml:space="preserve" approved="yes">
+        <source>Classes:</source>
+      <target state="translated">Klasse:</target></trans-unit>
+      <trans-unit id="Class selector" xml:space="preserve" approved="yes">
+        <source>Classes</source>
+      <target state="translated">CSS-Klassenselektor</target></trans-unit>
+      <trans-unit id="Table class:" xml:space="preserve" approved="yes">
+        <source>Table:</source>
+      <target state="translated">Tabelle:</target></trans-unit>
+      <trans-unit id="Table class selector" xml:space="preserve" approved="yes">
+        <source>Classes of the table</source>
+      <target state="translated">Klasse der Tabelle</target></trans-unit>
+      <trans-unit id="Table body class:" xml:space="preserve" approved="yes">
+        <source>Body:</source>
+      <target state="translated">Körper:</target></trans-unit>
+      <trans-unit id="Table body class selector" xml:space="preserve" approved="yes">
+        <source>Classes of the table body</source>
+      <target state="translated">Klasse des Tabellenkörpers</target></trans-unit>
+      <trans-unit id="Table header class:" xml:space="preserve" approved="yes">
+        <source>Header:</source>
+      <target state="translated">Kopf:</target></trans-unit>
+      <trans-unit id="Table header class selector" xml:space="preserve" approved="yes">
+        <source>Classes of the table header</source>
+      <target state="translated">Klasse des Tabellenkopfes</target></trans-unit>
+      <trans-unit id="Table footer class:" xml:space="preserve" approved="yes">
+        <source>Footer:</source>
+      <target state="translated">Fuß:</target></trans-unit>
+      <trans-unit id="Table footer class selector" xml:space="preserve" approved="yes">
+        <source>Classes of the table footer</source>
+      <target state="translated">Klasse des Tabellenfußes</target></trans-unit>
+      <trans-unit id="Default" xml:space="preserve" approved="yes">
+        <source>Default</source>
+      <target state="translated">Standard</target></trans-unit>
+      <trans-unit id="Undefined" xml:space="preserve" approved="yes">
+        <source>Undefined</source>
+      <target state="translated">Undefiniert</target></trans-unit>
+      <trans-unit id="Alignment" xml:space="preserve" approved="yes">
+        <source>Alignment</source>
+      <target state="translated">Ausrichtung</target></trans-unit>
+      <trans-unit id="All four sides" xml:space="preserve" approved="yes">
+        <source>All four sides</source>
+      <target state="translated">Alle vier Seiten</target></trans-unit>
+      <trans-unit id="Background and colors" xml:space="preserve" approved="yes">
+        <source>Background and colors</source>
+      <target state="translated">Hintergrund und Farben</target></trans-unit>
+      <trans-unit id="Background:" xml:space="preserve" approved="yes">
+        <source>Background:</source>
+      <target state="translated">Hintergrund:</target></trans-unit>
+      <trans-unit id="Baseline" xml:space="preserve" approved="yes">
+        <source>Baseline</source>
+      <target state="translated">Grundlinie</target></trans-unit>
+      <trans-unit id="Border style" xml:space="preserve" approved="yes">
+        <source>Border style</source>
+      <target state="translated">Rahmenstil</target></trans-unit>
+      <trans-unit id="Border style:" xml:space="preserve" approved="yes">
+        <source>Border style:</source>
+      <target state="translated">Rahmenstil:</target></trans-unit>
+      <trans-unit id="No border" xml:space="preserve" approved="yes">
+        <source>None</source>
+      <target state="translated">Kein</target></trans-unit>
+      <trans-unit id="Dotted" xml:space="preserve" approved="yes">
+        <source>Dotted</source>
+      <target state="translated">Gepunktet</target></trans-unit>
+      <trans-unit id="Dashed" xml:space="preserve" approved="yes">
+        <source>Dashed</source>
+      <target state="translated">Gestrichelt</target></trans-unit>
+      <trans-unit id="Solid" xml:space="preserve" approved="yes">
+        <source>Solid</source>
+      <target state="translated">Linie</target></trans-unit>
+      <trans-unit id="Double" xml:space="preserve" approved="yes">
+        <source>Double</source>
+      <target state="translated">Doppelt</target></trans-unit>
+      <trans-unit id="Groove" xml:space="preserve" approved="yes">
+        <source>Groove</source>
+      <target state="translated">Rille</target></trans-unit>
+      <trans-unit id="Ridge" xml:space="preserve" approved="yes">
+        <source>Ridge</source>
+      <target state="translated">Erhebung</target></trans-unit>
+      <trans-unit id="Inset" xml:space="preserve" approved="yes">
+        <source>Inset</source>
+      <target state="translated">Nach innen</target></trans-unit>
+      <trans-unit id="Outset" xml:space="preserve" approved="yes">
+        <source>Outset</source>
+      <target state="translated">Nach außen</target></trans-unit>
+      <trans-unit id="Borders" xml:space="preserve" approved="yes">
+        <source>Borders</source>
+      <target state="translated">Rahmen</target></trans-unit>
+      <trans-unit id="Bottom" xml:space="preserve" approved="yes">
+        <source>Bottom</source>
+      <target state="translated">Unten</target></trans-unit>
+      <trans-unit id="Border width" xml:space="preserve" approved="yes">
+        <source>Border width in pixels</source>
+      <target state="translated">Rahmenbreite</target></trans-unit>
+      <trans-unit id="Border width:" xml:space="preserve" approved="yes">
+        <source>Border width:</source>
+      <target state="translated">Rahmenbreite:</target></trans-unit>
+      <trans-unit id="Border color" xml:space="preserve" approved="yes">
+        <source>Border color</source>
+      <target state="translated">Rahmenfarbe</target></trans-unit>
+      <trans-unit id="Caption:" xml:space="preserve" approved="yes">
+        <source>Caption:</source>
+      <target state="translated">Titel:</target></trans-unit>
+      <trans-unit id="Description of the nature of the table" xml:space="preserve" approved="yes">
+        <source>Description of the nature of the table</source>
+      <target state="translated">Beschreibung der Tabellenart</target></trans-unit>
+      <trans-unit id="Row group" xml:space="preserve" approved="yes">
+        <source>Row group</source>
+      <target state="translated">Zeilengruppe</target></trans-unit>
+      <trans-unit id="Row group:" xml:space="preserve" approved="yes">
+        <source>Row group:</source>
+      <target state="translated">Zeilengruppe:</target></trans-unit>
+      <trans-unit id="Table section" xml:space="preserve" approved="yes">
+        <source>Table section to which the row belongs</source>
+      <target state="translated">Tabellenabschnitt, zu dem die Zeile gehört</target></trans-unit>
+      <trans-unit id="Table body" xml:space="preserve" approved="yes">
+        <source>Table body</source>
+      <target state="translated">Tabellenkörper</target></trans-unit>
+      <trans-unit id="Table header" xml:space="preserve" approved="yes">
+        <source>Table header</source>
+      <target state="translated">Tabellenkopf</target></trans-unit>
+      <trans-unit id="Table footer" xml:space="preserve" approved="yes">
+        <source>Table footer</source>
+      <target state="translated">Tabellenfuß</target></trans-unit>
+      <trans-unit id="Cell Properties" xml:space="preserve" approved="yes">
+        <source>Cell Properties</source>
+      <target state="translated">Zelleigenschaften</target></trans-unit>
+      <trans-unit id="Cell Type and Scope" xml:space="preserve" approved="yes">
+        <source>Cell Type and Scope</source>
+      <target state="translated">Zellentyp und Geltungsbereich</target></trans-unit>
+      <trans-unit id="Type of cell" xml:space="preserve" approved="yes">
+        <source>Type of cell:</source>
+      <target state="translated">Zellentyp:</target></trans-unit>
+      <trans-unit id="Normal" xml:space="preserve" approved="yes">
+        <source>Data cell</source>
+      <target state="translated">Normale Zelle</target></trans-unit>
+      <trans-unit id="Header" xml:space="preserve" approved="yes">
+        <source>Header cell</source>
+      <target state="translated">Kopfzelle</target></trans-unit>
+      <trans-unit id="Specifies the type of cell" xml:space="preserve" approved="yes">
+        <source>Specifies the type of cell</source>
+      <target state="translated">Legt den Zellentyp fest</target></trans-unit>
+      <trans-unit id="Scope" xml:space="preserve" approved="yes">
+        <source>Scope:</source>
+      <target state="translated">Geltungsbereich:</target></trans-unit>
+      <trans-unit id="scope_row" xml:space="preserve" approved="yes">
+        <source>Row</source>
+      <target state="translated">Zeile</target></trans-unit>
+      <trans-unit id="scope_column" xml:space="preserve" approved="yes">
+        <source>Column</source>
+      <target state="translated">Spalte</target></trans-unit>
+      <trans-unit id="scope_rowgroup" xml:space="preserve" approved="yes">
+        <source>Group of rows</source>
+      <target state="translated">Zeilengruppe</target></trans-unit>
+      <trans-unit id="Scope of header cell" xml:space="preserve" approved="yes">
+        <source>Scope of the header</source>
+      <target state="translated">Geltungsbereich des Kopfes</target></trans-unit>
+      <trans-unit id="Abbreviation" xml:space="preserve" approved="yes">
+        <source>Abbreviation</source>
+      <target state="translated">Abkürzung</target></trans-unit>
+      <trans-unit id="Header abbreviation" xml:space="preserve" approved="yes">
+        <source>Header abbreviation</source>
+      <target state="translated">Abkürzung des Kopfes</target></trans-unit>
+      <trans-unit id="Center" xml:space="preserve" approved="yes">
+        <source>Center</source>
+      <target state="translated">Zentrieren</target></trans-unit>
+      <trans-unit id="Character" xml:space="preserve" approved="yes">
+        <source>Character</source>
+      <target state="translated">Zeichen</target></trans-unit>
+      <trans-unit id="Align on this character" xml:space="preserve" approved="yes">
+        <source>Align text relative to this character</source>
+      <target state="translated">Text relativ an diesem Buchstaben ausrichten</target></trans-unit>
+      <trans-unit id="Collapsed borders" xml:space="preserve" approved="yes">
+        <source>Collapsed borders</source>
+      <target state="translated">Überlappte Ränder</target></trans-unit>
+      <trans-unit id="Detached borders" xml:space="preserve" approved="yes">
+        <source>Detached borders</source>
+      <target state="translated">Losgelöste Ränder</target></trans-unit>
+      <trans-unit id="Color:" xml:space="preserve" approved="yes">
+        <source>Color:</source>
+      <target state="translated">Farbe:</target></trans-unit>
+      <trans-unit id="Description" xml:space="preserve" approved="yes">
+        <source>Description</source>
+      <target state="translated">Beschreibung</target></trans-unit>
+      <trans-unit id="FG Color:" xml:space="preserve" approved="yes">
+        <source>Text:</source>
+      <target state="translated">Vordergrundfarbe:</target></trans-unit>
+      <trans-unit id="Float:" xml:space="preserve" approved="yes">
+        <source>Float:</source>
+      <target state="translated">Fließend:</target></trans-unit>
+      <trans-unit id="Specifies where the table should float" xml:space="preserve" approved="yes">
+        <source>Specifies where the table should float</source>
+      <target state="translated">Legt fest, wie die Tabelle schweben soll</target></trans-unit>
+      <trans-unit id="Non-floating" xml:space="preserve" approved="yes">
+        <source>Non-floating</source>
+      <target state="translated">Nicht-umfließend</target></trans-unit>
+      <trans-unit id="Frames:" xml:space="preserve" approved="yes">
+        <source>Frames:</source>
+      <target state="translated">Ränder:</target></trans-unit>
+      <trans-unit id="Specifies which sides should have a border" xml:space="preserve" approved="yes">
+        <source>Specifies which sides should have a border</source>
+      <target state="translated">Legt fest, welche Seiten einen Rahmen haben sollen</target></trans-unit>
+      <trans-unit id="Height:" xml:space="preserve" approved="yes">
+        <source>Height:</source>
+      <target state="translated">Höhe:</target></trans-unit>
+      <trans-unit id="Height unit" xml:space="preserve" approved="yes">
+        <source>Height unit</source>
+      <target state="translated">Höheneinheit</target></trans-unit>
+      <trans-unit id="Table height" xml:space="preserve" approved="yes">
+        <source>Table height</source>
+      <target state="translated">Tabellenhöhe</target></trans-unit>
+      <trans-unit id="Row height" xml:space="preserve" approved="yes">
+        <source>Row height</source>
+      <target state="translated">Zeilenhöhe</target></trans-unit>
+      <trans-unit id="Cell height" xml:space="preserve" approved="yes">
+        <source>Cell height</source>
+      <target state="translated">Zellhöhe</target></trans-unit>
+      <trans-unit id="How many columns would you like to merge?" xml:space="preserve" approved="yes">
+        <source>How many columns would you like to merge?</source>
+      <target state="translated">Wie viele Spalten verbinden?</target></trans-unit>
+      <trans-unit id="How many rows would you like to merge?" xml:space="preserve" approved="yes">
+        <source>How many rows would you like to merge?</source>
+      <target state="translated">Wie viele Zeilen verbinden?</target></trans-unit>
+      <trans-unit id="Image URL:" xml:space="preserve" approved="yes">
+        <source>Image URL:</source>
+      <target state="translated">Bild-URL:</target></trans-unit>
+      <trans-unit id="URL of the background image" xml:space="preserve" approved="yes">
+        <source>URL of the background image</source>
+      <target state="translated">URL des Hintergrundbildes</target></trans-unit>
+      <trans-unit id="Justify" xml:space="preserve" approved="yes">
+        <source>Justify</source>
+      <target state="translated">Blocksatz</target></trans-unit>
+      <trans-unit id="Layout" xml:space="preserve" approved="yes">
+        <source>Layout</source>
+      <target state="translated">Layout</target></trans-unit>
+      <trans-unit id="Left" xml:space="preserve" approved="yes">
+        <source>Left</source>
+      <target state="translated">Links</target></trans-unit>
+      <trans-unit id="Margin" xml:space="preserve" approved="yes">
+        <source>Margin</source>
+      <target state="translated">Rand</target></trans-unit>
+      <trans-unit id="Middle" xml:space="preserve" approved="yes">
+        <source>Middle</source>
+      <target state="translated">Mitte</target></trans-unit>
+      <trans-unit id="No rules" xml:space="preserve" approved="yes">
+        <source>No rules</source>
+      <target state="translated">Keine Linien</target></trans-unit>
+      <trans-unit id="No sides" xml:space="preserve" approved="yes">
+        <source>No sides</source>
+      <target state="translated">Keine Seiten</target></trans-unit>
+      <trans-unit id="Cell padding:" xml:space="preserve" approved="yes">
+        <source>Cell padding:</source>
+      <target state="translated">Einzug:</target></trans-unit>
+      <trans-unit id="Space between content and border in cell" xml:space="preserve" approved="yes">
+        <source>Space between content and border in cell</source>
+      <target state="translated">Leerraum zwischen Inhalt und Rahmen der Zelle</target></trans-unit>
+      <trans-unit id="Please click into some cell" xml:space="preserve" approved="yes">
+        <source>Please click into some cell</source>
+      <target state="translated">Bitte klicken Sie in eine Zelle</target></trans-unit>
+      <trans-unit id="Right" xml:space="preserve" approved="yes">
+        <source>Right</source>
+      <target state="translated">Rechts</target></trans-unit>
+      <trans-unit id="Row Properties" xml:space="preserve" approved="yes">
+        <source>Row Properties</source>
+      <target state="translated">Zeileneigenschaften</target></trans-unit>
+      <trans-unit id="Rules will appear between all rows and columns" xml:space="preserve" approved="yes">
+        <source>Rules will appear between all rows and columns</source>
+      <target state="translated">Linien erscheinen zwischen allen Zeilen und Spalten</target></trans-unit>
+      <trans-unit id="Rules will appear between columns only" xml:space="preserve" approved="yes">
+        <source>Rules will appear between columns only</source>
+      <target state="translated">Linien erscheinen nur zwischen Spalten</target></trans-unit>
+      <trans-unit id="Rules will appear between rows only" xml:space="preserve" approved="yes">
+        <source>Rules will appear between rows only</source>
+      <target state="translated">Linien erscheinen nur zwischen Zeilen</target></trans-unit>
+      <trans-unit id="Rules:" xml:space="preserve" approved="yes">
+        <source>Rules:</source>
+      <target state="translated">Linien:</target></trans-unit>
+      <trans-unit id="Specifies where rules should be displayed" xml:space="preserve" approved="yes">
+        <source>Specifies where rules should be displayed</source>
+      <target state="translated">Legt fest, wo Linien angezeigt werden sollen</target></trans-unit>
+      <trans-unit id="Spacing and padding" xml:space="preserve" approved="yes">
+        <source>Spacing and padding</source>
+      <target state="translated">Abstand und Einzug</target></trans-unit>
+      <trans-unit id="Frame and borders" xml:space="preserve" approved="yes">
+        <source>Frame and borders</source>
+      <target state="translated">Rahmen und Ränder</target></trans-unit>
+      <trans-unit id="Cell spacing:" xml:space="preserve" approved="yes">
+        <source>Cell spacing:</source>
+      <target state="translated">Abstand:</target></trans-unit>
+      <trans-unit id="Space between adjacent cells" xml:space="preserve" approved="yes">
+        <source>Space between adjacent cells</source>
+      <target state="translated">Abstand zwischen benachbarten Zellen</target></trans-unit>
+      <trans-unit id="Summary:" xml:space="preserve" approved="yes">
+        <source>Summary:</source>
+      <target state="translated">Zusammenfassung:</target></trans-unit>
+      <trans-unit id="Summary of the table purpose and structure" xml:space="preserve" approved="yes">
+        <source>Summary of the table's purpose and structure</source>
+      <target state="translated">Zusammenfassung von Zweck und Struktur der Tabelle</target></trans-unit>
+      <trans-unit id="captionOrSummary-required" xml:space="preserve" approved="yes">
+        <source>Please enter at least one of caption or summary</source>
+      <target state="translated">Bitte zumindest eine Überschrift oder eine Zusammenfassung eingeben</target></trans-unit>
+      <trans-unit id="caption-required" xml:space="preserve" approved="yes">
+        <source>Please enter a caption</source>
+      <target state="translated">Eine Überschrift eingeben</target></trans-unit>
+      <trans-unit id="summary-required" xml:space="preserve" approved="yes">
+        <source>Please enter a summary</source>
+      <target state="translated">Eine Zusammenfassung eingeben</target></trans-unit>
+      <trans-unit id="TO-cell-delete" xml:space="preserve" approved="yes">
+        <source>Delete cell</source>
+      <target state="translated">Zelle löschen</target></trans-unit>
+      <trans-unit id="TO-cell-insert-after" xml:space="preserve" approved="yes">
+        <source>Insert cell after</source>
+      <target state="translated">Zelle nach dieser einfügen</target></trans-unit>
+      <trans-unit id="TO-cell-insert-before" xml:space="preserve" approved="yes">
+        <source>Insert cell before</source>
+      <target state="translated">Zelle vor dieser einfügen</target></trans-unit>
+      <trans-unit id="TO-cell-merge" xml:space="preserve" approved="yes">
+        <source>Merge cells</source>
+      <target state="translated">Zellen verbinden</target></trans-unit>
+      <trans-unit id="TO-cell-prop" xml:space="preserve" approved="yes">
+        <source>Cell properties</source>
+      <target state="translated">Zelleigenschaften</target></trans-unit>
+      <trans-unit id="TO-cell-split" xml:space="preserve" approved="yes">
+        <source>Split cell</source>
+      <target state="translated">Zellen teilen</target></trans-unit>
+      <trans-unit id="TO-col-prop" xml:space="preserve" approved="yes">
+        <source>Column properties</source>
+      <target state="translated">Spalteneigenschaften</target></trans-unit>
+      <trans-unit id="TO-col-delete" xml:space="preserve" approved="yes">
+        <source>Delete column</source>
+      <target state="translated">Spalte löschen</target></trans-unit>
+      <trans-unit id="TO-col-insert-after" xml:space="preserve" approved="yes">
+        <source>Insert column after</source>
+      <target state="translated">Spalte nach dieser einfügen</target></trans-unit>
+      <trans-unit id="TO-col-insert-before" xml:space="preserve" approved="yes">
+        <source>Insert column before</source>
+      <target state="translated">Spalte vor dieser einügen</target></trans-unit>
+      <trans-unit id="TO-col-split" xml:space="preserve" approved="yes">
+        <source>Split column</source>
+      <target state="translated">Spalte teilen</target></trans-unit>
+      <trans-unit id="TO-row-delete" xml:space="preserve" approved="yes">
+        <source>Delete row</source>
+      <target state="translated">Zeile löschen</target></trans-unit>
+      <trans-unit id="TO-row-insert-above" xml:space="preserve" approved="yes">
+        <source>Insert row before</source>
+      <target state="translated">Zeile vor dieser einfügen</target></trans-unit>
+      <trans-unit id="TO-row-insert-under" xml:space="preserve" approved="yes">
+        <source>Insert row after</source>
+      <target state="translated">Zeile nach dieser einfügen</target></trans-unit>
+      <trans-unit id="TO-row-prop" xml:space="preserve" approved="yes">
+        <source>Row properties</source>
+      <target state="translated">Zeileneigenschaften</target></trans-unit>
+      <trans-unit id="TO-row-split" xml:space="preserve" approved="yes">
+        <source>Split row</source>
+      <target state="translated">Zeile teilen</target></trans-unit>
+      <trans-unit id="TO-table-prop" xml:space="preserve" approved="yes">
+        <source>Table properties</source>
+      <target state="translated">Tabelleneigenschaften</target></trans-unit>
+      <trans-unit id="TO-table-restyle" xml:space="preserve" approved="yes">
+        <source>Re-apply table styles</source>
+      <target state="translated">Tabellenstile erneut anwenden</target></trans-unit>
+      <trans-unit id="TO-toggle-borders" xml:space="preserve" approved="yes">
+        <source>Toggle borders</source>
+      <target state="translated">Ränder umschalten</target></trans-unit>
+      <trans-unit id="Table Properties" xml:space="preserve" approved="yes">
+        <source>Table Properties</source>
+      <target state="translated">Tabelleneigenschaften</target></trans-unit>
+      <trans-unit id="Text alignment:" xml:space="preserve" approved="yes">
+        <source>Text alignment:</source>
+      <target state="translated">Textausrichtung:</target></trans-unit>
+      <trans-unit id="Horizontal alignment of text within cell" xml:space="preserve" approved="yes">
+        <source>Horizontal alignment of text within cell</source>
+      <target state="translated">Horizontale Textausrichtung innerhalb der Zelle</target></trans-unit>
+      <trans-unit id="The bottom side only" xml:space="preserve" approved="yes">
+        <source>The bottom side only</source>
+      <target state="translated">Nur unten</target></trans-unit>
+      <trans-unit id="The left-hand side only" xml:space="preserve" approved="yes">
+        <source>The left-hand side only</source>
+      <target state="translated">Nur links</target></trans-unit>
+      <trans-unit id="The right and left sides only" xml:space="preserve" approved="yes">
+        <source>The right and left sides only</source>
+      <target state="translated">Nur rechts und links</target></trans-unit>
+      <trans-unit id="The right-hand side only" xml:space="preserve" approved="yes">
+        <source>The right-hand side only</source>
+      <target state="translated">Nur rechts</target></trans-unit>
+      <trans-unit id="The top and bottom sides only" xml:space="preserve" approved="yes">
+        <source>The top and bottom sides only</source>
+      <target state="translated">Nur oben und unten</target></trans-unit>
+      <trans-unit id="The top side only" xml:space="preserve" approved="yes">
+        <source>The top side only</source>
+      <target state="translated">Nur oben</target></trans-unit>
+      <trans-unit id="Top" xml:space="preserve" approved="yes">
+        <source>Top</source>
+      <target state="translated">Oben</target></trans-unit>
+      <trans-unit id="Unset color" xml:space="preserve" approved="yes">
+        <source>Unset color</source>
+      <target state="translated">Keine Farbe</target></trans-unit>
+      <trans-unit id="Vertical alignment:" xml:space="preserve" approved="yes">
+        <source>Vertical alignment:</source>
+      <target state="translated">Vertikale Ausrichtung:</target></trans-unit>
+      <trans-unit id="Vertical alignment of content within cell" xml:space="preserve" approved="yes">
+        <source>Vertical alignment of content within cell</source>
+      <target state="translated">Vertikale Ausrichtung des Inhalts innerhalb der Zelle</target></trans-unit>
+      <trans-unit id="Width:" xml:space="preserve" approved="yes">
+        <source>Width:</source>
+      <target state="translated">Breite:</target></trans-unit>
+      <trans-unit id="Width unit" xml:space="preserve" approved="yes">
+        <source>Width unit</source>
+      <target state="translated">Breiteneinheit</target></trans-unit>
+      <trans-unit id="Table width" xml:space="preserve" approved="yes">
+        <source>Table width</source>
+      <target state="translated">Tabellenbreite</target></trans-unit>
+      <trans-unit id="Row width" xml:space="preserve" approved="yes">
+        <source>Row width</source>
+      <target state="translated">Zeilenbreite</target></trans-unit>
+      <trans-unit id="Cell width" xml:space="preserve" approved="yes">
+        <source>Cell width</source>
+      <target state="translated">Zellenbreite</target></trans-unit>
+      <trans-unit id="not-del-last-cell" xml:space="preserve" approved="yes">
+        <source>HTMLArea cowardly refuses to delete the last cell in row.</source>
+      <target state="translated">HTMLArea verweigert feige, die letzte Zelle der Tabelle zu löschen.</target></trans-unit>
+      <trans-unit id="not-del-last-col" xml:space="preserve" approved="yes">
+        <source>HTMLArea cowardly refuses to delete the last column in table.</source>
+      <target state="translated">HTMLArea verweigert feige, die letzte Spalte der Tabelle zu löschen.</target></trans-unit>
+      <trans-unit id="not-del-last-row" xml:space="preserve" approved="yes">
+        <source>HTMLArea cowardly refuses to delete the last row in table.</source>
+      <target state="translated">HTMLArea verweigert feige, die letzte Zeile der Tabelle zu löschen.</target></trans-unit>
+      <trans-unit id="percent" xml:space="preserve" approved="yes">
+        <source>percent</source>
+      <target state="translated">Prozent</target></trans-unit>
+      <trans-unit id="pixels" xml:space="preserve" approved="yes">
+        <source>pixels</source>
+      <target state="translated">Pixel</target></trans-unit>
+      <trans-unit id="em" xml:space="preserve" approved="yes">
+        <source>em</source>
+      <target state="translated">em</target></trans-unit>
+      <trans-unit id="Headers:" xml:space="preserve" approved="yes">
+        <source>Header cells</source>
+      <target state="translated">Köpfe:</target></trans-unit>
+      <trans-unit id="Table headers" xml:space="preserve" approved="yes">
+        <source>Table headers</source>
+      <target state="translated">Tabellenköpfe</target></trans-unit>
+      <trans-unit id="No header cells" xml:space="preserve" approved="yes">
+        <source>No header cells</source>
+      <target state="translated">Keine Kopfzellen</target></trans-unit>
+      <trans-unit id="Header cells on top" xml:space="preserve" approved="yes">
+        <source>Header cells on top</source>
+      <target state="translated">Kopfzellen oberhalb</target></trans-unit>
+      <trans-unit id="Header cells on left" xml:space="preserve" approved="yes">
+        <source>Header cells on left</source>
+      <target state="translated">Kopfzellen links</target></trans-unit>
+      <trans-unit id="Header cells on top and left" xml:space="preserve" approved="yes">
+        <source>Header cells on top and left</source>
+      <target state="translated">Kopfzellen oberhalb und links</target></trans-unit>
+      <trans-unit id="Make cells header cells" xml:space="preserve" approved="yes">
+        <source>Make all row cells header cells</source>
+      <target state="translated">Alle Zellen der Zeile in Kopfzellen umwandeln</target></trans-unit>
+      <trans-unit id="Make cells data cells" xml:space="preserve" approved="yes">
+        <source>Make all row cells data cells</source>
+      <target state="translated">Alle Zellen der Zeile in Datenzellen umwandeln</target></trans-unit>
+      <trans-unit id="Header for column" xml:space="preserve" approved="yes">
+        <source>Header cell for column</source>
+      <target state="translated">Kopfzelle für Spalte</target></trans-unit>
+      <trans-unit id="Header for row" xml:space="preserve" approved="yes">
+        <source>Header cell for row</source>
+      <target state="translated">Kopfzelle für Zeile</target></trans-unit>
+      <trans-unit id="Header for row group" xml:space="preserve" approved="yes">
+        <source>Header cell for row group</source>
+      <target state="translated">Kopfzelle für Gruppe von Zeilen</target></trans-unit>
+      <trans-unit id="Column Properties" xml:space="preserve" approved="yes">
+        <source>Column Cells Properties</source>
+      <target state="translated">Spaltenzelleneigenschaften</target></trans-unit>
+      <trans-unit id="Type of cells" xml:space="preserve" approved="yes">
+        <source>Type of cells</source>
+      <target state="translated">Zellentyp</target></trans-unit>
+      <trans-unit id="Type of cells of the column" xml:space="preserve" approved="yes">
+        <source>Type of cells of the column:</source>
+      <target state="translated">Zellentyp der Spalte:</target></trans-unit>
+      <trans-unit id="Specifies the type of cells" xml:space="preserve" approved="yes">
+        <source>Specifies the type of cells of the column</source>
+      <target state="translated">Legt den Typ der Zellen der Spalte fest</target></trans-unit>
+      <trans-unit id="Data cells" xml:space="preserve" approved="yes">
+        <source>Data cells</source>
+      <target state="translated">Datenzellen</target></trans-unit>
+      <trans-unit id="Headers for rows" xml:space="preserve" approved="yes">
+        <source>Headers for rows</source>
+      <target state="translated">Köpfe für Zeilen</target></trans-unit>
+      <trans-unit id="Headers for row groups" xml:space="preserve" approved="yes">
+        <source>Headers for row groups</source>
+      <target state="translated">Köpfe für Gruppen von Zeilen</target></trans-unit>
+      <trans-unit id="Technische Universitat Ilmenau" xml:space="preserve" approved="yes">
+        <source>Technische Universität Ilmenau</source>
+      <target state="translated">Technische Universität Ilmenau</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Verwaltung der Backend-Benutzer</label>
+      <label index="mlang_labels_tabdescr">Das Benutzerverwaltungsmodul bietet eine Übersicht über alle vorhanden Benutzer des TYPO3-Backends. Sie können diese Benutzer ihren Eigenschaften entsprechend gruppieren, deren Zugriffrechte, Dateimounts, Konfiguration, Gruppenzugehörigkeiten ansehen usw. Dieses Modul ist ein unentbehrliches Hilfsmittel zur Überprüfung und Festlegung der korrekten Benutzerkonfiguration.&lt;br /&gt;&lt;em&gt;Zugriff nur für Administratoren!&lt;/em&gt;</label>
+      <label index="mlang_tabs_tab">Benutzer</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

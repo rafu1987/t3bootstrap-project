@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="deactivate">T3Editor deaktivieren</label>
+      <label index="template">Template</label>
+      <label index="file">Datei</label>
+      <label index="delimiter">:</label>
+      <label index="constants">Konstanten</label>
+      <label index="setup">Setup</label>
+      <label index="unknownContentType">Unbekannter Inhaltstyp:</label>
+      <label index="pageIDInteger">Syntaxfehler: Der Parameter pageID muss vom Typ Integer sein.</label>
+      <label index="noPermission">Zugriff verweigert: Keine Zugriffsrechte auf Template-Datensätze vorhanden.</label>
+      <label index="typeIDMissing">Syntaxfehler: Es muss mindestens der Parameter typeID angegeben werden.</label>
+      <label index="js.label_lines">Zeilen</label>
+      <label index="js.label_documentModified">Das Dokument wurde verändert.</label>
+      <label index="js.label_errorWhileSaving">Während des Speicherns der Daten ist ein Fehler aufgetreten.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

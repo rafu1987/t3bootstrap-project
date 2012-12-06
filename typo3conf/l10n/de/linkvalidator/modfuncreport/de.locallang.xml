@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="menu.introduction">Einleitung</label>
+      <label index="menu.checkLinks">Links auf Gültigkeit überprüfen</label>
+      <label index="menu.overview">Überblick der Links auf der Website</label>
+      <label index="overview.header">Überblick - Wählen Sie aus den folgenden Optionen, um die Links zu prüfen</label>
+      <label index="overview.all.header">Anzahl in tt_content</label>
+      <label index="overview.all.records">Datensätze mit ext. Links:</label>
+      <label index="overview.all.links">Externe Links:</label>
+      <label index="overview.branch.header">Anzahl aus aktuellem Teilbereich in tt_content</label>
+      <label index="overview.branch.records">Datensätze mit externen Links:</label>
+      <label index="overview.branch.links">Externe Links:</label>
+      <label index="overview.attention.header">Achtung:</label>
+      <label index="overview.attention.text">Die Überprüfung kann mehrere Minuten dauern. Die Überprüfung eines einzelnen Links kann bis zu 3 Sekunden benötigen.</label>
+      <label index="Report">Bericht</label>
+      <label index="CheckLink">Links überprüfen</label>
+      <label index="report.statistics.header">Diese Typen defekter Links zeigen</label>
+      <label index="checklinks.statistics.header">Diese Typen defekter Links prüfen</label>
+      <label index="report.func.title">Diese Ebenen zeigen</label>
+      <label index="checklinks.func.title">Diese Ebenen prüfen</label>
+      <label index="overviews.nbtotal">Defekte Links insgesamt:</label>
+      <label index="hooks.db">Interne Links:</label>
+      <label index="hooks.file">Dateilinks:</label>
+      <label index="hooks.external">Externe Links:</label>
+      <label index="hooks.linkhandler">Linkhandler-Links:</label>
+      <label index="label_refresh">Ansicht aktualisieren</label>
+      <label index="label_update">Links überprüfen</label>
+      <label index="list.header">Auflistung defekter Links</label>
+      <label index="list.tableHead.path">Pfad</label>
+      <label index="list.tableHead.element">Element</label>
+      <label index="list.tableHead.headlink">Link</label>
+      <label index="list.tableHead.linktarget">URL/Linkziel</label>
+      <label index="list.tableHead.linkmessage">Fehlermeldung</label>
+      <label index="list.tableHead.lastCheck">Letzte Überprüfung</label>
+      <label index="list.edit">Das Element, das diesen defekten Link enthält, bearbeiten</label>
+      <label index="list.field">(Feld: %s)</label>
+      <label index="list.no.headline">keine Überschrift</label>
+      <label index="list.report.pagedeleted">Seite '###title###' (###uid###) ist gelöscht.</label>
+      <label index="list.report.pagenotvisible">Seite '###title###' (###uid###) ist nicht sichtbar.</label>
+      <label index="list.report.pagenotexisting">Seite (###uid###) existiert nicht.</label>
+      <label index="list.report.contentmoved">Element '###title###' (###uid###) befindet sich nicht auf Seite ###wrongpage###, sondern auf Seite ###rightpage###.</label>
+      <label index="list.report.contentdeleted">Element '###title###' (###uid###) ist gelöscht.</label>
+      <label index="list.report.contentnotvisible">Element '###title###' (###uid###) ist nicht sichtbar.</label>
+      <label index="list.report.contentnotexisting">Element (###uid###) existiert nicht.</label>
+      <label index="list.report.rowdeleted">Zeile ###title### (###uid###) ist gelöscht.</label>
+      <label index="list.report.rowdeleted.default.title">&lt;!-- hier keinen Text einfügen --&gt;</label>
+      <label index="list.report.rownotexisting">Zeile (###uid###) existiert nicht.</label>
+      <label index="list.report.noinformation">Zu diesem Fehler gibt es keine Information.</label>
+      <label index="list.report.noresponse">Das Ziel des externen Links ist nicht erreichbar.</label>
+      <label index="list.report.redirectloop">Es ist eine Weiterleitungsschleife aufgetreten. (%s: %s)</label>
+      <label index="list.report.pageforbidden403">Der Zugriff auf diese URL ist nicht erlaubt (403).</label>
+      <label index="list.report.pagenotfound404">Die angeforderte URL wurde nicht gefunden (404).</label>
+      <label index="list.report.externalerror">Der externe Link gab einen Fehlercode zurück (%s).</label>
+      <label index="list.report.filenotexisting">Datei existiert nicht.</label>
+      <label index="list.report.timeout">Timeout. Das angegebene Zeitfenster für die Anfrage wurde überschritten.</label>
+      <label index="list.report.internalerror500">Interner Serverfehler (500)</label>
+      <label index="list.report.couldnotresolvehost">Host konnte nicht aufgelöst werden. Der angegebene Host wurde nicht aufgelöst.</label>
+      <label index="list.report.errornetworkdata">Fehler beim Empfangen der Netzwerkdaten.</label>
+      <label index="list.report.otherhttpcode">Es ist ein Fehler aufgetreten (%s): "%s".</label>
+      <label index="list.report.httpexception">Ausnahme: %s</label>
+      <label index="list.msg.ok">Ok</label>
+      <label index="list.msg.lastRun">%1$s %2$s</label>
+      <label index="list.no.broken.links.title">Keine defekten Links anzuzeigen!</label>
+      <label index="list.no.broken.links">Es gibt keine defekten Links, die hier anzuzeigen wären.</label>
+      <label index="no.access.title">Kein Zugriff!</label>
+      <label index="no.access">Sie haben keinen Zugriff auf diese Auflistungen.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

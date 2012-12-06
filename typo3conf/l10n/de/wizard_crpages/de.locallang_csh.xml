@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="tx_wizardcrpages.alttitle">Seitenerstellungsassistent</label>
+      <label index="tx_wizardcrpages.description">Ermöglicht Ihnen, mehrere leere Seiten auf einen Schlag zu erstellen. Geben Sie einfach die jeweilige Seitenüberschrift in die Felder ein. Dabei ergeben natürlich nur ausgefüllte Felder anschließend auch neue Seiten.</label>
+      <label index="tx_wizardcrpages.details">Die neuen Seiten erscheinen immer als Unterseiten der derzeit &lt;em&gt;aktiven&lt;/em&gt; Seite. Die aktive Seite wird dabei am Anfang der Seite angezeigt (in der Abbildung ist die aktive Seite also "/Intro/Startpage/"). &lt;b&gt;Neue Seiten nach existierenden Unterseiten anlegen&lt;/b&gt; Mit dieser Option werden neue Seiten &lt;em&gt;nach&lt;/em&gt; bereits existierenden Unterseiten angelegt. &lt;b&gt;Neue Seiten verbergen&lt;/b&gt; Wählen Sie diese Option, wenn die durch den Assistenten neu erstellte Seiten verborgen werden sollen. Es kann sein, dass diese Option automatisch gesetzt wird, nämlich dann, wenn Sie nicht das Recht haben, neue Online-Seiten zu erstellen. &lt;b&gt;Lorem Ipsum...&lt;/b&gt; Der Seitenerstellungsassistent unterstützt die Erweiterung "Lorem Ipsum", welche automatisch Blindtext in die entsprechenden Felder einträgt.</label>
+      <label index="_tx_wizardcrpages.seeAlso">xEXT_loremipsum</label>
+      <label index="_tx_wizardcrpages.image">EXT:wizard_crpages/cshimages/wizards_1.png, EXT:wizard_crpages/cshimages/wizards_2.png</label>
+      <label index="tx_wizardcrpages.image_descr">Geben Sie einfach Seitenüberschriften für die Seiten ein, die Sie erstellen möchten. Nur ausgefüllte Felder ergeben neue Seiten. Nachdem Sie "Seiten anlegen" gedrückt haben, wird der Seitenbaum automatisch neu aufgebaut und Sie sehen sofort die Position Ihrer neuen Seiten.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

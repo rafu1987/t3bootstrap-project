@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Indent-Tooltip">Einzug vergrößern</label>
+      <label index="Indent-helpText">Vergrößert den Texteinzug</label>
+      <label index="Outdent-Tooltip">Einzug verkleinern</label>
+      <label index="Outdent-helpText">Verringert den Texteinzug</label>
+      <label index="Blockquote-Tooltip">Großes Zitat</label>
+      <label index="Blockquote-helpText">Erzeugt einen großen Zitatblock</label>
+      <label index="FormatBlock-Tooltip">Blocktyp</label>
+      <label index="InsertParagraphBefore-Tooltip">Einen Absatz vor dem aktuellen Block einfügen</label>
+      <label index="InsertParagraphBefore-contextMenuTitle">Absatz einfügen vor</label>
+      <label index="InsertParagraphBefore-helpText">Fügt einen Absatz vor dem aktuellen Block ein</label>
+      <label index="InsertParagraphAfter-Tooltip">Einen Absatz nach dem aktuellen Block einfügen</label>
+      <label index="InsertParagraphAfter-contextMenuTitle">Absatz einfügen nach</label>
+      <label index="InsertParagraphAfter-helpText">Fügt einen Absatz nach dem aktuellen Block ein</label>
+      <label index="JustifyLeft-Tooltip">Linksbündig</label>
+      <label index="JustifyLeft-helpText">Richtet den Text linksbündig aus</label>
+      <label index="JustifyCenter-Tooltip">Zentriert</label>
+      <label index="JustifyCenter-helpText">Richtet den Text zentriert aus</label>
+      <label index="JustifyRight-Tooltip">Rechtsbündig</label>
+      <label index="JustifyRight-helpText">Richtet den Text rechtsbündig aus</label>
+      <label index="JustifyFull-Tooltip">Blocksatz</label>
+      <label index="JustifyFull-helpText">Richtet den Text gleichzeitig links- und rechtsbündig aus</label>
+      <label index="Left-Tooltip">Links</label>
+      <label index="InsertOrderedList-Tooltip">Nummerierung</label>
+      <label index="InsertOrderedList-helpText">Erzeugt eine Nummerierung aus dem aktuell ausgewählten Text</label>
+      <label index="InsertUnorderedList-Tooltip">Aufzählung</label>
+      <label index="InsertUnorderedList-helpText">Erzeugt eine Aufzählung aus dem aktuell ausgewählten Text</label>
+      <label index="InsertHorizontalRule-Tooltip">Horizontale Trennlinie</label>
+      <label index="InsertHorizontalRule-helpText">Fügt eine horizontale Trennlinie ein</label>
+      <label index="No block">Kein Blockformat</label>
+      <label index="Remove block">Blockformat entfernen</label>
+      <label index="Technische Universitat Ilmenau">Technische Universität Ilmenau</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

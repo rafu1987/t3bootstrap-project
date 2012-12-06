@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="Please wait" xml:space="preserve" approved="yes">
+        <source>The editor is being loaded. Please wait...</source>
+      <target state="translated">Der Editor wird geladen. Bitte warten...</target></trans-unit>
+      <trans-unit id="Normal" xml:space="preserve" approved="yes">
+        <source>Normal</source>
+      <target state="translated">Normal</target></trans-unit>
+      <trans-unit id="Heading 1" xml:space="preserve" approved="yes">
+        <source>Heading 1</source>
+      <target state="translated">Überschrift 1</target></trans-unit>
+      <trans-unit id="Heading 2" xml:space="preserve" approved="yes">
+        <source>Heading 2</source>
+      <target state="translated">Überschrift 2</target></trans-unit>
+      <trans-unit id="Heading 3" xml:space="preserve" approved="yes">
+        <source>Heading 3</source>
+      <target state="translated">Überschrift 3</target></trans-unit>
+      <trans-unit id="Heading 4" xml:space="preserve" approved="yes">
+        <source>Heading 4</source>
+      <target state="translated">Überschrift 4</target></trans-unit>
+      <trans-unit id="Heading 5" xml:space="preserve" approved="yes">
+        <source>Heading 5</source>
+      <target state="translated">Überschrift 5</target></trans-unit>
+      <trans-unit id="Heading 6" xml:space="preserve" approved="yes">
+        <source>Heading 6</source>
+      <target state="translated">Überschrift 6</target></trans-unit>
+      <trans-unit id="Preformatted" xml:space="preserve" approved="yes">
+        <source>Preformatted</source>
+      <target state="translated">Vorformatiert</target></trans-unit>
+      <trans-unit id="Address" xml:space="preserve" approved="yes">
+        <source>Address</source>
+      <target state="translated">Adresse</target></trans-unit>
+      <trans-unit id="No font" xml:space="preserve" approved="yes">
+        <source>No font</source>
+      <target state="translated">Keine Schriftart</target></trans-unit>
+      <trans-unit id="No size" xml:space="preserve" approved="yes">
+        <source>No font size</source>
+      <target state="translated">Keine Schriftgröße</target></trans-unit>
+      <trans-unit id="rteSettings" xml:space="preserve" approved="yes">
+        <source>Rich Text Editor</source>
+      <target state="translated">Rich-Text-Editor</target></trans-unit>
+      <trans-unit id="rteWidth" xml:space="preserve" approved="yes">
+        <source>Width of the RTE in pixels or percentage</source>
+      <target state="translated">Breite des RTE in Pixel oder Prozent</target></trans-unit>
+      <trans-unit id="rteHeight" xml:space="preserve" approved="yes">
+        <source>Height of the RTE in pixels</source>
+      <target state="translated">Höhe des RTE in Pixel oder Prozent</target></trans-unit>
+      <trans-unit id="rteResize" xml:space="preserve" approved="yes">
+        <source>Make RTE resizable</source>
+      <target state="translated">Größe des RTE veränderlich machen</target></trans-unit>
+      <trans-unit id="rteMaxHeight" xml:space="preserve" approved="yes">
+        <source>Maximal height of resizable RTE in pixels</source>
+      <target state="translated">Maximale Höhe des in der Größe veränderlichen RTE</target></trans-unit>
+      <trans-unit id="deprecatedPropertyMessage" xml:space="preserve">
+        <source>Page TSConfig property "%1$s" used on page id #%4$s is DEPRECATED and will be removed in TYPO3 %3$s. Use "%2$s" instead.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

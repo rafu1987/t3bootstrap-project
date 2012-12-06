@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="No font" xml:space="preserve" approved="yes">
+        <source>No font</source>
+      <target state="translated">Keine Schriftart</target></trans-unit>
+      <trans-unit id="No size" xml:space="preserve" approved="yes">
+        <source>No font size</source>
+      <target state="translated">Keine Schriftgröße</target></trans-unit>
+      <trans-unit id="Default font" xml:space="preserve" approved="yes">
+        <source>Default font</source>
+      <target state="translated">Standardschrift</target></trans-unit>
+      <trans-unit id="Default size" xml:space="preserve" approved="yes">
+        <source>Default size</source>
+      <target state="translated">Standardgröße</target></trans-unit>
+      <trans-unit id="Extra small" xml:space="preserve" approved="yes">
+        <source>Extra small</source>
+      <target state="translated">Extrem klein</target></trans-unit>
+      <trans-unit id="Very small" xml:space="preserve" approved="yes">
+        <source>Very small</source>
+      <target state="translated">Sehr klein</target></trans-unit>
+      <trans-unit id="Small" xml:space="preserve" approved="yes">
+        <source>Small</source>
+      <target state="translated">Klein</target></trans-unit>
+      <trans-unit id="Medium" xml:space="preserve" approved="yes">
+        <source>Medium</source>
+      <target state="translated">Mittel</target></trans-unit>
+      <trans-unit id="Large" xml:space="preserve" approved="yes">
+        <source>Large</source>
+      <target state="translated">Groß</target></trans-unit>
+      <trans-unit id="Very large" xml:space="preserve" approved="yes">
+        <source>Very large</source>
+      <target state="translated">Sehr groß</target></trans-unit>
+      <trans-unit id="Extra large" xml:space="preserve" approved="yes">
+        <source>Extra large</source>
+      <target state="translated">Extrem groß</target></trans-unit>
+      <trans-unit id="Arial" xml:space="preserve" approved="yes">
+        <source>Arial</source>
+      <target state="translated">Arial</target></trans-unit>
+      <trans-unit id="Arial Black" xml:space="preserve" approved="yes">
+        <source>Arial Black</source>
+      <target state="translated">Arial Black</target></trans-unit>
+      <trans-unit id="Verdana" xml:space="preserve" approved="yes">
+        <source>Verdana</source>
+      <target state="translated">Verdana</target></trans-unit>
+      <trans-unit id="Times New Roman" xml:space="preserve" approved="yes">
+        <source>Times New Roman</source>
+      <target state="translated">Times New Roman</target></trans-unit>
+      <trans-unit id="Garamond" xml:space="preserve" approved="yes">
+        <source>Garamond</source>
+      <target state="translated">Garamond</target></trans-unit>
+      <trans-unit id="Lucida Handwriting" xml:space="preserve" approved="yes">
+        <source>Lucida Handwriting</source>
+      <target state="translated">Lucida Handwriting</target></trans-unit>
+      <trans-unit id="Courier" xml:space="preserve" approved="yes">
+        <source>Courier</source>
+      <target state="translated">Courier</target></trans-unit>
+      <trans-unit id="Webdings" xml:space="preserve" approved="yes">
+        <source>Webdings</source>
+      <target state="translated">Webdings</target></trans-unit>
+      <trans-unit id="Wingdings" xml:space="preserve" approved="yes">
+        <source>Wingdings</source>
+      <target state="translated">Wingdings</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>CSH for table tx_news_domain_model_news</description>
+		<type>CSH</type>
+		<csh_table>tx_news_domain_model_news</csh_table>
+		<fileId>EXT:news/locallang_csh_news.xml</fileId>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index=".description">News record</label>
+			<label index=".details">Versatile news system.</label>
+			<label index="_.seeAlso">See also the website @todo</label>
+			<label index="sys_language_uid.description">Language of the news record.</label>
+			<label index="starttime.description">Define a date on which the news record should be shown.</label>
+			<label index="endtime.description">Define a date on which the news record should be hidden.</label>
+			<label index="fe_group.description">Select the user groups which are allowed to see the news record.</label>
+			<label index="editlock.description">If checked, this news record can only be edited by administrators.</label>
+			<label index="hidden.description">Hidden records are not shown in the frontend.</label>
+			<label index="title.description">News title</label>
+			<label index="teaser.description">Be aware that it can be cropped.</label>
+			<label index="type.description">Select the type which can be either a normal news record, a link to an internal page or a link to an external page.</label>
+			<label index="istopnews.description">Top news records can get a special treated concerning layout, sorting, ...</label>
+			<label index="author.description">Author of the news record</label>
+			<label index="author_email.description">Email address of the author</label>
+			<label index="datetime.description">Date of the news record</label>
+			<label index="archive.description">Archive date. A date is required if the news record should once be treated as archived news.</label>
+			<label index="bodytext.description">Main content of the news record</label>
+			<label index="categories.description">Select the categories which are related to this record.</label>
+			<label index="tags.description">Define and select tags which fit to the article.</label>
+			<label index="content_elements.description">Content elements can be used to generate feature rich news articles.</label>
+			<label index="keywords.description">Define keywords which can be used for SEO optimizations.</label>
+			<label index="related.description">Select related news records.</label>
+			<label index="related_files.description">Define related files, e.g. PDFs</label>
+			<label index="related_links.description">Define related links to internal and external pages.</label>
+		</languageKey>
+		<languageKey index="dk" type="array">
+			<label index=".description">Nyhed</label>
+			<label index=".details">Alsidigt nyhedssystem.</label>
+			<label index="_.seeAlso">Se også @todo</label>
+			<label index="sys_language_uid.description">Sprog for nyhed.</label>
+			<label index="starttime.description">Angiv en dato hvorpå nyheden skal vises.</label>
+			<label index="endtime.description">Angiv en dato hvorpå nyheden skal skjules.</label>
+			<label index="fe_group.description">Vælg en brugergruppe som må se nyheden.</label>
+			<label index="editlock.description">Hvis aktiv kan nyheden kun redigeres af administratorer.</label>
+			<label index="hidden.description">Skjulte nyheder vises aldrig i frontend.</label>
+			<label index="title.description">Nyhedens titel</label>
+			<label index="teaser.description">Vær opmærksom på at denne kan blive beskåret.</label>
+			<label index="type.description">Vælg typen, der enten kan være en normal nyhed, et link til en intern side eller et link til en ekstern side.</label>
+			<label index="istopnews.description">Top-nyheder kan få særlig behandling ift. layout, sortering, etc.</label>
+			<label index="author.description">Forfatter/skribent</label>
+			<label index="author_email.description">Forfatter/skribents email-adresse</label>
+			<label index="datetime.description">Nyhedens dato</label>
+			<label index="archive.description">Arkiv-dato. En dato er påkrævet her før nyheden kan betragtes som arkivet (når denne dato overskrides).</label>
+			<label index="bodytext.description">Hovedindhold i nyheden</label>
+			<label index="categories.description">Vælg hvilke kategorier der er relateret til denne nyhed.</label>
+			<label index="tags.description">Angiv hvilke tags der passer på nyheden.</label>
+			<label index="content_elements.description">Indholdselementer kan bruges til at skabe alsidige nyheds-elementer.</label>
+			<label index="keywords.description">Angiv nøgleord der skal bruges i SEO (søgemaskine-optimering).</label>
+			<label index="related.description">Vælg relaterede nyheder.</label>
+			<label index="related_files.description">Angiv relaterede filer, fx PDF-filer.</label>
+			<label index="related_links.description">Angiv relaterede links til interne og eksterne sider.</label>
+		</languageKey>
+
+		<languageKey index="de" type="array">
+			<label index=".description">News Datensatz</label>
+			<label index=".details">Versatile news system.</label>
+			<label index="_.seeAlso">See also the website @todo</label>
+			<label index="sys_language_uid.description">Spraches des Newsdatensatz</label>
+			<label index="starttime.description">Datum ab dem der Newsdatensatz angezeigt werden soll.</label>
+			<label index="endtime.description">Datum bis zu dem der Newsdatensatz angezeigt werden soll.</label>
+			<label index="fe_group.description">Benutzergruppen, die den Newsdatensatz sehen dürfen.</label>
+			<label index="editlock.description">Falls aktiviert können nur Benutzer mit Administratorrechten den Datensatz bearbeiten.</label>
+			<label index="hidden.description">Ein versteckter Datensatz wird im Frontend nicht angezeigt.</label>
+			<label index="title.description">Titel des Newsdatensatz</label>
+			<label index="teaser.description">Teaser des Newsdatensatz</label>
+			<label index="type.description">Der Typ eines Newsdatensatz kann neben einem regulären Datensatz auch ein Link zu einer internen TYPO3-Seite oder zu einer externen Seite sein.</label>
+			<label index="istopnews.description">Mit der Checkbox "Top news" können bestimmte Datensätze hervorgehoben werden.</label>
+			<label index="author.description">Autor eines Datensatz</label>
+			<label index="author_email.description">Emailadresse des Autors</label>
+			<label index="datetime.description">Datum des Newsdatensatz</label>
+			<label index="archive.description">Archivdatum. Falls der Newsdatensatz über ein Archivmenü angezeigt werden soll, muss das Datum ausgefüllt werden.</label>
+			<label index="bodytext.description">Hauptinhalt des Newsdatensatz</label>
+			<label index="categories.description">Kategorien zu denen der Newsdatensatz gehört</label>
+			<label index="keywords.description">Keywords eines Newsdatensatz, besonders für Suchmaschinenoptimierung zu verwenden.</label>
+			<label index="related.description">Verwandte Newsdatensätze</label>
+			<label index="related_files.description">Zu dem Newsdatensatz gehörige Dateien</label>
+			<label index="related_links.description">Zu dem Newsdatensatz gehörige Links</label>
+		</languageKey>
+	</data>
+</T3locallang>

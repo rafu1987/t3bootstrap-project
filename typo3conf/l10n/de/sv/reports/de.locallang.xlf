@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="sv" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="report_title" xml:space="preserve" approved="yes">
+        <source>Installed Services</source>
+      <target state="translated">Installierte Dienste</target></trans-unit>
+      <trans-unit id="report_description" xml:space="preserve" approved="yes">
+        <source>List of all installed services with information and status for each of them.</source>
+      <target state="translated">Liste aller installierten Dienste mit Angaben zum Status und weiteren Informationen.</target></trans-unit>
+      <trans-unit id="report_explanation" xml:space="preserve" approved="yes">
+        <source>This report displays a list of installed services, with detailed information about each of them. The services are ordered by type, priority and quality. Unavailable services are highlighted with an error status.</source>
+      <target state="translated">Dieser Bericht zeigt eine Liste der installierten Dienste mit detaillierten Informationen zu jedem Dienst. Die Dienste sind nach Typ, Priorität und Qualität sortiert. Dienste, die nicht verfügbar sind, sind mit einem Statusfehler hervorgehoben.</target></trans-unit>
+      <trans-unit id="externals_explanation" xml:space="preserve" approved="yes">
+        <source>The "Externals" column shows which external programs a given service relies on. If such program is missing or not executable, the service will be unavailable. Search paths for executables are listed at the bottom of this report.</source>
+      <target state="translated">Die Spalte "Extern" zeigt an, welche externen Programme ein Dienst benötigt. Wenn ein benötigtes Programm fehlt oder nicht ausführbar ist, ist der Dienst nicht verfügbar. Die Suchpfade für ausführbare Programme sind unten aufgelistet.</target></trans-unit>
+      <trans-unit id="service_type" xml:space="preserve" approved="yes">
+        <source>Service type: %s</source>
+      <target state="translated">Diensttyp: %s</target></trans-unit>
+      <trans-unit id="service" xml:space="preserve" approved="yes">
+        <source>Service</source>
+      <target state="translated">Dienst</target></trans-unit>
+      <trans-unit id="priority" xml:space="preserve" approved="yes">
+        <source>Priority</source>
+      <target state="translated">Priorität</target></trans-unit>
+      <trans-unit id="quality" xml:space="preserve" approved="yes">
+        <source>Quality</source>
+      <target state="translated">Qualität</target></trans-unit>
+      <trans-unit id="subtypes" xml:space="preserve" approved="yes">
+        <source>Subtypes</source>
+      <target state="translated">Untertypen</target></trans-unit>
+      <trans-unit id="os" xml:space="preserve" approved="yes">
+        <source>OS</source>
+      <target state="translated">OS</target></trans-unit>
+      <trans-unit id="externals" xml:space="preserve" approved="yes">
+        <source>Externals</source>
+      <target state="translated">Extern</target></trans-unit>
+      <trans-unit id="available" xml:space="preserve" approved="yes">
+        <source>Available</source>
+      <target state="translated">Verfügbar</target></trans-unit>
+      <trans-unit id="any" xml:space="preserve" approved="yes">
+        <source>Any</source>
+      <target state="translated">Alle</target></trans-unit>
+      <trans-unit id="search_paths" xml:space="preserve" approved="yes">
+        <source>Configured search paths for external programs</source>
+      <target state="translated">Festgelegte Suchpfade für externe Programme</target></trans-unit>
+      <trans-unit id="path" xml:space="preserve" approved="yes">
+        <source>Path</source>
+      <target state="translated">Pfad</target></trans-unit>
+      <trans-unit id="valid" xml:space="preserve" approved="yes">
+        <source>Valid</source>
+      <target state="translated">Gültig</target></trans-unit>
+      <trans-unit id="no_search_paths" xml:space="preserve" approved="yes">
+        <source>No search paths configured.</source>
+      <target state="translated">Keine Suchpfade festgelegt.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

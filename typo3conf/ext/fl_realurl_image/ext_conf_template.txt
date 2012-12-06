@@ -1,0 +1,11 @@
+# cat=basic; type=int [0-255]; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.ext_conf_storagePid
+storagePid = 0
+
+# cat=basic; type=boolean; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.ext_conf_cacheControl
+cacheControl = 1
+
+# cat=basic; type=options[none,symLink,hardLink,copy]; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.ext_conf_fileLinks
+fileLinks = hardLink
+
+# cat=basic; type=string; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.ext_conf_virtualPathRemove
+virtualPathRemove = 

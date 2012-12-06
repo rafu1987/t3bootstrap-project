@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="scheduler" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="testTask.name" xml:space="preserve" approved="yes">
+        <source>Scheduler test task</source>
+      <target state="translated">Planer-Test-Task</target></trans-unit>
+      <trans-unit id="testTask.description" xml:space="preserve" approved="yes">
+        <source>The Scheduler test task just sends a mail to a given email address. It is designed to be used for testing purposes.</source>
+      <target state="translated">Der Test-Task schickt eine E-Mail an eine angegebene E-Mail-Adresse. Er ist zu Testzwecken gedacht.</target></trans-unit>
+      <trans-unit id="sleepTask.name" xml:space="preserve" approved="yes">
+        <source>Scheduler sleep task</source>
+      <target state="translated">Planer-Pause-Task</target></trans-unit>
+      <trans-unit id="sleepTask.description" xml:space="preserve" approved="yes">
+        <source>This task does nothing but put PHP to sleep for a number of seconds. It is designed to test multiple executions.</source>
+      <target state="translated">Dieser Task macht nichts außer PHP eine gewisse Anzahl Sekunden zu pausieren. Er ist zum Testen mehrfacher, gleichzeitiger Ausführungen des Planers gedacht.</target></trans-unit>
+      <trans-unit id="cachingFrameworkGarbageCollection.name" xml:space="preserve" approved="yes">
+        <source>Caching framework garbage collection</source>
+      <target state="translated">Müllsammlung des Caching-Frameworks</target></trans-unit>
+      <trans-unit id="cachingFrameworkGarbageCollection.description" xml:space="preserve" approved="yes">
+        <source>This task calls the garbage collection of configured caching framework caches which use one of the selected backends. This will free some space in cache backends which do not have an internal garbage collection. In case of the default database backend it is advisable to run this task once a day when the database is mostly idle.</source>
+      <target state="translated">Dieser Task ruft die Müllsammlung der Caches des konfigurierten Caching-Frameworks auf. Dies gibt Platz in Cache-Backends freigeben, die keine interne Müllsammlung haben. Im Fall des Standard-Datenbank-Backends ist es ratsam, diesen Task einmal täglich auszuführen, bevorzugt wenn die Datenbank weitestgehend leerläuft.</target></trans-unit>
+      <trans-unit id="fileIndexing.name" xml:space="preserve">
+        <source>File Abstraction Layer: Indexing job</source>
+      </trans-unit>
+      <trans-unit id="fileIndexing.description" xml:space="preserve">
+        <source>Runs indexing tasks based on an indexing configuration and a storage/folder information.</source>
+      </trans-unit>
+      <trans-unit id="tableGarbageCollection.name" xml:space="preserve" approved="yes">
+        <source>Table garbage collection</source>
+      <target state="translated">Tabellen-Müllsammlung</target></trans-unit>
+      <trans-unit id="tableGarbageCollection.description" xml:space="preserve" approved="yes">
+        <source>Task to delete old entries from specific tables like sys_log. Use $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_scheduler_TableGarbageCollection']['options']['tables'] to configure tables. Refer to the manual for more details.</source>
+      <target state="translated">Task zum Löschen alter Einträge aus bestimmten Tabellen wie sys_log. Benutzen Sie $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_scheduler_TableGarbageCollection']['options']['tables'] um die Tabellen zu konfigurieren. Weitere Details finden Sie im Handbuch.</target></trans-unit>
+      <trans-unit id="recyclerGarbageCollection.name" xml:space="preserve" approved="yes">
+        <source>Fileadmin garbage collection</source>
+      <target state="translated">Müllsammlung für den Ordner fileadmin</target></trans-unit>
+      <trans-unit id="recyclerGarbageCollection.description" xml:space="preserve" approved="yes">
+        <source>This task empties all "_recycler_" folders below fileadmin. This helps free some space in the file system.</source>
+      <target state="translated">Dieser Task leert alle Order mit dem Namen "_recycler_" im Ordner fileadmin. So können Sie Speicherplatz im Dateisystem freigeben.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

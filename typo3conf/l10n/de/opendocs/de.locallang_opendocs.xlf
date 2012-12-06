@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="opendocs" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="toolbaritem" xml:space="preserve" approved="yes">
+        <source>Open and Recently Used Documents</source>
+      <target state="translated">Geöffnete und kürzlich verwendete Dokumente</target></trans-unit>
+      <trans-unit id="open_docs" xml:space="preserve" approved="yes">
+        <source>Open Documents</source>
+      <target state="translated">Geöffnete Dokumente</target></trans-unit>
+      <trans-unit id="recent_docs" xml:space="preserve" approved="yes">
+        <source>Recently Used Documents</source>
+      <target state="translated">Kürzlich verwendete Dokumente</target></trans-unit>
+      <trans-unit id="no_docs" xml:space="preserve" approved="yes">
+        <source>There are no open documents at this time.</source>
+      <target state="translated">Derzeit sind keine Dokumente geöffnet.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

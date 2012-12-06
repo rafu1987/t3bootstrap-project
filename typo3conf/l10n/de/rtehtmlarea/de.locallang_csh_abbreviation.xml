@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description"/>
+      <label index=".details"/>
+      <label index=".seeAlso"/>
+      <label index="term.description"/>
+      <label index="acronym.description"/>
+      <label index="hidden.description"/>
+      <label index="type.description"/>
+      <label index="type.details"/>
+      <label index="starttime.description"/>
+      <label index="endtime.description"/>
+      <label index="sys_language_uid.description"/>
+      <label index="static_lang_isocode.description"/>
+      <label index="static_lang_isocode.details"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

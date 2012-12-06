@@ -1,0 +1,50 @@
+<f:if condition="{extension.plugins}">
+plugin.{extension.shortExtensionKey} {
+	view {
+		templateRootPath = <![CDATA[{$]]>plugin.{extension.shortExtensionKey}.view.templateRootPath<![CDATA[}]]>
+		partialRootPath = <![CDATA[{$]]>plugin.{extension.shortExtensionKey}.view.partialRootPath<![CDATA[}]]>
+		layoutRootPath = <![CDATA[{$]]>plugin.{extension.shortExtensionKey}.view.layoutRootPath<![CDATA[}]]>
+	}
+	persistence {
+		storagePid = <![CDATA[{$]]>plugin.{extension.shortExtensionKey}.persistence.storagePid<![CDATA[}]]>
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.{extension.shortExtensionKey}._CSS_DEFAULT_STYLE (
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.{extension.cssClassName} table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.{extension.cssClassName} table th {
+		font-weight:bold;
+	}
+
+	.{extension.cssClassName} table td {
+		vertical-align:top;
+	}
+)
+</f:if>
+
+<f:if condition="{extension.backendModules}">
+ # Module configuration
+module.{extension.shortExtensionKey} {
+	persistence {
+		storagePid = <![CDATA[{$]]>module.{extension.shortExtensionKey}.persistence.storagePid<![CDATA[}]]>
+	}
+	view {
+		templateRootPath = <![CDATA[{$]]>module.{extension.shortExtensionKey}.view.templateRootPath<![CDATA[}]]>
+		partialRootPath = <![CDATA[{$]]>module.{extension.shortExtensionKey}.view.partialRootPath<![CDATA[}]]>
+		layoutRootPath = <![CDATA[{$]]>module.{extension.shortExtensionKey}.view.layoutRootPath<![CDATA[}]]>
+	}
+}
+</f:if>

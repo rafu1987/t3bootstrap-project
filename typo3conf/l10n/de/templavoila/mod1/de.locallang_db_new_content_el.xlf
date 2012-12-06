@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:55:15 UTC 2011" product-name="templavoila">
+    <header/>
+    <body>
+      <trans-unit id="sel1" approved="yes">
+        <source>Please select which kind of page content you wish to create:</source>
+        <target state="translated">Wählen Sie bitte den Typ des Seiteninhalts aus, den Sie erzeugen wollen:</target>
+      </trans-unit>
+      <trans-unit id="sel2" approved="yes">
+        <source>Now, click at the position where you wish to place the element on the page:</source>
+        <target state="translated">Wählen Sie nun die Position aus, an der das Element auf der Seite positioniert werden soll:</target>
+      </trans-unit>
+      <trans-unit id="common" approved="yes">
+        <source>Typical page content</source>
+        <target state="translated">Typischer Seiteninhalt</target>
+      </trans-unit>
+      <trans-unit id="common_1_title" approved="yes">
+        <source>Regular text element</source>
+        <target state="translated">Normaler Text</target>
+      </trans-unit>
+      <trans-unit id="common_1_description" approved="yes">
+        <source>A regular text element with header and bodytext fields.</source>
+        <target state="translated">Fügt ein normales Textelement ein.</target>
+      </trans-unit>
+      <trans-unit id="common_2_title" approved="yes">
+        <source>Text with image below</source>
+        <target state="translated">Text mit darunter liegendem Bild</target>
+      </trans-unit>
+      <trans-unit id="common_2_description" approved="yes">
+        <source>Regular text element with a field which can contain any number of images which are positioned below the text.</source>
+        <target state="translated">Fügt ein normales Textelement ein, unter dem eine Reihe von Bilder angezeigt werden kann.</target>
+      </trans-unit>
+      <trans-unit id="common_3_title" approved="yes">
+        <source>Text with image to the right</source>
+        <target state="translated">Text mit rechts liegendem Bild</target>
+      </trans-unit>
+      <trans-unit id="common_3_description" approved="yes">
+        <source>Like above but with the images placed to the right of the text with the text wrapping around the images.</source>
+        <target state="translated">Fügt einen normales Textelement ein, an dessen rechter Seite eine Reihe von Bildern angezeigt werden kann.</target>
+      </trans-unit>
+      <trans-unit id="common_4_title" approved="yes">
+        <source>Images only</source>
+        <target state="translated">Nur Bilder</target>
+      </trans-unit>
+      <trans-unit id="common_4_description" approved="yes">
+        <source>Any number of images aligned in columns and rows with caption. Like the image options above but without text.</source>
+        <target state="translated">Eine beliebige Anzahl in Zeilen und Spalten angeordneter Bilder mit Beschriftung.</target>
+      </trans-unit>
+      <trans-unit id="common_5_title" approved="yes">
+        <source>Bullet list</source>
+        <target state="translated">Aufzählung</target>
+      </trans-unit>
+      <trans-unit id="common_5_description" approved="yes">
+        <source>A single bullet list.</source>
+        <target state="translated">Eine einzelne Aufzählungsliste.</target>
+      </trans-unit>
+      <trans-unit id="common_6_title" approved="yes">
+        <source>Table</source>
+        <target state="translated">Tabelle</target>
+      </trans-unit>
+      <trans-unit id="common_6_description" approved="yes">
+        <source>A simple table with up to 8 columns.</source>
+        <target state="translated">Eine einfache Tabelle mit bis zu 8 Spalten.</target>
+      </trans-unit>
+      <trans-unit id="special" approved="yes">
+        <source>Special elements</source>
+        <target state="translated">Spezielle Elemente</target>
+      </trans-unit>
+      <trans-unit id="special_1_title" approved="yes">
+        <source>Filelinks</source>
+        <target state="translated">Dateiverweise</target>
+      </trans-unit>
+      <trans-unit id="special_1_description" approved="yes">
+        <source>Makes a list of files for download.</source>
+        <target state="translated">Fügt eine Liste von Dateien zum Herunterladen ein.</target>
+      </trans-unit>
+      <trans-unit id="special_2_title" approved="yes">
+        <source>Multimedia</source>
+        <target state="translated">Multimedia</target>
+      </trans-unit>
+      <trans-unit id="special_2_description" approved="yes">
+        <source>Inserts a media element like a Flash animation, audio file or video clip.</source>
+        <target state="translated">Fügt ein Medienelement (Flash-Animation, Video, Musikstück usw.) ein.</target>
+      </trans-unit>
+      <trans-unit id="special_3_title" approved="yes">
+        <source>Sitemap</source>
+        <target state="translated">Sitemap</target>
+      </trans-unit>
+      <trans-unit id="special_3_description" approved="yes">
+        <source>Creates a sitemap of the website.</source>
+        <target state="translated">Erzeugt eine Sitemap für die Web-Site.</target>
+      </trans-unit>
+      <trans-unit id="special_4_title" approved="yes">
+        <source>Plain HTML</source>
+        <target state="translated">HTML</target>
+      </trans-unit>
+      <trans-unit id="special_4_description" approved="yes">
+        <source>With this element you can insert raw HTML code on the page.</source>
+        <target state="translated">Mit diesem Element kann reiner HTML-Quelltext auf der Seite eingefügt werden.</target>
+      </trans-unit>
+      <trans-unit id="forms" approved="yes">
+        <source>Form elements</source>
+        <target state="translated">Formulare</target>
+      </trans-unit>
+      <trans-unit id="forms_1_title" approved="yes">
+        <source>Mail form</source>
+        <target state="translated">Mail-Formular</target>
+      </trans-unit>
+      <trans-unit id="forms_1_description" approved="yes">
+        <source>A response mail form by which users of the website can submit responses.</source>
+        <target state="translated">Ein Mail-Formular, mit dem Besucher der Web-Site Ihnen Bemerkungen zuschicken können.</target>
+      </trans-unit>
+      <trans-unit id="forms_2_title" approved="yes">
+        <source>Search form</source>
+        <target state="translated">Suchformular</target>
+      </trans-unit>
+      <trans-unit id="forms_2_description" approved="yes">
+        <source>Draws a search form and the searchresult if a search is performed.</source>
+        <target state="translated">Fügt ein Suchformular auf der Seite ein, sowie ggf. das Suchergebnis.</target>
+      </trans-unit>
+      <trans-unit id="forms_3_title" approved="yes">
+        <source>Login form</source>
+        <target state="translated">Anmeldeformular</target>
+      </trans-unit>
+      <trans-unit id="forms_3_description" approved="yes">
+        <source>Login/logout form for website users. This is used to password protect pages. You must create website users and groups for this to work.</source>
+        <target state="translated">An-/Abmeldeformular für Benutzer. Dies wird für passwortgeschützte Web-Seiten benutzt. Sie müssen Web-Site-Benutzer und Benutzergruppen anlegen, um den Seitenschutz benutzen zu können.</target>
+      </trans-unit>
+      <trans-unit id="plugins" approved="yes">
+        <source>Plugins</source>
+        <target state="translated">Plug-Ins</target>
+      </trans-unit>
+      <trans-unit id="plugins_1_title" approved="yes">
+        <source>General Plugin</source>
+        <target state="translated">Allgemeines Plug-In</target>
+      </trans-unit>
+      <trans-unit id="plugins_1_description" approved="yes">
+        <source>If you want to insert a plugin which cannot be found among the options below, just select this element type and you can select your specific plugin in a selector box afterward.</source>
+        <target state="translated">Wenn Sie ein Plug-In einfügen wollen, welches nicht in den nachstehenden Optionen aufgeführt ist, dann wählen Sie diesen Element-Typ und anschließend das gewünschte Plug-In aus der Auswahlliste.</target>
+      </trans-unit>
+      <trans-unit id="fce" approved="yes">
+        <source>Flexible content</source>
+        <target state="translated">Flexibler Inhalt</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

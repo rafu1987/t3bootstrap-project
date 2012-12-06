@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Insert Smiley">Emoticon einfügen</label>
+      <label index="Smiley">Emoticon</label>
+      <label index="Cancel">Abbrechen</label>
+      <label index="mozilla_smile">Lächeln</label>
+      <label index="mozilla_frown">Mundwinkel nach unten</label>
+      <label index="mozilla_wink">Zwinkern</label>
+      <label index="mozilla_tongueout">Zunge herausstrecken</label>
+      <label index="mozilla_laughing">Lachen</label>
+      <label index="mozilla_embarassed">Verlegen</label>
+      <label index="mozilla_undecided">Unentschieden</label>
+      <label index="mozilla_surprised">Überrascht</label>
+      <label index="mozilla_kiss">Kuss</label>
+      <label index="mozilla_yell">Schreien</label>
+      <label index="mozilla_cool">Cool</label>
+      <label index="mozilla_moneyinmouth">Geldmund</label>
+      <label index="mozilla_footinmouth">Ins Fettnäpfchen treten</label>
+      <label index="mozilla_innocent">Unschuldig</label>
+      <label index="mozilla_cry">Weinen</label>
+      <label index="mozilla_sealed">Versiegelte Lippen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

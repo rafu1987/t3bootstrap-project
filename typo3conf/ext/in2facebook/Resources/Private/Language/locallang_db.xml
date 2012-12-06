@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'in2facebook'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_in2facebook_domain_model_opengraph">Open Graph</label>
+			<label index="tx_in2facebook_domain_model_opengraph.title">Title</label>
+			<label index="tx_in2facebook_domain_model_opengraph.type">Type</label>
+			<label index="tx_in2facebook_domain_model_opengraph.url">Url</label>
+			<label index="tx_in2facebook_domain_model_opengraph.image">Image</label>
+			<label index="tx_in2facebook_domain_model_opengraph.site_name">Site Name</label>
+			<label index="tx_in2facebook_domain_model_opengraph.admins">Admins</label>
+			<label index="tx_in2facebook_domain_model_opengraph.description">Description</label>
+		</languageKey>
+	</data>
+</T3locallang>

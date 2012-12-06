@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Top padding">Oberer innerer Abstand</label>
+      <label index="Right padding">Rechter innerer Abstand</label>
+      <label index="Bottom padding">Unterer innerer Abstand</label>
+      <label index="Left padding">Linker innerer Abstand</label>
+      <label index="Top:">Oben:</label>
+      <label index="Right:">Rechts:</label>
+      <label index="Bottom:">Unten:</label>
+      <label index="image_url">Bild-URL</label>
+      <label index="image_url_invalid">Auf die URL konnte nicht zugegriffen werden, oder die Bilddaten sind fehlerhaft.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

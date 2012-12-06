@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="setup" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="UserSettings" xml:space="preserve" approved="yes">
+        <source>User Settings</source>
+      <target state="translated">Einstellungen</target></trans-unit>
+      <trans-unit id="language" xml:space="preserve" approved="yes">
+        <source>Language</source>
+      <target state="translated">Backend-Sprache</target></trans-unit>
+      <trans-unit id="lang_default" xml:space="preserve" approved="yes">
+        <source>English</source>
+      <target state="translated">Englisch</target></trans-unit>
+      <trans-unit id="lang_af" xml:space="preserve">
+        <source>Afrikaans</source>
+      </trans-unit>
+      <trans-unit id="lang_ar" xml:space="preserve" approved="yes">
+        <source>Arabic</source>
+      <target state="translated">Arabisch</target></trans-unit>
+      <trans-unit id="lang_ba" xml:space="preserve" approved="yes">
+        <source>Bosnian</source>
+      <target state="translated">Bosnisch</target></trans-unit>
+      <trans-unit id="lang_bs" xml:space="preserve" approved="yes">
+        <source>Bosnian</source>
+      <target state="translated">Bosnisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_bg" xml:space="preserve" approved="yes">
+        <source>Bulgarian</source>
+      <target state="translated">Bulgarisch</target></trans-unit>
+      <trans-unit id="lang_ca" xml:space="preserve" approved="yes">
+        <source>Catalan</source>
+      <target state="translated">Katalanisch</target></trans-unit>
+      <trans-unit id="lang_ch" xml:space="preserve" approved="yes">
+        <source>Chinese (Simpl)</source>
+      <target state="translated">Chinesisch</target></trans-unit>
+      <trans-unit id="lang_cs" xml:space="preserve" approved="yes">
+        <source>Czech</source>
+      <target state="translated">Tschechisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_cz" xml:space="preserve" approved="yes">
+        <source>Czech</source>
+      <target state="translated">Tschechisch</target></trans-unit>
+      <trans-unit id="lang_da" xml:space="preserve" approved="yes">
+        <source>Danish</source>
+      <target state="translated">Dänisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_dk" xml:space="preserve" approved="yes">
+        <source>Danish</source>
+      <target state="translated">Dänisch</target></trans-unit>
+      <trans-unit id="lang_de" xml:space="preserve" approved="yes">
+        <source>German</source>
+      <target state="translated">Deutsch</target></trans-unit>
+      <trans-unit id="lang_el" xml:space="preserve" approved="yes">
+        <source>Greek</source>
+      <target state="translated">Griechisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_gr" xml:space="preserve" approved="yes">
+        <source>Greek</source>
+      <target state="translated">Griechisch</target></trans-unit>
+      <trans-unit id="lang_eo" xml:space="preserve" approved="yes">
+        <source>Esperanto</source>
+      <target state="translated">Esperanto</target></trans-unit>
+      <trans-unit id="lang_es" xml:space="preserve" approved="yes">
+        <source>Spanish</source>
+      <target state="translated">Spanisch</target></trans-unit>
+      <trans-unit id="lang_et" xml:space="preserve" approved="yes">
+        <source>Estonian</source>
+      <target state="translated">Estländisch</target></trans-unit>
+      <trans-unit id="lang_eu" xml:space="preserve" approved="yes">
+        <source>Basque</source>
+      <target state="translated">Baskisch</target></trans-unit>
+      <trans-unit id="lang_fa" xml:space="preserve" approved="yes">
+        <source>Persian</source>
+      <target state="translated">Persisch</target></trans-unit>
+      <trans-unit id="lang_fi" xml:space="preserve" approved="yes">
+        <source>Finnish</source>
+      <target state="translated">Finnisch</target></trans-unit>
+      <trans-unit id="lang_fo" xml:space="preserve" approved="yes">
+        <source>Faroese</source>
+      <target state="translated">Färöisch</target></trans-unit>
+      <trans-unit id="lang_fr" xml:space="preserve" approved="yes">
+        <source>French</source>
+      <target state="translated">Französisch</target></trans-unit>
+      <trans-unit id="lang_fr_CA" xml:space="preserve" approved="yes">
+        <source>French (Canada)</source>
+      <target state="translated">Französisch (Kanada)</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_qc" xml:space="preserve" approved="yes">
+        <source>French (Canada)</source>
+      <target state="translated">Französisch (Kanada)</target></trans-unit>
+      <trans-unit id="lang_ga" xml:space="preserve" approved="yes">
+        <source>Galician</source>
+      <target state="translated">Galizisch</target></trans-unit>
+      <trans-unit id="lang_gl" xml:space="preserve" approved="yes">
+        <source>Galician</source>
+      <target state="translated">Grönländisch</target></trans-unit>
+      <trans-unit id="lang_he" xml:space="preserve" approved="yes">
+        <source>Hebrew</source>
+      <target state="translated">Hebräisch</target></trans-unit>
+      <trans-unit id="lang_hi" xml:space="preserve" approved="yes">
+        <source>Hindi</source>
+      <target state="translated">Hindi</target></trans-unit>
+      <trans-unit id="lang_hr" xml:space="preserve" approved="yes">
+        <source>Croatian</source>
+      <target state="translated">Kroatisch</target></trans-unit>
+      <trans-unit id="lang_hu" xml:space="preserve" approved="yes">
+        <source>Hungarian</source>
+      <target state="translated">Ungarisch</target></trans-unit>
+      <trans-unit id="lang_is" xml:space="preserve" approved="yes">
+        <source>Icelandic</source>
+      <target state="translated">Isländisch</target></trans-unit>
+      <trans-unit id="lang_it" xml:space="preserve" approved="yes">
+        <source>Italian</source>
+      <target state="translated">Italienisch</target></trans-unit>
+      <trans-unit id="lang_ja" xml:space="preserve" approved="yes">
+        <source>Japanese</source>
+      <target state="translated">Japanisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_jp" xml:space="preserve" approved="yes">
+        <source>Japanese</source>
+      <target state="translated">Japanisch</target></trans-unit>
+      <trans-unit id="lang_ge" xml:space="preserve" approved="yes">
+        <source>Georgian</source>
+      <target state="translated">Georgisch</target></trans-unit>
+      <trans-unit id="lang_ka" xml:space="preserve" approved="yes">
+        <source>Georgian</source>
+      <target state="translated">Georgisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_kl" xml:space="preserve" approved="yes">
+        <source>Greenlandic</source>
+      <target state="translated">Grönländisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_km" xml:space="preserve" approved="yes">
+        <source>Khmer</source>
+      <target state="translated">Khmer</target></trans-unit>
+      <trans-unit id="lang_ko" xml:space="preserve" approved="yes">
+        <source>Korean</source>
+      <target state="translated">Koreanisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_kr" xml:space="preserve" approved="yes">
+        <source>Korean</source>
+      <target state="translated">Koreanisch</target></trans-unit>
+      <trans-unit id="lang_lt" xml:space="preserve" approved="yes">
+        <source>Lithuanian</source>
+      <target state="translated">Litauisch</target></trans-unit>
+      <trans-unit id="lang_lv" xml:space="preserve" approved="yes">
+        <source>Latvian</source>
+      <target state="translated">Lettisch</target></trans-unit>
+      <trans-unit id="lang_ms" xml:space="preserve" approved="yes">
+        <source>Bahasa Malaysia</source>
+      <target state="translated">Malaiisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_my" xml:space="preserve" approved="yes">
+        <source>Bahasa Malaysia</source>
+      <target state="translated">Malaiisch</target></trans-unit>
+      <trans-unit id="lang_nl" xml:space="preserve" approved="yes">
+        <source>Dutch</source>
+      <target state="translated">Niederländisch</target></trans-unit>
+      <trans-unit id="lang_no" xml:space="preserve" approved="yes">
+        <source>Norwegian</source>
+      <target state="translated">Norwegisch</target></trans-unit>
+      <trans-unit id="lang_pl" xml:space="preserve" approved="yes">
+        <source>Polish</source>
+      <target state="translated">Polnisch</target></trans-unit>
+      <trans-unit id="lang_pt" xml:space="preserve" approved="yes">
+        <source>Portuguese</source>
+      <target state="translated">Portugiesisch</target></trans-unit>
+      <trans-unit id="lang_br" xml:space="preserve" approved="yes">
+        <source>Brazilian Portuguese</source>
+      <target state="translated">Bras. Portugiesisch</target></trans-unit>
+      <trans-unit id="lang_pt_BR" xml:space="preserve" approved="yes">
+        <source>Brazilian Portuguese</source>
+      <target state="translated">Bras. Portugiesisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_ro" xml:space="preserve" approved="yes">
+        <source>Romanian</source>
+      <target state="translated">Rumänisch</target></trans-unit>
+      <trans-unit id="lang_ru" xml:space="preserve" approved="yes">
+        <source>Russian</source>
+      <target state="translated">Russisch</target></trans-unit>
+      <trans-unit id="lang_sk" xml:space="preserve" approved="yes">
+        <source>Slovak</source>
+      <target state="translated">Slowakisch</target></trans-unit>
+      <trans-unit id="lang_si" xml:space="preserve" approved="yes">
+        <source>Slovenian</source>
+      <target state="translated">Slowenisch</target></trans-unit>
+      <trans-unit id="lang_sl" xml:space="preserve" approved="yes">
+        <source>Slovenian</source>
+      <target state="translated">Slowenisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_sq" xml:space="preserve" approved="yes">
+        <source>Albanian</source>
+      <target state="translated">Albanisch</target></trans-unit>
+      <trans-unit id="lang_sr" xml:space="preserve" approved="yes">
+        <source>Serbian</source>
+      <target state="translated">Serbisch</target></trans-unit>
+      <trans-unit id="lang_se" xml:space="preserve" approved="yes">
+        <source>Swedish</source>
+      <target state="translated">Schwedisch</target></trans-unit>
+      <trans-unit id="lang_sv" xml:space="preserve" approved="yes">
+        <source>Swedish</source>
+      <target state="translated">Schwedisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_th" xml:space="preserve" approved="yes">
+        <source>Thai</source>
+      <target state="translated">Thailändisch</target></trans-unit>
+      <trans-unit id="lang_tr" xml:space="preserve" approved="yes">
+        <source>Turkish</source>
+      <target state="translated">Türkisch</target></trans-unit>
+      <trans-unit id="lang_ua" xml:space="preserve" approved="yes">
+        <source>Ukrainian</source>
+      <target state="translated">Ukrainisch</target></trans-unit>
+      <trans-unit id="lang_uk" xml:space="preserve" approved="yes">
+        <source>Ukrainian</source>
+      <target state="translated">Ukrainisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_vi" xml:space="preserve" approved="yes">
+        <source>Vietnamese</source>
+      <target state="translated">Vietnamesisch</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_vn" xml:space="preserve" approved="yes">
+        <source>Vietnamese</source>
+      <target state="translated">Vietnamesisch</target></trans-unit>
+      <trans-unit id="lang_hk" xml:space="preserve" approved="yes">
+        <source>Chinese (Trad)</source>
+      <target state="translated">Chinesisch (Trad.)</target></trans-unit>
+      <trans-unit id="lang_zh" xml:space="preserve" approved="yes">
+        <source>Chinese (Trad)</source>
+      <target state="translated">Chinesisch (Trad.)</target><note>100%</note></trans-unit>
+      <trans-unit id="default" xml:space="preserve" approved="yes">
+        <source>Default</source>
+      <target state="translated">Standard</target></trans-unit>
+      <trans-unit id="simulate" xml:space="preserve" approved="yes">
+        <source>Simulate backend user</source>
+      <target state="translated">Backend-Benutzer simulieren</target></trans-unit>
+      <trans-unit id="opening" xml:space="preserve" approved="yes">
+        <source>Startup</source>
+      <target state="translated">Beim Start</target></trans-unit>
+      <trans-unit id="personal_data" xml:space="preserve" approved="yes">
+        <source>Personal data</source>
+      <target state="translated">Persönliche Daten</target></trans-unit>
+      <trans-unit id="showThumbs" xml:space="preserve" approved="yes">
+        <source>Show Thumbnails by default</source>
+      <target state="translated">Vorschaubilder standardmäßig anzeigen</target></trans-unit>
+      <trans-unit id="condensedMode" xml:space="preserve" approved="yes">
+        <source>Use condensed mode in backend&lt;br /&gt;(for small screens)</source>
+      <target state="translated">Schmale Ansicht im Backend verwenden</target></trans-unit>
+      <trans-unit id="noMenuMode" xml:space="preserve" approved="yes">
+        <source>Select navigation mode</source>
+      <target state="translated">Art der Navigation auswählen</target></trans-unit>
+      <trans-unit id="noMenuMode_def" xml:space="preserve" approved="yes">
+        <source>Left frame menu (default)</source>
+      <target state="translated">Menü im linken Frame (Standard)</target></trans-unit>
+      <trans-unit id="noMenuMode_sel" xml:space="preserve" approved="yes">
+        <source>Selectorbox in top frame</source>
+      <target state="translated">Auswahlfeld im oberen Frame</target></trans-unit>
+      <trans-unit id="noMenuMode_icons" xml:space="preserve" approved="yes">
+        <source>Icons in top frame</source>
+      <target state="translated">Symbole im oberen Frame</target></trans-unit>
+      <trans-unit id="startModule" xml:space="preserve" approved="yes">
+        <source>Start up in the following module</source>
+      <target state="translated">Beim Start folgendes Modul aufrufen</target></trans-unit>
+      <trans-unit id="emailMeAtLogin" xml:space="preserve" approved="yes">
+        <source>Notify me by email, when somebody logs in &lt;br /&gt;from my account</source>
+      <target state="translated">Mich per E-Mail benachrichtigen, wenn sich jemand mit meinem Konto anmeldet</target></trans-unit>
+      <trans-unit id="helpText" xml:space="preserve" approved="yes">
+        <source>Show help text when applicable</source>
+      <target state="translated">Hilfetexte anzeigen, wenn vorhanden</target></trans-unit>
+      <trans-unit id="maxTitleLen" xml:space="preserve" approved="yes">
+        <source>Max. Title Length</source>
+      <target state="translated">Maximale Titellänge</target></trans-unit>
+      <trans-unit id="edit_showFieldHelp" xml:space="preserve" approved="yes">
+        <source>Context Sensitive Help mode</source>
+      <target state="translated">Kontextabhängige Hilfe</target></trans-unit>
+      <trans-unit id="edit_showFieldHelp_none" xml:space="preserve" approved="yes">
+        <source>Display no help information</source>
+      <target state="translated">Keine Hilfeinformationen anzeigen</target></trans-unit>
+      <trans-unit id="edit_showFieldHelp_icon" xml:space="preserve" approved="yes">
+        <source>Display help icon only</source>
+      <target state="translated">Nur Hilfesymbol anzeigen</target></trans-unit>
+      <trans-unit id="edit_showFieldHelp_message" xml:space="preserve" approved="yes">
+        <source>Display full text message</source>
+      <target state="translated">Kompletten Text anzeigen</target></trans-unit>
+      <trans-unit id="edit_wideDocument" xml:space="preserve" approved="yes">
+        <source>Wide document background</source>
+      <target state="translated">Breiten Hintergrund anzeigen</target></trans-unit>
+      <trans-unit id="edit_RTE" xml:space="preserve" approved="yes">
+        <source>Enable Rich Text Editor (if available)</source>
+      <target state="translated">Rich-Text-Editor aktivieren (falls verfügbar)</target></trans-unit>
+      <trans-unit id="edit_docModuleUpload" xml:space="preserve" approved="yes">
+        <source>File upload directly in Doc-module</source>
+      <target state="translated">Hochladen von Dateien direkt im Web-Modul</target></trans-unit>
+      <trans-unit id="showHiddenFilesAndFolders" xml:space="preserve">
+        <source>Show hidden files and folders in the file list</source>
+      </trans-unit>
+      <trans-unit id="enableFlashUploader" xml:space="preserve" approved="yes">
+        <source>Enable Flash Uploader (requires Flash 9+)</source>
+      <target state="translated">Flash-Schnittstelle zum Hochladen aktivieren (erfordert Flash 9+)</target></trans-unit>
+      <trans-unit id="resizeTextareas" xml:space="preserve" approved="yes">
+        <source>Make Textareas resizable</source>
+      <target state="translated">Größe von mehrzeiligen Textfeldern anpassbar machen</target></trans-unit>
+      <trans-unit id="resizeTextareas_MaxHeight" xml:space="preserve" approved="yes">
+        <source>Maximal Height of resizable Textarea in Pixel</source>
+      <target state="translated">Maximale Höhe in der Größe anpassbarer, mehrzeiliger Textfelder in Pixel</target></trans-unit>
+      <trans-unit id="flexibleTextareas_MaxHeight" xml:space="preserve" approved="yes">
+        <source>Maximal Height of flexible Textareas in Pixel</source>
+      <target state="translated">Maximale Höhe flexibler Textfelder in Pixel</target></trans-unit>
+      <trans-unit id="resizeTextareas_Flexible" xml:space="preserve" approved="yes">
+        <source>Make Textareas flexible</source>
+      <target state="translated">Textfelder flexibel machen</target></trans-unit>
+      <trans-unit id="editFunctionsTab" xml:space="preserve" approved="yes">
+        <source>Edit &amp; Advanced functions</source>
+      <target state="translated">Bearbeiten und erweiterte Funktionen</target></trans-unit>
+      <trans-unit id="edit_functions" xml:space="preserve" approved="yes">
+        <source>Edit</source>
+      <target state="translated">Bearbeiten</target></trans-unit>
+      <trans-unit id="disableCMlayers" xml:space="preserve" approved="yes">
+        <source>Disable Popup Context Menus</source>
+      <target state="translated">Inhaltskontextmenüs deaktivieren</target></trans-unit>
+      <trans-unit id="setToStandard" xml:space="preserve" approved="yes">
+        <source>Reset all Values to default</source>
+      <target state="translated">Alle Werte auf Standard zurücksetzen</target></trans-unit>
+      <trans-unit id="resetSectionHeader" xml:space="preserve" approved="no">
+        <source>Reset Settings</source>
+      <target state="needs-translation">Einstellungen</target><note>78%</note></trans-unit>
+      <trans-unit id="resetConfiguration" xml:space="preserve" approved="yes">
+        <source>Reset Configuration and Clear Temporary Data</source>
+      <target state="translated">Konfiguration zurücksetzen und temporäre Daten löschen</target></trans-unit>
+      <trans-unit id="resetConfigurationShort" xml:space="preserve">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="setToStandardQuestion" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to reset all values to default?</source>
+      <target state="translated">Alle Werte tatsächlich auf die Standardwerte zurücksetzen?</target></trans-unit>
+      <trans-unit id="clearSessionVars" xml:space="preserve" approved="yes">
+        <source>Clear Temporary Data</source>
+      <target state="translated">Temporäre Daten löschen</target></trans-unit>
+      <trans-unit id="clearSessionVarsShort" xml:space="preserve">
+        <source>Clear</source>
+      </trans-unit>
+      <trans-unit id="clearSessionVarsQuestion" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to clear the temporary data?</source>
+      <target state="translated">Die temporären Daten tatsächlich löschen?</target></trans-unit>
+      <trans-unit id="functions" xml:space="preserve" approved="yes">
+        <source>Advanced functions</source>
+      <target state="translated">Erweiterte Funktionen</target></trans-unit>
+      <trans-unit id="copyLevels" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Recursive Copy:&lt;/b&gt; Enter the number of page&lt;br /&gt;sublevels to include, when a page is copied</source>
+      <target state="translated">&lt;b&gt;Rekursives Kopieren:&lt;/b&gt; Geben Sie die Anzahl der zu kopierenden Unterebenen an</target></trans-unit>
+      <trans-unit id="recursiveDelete" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Recursive Delete(!):&lt;/b&gt; Allow ALL subpages&lt;br /&gt;to be deleted when deleting a page</source>
+      <target state="translated">&lt;b&gt;Rekursives Löschen(!):&lt;/b&gt; Erlaube das Löschen ALLER Unterseiten einer zu löschenden Seite</target></trans-unit>
+      <trans-unit id="activateChanges" xml:space="preserve" approved="yes">
+        <source>Notice! In order to activate most of these changes, please reload the backend (eg. logout and login again).</source>
+      <target state="translated">Achtung! Die meisten Optionen werden erst beim nächsten Start aktiv. Bitte ab- und anmelden.</target></trans-unit>
+      <trans-unit id="levels" xml:space="preserve" approved="yes">
+        <source>levels</source>
+      <target state="translated">Tiefe</target></trans-unit>
+      <trans-unit id="beUser_realName" xml:space="preserve" approved="yes">
+        <source>Your name</source>
+      <target state="translated">Ihr Name</target></trans-unit>
+      <trans-unit id="beUser_email" xml:space="preserve" approved="yes">
+        <source>Your email address</source>
+      <target state="translated">Ihre E-Mail-Adresse</target></trans-unit>
+      <trans-unit id="save" xml:space="preserve" approved="yes">
+        <source>Save Configuration</source>
+      <target state="translated">Konfiguration speichern</target></trans-unit>
+      <trans-unit id="newPassword" xml:space="preserve" approved="yes">
+        <source>New password</source>
+      <target state="translated">Neues Passwort</target></trans-unit>
+      <trans-unit id="newPasswordAgain" xml:space="preserve" approved="yes">
+        <source>New password, again</source>
+      <target state="translated">Neues Passwort (Wiederholung)</target></trans-unit>
+      <trans-unit id="newPassword_ok" xml:space="preserve" approved="yes">
+        <source>Password was updated.</source>
+      <target state="translated">Ihr Passwort wurde aktualisiert.</target></trans-unit>
+      <trans-unit id="setupWasUpdated" xml:space="preserve" approved="yes">
+        <source>User settings were updated.</source>
+      <target state="translated">Benutzereinstellungen wurden aktualisiert.</target></trans-unit>
+      <trans-unit id="newPassword_failed" xml:space="preserve" approved="yes">
+        <source>Password was NOT updated because you didn't enter the same password twice.</source>
+      <target state="translated">Das Passwort wurde nicht aktualisiert, da die Bestätigung falsch eingegeben wurde.</target></trans-unit>
+      <trans-unit id="adminFunctions" xml:space="preserve" approved="yes">
+        <source>Admin functions</source>
+      <target state="translated">Adminfunktionen</target></trans-unit>
+      <trans-unit id="enableInstallTool.label" xml:space="preserve" approved="yes">
+        <source>Install Tool Access</source>
+      <target state="translated">Zugriff auf Installationsprogramm</target></trans-unit>
+      <trans-unit id="enableInstallTool.createFile" xml:space="preserve" approved="yes">
+        <source>Create Install Tool Enable File</source>
+      <target state="translated">Aktivierungsdatei für Installationsprogramm erstellen</target></trans-unit>
+      <trans-unit id="enableInstallTool.file" xml:space="preserve" approved="yes">
+        <source>Install Tool Enable file</source>
+      <target state="translated">Aktivierungsdatei für Installationsprogramm</target></trans-unit>
+      <trans-unit id="enableInstallTool.fileCreate_ok" xml:space="preserve" approved="yes">
+        <source>The Install Tool Enable file has been created.</source>
+      <target state="translated">Die Aktivierungsdatei für das Installationsprogramm wurde erstellt.</target></trans-unit>
+      <trans-unit id="enableInstallTool.fileCreate_failed" xml:space="preserve" approved="yes">
+        <source>The Install Tool Enable file could not be created.</source>
+      <target state="translated">Die Aktivierungsdatei für das Installationsprogramm konnte nicht erstellt werden.</target></trans-unit>
+      <trans-unit id="enableInstallTool.deleteFile" xml:space="preserve" approved="yes">
+        <source>Delete Install Tool Enable File</source>
+      <target state="translated">Aktivierungsdatei für Installationsprogramm löschen</target></trans-unit>
+      <trans-unit id="enableInstallTool.fileDelete_ok" xml:space="preserve" approved="yes">
+        <source>The Install Tool Enable file has been deleted.</source>
+      <target state="translated">Die Aktivierungsdatei für das Installationsprogramm wurde gelöscht.</target></trans-unit>
+      <trans-unit id="enableInstallTool.fileDelete_failed" xml:space="preserve" approved="yes">
+        <source>The Install Tool Enable file could not be deleted!</source>
+      <target state="translated">Die Aktivierungsdatei für das Installationsprogramm konnte nicht gelöscht werden.</target></trans-unit>
+      <trans-unit id="enableInstallTool.fileHasKeep" xml:space="preserve" approved="yes">
+        <source>The Install Tool file has the content "KEEP_FILE" and can not be deleted!</source>
+      <target state="translated">Die Aktivierungsdatei für das Installationsprogramm hat den Inhalt "KEEP_FILE" und wird daher nicht gelöscht.</target></trans-unit>
+      <trans-unit id="tempDataCleared" xml:space="preserve" approved="yes">
+        <source>Temporary data cleared</source>
+      <target state="translated">Temporäre Daten gelöscht</target></trans-unit>
+      <trans-unit id="tempDataClearedFlashMessage" xml:space="preserve" approved="yes">
+        <source>The temporary data has been cleared.</source>
+      <target state="translated">Die temporären Daten wurden gelöscht.</target></trans-unit>
+      <trans-unit id="tempDataClearedLog" xml:space="preserve" approved="yes">
+        <source>Temporary data cleared</source>
+      <target state="translated">Temporäre Daten gelöscht</target></trans-unit>
+      <trans-unit id="settingsAreReset" xml:space="preserve" approved="yes">
+        <source>The user settings have been reset to default values and temporary data has been cleared.</source>
+      <target state="translated">Die Benutzereinstellungen wurden auf die Standardwerte zurückgesetzt und temporäre Daten gelöscht.</target></trans-unit>
+      <trans-unit id="debugInWindow" xml:space="preserve" approved="yes">
+        <source>Display debug messages in a new browser window</source>
+      <target state="translated">Debug-Meldungen in neuem Browserfenster anzeigen</target></trans-unit>
+    </body>
+  </file>
+</xliff>

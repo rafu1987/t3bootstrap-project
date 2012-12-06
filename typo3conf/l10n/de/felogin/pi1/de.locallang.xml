@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="ll_welcome_header">Benutzeranmeldung</label>
+      <label index="ll_welcome_message">Geben Sie Ihren Benutzernamen und Ihr Passwort ein, um sich an der Website anzumelden:</label>
+      <label index="ll_logout_header">Sie haben sich abgemeldet.</label>
+      <label index="ll_logout_message">Sie haben sich von dieser Website abgemeldet. Sie können sich erneut, auch als ein anderer Benutzer, mit dem unten angezeigten Formular anmelden.</label>
+      <label index="ll_error_header">Anmeldefehler</label>
+      <label index="ll_error_message">Während der Anmeldung ist ein Fehler aufgetreten. Wahrscheinlich haben Sie Ihren Benutzernamen oder das Passwort falsch eingegeben. Vergewissern Sie sich, dass Sie beide Angaben korrekt eingegeben haben - Groß-/Kleinschreibung wird unterschieden. Eine andere Möglichkeit ist, dass Sie eventuell die Cookies in Ihrem Web-Browser deaktiviert haben.</label>
+      <label index="ll_success_header">Anmeldung erfolgreich</label>
+      <label index="ll_success_message">Sie sind nun angemeldet als '###USER###'.</label>
+      <label index="ll_status_header">Aktueller Status</label>
+      <label index="ll_status_message">Das ist Ihr aktueller Status:</label>
+      <label index="cookie_warning">Warnung: Es besteht die Möglichkeit, dass in Ihrem Browser Cookies deaktiviert sind! Sollte trotz erfolgreicher Anmeldung beim nächsten Klick wieder die Anmeldeseite erscheinen, so sind Cookies deaktiviert. Sie sollten daher umgehend Cookies akzeptieren, entweder generell für alle Websites oder nur für diese spezielle.</label>
+      <label index="username">Benutzername:</label>
+      <label index="password">Passwort:</label>
+      <label index="login">Anmelden</label>
+      <label index="permalogin">Angemeldet bleiben:</label>
+      <label index="logout">Abmelden</label>
+      <label index="send_password">Passwort senden</label>
+      <label index="reset_password">Passwort zurücksetzen</label>
+      <label index="ll_change_password_header">Passwort ändern</label>
+      <label index="ll_change_password_message">Das neue Passwort bitte zweimal eingeben. Es ist eine Mindestlänge von %s Zeichen erforderlich.</label>
+      <label index="ll_change_password_nolinkprefix_message">Fehler: Kein Präfix für Link. Bitte eine der folgenden Eigenschaften im TypoScript-Template definieren: plugin.tx_felogin_pi1.feloginBaseURL = http://ihredomaene/, config.baseURL = http://ihredomaene/, config.absRelPrefix = http://ihredomaene/</label>
+      <label index="ll_change_password_notvalid_message">Der angeklickte Link ist ungültig. Den Vorgang für vergessene Passwörter bitte erneut durchführen.</label>
+      <label index="ll_change_password_notequal_message">Die Passwörter stimmen nicht überein. Das neue Passwort bitte zweimal eingeben. Es ist eine Mindestlänge von %s Zeichen erforderlich.</label>
+      <label index="ll_change_password_tooshort_message">Das Passwort ist zu kurz. Das neue Passwort bitte zweimal eingeben. Es ist eine Mindestlänge von %s Zeichen erforderlich.</label>
+      <label index="ll_change_password_done_message">Das Passwort wurde gespeichert. Sie können sich nun mit dem neuen Passwort anmelden.</label>
+      <label index="change_password">Passwort ändern</label>
+      <label index="newpassword_label1">Neues Passwort eingeben</label>
+      <label index="newpassword_label2">Neues Passwort wiederholen</label>
+      <label index="your_email">Ihre E-Mail-Adresse:</label>
+      <label index="ll_forgot_header">Kennwort vergessen?</label>
+      <label index="ll_forgot_email_password">Ihr Passwort
+Hallo %s,
+
+Ihr Benutzername lautet "%s".
+Ihr Passwort ist "%s".</label>
+      <label index="ll_forgot_email_nopassword">Ihr Passwort
+Hallo %s,
+
+wir konnten keinen Benutzernamen für diese E-Mail-Adresse in unserer Datenbank finden. Aus diesem Grund können wir Ihnen kein Passwort zusenden. Vielleicht haben Sie Ihre E-Mail-Adresse fehlerhaft eingegeben (Groß-/Kleinschreibung wird unterschieden!) oder haben Sie sich noch nicht registriert?</label>
+      <label index="ll_forgot_validate_reset_password">Ihr neues Passwort
+Hallo %s,
+
+Sie erhalten diese Nachricht, da Sie Ihr Passwort zurücksetzen lassen wollen. Zur Bestätigung bitte nachstehenden Link aufrufen:
+%s
+
+Aus Sicherheitsgründen ist dieser Link nur bis %s aktiv. Falls Sie den Link nicht bis dahin aufgerufen haben, müssen Sie die Schritte zum Zurücksetzen des Passworts wiederholen.</label>
+      <label index="ll_forgot_message">Bitte geben Sie die E-Mail-Adresse ein, mit der Sie sich registriert haben. Anschließend klicken Sie auf "Passwort senden" und Ihr Passwort wird Ihnen umgehend zugesandt. Achten Sie auf die korrekte Schreibweise Ihrer E-Mail-Adresse.</label>
+      <label index="ll_forgot_message_emailSent">Ihr Passwort wurde an die E-Mail-Adresse %s versandt.</label>
+      <label index="ll_forgot_reset_message">Bitte den Benutzernamen oder die E-Mail-Adresse eingeben. Sie erhalten dann umgehend Anweisungen zum Zurücksetzen des Passworts zugesandt.</label>
+      <label index="ll_forgot_reset_message_emailSent">Es wurde eine E-Mail mit einem Link zum Zurücksetzen des Passworts an die in Ihrem Benutzerkonto gespeicherte E-Mail-Adresse geschickt. Sollten Sie keine E-Mail erhalten, wurde Ihr Konto oder die E-Mail-Adresse nicht gefunden.</label>
+      <label index="ll_forgot_reset_message_error"/>
+      <label index="ll_forgot_header_backToLogin">Zurück zum Anmeldeformular</label>
+      <label index="ll_enter_your_data">Benutzername oder E-Mail-Adresse:</label>
+      <label index="noValidRedirectUrl">Die URL "%s" wurde nicht als Weiterleitung akzeptiert!</label>
+      <label index="xssAttackDetected">Die URL "%s" enthielt einen XSS-Angriff und wurde bereinigt!</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

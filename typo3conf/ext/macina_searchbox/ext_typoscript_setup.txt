@@ -1,0 +1,4 @@
+plugin.tx_macinasearchbox_pi1 {
+	pidSearchpage = 
+	templateFile = EXT:macina_searchbox/pi1/template.htm
+}

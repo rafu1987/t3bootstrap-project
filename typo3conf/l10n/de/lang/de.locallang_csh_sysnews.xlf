@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="hidden.description" xml:space="preserve" approved="yes">
+        <source>This option will hide the news from showing up at the login screen.</source>
+      <target state="translated">Mit dieser Option können Sie die Nachricht verbergen. Sie wird dann nicht auf der Loginseite angezeigt.</target></trans-unit>
+      <trans-unit id="title.description" xml:space="preserve" approved="yes">
+        <source>Enter the title of the news.</source>
+      <target state="translated">Geben Sie den Titel der Nachricht ein.</target></trans-unit>
+      <trans-unit id="content.description" xml:space="preserve" approved="yes">
+        <source>The news content to let editors know what's coming up. HTML is disabled, however, you can use line breaks.</source>
+      <target state="translated">Der Inhalt der Nachricht, um Redakteure auf dem Laufenden zu halten. HTML-Elemente sind nicht möglich, Zeilenumbrüche aber sind erlaubt.</target></trans-unit>
+      <trans-unit id=".description" xml:space="preserve" approved="yes">
+        <source>System news are shown at the TYPO3 login screen, allowing admins to inform editors about upcoming system maintenance and similar events.</source>
+      <target state="translated">System-Nachrichten werden auf der TYPO3-Loginseite angezeigt. Sie ermöglichen es Administratoren, Redakteure über anstehende Wartungsarbeiten und Ähnliches zu informieren.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

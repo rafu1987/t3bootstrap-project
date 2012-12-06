@@ -1,0 +1,3 @@
+- Different wizard for form/table/bullet list usage
+- Translate the few labels from english to LL.
+- Support more than UTF-8 for non-LR content.

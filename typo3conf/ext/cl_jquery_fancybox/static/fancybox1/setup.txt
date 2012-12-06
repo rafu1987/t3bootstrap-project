@@ -1,0 +1,82 @@
+
+[globalVar = LIT:1 = {$plugin.cljqueryfancybox.includejquerycore}]
+page.includeJSFooterlibs {
+	jquery = http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+	jquery.external = 1
+	jquery.forceOnTop = 1
+}
+[global]
+
+page.includeJSFooter {
+	jquery_mousewheel = EXT:cl_jquery_fancybox/fancybox1/jquery.mousewheel-3.0.4.pack.js
+	jquery_fancybox = EXT:cl_jquery_fancybox/fancybox1/jquery.fancybox-1.3.4.js
+	jquery_easing = EXT:cl_jquery_fancybox/fancybox1/jquery.easing-1.3.pack.js
+}
+
+page.includeCSS {
+	fancybox = EXT:cl_jquery_fancybox/fancybox1/jquery.fancybox-1.3.4.css
+	fancybox.media = screen
+	fancybox.compress = true
+}
+
+
+page.jsFooterInline.800 = COA
+page.jsFooterInline.800 {
+	wrap = jQuery(document).ready(function() { jQuery('a[class*=lightbox]').each(function(){ jQuery(this).fancybox({|}); });  });
+	10 = TEXT
+	10.value (
+		'title' : (jQuery(this).attr('title') != undefined ? jQuery(this).attr('title') : jQuery(this).find('img').attr('title')),
+		'padding' : {$plugin.cljqueryfancybox.padding},
+		'margin' : {$plugin.cljqueryfancybox.margin},
+		'opacity' : {$plugin.cljqueryfancybox.opacity},
+		'modal' : {$plugin.cljqueryfancybox.modal},
+		'cyclic' : {$plugin.cljqueryfancybox.cyclic},
+		'scrolling' : '{$plugin.cljqueryfancybox.scrolling}',
+		'width' : {$plugin.cljqueryfancybox.width},
+		'height' : {$plugin.cljqueryfancybox.height},
+		'autoScale' : {$plugin.cljqueryfancybox.autoScale},
+		'autoDimensions' : {$plugin.cljqueryfancybox.autoDimensions},
+		'centerOnScroll' : {$plugin.cljqueryfancybox.centerOnScroll},
+		'ajax' : {{$plugin.cljqueryfancybox.ajax}},
+		'swf' : {{$plugin.cljqueryfancybox.swf}},
+		'hideOnOverlayClick' : {$plugin.cljqueryfancybox.hideOnOverlayClick},
+		'hideOnContentClick' : {$plugin.cljqueryfancybox.hideOnContentClick},
+		'overlayShow' : {$plugin.cljqueryfancybox.overlayShow},
+		'overlayOpacity' : {$plugin.cljqueryfancybox.overlayOpacity},
+		'overlayColor' : '{$plugin.cljqueryfancybox.overlayColor}',
+		'titleShow' : {$plugin.cljqueryfancybox.titleShow},
+		'titlePosition' : '{$plugin.cljqueryfancybox.titlePosition}',
+		'titleFormat' : {$plugin.cljqueryfancybox.titleFormat},
+		'transitionIn' : '{$plugin.cljqueryfancybox.transitionIn}',
+		'transitionOut' : '{$plugin.cljqueryfancybox.transitionOut}',
+		'speedIn' : {$plugin.cljqueryfancybox.speedIn},
+		'speedOut' : {$plugin.cljqueryfancybox.speedOut},
+		'changeSpeed' : {$plugin.cljqueryfancybox.changeSpeed},
+		'changeFade' : '{$plugin.cljqueryfancybox.changeFade}',
+		'easingIn' : '{$plugin.cljqueryfancybox.easingIn}',
+		'easingOut' : '{$plugin.cljqueryfancybox.easingOut}',
+		'showCloseButton' : {$plugin.cljqueryfancybox.showCloseButton},
+		'showNavArrows' : {$plugin.cljqueryfancybox.showNavArrows},
+		'enableEscapeButton' : {$plugin.cljqueryfancybox.enableEscapeButton},
+		'onStart' : {$plugin.cljqueryfancybox.onStart},
+		'onCancel' : {$plugin.cljqueryfancybox.onCancel},
+		'onComplete' : {$plugin.cljqueryfancybox.onComplete},
+		'onCleanup' : {$plugin.cljqueryfancybox.onCleanup},
+		'onClosed' : {$plugin.cljqueryfancybox.onClosed}
+	)
+}
+
+# HTML5 Validität: data-fancybox-group anstatt rel verwenden
+tt_content.image.20.1.imageLinkWrap.linkParams.ATagParams.dataWrap = class="{$styles.content.imgtext.linkWrap.lightboxCssClass}" data-fancybox-group="lightbox{field:uid}"
+
+
+# tt_news
+plugin.tt_news.displaySingle.image.imageLinkWrap {
+   JSwindow = 0
+   directImageLink = 1
+   linkParams.ATagParams.dataWrap = class="{$styles.content.imgtext.linkWrap.lightboxCssClass}" data-fancybox-group="lightbox{field:uid}"
+   width = {$styles.content.imgtext.linkWrap.width}
+   height = {$styles.content.imgtext.linkWrap.height}
+}
+
+

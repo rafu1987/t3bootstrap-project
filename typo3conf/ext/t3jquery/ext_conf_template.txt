@@ -1,0 +1,49 @@
+# cat=basic/enable/10; type=boolean; label=Always integrate jQuery: If set, the generated library will be integrated on every page
+alwaysIntegrate = 
+
+# cat=basic/enable/20; type=boolean; label=Integrate jQuery to footer: If set, the generated library will be inserted into the footer section
+integrateToFooter = 
+
+# cat=basic/enable/60; type=boolean; label=Styles for frontend: If set, you get some static to include default styles
+enableStyleStatic = 0
+
+# cat=basic/enable/30; type=string; label=Don't integrate: UID's where the library won't be integrated even if alwaysIntegrate is set
+dontIntegrateOnUID = 
+
+# cat=basic/enable/40; type=string; label=Don't integrate to rootline: UID's where the library won't be integrated even if alwaysIntegrate is set (recursive from rootline)
+dontIntegrateInRootline = 
+
+# cat=basic/enable/50; type=string; label=File prefix: Defines the prefix of the generated library (jquery-###VERSION###.js)
+jqLibFilename = jquery-###VERSION###.js
+
+
+
+# cat=basic/file/10; type=string; label=Path to T3 jQuery storage folder: All generated files will be stored in this folder.
+configDir = uploads/tx_t3jquery
+
+
+
+# cat=basic/typo/10; type=options[1.8.x,1.7.x,1.6.x,1.5.x,1.4.x,1.3.x,1.2.x]; label=jQuery Version: Defines the jQuery Version
+jQueryVersion = 1.8.x
+
+# cat=basic/typo/20; type=options[,1.9.x,1.8.x,1.7.x,1.6.x]; label=jQuery UI Version: Defines the jQuery UI Version
+jQueryUiVersion = 1.9.x
+
+# cat=basic/typo/30; type=options[,1.2.x,1.1.x]; label=jQuery TOOLS Version: Defines the jQuery TOOLS Version
+jQueryTOOLSVersion = 
+
+# cat=basic/typo/40; type=options[,2.1.x,2.0.x]; label=jQuery Bootstrap Version: Defines the jQuery Bootstrap Version
+jQueryBootstrapVersion = 
+
+
+
+# cat=basic/enable/10; type=boolean; label=Integrate from CDN: If set, the libs will be integrated from a CDN
+integrateFromCDN = 
+
+# cat=basic/enable/20; type=options[jquery,google,msn]; label=Location of CDN: Choose the used CDN (jQuery TOOLS even comes from jquerytools.com)
+locationCDN = jquery
+
+
+
+# cat=basic/dev/1000; type=user[EXT:t3jquery/lib/class.tx_t3jquery_tsparserext.php:tx_t3jquery_tsparserext->displayMessage]; label=Updater
+updateMessage = 0

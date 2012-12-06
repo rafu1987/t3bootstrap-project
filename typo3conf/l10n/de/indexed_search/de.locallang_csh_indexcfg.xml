@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Mit Hilfe der Indexsuchenkonfiguration ist es möglich, eine Indexierung von Quellen einzurichten, die sich außerhalb des TYPO3-Seitenbaums befinden. Dabei kann es sich um Bibliotheken von Datensätzen (wie News) handeln, eine Verzeichnisstruktur mit Dateien (wie PDFs) oder externe URLs, die bis zu einer bestimmten Tiefe verarbeitet werden sollen - oder weitere Drittinhalte, die aus anderen Erweiterungen über Hooks geliefert werden.</label>
+      <label index=".details">Die Datensätze der Indexierungskonfiguration dienen zur Festlegung der Art und Weise und des Zeitpunktes der Indexierung sowie des Teilastes des Seitenbaums, auf den sie sich bezieht. Eine wichtige Voraussetzung ist die Installation der Erweiterung "crawler", denn die Indexsuche benutzt die Warteschlange dieser Erweiterung als Zeitplaner - und dies wiederum bedingt die Verwendung eines Cron-Jobs, der "crawler" von der Shell aus aktiviert.</label>
+      <label index="title.description">Geben Sie einen Titel für die Konfiguration an.</label>
+      <label index="description.description">Geben Sie, falls notwendig, eine Beschreibung oder wichtige Hinweise ein.</label>
+      <label index="hidden.description">Deaktiviert die Konfiguration. Bei Deaktivierung wird die Konfiguration vom Cron-Job der Erweiterung "crawler" übersprungen.</label>
+      <label index="hidden.details">Hinweis: Die Deaktivierung des Indexierungsvorgangs hat keinen Einfluss auf die Anzeige bereits indexierter Inhalte in Suchergebnissen!</label>
+      <label index="_hidden.seeAlso">index_config:starttime</label>
+      <label index="starttime.description">Legt eine Startzeit für die Konfiguration fest. Wird hier ein Wert eingetragen, so wird die Konfiguration vom Crawler-Cron-Job so lange übersprungen, bis der angegebene Zeitpunkt erreicht ist.</label>
+      <label index="_starttime.seeAlso">index_config:hidden</label>
+      <label index="timer_frequency.description">Mit Hilfe dieser Einstellung lässt sich festlegen, wie oft für diese Konfiguration eine Neuindexierung erfolgen soll.</label>
+      <label index="_timer_frequency.seeAlso">index_config:timer_next_indexing, index_config:timer_offset</label>
+      <label index="timer_offset.description">Der Zeitversatz gibt an, zu welcher Tageszeit der Indexierungsvorgang durchgeführt werden soll.</label>
+      <label index="_timer_offset.seeAlso">index_config:timer_frequency</label>
+      <label index="timer_next_indexing.description">Dieses Feld beinhaltet Datum und Zeit des nächsten Indexierungsvorgangs. Ist kein Wert eingetragen, erfolgt die nächste Indexierung beim nächsten Aufruf des Cron-Skripts (normalerweise innerhalb einer Minute) und anschließend jeweils zu der Zeit, die durch Häufigkeit und Versatz festgelegt wurde.</label>
+      <label index="_timer_next_indexing.seeAlso">index_config:timer_offset, index_config:timer_frequency</label>
+      <label index="type.description">Den Typ der Indexierungskonfiguration festlegen.</label>
+      <label index="type.details">&lt;strong&gt;Datensätze&lt;/strong&gt; - Hiermit können Datensätze auf einer bestimmten Seite und aus einer bestimmten Tabelle indexiert werden. Es kann festgelegt werden, welche Felder des Datensatzes indexiert werden und wie zusätzliche GET-Parameter benutzt werden sollen, wenn zum Suchergebnis verlinkt wird. &lt;strong&gt;Dateien&lt;/strong&gt; - Erlaubt die Indexierung eines ganzen Verzeichnisses unterhalb des Ordners fileadmin/. Optional kann die gewünschte Tiefe der Rekursion angegeben werden. &lt;strong&gt;Externe URL&lt;/strong&gt; - Erlaubt die Indexierung einer externen Site und die Suche darin von innerhalb der TYP3-Installation! Optional kann die gewünschte Tiefe angegeben werden, bis zu der crawler Links folgen soll. &lt;strong&gt;Seitenbaum&lt;/strong&gt; - Erlaubt die Indexierung des Seitenbaums über das Cron-Skript. Dieser Typ kann bei der Suche nicht wie die anderen als Kategorie eingesetzt werden. &lt;strong&gt;Metakonfiguration&lt;/strong&gt; - Zeigt auf eine Sammlung anderer Indexierungskonfigurationen, über welche die Suche durchgeführt wird. Kann nicht für Cron-Job-basierte Indexierung verwendet werden. &lt;strong&gt;Benutzerdefiniert&lt;/strong&gt; - Andere Erweiterungen können benutzerdefinierte Typen der Konfiguration registrieren.</label>
+      <label index="table2index.description">Die Datenbanktabelle angeben, deren Datensätze indexiert werden sollen.</label>
+      <label index="alternative_source_pid.description">Standardmäßig wählt der Indexierungsvorgang Datensätze der Seite aus, in der die Indexierungskonfiguration gespeichert ist. Soll eine andere Seite als Quelle der Datensätze dienen, kann dies hier festgelegt werden.</label>
+      <label index="_alternative_source_pid.seeAlso">index_config:table2index</label>
+      <label index="get_params.description">Die zur Anzeige der Suchergebnisse erforderlichen GET-Parameter eingeben. In der Parametervorlage kann ###UID### als Markierung verwendet werden.</label>
+      <label index="get_params.details">Hinweis: Die GET-Parameter werden der URL der Seite hinzugefügt, auf der die Indexierungskonfiguration gespeichert ist. Dabei muss es sich um eine Seite handeln, auf der sich ein Plug-In befindet, das in der Lage ist, mit Hilfe der Parameter die Datensätze anzuzeigen! Beispielwert: "&amp;showUid=###UID###"</label>
+      <label index="_get_params.seeAlso">index_config:table2index</label>
+      <label index="fieldlist.description">Eine kommagetrennte Liste der zu indexierenden Felder eingeben. Der Name des ersten Feldes wird für den Titel des Suchergebnisses benutzt.</label>
+      <label index="fieldlist.details">&lt;strong&gt;Beispiel:&lt;/strong&gt; "header,bodytext,image_caption" würde die Felder Header, Bodytext und Bildunterschrift aus tt_content indexieren. Beachten Sie, dass hier die echten Namen der Datenbankfelder verwendet werden müssen, achten Sie also auf die korrekte Schreibweise!</label>
+      <label index="_fieldlist.seeAlso">index_config:table2index</label>
+      <label index="chashcalc.description">Ist die Option aktiviert, wird die URL im Suchergebnisse für Datensätze über einen "&amp;cHash"-Parameter kodiert, damit sie gecacht werden kann. Nur verwenden, wenn es vom entsprechenden Plug-In auch unterstützt wird!</label>
+      <label index="_chashcalc.seeAlso">index_config:table2index</label>
+      <label index="recordsbatch.description">Die Anzahl der pro Instanz des Indexierungsprozesses zu indexierenden Datensätze angeben (wie viele pro Minute). Voreinstellung sind 100 Datensätze.</label>
+      <label index="_recordsbatch.seeAlso">index_config:table2index</label>
+      <label index="records_indexonchange.description">Ist die Option aktiviert, werden neue und geänderte Datensätze dieser Tabelle über einen Hook im Kern (TCEmain) indexiert. D.h. es kann sofort nach dem Hinzufügen zum System nach ihnen gesucht werden.</label>
+      <label index="_records_indexonchange.seeAlso">index_config:table2index</label>
+      <label index="externalUrl.description">Die URL einer externen, zu indexierenden Website eingeben.</label>
+      <label index="url_deny.description">Pro Zeile eine URL eingeben, die der Crawler aussparen soll.</label>
+      <label index="url_deny.details">Beispiel: Soll "http://typo3.org/" indexiert werden, aber nicht "http://typo3.org/extensions" und "http://typo3.org/downloads/", einfach folgende URLs so in das Feld eingeben: http://typo3.org/downloads/ http://typo3.org/extensions/</label>
+      <label index="_url_deny.seeAlso">index_config:externalUrl</label>
+      <label index="filepath.description">Einen Dateipfad unterhalb von fileadmin/ angeben, in dem die Dateien indexiert werden sollen.</label>
+      <label index="filepath.details">Beispiel: "fileadmin/newsletters/"</label>
+      <label index="extensions.description">Sollen in einem Verzeichnis nur bestimmte Dateitypen indexiert werden, hier eine Liste der Dateiendungen eingeben. Beispiel: "html,pdf,doc"</label>
+      <label index="_extensions.seeAlso">index_config:filepath</label>
+      <label index="depth.description">Rekursionsebenen.</label>
+      <label index="depth.details">Bei der Indexierung von Dateien gibt der Wert die Tiefe der Verzeichnisebenen an, bis zu der indexiert werden soll. Bei externen URLs entspricht er der Tiefe, bis zu der crawler Links folgt.</label>
+      <label index="_depth.seeAlso">index_config:externalUrl, index_config:filepath</label>
+      <label index="indexcfgs.description">Wird eine Suche über diese Indexierungskonfiguration durchgeführt, so findet die tatsächliche Suche im indexierten Inhalt der hier aufgeführten Konfigurationen statt. Zusätzlich können Seiten angegeben werden. In diesem Fall wird die Suche über die auf diesen Seiten gefundenen Indexierungskonfigurationen durchgeführt.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

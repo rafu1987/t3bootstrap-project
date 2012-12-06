@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="adminOptions">ADMIN-PANEL</label>
+      <label index="adminPanelTitle">TYPO3 ADMIN-PANEL</label>
+      <label index="preview">Vorschau</label>
+      <label index="preview_showHiddenPages">Verborgene Seiten anzeigen</label>
+      <label index="preview_showHiddenRecords">Verborgene Datensätze anzeigen</label>
+      <label index="preview_simulateDate">Zeitpunkt simulieren</label>
+      <label index="preview_simulateUserGroup">Benutzergruppe simulieren</label>
+      <label index="cache">Cache</label>
+      <label index="cache_noCache">Kein Caching</label>
+      <label index="cache_doit">Cache jetzt löschen!</label>
+      <label index="cache_clearLevels">Löschebenen</label>
+      <label index="cache_cacheEntries">Cache-Einträge</label>
+      <label index="publish">Veröffentlichen</label>
+      <label index="publish_levels">Veröffentlichungsebenen</label>
+      <label index="publish_tree">Veröffentlichte Seiten</label>
+      <label index="publish_doit">Jetzt veröffentlichen!</label>
+      <label index="edit">Eingabe</label>
+      <label index="edit_displayIcons">Bearbeitungsleiste anzeigen</label>
+      <label index="edit_displayFieldIcons">Bearbeitungssymbole anzeigen</label>
+      <label index="edit_editFormsOnPage">Eingabeformular auf Webseite</label>
+      <label index="edit_editNoPopup">Keine Popup-Fenster</label>
+      <label index="edit_openAB">TYPO3-Backend öffnen</label>
+      <label index="edit_recordHistory">Änderungsprotokoll anzeigen</label>
+      <label index="edit_newContentElement">Neues Inhaltelement anlegen</label>
+      <label index="edit_move_page">Seite verschieben</label>
+      <label index="edit_newPage">Neue Seite anlegen</label>
+      <label index="edit_editPageProperties">Seiteneigenschaften bearbeiten</label>
+      <label index="edit_editPageOverlay">Eigenschaften der übersetzten Seite bearbeiten</label>
+      <label index="edit_db_list">Modul Web &gt; Liste</label>
+      <label index="tsdebug">TypoScript</label>
+      <label index="tsdebug_tree">Baumdarstellung</label>
+      <label index="tsdebug_LR">Rendering der Inhalte verfolgen</label>
+      <label index="tsdebug_forceTemplateParsing">TS-Rendering erzwingen</label>
+      <label index="tsdebug_displayTimes">Rendering-Zeiten anzeigen</label>
+      <label index="tsdebug_displayMessages">Nachrichten anzeigen</label>
+      <label index="tsdebug_displayContent">Inhalte anzeigen</label>
+      <label index="tsdebug_displayQueries">SELECT-Anweisung erläutern</label>
+      <label index="info">Info</label>
+      <label index="div_Levels_0">Diese Seite</label>
+      <label index="div_Levels_1">+1 Ebene</label>
+      <label index="div_Levels_2">+2 Ebenen</label>
+      <label index="update">Aktualisieren</label>
+      <label index="p_editRecord">Datensatz bearbeiten</label>
+      <label index="p_moveUp">Nach oben verschieben</label>
+      <label index="p_moveDown">Nach unten verschieben</label>
+      <label index="p_unhide">Sichtbar machen</label>
+      <label index="p_hide">Verbergen</label>
+      <label index="p_newSubpage">Neue Unterseite</label>
+      <label index="p_newRecordAfter">Neuen Datensatz einfügen</label>
+      <label index="p_delete">Löschen</label>
+      <label index="p_deleteConfirm">Diesen Datensatz tatsächlich löschen?</label>
+      <label index="p_hideConfirm">Das Verbergen eines Datensatzes macht diesen auf der Web-Seite unsichtbar. Um den Datensatz zu bearbeiten, müssen Sie entweder das Backend benutzen oder bei der Frontend-Eingabe die Vorschau einschalten. Fortfahren?</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

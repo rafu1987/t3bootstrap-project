@@ -1,0 +1,8 @@
+includeLibs.mobileHide = typo3conf/ext/medmobilehide/lib/mobileHide.php
+
+tt_content.stdWrap.outerWrap >
+tt_content.stdWrap.outerWrap.cObject = USER
+tt_content.stdWrap.outerWrap.cObject {
+    userFunc = user_mobilehide->mobileHide
+    hide.field = tx_medmobilehide_mobile_hidden  
+}

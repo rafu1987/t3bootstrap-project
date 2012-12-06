@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'fl_realrul_image'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">		
+			<label index="fl_realurl_image.tabletitle">Image RealURL Cache</label>
+			<label index="fl_realurl_image.image_path">Image Path</label>
+			<label index="fl_realurl_image.realurl_path">RealURL Path</label>
+			<label index="fl_realurl_image.page_id">Page</label>
+			<label index="fl_realurl_image.crdate">Create date</label>
+			
+			<label index="fl_realurl_image.ext_conf_storagePid">storagePid: A typo3 pid where the image Datasets are stored.</label>
+			<label index="fl_realurl_image.ext_conf_cacheControl">cacheControl: Enable the Cache Control Feature to get a better performance, images will be loaded from browser cache</label>
+			<label index="fl_realurl_image.ext_conf_fileLinks">fileLinks: Chose which file links you desire, none, softLinks, hardLinks or ture copies. File links enables that images can be displayed with no need of DB-request as they really exist. A great deal for performance!</label>
+			<label index="fl_realurl_image.ext_conf_virtualPathRemove">virtualPathRemove: Virtually remove this segment from the image path. (Notice, this will only work if you set .htaccess accordingly)</label>
+			
+			<label index="fl_realurl_image.conf_enable">enable: switch the extension on or off</label>
+			<label index="fl_realurl_image.conf_data">data: This is how the extension gets it's information to generate a cool image url</label>
+			<label index="fl_realurl_image.conf_case">case: The image file name should be in upper or lower case?</label>
+			<label index="fl_realurl_image.conf_trim">trim: removes leading and ending white space</label>
+			<label index="fl_realurl_image.conf_crop">crop: Limits the maximum length of a image file name</label>
+			<label index="fl_realurl_image.conf_spaceCharacter">spaceCharacter: Space character in the generated file name</label>
+			<label index="fl_realurl_image.conf_hashLength">hashLength: To keep the file names static, not depending on cache and order of image viewed - Important for SEO! This specifies the legth of the hash. The hash will get longer if necessary automatically</label>
+			<label index="fl_realurl_image.conf_smartEncoding">smartEncoding: gereates ASCII file-names</label>
+			<label index="fl_realurl_image.conf_imageFolder">imageFolder: A folder where the images are supposed to be stored. Don't start the folder with a "/". The path is relativ to the TYPO3 main directory.</label>
+					
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="fl_realurl_image.tabletitle">Image RealURL Cache</label>
+			<label index="fl_realurl_image.image_path">Image Pfad</label>
+			<label index="fl_realurl_image.realurl_path">RealURL Pfad</label>
+			<label index="fl_realurl_image.page_id">Seite</label>
+			<label index="fl_realurl_image.crdate">Erstellungsdatum</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="constants">Konstanten</label>
+      <label index="setup">Setup</label>
+      <label index="all">Alle</label>
+      <label index="plainSubstitution">Einfaches Ersetzen (Standard)</label>
+      <label index="substitutedGreen">Ersetzte Konstanten in grün</label>
+      <label index="unsubstitutedGreen">NICHT-ersetzte Konstanten in grün</label>
+      <label index="currentTemplate">Aktuelles Template:</label>
+      <label index="badProperty">Ungültige Eigenschaft!</label>
+      <label index="noSpaces">Sie müssen eine Eigenschaft mit folgenden Zeichen eingeben: a-z, A-Z und 0-9, keine Leerzeichen!</label>
+      <label index="nothingUpdated">Keine Aktualisierung durchgeführt!</label>
+      <label index="propertyAdded">Eigenschaft hinzugefügt</label>
+      <label index="valueUpdated">Wert aktualisiert</label>
+      <label index="objectCleared">Objekt gelöscht</label>
+      <label index="updateButton">Aktualisieren</label>
+      <label index="editProperty">Objekt-/Eigenschaftswert bearbeiten:</label>
+      <label index="addButton">Hinzufügen</label>
+      <label index="addProperty">Objekteigenschaft hinzufügen:</label>
+      <label index="clear">Löschen?</label>
+      <label index="clearButton">Löschen</label>
+      <label index="clearObject">Objekt löschen:</label>
+      <label index="edit">Bearbeiten:</label>
+      <label index="noCurrentTemplate">Sie können Eigenschaften und Werte nicht bearbeiten, wenn kein Template gewählt ist.</label>
+      <label index="addKey">&lt;b&gt;Schlüssel '%s'&lt;/b&gt;&lt;/a&gt; zur Objektliste hinzufügen</label>
+      <label index="removeKey">Schlüssel aus Objektliste entfernen</label>
+      <label index="back">&lt; Zurück</label>
+      <label index="browse">Durchsuchen:</label>
+      <label index="objectList">Objektliste:</label>
+      <label index="search">Suche:</label>
+      <label index="regExp">Reguläre Ausdrücke</label>
+      <label index="errorsWarnings">Fehler und Warnungen</label>
+      <label index="errorShowDetails"/>
+      <label index="removeKey">Schlüssel aus Objektliste entfernen</label>
+      <label index="setupRoot">Setup-Wurzel</label>
+      <label index="constantRoot">Konstantenwurzel</label>
+      <label index="displayComments">Kommentare anzeigen</label>
+      <label index="sortAlphabetically">Alphabetisch sortieren</label>
+      <label index="cropLines">Zeilen kappen</label>
+      <label index="displayConstants">Konstanten anzeigen:</label>
+      <label index="displayOptions">Optionen anzeigen:</label>
+      <label index="conditions">Bedingungen:</label>
+      <label index="setConditions">Bedingungen setzen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

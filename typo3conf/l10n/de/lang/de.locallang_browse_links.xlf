@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="removeLink" xml:space="preserve" approved="yes">
+        <source>Remove link</source>
+      <target state="translated">Link entfernen</target></trans-unit>
+      <trans-unit id="uploadImage" xml:space="preserve" approved="yes">
+        <source>Upload Image</source>
+      <target state="translated">Bild hochladen</target></trans-unit>
+      <trans-unit id="update" xml:space="preserve" approved="yes">
+        <source>Update</source>
+      <target state="translated">Aktualisieren</target></trans-unit>
+      <trans-unit id="path" xml:space="preserve" approved="yes">
+        <source>Path</source>
+      <target state="translated">Pfad</target></trans-unit>
+      <trans-unit id="page" xml:space="preserve" approved="yes">
+        <source>Page</source>
+      <target state="translated">Seite</target></trans-unit>
+      <trans-unit id="file" xml:space="preserve" approved="yes">
+        <source>File</source>
+      <target state="translated">Datei</target></trans-unit>
+      <trans-unit id="folder" xml:space="preserve" approved="yes">
+        <source>Folder</source>
+      <target state="translated">Ordner</target></trans-unit>
+      <trans-unit id="extUrl" xml:space="preserve" approved="yes">
+        <source>External URL</source>
+      <target state="translated">Externe URL</target></trans-unit>
+      <trans-unit id="email" xml:space="preserve" approved="yes">
+        <source>Email</source>
+      <target state="translated">E-Mail</target></trans-unit>
+      <trans-unit id="special" xml:space="preserve" approved="yes">
+        <source>Special</source>
+      <target state="translated">Spezial</target></trans-unit>
+      <trans-unit id="folderTree" xml:space="preserve" approved="yes">
+        <source>Folder Tree</source>
+      <target state="translated">Verzeichnisbaum</target></trans-unit>
+      <trans-unit id="files" xml:space="preserve" approved="yes">
+        <source>Files</source>
+      <target state="translated">Dateien</target></trans-unit>
+      <trans-unit id="target" xml:space="preserve" approved="yes">
+        <source>Target</source>
+      <target state="translated">Zielfenster</target></trans-unit>
+      <trans-unit id="class" xml:space="preserve" approved="yes">
+        <source>CSS-Class</source>
+      <target state="translated">CSS-Klasse</target></trans-unit>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titel</target></trans-unit>
+      <trans-unit id="params" xml:space="preserve" approved="yes">
+        <source>Additional link parameters</source>
+      <target state="translated">Zusätzliche Link-Parameter</target></trans-unit>
+      <trans-unit id="target_popUpWindow" xml:space="preserve" approved="yes">
+        <source>Open in window</source>
+      <target state="translated">In einem neuen Fenster öffnen</target></trans-unit>
+      <trans-unit id="target_popUpWindow_width" xml:space="preserve" approved="yes">
+        <source>Width</source>
+      <target state="translated">Breite</target></trans-unit>
+      <trans-unit id="target_popUpWindow_height" xml:space="preserve" approved="yes">
+        <source>Height</source>
+      <target state="translated">Höhe</target></trans-unit>
+      <trans-unit id="newWindow" xml:space="preserve" approved="yes">
+        <source>New window</source>
+      <target state="translated">Neues Fenster</target></trans-unit>
+      <trans-unit id="top" xml:space="preserve" approved="yes">
+        <source>Top</source>
+      <target state="translated">Ganzes Fenster</target></trans-unit>
+      <trans-unit id="none" xml:space="preserve" approved="yes">
+        <source>None - new link!</source>
+      <target state="translated">Keiner. Neuen Link setzen!</target></trans-unit>
+      <trans-unit id="pageTree" xml:space="preserve" approved="yes">
+        <source>Page tree</source>
+      <target state="translated">Seitenbaum</target></trans-unit>
+      <trans-unit id="contentElements" xml:space="preserve" approved="yes">
+        <source>Content elements</source>
+      <target state="translated">Inhaltselemente</target></trans-unit>
+      <trans-unit id="selectRecords" xml:space="preserve" approved="yes">
+        <source>Select Records</source>
+      <target state="translated">Datensätze auswählen</target></trans-unit>
+      <trans-unit id="addToList" xml:space="preserve" approved="yes">
+        <source>Add to list...</source>
+      <target state="translated">Zur Liste hinzufügen...</target></trans-unit>
+      <trans-unit id="info" xml:space="preserve" approved="yes">
+        <source>Info</source>
+      <target state="translated">Info</target></trans-unit>
+      <trans-unit id="emailAddress" xml:space="preserve" approved="yes">
+        <source>Email address</source>
+      <target state="translated">E-Mail-Adresse</target></trans-unit>
+      <trans-unit id="setLink" xml:space="preserve" approved="yes">
+        <source>Set Link</source>
+      <target state="translated">Link setzen</target></trans-unit>
+      <trans-unit id="clickToRedrawFullSize" xml:space="preserve" approved="yes">
+        <source>Image is larger than shown here! Click to redraw page with full sized images.</source>
+      <target state="translated">Das Bild ist größer als angezeigt! Zur Anzeige in voller Größe bitte anklicken.</target></trans-unit>
+      <trans-unit id="findDragDrop" xml:space="preserve" approved="yes">
+        <source>Find and click on your image then drag it into the editor in the main window!</source>
+      <target state="translated">Das gewünschte Bild suchen, anklicken und es in den Editor im Hauptfenster ziehen!</target></trans-unit>
+      <trans-unit id="noWebFolder" xml:space="preserve" approved="yes">
+        <source>You cannot drag images from this folder (yellow) because it is internal on the server.</source>
+      <target state="translated">Bilder aus diesem Verzeichnis können nicht herübergezogen werden, da sie im internen Bereich des Servers liegen.</target></trans-unit>
+      <trans-unit id="currentLink" xml:space="preserve" approved="yes">
+        <source>Current Link</source>
+      <target state="translated">Aktueller Link</target></trans-unit>
+      <trans-unit id="invalidChar" xml:space="preserve" approved="yes">
+        <source>ERROR: Invalid character found in file path (%s). Cannot add the file!</source>
+      <target state="translated">FEHLER: Ungültiges Zeichen im Dateipfad gefunden (%s). Datei kann nicht hinzugefügt werden!</target></trans-unit>
+      <trans-unit id="toggleSelection" xml:space="preserve" approved="yes">
+        <source>Toggle selection</source>
+      <target state="translated">Auswahl umkehren</target></trans-unit>
+      <trans-unit id="importSelection" xml:space="preserve" approved="yes">
+        <source>Import selection</source>
+      <target state="translated">Auswahl importieren</target></trans-unit>
+    </body>
+  </file>
+</xliff>

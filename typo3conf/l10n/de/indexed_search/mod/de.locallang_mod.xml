@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Statistik für die Indexierungs-Engine</label>
+      <label index="mlang_labels_tabdescr">Hier können Sie die Einstellungen der Indexierungs-Engine vornehmen, welche durch das TYPO3-Frontend zur Verfügung gestellt wird. Sie können Statistiken über indexierte Seiten ansehen. Die Indexierung muss allerdings im TypoScript-Template aktiviert werden.&lt;br /&gt;&lt;em&gt;Zugriff nur für Administratoren!&lt;/em&gt;</label>
+      <label index="mlang_tabs_tab">Indexierung</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

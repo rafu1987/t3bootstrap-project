@@ -1,0 +1,6 @@
+plugin.tx_t3jquery {
+
+	# cat=plugin.tx_t3jquery.ui-start/file/010; type=file[css]; label=jQuery UI Start
+	file.UI-Start = EXT:t3jquery/res/css/ui-1.9.x/start/jquery-ui.css
+
+}

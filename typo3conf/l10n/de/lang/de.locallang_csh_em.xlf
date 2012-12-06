@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id=".alttitle" xml:space="preserve" approved="yes">
+        <source>Tools &gt; Extension Manager (EM)</source>
+      <target state="translated">Tools &gt; Erweiterungs-Manager</target></trans-unit>
+      <trans-unit id=".description" xml:space="preserve" approved="yes">
+        <source>The Extension Manager controls import, installation and upgrading of Extensions in TYPO3.</source>
+      <target state="translated">Der Erweiterungs-Manager kontrolliert den Import, die Installation, das Aktualisieren und Zurücksetzen auf einen alten Stand sowie die Verwaltung von TYPO3-Erweiterungen.</target></trans-unit>
+      <trans-unit id=".details" xml:space="preserve" approved="yes">
+        <source>TYPO3 can be extended in nearly any direction without loosing backwards compatibility. The Extension API provides a powerful framework for easily adding, removing, installing and developing such extensions to TYPO3. This is in particular powered by the Extension Manager (EM) inside TYPO3.
+
+"Extensions" is a term in TYPO3 which covers two other terms, plugins and modules.
+
+A plugin is something that plays a role on the website itself. For example a board, guestbook, shop etc. It is normally enclosed in a PHP class and invoked through a USER or USER_INT cObject from TypoScript. A plugin is an extension in the frontend.
+
+A module is a backend application which has it's own position in the administration menu. It requires backend login and works inside the framework of the backend. We might also call something a module if it exploits any connectivity of an existing module, that is if it simply adds itself to the function menu of existing modules. A module is an extension in the backend.</source>
+      <target state="translated">TYPO3 kann in nahezu jede Richtung erweitert werden, ohne dabei seine Abwärtskompatibilität zu verlieren. Die Erweiterungs (Extension) -API bietet ein sehr mächtiges System, um auf einfache Art TYPO3-Erweiterungen zu installieren, zu deinstallieren und zu entwickeln. Bei diesen Aufgaben unterstützt Sie vor allem der Erweiterungs-Manager (EM). "Erweiterung" ist dabei ein Oberbegriff für "Plug-In" und "Modul": Ein &lt;b&gt;Plug-In&lt;/b&gt; stellt eine Erweiterung dar, welche einen direkten Bezug zum Erscheinungsbild und/oder den Funktionalitäten des Frontends (also der mit TYPO3 erstellten Website selbst) hat. Darunter fallen also Gästebücher, Shops, Bildergalerien und so weiter. Solche Plug-Ins sind normalerweise in einer PHP-Klasse angesiedelt und werden durch USER- oder USER_INT-cObjects innerhalb von TypoScript aufgerufen. &lt;em&gt;Plug-Ins sind Frontend-Erweiterungen.&lt;/em&gt; Ein &lt;b&gt;Modul&lt;/b&gt; ist eine Anwendung, die innerhalb des Backends eigene Funktionalitäten zur Verfügung stellt oder bestehende Module erweitert. Module haben häufig einen eigenen Menüpunkt innerhalb des Backends wie zum Beispiel die Protokolldateianalyse, DB-Verwaltungswerkzeuge und so weiter. &lt;em&gt;Module sind Backend-Erweiterungen.&lt;/em&gt;</target></trans-unit>
+      <trans-unit id="_.seeAlso" xml:space="preserve" approved="yes">
+        <source>xMOD_csh_corebe,
+Core / Extension Architecture | http://typo3.org/documentation/document-library/doc_core_inside/This_document-1/
+Managing Extensions | http://typo3.org/documentation/document-library/doc_core_inside/Backend_user_setup/</source>
+        <target state="translated">xMOD_csh_corebe, Kern-/Erweiterungsarchitektur | http://typo3.org/documentation/document-library/doc_core_inside/This_document-1/ Erweiterungen verwalten | http://typo3.org/documentation/document-library/doc_core_inside/Backend_user_setup/</target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+      <note>A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="loaded.alttitle" xml:space="preserve" approved="yes">
+        <source>Loaded Extensions</source>
+      <target state="translated">Derzeit geladene Erweiterungen</target></trans-unit>
+      <trans-unit id="loaded.description" xml:space="preserve" approved="yes">
+        <source>"Loaded extensions" are currently running on the system. This list shows you which extensions are loaded and in which order.
+"Shy" extensions are also loaded but "hidden" in this list because they are system related and generally you should just leave them alone unless you know what you are doing.</source>
+      <target state="translated">"Geladene Erweiterungen" werden gerade auf Ihrem TYPO3-Server ausgeführt. Diese Liste zeigt Ihnen, welche Erweiterungen ausgeführt werden und in welcher Reihenfolge sie geladen wurden. "Ausgeblendete" Erweiterungen sind ebenfalls geladen, werden in dieser Liste aber "verborgen", weil sie zumeist systemspezifisch sind und von Ihnen im Normalfall nicht verändert werden sollten - es sei denn, Sie wissen sehr genau, was Sie tun.</target></trans-unit>
+      <trans-unit id="loaded.details" xml:space="preserve" approved="yes">
+        <source>The extensions in this list are shown in the order they are found in $TYPO3_CONF_VARS[EXT][extList].
+To de-install an extension you simply click the green "-" icon. If there are no dependencies requiring the extension it will be removed from the list of installed extensions.
+The "Rq" extensions in the loaded extensions list are "required extensions". These are related so deeply to the system that you cannot disable them from the Extension Manager.</source>
+      <target state="translated">Die Erweiterungen in dieser Liste werden in der Reihenfolge angezeigt, wie sie in der Systemvariablen $TYPO3_CONF_VARS[EXT][extList] aufgeführt sind. Um eine Erweiterung zu deinstallieren, klicken Sie einfach auf das entsprechende grüne "-"-Symbol. Sofern für diese Erweiterung keine Abhängigkeiten zu anderen Erweiterungen bestehen, wird sie sofort aus der Liste der geladenen Erweiterungen entfernt. Die "Rq"-Erweiterungen in dieser Liste werden für die ordnungsgemäße Funktion des TYPO3-Gesamtsystems benötigt ("Rq" steht für den englischen Ausdruck für benötigt, "required"). Diese Erweiterungen sind so tief im System verwurzelt, dass sie nicht mit Hilfe des Erweiterungs-Managers deinstalliert werden können.</target></trans-unit>
+      <trans-unit id="_loaded.image" xml:space="preserve" approved="yes">
+        <source>EXT:lang/cshimages/em_1.png</source>
+        <target state="translated">EXT:lang/cshimages/em_1.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="loaded.image_descr" xml:space="preserve" approved="yes">
+        <source>The list of loaded extensions shown in the loading order.</source>
+      <target state="translated">Die Liste der geladenen Erweiterungen in der Reihenfolge ihrer Installation.</target></trans-unit>
+      <trans-unit id="avail.alttitle" xml:space="preserve" approved="yes">
+        <source>Available Extensions</source>
+      <target state="translated">Vefügbare Erweiterungen</target></trans-unit>
+      <trans-unit id="avail.description" xml:space="preserve" approved="yes">
+        <source>Available extensions are extensions which are present in the extension folders. You can install any of the available extensions in this list. When you install an extension it will be loaded by TYPO3 from that moment.
+In this list the extensions with dark background are installed (loaded) - the others just available (not loaded), ready to be installed on your request.</source>
+      <target state="translated">"Vefügbare Erweiterungen" sind solche Erweiterungen, die an einem der drei möglichen Speicherorte für Erweiterungen vorhanden sind, d.h. als lokale Dateien auf dem Server vorliegen. Jede der hier aufgeführten Erweiterungen kann mit einem Mausklick ganz einfach installiert und ab diesem Zeitpunkt genutzt werden. Die in der Abbildung dunkel hinterlegten Erweiterungen sind bereits geladen, die anderen stehen zur Installation zur Verfügung.</target></trans-unit>
+      <trans-unit id="avail.details" xml:space="preserve" approved="yes">
+        <source>You can install an extension by clicking the gray "+" icon in this list. If you want to de-install an extension you click the green "-" icon.
+When you click the install button ("+") you will most often end in a dialog where you have to confirm the creation of database tables and fields or maybe you will be asked to "clear all cache". The Extension Manager automatically handles these requirements for you which makes it extremely easy to install new extensions.</source>
+      <target state="translated">Durch einen Mausklick auf das graue "+"-Symbol können Sie jede dieser Erweiterungen installieren und mit einem Mausklick auf das grüne "-"-Symbol deinstallieren. Nach einem Klick auf das Installationssymbol ("+") wird Ihnen im Rahmen des Installationsprozesses häufig ein Installationsmenü für diese Erweiterung angezeigt. Hier müssen Sie z.B. das Anlegen neuer Datenbanktabellen und -felder oder das "Löschen aller Caches" bestätigen. Der Erweiterungs-Manager übernimmt dann im Anschluss all diese Aufgaben und macht es Ihnen somit sehr einfach, neue Erweiterungen zu installieren.</target></trans-unit>
+      <trans-unit id="_avail.image" xml:space="preserve" approved="yes">
+        <source>EXT:lang/cshimages/em_2.png,
+EXT:lang/cshimages/em_12.png</source>
+        <target state="translated">EXT:lang/cshimages/em_2.png, EXT:lang/cshimages/em_12.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="avail.image_descr" xml:space="preserve" approved="yes">
+        <source>The list of available extension on the server. The list is compiled from extensions found in the "local", "global" and "system" extension folders.
+If you click the install icon ("+") of an extension you might end in a dialog like this. In this case a new database table is required. The Extension Manager will automatically detect that it does not exist yet and suggest that you create it. The creation automatically takes place as well, simply by accepting the changes when pressing "Make updates".</source>
+      <target state="translated">Die Liste der verfügbaren Erweiterungen dieses TYPO3-Servers. Diese Liste wird aus all denjenigen Erweiterungen zusammengestellt, die sich in den Erweiterungsordnern "Lokal", "Global" und "System" befinden. Nach einem Klick auf das Installationssymbol ("+") wird Ihnen unter Umständen solch ein Installationsmenü angezeigt. In diesem Fall benötigt die Erweiterung eine eigene Datenbanktabelle. Der Erweiterungs-Manager erkennt automatisch, dass die Tabelle noch nicht existiert und schlägt vor, diese anzulegen. Nach Betätigen der Schaltfläche "Aktualisierungen durchführen" werden alle notwendigen Änderungen automatisch durchgeführt.</target></trans-unit>
+      <trans-unit id="import.alttitle" xml:space="preserve" approved="yes">
+        <source>Importing Extensions</source>
+      <target state="translated">Erweiterungen importieren</target></trans-unit>
+      <trans-unit id="import.description" xml:space="preserve" approved="yes">
+        <source>This is the process of bringing the files of an extension to the servers filesystem. You can do this either by importing from a repository at a URL (usually from TER; TYPO3 Extension Repository at typo3.org) or by uploading a "t3x" file which someone else created from the Extension Manager on another server.</source>
+      <target state="translated">Durch diesen Prozess werden Erweiterungen auf Ihren TYPO3-Server gespielt, d.h. Dateien kopiert. Sie können Erweiterungen entweder von einer URL (normalerweise aus dem TER, dem TYPO3-Extension-Repository auf typo3.org) oder aus einer lokal vorliegenden "t3x"-Datei importieren. t3x (TYPO3 Extension) -Dateien entstehen durch den Export einer Erweiterung aus einem anderen TYPO3-Server.</target></trans-unit>
+      <trans-unit id="import.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Import from TER&lt;/b&gt;
+To connect to the TER you simply click the button "Connect to online repository". This will request the URL shown in the text above the button and the URL should return a list of available extension you can import.
+If you know what you are looking for then enter a search word in the look-up box. In particular this helps you to look up a specific extension key. The connection to TER will be much faster if you use this since less data is sent over the wire!
+
+&lt;b&gt;Upload from file&lt;/b&gt;
+For private projects the exchange of extensions is easily done by sending "t3x" files from system to system. In one TYPO3 installation you simply go to the menu "Backup/Delete" of an extension and download a "Backup" of the extension. The fileformat is a serialized PHP array, compressed if possible. This file can then be uploaded in the Extension Manager of another TYPO3 system where you want to import it.</source>
+      <target state="translated">&lt;b&gt;Import aus dem TER&lt;/b&gt; Um eine Verbindung mit dem TER herzustellen, müssen Sie lediglich auf die Schaltfläche "Mit Online-Bibliothek verbinden" drücken. Das veranlasst TYPO3 dazu, sich mit der im Feld angezeigten URL zu verbinden und eine Liste der dort verfügbaren Erweiterungen zurückzuliefern. Wenn Sie bereits wissen, für welche Erweiterung Sie sich interessieren, sollten Sie das Suchfeld ausfüllen - Sie verkürzen dadurch die Antwortzeit des TER auf ein Minimum, weil lediglich ein Bruchteil der Informationen übertragen werden muss! &lt;b&gt;Upload aus einer Datei&lt;/b&gt; Im Falle privater Projekte erfolgt der Austausch von Erweiterungen auf einfache Weise durch die Übertragung von "t3x"-Dateien von einem System zum anderen. Bei der einen TYPO3-Installation ruft man einfach das Menü "Backup/Löschen" einer Erweiterung auf und lädt ein "Backup" der Erweiterung herunter. Beim Dateiformat handelt es sich um einen serialisierten PHP-Array, wenn möglich komprimiert. Diese Datei kann anschließend in den Erweiterungs-Manager eines anderen TYPO3-Systems hochgeladen werden, in das man sie importieren möchte.</target></trans-unit>
+      <trans-unit id="_import.seeAlso" xml:space="preserve" approved="yes">
+        <source>_MOD_tools_em:backup_delete,
+_MOD_tools_em:settings</source>
+        <target state="translated">_MOD_tools_em:backup_delete, _MOD_tools_em:settings</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="_import.image" xml:space="preserve" approved="yes">
+        <source>EXT:lang/cshimages/em_3.png</source>
+        <target state="translated">EXT:lang/cshimages/em_3.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="import.image_descr" xml:space="preserve" approved="yes">
+        <source>The "Import" screen. Before you connect to the online repository you might like to configure typo3.org username and password since that will be used to also select "Member" extensions in TER, if any. You can also enable "Get own/member/selected extensions only" if you want to limit the list further.</source>
+      <target state="translated">Der Bildschirm "Import". Bevor Sie Erweiterungen aus dem TER importieren, sollten Sie zuerst Ihre typo3.org-Anmeldedaten angeben, denn nur dadurch erhalten Sie Zugriff auf Erweiterungen, deren "Mitglied" Sie sind. Sie können die sehr lange Liste auch weiter verkürzen, in dem Sie die Option "Nur eigene/Mitglieder/ausgewählte Erweiterungen anzeigen" wählen.</target></trans-unit>
+      <trans-unit id="import_ter.alttitle" xml:space="preserve" approved="yes">
+        <source>Extensions in TER</source>
+      <target state="translated">Erweiterungen im TER</target></trans-unit>
+      <trans-unit id="import_ter.description" xml:space="preserve" approved="yes">
+        <source>Extensions in this list are online for immediate download from the TYPO3 Extension Repository (TER).
+Extensions with dark background are those already on your server - the others must be imported from the repository to your server before you can use them.
+If you want to use an extension from the repository, you should simply click the "import" button with the red arrow left to the extension.</source>
+      <target state="translated">Die in dieser Liste aufgeführten Erweiterungen stehen zum sofortigen Herunterladen bereit. Die dunkel hinterlegten Erweiterungen befinden sich bereits auf Ihrem Server, die anderen müssen erst noch heruntergeladen werden, bevor Sie sie verwenden können. Klicken Sie einfach auf die Schaltfläche "Import" mit dem roten Pfeil neben der Erweiterung, wenn Sie eine dieser Erweiterungen benutzen möchten.</target></trans-unit>
+      <trans-unit id="import_ter.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Import Extensions&lt;/b&gt;
+If an extension does not yet exist on your server you will see the icon with the red arrow next to that extension. A single click and the extension will be downloaded and the files extracted on your server. The download directory is seen if you move the mouse over the icon (in the tool-tip text).
+
+&lt;b&gt;Update Extensions&lt;/b&gt;
+You can update extensions that are always on your system by clicking the icon with the green arrows. The update icon will appear if the "minor" version number (middle digit) has been incremented. This means that extensions updated on the dev-version number (the third digit) will not be shown as "ready for update". (You can configure TYPO3 to do that though!).
+
+&lt;b&gt;Seeing details about an extension in TER&lt;/b&gt;
+You can also click the title of an extension to see details about it. That will also allow you to perform a more detailed update operation where you can select version number and download location (local/global/system).
+You can also ask to have the most recent translations downloaded.</source>
+      <target state="translated">&lt;b&gt;Erweiterungen importieren&lt;/b&gt; Wenn sich eine Erweiterung noch nicht auf Ihrem lokalen Server befindet, erscheint ein roter Pfeil neben dem Namen der Erweiterung (das Importsymbol). Durch einen Mausklick auf dieses Importsymbol wird die im TER komprimiert vorliegende Erweiterung auf Ihren Server kopiert und entpackt. Die Stelle, an welche die Erweiterung dabei kopiert wird, sehen Sie, wenn Sie mit der Maus über das Symbol fahren (als Kurzinfo). &lt;b&gt;Erweiterungen aktualisieren&lt;/b&gt; Wenn sich neben dem Namen einer Erweiterung ein grüner Doppelpfeil (das Symbol "Aktualisieren") erscheint, so liegt für diese bereits installierte Erweiterung eine neuere Version (also eine Aktualisierung) vor. Dabei erscheint das Symbol "Aktualisieren" immer dann, wenn sich bei Versionnummer x.y.z die erste oder die mittlere Ziffer erhöht hat (erste Ziffer stellt die Major-Version dar, die mittlere Ziffer symbolisiert die Minor-Version und die letzte Ziffer steht für die Entwicklungsversion). Entwicklungsversionen erscheinen standardmäßig also nicht als Aktualisierung, Sie können TYPO3 aber so konfigurieren, dass auch solche Aktualisierungen installiert werden können. &lt;b&gt;Detailansicht zu Erweiterungen im TER&lt;/b&gt; Sie können auch direkt auf den Namen der Erweiterung klicken, wenn Sie zur Detailansicht für die Erweiterung gelangen möchten. Innerhalb der Deteilansicht ist es auch möglich, den Aktualisierungsvorgang genauer zu konfigurieren (in dem Sie etwa eine bestimmte Version der Erweiterung auswählen oder den Installationsort (lokal/global/system) festlegen). Außerdem können Sie auch die aktuellsten Übersetzungen der Sprachdateien herunterladen lassen.</target></trans-unit>
+      <trans-unit id="_import_ter.image" xml:space="preserve" approved="yes">
+        <source>EXT:lang/cshimages/em_10.png,
+EXT:lang/cshimages/em_11.png</source>
+        <target state="translated">EXT:lang/cshimages/em_10.png, EXT:lang/cshimages/em_11.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="import_ter.image_descr" xml:space="preserve" approved="yes">
+        <source>List of extensions from TER. The red arrow icon is the "Import" link (for new extensions), the green arrow icon is the "Update" link (for an extension that is already on your server). If an extension is already available in the most recent version you will not see any icon at all to the left of the extension.
+If you clicked the title of an extension you will request the repository for details about the extension. This also allows you to select a specific version for import. You can also select the install location (global/local) and you can request to have the most recent translations merged into the extension upon retrieval.</source>
+      <target state="translated">Liste der im TER verfügbaren Erweiterungen. Der rote Pfeil ist das Import-Symbol (für neue Erweiterungen), der grüne Doppelpfeil ist das Symbol "Aktualisieren" (für bereits vorhandene Erweiterungen). Sollten Sie schon die aktuellste Version einer Erweiterung installiert haben, erscheint an dieser Stelle überhaupt kein Symbol. Wenn Sie den Namen einer Erweiterungen anklicken, gelangen Sie zur Detailansicht dieser Erweiterung. Hier können Sie auch eine spezielle Version der Erweiterung auswählen, den Installationsort (lokal/global/system) festlegen oder die aktuellen Übersetzungen der Sprachdateien herunterladen.</target></trans-unit>
+      <trans-unit id="info.alttitle" xml:space="preserve" approved="yes">
+        <source>Extension Details</source>
+      <target state="translated">Details zur Erweiterung</target></trans-unit>
+      <trans-unit id="info.description" xml:space="preserve" approved="yes">
+        <source>Shows details about the extension.</source>
+      <target state="translated">Zeigt Ihnen Detailinformationen zu dieser Erweiterung.</target></trans-unit>
+      <trans-unit id="info.details" xml:space="preserve" approved="yes">
+        <source>In this view some of the details are simply a display of the information from the "ext_emconf.php" file in the extension. The "emconf" file contains meta data for the Extension Manager.
+
+The Extension Manager will also go a bit further and perform some analysis of the scripts in the extension. The list will include the findings of this analysis and if any errors were found they will be displayed. Usually these errors will not prevent the extension from working but more likely point out some theoretical problems that the extension developer should address.</source>
+      <target state="translated">In dieser Ansicht werden zum Teil einfach Informationen aus der Datei "ext_emconf.php" angezeigt, in welcher jede Erweiterung Metainformationen für den Erweiterungs-Manager gespeichert hat. Der Erweiterungs-Manager geht aber noch einen Schritt weiter und analysiert dazu alle Skripte der Erweiterung. Das Ergebnis dieser Analyse wird hier ebenfalls angezeigt. Sollten Fehler aufgeführt sein, so bedeutet dies nicht zwangsläufig, dass die Erweiterung nicht funktionsfähig ist! Zumeist weisen diese Fehlermeldungen auf Probleme &lt;em&gt;theroretischer&lt;/em&gt; Natur hin, derer sich der Entwickler dieser Erweiterung annehmen sollte.</target></trans-unit>
+      <trans-unit id="_info.image" xml:space="preserve" approved="yes">
+        <source>EXT:lang/cshimages/em_4.png</source>
+        <target state="translated">EXT:lang/cshimages/em_4.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="info.image_descr" xml:space="preserve" approved="yes">
+        <source>The details view of an extension displays live statistics from analysis as well as static data from the "ext_emconf.php" file.</source>
+      <target state="translated">Die Detailansicht einer Erweiterung zeigt die Ergebnisse des Analyselaufs als auch die Auswertung der statischen Informationen aus der Datei "ext_emconf.php" an.</target></trans-unit>
+      <trans-unit id="backup_delete.alttitle" xml:space="preserve" approved="yes">
+        <source>Backup Extension as a file</source>
+      <target state="translated">Erweiterung exportieren</target></trans-unit>
+      <trans-unit id="backup_delete.description" xml:space="preserve" approved="yes">
+        <source>Click the "Download" link here and you will download the extension as a file containing a serialized PHP array, a hash and everything possibly compressed if the server supports it. Save the file with a filename ending on "t3x".</source>
+      <target state="translated">Durch Anklicken des Links "Herunterladen" erzeugt der Server eine Exportdatei, die Sie anschließend auf Ihrem Rechner speichern können (als Dateiendung sollten Sie dabei "t3x" wählen). In dieser Datei befinden sich ein serialisiertes PHP-Array, ein Hash und alle anderen zur Erweiterung gehörenden Dateien, die - sofern dies der Server unterstützt - beim Export bereits komprimiert wurden.</target></trans-unit>
+      <trans-unit id="_backup_delete.seeAlso" xml:space="preserve" approved="yes">
+        <source>_MOD_tools_em:import</source>
+        <target state="translated">_MOD_tools_em:import</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="_backup_delete.image" xml:space="preserve" approved="yes">
+        <source>EXT:lang/cshimages/em_5.png</source>
+        <target state="translated">EXT:lang/cshimages/em_5.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="backup_delete.image_descr" xml:space="preserve" approved="yes">
+        <source>"Backup" of extensions - also very useful for exchange of extensions between members of a workgroup.</source>
+      <target state="translated">"Backup" oder "Export" von Erweiterungen. Sie können diese Exportdateien auch dazu verwenden, um verschiedene Entwicklungsstände einer Erweiterung mit Mitgliedern einer Arbeitsgruppe auszutauschen.</target></trans-unit>
+      <trans-unit id="upload.alttitle" xml:space="preserve" approved="yes">
+        <source>Upload an Extension to the repository (TER)</source>
+      <target state="translated">Erweiterung ins TER hochladen</target></trans-unit>
+      <trans-unit id="upload.description" xml:space="preserve" approved="yes">
+        <source>Here you can upload an extension to TER. In order to do so you must enter your TYPO3.org username and password in the form. In addition each extension has an upload password you need to add as well. You should also make sure you registered / own the extension key!</source>
+      <target state="translated">Hier können Sie Ihre selbst entwickelten Erweiterungen ins TER hochladen. Zuvor müssen Sie sich aber zunächst eine Anmeldung bei typo3.org besorgen (durch einfaches Anmelden auf dieser Website). Damit Sie eine Erweiterung hochladen können, müssen Sie auf der Website einen Erweiterungsschlüssel ("extension key") beantragen bzw. registrieren. Zusätzlich besitzt jede Erweiterung auch noch ein sog. Hochladepasswort, welches Sie beim Hochladen Ihrer Erweiterung selbst bestimmen.</target></trans-unit>
+      <trans-unit id="upload.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Changelog&lt;/b&gt;
+In the changelog field you enter the changes made or the reason for the upload. This will be displayed in the list of new extensions.
+
+&lt;b&gt;Version numbers&lt;/b&gt;
+Select a method for incrementation of the version number. For new "versions" of your extension you should select "sub" or "main" which will display your extension in the list of new extensions. For maintenance uploads you select "dev".</source>
+      <target state="translated">&lt;b&gt;Änderungsprotokoll&lt;/b&gt; Geben Sie hier bitte die an, welche Veränderungen vorgenommen wurden und warum Sie diese geänderte Version ins TER stellen. Diese Angaben erscheinen auf der TYPO3-Website innerhalb der Liste der neuen Erweiterungen (http://www.typo3.org/extensions/). &lt;b&gt;Versionsnummern&lt;/b&gt; Bestimmen Sie, wie die Versionsnummer dieser Erweiterung erhöht werden soll. Für "neue" Versionen sollten Sie die Werte "sub" oder "main" erhöhen - dadurch erscheint diese Version in der Liste der neuen Erweiterungen. Sollten Sie lediglich kleine Fehler beseitigt haben, wählen Sie bitte den Wert "dev".</target></trans-unit>
+      <trans-unit id="_upload.seeAlso" xml:space="preserve" approved="yes">
+        <source>_MOD_tools_em:settings,
+Register Extension Keys | http://typo3.org/extensions/register-extension-keys/</source>
+        <target state="translated">_MOD_tools_em:settings, Erweiterungsschlüssel registrieren | http://typo3.org/extensions/register-extension-keys/</target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+      <note>A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="_upload.image" xml:space="preserve" approved="yes">
+        <source>EXT:lang/cshimages/em_6.png</source>
+        <target state="translated">EXT:lang/cshimages/em_6.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="upload.image_descr" xml:space="preserve" approved="yes">
+        <source>The upload form for extensions. The extension is submitted to the selected repository, usually TYPO3.org (default).</source>
+      <target state="translated">Das Hochladeformular für Erweiterungen. Die Erweiterung wird in das gewählte Depot (normalerweise das TER auf typo3.org) hochgeladen.</target></trans-unit>
+      <trans-unit id="editfiles.alttitle" xml:space="preserve" approved="yes">
+        <source>Editing scripts in an extension</source>
+      <target state="translated">Skripte einer Erweiterung editieren</target></trans-unit>
+      <trans-unit id="editfiles.description" xml:space="preserve" approved="yes">
+        <source>The Extension Manager can be used for editing scripts in extensions. This feature is mostly for emergencies since a webbrowser is not the ideal tool for programming.</source>
+      <target state="translated">Der Erweiterungs-Manager kann auch dazu verwendet werden, die Skripte einer Erweiterung zu editieren. Das sollte aber lediglich als Notbehelf gesehen werden, denn ein Web-Browser ist nicht gerade ein ideales Hilfsmittel zum Programmieren.</target></trans-unit>
+      <trans-unit id="editfiles.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Notice:&lt;/b&gt;
+Before editing of extension scripts can be performed you have to disable the configuration option "TYPO3_CONF_VARS[EXT][noEdit]" in "localconf.php".</source>
+      <target state="translated">&lt;b&gt;Hinweis:&lt;/b&gt; Bevor Sie solche Skripte editieren können, müssen Sie erst die Option "TYPO3_CONF_VARS[EXT][noEdit]" in der Datei "localconf.php" deaktivieren.</target></trans-unit>
+      <trans-unit id="_editfiles.image" xml:space="preserve" approved="yes">
+        <source>EXT:lang/cshimages/em_7.png</source>
+        <target state="translated">EXT:lang/cshimages/em_7.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="editfiles.image_descr" xml:space="preserve" approved="yes">
+        <source>Some file types - like PHP scripts - can be edited by a textarea field inside the Extension Manager.</source>
+      <target state="translated">Einige Dateitypen - wie zum Beispiel PHP-Dateien - können direkt in einem Textfeld innerhalb des EM editiert werden.</target></trans-unit>
+      <trans-unit id="settings.alttitle" xml:space="preserve" approved="yes">
+        <source>Extension Manager Settings</source>
+      <target state="translated">Einstellungen</target></trans-unit>
+      <trans-unit id="settings.description" xml:space="preserve" approved="yes">
+        <source>Enter settings for the Extension Manager. The username and password is for connections to the repository (usually TYPO3.org) and the upload password is that you would normally use for upload of your extensions.</source>
+      <target state="translated">Geben Sie hier Ihre Einstellungen für den Erweiterungs-Manager an. Benutzername und Passwort werden für Verbindungen zum TER (normalerweise auf typo3.org) verwendet und das Hochladepasswort ist identisch mit jenem, welches Sie normalerweise zum Hochladen Ihrer eigenen Erweiterungen ins TER verwenden.</target></trans-unit>
+      <trans-unit id="settings.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Notice:&lt;/b&gt;
+This information is not very well protected! It is send and stored in clear-text!</source>
+      <target state="translated">&lt;b&gt;Bemerkung:&lt;/b&gt; Die Passwort-Informationen sind nicht sonderlich gut geschützt: Passwörter werden im Klartext gespeichert und übertragen!</target></trans-unit>
+      <trans-unit id="_settings.image" xml:space="preserve" approved="yes">
+        <source>EXT:lang/cshimages/em_8.png</source>
+        <target state="translated">EXT:lang/cshimages/em_8.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="settings.image_descr" xml:space="preserve" approved="yes">
+        <source>Settings for TER connections.</source>
+      <target state="translated">Einstellungen für Online-Verbindungen zum TER</target></trans-unit>
+      <trans-unit id="makenew.alttitle" xml:space="preserve" approved="yes">
+        <source>Kickstarting new extensions</source>
+      <target state="translated">Neue Erweiterung erstellen (Kickstarter)</target></trans-unit>
+      <trans-unit id="makenew.description" xml:space="preserve" approved="yes">
+        <source>The "Kickstarter" is an application which allows you to start up new extension work very quickly. Through an interface you can create a basic framework for your extension where all the boring stuff is configured from the beginning and you can concentrate directly on coding your application.</source>
+      <target state="translated">Der "Kickstarter" ist eine spezielle Erweiterung, die es Ihnen erlaubt, das Grundgerüst für Ihre eigene Erweiterung mit ein paar Mausklicks selbst zu erstellen. Dadurch entfällt das lästige Anlegen der benötigten Ordner, Dateien, Datenbanktabellen usw., und Sie können sich direkt auf die eigentliche Programmierarbeit konzentrieren.</target></trans-unit>
+      <trans-unit id="makenew.details" xml:space="preserve" approved="yes">
+        <source>The Extension Repository Kickstarter is a separate extension, "extrep_wizard". Please see more information about the kickstarter otherwise.
+
+&lt;b&gt;Notice:&lt;/b&gt;
+The Kickstarter is NOT an editor! When a new extension is started you cannot - as a rule of thumb - go back an edit it with the kickstarter! It will just overwrite any custom changes you did in the meantime!</source>
+      <target state="translated">Der "Kickstarter" ist eine eigenständige Erweiterung ("extrep_wizard"). Bitte lesen Sie das entsprechende Handbuch, um mehr über diese Erweiterung zu erfahren. &lt;b&gt;Achtung:&lt;/b&gt; Der Kickstarter ist &lt;em&gt;kein&lt;/em&gt; Editor! Nachdem Sie eine neue Erweiterung erst einmal angelegt haben, können Sie den Kickstarter nicht mehr dazu verwenden, Veränderungen an der Grundstruktur Ihrer Erweiterung vorzunehmen! All Ihre Änderungen (also Ihre eigentliche Programmierarbeit) werden dadurch überschrieben und Sie erhalten wieder ein leeres Grundgerüst!</target></trans-unit>
+      <trans-unit id="_makenew.seeAlso" xml:space="preserve" approved="yes">
+        <source>Register Extension Keys | http://typo3.org/extensions/register-extension-keys/
+Extension API | http://typo3.org/documentation/document-library/doc_core_api/Introduction-f289e83016/
+Documentation Matrix | http://typo3.org/documentation/document-library/Matrix/</source>
+      <target state="translated">Erweiterungsschlüssel registrieren | http://typo3.org/extensions/register-extension-keys/ Erweiterungs-API | http://typo3.org/documentation/document-library/doc_core_api/Introduction-f289e83016/ Dokumentations-Matrix | http://typo3.org/documentation/document-library/Matrix/</target></trans-unit>
+      <trans-unit id="_makenew.image" xml:space="preserve" approved="yes">
+        <source>EXT:lang/cshimages/em_9.png</source>
+        <target state="translated">EXT:lang/cshimages/em_9.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="makenew.image_descr" xml:space="preserve" approved="yes">
+        <source>When the "Extension Repository Kickstarter" is enabled it adds itself in the menu of the Extension Manager. From here you will be able to start your new extensions. Before you do so you should register an extension key and enter a title and description as base data. From that point it is just clicking the "+" icons to add the various types of functionality you want. Finally you click "View result" to write the extension to the server.</source>
+      <target state="translated">Der "Kickstarter" fügt sich nach der Installation als eigenständiger Menüpunkt innerhalb des Eweiterungs-Managers ein. Mit ihm können Sie das Grundgerüst Ihrer eigenen Erweiterung erstellen. Vorher sollten Sie sich jedoch einen eigenen Erweiterungsschlüssel reservieren (auf typo3.org) und die Grunddaten Ihrer Erweiterung (Name und Beschreibung) eingeben. Danach können Sie durch Anklicken des "+"-Zeichens die verschiedenen Funktionalitäten hinzufügen. Mit der Schaltfläche "Ergebnis anzeigen" wird Ihre Erweiterung dann auf den Server übertragen.</target></trans-unit>
+      <trans-unit id="emconf_shy.alttitle" xml:space="preserve" approved="yes">
+        <source>Shy</source>
+      <target state="translated">Standarderweiterung</target></trans-unit>
+      <trans-unit id="emconf_shy.description" xml:space="preserve" approved="yes">
+        <source>If set, the extension will normally be hidden in the EM because it might be a default extension or otherwise something which is not so important.</source>
+      <target state="translated">Mit dieser Option werden Erweiterungen innerhalb des Erweiterungs-Managers ausgeblendet, entweder, weil es sich bei ihnen um Standarderweiterungen handelt oder weil sie nicht von allgemeinen Interesse sind.</target></trans-unit>
+      <trans-unit id="emconf_shy.details" xml:space="preserve" approved="yes">
+        <source>Use this flag if an extension is of "rare interest" (which is not the same as un-important - just an extension not sought for very often...)
+It does not affect whether or not it's enabled. Only display in EM.
+Normally "shy" is set for all extensions loaded by default according to TYPO3_CONF_VARS.</source>
+      <target state="translated">Benutzen Sie diese Flagge, wenn eine Erweiterung nicht von allgemeinen Interesse ist (was aber keinesfalls gleichbedeutend mit &lt;em&gt;unwichtig&lt;/em&gt; ist!). Diese Option beeinflusst nicht, ob die Erweiterung geladen oder nicht geladen wird, sondern lediglich die Auflistung im EM! Normalerweise werden Standarderweiterungen entsprechend den Werten der Variable TYPO3_CONF_VARS direkt beim Systemstart geladen.</target></trans-unit>
+      <trans-unit id="emconf_category.alttitle" xml:space="preserve" approved="yes">
+        <source>Category</source>
+      <target state="translated">Kategorie</target></trans-unit>
+      <trans-unit id="emconf_category.description" xml:space="preserve" approved="yes">
+        <source>Which category the extension belongs to.</source>
+      <target state="translated">Zeigt, welcher Kategorie die Erweiterung angehört.</target></trans-unit>
+      <trans-unit id="emconf_category.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;be:&lt;/b&gt; Backend (Generally backend oriented, but not a module)
+
+&lt;b&gt;module:&lt;/b&gt; Backend modules (When something is a module or connects with one)
+
+&lt;b&gt;fe:&lt;/b&gt; Frontend (Generally frontend oriented, but not a "true" plugin)
+
+&lt;b&gt;plugin:&lt;/b&gt; Frontend plugins (Plugins inserted as a "Insert Plugin" content element)
+
+&lt;b&gt;misc:&lt;/b&gt; Miscellaneous stuff (Where not easily placed elsewhere)
+
+&lt;b&gt;services:&lt;/b&gt; Contains TYPO3 services.
+
+&lt;b&gt;templates:&lt;/b&gt; Contains website templates
+
+&lt;b&gt;doc:&lt;/b&gt; Documentation (Eg. tutorials, FAQ's etc.)
+
+&lt;b&gt;example:&lt;/b&gt; Example extension (Which serves as examples etc.)</source>
+      <target state="translated">&lt;b&gt;be:&lt;/b&gt; Backend (Backend-orientiert, aber keine Erweiterung) &lt;b&gt;module:&lt;/b&gt; Backend-Erweiterung (eigenständige Erweiterung oder Zusatz zu einer anderen Erweiterung) &lt;b&gt;fe:&lt;/b&gt; Frontend (Frontend-orientiert, aber kein "echtes" Plug-In) &lt;b&gt;plugin:&lt;/b&gt; Frontend-Erweiterung (Erweiterung, die mittels "Plug-In einfügen" als Inhaltselement auf der Website eingefügt werden kann) &lt;b&gt;misc:&lt;/b&gt; Sonstiges (fällt nicht in eine der anderen Kategorien) &lt;b&gt;services:&lt;/b&gt; Stellt einen TYPO3-Dienst zur Verfügung &lt;b&gt;templates:&lt;/b&gt; Enthält Website-Vorlagen &lt;b&gt;doc:&lt;/b&gt; Dokumentation (Anleitungen, FAQs etc.) &lt;b&gt;example:&lt;/b&gt; Beispielerweiterung (dient als Beispiel, Machbarkeitsstudie oder ähnliches)</target></trans-unit>
+      <trans-unit id="emconf_dependencies.alttitle" xml:space="preserve" approved="yes">
+        <source>Dependencies of other extensions?</source>
+      <target state="translated">Abhängigkeiten von anderen Erweiterungen?</target></trans-unit>
+      <trans-unit id="emconf_dependencies.description" xml:space="preserve" approved="yes">
+        <source>This is a list of other extension keys which this extension depends on being loaded BEFORE it self.</source>
+      <target state="translated">Dies ist eine Liste von Erweiterungen, die zuerst geladen sein müssen, bevor diese Erweiterung selbst geladen werden kann.</target></trans-unit>
+      <trans-unit id="emconf_dependencies.details" xml:space="preserve" approved="yes">
+        <source>The EM will manage that dependency while writing the extension list  to localconf.php. You cannot install an extension unless its dependencies has been installed already.</source>
+      <target state="translated">Der EM kümmert sich um Abhängigkeiten, während er die Erweiterungsliste in die Datei localconf.php schreibt. Sie können keine Erweiterungen installieren, deren Abhängigkeiten nicht vollständig erfüllt sind!</target></trans-unit>
+      <trans-unit id="emconf_conflicts.alttitle" xml:space="preserve" approved="yes">
+        <source>Conflicts with other extensions?</source>
+      <target state="translated">Konflikte mit anderen Erweiterungen?</target></trans-unit>
+      <trans-unit id="emconf_conflicts.description" xml:space="preserve" approved="yes">
+        <source>List of extension keys of extensions with which this extension does not work (and so cannot be enabled before those other extensions are un-installed)</source>
+      <target state="translated">Liste der Erweiterungen, die inkompatibel zu dieser Erweiterung sind. Sie können diese Erweiterung also erst laden, wenn Sie die hier aufgeführten Erweiterungen deaktiviert haben.</target></trans-unit>
+      <trans-unit id="emconf_suggests.alttitle" xml:space="preserve" approved="yes">
+        <source>Suggested extensions</source>
+      <target state="translated">Vorgeschlagene Erweiterungen</target></trans-unit>
+      <trans-unit id="emconf_suggests.description" xml:space="preserve" approved="yes">
+        <source>List of extension keys of extensions which you may want to try in conjunction with this extension because they bring added benefits when working together.</source>
+      <target state="translated">Eine Liste der Schlüssel von Erweiterungen, die in Verbindung mit dieser Erweiterung zu empfehlen sind, weil sie zusammen weitere Vorteile mit sich bringen.</target></trans-unit>
+      <trans-unit id="emconf_priority.alttitle" xml:space="preserve" approved="yes">
+        <source>Requested Loading priority</source>
+      <target state="translated">Gewünschte Ladereihenfolge</target></trans-unit>
+      <trans-unit id="emconf_priority.description" xml:space="preserve" approved="yes">
+        <source>This tells the EM to try to put the extensions as the very first in the list. Default is last.</source>
+      <target state="translated">Weist den EM an zu versuchen, diese Erweiterung als erste zu laden (Standard ist zuletzt).</target></trans-unit>
+      <trans-unit id="emconf_module.alttitle" xml:space="preserve" approved="yes">
+        <source>Backend modules included</source>
+      <target state="translated">Enthaltene Backend-Module</target></trans-unit>
+      <trans-unit id="emconf_module.description" xml:space="preserve" approved="yes">
+        <source>If any subfolders to an extension contains backend modules, those foldernames should be listed here.</source>
+      <target state="translated">Wenn ein Unterordner einer Erweiterung ein oder mehrere Backend-Module enthält, sollten diese Ordnernamen hier aufgeführt werden.</target></trans-unit>
+      <trans-unit id="emconf_module.details" xml:space="preserve" approved="yes">
+        <source>It allows the EM to know about the existence of the module, which is important because the EM has to update the conf.php file of the module in order to set the correct TYPO3_MOD_PATH  constant.</source>
+      <target state="translated">Dadurch wird der EM angewiesen, die Konfigurationsdatei conf.php sowie die Konstante TYPO3_MOD_PATH entsprechend anzupassen, was für eine ordnungsgemäße Funktion der Erweiterung entscheidend ist.</target></trans-unit>
+      <trans-unit id="emconf_state.alttitle" xml:space="preserve" approved="yes">
+        <source>Development state</source>
+      <target state="translated">Entwicklungsstadium</target></trans-unit>
+      <trans-unit id="emconf_state.description" xml:space="preserve" approved="yes">
+        <source>Which development state the extension is in.</source>
+      <target state="translated">Zeigt an, in welchem Entwicklungsstadium sich die Erweiterung befindet.</target></trans-unit>
+      <trans-unit id="emconf_state.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;alpha&lt;/b&gt;
+Very initial development. May do nothing at all.
+
+&lt;b&gt;beta&lt;/b&gt;
+Under current development. Should work partly but is not finished yet.
+
+&lt;b&gt;stable&lt;/b&gt;
+Stable and used in production.
+
+&lt;b&gt;experimental&lt;/b&gt;
+Nobody knows if this is going anywhere yet... Maybe still just an idea.
+
+&lt;b&gt;test&lt;/b&gt;
+Test extension, demonstrates concepts etc.</source>
+      <target state="translated">&lt;b&gt;alpha&lt;/b&gt; Sehr frühes Entwicklungsstadium einer Erweiterung. Bietet vielleicht noch gar keine Funktionalitäten. &lt;b&gt;beta&lt;/b&gt; Zur Zeit in Entwicklung. Arbeitet teilweise, ist aber noch nicht fertiggestellt. &lt;b&gt;stable&lt;/b&gt; Stabil und ist auf Produktivsystemen lauffähig. &lt;b&gt;experimental&lt;/b&gt; Niemand kann sagen, ob diese Entwicklung zu einer Erweiterung führen wird... Vielleicht lediglich eine Idee. &lt;b&gt;test&lt;/b&gt; Testerweiterung, demonstriert Konzepte etc.</target></trans-unit>
+      <trans-unit id="emconf_internal.alttitle" xml:space="preserve" approved="yes">
+        <source>Internally supported in core</source>
+      <target state="translated">Spezielle Unterstützung durch TYPO3-Kern</target></trans-unit>
+      <trans-unit id="emconf_internal.description" xml:space="preserve" approved="yes">
+        <source>This flag indicates that the core source code is specifically aware of the extension.</source>
+      <target state="translated">Dieses Flagge zeigt an, ob der TYPO3-Kern diese Erweiterung besonders unterstützt.</target></trans-unit>
+      <trans-unit id="emconf_internal.details" xml:space="preserve" approved="yes">
+        <source>In other words this flag should convey the message that "this extension could not be written without some core source code modifications".
+
+An extension is not internal just because it uses TYPO3 general classes eg. those from t3lib/.
+True non-internal extensions are characterized by the fact that they could be written without making core source code changes, but relies only on existing classes  in TYPO3 and/or other extensions, plus its own scripts in the extension folder.</source>
+      <target state="translated">Die Flagge sollte so interpretiert werden, dass die Erweiterung nicht ohne einige grundlegende Änderungen im TYPO3-Kern selbst hätte entwickelt werden können (system-interne Unterstützung). "Normale" Erweiterungen zeichnen sich dadurch aus, dass sie allein mit Hilfe der durch TYPO3 gelieferten Klassen (und gegebenenfalls weiterer Erweiterungen), sowie selbst geschriebener Skripte entwickelt werden können. Für die Entwicklung dieser Erweiterung mussten jedoch zuerst Änderungen oder Erweiterungen am TYPO3-Kern vorgenommen werden.</target></trans-unit>
+      <trans-unit id="emconf_clearCacheOnLoad.alttitle" xml:space="preserve" approved="yes">
+        <source>Clear cache when installed</source>
+      <target state="translated">Cache nach dem Laden löschen</target></trans-unit>
+      <trans-unit id="emconf_clearCacheOnLoad.description" xml:space="preserve" approved="yes">
+        <source>If set, the EM will request the cache to be cleared when this extension is installed.</source>
+      <target state="translated">Mit dieser Option wird TYPO3 angewiesen, nach dem Laden der Erweiterung alle Caches zu löschen.</target></trans-unit>
+      <trans-unit id="emconf_modify_tables.alttitle" xml:space="preserve" approved="yes">
+        <source>Existing tables modified</source>
+      <target state="translated">Veränderte Datenbanktabellen</target></trans-unit>
+      <trans-unit id="emconf_modify_tables.description" xml:space="preserve" approved="yes">
+        <source>List of tablenames which are only modified - not fully created - by this extension.</source>
+      <target state="translated">Liste der Tabellennamen, welche durch diese Erweiterung lediglich verändert - nicht neu angelegt - werden.</target></trans-unit>
+      <trans-unit id="emconf_modify_tables.details" xml:space="preserve" approved="yes">
+        <source>Tables from this list found in the ext_tables.sql file of the extension</source>
+      <target state="translated">Auflistung der Tabellen, die in der Datei ext_tables.sql dieser Erweiterung gefunden wurden.</target></trans-unit>
+      <trans-unit id="emconf_doNotLoadInFE.alttitle" xml:space="preserve" approved="yes">
+        <source>Load in frontend</source>
+      <target state="translated">Im Frontend laden</target></trans-unit>
+      <trans-unit id="emconf_doNotLoadInFE.description" xml:space="preserve" approved="yes">
+        <source>"Yes" (default) will load the extension in the frontend and the backend. "No": the extension is loaded only in the backend.</source>
+      <target state="translated">Bei Auswahl von "Ja" (Standard), wird die Erweiterung sowohl im Frontend als auch im Backend geladen. Bei "Nein" wird sie nur im Backend geladen.</target></trans-unit>
+      <trans-unit id="emconf_doNotLoadInFE.details" xml:space="preserve" approved="yes">
+        <source>Some extensions are only required in the backend. With this flag set, this extension is not loaded in the frontend context, thus speeding up the site.</source>
+      <target state="translated">Manche Erweiterungen sind nur im Backend erforderlich. Ist diese Option gesetzt, wird die Erweiterung nicht im Frontend geladen, was die Website performanter macht.</target></trans-unit>
+      <trans-unit id="emconf_private.alttitle" xml:space="preserve" approved="yes">
+        <source>Private</source>
+      <target state="translated">Privat</target></trans-unit>
+      <trans-unit id="emconf_private.description" xml:space="preserve" approved="yes">
+        <source>If set, this version is not shown in the public list in the online repository.</source>
+      <target state="translated">Mit dieser Option wird eine Erweiterung als "Privat" gekennzeichnet. Dadurch erscheint sie nicht mehr in der allgemeinen (öffentlichen) Auflistung innerhalb des TER.</target></trans-unit>
+      <trans-unit id="emconf_private.details" xml:space="preserve" approved="yes">
+        <source>"Private" uploads requires you to manually enter a special key (which will be shown to you after an upload has been completed) to be able to import and view details for the uploaded extension.
+This is nice when you are working on something internally which you do not want others to look at.
+You can set and clear the private flag every time you upload your extension.</source>
+      <target state="translated">"Private" Uploads ins TER erfordern, dass Sie einen speziellen Schlüssel (Passwort) angeben, um die Erweiterung zu importieren oder sich Details zu dieser Erweiterung anzeigen zu lassen. Dieser Mechanismus ermöglicht es Ihnen, eine Erweiterung zunächst in einem geschützten, privaten Umfeld zu entwickeln, bevor Sie Ihre Arbeit der Allgemeinheit zugänglich machen. Die Option "Privat" kann mit jedem neuen Upload ins TER geändert werden.</target></trans-unit>
+      <trans-unit id="_emconf_private.seeAlso" xml:space="preserve" approved="yes">
+        <source>_MOD_tools_em:emconf_download_password</source>
+        <target state="translated">_MOD_tools_em:emconf_download_password</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="emconf_download_password.alttitle" xml:space="preserve" approved="yes">
+        <source>Download password</source>
+      <target state="translated">Passwort zum Herunterladen</target></trans-unit>
+      <trans-unit id="emconf_download_password.description" xml:space="preserve" approved="yes">
+        <source>Additional password required for download of private extensions.</source>
+      <target state="translated">Zusätzliches Passwort, welches zum Herunterladen der als "Privat" markierten Erweiterungen benötigt wird.</target></trans-unit>
+      <trans-unit id="emconf_download_password.details" xml:space="preserve" approved="yes">
+        <source>Anybody who knows the "special key" assigned to the private upload will be able to import it. Specifying an import password allows you to give away the download key for private uploads and also require a password given in addition. The password can be changed later on.</source>
+      <target state="translated">Jeder, der den "speziellen Schlüssel" dieser privaten Erweiterung kennt, kann diese Erweiterung in sein TYPO3-System importieren.</target></trans-unit>
+      <trans-unit id="_emconf_download_password.seeAlso" xml:space="preserve" approved="yes">
+        <source>_MOD_tools_em:emconf_private</source>
+        <target state="translated">_MOD_tools_em:emconf_private</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="emconf_type.alttitle" xml:space="preserve" approved="yes">
+        <source>Installation type</source>
+      <target state="translated">Installationstyp</target></trans-unit>
+      <trans-unit id="emconf_type.description" xml:space="preserve" approved="yes">
+        <source>The type of the installation</source>
+      <target state="translated">Beschreibt die Installationsart</target></trans-unit>
+      <trans-unit id="emconf_type.details" xml:space="preserve" approved="yes">
+        <source>The files for an extension are located in a folder named by the extension key. The location of this folder can be either inside typo3conf/ext/,  typo3/ext/ or typo3/sysext/. The extension must be programmed so that it automatically detects where it is located and can work from all three locations.
+
+&lt;b&gt;Local location "typo3conf/ext/":&lt;/b&gt; This is where to put extensions which are local for a particular TYPO3 installation. The typo3conf/ directory is always local, containing local configuration (eg. localconf.php), local modules etc. If you put an extension here it will be available for this TYPO3 installation only. This is a "per-database" way to install an extension.
+
+&lt;b&gt;Global location "typo3/ext/":&lt;/b&gt; This is where to put extensions which are global for the TYPO3 source code on the web server. These extensions will be available for any TYPO3 installation sharing the source code.
+When you upgrade your TYPO3 source code you probably want to copy the typo3/ext/ directory from the former source to the new source, overriding the default directory. In this way all global extension you use will be installed inside the new sourcecode. After that you can always enter TYPO3 and upgrade the versions if needed.
+This is a "per-server" way to install an extension.
+
+&lt;b&gt;System location "typo3/sysext/":&lt;/b&gt; This is system default extensions which cannot and should not be updated by the EM. They are distributed with the TYPO3 core.
+
+
+&lt;b&gt;Loading precedence&lt;/b&gt;
+Local extensions take precedence which means that if an extension exists both in typo3conf/ext/ and typo3/ext/ the one in typo3conf/ext/ is loaded. Likewise global extension takes predence over system extensions. This means that extensions are loaded in the order of priority local-global-system.
+In effect you can therefore have, say, a "stable" version of an extension installed in the global dir (typo3/ext/) which is used by all your projects on a server sharing source code, but on a single experimental project you can import the same extension in a newer "experimental" version and for that particular project the locally available extension will be used instead.</source>
+      <target state="translated">Die zu einer Erweiterung gehörenden Dateien werden in einem Ordner abgelegt, dessen Name sich von deren Erweiterungsschlüssel ableitet. Dabei kann sich dieser Installationsordner an einer von drei möglichen Stellen befinden, nämlich typo3conf/ext/, typo3/ext/ oder typo3/sysext/. Aus diesem Grund müssen Erweiterungen stets so programmiert werden, dass sie ihren Installationsort automatisch erkennen und somit unabhängig vom Installationsort immer lauffähig sind. Beschreibung der möglichen Installationsarten: &lt;b&gt;Lokal "typo3conf/ext/":&lt;/b&gt; An dieser Stelle sollten Erweiterungen installiert werden, die spezifisch für eine bestimmte TYPO3-Installation sind. Der Ordner typo3conf/ ist immer lokal, d.h. er enthält immer lokale Konfigurationseinstellungen (z.B. in localconf.php), lokale Erweiterungen usw. Wenn Sie also hier eine Erweiterung platzieren, steht sie nur dieser TYPO3-Installation zur Verfügung. So wird die Erweiterung quasi pro Datenbank installiert. &lt;b&gt;Global "typo3/ext/":&lt;/b&gt; Hier sollten Erweiterungen installiert werden, die global für den TYPO3-Quelltext auf einem Server gelten sollen. Diese Erweiterungen stehen dann allen TYPO3-Installationen zur Verfügung, die sich diesen Quelltext teilen. Wenn der TYPO3-Quelltext aktualisiert werden soll, empfiehlt es sich, das Verzeichnis typo3/ext/ vom alten zum neuen Quelltext zu kopieren und das Standardverzeichnis zu überschreiben. Auf diese Weise werden sämtliche verwendeten, globalen Erweiterungen im neuen Quelltext installiert. Anschließend kann TYPO3 aufgerufen und ggf. eine Aktualisierung der Versionen durchgeführt werden. So wird die Erweiterung quasi pro Server installiert. &lt;b&gt;System "typo3/sysext/":&lt;/b&gt; Hierbei handelt es sich um Standardsystemerweiterungen, die nicht über den EM aktualisiert werden können und sollten. Sie gehören zum Lieferumfang des TYPO3-Kerns. &lt;b&gt;Hierarchie&lt;/b&gt; Lokale Erweiterungen haben Vorrang, d.h., falls eine Erweiterung sowohl in typo3conf/ext/ als auch in typo3/ext/ vorhanden ist, wird diejenige in typo3conf/ext/ geladen. Darüber hinaus genießen globale Erweiterungen Vorrang vor Systemerweiterungen. Die Prioritätsreihenfolge der Erweiterungen lautet also lokal-global-system. Effektiv ist es daher möglich, beispielsweise eine stabile Version einer Erweiterung im globalen Verzeichnis (typo3/ext/) installiert zu haben, die für alle Projekte auf einem Server verwendet wird, die sich den Quelltext teilen, aber auch in ein experimentelles Projekt eine neuere, "experimentelle" Version der selben Erweiterung zu importieren. Für dieses spezielle Projekt wird dann die lokal verfügbare Erweiterung genutzt.</target></trans-unit>
+      <trans-unit id="emconf_doubleInstall.alttitle" xml:space="preserve" approved="yes">
+        <source>Installed twice or more?</source>
+      <target state="translated">Mehrfach installiert?</target></trans-unit>
+      <trans-unit id="emconf_doubleInstall.description" xml:space="preserve" approved="yes">
+        <source>Tells you if the extensions is installed in more than one of the System, Global or Local locations.</source>
+      <target state="translated">Zeigt Ihnen, ob die Erweiterung mehrfach installiert wurde. Mögliche Installationsorte sind dabei: System, global oder lokal.</target></trans-unit>
+      <trans-unit id="emconf_doubleInstall.details" xml:space="preserve" approved="yes">
+        <source>Because an extension can reside at three locations, System, Global and Local, this indicates if the extension is found in other locations than the current. In that case you should be aware which one of the extensions is loaded!</source>
+      <target state="translated">Weil eine Erweiterung &lt;em&gt;gleichzeitig&lt;/em&gt; an bis zu drei verschiedenen Orten (nämlich System, global oder lokal) installiert sein kann, erfahren Sie hier, ob die Erweiterung noch an weiteren Orten gefunden wurde. In diesem Fall sollten Sie genau wissen, welche Erweiterung geladen wird!</target></trans-unit>
+      <trans-unit id="emconf_rootfiles.alttitle" xml:space="preserve" approved="yes">
+        <source>Root files</source>
+      <target state="translated">Root-Dateien</target></trans-unit>
+      <trans-unit id="emconf_rootfiles.description" xml:space="preserve" approved="yes">
+        <source>List of the files in the extension folder. Does not list files in subfolders.</source>
+      <target state="translated">Listet alle Dateien innerhalb des Installationsordners der Erweiterung auf. Unterordner werden in dieser Auflistung ignoriert!</target></trans-unit>
+      <trans-unit id="emconf_dbReq.alttitle" xml:space="preserve" approved="yes">
+        <source>Database requirements</source>
+      <target state="translated">Datenbankanforderungen</target></trans-unit>
+      <trans-unit id="emconf_dbReq.description" xml:space="preserve" approved="yes">
+        <source>Shows you the requirements to the database tables and fields, if any.</source>
+      <target state="translated">Zeigt die Datenbankanforderungen dieser Erweiterung (Datenbanktabellen und/oder -felder)</target></trans-unit>
+      <trans-unit id="emconf_dbReq.details" xml:space="preserve" approved="yes">
+        <source>This will read from the files ext_tables.sql and ext_tables_static+adt.sql and show you which tables, fields and static tables are required with this extension.</source>
+      <target state="translated">Die Datenbankanforderungen für Tabellen, Felder und statische Tabellen werden hierbei den Dateien ext_tables.sql und ext_tables_static+adt.sql entnommen.</target></trans-unit>
+      <trans-unit id="emconf_dbStatus.alttitle" xml:space="preserve" approved="yes">
+        <source>Database requirements status</source>
+      <target state="translated">Status der Datenbankanforderungen</target></trans-unit>
+      <trans-unit id="emconf_dbStatus.description" xml:space="preserve" approved="yes">
+        <source>Displays the current status of the database compared to the extension requirements.</source>
+      <target state="translated">Vergleicht den derzeitigen Datenbankstatus mit den Anforderungen der Erweiterung.</target></trans-unit>
+      <trans-unit id="emconf_dbStatus.details" xml:space="preserve" approved="yes">
+        <source>If the extension is loaded which will display and error message if some tables or fields are not present in the database as they should be!</source>
+      <target state="translated">Sollten Datenbanktabellen oder -felder, welche die Erweiterung benötigt, fehlen, wird hier die entsprechende Fehlermeldung ausgegeben.</target></trans-unit>
+      <trans-unit id="emconf_flags.alttitle" xml:space="preserve" approved="yes">
+        <source>Flags</source>
+      <target state="translated">Flaggen</target></trans-unit>
+      <trans-unit id="emconf_flags.description" xml:space="preserve" approved="yes">
+        <source>A list of special codes which tells you something about what parts of TYPO3 the extension touches.</source>
+      <target state="translated">Eine Liste mit speziellen Codes, die Ihnen zeigen, welche Teile von TYPO3 durch diese Erweiterung berührt werden.</target></trans-unit>
+      <trans-unit id="emconf_flags.details" xml:space="preserve" approved="yes">
+        <source>This is a list of the flags:
+
+&lt;b&gt;Module:&lt;/b&gt; A true backend main/sub module is found to be added.
+
+&lt;b&gt;Module+:&lt;/b&gt; The extension adds itself to the function menu of an existing backend module.
+
+&lt;b&gt;loadTCA:&lt;/b&gt; The extension includes a function call to t3lib_div::loadTCA for loading a table. This potentially means that the system is slowed down, because the full table description of some table is always included. However there probably is a good reason for this to happen. Probably the extension tries to manipulate the TCA-config for an existing table in order to extend it.
+
+&lt;b&gt;TCA:&lt;/b&gt; The extension contains configuration of a table in $TCA.
+
+&lt;b&gt;Plugin:&lt;/b&gt; The extension adds a frontend plugin to the plugin list in Content Element type "Insert Plugin".
+
+&lt;b&gt;Plugin/ST43:&lt;/b&gt; TypoScript rendering code for the plugin is added to the static template "Content (default)". "Plugin" and "Plugin/ST43" are commonly used together.
+
+&lt;b&gt;Page-TSconfig:&lt;/b&gt; Default Page-TSconfig is added.
+
+&lt;b&gt;User-TSconfig:&lt;/b&gt; Default User-TSconfig is added.
+
+&lt;b&gt;TS/Setup:&lt;/b&gt; Default TypoScript Setup is added.
+
+&lt;b&gt;TS/Constants:&lt;/b&gt; Default TypoScript Constants is added.</source>
+      <target state="translated">Das ist die Liste aller Flaggen: &lt;b&gt;Module:&lt;/b&gt; Ein neues Modul wurde gefunden. &lt;b&gt;Module+:&lt;/b&gt; Ein bereits bestehendes Modul wird durch neue Funktionen erweitert. &lt;b&gt;loadTCA:&lt;/b&gt; &lt;b&gt;TCA:&lt;/b&gt; Die Erweiterung enthält in der Variablen $TCA Konfigurationen für eine Datenbanktabelle. &lt;b&gt;Plugin:&lt;/b&gt; Die Erweiterung stellt ein neues Plug-In für das Frontend bereit. &lt;b&gt;Plugin/ST43:&lt;/b&gt; Die Erweiterung installiert innerhalb des Inhaltselementes "Content (default)" neue TypoScript-Darstellungsoptionen. Der Begriff "Plug-In" und "Plugin/ST43" werden häufig synonym verwendet. &lt;b&gt;Page-TSconfig:&lt;/b&gt; Seiten-TSconfig-Informationen werden installiert. &lt;b&gt;User-TSconfig:&lt;/b&gt; Benutzer-TSconfig-Informationen werden installiert. &lt;b&gt;TS/Setup:&lt;/b&gt; TypoScript-Setup-Informationen werden installiert. &lt;b&gt;TS/Constants:&lt;/b&gt; TypoScript-Konstanten werden installiert.</target></trans-unit>
+      <trans-unit id="emconf_conf.description" xml:space="preserve" approved="yes">
+        <source>Shows if the extension has a template for further lowlevel configuration.</source>
+      <target state="translated">Zeigt, ob die Erweiterung eine Vorlage zur weitergehenden Konfiguration beinhaltet.</target></trans-unit>
+      <trans-unit id="emconf_TSfiles.alttitle" xml:space="preserve" approved="yes">
+        <source>Static TypoScript files</source>
+      <target state="translated">Statische TypoScript-Dateien</target></trans-unit>
+      <trans-unit id="emconf_TSfiles.description" xml:space="preserve" approved="yes">
+        <source>Shows which TypoScript static files may be present</source>
+      <target state="translated">Zeigt, welche statischen TypoScript-Dateien durch diese Erweiterung installiert werden.</target></trans-unit>
+      <trans-unit id="emconf_TSfiles.details" xml:space="preserve" approved="yes">
+        <source>If the files ext_typoscript_constants.txt and/or ext_typoscript_setup.txt is found in the extension folder they are included in the hierarchy of all TypoScript templates in TYPO3 right after the inclusion of other static templates.</source>
+      <target state="translated">Wenn die Dateien ext_typoscript_constants.txt und/oder ext_typoscript_setup.txt innerhalb des Installationsordners vorhanden sind, werden diese Dateien in die Hierarchie der TypoScript-Vorlagen eingebunden (nachdem alle anderen statischen Vorlagen eingebunden wurden).</target></trans-unit>
+      <trans-unit id="emconf_locallang.alttitle" xml:space="preserve" approved="yes">
+        <source>locallang-files</source>
+      <target state="translated">locallang-Dateien</target></trans-unit>
+      <trans-unit id="emconf_locallang.description" xml:space="preserve" approved="yes">
+        <source>Shows which files named "locallang.php" are present in the extension folder (recursive search). Such files are usually used to present an array $LOCAL_LANG with labels for the application in the system languages.</source>
+      <target state="translated">Listet alle Dateien mit dem Namen "locallang.php" innerhalb des Installationsordners der Erweiterung auf (rekursive Suche). In diesen Dateien befinden sich normalerweise sog. $LOCAL_LANG-Arrays, welche Übersetzungen der Erweiterung in die verschiedenen Landessprachen beinhalten.</target></trans-unit>
+      <trans-unit id="emconf_moduleNames.alttitle" xml:space="preserve" approved="yes">
+        <source>Backend Module names</source>
+      <target state="translated">Namen der Backend-Module</target></trans-unit>
+      <trans-unit id="emconf_moduleNames.description" xml:space="preserve" approved="yes">
+        <source>Shows which module names were found inside the extension.</source>
+      <target state="translated">Listet die innerhalb der Erweiterung gefundenen Module auf.</target></trans-unit>
+      <trans-unit id="emconf_classNames.alttitle" xml:space="preserve" approved="yes">
+        <source>PHP Class names</source>
+      <target state="translated">Namen der PHP-Klassen</target></trans-unit>
+      <trans-unit id="emconf_classNames.description" xml:space="preserve" approved="yes">
+        <source>Shows which PHP-classes were found in .php and .inc files.</source>
+      <target state="translated">Zeigt an, welche PHP-Klassen innerhalb von .php- oder .inc-Dateien gefunden wurden.</target></trans-unit>
+      <trans-unit id="emconf_errors.alttitle" xml:space="preserve" approved="yes">
+        <source>Errors</source>
+      <target state="translated">Fehler</target></trans-unit>
+      <trans-unit id="emconf_errors.description" xml:space="preserve" approved="yes">
+        <source>Displays if any errors with the extension were discovered.</source>
+      <target state="translated">Zeigt an, ob durch das Installieren der Erweiterung Fehler aufgetreten sind.</target></trans-unit>
+      <trans-unit id="emconf_NSerrors.alttitle" xml:space="preserve" approved="yes">
+        <source>Namespace errors</source>
+      <target state="translated">Bezeichnungsfehler</target></trans-unit>
+      <trans-unit id="emconf_NSerrors.description" xml:space="preserve" approved="yes">
+        <source>Certain naming convensions apply to extensions. This displays any violations found.</source>
+      <target state="translated">Für Erweiterungen gelten bestimmte Namenskonventionen. Verstöße gegen diese Konventionen werden hier angezeigt.</target></trans-unit>
+      <trans-unit id="emconf_NSerrors.details" xml:space="preserve" approved="yes">
+        <source>The naming convensions are defined in the "Inside TYPO3" document. To make naming as simple as possible, try to avoid underscores in your extension keys.</source>
+      <target state="translated">Die Namenskonventionen werden im Referenzdokument "Inside TYPO3" beschrieben. Um die Bezeichnung so einfach wie möglich zu gestalten, vermeiden Sie bitte den Gebrauch des Unterstriches "_".</target></trans-unit>
+    </body>
+  </file>
+</xliff>

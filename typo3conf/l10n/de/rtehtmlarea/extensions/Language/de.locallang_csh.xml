@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">htmlArea RTE &gt; Sprache</label>
+      <label index=".description">Die Sprachfunktion erlaubt es, die Attribute für Sprache und Textrichtung eines Elements im RTE zu bearbeiten.</label>
+      <label index=".details">Die folgenden Elemente können in der RTE-Werkzeugleiste erscheinen: - ein Auswahlfeld zum Zuweisen der Sprache zu Inhalten eines Elements; - zwei Schaltflächen zum Setzen der Textrichtung; - eine weitere Schaltfläche, um Sprachmarkierungen innerhalb der RTE-Arbeitsfläche sichtbar zu machen. Das Feld zur Auswahl der Sprache kann auch in anderen Dialogen zusammen mit der Auswahl der Textrichtung angezeigt werden.</label>
+      <label index=".image">EXT:rtehtmlarea/extensions/Language/skin/images/left_to_right.gif, EXT:rtehtmlarea/extensions/Language/skin/images/right_to_left.gif, EXT:rtehtmlarea/extensions/Language/skin/images/show-language-marks.gif</label>
+      <label index=".image_descr">"Links nach rechts"-Symbol in der Werkzeugleiste. "Rechts nach links"-Symbol in der Werkzeugleiste. "Zeige Sprachhinweise"-Symbol in der Werkzeugleiste.</label>
+      <label index=".seeAlso">xEXT_rtehtmlarea_Language:languageCombo, xEXT_rtehtmlarea_Language:directionCombo,</label>
+      <label index="languageCombo.alttitle">Sprache des Inhalts</label>
+      <label index="languageCombo.description">Wählen Sie die Sprache der Inhalte dieses Elements.</label>
+      <label index="languageCombo.details">Das Feld zur Sprachauswahl kann in der RTE-Werkzeugleiste und in manchen Dialogen erscheinen. Die Auswahl zeigt die Sprache, die aktuell dem ausgewählten Element zugewiesen ist. Das Wählen einer Sprache weist diese dem Element zu. War bereits eine Sprache zugewiesen, wird diese durch die neu gewählte ersetzt. Eine zugewiesene Sprache kann durch Auswählen von "Sprachhinweis entfernen" am Beginn der Liste im Auswahlfeld entfernt werden.</label>
+      <label index="directionCombo.alttitle">Textrichtung</label>
+      <label index="directionCombo.description">Wählen Sie die Textrichtung im Inhalt dieses Elements aus.</label>
+      <label index="directionCombo.details">Das Feld zur Auswahl der Textrichtung kann in einigen Dialogen erscheinen. Die Auswahl zeigt die Textrichtung, die aktuell dem ausgewählten Element zugewiesen ist. Das Wählen einer Richtung weist diese dem Element zu. War bereits eine Richtung zugewiesen, wird diese durch die neu gewählte ersetzt. Eine zugewiesene Richtung kann durch Auswählen von "Nicht gesetzt" am Beginn der Liste im Auswahlfeld entfernt werden.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

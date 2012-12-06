@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">htmlArea RTE &gt; Abkürzung</label>
+      <label index=".description">Der "Abkürzung"-Dialog ermöglicht die Zuordnung einer Abkürzung zu einem Begriff.</label>
+      <label index=".details">Durch Anklicken des "Abkürzung einfügen"-Symbols in der RTE-Werkzeugleiste öffnet sich ein Dialog, der das Einfügen einer Abkürzung oder das Bearbeiten einer bestehenden ermöglicht.
+Eine existierende Abkürzung ist mit einer unterbrochenen Linie unterstrichen und der Mauszeiger wechselt beim Überfahren mit der Maus zu einem Fragezeichen.
+Der Dialog erlaubt die Zuordnung einer Abkürzung zu einem Begriff. The Abkürzung kann aus einer Liste von bereits vordefinierten Abkürzungen aus der Datenbank gewählt oder eine neue Abkürzung direkt im Dialog eingegeben werden.</label>
+      <label index=".image">EXT:rtehtmlarea/extensions/Acronym/skin/images/acronym.gif</label>
+      <label index=".image_descr">"Abkürzung einfügen"-Symbol in der Editor-Werkzeugleiste.</label>
+      <label index=".seeAlso">xEXT_rtehtmlarea_Acronym:preDefinedAbbreviation,
+xEXT_rtehtmlarea_Acronym:unabridgedTerm,
+xEXT_rtehtmlarea_Acronym:abridgedTerm,
+xEXT_rtehtmlarea_Acronym:language,
+xEXT_rtehtmlarea_Acronym:termToAbridge,
+xEXT_rtehtmlarea_Acronym:useThisTerm
+tx_rtehtmlarea_acronym</label>
+      <label index="preDefinedAbbreviation.alttitle">Vordefinierte Abkürzungen</label>
+      <label index="preDefinedAbbreviation.description">Dieser Bereich erlaubt die Auswahl einer bereits in der Datenbank definierten Abkürzung.</label>
+      <label index="preDefinedAbbreviation.seeAlso">tx_rtehtmlarea_acronym</label>
+      <label index="preDefinedAcronym.alttitle"/>
+      <label index="preDefinedAcronym.description"/>
+      <label index="preDefinedAcronym.seeAlso">tx_rtehtmlarea_acronym</label>
+      <label index="unabridgedTerm.alttitle">Nicht abgekürzter Begriff</label>
+      <label index="unabridgedTerm.description">Wählen Sie die nicht abgekürzte Form eines Begriffs.</label>
+      <label index="unabridgedTerm.details"/>
+      <label index="abridgedTerm.alttitle">Abkürzung</label>
+      <label index="abridgedTerm.description">Wählen Sie die Kurzform eines Begriffs.</label>
+      <label index="language.alttitle">Sprache</label>
+      <label index="language.description">Wählen Sie die Sprahce für welche die Abkürzung definiert ist.</label>
+      <label index="language.details"/>
+      <label index="termToAbridge.alttitle">Abzukürzender Begriff</label>
+      <label index="termToAbridge.description"/>
+      <label index="useThisTerm.alttitle">Diesen Begriff verwenden</label>
+      <label index="useThisTerm.description"/>
+      <label index="useThisTerm.details"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

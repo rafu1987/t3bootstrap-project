@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_tabs_tab">Planer</label>
+      <label index="mlang_labels_tabdescr">Planer-Administrationsmodul. Überprüfen Sie alle registrierten Tasks. Sie können Tasks hinzufügen, bearbeiten oder löschen.&lt;br /&gt;&lt;em&gt;Zugriff nur für Administratoren!&lt;/em&gt;</label>
+      <label index="mlang_labels_tablabel">TYPO3-Planer</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="sys_action" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="sys_action" xml:space="preserve" approved="yes">
+        <source>Action</source>
+      <target state="translated">Aktion</target></trans-unit>
+      <trans-unit id="description" xml:space="preserve" approved="yes">
+        <source>An 'Action' is a configuration of a specific task which may be performed by assigned usergroups via the Task Center.</source>
+      <target state="translated">Eine 'Aktion' ist eine Konfiguration einer speziellen Aufgabe, die von zugeordneten Benutzergruppen im Aufgabenzentrum ausgeführt werden kann.</target></trans-unit>
+      <trans-unit id="new-sys_action" xml:space="preserve" approved="yes">
+        <source>Create a new action</source>
+      <target state="translated">Neue Aktion erstellen</target></trans-unit>
+      <trans-unit id="edit-sys_action" xml:space="preserve" approved="yes">
+        <source>Edit record</source>
+      <target state="translated">Datensatz bearbeiten</target></trans-unit>
+      <trans-unit id="action_error-not-found" xml:space="preserve" approved="yes">
+        <source>The action doesn't exist</source>
+      <target state="translated">Die Aktion existiert nicht</target></trans-unit>
+      <trans-unit id="action_not-found" xml:space="preserve" approved="yes">
+        <source>No actions found</source>
+      <target state="translated">Keine Aktionen gefunden</target></trans-unit>
+      <trans-unit id="action_not-found-description" xml:space="preserve" approved="yes">
+        <source>Currently there are no actions yet defined!</source>
+      <target state="translated">Momentan sind noch keine Aktionen festgelegt worden!</target></trans-unit>
+      <trans-unit id="action_error-access" xml:space="preserve" approved="yes">
+        <source>You don't have sufficient rights to see the records. Please ask the administrator to set those for you.</source>
+      <target state="translated">Sie haben keine ausreichenden Rechte, um diesen Datensatz anzuzeigen. Bitte fragen Sie Ihren Administrator, diese für Sie zu setzen.</target></trans-unit>
+      <trans-unit id="error-wrong-email" xml:space="preserve" approved="yes">
+        <source>The E-mail address is wrong.</source>
+      <target state="translated">Die E-Mail-Adresse ist falsch.</target></trans-unit>
+      <trans-unit id="error-username-empty" xml:space="preserve" approved="yes">
+        <source>The username is empty.</source>
+      <target state="translated">Das Feld 'Benutzername' ist leer.</target></trans-unit>
+      <trans-unit id="error-password-empty" xml:space="preserve" approved="yes">
+        <source>The password is empty.</source>
+      <target state="translated">Das Feld 'Passwort' ist leer.</target></trans-unit>
+      <trans-unit id="error-wrong-user" xml:space="preserve" approved="yes">
+        <source>You are not allowed to edit this user.</source>
+      <target state="translated">Sie dürfen diesen Benutzer nicht bearbeiten.</target></trans-unit>
+      <trans-unit id="success" xml:space="preserve" approved="yes">
+        <source>Success</source>
+      <target state="translated">Erfolg</target></trans-unit>
+      <trans-unit id="success-user-created" xml:space="preserve" approved="yes">
+        <source>The user has been created.</source>
+      <target state="translated">Der Benutzer wurde erstellt.</target></trans-unit>
+      <trans-unit id="success-user-updated" xml:space="preserve" approved="yes">
+        <source>The user has been updated.</source>
+      <target state="translated">Der Benutzer wurde aktualisiert.</target></trans-unit>
+      <trans-unit id="action_noType" xml:space="preserve" approved="yes">
+        <source>Error: The action had no type defined.</source>
+      <target state="translated">Fehler: Für die Aktion wurde kein Typ definiert.</target></trans-unit>
+      <trans-unit id="action_notReady" xml:space="preserve" approved="yes">
+        <source>Error: The action configuration is not finished.</source>
+      <target state="translated">Fehler: Die Konfiguration der Aktion ist nicht abgeschlossen.</target></trans-unit>
+      <trans-unit id="action_download_file" xml:space="preserve" approved="yes">
+        <source>Click here to download the exported data in a file</source>
+      <target state="translated">Klicken Sie hier, um die exportierten Daten als Datei herunterzuladen.</target></trans-unit>
+      <trans-unit id="action_editQuery" xml:space="preserve" approved="yes">
+        <source>Edit Query</source>
+      <target state="translated">Abfrage bearbeiten</target></trans-unit>
+      <trans-unit id="action_createQuery" xml:space="preserve" approved="yes">
+        <source>Create Query</source>
+      <target state="translated">Abfrage erstellen</target></trans-unit>
+      <trans-unit id="action_emptyQuery" xml:space="preserve" approved="yes">
+        <source>Query is empty, create one first!</source>
+      <target state="translated">Abfrage ist leer, erstellen Sie zunächst eine!</target></trans-unit>
+      <trans-unit id="action_error" xml:space="preserve" approved="yes">
+        <source>Action error!</source>
+      <target state="translated">Befehlsfehler!</target></trans-unit>
+      <trans-unit id="action_lowlevelMissing" xml:space="preserve" approved="yes">
+        <source>The extension "lowlevel" must be installed in order to create a query.</source>
+      <target state="translated">Um eine Abfrage erstellen zu können, muss die Erweiterung "lowlevel" installiert sein.</target></trans-unit>
+      <trans-unit id="action_BEu_hidden" xml:space="preserve" approved="yes">
+        <source>Disable user</source>
+      <target state="translated">Benutzer deaktivieren</target></trans-unit>
+      <trans-unit id="action_BEu_username" xml:space="preserve" approved="yes">
+        <source>Login name</source>
+      <target state="translated">Benutzername</target></trans-unit>
+      <trans-unit id="action_BEu_password" xml:space="preserve" approved="yes">
+        <source>Password</source>
+      <target state="translated">Passwort</target></trans-unit>
+      <trans-unit id="action_BEu_realName" xml:space="preserve" approved="yes">
+        <source>Real name</source>
+      <target state="translated">Richtiger Name</target></trans-unit>
+      <trans-unit id="action_BEu_email" xml:space="preserve" approved="yes">
+        <source>Email</source>
+      <target state="translated">E-Mail</target></trans-unit>
+      <trans-unit id="action_BEu_usergroups" xml:space="preserve" approved="yes">
+        <source>Member of groups</source>
+      <target state="translated">Mitglied der Gruppen</target></trans-unit>
+      <trans-unit id="action_t2_result" xml:space="preserve" approved="yes">
+        <source>Result of query</source>
+      <target state="translated">Ergebnis der Anfrage</target></trans-unit>
+      <trans-unit id="action_Create" xml:space="preserve" approved="yes">
+        <source>Create Backend User</source>
+      <target state="translated">Backend-Benutzer anlegen</target></trans-unit>
+      <trans-unit id="action_Update" xml:space="preserve" approved="yes">
+        <source>Update Backend User</source>
+      <target state="translated">Backend-Benutzer aktualisieren</target></trans-unit>
+      <trans-unit id="action_t1_listOfUsers" xml:space="preserve" approved="yes">
+        <source>List of backend users</source>
+      <target state="translated">Liste der Backend-Benutzer</target></trans-unit>
+      <trans-unit id="action_BEu_db_mount" xml:space="preserve" approved="yes">
+        <source>Pagetree starting points</source>
+      <target state="translated">Seitenbaumstartpunkte</target></trans-unit>
+      <trans-unit id="action_t4_edit" xml:space="preserve" approved="yes">
+        <source>Select record to edit:</source>
+      <target state="translated">Zu bearbeitenden Datensatz auswählen:</target></trans-unit>
+      <trans-unit id="action_toolbaritem" xml:space="preserve" approved="yes">
+        <source>Open System Actions</source>
+      <target state="translated">Systemaktionen öffnen</target></trans-unit>
+    </body>
+  </file>
+</xliff>

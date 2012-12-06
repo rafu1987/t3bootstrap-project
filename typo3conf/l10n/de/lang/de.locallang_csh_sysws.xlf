@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id=".description" xml:space="preserve" approved="yes">
+        <source>Defines custom workspaces in TYPO3 which allows for groups of people to work together in a publishing process with draft content. More information about workspaces can be found in the document "Inside TYPO3".</source>
+      <target state="translated">Definiert Arbeitsumgebungen für TYPO3, mit deren Hilfe Gruppen von Benutzern im Prozess der Inhaltserstellung zusammen an Entwürfen arbeiten können. Weitere Informationen über Arbeitsumgebungen finden Sie im Dokument "Inside TYPO3".</target></trans-unit>
+      <trans-unit id="title.description" xml:space="preserve" approved="yes">
+        <source>Enter the name of the workspace. This value is shown in the workspace selector box in the backend.</source>
+      <target state="translated">Geben Sie den Namen der Arbeitsumgebung ein. Dieser Wert wird im Auswahlfeld für Arbeitsumgebungen im Backend angezeigt.</target></trans-unit>
+      <trans-unit id="description.description" xml:space="preserve" approved="yes">
+        <source>Make a description of the workspace purpose here. This information is shown in the Workspace Manager and should instruct the workspace users about the purpose of the workspace.</source>
+      <target state="translated">Beschreiben Sie hier den Zweck der Arbeitsumgebung. Dieser Text wird von der Arbeitsumgebungsverwaltung angezeigt und sollte den Benutzern der Arbeitsumgebungen den Zweck der Arbeitsumgebung erläutern.</target></trans-unit>
+      <trans-unit id="adminusers.description" xml:space="preserve" approved="yes">
+        <source>Owners of the workspace are those who are allowed to add members and reviewers to the workspace and pick the page tree starting points etc.</source>
+      <target state="translated">Die Besitzer einer Arbeitsumgebung können dieser Mitglieder und Redakteure hinzufügen, die Einstiegspunkte der Seitenbäume festlegen usw.</target></trans-unit>
+      <trans-unit id="adminusers.details" xml:space="preserve" approved="yes">
+        <source>Owners can also add and delete other owners. If a user is allowed to create workspaces himself he will automatically become the initial owner user of the workspace. They are also the only ones who can eventually publish the workspace content (except general TYPO3 "admin" users) and thus the highest review authority (unless members/reviewers have access to the Live workspace).</source>
+      <target state="translated">Besitzer sind auch in der Lage, andere Besitzer hinzuzufügen und zu löschen. Hat ein Benutzer das Recht, Arbeitsumgebungen zu erstellen, so wird er dabei automatisch zum ursprünglichen Besitzer der Arbeitsumgebung. Besitzer sind darüber hinaus - abgesehen von TYPO3-Administratoren - die einzigen, die den Inhalt einer Arbeitsumgebung schließlich veröffentlichen können und besitzen daher die größte Kontrolle (sofern die Mitglieder und Redakteure keinen Zugriff auf die Live-Arbeitsumgebung besitzen).</target></trans-unit>
+      <trans-unit id="members.description" xml:space="preserve" approved="yes">
+        <source>Members can be backend users or groups and will have access to work in the workspace. They cannot publish content (unless they have access to the Live workspace) but only edit it after which they will forward it for approval by a reviewer.</source>
+      <target state="translated">Bei den Mitgliedern kann es sich sowohl um Backend-Benutzer als auch -Gruppen handeln. Diese können in der Arbeitsumgebung arbeiten. Sie können Inhalte nicht veröffentlichen (es sei denn, sie hätten Zugriff auf die Live-Arbeitsumgebung), sondern nur bearbeiten. Anschließend leiten sie das Ergebnis zur Begutachtung an einen Redakteur weiter.</target></trans-unit>
+      <trans-unit id="_members.seeAlso" xml:space="preserve" approved="yes">
+        <source>sys_workspace:reviewers</source>
+        <target state="translated">sys_workspace:reviewers</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="reviewers.description" xml:space="preserve" approved="yes">
+        <source>Content have to pass through reviewers approval before it can finally be published by a workspace owner. Reviewers can be backend users or groups and will have access to the workspace just as members have, but can in addition approve content for final publication.</source>
+      <target state="translated">Inhalte müssen erst von Redakteuren freigegeben werden, bevor sie schließlich von einem Besitzer der Arbeitsumgebung veröffentlicht werden. Bei den Redakteuren kann es sich sowohl um Backend-Benutzer als auch -Gruppen handeln. Diese haben in der Arbeitsumgebung die gleichen Rechte wie Mitglieder, können aber zusätzlich Inhalte zur Veröffentlichung freigeben.</target></trans-unit>
+      <trans-unit id="reviewers.details" xml:space="preserve" approved="yes">
+        <source>In case you need no review layer between editors (normally workspace "members") and the workspace owners what you simply do is to add all editors as reviewers. This give them access to raise content all the way to the workspace owners. Since content is by default raised from editing to review to publish state it even gives the possibility of informal "four-eye" review where workspace owners can require that content has  been raised by action from two different reviewers.</source>
+      <target state="translated">Falls zwischen Mitgliedern und Besitzern keine weitere Ebene benötigt wird, können die Autoren auch als Redakteure hinzugefügt werden. Damit erhalten sie dann die Möglichkeit, den Status der Inhalte bis zur Weitergabe an den Besitzer zu erhöhen. Da Inhalte standardmäßig eine Kette von Bearbeiten über Redigieren bis Veröffentlichen durchlaufen, eröffnet sich so die Möglichkeit informeller "Vier-Augen-Prüfung", bei der die Besitzer der Arbeitsumgebung fordern, dass Inhalt von zwei verschiedenen Redakteuren für gut befunden worden sein muss.</target></trans-unit>
+      <trans-unit id="_reviewers.seeAlso" xml:space="preserve" approved="yes">
+        <source>sys_workspace:members</source>
+        <target state="translated">sys_workspace:members</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="stagechg_notification.description" xml:space="preserve" approved="yes">
+        <source>When the stage of content changes, users in the workspace can receive a notification by email. Only members/reviewers who are attached to the workspace as users and not through their groups will be notified.</source>
+      <target state="translated">Bei einer Änderung des Inhaltsstatus können Benutzer in der Arbeitsumgebung per E-Mail benachrichtigt werden. Es werden nur Mitglieder und Redakteure benachrichtigt, die der Arbeitsumgebung als Benutzer hinzugefügt wurden, aber nicht diejenigen, die nur über Gruppen dazugehören.</target></trans-unit>
+      <trans-unit id="stagechg_notification.details" xml:space="preserve" approved="yes">
+        <source>"Notify users on next stage only": When content is raised from "Editing" to "Review", reviewers are notified. When content is raised to "Publish", owners are notified. When content is rejected, members and reviewers are notified. When content is raised from rejected state, members are notified.
+
+"Notify all users on any change" : All users in workspace are notified regardless of change.</source>
+      <target state="translated">"Nur Benutzer der nächsten Stufe benachrichtigen": Wird Inhalt von "Bearbeiten" auf "Redigieren" angehoben, werden die Redakteure benachrichtigt. Wird Inhalt auf "Veröffentlichen" angehoben, werden die Besitzer benachrichtigt. Falls Inhalt zurückgewiesen wird, werden Mitglieder und Redakteure benachrichtigt. Wird Inhalt von "Zurückgewiesen" aus angehoben, werden die Mitglieder benachrichtigt. "Alle Benutzer bei jeder Änderung benachrichtigen": Unabhängig von der Änderung werden sämtliche Benutzer der Arbeitsumgebung benachrichtigt.</target></trans-unit>
+      <trans-unit id="db_mountpoints.description" xml:space="preserve" approved="yes">
+        <source>If one or more DB mounts are specified the page tree of the backend will be locked into these root points during work in the workspace.</source>
+      <target state="translated">Wurden eine oder mehrere Datenbankfreigaben definiert, so stehen diese während der Arbeit in der Arbeitsumgebung als Baumwurzeln zur Verfügung.</target></trans-unit>
+      <trans-unit id="db_mountpoints.details" xml:space="preserve" approved="yes">
+        <source>Any DB mount specified here must be inside the DB mount set for the backend user who logs in. If that is not the case the workspace DB mount will simply not be mounted for the user. If no DB mounts are specified for the workspace the users will access the DB mounts of their user profile.</source>
+      <target state="translated">Alle hier angegebenen Datenbankfreigaben müssen Teil der für den angemeldeten Benutzer gesetzten Datenbankfreigaben sein. Ist dies nicht der Fall, werden die Datenbankfreigaben nicht eingebunden. Sind keine Datenbankfreigaben für die Arbeitsumgebung angegeben, hat der Benutzer Zugriff auf diejenigen seines Benutzerprofils.</target></trans-unit>
+      <trans-unit id="file_mountpoints.description" xml:space="preserve" approved="yes">
+        <source>Filemounts available for workspace users. Please see details for security information!</source>
+      <target state="translated">Verzeichnisfreigaben, die für Benutzer der Arbeitsumgebung verfügbar sind. Sicherheitsinformationen siehe Details!</target></trans-unit>
+      <trans-unit id="file_mountpoints.details" xml:space="preserve" approved="yes">
+        <source>IMPORTANT: By default a draft workspace has all filemounts disabled! This is because versioning does not apply to any files edited through filemounts in TYPO3. Hence any access to those files would violate the principle that no content managed in a draft workspace will be live before published.
+However, for specific projects this violation might be acceptable or necessary and therefore you can add a filemount. This will be forced upon any user in the workspace regardless of his filemounts inherited from his groups and user profile!</source>
+      <target state="translated">WICHTIG: Standardmäßig sind in der Entwurfsarbeitsumgebung alle Verzeichnisfreigaben deaktiviert! Grund hierfür ist, dass unter TYPO3 keine Versionierung für über Verzeichnisfreigaben bearbeitete Dateien zur Verfügung steht. Daher würde Zugriff auf diese Dateien das Prinzip verletzen, dass in Entwurfsarbeitsumgebungen verwaltete Inhalte nicht vor der Veröffentlichung online verfügbar sind. Bei bestimmten Projekten kann diese Abweichung jedoch akzeptabel oder notwendig sein. Daher ist es möglich, eine Verzeichnisfreigabe anzugeben. Diese wird für alle Benutzer unabhängig von den über ihre Gruppenzugehörigkeit oder ihr eigenes Profil zugewiesenen Verzeichnisfreigaben erzwungen.</target></trans-unit>
+      <trans-unit id="publish_time.description" xml:space="preserve" approved="yes">
+        <source>Specify a time of publication of the workspace content.</source>
+      <target state="translated">Gibt den Zeitpunkt an, zu dem der Inhalt der Arbeitsumgebung veröffentlicht werden soll.</target></trans-unit>
+      <trans-unit id="publish_time.details" xml:space="preserve" approved="yes">
+        <source>The publish and unpublish times are active only if "mod/user/ws/cli/ws_cli.phpsh" is set up as a cronjob running every minute. Example configuration could be "* * * * * /[ABSOLUTE PATH TO TYPO3 SITE]/typo3/mod/user/ws/cli/ws_cli.phpsh"</source>
+      <target state="translated">Die Zeitpunkte für die Veröffentlichung und das Zurückziehen wirken sich nur aus, wenn für "mod/user/ws/cli/ws_cli.phpsh" ein minütlich laufender Cron-Job eingerichtet wurde. Eine Beispielkonfiguration könnte folgendermaßen lauten: "* * * * * /[ABSOLUTE PATH TO TYPO3 SITE]/typo3/mod/user/ws/cli/ws_cli.phpsh"</target></trans-unit>
+      <trans-unit id="_publish_time.seeAlso" xml:space="preserve" approved="yes">
+        <source>sys_workspace:unpublish_time</source>
+        <target state="translated">sys_workspace:unpublish_time</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="unpublish_time.description" xml:space="preserve" approved="yes">
+        <source>Specify an additional time of (un)publication of the workspace content.</source>
+      <target state="translated">Gibt einen weiteren Zeitpunkt an, zu dem der Inhalt der Arbeitsumgebung veröffentlicht bzw. zurückgezogen werden soll.</target></trans-unit>
+      <trans-unit id="unpublish_time.details" xml:space="preserve" approved="yes">
+        <source>By "additional" is meant that both publishing times are used in a similar way, but if "Publish" is specified it takes precedence over "Unpublish". Anyway, the point of two publishing times is that workspace content could be swapped in for a limited period and then out again. But notice; for this to work the Swap mode must be set to "Swap-Into-Workspace on Auto-publish".</source>
+      <target state="translated">"Weiterer" heißt, dass beide Zeitpunkte für das Veröffentlichen auf ähnliche Weise behandelt werden, aber das "Veröffentlichen" Priorität über dem "Zurückziehen" genießt. Zweck zweier Veröffentlichungszeitpunkte ist, den Inhalt der Arbeitsumgebung für eine gewisse Zeit verfügbar zu machen und dann wieder zu entfernen. Beachten Sie, dass dies nur funktioniert, wenn als Tauschmodus "Tausch in Arbeitsumgebung hinein bei automatischer Veröffentlichung".</target></trans-unit>
+      <trans-unit id="_unpublish_time.seeAlso" xml:space="preserve" approved="yes">
+        <source>sys_workspace:publish_time,sys_workspace:swap_modes</source>
+        <target state="translated">sys_workspace:publish_time,sys_workspace:swap_modes</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="freeze.description" xml:space="preserve" approved="yes">
+        <source>If set, no editing is allowed inside workspace.</source>
+      <target state="translated">Ist diese Option aktiv, ist innerhalb der Arbeitsumgebung keine Bearbeitung möglich.</target></trans-unit>
+      <trans-unit id="live_edit.description" xml:space="preserve" approved="yes">
+        <source>If set, records from tables where versioning is not enabled can still be edited "live" inside the workspace.</source>
+      <target state="translated">Ist diese Option aktiv, können Datensätze aus Tabellen, für die keine Versionierung aktiviert wurde, trotzdem "live" in der Arbeitsumgebung bearbeitet werden.</target></trans-unit>
+      <trans-unit id="review_stage_edit.description" xml:space="preserve" approved="yes">
+        <source>If set, records raised to Review stage can still be edited by workspace members. This allows late changes to be made while waiting for the review. Only when the stage is raised to Publish the record is completely locked for editing for members and reviewers.</source>
+      <target state="translated">Ist diese Option aktiv, können auf die Stufe "Redigieren" angehobene Datensätze weiterhin von Mitgliedern der Arbeitsumgebung bearbeitet werden. Auf diese Weise können noch Änderungen vorgenommen werden, während auf die Redaktion gewartet wird. Der Datensatz wird erst für weitere Änderungen durch Mitglieder und Redakteure gesperrt, wenn er auf die Stufe "Veröffentlichen" angehoben wird.</target></trans-unit>
+      <trans-unit id="disable_autocreate.description" xml:space="preserve" approved="yes">
+        <source>If set, records are not automatically created as new versions when edited in the workspace. A new version must be manually created first.</source>
+      <target state="translated">Wenn aktiviert, werden Datensätze nicht automatisch als neue Version erstellt, wenn sie in der Arbeitsumgebung bearbeitet werden. Eine neue Version muss zuerst manuell erstellt werden.</target></trans-unit>
+      <trans-unit id="swap_modes.description" xml:space="preserve" approved="yes">
+        <source>Defines modes for publishing as a "swap" action where the online content is moved into the workspace in exchange for the workspace content.</source>
+      <target state="translated">Legt Modi für die Veröffentlichung über einen Austauschvorgang fest, bei dem der Online-Inhalt in die Arbeitsumgebung verschoben und durch den Inhalt der Arbeitsumgebung ersetzt wird.</target></trans-unit>
+      <trans-unit id="swap_modes.details" xml:space="preserve" approved="yes">
+        <source>By default swapping is allowed. Thereby two versions can be published "in and out" of a workspace multiple times, always substituting each other. If this is not desired, it can be disabled with "Disable Swap-Into-Workspace".
+Another mode "Swap-Into-Workspace on Auto-publish" will force the automatic publishing through the cronjob to swap versions. This is necessary to use if you specify both a publish AND un-publish time because otherwise the workspace will be empty after the first publish action!</source>
+      <target state="translated">Standardmäßig ist das Austauschen erlaubt. Daher ist es möglich, zwei Versionen mehrfach gegeneinander auszustauschen, wobei jeweils die Version in der Arbeitsumgebung durch die andere ersetzt wird. Ist dies unerwünscht, kann die Funktion über die Option "Austausch mit Arbeitsumgebung deaktivieren" deaktiviert werden. Ein weiterer Modus, "Austausch mit Arbeitsumgebung bei automatischer Veröffentlichung" erzwingt die automatische Veröffentlichung über den Cron-Job für den Versionsaustausch. Dies ist erforderlich, wenn Zeitpunkte für das Veröffentlichen &lt;em&gt;und&lt;/em&gt; Zurückziehen angegeben werden sollen, da die Arbeitsumgebung nach dem ersten Austauschvorgang anderfalls leer ist!</target></trans-unit>
+      <trans-unit id="_swap_modes.seeAlso" xml:space="preserve" approved="yes">
+        <source>sys_workspace:unpublish_time</source>
+        <target state="translated">sys_workspace:unpublish_time</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="vtypes.description" xml:space="preserve" approved="yes">
+        <source>Select versioning types you want to disable for workspace editors/reviewers (admin users and owners are not limited).</source>
+      <target state="translated">Wählen Sie hier die Versionierungstypen aus, die Mitgliedern und Redakteuren der Arbeitsumgebung nicht zur Verfügung stehen sollen. (Für Administratoren und Besitzer gelten keine Einschränkungen.)</target></trans-unit>
+      <trans-unit id="vtypes.details" xml:space="preserve" approved="yes">
+        <source>"Element" is the most common form of versioning where a single element is versionized solo.
+"Page" is a versioning type where a page record and child records from specified tables (like "Content Elements" and "Language Overlay Records") are copied along. This form is more complex but offers flexibility in terms of rearrangement of elements on the page.
+"Branch" versioning is where a page is versionized and all subpages and content is copied along. This can have quite heavy implications on data duplication and is recommended only in special circumstances.
+
+More information about versioning types can be read in "Inside TYPO3"</source>
+      <target state="translated">"Element" ist die gebräuchlichste Form der Versionierung. Bei ihr wird ein einzelnes Element für sich allein versioniert. Beim Versionierungstypen "Seite" werden ein Seitendatensatz und festgelegte Kinddatensätze, wie z.B. Inhaltselemente und Sprachen-Overlay-Datensätze, übernommen. Hierbei handelt es sich um eine komplexere Form der Versionierung, die jedoch einen Gewinn an Flexibilität bei der Anordnung von Elementen auf einer Seite bedeutet. Beim Typ "Zweig" wird nicht nur eine Seite versioniert, sondern es werden auch sämtliche Unterseiten und deren Inhalte übernommen. Dies zieht ggf. den Anfall großer Datenmengen nach sich und wird nur für besondere Fälle empfohlen. Weitere Informationen über Versionierungstypen erhalten Sie im Handbuch "Inside TYPO3".</target></trans-unit>
+      <trans-unit id="publish_access.description" xml:space="preserve" approved="yes">
+        <source>Refines the rules of publishing</source>
+      <target state="translated">Legt Feinheiten für die Veröffentlichungsregeln fest</target></trans-unit>
+      <trans-unit id="publish_access.details" xml:space="preserve" approved="yes">
+        <source>"Publish only content in publish stage" : Only when content is in publish stage can it be published.
+"Only workspace owner can publish" : Only the workspace owner can publish the content in the workspace, even if members or reviewers have access to the Live workspace.</source>
+      <target state="translated">"Nur Inhalte der Stufe 'Veröffentlichen' veröffentlichen": Inhalte können nur veröffentlicht werden, wenn sie sich in der Stufe "Veröffentlichen" befinden. "Nur Besitzer der Arbeitsumgebung kann veröffentlichen": Der Inhalt kann auch dann nur von einem Besitzer der Arbeitsumgebung veröffentlicht werden, wenn Mitglieder oder Redakteure Zugriff auf die Live-Arbeitsumgebung haben.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="wiz_crMany">Mehrere Seiten erzeugen</label>
+      <label index="wiz_W">W!</label>
+      <label index="wiz_newPages">Neue Seiten anlegen</label>
+      <label index="wiz_newPages_page">Seite</label>
+      <label index="wiz_newPages_currentMenu">Neue Seitenstruktur</label>
+      <label index="wiz_newPages_errorMsg1">Sie haben nicht die notwendigen Rechte, um dieser Seite neue Unterseiten hinzuzufügen!</label>
+      <label index="wiz_newPages_lCreate">Seiten anlegen</label>
+      <label index="wiz_newPages_listEnd">Neue Seiten nach existierenden Unterseiten anlegen</label>
+      <label index="wiz_newPages_hidePages">Neue Seiten verbergen</label>
+      <label index="wiz_newPages_lCreate_msg1">Es wird eine größere Anzahl neuer Seiten erstellt. Den Vorgang fortsetzen?</label>
+      <label index="wiz_newPages_lReset">Felder zurücksetzen</label>
+      <label index="wiz_newPages_noCreate">Es wurden keine Seiten erzeugt!</label>
+      <label index="wiz_newPages_create">Die Seiten wurden erzeugt!</label>
+      <label index="wiz_newPages_addMoreLines">Zeilen hinzufügen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

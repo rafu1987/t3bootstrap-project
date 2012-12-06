@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">Web &gt; Info</label>
+      <label index=".description">Das Modul "Web &gt; Info" dient als "Container" für all diejenigen Backend-Erweiterungen, welche Informationen oder Analysen zu einzelnen Seiten oder dem gesamten Seitenbaum liefern. Darunter fallen z.B. Zugriffstatistiken, Cache-Informationen, Änderungsverläufe, Protokolldateien etc.</label>
+      <label index=".details">Konzeptionell unterscheidet sich das Modul "Web &gt; Info" vom Modul "Web &gt; Funktionen" dadurch, dass es primär Informationen statt Änderungsmöglichkeiten bietet. Es liegt am Programmierer zu entscheiden, in welchem dieser Module seine Backend-Erweiterung erscheinen soll.</label>
+      <label index="_.seeAlso">_MOD_web_func, Mehr über das Modul Web &gt; Info | http://typo3.org/documentation/document-library/doc_core_inside/Info_module/,</label>
+      <label index="_.image">EXT:lang/cshimages/pagetree_overview_10.png</label>
+      <label index=".image_descr">Der TYPO3-Kern liefert mit dem Modul "Web &gt; Info" lediglich einen leeren Container. Durch eine Programmierschnittstelle (API) können Backend-Erweiterungen Menüeinträge innerhalb des Moduls "Web &gt; Info" zur Verfügung stellen. Hier sehen Sie die "Seiten-TSconfig"-Übersicht der Erweiterung "info_pagetsconfig".</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

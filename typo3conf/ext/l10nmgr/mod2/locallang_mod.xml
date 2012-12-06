@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;user_txl10nmgrM2&quot; - header, description</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mlang_tabs_tab">Translation Tasks</label>
+			<label index="mlang_labels_tabdescr">Task center for translators</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="mlang_tabs_tab">Übersetzungen</label>
+			<label index="mlang_labels_tabdescr">Task Center für Übersetzer</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="mlang_tabs_tab">Traductions</label>
+			<label index="mlang_labels_tabdescr">Centre de tâches pour traducteurs</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="mlang_tabs_tab">Traducciones</label>
+			<label index="mlang_labels_tabdescr">Centro de tareas para traductores</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="mlang_tabs_tab">Traduzioni</label>
+			<label index="mlang_labels_tabdescr">Task Center per traduttori</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+	</orig_hash>
+	<orig_text type="array">
+	</orig_text>
+</T3locallang>

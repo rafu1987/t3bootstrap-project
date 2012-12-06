@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="pagemodule.alttitle">Seitenmodul (TemplaVoilà)</label>
+      <label index="pagemodule.description">Das TemplaVoilà-Seitenmodul erlaubt das einfache Bearbieten von Inhalten auf ihrer Website. Sie sehen Inhalte so gemäß Inhalt platziert, wie diese auch im Frontend ausgegeben werden.</label>
+      <label index="pagemodule_notUsed.description"/>
+      <label index="selectlanguageversion.description"/>
+      <label index="editlanguageversion.description"/>
+      <label index="createnewtranslation.description"/>
+      <label index="pagelocalizationmode.description"/>
+      <label index="pagelocalizationdisplaymode.description"/>
+      <label index="disablePageStructureInheritance.description"/>
+      <label index="advancedfunctions_showhiddenelements.description"/>
+      <label index="advancedfunctions_showoutline.description"/>
+      <label index="outline_status_cleanall.description"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

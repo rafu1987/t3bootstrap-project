@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">Flexform-XML-Daten anzeigen</label>
+      <label index="needsCleaning">Es scheint, als könne das FlexForm-XML ein wenig aufgeräumt werden. Bitte vergleichen Sie die aktuelle und die vorgeschlagene XML-Struktur und klicken Sie dann die Schaltfläche "Bereinigen", wenn Sie diese aufräumen lassen möchten.</label>
+      <label index="XMLclean">XML ist sauber</label>
+      <label index="cleanUp">Bereinigtes XML im Datensatz speichern!</label>
+      <label index="current">Aktuelles XML:</label>
+      <label index="clean">Bereinigtes XML:</label>
+      <label index="diff">Unterschied:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

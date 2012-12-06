@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;tx_t3jquery mod1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">jQuery Setup</label>
+			<label index="version_in_use">Versions in use: %s</label>
+			<label index="integrate_from_cdn">You are using CDN to integrate the jQuery-Libs, there are no further settings.</label>
+			<label index="function1">Create custom jQuery JS library</label>
+			<label index="function2">Analyze .js for jQuery dependencies</label>
+			<label index="function3">Process &amp; Analyze t3jquery.txt in extensions</label>
+			<label index="function4">Compress your own javascript file</label>
+			<label index="function5">Display class.t3jquery.php API</label>
+			<label index="jquery.analyze.dependencies">jQuery dependencies found in file:</label>
+			<label index="jquery.analyze.none">None</label>
+			<label index="jquery.analyze.packed">File is either not ending in .js or file is compressed with Packer!</label>
+			<label index="jquery.button.check">Check</label>
+			<label index="jquery.button.compress">Compress</label>
+			<label index="jquery.button.create">Create jQuery Library</label>
+			<label index="jquery.button.mergejq">Merge &amp; Use</label>
+			<label index="jquery.button.selectall">Select all</label>
+			<label index="jquery.button.selectnone">Deselect all</label>
+			<label index="jquery.button.usejq">Use</label>
+			<label index="jquery.compress.compress">Paste in your UNCOMPRESSED javascript into this field:</label>
+			<label index="jquery.compress.decompress">A COMPRESSED version of your javascript will appear in this field.</label>
+			<label index="jquery.compress.description">This module can be used for compressing your own javascript file(s), using the same compression (Packer or JsMin) used for compressing the jQuery library.</label>
+			<label index="jquery.compress.nomunge">Minify only:</label>
+			<label index="jquery.compress.nomunge.yes">Yes</label>
+			<label index="jquery.compress.nomunge.no">No</label>
+			<label index="jquery.compression">Choose compression type</label>
+			<label index="jquery.compression.jsmin.description">Cleans comments and whitespace, Compression by &lt;a href=&quot;http://www.crockford.com/javascript/jsmin.html&quot;&gt;JSMin&lt;/a&gt;.</label>
+			<label index="jquery.compression.jsmin.name">JsMin Compression</label>
+			<label index="jquery.compression.nodocs.description">Uncompressed, removes only documentation</label>
+			<label index="jquery.compression.nodocs.name">No Documentation</label>
+			<label index="jquery.compression.none.description">Full Source, includes documentation. Recommended while testing &amp; building.</label>
+			<label index="jquery.compression.none.name">No Compression</label>
+			<label index="jquery.compression.packer.description">Uses &lt;a href=&quot;http://joliclic.free.fr/php/javascript-packer/en/&quot; target=&quot;_blank&quot;&gt;the php5 version&lt;/a&gt; of &lt;a href=&quot;http://dean.edwards.name/packer/&quot; target=&quot;_blank&quot;&gt;Dean Edwards Packer&lt;/a&gt;.</label>
+			<label index="jquery.compression.packer.name">Packer Compression</label>
+			<label index="jquery.extension.missingLibrary">jQuery Library missing:</label>
+			<label index="jquery.extension.missingLibrary.ui">Some of your extensions require jQuery-UI. You need to add this manually in the extension-manager.</label>
+			<label index="jquery.extension.missingLibrary.tools">Some of your extensions require jQuery-TOOLS. You need to add this manually in the extension-manager.</label>
+			<label index="jquery.extension.em">Click here</label>
+			<label index="jquery.extension.dependencies">jQuery dependencies found selected extensions:</label>
+			<label index="jquery.extension.description">Select the extensions you want processed and checked for jQuery dependencies.</label>
+			<label index="jquery.extension.extkey">Extension Key:</label>
+			<label index="jquery.extension.title">Title:</label>
+			<label index="jquery.extension.version">Version:</label>
+			<label index="jquery.header1">Choose the jQuery Components you need:</label>
+			<label index="jquery.header2">Find the jQuery Components you need</label>
+			<label index="jquery.header3">Find the jQuery Components you need</label>
+			<label index="jquery.header4">Compress your own javascript file</label>
+			<label index="jquery.header5">Display class.t3jquery.php API</label>
+			<label index="jquery.packito.description">Select the uncompressed Javascript file you want to check for jQuery dependencies.</label>
+			<label index="jquery.packito.local">or Local file:</label>
+			<label index="jquery.packito.note">&lt;em&gt;Note: Only files with the extension &lt;strong&gt;.js&lt;/strong&gt; is accepted.&lt;br /&gt; Local extension dirs can be accessed using EXT:. ie. EXT:t3jquery/res/jqconfig.js&lt;/em&gt;</label>
+			<label index="jquery.packito.remote">Remote file:</label>
+			<label index="jquery.component.jquery">The jQuery, required for UI Core.</label>
+			<label index="jquery.component.noConflict">Activates the noConflict mode of jQuery to work with other JS-Frameworks</label>
+			<label index="jquery.component.uicore">The core of jQuery UI, required for all interactions and widgets.</label>
+			<label index="jquery.component.widget">Core utility for building UI controls.</label>
+			<label index="jquery.component.mouse">Track and handle mouse-based interactions.</label>
+			<label index="jquery.component.position">Place elements at specific locations in relation to other elements.</label>
+			<label index="jquery.component.draggable">Makes any element on the page draggable.</label>
+			<label index="jquery.component.droppable">Generated drop targets for draggable elements.</label>
+			<label index="jquery.component.resizable">Makes any element on the page resizable.</label>
+			<label index="jquery.component.selectable">Makes a list of elements mouse selectable by dragging a box or clicking on them.</label>
+			<label index="jquery.component.sortable">Makes a list of items sortable.</label>
+			<label index="jquery.component.accordion">Creates an accordion navigation widget.</label>
+			<label index="jquery.component.autocomplete">Autocomplete, added to an input field, enables users to quickly find and select from a pre-populated list of values as they type, leveraging searching and filtering.</label>
+			<label index="jquery.component.button">Button enhances standard form elements like button, input of type submit or reset or anchors to themable buttons with appropiate mouseover and active styles.</label>
+			<label index="jquery.component.dialog">Opens existing markup in a draggable and resizable dialog.</label>
+			<label index="jquery.component.slider">A flexible slider with ranges and accessibility via keyboard.</label>
+			<label index="jquery.component.tabs">Transforms a set of container elements into a tab structure.</label>
+			<label index="jquery.component.datepicker">A datepicker that can be toggled from an input or displayed inline.</label>
+			<label index="jquery.component.progressbar">A status indicator that can be used for a loading state and standard percentage indicators.</label>
+			<label index="jquery.component.effects.core">Extends the internal jQuery effects, includes morphing, easing and is required by all other effects.</label>
+			<label index="jquery.component.effects.blind">Blinds the element.</label>
+			<label index="jquery.component.effects.bounce">Bounces an element horizontally or vertically n-times.</label>
+			<label index="jquery.component.effects.clip">Clips the element on and off like an old TV.</label>
+			<label index="jquery.component.effects.drop">A Drop out effect by moving the element in one direction and hiding it at the same time.</label>
+			<label index="jquery.component.effects.explode">The element explodes in all directions into n pieces. Also supports imploding again.</label>
+			<label index="jquery.component.effects.fade">The element will fades in or out.</label>
+			<label index="jquery.component.effects.fold">Folds the element first horizontally and then vertically.</label>
+			<label index="jquery.component.effects.highlight">Highlights the background of the element in a defined color for a custom duration.</label>
+			<label index="jquery.component.effects.pulsate">The element pulsates n times by changing the opacity to zero and back.</label>
+			<label index="jquery.component.effects.scale">Grow or shrink any element and it's content and restore it again.</label>
+			<label index="jquery.component.effects.shake">Shakes the element horizontally or vertically n times.</label>
+			<label index="jquery.component.effects.slide">The element slides in and out of the viewport.</label>
+			<label index="jquery.component.effects.transfer">Transfer effect from one element to another.</label>
+			<label index="jquery.component.easing">A jQuery plugin to give advanced easing options.</label>
+			<label index="jquery.component.mousewheel">Adds mouse wheel support for your application! Just call mousewheel to add the event and call unmousewheel to remove the event.</label>
+			<label index="jquery.component.lint">jQuery Lint works over the top of jQuery and diligently reports errors and any incorrect usage of jQuery. It will also, to some extent, offer guidance on best practices and performance concerns.</label>
+			<label index="jquery.component.mobile">Touch-Optimized Web Framework for Smartphones &amp; Tablets.</label>
+			<label index="jquery.component.cookie">A simple, lightweight jQuery plugin for reading, writing and deleting cookies</label>
+			<label index="jquery.component.bootstrap">Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.</label>
+			<label index="jquery.component.bootstrap.transition">Extends the jQuery.support object to CSS3 transition</label>
+			<label index="jquery.component.bootstrap.modal">A streamlined, but flexible, take on the traditional javascript modal plugin with only the minimum required functionality and smart defaults.</label>
+			<label index="jquery.component.bootstrap.dropdown">Add dropdown menus to nearly anything in Bootstrap with this simple plugin. Bootstrap features full dropdown menu support on in the navbar, tabs, and pills.</label>
+			<label index="jquery.component.bootstrap.scrollspy">The ScrollSpy plugin is for automatically updating nav targets based on scroll position.</label>
+			<label index="jquery.component.bootstrap.tab">This plugin adds quick, dynamic tab and pill functionality for transitioning through local content.</label>
+			<label index="jquery.component.bootstrap.tooltip">Inspired by the excellent jQuery.tipsy plugin written by Jason Frame; Tooltips are an updated version, which don't rely on images, use css3 for animations, and data-attributes for local title storage.</label>
+			<label index="jquery.component.bootstrap.popover">Add small overlays of content, like those on the iPad, to any element for housing secondary information.</label>
+			<label index="jquery.component.bootstrap.alert">The alert plugin is a tiny class for adding close functionality to alerts.</label>
+			<label index="jquery.component.bootstrap.button">Do more with buttons. Control button states or create groups of buttons for more components like toolbars.</label>
+			<label index="jquery.component.bootstrap.collapse">Get base styles and flexible support for collapsible components like accordions and navigation.</label>
+			<label index="jquery.component.bootstrap.carousel">A generic plugin for cycling through elements.</label>
+			<label index="jquery.component.bootstrap.typeahead">A basic, easily extended plugin for quickly creating elegant typeaheads with any form text input.</label>
+			<label index="jquery.component.bootstrap.affix">This plugin will set fixed position to elements.</label>
+			<label index="tools.component.tabs">The most important UI widget on the web</label>
+			<label index="tools.component.tabsslideshow">Transforms tabs into a working slideshow</label>
+			<label index="tools.component.tabshistory">The ability to navigate through tabs with the browser's back and forward buttons</label>
+			<label index="tools.component.tooltip">The second most important UI widget on the web.</label>
+			<label index="tools.component.tooltipslide">A sliding tooltip effect with customized sliding directions, dimensions and speeds</label>
+			<label index="tools.component.tooltipdynamic">Dynamic positioning of the tooltip so that it always stays in the viewport</label>
+			<label index="tools.component.scrollable">A generic HTML scrolling widget</label>
+			<label index="tools.component.scrollablecircular">Makes an infinite loop from the scrollable items so that there is no beginning or end</label>
+			<label index="tools.component.scrollableautoscroll">Makes the scrolling behaviour automatic. highly configurable</label>
+			<label index="tools.component.scrollablenavigator">Provides navigation buttons for switching between pages in scrollable</label>
+			<label index="tools.component.scrollablemousewheel">Enables mousewheel support for scrollable</label>
+			<label index="tools.component.overlay">A generic HTML overlaying widget</label>
+			<label index="tools.component.overlaygallery">A plugin for creating &quot;lightbox&quot; style image galleries</label>
+			<label index="tools.component.overlayapple">An overlay effect that you have seen on apple.com</label>
+			<label index="tools.component.formdateinput">HTML5 date input for humans</label>
+			<label index="tools.component.formrangeinput">HTML5 range input for humans</label>
+			<label index="tools.component.formvalidator">HTML5 input validation for humans</label>
+			<label index="tools.component.flashembed">The future of Flash embedding. Works as a standalone tool and jQuery is not required. flowplayer.js contains this script.</label>
+			<label index="tools.component.history">Back button for AJAX apps</label>
+			<label index="tools.component.expose">Makes your HTML stand out from its surroundings</label>
+			<label index="tools.component.mousewheel">A generic mousewheel support for jQuery</label>
+			<label index="tools.component.flowplayer">The JavaScript component of Flowplayer - the Video player for the Web</label>
+			<label index="tools.component.flowplayercontrolbar">Generate video controls with HTML and CSS</label>
+			<label index="tools.component.flowplayerplaylist">Generate video playlists with HTML and CSS</label>
+			<label index="tools.component.flowplayerembedding">Generates embedding codes for Flowplayer</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+	</orig_hash>
+	<orig_text type="array">
+	</orig_text>
+</T3locallang>

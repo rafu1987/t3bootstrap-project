@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="shortcutDescription" xml:space="preserve" approved="yes">
+        <source>This is the shortcuts menu. You do not have any shortcuts added yet, you can do so by clicking the shortcut icon %icon%, which you can find on each page in the backend.</source>
+      <target state="translated">Dieses Menü zeigt von Ihnen angelegte Verweise an. Sie haben noch keine Verweise hinzugefügt, können das aber mit einem Mausklick auf das Verweissymbol %icon% tun, das auf jeder Seite des Backends vorhanden ist.</target></trans-unit>
+      <trans-unit id="shortcut_edit" xml:space="preserve" approved="yes">
+        <source>Edit</source>
+      <target state="translated">Bearbeiten</target></trans-unit>
+      <trans-unit id="shortcut_create" xml:space="preserve" approved="yes">
+        <source>Create</source>
+      <target state="translated">Erstellen</target></trans-unit>
+      <trans-unit id="shortcut_editID" xml:space="preserve" approved="yes">
+        <source>Edit/Search</source>
+      <target state="translated">Bearbeiten/Suchen</target></trans-unit>
+      <trans-unit id="shortcut_save" xml:space="preserve" approved="yes">
+        <source>Update shortcut title</source>
+      <target state="translated">Verweistitel aktualisieren</target></trans-unit>
+      <trans-unit id="shortcut_saveClose" xml:space="preserve" approved="yes">
+        <source>Update and close editor</source>
+      <target state="translated">Aktualisieren und Editor schließen</target></trans-unit>
+      <trans-unit id="shortcut_close" xml:space="preserve" approved="yes">
+        <source>Close shortcut editor</source>
+      <target state="translated">Verweiseditor schließen</target></trans-unit>
+      <trans-unit id="shortcut_delete" xml:space="preserve" approved="yes">
+        <source>Remove shortcut</source>
+      <target state="translated">Verweis entfernen</target></trans-unit>
+      <trans-unit id="shortcut_loadEdit" xml:space="preserve" approved="yes">
+        <source>Loading page</source>
+      <target state="translated">Seite wird geladen</target></trans-unit>
+      <trans-unit id="shortcut_searchFor" xml:space="preserve" approved="yes">
+        <source>Search for:</source>
+      <target state="translated">Suchen nach:</target></trans-unit>
+      <trans-unit id="shortcut_notEditable" xml:space="preserve" approved="yes">
+        <source>No editable page found!</source>
+      <target state="translated">Keine Seite zur Bearbeitung gefunden!</target></trans-unit>
+      <trans-unit id="shortcut_group" xml:space="preserve" approved="yes">
+        <source>Group</source>
+      <target state="translated">Gruppe</target></trans-unit>
+      <trans-unit id="shortcut_group_1" xml:space="preserve" approved="yes">
+        <source>Pages</source>
+      <target state="translated">Seiten</target></trans-unit>
+      <trans-unit id="shortcut_group_2" xml:space="preserve" approved="yes">
+        <source>Records</source>
+      <target state="translated">Datensätze</target></trans-unit>
+      <trans-unit id="shortcut_group_3" xml:space="preserve" approved="yes">
+        <source>Files</source>
+      <target state="translated">Dateien</target></trans-unit>
+      <trans-unit id="shortcut_group_4" xml:space="preserve" approved="yes">
+        <source>Tools</source>
+      <target state="translated">Werkzeuge</target></trans-unit>
+      <trans-unit id="shortcut_group_5" xml:space="preserve" approved="yes">
+        <source>Miscellaneous</source>
+      <target state="translated">Verschiedenes</target></trans-unit>
+      <trans-unit id="shortcut_global" xml:space="preserve" approved="yes">
+        <source>Global</source>
+      <target state="translated">Global</target></trans-unit>
+      <trans-unit id="shortcut_all" xml:space="preserve" approved="yes">
+        <source>All</source>
+      <target state="translated">Alle</target></trans-unit>
+      <trans-unit id="shortcut_onlyAdmin" xml:space="preserve" approved="yes">
+        <source>You cannot edit a shared shortcut!</source>
+      <target state="translated">Sie können keine gemeinsamen Verweise bearbeiten!</target></trans-unit>
+      <trans-unit id="shortcut_selSC" xml:space="preserve" approved="yes">
+        <source>Select shortcut</source>
+      <target state="translated">Verweis auswählen</target></trans-unit>
+      <trans-unit id="shortcut_delAllInCat" xml:space="preserve" approved="yes">
+        <source>Delete all shortcuts in this group?</source>
+      <target state="translated">Alle Verweise in dieser Gruppe löschen?</target></trans-unit>
+      <trans-unit id="shortcut_onlineWS" xml:space="preserve" approved="yes">
+        <source>LIVE workspace</source>
+      <target state="translated">LIVE-Arbeitsumgebung</target></trans-unit>
+      <trans-unit id="shortcut_offlineWS" xml:space="preserve" approved="yes">
+        <source>Draft workspace</source>
+      <target state="translated">Entwurfsarbeitsumgebung</target></trans-unit>
+      <trans-unit id="shortcut_active" xml:space="preserve" approved="yes">
+        <source>active</source>
+      <target state="translated">aktiv</target></trans-unit>
+      <trans-unit id="shortcut_inactive" xml:space="preserve" approved="yes">
+        <source>inactive</source>
+      <target state="translated">inaktiv</target></trans-unit>
+      <trans-unit id="shortcut_noWSfound" xml:space="preserve" approved="yes">
+        <source>ERROR: No workspaces found!</source>
+      <target state="translated">FEHLER: Keine Arbeitsumgebungen gefunden!</target></trans-unit>
+      <trans-unit id="shortcut_FEPreview" xml:space="preserve" approved="yes">
+        <source>Enable Frontend Preview</source>
+      <target state="translated">Vorschau im Frontend aktivieren</target></trans-unit>
+      <trans-unit id="shortcut_workspace" xml:space="preserve" approved="yes">
+        <source>Go to Workspace Module</source>
+      <target state="translated">Modul Arbeitsumgebungen aufrufen</target></trans-unit>
+      <trans-unit id="bookmarkDescription" xml:space="preserve" approved="yes">
+        <source>This is the bookmarks menu. You do not have any bookmarks added yet, you can do so by clicking the bookmark icon %icon%, which you can find on each page in the backend.</source>
+      <target state="translated">Dieses Menü zeigt von Ihnen angelegte Lesezeichen an. Sie haben noch keine Lesezeichen hinzugefügt, können das aber mit einem Mausklick auf das Lesezeichensymbol %icon% tun, das auf jeder Seite des Backends vorhanden ist.</target></trans-unit>
+      <trans-unit id="bookmark_edit" xml:space="preserve" approved="yes">
+        <source>Edit</source>
+      <target state="translated">Bearbeiten</target></trans-unit>
+      <trans-unit id="bookmark_create" xml:space="preserve" approved="yes">
+        <source>Create</source>
+      <target state="translated">Erstellen</target></trans-unit>
+      <trans-unit id="bookmark_editID" xml:space="preserve" approved="yes">
+        <source>Edit/Search</source>
+      <target state="translated">Bearbeiten/Suchen</target></trans-unit>
+      <trans-unit id="bookmark_save" xml:space="preserve" approved="yes">
+        <source>Update bookmark title</source>
+      <target state="translated">Lesezeichentitel aktualisieren</target></trans-unit>
+      <trans-unit id="bookmark_saveClose" xml:space="preserve" approved="yes">
+        <source>Update and close editor</source>
+      <target state="translated">Aktualisieren und Editor schließen</target></trans-unit>
+      <trans-unit id="bookmark_close" xml:space="preserve" approved="yes">
+        <source>Close bookmark editor</source>
+      <target state="translated">Lesezeicheneditor schließen</target></trans-unit>
+      <trans-unit id="bookmark_delete" xml:space="preserve" approved="yes">
+        <source>Remove bookmark</source>
+      <target state="translated">Lesezeichen entfernen</target></trans-unit>
+      <trans-unit id="bookmark_loadEdit" xml:space="preserve" approved="yes">
+        <source>Loading page</source>
+      <target state="translated">Seite wird geladen</target></trans-unit>
+      <trans-unit id="bookmark_searchFor" xml:space="preserve" approved="yes">
+        <source>Search for:</source>
+      <target state="translated">Suchen nach:</target></trans-unit>
+      <trans-unit id="bookmark_notEditable" xml:space="preserve" approved="yes">
+        <source>No editable page found!</source>
+      <target state="translated">Keine Seite zur Bearbeitung gefunden!</target></trans-unit>
+      <trans-unit id="bookmark_group" xml:space="preserve" approved="yes">
+        <source>Group</source>
+      <target state="translated">Gruppe</target></trans-unit>
+      <trans-unit id="bookmark_group_1" xml:space="preserve" approved="yes">
+        <source>Pages</source>
+      <target state="translated">Seiten</target></trans-unit>
+      <trans-unit id="bookmark_group_2" xml:space="preserve" approved="yes">
+        <source>Records</source>
+      <target state="translated">Datensätze</target></trans-unit>
+      <trans-unit id="bookmark_group_3" xml:space="preserve" approved="yes">
+        <source>Files</source>
+      <target state="translated">Dateien</target></trans-unit>
+      <trans-unit id="bookmark_group_4" xml:space="preserve" approved="yes">
+        <source>Tools</source>
+      <target state="translated">Werkzeuge</target></trans-unit>
+      <trans-unit id="bookmark_group_5" xml:space="preserve" approved="yes">
+        <source>Miscellaneous</source>
+      <target state="translated">Verschiedenes</target></trans-unit>
+      <trans-unit id="bookmark_global" xml:space="preserve" approved="yes">
+        <source>Global</source>
+      <target state="translated">Global</target></trans-unit>
+      <trans-unit id="bookmark_all" xml:space="preserve" approved="yes">
+        <source>All</source>
+      <target state="translated">Alle</target></trans-unit>
+      <trans-unit id="bookmark_onlyAdmin" xml:space="preserve" approved="yes">
+        <source>You cannot edit a shared bookmark!</source>
+      <target state="translated">Sie können keine gemeinsamen Lesezeichen bearbeiten!</target></trans-unit>
+      <trans-unit id="bookmark_selSC" xml:space="preserve" approved="yes">
+        <source>Select bookmark</source>
+      <target state="translated">Lesezeichen auswählen</target></trans-unit>
+      <trans-unit id="bookmark_delAllInCat" xml:space="preserve" approved="yes">
+        <source>Delete all bookmarks in this group</source>
+      <target state="translated">Alle Lesezeichen in dieser Gruppe löschen</target></trans-unit>
+      <trans-unit id="bookmark_onlineWS" xml:space="preserve" approved="yes">
+        <source>LIVE workspace</source>
+      <target state="translated">LIVE-Arbeitsumgebung</target></trans-unit>
+      <trans-unit id="bookmark_offlineWS" xml:space="preserve" approved="yes">
+        <source>Draft workspace</source>
+      <target state="translated">Entwurfsarbeitsumgebung</target></trans-unit>
+      <trans-unit id="bookmark_active" xml:space="preserve" approved="yes">
+        <source>active</source>
+      <target state="translated">aktiv</target></trans-unit>
+      <trans-unit id="bookmark_inactive" xml:space="preserve" approved="yes">
+        <source>inactive</source>
+      <target state="translated">inaktiv</target></trans-unit>
+      <trans-unit id="bookmark_noWSfound" xml:space="preserve" approved="yes">
+        <source>ERROR: No workspaces found!</source>
+      <target state="translated">FEHLER: Keine Arbeitsumgebungen gefunden!</target></trans-unit>
+      <trans-unit id="bookmark_FEPreview" xml:space="preserve" approved="yes">
+        <source>Enable Frontend Preview</source>
+      <target state="translated">Vorschau im Frontend aktivieren</target></trans-unit>
+      <trans-unit id="bookmark_workspaceComparisonView" xml:space="preserve" approved="yes">
+        <source>Enable comparison view</source>
+      <target state="translated">Vergleichsansicht aktivieren</target></trans-unit>
+      <trans-unit id="bookmark_workspace" xml:space="preserve" approved="yes">
+        <source>Go to Workspace Module</source>
+      <target state="translated">Modul Arbeitsumgebungen aufrufen</target></trans-unit>
+      <trans-unit id="overwriteExistingFiles" xml:space="preserve" approved="yes">
+        <source>Overwrite existing files</source>
+      <target state="translated">Vorhandene Dateien überschreiben</target></trans-unit>
+      <trans-unit id="uploadMultipleFilesInfo" xml:space="preserve">
+        <source>Upload multiple files by holding the Shift or CTRL-file pressed while selecting your files (works on modern browsers only).</source>
+      </trans-unit>
+      <trans-unit id="fileMetaDataLocation" xml:space="preserve">
+        <source>Location</source>
+      </trans-unit>
+      <trans-unit id="fileMetaErrorInvalidRecord" xml:space="preserve">
+        <source>File meta data not found</source>
+      </trans-unit>
+      <trans-unit id="selectPosition" xml:space="preserve" approved="yes">
+        <source>Select a position for the new page</source>
+      <target state="translated">Position für neue Seite auswählen</target></trans-unit>
+      <trans-unit id="pageSelectPosition" xml:space="preserve" approved="yes">
+        <source>Page (select position)</source>
+      <target state="translated">Seite (Position auswählen)</target></trans-unit>
+      <trans-unit id="goBack" xml:space="preserve" approved="yes">
+        <source>Go back</source>
+      <target state="translated">Zurück</target></trans-unit>
+      <trans-unit id="createNewPage" xml:space="preserve" approved="yes">
+        <source>Create a new page</source>
+      <target state="translated">Neue Seite erstellen</target></trans-unit>
+      <trans-unit id="createNewContent" xml:space="preserve" approved="yes">
+        <source>Create a new content element</source>
+      <target state="translated">Neues Inhaltselement erstellen</target></trans-unit>
+      <trans-unit id="clickForWizard" xml:space="preserve" approved="yes">
+        <source>Click here for wizard!</source>
+      <target state="translated">Zum Aufrufen des Assistenten hier klicken!</target></trans-unit>
+      <trans-unit id="insertNewPageHere" xml:space="preserve" approved="yes">
+        <source>Insert the new page here</source>
+      <target state="translated">Neue Seite hier einfügen</target></trans-unit>
+      <trans-unit id="insertNewRecordHere" xml:space="preserve" approved="yes">
+        <source>Insert new record here</source>
+      <target state="translated">Neuen Datensatz hier einfügen</target></trans-unit>
+      <trans-unit id="movePageToHere" xml:space="preserve" approved="yes">
+        <source>Move page to this position</source>
+      <target state="translated">Seite an diese Position verschieben</target></trans-unit>
+      <trans-unit id="moveElement" xml:space="preserve" approved="yes">
+        <source>Move element</source>
+      <target state="translated">Element verschieben</target></trans-unit>
+      <trans-unit id="moveElements" xml:space="preserve" approved="yes">
+        <source>Move elements</source>
+      <target state="translated">Elemente verschieben</target></trans-unit>
+      <trans-unit id="copyElements" xml:space="preserve" approved="yes">
+        <source>Copy elements</source>
+      <target state="translated">Elemente kopieren</target></trans-unit>
+      <trans-unit id="selectPositionOfElement" xml:space="preserve" approved="yes">
+        <source>Select position of the element</source>
+      <target state="translated">Position für das Element auswählen</target></trans-unit>
+      <trans-unit id="movingElement" xml:space="preserve" approved="yes">
+        <source>Move element</source>
+      <target state="translated">Element verschieben</target></trans-unit>
+      <trans-unit id="makeCopy" xml:space="preserve" approved="yes">
+        <source>Make copy instead of moving element</source>
+      <target state="translated">Kopieren statt Verschieben</target></trans-unit>
+      <trans-unit id="newContentElement" xml:space="preserve" approved="yes">
+        <source>New content element</source>
+      <target state="translated">Neues Inhaltselement</target></trans-unit>
+      <trans-unit id="system_records" xml:space="preserve" approved="yes">
+        <source>System Records</source>
+      <target state="translated">Systemdatensätze</target></trans-unit>
+      <trans-unit id="1_selectType" xml:space="preserve" approved="yes">
+        <source>1: Select type of content element:</source>
+      <target state="translated">1: Typ des Inhaltselements auswählen:</target></trans-unit>
+      <trans-unit id="2_selectPosition" xml:space="preserve" approved="yes">
+        <source>2: Select position:</source>
+      <target state="translated">2: Position auswählen:</target></trans-unit>
+      <trans-unit id="CM_editAccess" xml:space="preserve" approved="yes">
+        <source>Visibility settings</source>
+      <target state="translated">Sichtbarkeitseinstellungen</target></trans-unit>
+      <trans-unit id="CM_history" xml:space="preserve" approved="yes">
+        <source>History/Undo</source>
+      <target state="translated">Verlauf/Rückgängig</target></trans-unit>
+      <trans-unit id="CM_perms" xml:space="preserve" approved="yes">
+        <source>Access</source>
+      <target state="translated">Zugriff</target></trans-unit>
+      <trans-unit id="CM_moveWizard" xml:space="preserve" approved="yes">
+        <source>Move element</source>
+      <target state="translated">Element verschieben</target></trans-unit>
+      <trans-unit id="CM_moveWizard_page" xml:space="preserve" approved="yes">
+        <source>Move page</source>
+      <target state="translated">Seite verschieben</target></trans-unit>
+      <trans-unit id="CM_newWizard" xml:space="preserve" approved="yes">
+        <source>'Create New' wizard</source>
+      <target state="translated">"Neu erstellen"-Assistent</target></trans-unit>
+      <trans-unit id="CM_editPageProperties" xml:space="preserve" approved="yes">
+        <source>Edit page properties</source>
+      <target state="translated">Seiteneigenschaften bearbeiten</target></trans-unit>
+      <trans-unit id="CM_db_list" xml:space="preserve" approved="yes">
+        <source>Web&gt;List module</source>
+      <target state="translated">Web &gt; Liste</target></trans-unit>
+      <trans-unit id="noEditPage" xml:space="preserve" approved="yes">
+        <source>You asked to edit page "%s" but you cannot edit this page. Now loading backend as usual.</source>
+      <target state="translated">Sie möchten die Seite "%s" bearbeiten, dies ist jedoch nicht möglich. Das Backend wird wie gewöhnlich geladen.</target></trans-unit>
+      <trans-unit id="localize" xml:space="preserve" approved="yes">
+        <source>Localize</source>
+      <target state="translated">Lokalisieren</target></trans-unit>
+      <trans-unit id="localize.isLocalizable" xml:space="preserve" approved="yes">
+        <source>Record can be localized</source>
+      <target state="translated">Datensatz kann lokalisiert werden</target></trans-unit>
+      <trans-unit id="localize.wasRemovedInOriginal" xml:space="preserve" approved="yes">
+        <source>Record was removed in original language</source>
+      <target state="translated">Datensatz der Ursprungssprache wurde entfernt</target></trans-unit>
+      <trans-unit id="localizeAllRecords" xml:space="preserve" approved="yes">
+        <source>Localize all records</source>
+      <target state="translated">Alle Datensätze lokalisieren</target></trans-unit>
+      <trans-unit id="localizeMergeIfNotBlank" xml:space="preserve" approved="yes">
+        <source>The value of the default language will be used if this field is left empty in the translation.</source>
+      <target state="translated">Der Wert der Standardsprache wird verwendet falls dieses Feld in der Übersetzung leer gelassen wird.</target></trans-unit>
+      <trans-unit id="synchronizeWithOriginalLanguage" xml:space="preserve" approved="yes">
+        <source>Synchronize with original language</source>
+      <target state="translated">Mit Ursprungssprache synchronisieren</target></trans-unit>
+      <trans-unit id="pageTree_filter" xml:space="preserve" approved="yes">
+        <source>Filter</source>
+      <target state="translated">Filter</target></trans-unit>
+      <trans-unit id="switchtouser" xml:space="preserve" approved="yes">
+        <source>Switch to User</source>
+      <target state="translated">Umschalten zu Benutzer</target></trans-unit>
+      <trans-unit id="switchtousershort" xml:space="preserve" approved="yes">
+        <source>SU:</source>
+      <target state="translated">SU:</target></trans-unit>
+      <trans-unit id="fileUpload_windowTitle" xml:space="preserve" approved="yes">
+        <source>File Upload Progress</source>
+      <target state="translated">Hochladen von Dateien</target></trans-unit>
+      <trans-unit id="fileUpload_buttonSelectFiles" xml:space="preserve" approved="yes">
+        <source>Select Files</source>
+      <target state="translated">Dateien auswählen</target></trans-unit>
+      <trans-unit id="fileUpload_buttonCancelAll" xml:space="preserve" approved="yes">
+        <source>Cancel All Uploads</source>
+      <target state="translated">Alle Übertragungen abbrechen</target></trans-unit>
+      <trans-unit id="fileUpload_infoComponentMaxFileSize" xml:space="preserve" approved="yes">
+        <source>You can upload files with a maximum size of {0}.</source>
+      <target state="translated">Es können Dateien bis zu einer Größe von {0} hochgeladen werden.</target></trans-unit>
+      <trans-unit id="fileUpload_infoComponentFileUploadLimit" xml:space="preserve" approved="yes">
+        <source>You can upload a total of {0}.</source>
+      <target state="translated">Es können insgesamt {0} hochgeladen werden.</target></trans-unit>
+      <trans-unit id="fileUpload_infoComponentFileTypeLimit" xml:space="preserve" approved="yes">
+        <source>You can upload the following file types {0}.</source>
+      <target state="translated">Es können folgende Dateitypen hochgeladen werden {0},</target></trans-unit>
+      <trans-unit id="fileUpload_infoComponentOverrideFiles" xml:space="preserve" approved="yes">
+        <source>Overwrite existing files</source>
+      <target state="translated">Vorhandene Dateien überschreiben</target></trans-unit>
+      <trans-unit id="fileUpload_processRunning" xml:space="preserve" approved="yes">
+        <source>Another process is already uploading</source>
+      <target state="translated">Es läuft bereits ein anderer Hochladevorgang</target></trans-unit>
+      <trans-unit id="fileUpload_uploadWait" xml:space="preserve" approved="yes">
+        <source>Waiting to start upload of {0}</source>
+      <target state="translated">Warten auf Hochladen von {0}</target></trans-unit>
+      <trans-unit id="fileUpload_uploadStarting" xml:space="preserve" approved="yes">
+        <source>Starting upload of {0}</source>
+      <target state="translated">Starten des Hochladens von {0}</target></trans-unit>
+      <trans-unit id="fileUpload_uploadProgress" xml:space="preserve" approved="yes">
+        <source>{0}% of {1} uploaded</source>
+      <target state="translated">{0}% von {1} hochgeladen</target></trans-unit>
+      <trans-unit id="fileUpload_uploadSuccess" xml:space="preserve" approved="yes">
+        <source>{0} was successfully uploaded!</source>
+      <target state="translated">{0} erfolgreich hochgeladen!</target></trans-unit>
+      <trans-unit id="fileUpload_errorQueueLimitExceeded" xml:space="preserve" approved="yes">
+        <source>Too many files selected</source>
+      <target state="translated">Zu viele Dateien ausgewählt</target></trans-unit>
+      <trans-unit id="fileUpload_errorQueueFileSizeLimit" xml:space="preserve" approved="yes">
+        <source>{0} is too big</source>
+      <target state="translated">{0} ist zu groß</target></trans-unit>
+      <trans-unit id="fileUpload_errorQueueZeroByteFile" xml:space="preserve" approved="yes">
+        <source>{0} is empty</source>
+      <target state="translated">{0} ist leer</target></trans-unit>
+      <trans-unit id="fileUpload_errorQueueInvalidFiletype" xml:space="preserve" approved="yes">
+        <source>Filetype not allowed for {0}</source>
+      <target state="translated">Dateityp nicht erlaubt bei {0}</target></trans-unit>
+      <trans-unit id="fileUpload_errorUploadHttp" xml:space="preserve" approved="yes">
+        <source>Too many files selected</source>
+      <target state="translated">Zu viele Dateien ausgewählt</target></trans-unit>
+      <trans-unit id="fileUpload_errorUploadHttpError" xml:space="preserve" approved="yes">
+        <source>A HTTP error occured: {0}</source>
+      <target state="translated">HTTP-Fehler aufgetreten: {0}</target></trans-unit>
+      <trans-unit id="fileUpload_errorUploadMissingUrl" xml:space="preserve" approved="yes">
+        <source>Internal error: No Upload URL set</source>
+      <target state="translated">Interner Fehler: Keine Hochlade-URL festgelegt</target></trans-unit>
+      <trans-unit id="fileUpload_errorUploadIO" xml:space="preserve" approved="yes">
+        <source>Internal error: Problems while reading/writing the file</source>
+      <target state="translated">Interner Fehler: Fehler beim Lesen/Schreiben der Datei</target></trans-unit>
+      <trans-unit id="fileUpload_errorUploadSecurityError" xml:space="preserve" approved="yes">
+        <source>Internal error: {0}</source>
+      <target state="translated">Interner Fehler: {0}</target></trans-unit>
+      <trans-unit id="fileUpload_errorUploadLimit" xml:space="preserve" approved="yes">
+        <source>Upload limit exceeded</source>
+      <target state="translated">Höchstwert für Hochladen überschritten</target></trans-unit>
+      <trans-unit id="fileUpload_errorUploadFailed" xml:space="preserve" approved="yes">
+        <source>Upload failed</source>
+      <target state="translated">Hochladen fehlgeschlagen</target></trans-unit>
+      <trans-unit id="fileUpload_errorUploadFileIDNotFound" xml:space="preserve" approved="yes">
+        <source>Internal error: File ID not found</source>
+      <target state="translated">Interner Fehler: Datei-ID nicht gefunden</target></trans-unit>
+      <trans-unit id="fileUpload_errorUploadFileValidation" xml:space="preserve" approved="yes">
+        <source>Internal error while validating the file</source>
+      <target state="translated">Interner Fehler beim Validieren der Datei</target></trans-unit>
+      <trans-unit id="fileUpload_errorUploadFileCancelled" xml:space="preserve" approved="yes">
+        <source>Upload of {0} canceled</source>
+      <target state="translated">Hochladen von {0} abgebrochen</target></trans-unit>
+      <trans-unit id="fileUpload_errorUploadStopped" xml:space="preserve" approved="yes">
+        <source>Upload of {0} stopped</source>
+      <target state="translated">Hochladen von {0} angehalten</target></trans-unit>
+      <trans-unit id="fileUpload_allErrorMessageTitle" xml:space="preserve" approved="yes">
+        <source>All uploads failed</source>
+      <target state="translated">Hochladen aller Dateien fehlgeschlagen</target></trans-unit>
+      <trans-unit id="fileUpload_allErrorMessageText" xml:space="preserve" approved="yes">
+        <source>All of your uploads failed.&lt;br /&gt;&lt;br /&gt;If this problem persists, please try another browser, contact your administrator or disable this "Flash Uploader" in your User Settings.&lt;br /&gt;&lt;br /&gt;Detailed problem description:&lt;br /&gt;</source>
+      <target state="translated">Keiner der Hochladevorgänge konnte abgeschlossen werden.&lt;br /&gt;&lt;br /&gt;Falls dieses Problem weiterhin besteht, benutzen Sie bitte einen anderen Browser, kontaktieren Ihren Administrator oder deaktivieren die Option "Flash-Schnittstelle zum Hochladen" in den Benutzereinstellungen.&lt;br /&gt;&lt;br /&gt;Problembeschreibung:&lt;br /&gt;</target></trans-unit>
+      <trans-unit id="fileUpload_allError401" xml:space="preserve" approved="yes">
+        <source>The server returned the status code 401, which is related to a .htaccess file used for password protection on your server. Unfortunately this can not be handled by your browser's Flash plugin.</source>
+      <target state="translated">Der Server lieferte Statuscode 401 zurück. Dies ist häufig auf einen .htaccess Passwortschutz zurückzuführen. Leider wird dies von dem von Ihnen verwendeten Flash-Plugin nicht unterstützt.</target></trans-unit>
+      <trans-unit id="fileUpload_allError2038" xml:space="preserve" approved="yes">
+        <source>An input/output error occured (Error #2038). This i.e. happens with servers using a self-signed SSL certificate, which is a limitation of your browser's Flash plugin.</source>
+      <target state="translated">Ein Lese-/Schreibfehler ist aufgetreten (Fehler #2038). Dies ist häufig auf ein selbstsigniertes SSL-Zertifikat zurückzuführen. Leider wird dies von dem von Ihnen verwendeten Flash-Plugin nicht unterstützt.</target></trans-unit>
+      <trans-unit id="liveSearch_title" xml:space="preserve" approved="yes">
+        <source>Short result list</source>
+      <target state="translated">Kurze Liste der Ergebnisse</target></trans-unit>
+      <trans-unit id="liveSearch_emptyText" xml:space="preserve" approved="yes">
+        <source>Enter search term</source>
+      <target state="translated">Suchbegriff eingeben</target></trans-unit>
+      <trans-unit id="liveSearch_loadingText" xml:space="preserve" approved="yes">
+        <source>Searching...</source>
+      <target state="translated">Suche läuft...</target></trans-unit>
+      <trans-unit id="liveSearch_listEmptyText" xml:space="preserve" approved="yes">
+        <source>No results found.</source>
+      <target state="translated">Keine Ergebnisse gefunden.</target></trans-unit>
+      <trans-unit id="liveSearch_showAllResults" xml:space="preserve" approved="yes">
+        <source>Show All</source>
+      <target state="translated">Alle anzeigen</target></trans-unit>
+      <trans-unit id="liveSearch_helpTitle" xml:space="preserve" approved="yes">
+        <source>How to use advanced search tags</source>
+      <target state="translated">Zur Benutzung von Suchpräfixen</target></trans-unit>
+      <trans-unit id="liveSearch_helpDescription" xml:space="preserve" approved="yes">
+        <source>Search in certain tables:</source>
+      <target state="translated">In ausgewählten Tabellen suchen:</target></trans-unit>
+      <trans-unit id="liveSearch_helpDescriptionPages" xml:space="preserve" approved="yes">
+        <source>#page:Home will search for all pages with the title "Home"</source>
+      <target state="translated">#page:Home sucht nach allen Seiten mit dem Titel "Home".</target></trans-unit>
+      <trans-unit id="extDirect_timeoutHeader" xml:space="preserve" approved="yes">
+        <source>Connection Problem</source>
+      <target state="translated">Verbindungsproblem</target></trans-unit>
+      <trans-unit id="extDirect_timeoutMessage" xml:space="preserve" approved="yes">
+        <source>Sorry, but an error occurred while connecting to the server. Please check your network connection.</source>
+      <target state="translated">Bei dem Versuch eine Verbindung zum Server herzustellen ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre Netzwerkverbindung.</target></trans-unit>
+      <trans-unit id="viewPort_tooltipModuleMenuSplit" xml:space="preserve" approved="yes">
+        <source>Drag to resize the Modules Menu</source>
+      <target state="translated">Ziehen Sie hier, um die Größe des Modulmenüs zu ändern</target></trans-unit>
+      <trans-unit id="viewPort_tooltipNavigationContainerSplitDrag" xml:space="preserve" approved="yes">
+        <source>Drag to resize or double click to collapse the tree</source>
+      <target state="translated">Ziehen Sie hier, um die Größe zu ändern oder doppelklicken Sie, um den Baum einzuklappen</target></trans-unit>
+      <trans-unit id="viewPort_tooltipDebugPanelSplitDrag" xml:space="preserve" approved="yes">
+        <source>Drag to resize or click to collapse the Debug Panel.</source>
+      <target state="translated">Ziehen Sie hier, um die Größe zu ändern oder klicken Sie, um das Debug-Panel zuzuklappen</target></trans-unit>
+    </body>
+  </file>
+</xliff>

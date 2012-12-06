@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="username.description">Geben Sie den Benutzernamen des Website-Benutzers an. Dieser Benutzername wird zur Anmeldung benötigt.</label>
+      <label index="username.syntax">Der Benutzername wird auf jeden Fall benötigt. Er darf nur aus Kleinbuchstaben bestehen und kein Leerzeichen enthalten! Innerhalb des SysOrdners, in dem Sie Website-Benutzer anlegen und speichern muss dieser Benutzername außerdem &lt;em&gt;eindeutig&lt;/em&gt; sein. Sollten Sie dennoch versuchen, zwei gleichlautende Benutzer anzulegen, wird dem neu angelegten Benutzernamen automatisch eine Ziffer angehängt (z.B. &lt;em&gt;Benutzer01&lt;/em&gt;).</label>
+      <label index="_username.seeAlso">Erstellung von Frontend-Benutzern und -Gruppen | http://typo3.org/documentation/document-library/doc_tut_quickstart/Create_users_group/</label>
+      <label index="password.description">Geben Sie das Passwort für den Benutzernamen an. Dieses Passwort wird zur Anmeldung benötigt.</label>
+      <label index="password.syntax">Das Passwort wird auf jeden Fall benötigt. Es darf nur aus Kleinbuchstaben bestehen und kein Leerzeichen enthalten!</label>
+      <label index="usergroup.description">Weisen Sie dem Benutzer eine Benutzergruppe zu.</label>
+      <label index="usergroup.details">Sobald sich ein Benutzer innerhalb der Website anmeldet, erhält er Zugang zu allen Bereichen, deren &lt;em&gt;Gruppen&lt;/em&gt;mitglied er ist. Mit Benutzergruppen lassen sich also geschützte, gruppenspezifische Website-Bereiche erstellen.</label>
+      <label index="lockToDomain.description">Geben Sie den Rechnernamen oder die Netzwerkadresse an, von welchem sich der Benutzer einloggen muss.</label>
+      <label index="lockToDomain.details">Ein TYPO3-System kann unter Umständen über mehrere verschiedene Domänennamen erreichbar sein. Deshalb kann mit dieser Einstellung sicher gestellt werden, dass sich Benutzer nur von einer bestimmten Domain aus anmelden können.</label>
+      <label index="lockToDomain.syntax">Entweder ein Domänenname wie "www.typo3.com" oder eine IP-Adresse wie "10.20.7.70".</label>
+      <label index="_lockToDomain.seeAlso">fe_groups:lockToDomain</label>
+      <label index="name.description">Geben Sie den Klarnamen des Benutzers an (Vor- und Nachname).</label>
+      <label index="address.description">Geben Sie die Adresse des Benutzers an.</label>
+      <label index="www.description">Geben Sie die Homepage (URL) des Benutzers an.</label>
+      <label index="title.description">Geben Sie hier gegebenenfalls eine Berufsbezeichnung an (z.B. "Direktor" oder "Produktmanager").</label>
+      <label index="company.description">Geben Sie den Namen der Firma an, für die der Benutzer tätig ist.</label>
+      <label index="image.description">Fügen Sie ein Bild des Benutzers ein.</label>
+      <label index="disable.description">Mit dieser Option können Sie dem Benutzer zeitweise das Anmelderecht entziehen, er kann sich dann also nicht mehr an der Website anmelden.</label>
+      <label index="_disable.seeAlso">fe_users:starttime,fe_users:endtime</label>
+      <label index="starttime.description">Geben Sie einen Zeitpunkt an, ab welchem das Benutzerkonto gültig sein soll.</label>
+      <label index="starttime.syntax">Die Syntax für Datumsangaben entspricht dem Muster "dd-mm-yy", Sie können aber auch einfach "d" für das aktuelle Datum oder "d+10" für ein Datum 10 Tage ab heute eingeben. Die eingegebenen Datumswerte werden sofort reformatiert, damit TYPO3 die Zeitangaben auch verarbeiten kann. Experimentieren Sie einfach ein bisschen, um zu verstehen, wie TYPO3 Ihre Angaben interpretiert.</label>
+      <label index="_starttime.seeAlso">fe_users:disable,fe_users:endtime</label>
+      <label index="endtime.description">Geben Sie ein Zeitpunkt an, ab welchem das Benutzerkonto ungültig (deaktiviert) sein soll.</label>
+      <label index="endtime.syntax">Siehe "Start".</label>
+      <label index="_endtime.seeAlso">fe_users:disable,fe_users:starttime</label>
+      <label index="lastlogin.description">Zeigt das Datum an, zu dem sich der Benutzer zuletzt angemeldet hat.</label>
+      <label index="TSconfig.description">Nehmen Sie zusätzliche TSconfig-Einstellungen für den Benutzer vor (fortgeschrittene Konfiguration).</label>
+      <label index="TSconfig.details">In diesem Feld können Sie spezielle TypoScript-Konfigurationen für den Benutzer vornehmen. Derzeit existieren in TYPO3 hierfür noch keine globalen Einstellungen. Sollte sich das in einer zukünftigen Version ändern, so finden Sie nähere Angaben hierzu in den entsprechenden Administrationshandbüchern. Dieses Feld (genauso wie das entsprechende Feld für Website-Benutzerguppen) soll vor allem kundenspezifischen TYPO3-Anpassungen dienen. In diesem Fall sollten Sie unbedingt das für solche Fälle reservierte Schlüsselwort "user" für alle selbstdefinierten Werte verwenden. Damit wird sichergestellt, dass diese Werte niemals durch TYPO3-eigene Werte überschrieben werden können. Innerhalb Ihres Frontend-Plug-Ins können Sie die einzelnen Werte mit der Funktion &lt;em&gt;$GLOBALS["TSFE"]-&gt;fe_user-&gt;getUserTSconf()&lt;/em&gt; auslesen. Als Rückgabewert erhalten Sie dann den entsprechenden Wertebaum. &lt;b&gt;Warnung:&lt;/b&gt; In Ihren eigenen PHP-Programmen sollten Sie Website-Benutzer- und Benutzergruppen-TSconfig NUR dann verwenden, wenn der dadurch generierte Inhalt NICHT zwischengespeichert (gecached) wird! Rufen Sie also Ihre eigene Funktion in TypoScript-USER_INT-cObjects auf oder unterbinden Sie das Caching Ihrer PHP-Programme mit &lt;em&gt;$GLOBALS["TSFE"]-&gt;set_no_cache();&lt;/em&gt;. &lt;b&gt;TSconfig von Website-Benutzergruppen:&lt;/b&gt; Bitte beachten Sie, dass evtl. vorhandene TSconfig-Konfigurationen aus Website-Benutzergruppen, deren Mitglied der Benutzer ist, den hier erstellten Werten vorangestellt wird! Die Reihenfolge der Abarbeitung für die endgültige TSconfig-Konfiguration ist dabei: 1. Erste Website Benutzergruppe TSconfig 2. Weitere Website Benutzergruppen TSconfig 3. Letzte Website Benutzergruppen TSconfig 4. Benutzer-TSconfig (Werte in diesem Feld) Die letzte Website-Benutzergruppen-TSconfig wird also gegebenenfalls durch Werte aus der Benutzer-TSconfig überschrieben. &lt;b&gt;Beispiel:&lt;/b&gt; Stellen Sie sich vor, Sie wollen Ihre Website ein wenig persönlicher gestalten und deshalb jeweils den Namen des gerade angemeldeten Besuchers anzeigen. Als erstes dürfte Ihnen jetzt entgültig klar werden, warum Sie die Ausgabe Ihrer Funktion NICHT zwischenspeichern dürfen, denn sonst würden Sie bei jedem Seitenaufruf den gleichen Namen für alle angemeldeten Benutzer angezeigt bekommen... Nun müssen Sie eine PHP-Funktion schreiben und den so erhaltenen Rückgabewert als USER_INT-cObject auf der Seite ausgeben. Sie wollen aber, dass die Ausgabe des Namens wahlweise erfolgen kann. Also entscheiden Sie sich dafür, dafür einen TSconfig-Schlüsselwert namens "user.printUserName" zu verwenden: &lt;em&gt;Im TSconfig-Feld des Benutzers oder der Benutzergruppe:&lt;/em&gt; user.printUserName = 1 &lt;em&gt;Innerhalb Ihrer PHP-Funktion:&lt;/em&gt; $userTSConfig = $GLOBALS["TSFE"]-&gt;fe_user-&gt;getUserTSconf(); if ($userTSConfig["user."]["printUserName"]) { return $GLOBALS["TSFE"]-&gt;fe_user-&gt;user["name"]; }</label>
+      <label index="TSconfig.syntax">Normale TypoScript-Syntax ohne Bedingungen und Konstanten.</label>
+      <label index="_TSconfig.seeAlso">TSconfig für TSFE | http://typo3.org/documentation/document-library/doc_core_tsconfig/TCEMAIN/ pages:TSconfig, fe_groups:TSconfig, be_users:TSconfig, be_groups:TSconfig</label>
+      <label index=".description">Ein Website-Benutzerkonto.</label>
+      <label index=".details">Website-Benutzer können sich mit ihrem Benutzernamen und Passwort auf der Website anmelden. Dadurch erlangen sie u.a. Zugang zu solchen Bereichen der Website, die normalen (unregistrierten) Benutzern nicht zur Verfügung stehen.</label>
+      <label index="_.seeAlso">fe_groups be_users</label>
+      <label index="_.image">EXT:context_help/cshimages/feusers_1.png, EXT:context_help/cshimages/feusers_2.png,</label>
+      <label index=".image_descr">Ein Teil der Eingabemaske für Benutzerdaten eines Frontend-Benutzers. Ein typisches Anmeldeformular, mit dem sich Website-Benutzer anmelden können.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

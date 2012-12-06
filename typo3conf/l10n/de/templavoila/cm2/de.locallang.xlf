@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:55:15 UTC 2011" product-name="templavoila">
+    <header/>
+    <body>
+      <trans-unit id="title" approved="yes">
+        <source>View FlexForm XML data</source>
+        <target state="translated">Flexform-XML-Daten anzeigen</target>
+      </trans-unit>
+      <trans-unit id="needsCleaning" approved="yes">
+        <source>It seems the FlexForm XML can be cleaned up a bit. Please compare the current and suggested XML structure and press the "Clean" button below if you wish to clean it!</source>
+        <target state="translated">Es scheint, als könne das FlexForm-XML ein wenig aufgeräumt werden. Bitte vergleichen Sie die aktuelle und die vorgeschlagene XML-Struktur und klicken Sie dann die Schaltfläche "Bereinigen", wenn Sie diese aufräumen lassen möchten.</target>
+      </trans-unit>
+      <trans-unit id="XMLclean" approved="yes">
+        <source>XML is clean</source>
+        <target state="translated">XML ist sauber</target>
+      </trans-unit>
+      <trans-unit id="cleanUp" approved="yes">
+        <source>Save clean XML to record!</source>
+        <target state="translated">Bereinigtes XML im Datensatz speichern!</target>
+      </trans-unit>
+      <trans-unit id="current" approved="yes">
+        <source>Current XML:</source>
+        <target state="translated">Aktuelles XML:</target>
+      </trans-unit>
+      <trans-unit id="clean" approved="yes">
+        <source>Clean XML:</source>
+        <target state="translated">Bereinigtes XML:</target>
+      </trans-unit>
+      <trans-unit id="diff" approved="yes">
+        <source>Difference:</source>
+        <target state="translated">Unterschied:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

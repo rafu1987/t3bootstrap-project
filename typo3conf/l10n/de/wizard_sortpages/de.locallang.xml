@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="wiz_sort">Seiten sortieren</label>
+      <label index="wiz_W">W!</label>
+      <label index="wiz_currentPageOrder">Aktuelle Seitenreihenfolge</label>
+      <label index="wiz_changeOrder">Diese Seiten sortieren nach</label>
+      <label index="wiz_changeOrder_title">Seitentitel</label>
+      <label index="wiz_changeOrder_subtitle">Untertitel</label>
+      <label index="wiz_changeOrder_tCreate">Erzeugungszeitpunkt</label>
+      <label index="wiz_changeOrder_tChange">Änderungszeitpunkt</label>
+      <label index="wiz_changeOrder_REVERSE">Reihenfolge umkehren</label>
+      <label index="wiz_changeOrder_msg1">Die Reihenfolge der obigen Seiten wird geändert. Den Vorgang fortsetzen?</label>
+      <label index="no_subpages"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

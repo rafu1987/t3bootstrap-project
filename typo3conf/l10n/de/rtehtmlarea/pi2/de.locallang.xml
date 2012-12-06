@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="tx_rtepbhtmlarea_pi2.list_type">Frontend-Editor HTMLArea RTE</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

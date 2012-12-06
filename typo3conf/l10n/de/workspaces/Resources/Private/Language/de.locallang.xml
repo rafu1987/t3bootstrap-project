@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="legend.label">Legende:</label>
+      <label index="legend.edited">bearbeitet</label>
+      <label index="legend.moved">verschoben</label>
+      <label index="legend.deleted">gelöscht</label>
+      <label index="legend.new">erstellt</label>
+      <label index="legend.hidden">verborgen</label>
+      <label index="title">Arbeitsumgebungen</label>
+      <label index="ok">OK</label>
+      <label index="cancel">abbrechen</label>
+      <label index="chooseMassAction">Stapelverarbeitung auswählen</label>
+      <label index="chooseAction">Aktion auswählen</label>
+      <label index="item">Element</label>
+      <label index="items">Elemente</label>
+      <label index="recordsToDisplay">Datensätze anzeigen</label>
+      <label index="reviewandpublish">prüfen und veröffentlichen</label>
+      <label index="workspacelist">Liste der Arbeitsumgebungen</label>
+      <label index="editorInLive">Sie befinden sich in der LIVE-Arbeitsumgebung. Wählen Sie eine Entwurfs-Arbeitsumgebung aus um Änderungen
+ 	 	 	 	 	 überprüfen und veröffentlichen können.
+	 	 	 	</label>
+      <label index="actionSendToStage">An Stufe senden</label>
+      <label index="publish_execute_action_option">LIVE veröffentlichen</label>
+      <label index="close">Schließen</label>
+      <label index="runMassAction.done">%d Elemente erfolgreich verarbeitet</label>
+      <label index="runMassAction.init">Initialisieren</label>
+      <label index="tooltip.publishAll">Die gesamte Arbeitsumgebung tatsächlich veröffentlichen?</label>
+      <label index="tooltip.swapAll">Die gesamte Arbeitsumgebung tatsächlich tauschen?</label>
+      <label index="tooltip.discardAll">Sämtliche Änderungen in der Arbeitsumgebung tatsächlich verwerfen?</label>
+      <label index="tooltip.affectWholeWorkspace">Bitte beachten Sie, dass das alle Änderungen in der aktuellen Arbeitsumgebung betrifft.
+					Das können mehr sein, als im Moment angezeigt werden!
+				</label>
+      <label index="tooltip.generatePagePreview">Seitenvorschau erstellen</label>
+      <label index="previewLink">Vorschau-Link</label>
+      <label index="error.noResponse">Der Server hat keine Rückmeldung gesendet, ob die Aktion erfolgreich war.</label>
+      <label index="rowDetails">Zeilendetails...</label>
+      <label index="column.difference">Unterschied</label>
+      <label index="column.changeDate">Änderung</label>
+      <label index="column.stage">Aktuelle Stufe</label>
+      <label index="column.actions">Aktionen</label>
+      <label index="column.wsPath">Pfad</label>
+      <label index="column.wsTitle">Geändert</label>
+      <label index="column.uid">Arbeitsumgebungs-ID</label>
+      <label index="column.oid">Live-ID</label>
+      <label index="column.workspaceName">Arbeitsumgebung</label>
+      <label index="column.livePath">Live-Pfad</label>
+      <label index="column.liveTitle">Live-Titel</label>
+      <label index="column.wsSwapColumn">Arbeitsumgebung austauschen</label>
+      <label index="tooltip.viewElementAction">Elementvorschau</label>
+      <label index="tooltip.editElementAction">Element bearbeiten</label>
+      <label index="tooltip.openPage">Seitenversion öffnen</label>
+      <label index="tooltip.sendToPrevStage">Datensatz an vorherige Stufe senden</label>
+      <label index="tooltip.sendToNextStage">Datensatz an nächste Stufe senden</label>
+      <label index="tooltip.discardVersion">Entwurfversion des Datensatzes verwerfen.</label>
+      <label index="tooltip.swap">Live- und Arbeitsumgebungsversion austauschen</label>
+      <label index="tooltip.showHistory"/>
+      <label index="window.discard.title">Entwurfversion des Datensatzes verwerfen.</label>
+      <label index="window.discardAll.title">Alle Entwurfsversionen der aktuellen Seite verwerfen.</label>
+      <label index="window.discard.message">Diese Version tatsächlich aus der Arbeitsumgebung verwerfen?</label>
+      <label index="window.discardAll.message">Tatsächlich alle Versionen von dieser Seite verwerfen?</label>
+      <label index="window.swap.title">Version austauschen</label>
+      <label index="window.swap.message">Diese Version tatsächlich austauschen?</label>
+      <label index="window.massAction.title">Stapelverarbeitung ausführen</label>
+      <label index="error.stageId.integer">Die Arbeitsumgebungs-ID sollte eine Ganzzahl sein</label>
+      <label index="error.stageId.invalid">Die ausgewählte Stufe scheint unültig zu sein und kann nicht genutzt werden. Bitte verwenden Sie den
+					 Update-Assistenten im Install Tool um dies zu reparieren.
+				</label>
+      <label index="error.sendToNextStage.noRecordFound">Das Element konnte nicht gefunden werden.</label>
+      <label index="error.sendToPrevStage.noPreviousStage">Das Element befindet sich bereits in der Stufe Bearbeiten. Es existiert keine vorherige Stufe.</label>
+      <label index="window.sendToNextStageWindow.itemsWillBeSentTo">Die ausgewählten Elemente werden an folgende Stufe gesandt:</label>
+      <label index="window.sendToNextStageWindow.sendMailTo">E-Mail senden an</label>
+      <label index="window.sendToNextStageWindow.additionalRecipients">Weitere Empfänger</label>
+      <label index="window.sendToNextStageWindow.comments">Kommentare</label>
+      <label index="error.getStageTitle.stageNotFound">Stufe nicht gefunden</label>
+      <label index="warning.oldStyleWorkspaceInUser">Scheinbar verwenden Sie eine veraltete Version der Arbeitsumgebungen. Bitte nutzen Sie den Update-Assistenten
+					im Install Tool um dieses Problem zu beheben. Wenn Sie mit der veralteten Version fortfahren zu arbeiten
+					könnte dies zu Datenverlust führen.
+				</label>
+      <label index="info.newpage">Neue Seite!</label>
+      <label index="info.newpage.detail">Die Vorschauseite wurde in einer Arbeitsumgebung erstellt und hat kein Live-Pendant.</label>
+      <label index="preview.visualPreview">Visuelle Vorschau</label>
+      <label index="preview.listView">Listenansicht</label>
+      <label index="preview.livePreview">Live</label>
+      <label index="preview.livePreviewDetail">Dieses Element anklicken, um die Entwurfsversion zu verbergen und die Live-Version der Seite zu sehen.</label>
+      <label index="preview.workspacePreview">Arbeitsumgebung</label>
+      <label index="preview.workspacePreviewDetail">Dieses Element anklicken, um die Live-Version zu verbergen und die Entwurfsversion der Seite zu sehen.</label>
+      <label index="preview.modeSlider">Schieberegler</label>
+      <label index="preview.modeVbox">Vertikal</label>
+      <label index="preview.modeHbox">Horizontal</label>
+      <label index="label_doaction_publish">Veröffentlichen</label>
+      <label index="label_doaction_swap">Austauschen</label>
+      <label index="label_doaction_discard">Verwerfen</label>
+      <label index="label_doaction_generatePreviewLink">Vorschau-Link für Arbeitsumgebung erzeugen</label>
+      <label index="info.elementAlreadyModified">Element ist in der Arbeitsumgebungsstufe "%s", Änderungen werden zurückgesandt zur Stufe "%s".</label>
+      <label index="live_workspace">Live-Arbeitsumgebung</label>
+      <label index="workspace_version">Entwurfsversion</label>
+      <label index="current_step">&lt;b&gt;Aktueller Schritt in derzeitiger Stufe&lt;/b&gt;: {0} (&lt;b&gt;{1}&lt;/b&gt;/{2})</label>
+      <label index="path">&lt;b&gt;Pfad&lt;/b&gt;: {0}</label>
+      <label index="stage">Stufe {0}</label>
+      <label index="comments">Benutzerkommentare für &lt;b&gt;Schritt {0} von Stufe&lt;/b&gt; "{1}"</label>
+      <label index="language.allLanguages"/>
+      <label index="language.selectLanguage"/>
+      <label index="integrity.dependsOnDefaultLanguageRecord"/>
+      <label index="integrity.isDefaultLanguageRecord"/>
+      <label index="integrity.hasIssuesDescription"/>
+      <label index="integrity.hasIssuesQuestion"/>
+      <label index="status.info"/>
+      <label index="status.warning"/>
+      <label index="status.error"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">Bearbeitungsverlauf anzeigen</label>
+      <label index="time">Zeit</label>
+      <label index="age">Alter</label>
+      <label index="user">Benutzer</label>
+      <label index="tableUid">Tabelle:Uid</label>
+      <label index="differences">Unterschiede</label>
+      <label index="changes">Änderungen</label>
+      <label index="return">Zurück</label>
+      <label index="returnLink">Klicken Sie hier, um zurückzukehren</label>
+      <label index="revertAll">Alle gezeigten Änderungen rückgängig machen</label>
+      <label index="revertRecord">Einzelnen Eintrag rückgängig machen</label>
+      <label index="revertField">Feld wiederherstellen</label>
+      <label index="externalChange">Externe Änderung!</label>
+      <label index="sumUpChanges">Rückgängig machen (Vorschau)</label>
+      <label index="markState">Diese Änderung markieren</label>
+      <label index="unmarkState">Markierung der Änderung löschen</label>
+      <label index="elementHistory">Derzeit wird der Verlauf für ein Element angezeigt.</label>
+      <label index="elementHistory_link">Den kompletten Seitenverlauf anzeigen</label>
+      <label index="linkRecordHistory">Verlauf auf diesen Datensatz begrenzen</label>
+      <label index="differenceMsg">In der Spalte Unterschied sind die Änderungen bei jeder Bearbeitung des Datensatzes zu sehen. Neue Änderungen werden mit &lt;span class="diff-g"&gt;grünem Text&lt;/span&gt; dargestellt, die Änderungen mit &lt;span class="diff-r"&gt;rotem Text&lt;/span&gt; sind alte Werte, die entfernt wurden.</label>
+      <label index="fullView">Zurück zur Gesamtanzeige</label>
+      <label index="insert">einfügen</label>
+      <label index="delete">löschen</label>
+      <label index="mergedDifferences">Vorschau der Wiederherstellung</label>
+      <label index="settings">Einstellungen</label>
+      <label index="maxSteps">Einträge anzeigen:</label>
+      <label index="maxSteps_all">ALLE</label>
+      <label index="maxSteps_marked">markiert</label>
+      <label index="showDiff">Unterschiede anzeigen:</label>
+      <label index="showDiff_no">Nein</label>
+      <label index="showDiff_inline">Eingebettet</label>
+      <label index="showSubElements">Unterelemente anzeigen:</label>
+      <label index="no">Nein</label>
+      <label index="yes">Ja</label>
+      <label index="showInsertDelete">Eingefügte/gelöschte Datensätze anzeigen</label>
+      <label index="noDifferences">Es liegen keine Unterschiede zur aktuellen Seite vor!</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

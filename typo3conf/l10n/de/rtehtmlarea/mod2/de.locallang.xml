@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Type_of_abridged_form">Akronym oder Abkürzung?</label>
+      <label index="Term_to_abridge">Abzukürzender Begriff</label>
+      <label index="Defined_term">Vordefinierte Akronyme oder Abkürzungen</label>
+      <label index="Term">Begriff:</label>
+      <label index="Unabridged_term">Voll ausgeschriebener Begriff:</label>
+      <label index="Select_a_term">Einen Begriff auswählen</label>
+      <label index="Abridged_term">Abgekürzter Begriff:</label>
+      <label index="Acronym">Akronym</label>
+      <label index="Abbreviation">Abkürzung</label>
+      <label index="Select_an_acronym">Ein Akronym oder eine Abkürzung auswählen</label>
+      <label index="Use_this_term">Diesen Begriff verwenden:</label>
+      <label index="Use_this_term_explain">Diesen Begriff der derzeitigen Auswahl zuweisen</label>
+      <label index="OK">OK</label>
+      <label index="Delete">Löschen</label>
+      <label index="Cancel">Abbrechen</label>
+      <label index="Language">Sprache:</label>
+      <label index="Select_a_language">Eine Sprache auswählen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

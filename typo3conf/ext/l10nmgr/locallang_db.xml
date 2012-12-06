@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'l10nmgr'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_l10nmgr_cfg">L10N Manager Configuration</label>
+			<label index="tx_l10nmgr_cfg.title">Title:</label>
+			<label index="tx_l10nmgr_cfg.filenameprefix">Export filenameprefix:</label>
+			<label index="tx_l10nmgr_cfg.incfcewithdefaultall">Include FCE with default language:</label>			
+			<label index="tx_l10nmgr_cfg.depth.I.0">This page only</label>
+			<label index="tx_l10nmgr_cfg.depth.I.1">1 deep</label>
+			<label index="tx_l10nmgr_cfg.depth.I.2">2 deep</label>
+			<label index="tx_l10nmgr_cfg.depth.I.3">3 deep</label>
+			<label index="tx_l10nmgr_cfg.depth.I.4">Infinite</label>
+			<label index="tx_l10nmgr_cfg.depth.I.-1">Current page</label>
+			<label index="tx_l10nmgr_cfg.depth">Depth of page levels:</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.0">Render ALL items (slow and huge)</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.1">Render overview with details (slow but slim)</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.2">Render overview witn no details (fast and slim)</label>
+			<label index="tx_l10nmgr_cfg.displaymode">Display mode:</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.0">11</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.1">22</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.2">33</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.3">44</label>
+			<label index="tx_l10nmgr_cfg.tablelist">Tables to export:</label>
+			<label index="tx_l10nmgr_cfg.exclude">Exclude elements (comma list of &quot;table:uid&quot; pairs):</label>
+			<label index="tx_l10nmgr_cfg.include">Include elements (comma list of &quot;table:uid&quot; pairs):</label>
+			<label index="tx_l10nmgr_cfg.sourceLang">Source language:</label>
+			<label index="tx_l10nmgr_cfg.translationLang">Target language:</label>
+			<label index="tx_l10nmgr_cfg.crdate">Date of export</label>
+			<label index="tx_l10nmgr_cfg.exporttablelist">Exported tables</label>
+			<label index="tx_l10nmgr_export">L10N Manager exports</label>
+			<label index="tx_l10nmgr_priorities">Localization priority</label>
+			<label index="tx_l10nmgr_priorities.title">Title:</label>
+			<label index="tx_l10nmgr_priorities.description">Description:</label>
+			<label index="tx_l10nmgr_priorities.languages">Priority applies to languages:</label>
+			<label index="tx_l10nmgr_priorities.element">Element(s):</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_l10nmgr_cfg">L10N-Manager Konfiguration</label>
+			<label index="tx_l10nmgr_cfg.title">Name:</label>
+			<label index="tx_l10nmgr_cfg.filenameprefix">Exportpräfix:</label>
+			<label index="tx_l10nmgr_cfg.depth.I.0">Nur diese Seite</label>
+			<label index="tx_l10nmgr_cfg.depth.I.1">1 Ebene</label>
+			<label index="tx_l10nmgr_cfg.depth.I.2">2 Ebenen</label>
+			<label index="tx_l10nmgr_cfg.depth.I.3">3 Ebenen</label>
+			<label index="tx_l10nmgr_cfg.depth.I.4">Unendlich</label>
+			<label index="tx_l10nmgr_cfg.depth.I.-1">Aktuelle Seite</label>
+			<label index="tx_l10nmgr_cfg.depth">Anzahl der Seitenebenen</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.0">Alle Elemente anzeigen (langsam und groß)</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.1">Übersicht mit Details (langsam aber kleiner)</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.2">Übersicht ohne Details (schnell und klein)</label>
+			<label index="tx_l10nmgr_cfg.displaymode">Anzeigemodus:</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.0">11</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.1">22</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.2">33</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.3">44</label>
+			<label index="tx_l10nmgr_cfg.tablelist">Zu exportierende Tabellen:</label>
+			<label index="tx_l10nmgr_cfg.exclude">Auszuschließende Elemente (kommagetrennte Werte: &quot;Tabelle:uid, Tabelle:uid&quot;):</label>
+			<label index="tx_l10nmgr_cfg.include">Einzuschließende Elemente (kommagetrennte Werte: &quot;Tabelle:uid, Tabelle:uid&quot;):</label>
+			<label index="tx_l10nmgr_cfg.sourceLang">Ausgangssprache:</label>
+			<label index="tx_l10nmgr_cfg.translationLang">Zielsprache:</label>
+			<label index="tx_l10nmgr_cfg.crdate">Übersetzungsdatum</label>
+			<label index="tx_l10nmgr_cfg.exporttablelist">Exportierte Tabellen</label>
+			<label index="tx_l10nmgr_export">Exportierte Dateien</label>
+			<label index="tx_l10nmgr_priorities">Priorität</label>
+			<label index="tx_l10nmgr_priorities.title">Titel:</label>
+			<label index="tx_l10nmgr_priorities.description">Beschreibung:</label>
+			<label index="tx_l10nmgr_priorities.languages">Priorität für Sprachen:</label>
+			<label index="tx_l10nmgr_priorities.element">Element(e):</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="tx_l10nmgr_cfg">Configuration L10N-Manager</label>
+			<label index="tx_l10nmgr_cfg.title">Nom:</label>
+			<label index="tx_l10nmgr_cfg.filenameprefix">Préfixe du nom du fichier exporté:</label>
+			<label index="tx_l10nmgr_cfg.depth.I.0">Cette page seulement</label>
+			<label index="tx_l10nmgr_cfg.depth.I.1">1 niveau</label>
+			<label index="tx_l10nmgr_cfg.depth.I.2">2 niveaux</label>
+			<label index="tx_l10nmgr_cfg.depth.I.3">3 niveaux</label>
+			<label index="tx_l10nmgr_cfg.depth.I.4">Infinis</label>
+			<label index="tx_l10nmgr_cfg.depth.I.-1">Page actuelle</label>
+			<label index="tx_l10nmgr_cfg.depth">Profondeur</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.0">Afficher tous les éléments (lent et large)</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.1">Vue d'ensemble avec détails (lent mais moins large)</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.2">Vue d'ensemble sans détails (vite et petit)</label>
+			<label index="tx_l10nmgr_cfg.displaymode">Mode d'affichage:</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.0">11</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.1">22</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.2">33</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.3">44</label>
+			<label index="tx_l10nmgr_cfg.tablelist">Tableaux à exporter:</label>
+			<label index="tx_l10nmgr_cfg.exclude">Eléments à exclure (valeurs séparées par virgule: &quot;tableau:uid, tableau:uid&quot;):</label>
+			<label index="tx_l10nmgr_cfg.include">Eléments à inclure (valeurs séparées par virgule: &quot;tableau:uid, tableau:uid&quot;):</label>
+			<label index="tx_l10nmgr_cfg.sourceLang">Langue source:</label>
+			<label index="tx_l10nmgr_cfg.translationLang">Langue cible:</label>
+			<label index="tx_l10nmgr_cfg.crdate">Date de la traduction</label>
+			<label index="tx_l10nmgr_cfg.exporttablelist">Tableaux exportés</label>
+			<label index="tx_l10nmgr_export">Fichiers exportés</label>
+			<label index="tx_l10nmgr_priorities">Priorité</label>
+			<label index="tx_l10nmgr_priorities.title">Titre:</label>
+			<label index="tx_l10nmgr_priorities.description">Description:</label>
+			<label index="tx_l10nmgr_priorities.languages">Priorité de langues:</label>
+			<label index="tx_l10nmgr_priorities.element">Elément(s):</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="tx_l10nmgr_cfg">Configuración L10N Manager</label>
+			<label index="tx_l10nmgr_cfg.title">Título:</label>
+			<label index="tx_l10nmgr_cfg.filenameprefix">Prefijo del archivo de exporte:</label>
+			<label index="tx_l10nmgr_cfg.incfcewithdefaultall">Incluir FCE con idioma estándar:</label>			
+			<label index="tx_l10nmgr_cfg.depth.I.0">Sólo esta página</label>
+			<label index="tx_l10nmgr_cfg.depth.I.1">1 nivel</label>
+			<label index="tx_l10nmgr_cfg.depth.I.2">2 niveles</label>
+			<label index="tx_l10nmgr_cfg.depth.I.3">3 niveles</label>
+			<label index="tx_l10nmgr_cfg.depth.I.4">Infinito</label>
+			<label index="tx_l10nmgr_cfg.depth.I.-1">Página actual</label>
+			<label index="tx_l10nmgr_cfg.depth">Profundidad:</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.0">Visualizar TODOS los elementos  (lento y pesado)</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.1">Visualizar visión de conjunto con detalles (lento pero ligero)</label>
+			<label index="tx_l10nmgr_cfg.displaymode.I.2">Visualizar visión de conjunto sin detalles (rápido y ligero)</label>
+			<label index="tx_l10nmgr_cfg.displaymode">Modo diplay:</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.0">11</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.1">22</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.2">33</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.3">44</label>
+			<label index="tx_l10nmgr_cfg.tablelist">Tablas para exportar:</label>
+			<label index="tx_l10nmgr_cfg.exclude">Excluir elementos (lista de pares &quot;table:uid&quot; separada por comas):</label>
+			<label index="tx_l10nmgr_cfg.include">Incluir elementos (lista de pares &quot;table:uid&quot; separada por comas):</label>
+			<label index="tx_l10nmgr_cfg.sourceLang">Idioma de salida:</label>
+			<label index="tx_l10nmgr_cfg.translationLang">Idioma de llegada:</label>
+			<label index="tx_l10nmgr_cfg.crdate">Fecha del exporte</label>
+			<label index="tx_l10nmgr_cfg.exporttablelist">Tablas exportadas</label>
+			<label index="tx_l10nmgr_export">Exportes de L10N Manager</label>
+			<label index="tx_l10nmgr_priorities">Prioridad de localización</label>
+			<label index="tx_l10nmgr_priorities.title">Titulo:</label>
+			<label index="tx_l10nmgr_priorities.description">Descripción:</label>
+			<label index="tx_l10nmgr_priorities.languages">Prioridad applicada a los idiomas:</label>
+			<label index="tx_l10nmgr_priorities.element">Elemento(s):</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="tx_l10nmgr_cfg">Configurazione di L10N Manager</label>
+			<label index="tx_l10nmgr_cfg.title">Titulo:</label>
+			<label index="tx_l10nmgr_cfg.depth.I.0">Questa pagina</label>
+			<label index="tx_l10nmgr_cfg.depth.I.1">1 livello</label>
+			<label index="tx_l10nmgr_cfg.depth.I.2">2 livelli</label>
+			<label index="tx_l10nmgr_cfg.depth.I.3">3 livelli</label>
+			<label index="tx_l10nmgr_cfg.depth.I.4">Indefinito</label>
+			<label index="tx_l10nmgr_cfg.depth.I.-1">Pagina attuale</label>
+			<label index="tx_l10nmgr_cfg.depth">Numero di livelli:</label>
+			<label index="tx_l10nmgr_cfg.displaymode">Modo di vizualizzazione:</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.0">11</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.1">22</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.2">33</label>
+			<label index="tx_l10nmgr_cfg.tablelist.I.3">44</label>
+			<label index="tx_l10nmgr_cfg.tablelist">Tabelle da esportare:</label>
+			<label index="tx_l10nmgr_cfg.exclude">Elementi da escludere (Lista CSV: &quot;tabella:uid, tabella:uid,...&quot;)</label>
+			<label index="tx_l10nmgr_cfg.include">Elementi da includere (Lista CSV: &quot;tabella:uid, tabella:uid,...&quot;)</label>
+			<label index="tx_l10nmgr_cfg.sourceLang">Lingua di partenza:</label>
+			<label index="tx_l10nmgr_cfg.translationLang">Translation language:</label>
+			<label index="tx_l10nmgr_cfg.crdate">Date of export</label>
+			<label index="tx_l10nmgr_cfg.exporttablelist">Exported tables</label>
+			<label index="tx_l10nmgr_export">L10N Manager Exports</label>
+			<label index="tx_l10nmgr_priorities">Priorità della localizzazione</label>
+			<label index="tx_l10nmgr_priorities.title">Titulo:</label>
+			<label index="tx_l10nmgr_priorities.description">Descrizione:</label>
+			<label index="tx_l10nmgr_priorities.languages">Priorità per le segenti lingue:</label>
+			<label index="tx_l10nmgr_priorities.element">Elementi:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+	</orig_hash>
+	<orig_text type="array">
+	</orig_text>
+</T3locallang>

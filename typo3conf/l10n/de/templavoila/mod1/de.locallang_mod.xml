@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_tabs_tab">Seite</label>
+      <label index="mlang_labels_tabdescr">Dieses Modul ermöglicht Ihnen, Seiten zu erstellen und zu bearbeiten. Zusätzlich bietet es einen Assistenten zur Auswahl einer Vorlage und Verwaltung verschiedener Übersetzungen einer Seite. Dieses Seiten-Modul ist Bestandteil der Erweiterung "TemplaVoilà".</label>
+      <label index="mlang_labels_tablabel">Seiten erstellen und bearbeiten</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

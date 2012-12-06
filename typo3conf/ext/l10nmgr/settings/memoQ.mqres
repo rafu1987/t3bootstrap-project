@@ -1,0 +1,358 @@
+<MemoQResource ResourceType="FilterConfigs" Version="1.0">
+  <Resource>
+    <Guid>b3d47d57-d3f2-4615-b90f-7931c4fe71a6</Guid>
+    <FileName>XMLConverter#TYPO3 l10nmgr v. 3.x</FileName>
+    <Name>TYPO3 l10nmgr v. 3.x</Name>
+    <Description>XML filter configuration for content from TYPO3 CMS. Contributed by Loctimize GmbH</Description>
+    <FilterName>MemoQ.DocConverters.XML.XMLConverter</FilterName>
+  </Resource>
+</MemoQResource>
+<MemoQFilterConfiguration filtername="XML Filter" version="V2" name="TYPO3 l10nmgr v. 3.x">
+  <SampleFileList>
+  </SampleFileList>
+  <SampleDTDPath value="" isdtd="yes" />
+  <GeneralOptions logwarnings="no" importcomments="no" detectencoding="yes" inputencodingkey="65001" outputencodingkey="-1" normalizews="yes" observexmlspace="yes" restoreentities="no" assocdtd="" treatnewlinesassegmentbreak="no" hasprocessinginstructionattributes="no" />
+  <HandledTags>
+    <Tag name="TYPO3L10N" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="head" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="t3_l10ncfg" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="t3_sysLang" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="t3_sourceLang" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="t3_targetLang" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="t3_baseURL" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="t3_workspaceId" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="t3_count" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="t3_wordCount" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="t3_internal" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="t3_formatVersion" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="pageGrp" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+        <Attribute name="id" translatable="no" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+      </Attributes>
+    </Tag>
+    <Tag name="data" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+        <Attribute name="table" translatable="no" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+        <Attribute name="elementUid" translatable="no" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+        <Attribute name="key" translatable="no" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+        <Attribute name="transformations" translatable="no" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+      </Attributes>
+    </Tag>
+    <Tag name="p" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="STRONG" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="br" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="sup" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="a" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+        <Attribute name="title" translatable="yes" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+        <Attribute name="href" translatable="no" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+        <Attribute name="hreflang" translatable="yes" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+        <Attribute name="lang" translatable="yes" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+        <Attribute name="dir" translatable="no" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+      </Attributes>
+    </Tag>
+    <Tag name="img" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+        <Attribute name="alt" translatable="yes" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+        <Attribute name="longdesc" translatable="yes" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+        <Attribute name="title" translatable="yes" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+      </Attributes>
+    </Tag>
+    <Tag name="hr" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="b" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="i" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="u" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="em" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="notranslate" inline="no" placeholder="no" iscontxt="no" iscomment="no" nontranslated="yes" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="span" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="big" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="small" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="abbr" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="acronym" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="q" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="applet" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="basefont" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="bdo" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="button" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="cite" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="code" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="del" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="dfn" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="font" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="ins" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="input" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+        <Attribute name="value" translatable="yes" required="no" filtered="no" context="None" comment="None" nontranstype="None">
+          <NonTransSpecificValues>
+          </NonTransSpecificValues>
+          <TranslatabilityConditions>
+          </TranslatabilityConditions>
+        </Attribute>
+      </Attributes>
+    </Tag>
+    <Tag name="iframe" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="kbd" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="label" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="map" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="object" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="samp" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="script" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="select" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="stong" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="sub" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="textarea" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="tt" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="var" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="B" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="U" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="I" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="EM" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="BR" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+    <Tag name="HR" inline="yes" placeholder="no" iscontxt="no" iscomment="no" nontranslated="no" wshandling="Inherit" breaksegmentaftertag="none" treatassegmentpartbreak="no" hidetranslatableattsindynamicnontranscase="yes" breaksegmentatnewlineiftagiswspreserve="no">
+      <Attributes>
+      </Attributes>
+    </Tag>
+  </HandledTags>
+  <EntityGroupes>
+    <EntityGroupe value="XMLPredefined" />
+  </EntityGroupes>
+  <CustomEntities>
+  </CustomEntities>
+  <ImportedEntities>
+  </ImportedEntities>
+  <XsltData originalfilepath="">
+  </XsltData>
+</MemoQFilterConfiguration>

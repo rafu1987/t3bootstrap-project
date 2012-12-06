@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="tsconf_title">Seiten-TSconfig</label>
+      <label index="tsconf_parts_0">Alles</label>
+      <label index="tsconf_parts_1">Modulschlüssel ("mod") mit Überschreibungen der Benutzereinstellungen</label>
+      <label index="tsconf_parts_1a">Modul: Web &gt; Seite</label>
+      <label index="tsconf_parts_1b">Modul: Web &gt; Anzeigen</label>
+      <label index="tsconf_parts_1c">Modul: Web &gt; Module</label>
+      <label index="tsconf_parts_1d">Modul: Web &gt; Liste</label>
+      <label index="tsconf_parts_1e">Modul: Web &gt; Info</label>
+      <label index="tsconf_parts_1f">Modul: Web &gt; Funktionen</label>
+      <label index="tsconf_parts_1g">Modul: Web &gt; Vorlage</label>
+      <label index="tsconf_configFields">Inhalt des TSconfig-Felds anzeigen</label>
+      <label index="editThisColumn">Feld "%s" für alle aufgelisteten Seiten bearbeiten</label>
+      <label index="editTSconfig">Inhalt des TSconfig-Felds dieser Seite bearbeiten</label>
+      <label index="editTSconfig_all">Inhalt des TSconfig-Felds aller angezeigter Seiten bearbeiten</label>
+      <label index="editTSconfig_default">Standardkonfiguration aus TYPO3_CONF_VARS</label>
+      <label index="mod_pagetsconfig">Seiten-TSconfig</label>
+      <label index="sort_alphabetic">Alphabetisch sortieren:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

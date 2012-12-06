@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="scheduler" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="action.add" xml:space="preserve" approved="yes">
+        <source>Add task</source>
+      <target state="translated">Task hinzufügen</target></trans-unit>
+      <trans-unit id="action.edit" xml:space="preserve" approved="yes">
+        <source>Edit task</source>
+      <target state="translated">Task bearbeiten</target></trans-unit>
+      <trans-unit id="button.cancel" xml:space="preserve" approved="yes">
+        <source>Cancel</source>
+      <target state="translated">Abbrechen</target></trans-unit>
+      <trans-unit id="function.scheduler" xml:space="preserve" approved="yes">
+        <source>Scheduled tasks</source>
+      <target state="translated">Geplante Tasks</target></trans-unit>
+      <trans-unit id="function.check" xml:space="preserve" approved="yes">
+        <source>Setup check</source>
+      <target state="translated">Konfiguration prüfen</target></trans-unit>
+      <trans-unit id="function.info" xml:space="preserve" approved="yes">
+        <source>Information</source>
+      <target state="translated">Informationen</target></trans-unit>
+      <trans-unit id="hdg.cliScript" xml:space="preserve" approved="yes">
+        <source>CLI script</source>
+      <target state="translated">CLI-Skript</target></trans-unit>
+      <trans-unit id="hdg.lastRun" xml:space="preserve" approved="yes">
+        <source>Last run</source>
+      <target state="translated">Letzte Ausführung</target></trans-unit>
+      <trans-unit id="hdg.schedulerUser" xml:space="preserve" approved="yes">
+        <source>TYPO3 Scheduler backend user</source>
+      <target state="translated">Backend-Benutzer für den TYPO3-Planer</target></trans-unit>
+      <trans-unit id="label.automatically" xml:space="preserve" approved="yes">
+        <source>automatically</source>
+      <target state="translated">automatisch</target></trans-unit>
+      <trans-unit id="label.cachingFrameworkGarbageCollection.selectBackends" xml:space="preserve" approved="yes">
+        <source>Backend types</source>
+      <target state="translated">Backendtypen</target></trans-unit>
+      <trans-unit id="label.recyclerGarbageCollection.numberOfDays" xml:space="preserve" approved="yes">
+        <source>Number of days until removing files</source>
+      <target state="translated">Anzahl Tage bis zum Löschen der Dateien</target></trans-unit>
+      <trans-unit id="label.checkAll" xml:space="preserve" approved="yes">
+        <source>Check/uncheck all</source>
+      <target state="translated">Alle auswählen/abwählen</target></trans-unit>
+      <trans-unit id="label.class" xml:space="preserve" approved="yes">
+        <source>Class</source>
+      <target state="translated">Klasse</target></trans-unit>
+      <trans-unit id="label.cron" xml:space="preserve" approved="yes">
+        <source>Cron</source>
+      <target state="translated">Cron</target></trans-unit>
+      <trans-unit id="label.defType" xml:space="preserve" approved="yes">
+        <source>Definition type</source>
+      <target state="translated">Definitionstyp</target></trans-unit>
+      <trans-unit id="label.defType.interval" xml:space="preserve" approved="yes">
+        <source>Interval</source>
+      <target state="translated">Interval</target></trans-unit>
+      <trans-unit id="label.defType.cron" xml:space="preserve" approved="yes">
+        <source>Cron command</source>
+      <target state="translated">Cron-Befehl</target></trans-unit>
+      <trans-unit id="label.description" xml:space="preserve" approved="yes">
+        <source>Description</source>
+      <target state="translated">Beschreibung</target></trans-unit>
+      <trans-unit id="label.email" xml:space="preserve" approved="yes">
+        <source>Email</source>
+      <target state="translated">E-Mail</target></trans-unit>
+      <trans-unit id="label.end" xml:space="preserve" approved="yes">
+        <source>End (HH:MM DD-MM-YYYY)</source>
+      <target state="translated">Ende (HH:MM TT-MM-JJJJ)</target></trans-unit>
+      <trans-unit id="label.executeSelected" xml:space="preserve" approved="yes">
+        <source>Execute selected tasks</source>
+      <target state="translated">Ausgewählte Tasks ausführen</target></trans-unit>
+      <trans-unit id="label.extension" xml:space="preserve" approved="yes">
+        <source>Extension</source>
+      <target state="translated">Erweiterung</target></trans-unit>
+      <trans-unit id="label.frequency" xml:space="preserve" approved="yes">
+        <source>Frequency</source>
+      <target state="translated">Häufigkeit</target></trans-unit>
+      <trans-unit id="label.frequency.long" xml:space="preserve" approved="yes">
+        <source>Frequency (seconds or cron command)</source>
+      <target state="translated">Häufigkeit (Sekunden oder Cron-Befehl)</target></trans-unit>
+      <trans-unit id="label.id" xml:space="preserve" approved="yes">
+        <source>ID</source>
+      <target state="translated">ID</target></trans-unit>
+      <trans-unit id="label.lastExecution" xml:space="preserve" approved="yes">
+        <source>Last Execution</source>
+      <target state="translated">Letzte Ausführung</target></trans-unit>
+      <trans-unit id="label.manual" xml:space="preserve" approved="yes">
+        <source>Manual</source>
+      <target state="translated">manuell</target></trans-unit>
+      <trans-unit id="label.manually" xml:space="preserve" approved="yes">
+        <source>manually</source>
+      <target state="translated">manuell</target></trans-unit>
+      <trans-unit id="label.name" xml:space="preserve" approved="yes">
+        <source>Name</source>
+      <target state="translated">Name</target></trans-unit>
+      <trans-unit id="label.nextExecution" xml:space="preserve" approved="yes">
+        <source>Next Execution</source>
+      <target state="translated">Nächste Ausführung</target></trans-unit>
+      <trans-unit id="label.parallel" xml:space="preserve" approved="yes">
+        <source>Parallel Execution</source>
+      <target state="translated">Parallele Ausführung</target></trans-unit>
+      <trans-unit id="label.parallel.long" xml:space="preserve" approved="yes">
+        <source>Allow Parallel Execution</source>
+      <target state="translated">Parallele Ausführung erlauben</target></trans-unit>
+      <trans-unit id="label.serverTime" xml:space="preserve" approved="yes">
+        <source>Server time</source>
+      <target state="translated">Serverzeit</target></trans-unit>
+      <trans-unit id="label.sleepTime" xml:space="preserve" approved="yes">
+        <source>Sleep time</source>
+      <target state="translated">Pause</target></trans-unit>
+      <trans-unit id="label.start" xml:space="preserve" approved="yes">
+        <source>Start (HH:MM DD-MM-YYYY)</source>
+      <target state="translated">Start (HH:MM TT-MM-JJJJ)</target></trans-unit>
+      <trans-unit id="label.tableGarbageCollection.allTables" xml:space="preserve" approved="yes">
+        <source>Clean all available tables</source>
+      <target state="translated">Alle verfügbaren Tabellen bereinigen</target></trans-unit>
+      <trans-unit id="label.tableGarbageCollection.table" xml:space="preserve" approved="yes">
+        <source>Table to clean up</source>
+      <target state="translated">Zu bereinigende Tabelle</target></trans-unit>
+      <trans-unit id="label.tableGarbageCollection.additionalInformationTable" xml:space="preserve" approved="yes">
+        <source>Table: %s</source>
+      <target state="translated">Tabelle: %s</target></trans-unit>
+      <trans-unit id="label.tableGarbageCollection.additionalInformationAllTables" xml:space="preserve" approved="yes">
+        <source>All tables</source>
+      <target state="translated">Alle Tabellen</target></trans-unit>
+      <trans-unit id="label.tableGarbageCollection.numberOfDays" xml:space="preserve" approved="yes">
+        <source>Delete entries older than given number of days</source>
+      <target state="translated">Einträge löschen, die älter sind als die angegebene Anzahl Tage</target></trans-unit>
+      <trans-unit id="label.type" xml:space="preserve" approved="yes">
+        <source>Type</source>
+      <target state="translated">Typ</target></trans-unit>
+      <trans-unit id="label.type.recurring" xml:space="preserve" approved="yes">
+        <source>Recurring</source>
+      <target state="translated">wiederkehrend</target></trans-unit>
+      <trans-unit id="label.type.single" xml:space="preserve" approved="yes">
+        <source>Single</source>
+      <target state="translated">einmalig</target></trans-unit>
+      <trans-unit id="msg.addError" xml:space="preserve" approved="yes">
+        <source>The task could not be added.</source>
+      <target state="translated">Der Task konnte nicht hinzugefügt werden.</target></trans-unit>
+      <trans-unit id="msg.addSuccess" xml:space="preserve" approved="yes">
+        <source>The task was added successfully.</source>
+      <target state="translated">Der Task wurde erfolgreich hinzugefügt.</target></trans-unit>
+      <trans-unit id="msg.cliScript" xml:space="preserve" approved="yes">
+        <source>The script to execute the Scheduler from the command line is: &lt;strong&gt;"%s scheduler"&lt;/strong&gt;.</source>
+      <target state="translated">Der Befehl, um den Planer von der Kommandozeile auszuführen lautet: &lt;strong&gt;"%s scheduler"&lt;/strong&gt;.</target></trans-unit>
+      <trans-unit id="msg.cliScriptExecutable" xml:space="preserve" approved="yes">
+        <source>The webserver user is allowed execute this script.</source>
+      <target state="translated">Der Webserver-Benutzer darf dieses Skript ausführen.</target></trans-unit>
+      <trans-unit id="msg.cliScriptNotExecutable" xml:space="preserve" approved="yes">
+        <source>The webserver user is not allowed to execute this script.</source>
+      <target state="translated">Der Webserver-Benutzer darf dieses Skript nicht ausführen.</target></trans-unit>
+      <trans-unit id="msg.delete" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to delete this task?</source>
+      <target state="translated">Diesen Task tatsächlich löschen?</target></trans-unit>
+      <trans-unit id="msg.deleteError" xml:space="preserve" approved="yes">
+        <source>The task could not be deleted.</source>
+      <target state="translated">Der Task konnte nicht gelöscht werden.</target></trans-unit>
+      <trans-unit id="msg.deleteSuccess" xml:space="preserve" approved="yes">
+        <source>The task was successfully deleted.</source>
+      <target state="translated">Der Task wurde erfolgreich gelöscht.</target></trans-unit>
+      <trans-unit id="msg.endDateSmallerThanStartDate" xml:space="preserve" approved="yes">
+        <source>The end date is before the start date.</source>
+      <target state="translated">Das Enddatum liegt vor dem Startdatum.</target></trans-unit>
+      <trans-unit id="msg.executed" xml:space="preserve" approved="yes">
+        <source>Executed: %s</source>
+      <target state="translated">Ausgeführt: %s</target></trans-unit>
+      <trans-unit id="msg.frequencyError" xml:space="preserve" approved="yes">
+        <source>Invalid frequency. Please enter either a number of seconds or a valid cron command. The cron parser said: %1$s [code: %2$d].</source>
+      <target state="translated">Ungültige Häufigkeit. Bitte geben Sie entweder eine Anzahl Sekunden oder einen gültigen Cron-Befehl an. Ausgabe des Cron-Parsers: %1$s [Code: %2$d].</target></trans-unit>
+      <trans-unit id="msg.incompleteLastRun" xml:space="preserve" approved="yes">
+        <source>The information about the last execution of the Scheduler is incomplete.</source>
+      <target state="translated">Die Informationen zur letzten Ausführung des Planers sind unvollständig.</target></trans-unit>
+      <trans-unit id="msg.infoScreenIntro" xml:space="preserve" approved="yes">
+        <source>This is the list of all available tasks in this TYPO3 installation. Click on the icon at the far right to directly create a new scheduled task of the chosen type.</source>
+      <target state="translated">Dies ist eine Liste aller in dieser TYPO3-Installation verfügbaren Tasks. Klicken Sie auf das Symbol außen rechts, um einen neuen geplanten Task des gewählten Typs zu erstellen.</target></trans-unit>
+      <trans-unit id="msg.invalidFrequency" xml:space="preserve" approved="yes">
+        <source>Invalid frequency. Please enter either a number of seconds or a valid cron command.</source>
+      <target state="translated">Ungültige Häufigkeit. Bitte geben Sie entweder eine Anzahl Sekunden oder einen gültigen Cron-Befehl ein.</target></trans-unit>
+      <trans-unit id="msg.invalidSleepTime" xml:space="preserve" approved="yes">
+        <source>Please enter a sleep time greater or equal to 0 (zero).</source>
+      <target state="translated">Bitte geben Sie eine Pause von mindestens null Sekunden an.</target></trans-unit>
+      <trans-unit id="msg.lastRun" xml:space="preserve" approved="yes">
+        <source>The Scheduler was last started (%1$s) on %2$s at %3$s and ended on %4$s at %5$s.</source>
+      <target state="translated">Der Planer wurde zuletzt gestartet (%1$s) am %2$s um %3$s und endete am %4$s um %5$s.</target></trans-unit>
+      <trans-unit id="msg.maynotDeleteRunningTask" xml:space="preserve" approved="yes">
+        <source>A running task may not be deleted.</source>
+      <target state="translated">Ein laufender Task kann nicht gelöscht werden.</target></trans-unit>
+      <trans-unit id="msg.maynotEditRunningTask" xml:space="preserve" approved="yes">
+        <source>A running task may not be edited.</source>
+      <target state="translated">Ein laufender Task kann nicht bearbeitet werden.</target></trans-unit>
+      <trans-unit id="msg.maynotStopNonRunningTask" xml:space="preserve" approved="yes">
+        <source>The task is not running. There are no executions to unmark.</source>
+      <target state="translated">Dieser Task läuft nicht. Es gibt keine abzuwählenden Ausführungen.</target></trans-unit>
+      <trans-unit id="msg.noEmail" xml:space="preserve" approved="yes">
+        <source>Please enter an email address.</source>
+      <target state="translated">Bitte geben Sie eine E-Mail-Adresse an.</target></trans-unit>
+      <trans-unit id="msg.noFrequency" xml:space="preserve" approved="yes">
+        <source>No frequency was defined, either as an interval or as a cron command.</source>
+      <target state="translated">Bitte geben Sie als Häufigkeit entweder ein Interval oder einen Cron-Befehl an.</target></trans-unit>
+      <trans-unit id="msg.noLastRun" xml:space="preserve" approved="yes">
+        <source>The Scheduler has never yet run or the information about the last run has been lost.</source>
+      <target state="translated">Der Planer wurde noch nie ausgeführt oder die Informationen über die letzte Ausführung sind verloren gegangen.</target></trans-unit>
+      <trans-unit id="msg.noTasksDefined" xml:space="preserve" approved="yes">
+        <source>There are currently no task classes available at all. To be able to create new tasks, you must either enable the samples provided by the Scheduler or install some other extension that relies on the Scheduler.</source>
+      <target state="translated">Gegenwärtig sind keine Taskklassen verfügbar. Um neue Task erstellen zu können, müssen Sie entweder die mit dem Planer mitgelieferten Beispiele aktivieren oder eine Erweiterung installieren, die den Planer verwendet.</target></trans-unit>
+      <trans-unit id="msg.noTaskClassFound" xml:space="preserve" approved="yes">
+        <source>The selected task class could not be found. You should probably contact the task's developers.</source>
+      <target state="translated">Die ausgewählte Taskklasse konnte nicht gefunden werden. Sie sollten sich an den Entwickler des Tasks wenden.</target></trans-unit>
+      <trans-unit id="msg.noTasks" xml:space="preserve" approved="yes">
+        <source>No tasks defined yet.</source>
+      <target state="translated">Noch keine Tasks angelegt.</target></trans-unit>
+      <trans-unit id="msg.notExecuted" xml:space="preserve" approved="yes">
+        <source>Not executed: %s</source>
+      <target state="translated">Nicht ausgeführt: %s</target></trans-unit>
+      <trans-unit id="msg.executionFailed" xml:space="preserve" approved="yes">
+        <source>Execution of task "%1$s" failed with the following message: %2$s</source>
+      <target state="translated">Die Ausführung von Task "%1$s" ist fehlgeschlagen mit folgender Meldung: %2$s</target></trans-unit>
+      <trans-unit id="msg.executionFailureDefault" xml:space="preserve" approved="yes">
+        <source>The execution failed, but the error message could not be retrieved (it was probably too large). Sorry.</source>
+      <target state="translated">Die Ausführung ist fehlgeschlagen, ohne dass die Fehlermeldung erfasst werden konnte (wahrscheinlich war sie zu groß). Entschuldigung.</target></trans-unit>
+      <trans-unit id="msg.executionFailureReport" xml:space="preserve" approved="yes">
+        <source>Execution failed: %1$d, %2$s</source>
+      <target state="translated">Ausführung fehlgeschlagen: %1$d, %2$s</target></trans-unit>
+      <trans-unit id="msg.noStartDate" xml:space="preserve" approved="yes">
+        <source>Please define a start date.</source>
+      <target state="translated">Bitte setzen Sie ein Startdatum.</target></trans-unit>
+      <trans-unit id="msg.invalidStartDate" xml:space="preserve" approved="yes">
+        <source>Start date is invalid.</source>
+      <target state="translated">Das Startdatum ist ungültig.</target></trans-unit>
+      <trans-unit id="msg.invalidEndDate" xml:space="preserve" approved="yes">
+        <source>End date is invalid.</source>
+      <target state="translated">Das Enddatum ist ungültig.</target></trans-unit>
+      <trans-unit id="msg.invalidNumberOfDays" xml:space="preserve" approved="yes">
+        <source>Number of days is invalid.</source>
+      <target state="translated">Anzahl an Tagen ist ungültig.</target></trans-unit>
+      <trans-unit id="msg.selectionOfNonExistingCacheBackends" xml:space="preserve" approved="yes">
+        <source>Some of the selected cache backends do not exist. Please select valid backends only.</source>
+      <target state="translated">Einige der ausgewählten Cache-Backends existieren nicht. Bitte wählen Sie nur valide Backends aus.</target></trans-unit>
+      <trans-unit id="msg.noCacheBackendSelected" xml:space="preserve" approved="yes">
+        <source>Please select at least one cache backend.</source>
+      <target state="translated">Mindestens ein Cache-Backend auswählen.</target></trans-unit>
+      <trans-unit id="msg.invalidTaskClass" xml:space="preserve" approved="yes">
+        <source>Class %s of the registered task could not be found. You should re-install the extension that provided it or simply delete this task.</source>
+      <target state="translated">Die Klasse %s des registrierten Tasks konnte nicht gefunden werden. Sie sollten die Erweiterung, die den Task zur Verfügung stellt, neuinstallieren oder den Task löschen.</target></trans-unit>
+      <trans-unit id="msg.invalidTaskClassEdit" xml:space="preserve" approved="yes">
+        <source>The current class (%s) could not be found. Change it below or consider deleting this task altogether.</source>
+      <target state="translated">Der aktuelle Task (%s) konnte nicht gefunden werden. Ändern Sie ihn unten oder löschen Sie ihn.</target></trans-unit>
+      <trans-unit id="msg.schedulerSetupCheck" xml:space="preserve" approved="yes">
+        <source>This screen checks if the requisites for running the Scheduler as a cron job are fulfilled. It also displays information about the last run of the Scheduler.</source>
+      <target state="translated">Diese Seite zeigt Ihnen, ob die Voraussetzungen, um den Planer mit einem Cron-Job auszuführen, erfüllt sind. Zudem zeigt sie Informationen zur letzten Ausführung des Planers.</target></trans-unit>
+      <trans-unit id="msg.schedulerUser" xml:space="preserve" approved="yes">
+        <source>The backend user "_cli_scheduler" is used by the CLI-script to log into TYPO3. This user may not have administrator privileges. The user's password is not important but should be set to a secure value for security reasons.</source>
+      <target state="translated">Der Backend-Benutzer "_cli_scheduler" wird vom CLI-Skript benutzt, um sich bei TYPO3 anzumelden. Dieser Benutzer darf keine Administratorrechte haben. Das Passwort dieses Benutzers ist nicht wichtig, sollte aber auf einen sicheren Wert gesetzt werden.</target></trans-unit>
+      <trans-unit id="msg.schedulerUserFound" xml:space="preserve" approved="yes">
+        <source>The backend user "_cli_scheduler" was found.</source>
+      <target state="translated">Der Backend-Benutzer "_cli_scheduler" wurde gefunden.</target></trans-unit>
+      <trans-unit id="msg.schedulerUserFoundButDisabled" xml:space="preserve" approved="yes">
+        <source>The backend user "_cli_scheduler" exists but is currently disabled.</source>
+      <target state="translated">Der Backend-Benutzer "_cli_scheduler" existiert, ist aber derzeit deaktiviert.</target></trans-unit>
+      <trans-unit id="msg.schedulerUserMissing" xml:space="preserve" approved="yes">
+        <source>The backend user "_cli_scheduler" was not found. &lt;a href="%s" title="Click to create the missing user"&gt;Create the user now&lt;/a&gt;.</source>
+      <target state="translated">Der Backend-Benutzer "_cli_scheduler" wurde nicht gefunden. &lt;a href="%s" title="Klicken Sie, um den fehlenden Benutzer zu erstellen."&gt;Den Benutzer jetzt erstellen.&lt;/a&gt;</target></trans-unit>
+      <trans-unit id="msg.serverTime" xml:space="preserve" approved="yes">
+        <source>Current server time is %s.</source>
+      <target state="translated">Die aktuelle Serverzeit ist %s.</target></trans-unit>
+      <trans-unit id="msg.serverTimeHelp" xml:space="preserve" approved="yes">
+        <source>All dates and times in the Scheduler are measured according to the server's time, as the Scheduler is run purely on the server-side.</source>
+      <target state="translated">Alle Daten und Zeiten im Planer werden an der Serverzeit gemessen, weil der Planer ausschließlich auf der Serverseite läuft.</target></trans-unit>
+      <trans-unit id="msg.stop" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to mark this task as not running? Note that this will not stop the actual script (if unsure please refer to the manual).</source>
+      <target state="translated">Diesen Task tatsächlich als nicht-laufend markieren? Beachten Sie, dass dies nicht das eigentliche Skript beendet. (Wenn Sie unsicher sind, konsultieren Sie bitte das Handbuch.)</target></trans-unit>
+      <trans-unit id="msg.stopError" xml:space="preserve" approved="yes">
+        <source>The task could not be marked as non-running.</source>
+      <target state="translated">Der Task konnte nicht als nicht-laufend markiert werden.</target></trans-unit>
+      <trans-unit id="msg.stopSuccess" xml:space="preserve" approved="yes">
+        <source>The task was successfully marked as non-running.</source>
+      <target state="translated">Der Task wurde erfolgreich als nicht-laufend markiert.</target></trans-unit>
+      <trans-unit id="msg.taskNotFound" xml:space="preserve" approved="yes">
+        <source>The requested task (UID: %d) was not found.</source>
+      <target state="translated">Der angeforderte Task (UID: %d) wurde nicht gefunden.</target></trans-unit>
+      <trans-unit id="msg.updateSuccess" xml:space="preserve" approved="yes">
+        <source>The task was updated successfully.</source>
+      <target state="translated">Der Task wurde erfolgreich aktualisiert.</target></trans-unit>
+      <trans-unit id="msg.updateError" xml:space="preserve" approved="yes">
+        <source>The task could not be updated.</source>
+      <target state="translated">Der Task konnte nicht aktualisiert werden.</target></trans-unit>
+      <trans-unit id="msg.userCreated" xml:space="preserve" approved="yes">
+        <source>The "_cli_scheduler" user was created successfully.</source>
+      <target state="translated">Der Benutzer "_cli_scheduler" wurde erfolgreich erstellt.</target></trans-unit>
+      <trans-unit id="msg.userExists" xml:space="preserve" approved="yes">
+        <source>The "_cli_scheduler" user already exists. It was not created.</source>
+      <target state="translated">Der Benutzer "_cli_scheduler" existiert bereits. Er wurde daher nicht erstellt.</target></trans-unit>
+      <trans-unit id="msg.userNotCreated" xml:space="preserve" approved="yes">
+        <source>The creation of the "_cli_scheduler" user failed.</source>
+      <target state="translated">Der Benutzer "_cli_scheduler" konnte nicht erstellt werden.</target></trans-unit>
+      <trans-unit id="none" xml:space="preserve" approved="yes">
+        <source>None</source>
+      <target state="translated">Keine</target></trans-unit>
+      <trans-unit id="status" xml:space="preserve" approved="yes">
+        <source>Status</source>
+      <target state="translated">Status</target></trans-unit>
+      <trans-unit id="status.progress" xml:space="preserve">
+        <source>Progress</source>
+      </trans-unit>
+      <trans-unit id="status.legend" xml:space="preserve" approved="yes">
+        <source>Status Legend</source>
+      <target state="translated">Status-Legende</target></trans-unit>
+      <trans-unit id="status.legend.disabled" xml:space="preserve" approved="yes">
+        <source>Disabled, will not be executed, except manually</source>
+      <target state="translated">Deaktiviert, wird nicht ausgeführt, es sei denn manuell</target></trans-unit>
+      <trans-unit id="status.legend.failure" xml:space="preserve" approved="yes">
+        <source>Failure! An error occured during the last execution (move over bullet for more details)</source>
+      <target state="translated">Fehler! Während der letzten Ausführung ist ein Fehler aufgetreten (halten Sie den Mauszeiger auf das Symbol, um Details anzuzeigen)</target></trans-unit>
+      <trans-unit id="status.legend.late" xml:space="preserve" approved="yes">
+        <source>Late, will run with next execution</source>
+      <target state="translated">Verspätet, wird bei nächster Ausführung laufen</target></trans-unit>
+      <trans-unit id="status.legend.running" xml:space="preserve" approved="yes">
+        <source>Currently running</source>
+      <target state="translated">Läuft gerade</target></trans-unit>
+      <trans-unit id="status.legend.scheduled" xml:space="preserve" approved="yes">
+        <source>Scheduled, will run on next possible execution</source>
+      <target state="translated">Geplant, wird bei nächstmöglicher Ausführung laufen</target></trans-unit>
+      <trans-unit id="status.disabled" xml:space="preserve" approved="yes">
+        <source>disabled</source>
+      <target state="translated">deaktiviert</target></trans-unit>
+      <trans-unit id="status.failure" xml:space="preserve" approved="yes">
+        <source>failure</source>
+      <target state="translated">Fehler</target></trans-unit>
+      <trans-unit id="status.late" xml:space="preserve" approved="yes">
+        <source>late</source>
+      <target state="translated">verspätet</target></trans-unit>
+      <trans-unit id="status.running" xml:space="preserve" approved="yes">
+        <source>running</source>
+      <target state="translated">läuft</target></trans-unit>
+      <trans-unit id="status.scheduled" xml:space="preserve" approved="yes">
+        <source>scheduled</source>
+      <target state="translated">geplant</target></trans-unit>
+      <trans-unit id="task" xml:space="preserve" approved="yes">
+        <source>Task</source>
+      <target state="translated">Task</target></trans-unit>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>TYPO3 Scheduler administration module</source>
+      <target state="translated">Administrationsmodul des TYPO3-Planers</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,6 @@
+plugin.tx_t3jquery {
+
+	# cat=plugin.tx_t3jquery.ui-hot-sneaks/file/010; type=file[css]; label=jQuery UI Hot-Sneaks
+	file.UI-Hot-Sneaks = EXT:t3jquery/res/css/ui-1.9.x/hot-sneaks/jquery-ui.css
+
+}

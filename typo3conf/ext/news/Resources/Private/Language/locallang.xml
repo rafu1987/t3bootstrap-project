@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'news'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<!-- Commmon -->
+			<label index="search-text">There are %1$s results for "%2$s".</label>
+			<label index="search-start">Start search</label>
+			<label index="search-noresult">No news found.</label>
+			<label index="more-link">Read more</label>
+			<label index="back-link">Back</label>
+			<label index="related-news">Related news</label>
+			<label index="related-files">Related files</label>
+			<label index="related-links">Related links</label>
+			<label index="author">created by %s</label>
+			<label index="paginate_overall">Page %s from %s.</label>
+			<label index="paginate_next">Next</label>
+			<label index="paginate_previous">Previous</label>
+
+			<label index="entry">entry</label>
+			<label index="entries">entries</label>
+
+			<label index="month.01">January</label>
+			<label index="month.02">February</label>
+			<label index="month.03">March</label>
+			<label index="month.04">April</label>
+			<label index="month.05">May</label>
+			<label index="month.06">June</label>
+			<label index="month.07">July</label>
+			<label index="month.08">August</label>
+			<label index="month.09">September</label>
+			<label index="month.10">October</label>
+			<label index="month.11">November</label>
+			<label index="month.12">December</label>
+
+			<label index="list_nonewsfound">No news available.</label>
+		</languageKey>
+		<languageKey index="dk" type="array">
+			<!-- Commmon -->
+			<label index="search-text">Der er %1$s resultater for "%2$s".</label>
+			<label index="search-start">Start søgning</label>
+			<label index="search-noresult">Ingen nyheder fundet.</label>
+			<label index="more-link">Læs mere</label>
+			<label index="back-link">Tilbage</label>
+			<label index="related-news">Beslægtede nyheder</label>
+			<label index="related-files">Beslægtede filer</label>
+			<label index="related-links">Beslægtede links</label>
+			<label index="author">oprettet af %s</label>
+			<label index="paginate_overall">Side %s af %s.</label>
+			<label index="paginate_next">Næste</label>
+			<label index="paginate_previous">Forrige</label>
+
+			<label index="entry">nyhed</label>
+			<label index="entries">nyheder</label>
+
+			<label index="month.01">Januar</label>
+			<label index="month.02">Februar</label>
+			<label index="month.03">Marts</label>
+			<label index="month.04">April</label>
+			<label index="month.05">Maj</label>
+			<label index="month.06">Juni</label>
+			<label index="month.07">Juli</label>
+			<label index="month.08">August</label>
+			<label index="month.09">September</label>
+			<label index="month.10">Oktober</label>
+			<label index="month.11">November</label>
+			<label index="month.12">December</label>
+
+			<label index="list_nonewsfound">Ingen tilgængelige nyheder.</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<!-- Commmon -->
+			<label index="search-text">Hay %1$s resultados de "%2$s".</label>
+			<label index="search-start">Comenzar búsqueda</label>
+			<label index="search-noresult">No se encontraron noticias.</label>
+			<label index="more-link">Leer mas</label>
+			<label index="back-link">Volver</label>
+			<label index="related-news">Noticias relacionadas</label>
+			<label index="related-files">Ficheros relacionados</label>
+			<label index="related-links">Links relacionados</label>
+			<label index="author">Creado por %s</label>
+			<label index="paginate_overall">Página %s de %s.</label>
+			<label index="paginate_next">Siguiente</label>
+			<label index="paginate_previous">Previo</label>
+
+			<label index="entry">entradas</label>
+			<label index="entries">entradas</label>
+
+			<label index="month.01">Enero</label>
+			<label index="month.02">Febrero</label>
+			<label index="month.03">Marzo</label>
+			<label index="month.04">Abril</label>
+			<label index="month.05">Mayo</label>
+			<label index="month.06">Junio</label>
+			<label index="month.07">Julio</label>
+			<label index="month.08">Agosto</label>
+			<label index="month.09">Septiembre</label>
+			<label index="month.10">Octubre</label>
+			<label index="month.11">Noviembre</label>
+			<label index="month.12">Diciembre</label>
+
+			<label index="list_nonewsfound">No hay noticias disponibles.</label>
+		</languageKey>
+
+		<languageKey index="de" type="array">
+
+			<label index="SearchResult">%1$s Treffer für die Suche nach "%2$s".</label>
+			<label index="paginate_overall">Seite %s von %s.</label>
+			<label index="paginate_next">Nächste</label>
+			<label index="paginate_previous">Vorherige</label>
+
+			<label index="more-link">mehr</label>
+			<label index="back-link">zurück</label>
+			<label index="entry">Eintrag</label>
+			<label index="entries">Einträge</label>
+
+			<label index="month.01">Januar</label>
+			<label index="month.02">Februar</label>
+			<label index="month.03">März</label>
+			<label index="month.04">April</label>
+			<label index="month.05">Mai</label>
+			<label index="month.06">Juni</label>
+			<label index="month.07">Juli</label>
+			<label index="month.08">August</label>
+			<label index="month.09">September</label>
+			<label index="month.10">Oktober</label>
+			<label index="month.11">November</label>
+			<label index="month.12">Dezember</label>
+
+			<label index="list_nonewsfound">Keine Artikel vorhanden.</label>
+		</languageKey>
+
+		<languageKey index="fi" type="array">
+
+			<label index="paginate_overall">Sivu %s / %s.</label>
+			<label index="paginate_next">Seuraava</label>
+			<label index="paginate_previous">Edellinen</label>
+
+			<label index="entry">Tieto</label>
+			<label index="entries">Tiedot</label>
+
+
+			<label index="search-noresult">Ei uutisia.</label>
+			<label index="list_nonewsfound">Ei artikkeleita.</label>
+		</languageKey>
+
+		<languageKey index="pt" type="array">
+			<label index="paginate_overall">Página %s de %s.</label>
+			<label index="paginate_next">Seguinte</label>
+			<label index="paginate_previous">Anterior</label>
+
+			<label index="entry">Entrada</label>
+			<label index="entries">Entradas</label>
+
+
+			<label index="search-noresult">Não foram encontradas notícias.</label>
+			<label index="list_nonewsfound">Não há artigos disponíveis.</label>
+		</languageKey>
+		<languageKey index="pl" type="array">
+
+			<label index="paginate_overall">Strona %s z %s.</label>
+			<label index="paginate_next">Następna</label>
+			<label index="paginate_previous">Poprzednia</label>
+
+			<label index="entry">Wpis</label>
+			<label index="entries">Wpisy</label>
+
+			<label index="search-noresult">Nie znaleziono żadnych wiadomości.</label>
+			<label index="list_nonewsfound">Nie znaleziono żadnych artykułów.</label>
+		</languageKey>
+
+		<languageKey index="it" type="array">
+
+			<label index="paginate_overall">pagina %s di %s.</label>
+			<label index="paginate_next">successiva</label>
+			<label index="paginate_previous">precedente</label>
+
+			<label index="entry">voce</label>
+			<label index="entries">voci</label>
+
+			<label index="search-noresult">Non è stata trovata nessuna news.</label>
+			<label index="list_nonewsfound">Non sono presenti articoli.</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+
+			<label index="paginate_overall">Page %s sur %s.</label>
+			<label index="paginate_next">Suivante</label>
+			<label index="paginate_previous">Précédente</label>
+
+			<label index="entry">Entrée</label>
+			<label index="entries">Entrées</label>
+
+			<label index="search-noresult">Aucune actualité trouvée.</label>
+			<label index="list_nonewsfound">Aucun article existant.</label>
+		</languageKey>
+		<languageKey index="nl" type="array">
+
+			<label index="paginate_overall">Pagina %s van %s.</label>
+			<label index="paginate_next">Volgende</label>
+			<label index="paginate_previous">Vorige</label>
+
+			<label index="entry">Vermelding</label>
+			<label index="entries">Vermeldingen</label>
+
+			<label index="search-noresult">Geen nieuws gevonden.</label>
+			<label index="list_nonewsfound">Geen artikels aanwezig.</label>
+		</languageKey>
+		<languageKey index="cs" type="array">
+
+			<label index="paginate_overall">Strana %s z %s.</label>
+			<label index="paginate_next">Další</label>
+			<label index="paginate_previous">Následující</label>
+
+			<label index="entry">Záznam</label>
+			<label index="entries">Záznamy</label>
+
+			<label index="search-noresult">Nebyly nalezeny žádné novinky.</label>
+			<label index="list_nonewsfound">Žádné články k dipozici.</label>
+		</languageKey>
+		<languageKey index="el" type="array">
+
+			<label index="paginate_overall">Σελίδα %s από %s.</label>
+			<label index="paginate_next">Επόμενο</label>
+			<label index="paginate_previous">Προηγούμενο</label>
+
+			<label index="entry">Καταχώρηση</label>
+			<label index="entries">Καταχωρήσεις</label>
+
+			<label index="search-noresult">Δεν βρέθηκαν νέα.</label>
+			<label index="list_nonewsfound">Δεν υπάρχουν άρθρα.</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">TemplaVoilà-Abbildung</label>
+      <label index="mapping_file.description"/>
+      <label index="mapping_file_showXMLDS.description"/>
+      <label index="mapping_file_loadDSXML.description"/>
+      <label index="mapping_file_createDSTO.description"/>
+      <label index="mapping_to.description"/>
+      <label index="mapping_to_htmlheaderparts.description"/>
+      <label index="mapping_to_openInOwnWindow.description"/>
+      <label index="mapping_to_modifyDSTO.description"/>
+      <label index="mapping_head_mapping_instructions.description"/>
+      <label index="mapping_head_sample_data.description"/>
+      <label index="mapping_head_dataElement.description"/>
+      <label index="mapping_head_Field.description"/>
+      <label index="mapping_head_HTMLpath.description"/>
+      <label index="mapping_head_Action.description"/>
+      <label index="mapping_head_Rules.description"/>
+      <label index="mapping_head_Edit.description"/>
+      <label index="mapping_window_modes.description"/>
+      <label index="mapping_window_help.description"/>
+      <label index="mapping_basics.description"/>
+      <label index="mapping_to_headerParts.description"/>
+      <label index="mapping_to_headerParts_buttons.description"/>
+      <label index="mapping_editform.description"/>
+      <label index="mapping_addfield.description"/>
+      <label index="mapping_modeset.description"/>
+      <label index="mapping_ds.description"/>
+      <label index="mapping_ds_to.description"/>
+      <label index="mapping_ds_showXML.description"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

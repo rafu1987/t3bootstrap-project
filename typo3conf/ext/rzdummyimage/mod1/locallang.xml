@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;tools_txrzdummyimageM1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">Dummy Image</label>
+		    <label index="about">About</label>
+		    <label index="width">Width</label>
+		    <label index="height">Height</label>
+		    <label index="text">Text</label>
+		    <label index="textColor">Text color</label>
+		    <label index="backgroundColor">Background color</label>
+		    <label index="obligatory">Obligatory data</label>
+		    <label index="preview">Preview</label>
+		    <label index="save">Save</label>
+		    <label index="imageSaved">Dummy Image saved.</label>
+		    <label index="path">Path</label>
+        <label index="format">Format</label>
+        <label index="ad_sizes">Ad Sizes</label>
+        <label index="screen_standards">Screen Standards</label>
+        <label index="video_standards">Video Standards</label>
+        </languageKey>
+		
+        <languageKey index="si" type="array">
+			<label index="title">Dummy Image</label>
+		    <label index="about">O programu</label>
+		    <label index="width">Širina</label>
+		    <label index="height">Višina</label>
+		    <label index="text">Tekst</label>
+		    <label index="textColor">Barva teksta</label>
+		    <label index="backgroundColor">Barva ozadja</label>
+		    <label index="obligatory">Obvezni podatki</label>
+		    <label index="preview">Predogled</label>
+		    <label index="save">Shrani</label>
+		    <label index="imageSaved">Slika shranjena.</label>
+		    <label index="path">Pot</label>
+        <label index="format">Format</label>
+        <label index="ad_sizes">Ad Sizes</label>
+        <label index="screen_standards">Screen Standards</label>
+        <label index="video_standards">Video Standards</label>
+        </languageKey>
+		
+        <languageKey index="sl" type="array">
+			<label index="title">Dummy Image</label>
+		    <label index="about">O programu</label>
+		    <label index="width">Širina</label>
+		    <label index="height">Višina</label>
+		    <label index="text">Tekst</label>
+		    <label index="textColor">Barva teksta</label>
+		    <label index="backgroundColor">Barva ozadja</label>
+		    <label index="obligatory">Obvezni podatki</label>
+		    <label index="preview">Predogled</label>
+		    <label index="save">Shrani</label>
+		    <label index="imageSaved">Slika shranjena.</label>
+		    <label index="path">Pot</label>
+        <label index="format">Format</label>
+        <label index="ad_sizes">Ad Sizes</label>
+        <label index="screen_standards">Screen Standards</label>
+        <label index="video_standards">Video Standards</label>
+        </languageKey>
+        
+        <languageKey index="de" type="array">
+			<label index="title">Dummy Image</label>
+		    <label index="about">Über</label>
+		    <label index="width">Breite</label>
+		    <label index="height">Höhe</label>
+		    <label index="text">Text</label>
+		    <label index="textColor">Textfarbe</label>
+		    <label index="backgroundColor">Hintergrundfarbe</label>
+		    <label index="obligatory">Pflichtfelder</label>
+		    <label index="preview">Vorschau</label>
+		    <label index="save">Speichern</label>
+		    <label index="imageSaved">Bild gespeichert</label>
+		    <label index="path">Pfad</label>
+        <label index="format">Format</label>
+        <label index="ad_sizes">Bannergrößen</label>
+        <label index="screen_standards">Bildschirm Standards</label>
+        <label index="video_standards">Video Standards</label>
+        </languageKey>        
+	</data>
+</T3locallang>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="version_swap.online_record_updated">Datensatz '%s' (%s) wurde aktualisiert. (Online-Version)</label>
+      <label index="version_swap.offline_record_updated">Datensatz '%s' (%s) wurde aktualisiert. (Offline-Version)</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

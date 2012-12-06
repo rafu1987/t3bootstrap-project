@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="sel1">Wählen Sie bitte den Typ des Seiteninhalts aus, den Sie erzeugen wollen:</label>
+      <label index="sel2">Wählen Sie nun die Position aus, an der das Element auf der Seite positioniert werden soll:</label>
+      <label index="common">Typischer Seiteninhalt</label>
+      <label index="common_1_title">Normaler Text</label>
+      <label index="common_1_description">Fügt ein normales Textelement ein.</label>
+      <label index="common_2_title">Text mit darunter liegendem Bild</label>
+      <label index="common_2_description">Fügt ein normales Textelement ein, unter dem eine Reihe von Bilder angezeigt werden kann.</label>
+      <label index="common_3_title">Text mit rechts liegendem Bild</label>
+      <label index="common_3_description">Fügt einen normales Textelement ein, an dessen rechter Seite eine Reihe von Bildern angezeigt werden kann.</label>
+      <label index="common_4_title">Nur Bilder</label>
+      <label index="common_4_description">Eine beliebige Anzahl in Zeilen und Spalten angeordneter Bilder mit Beschriftung.</label>
+      <label index="common_5_title">Aufzählung</label>
+      <label index="common_5_description">Eine einzelne Aufzählungsliste.</label>
+      <label index="common_6_title">Tabelle</label>
+      <label index="common_6_description">Eine einfache Tabelle mit bis zu 8 Spalten.</label>
+      <label index="special">Spezielle Elemente</label>
+      <label index="special_1_title">Dateiverweise</label>
+      <label index="special_1_description">Fügt eine Liste von Dateien zum Herunterladen ein.</label>
+      <label index="special_2_title">Multimedia</label>
+      <label index="special_2_description">Fügt ein Medienelement (Flash-Animation, Video, Musikstück usw.) ein.</label>
+      <label index="special_3_title">Sitemap</label>
+      <label index="special_3_description">Erzeugt eine Sitemap für die Web-Site.</label>
+      <label index="special_4_title">HTML</label>
+      <label index="special_4_description">Mit diesem Element kann reiner HTML-Quelltext auf der Seite eingefügt werden.</label>
+      <label index="forms">Formulare</label>
+      <label index="forms_1_title">Mail-Formular</label>
+      <label index="forms_1_description">Ein Mail-Formular, mit dem Besucher der Web-Site Ihnen Bemerkungen zuschicken können.</label>
+      <label index="forms_2_title">Suchformular</label>
+      <label index="forms_2_description">Fügt ein Suchformular auf der Seite ein, sowie ggf. das Suchergebnis.</label>
+      <label index="forms_3_title">Anmeldeformular</label>
+      <label index="forms_3_description">An-/Abmeldeformular für Benutzer. Dies wird für passwortgeschützte Web-Seiten benutzt. Sie müssen Web-Site-Benutzer und Benutzergruppen anlegen, um den Seitenschutz benutzen zu können.</label>
+      <label index="plugins">Plug-Ins</label>
+      <label index="plugins_1_title">Allgemeines Plug-In</label>
+      <label index="plugins_1_description">Wenn Sie ein Plug-In einfügen wollen, welches nicht in den nachstehenden Optionen aufgeführt ist, dann wählen Sie diesen Element-Typ und anschließend das gewünschte Plug-In aus der Auswahlliste.</label>
+      <label index="fce">Flexibler Inhalt</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

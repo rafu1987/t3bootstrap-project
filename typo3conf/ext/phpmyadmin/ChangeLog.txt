@@ -1,0 +1,240 @@
+2012-11-28  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.15.0
+	* Set TYPO3 6.0 compatibility
+	* Feature: Updated pMA to the latest stable release (3.5.4)
+	* Fix: #42517: Typo3 6.0 - 'backend required' error
+
+2012-08-13  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.14.0
+	* Feature: Updated pMA to the latest stable release (3.5.2.2)
+	* Fix: #18560: Every first BE-Login fails (thanks to Markus Kappe for a patch and the others for testing)
+	* Security: Includes non-critical security fixes
+		* PMASA-2012-3: Path disclosure due to missing library.
+		* PMASA-2012-4: Fixed XSS vulnerabilities.
+
+2012-03-31  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.13.0
+	* Feature: Updated pMA to the latest stable release (3.4.10.2)
+	* Fix: #18245: phpmyadmin 4.11.3 - Error on first Access after login (thanks to Jerome Schneider for the patch!)
+
+2012-02-14  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.12.0
+	* Feature: Updated pMA to the latest stable release (3.4.10)
+
+2011-12-22  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.11.10
+	* Feature: Updated pMA to the latest stable release (3.4.9)
+	* Security: Non-critical security fixes
+		* PMASA-2011-20: XSS in export.
+
+2011-11-10  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.11.9
+	* Feature: Updated pMA to the latest stable release (3.4.7.1)
+	* Security: Security fixes
+		* PMASA-2011-17: Local file inclusion.
+
+2011-10-23  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.11.8 (version number 4.11.7 was skipped due an erroneous upload in EM)
+	* Feature: Updated pMA to the latest stable release (3.4.7)
+
+2011-10-16  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.11.6
+	* Feature: Updated pMA to the latest stable release (3.4.6)
+	* Security: Security fixes
+		* PMASA-2011-15: Local path disclosure vulnerability.
+		* PMASA-2011-16: XSS in setup (host/verbose parameter)
+
+2011-09-14  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.11.5
+	* Feature: Updated pMA to the latest stable release (3.4.5)
+	* Security: Security fixes
+		* PMASA-2011-14: Multiple XSS
+
+2011-08-24  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.11.4
+	* Feature: Updated pMA to the latest stable release (3.4.4)
+	* Security: Security fixes
+		* PMASA-2011-13: Multiple XSS in the Tracking feature
+
+2011-07-23  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.11.3
+	* Feature: Updated pMA to the latest stable release (3.4.3.2)
+	* Security: Security fixes
+		* PMASA-2011-9: XSS in table Print view
+		* PMASA-2011-10: Local file inclusion
+		* PMASA-2011-11: Local file inclusion vulnerability and code execution
+		* PMASA-2011-12: Possible session manipulation in swekey authentication
+
+2011-07-03  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.11.2
+	* Feature: Updated pMA to the latest stable release (3.4.3.1)
+	* Security: Security fixes
+		* PMASA-2011-5: Fixed possible session manipulation in swekey authentication
+		* PMASA-2011-6: Fixed possible code injection incase session variables are compromised
+		* PMASA-2011-7: Fixed regexp quoting issue in Synchronize code
+
+2011-05-23  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.11.1
+	* Fixed #18148: Configuration: Allowed IPs doesn't work
+
+2011-05-21  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.11.0
+	* Feature: Updated pMA to the latest stable release (3.4.1)
+	* Security: Security fix (PMASA-2011-3)
+
+2011-03-07  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.10.3
+	* Implemented #15492: 'doNotLoadInFE' => 1 in EM_CONF
+
+2011-03-07  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.10.3
+	* Fixed #17850: Using t3lib_div::cmpIP for access control
+
+2011-02-26  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.10.0
+	* Feature: Updated pMA to the latest stable release (3.3.9.2)
+	* Feature: IP-Access restrictions in extension configuration (Thanks to Søren Malling!)
+	* Feature: TYPO3 4.5 compatibility
+	* Change: Disabled the TYPO3 theme until next update
+
+2010-08-20  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.9.0
+	* Security: Security fix (PMASA-2010-5 and TYPO3-SA-2010-017): Several XSS vulnerabilities were found in the code.
+	* Feature: Updated pMA to the latest stable release (3.3.5.1)
+
+2010-07-28  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.8.1
+	* Security: Critical security fix for broken backend permission check (TYPO3-SA-2010-014)
+
+2010-03-05  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.8.0
+	* Feature: Updated pMA to the latest stable release (3.2.5)
+	* Fixed #13481: Get signon uri for redirect (basic patches provided by Michael Klapper and Fabrizio Branca, thanks!)
+	* Follow-up/Changed: Using vars $extPath and $typo3DocumentRoot
+
+2009-11-26  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.7.3
+	* Feature #12678: Allow empty password for mysql user.
+
+2009-11-26  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.7.2
+	* Fixed #12772: Removed erroneous require statement
+
+2009-11-25  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.7.1
+	* Fixed a bug: Fixed another issue with path calculation (works now for installations in subdirectories)
+	* Feature: Compatibility for TYPO3 4.3
+
+2009-11-19  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.7.0
+	* Fixed #12056: Wrong calculation of $BACK_PATH
+	* Workaround for #12057: Empty MySQL password blocks EXT:phpmyadmin
+	* Feature: Updated pMA to the latest stable release (3.2.3)
+	* Feature: Added custom TYPO3 theme
+
+2009-11-19  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.6.0 - was erroneously omitted during update and released as 4.7.0
+
+2009-10-15  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.5.0
+	* Security: Security fix (PMASA-2009-6): XSS and SQL injection vulnerabilities
+	* Feature: Updated pMA to the latest stable release (3.2.2.1)
+	* Feature: Updated the manual to latest documentation template
+
+2009-06-15  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.4.0
+	* Feature: Updated pMA to the latest stable release (3.2.0)
+	* Fixed a bug: Logoff in 4.3.x did not work since directory name was wrong
+
+2009-03-24  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.3.0
+	* Security: Security fix (PMASA-2009-3): Insufficient output sanitizing when generating configuration file.
+	* Feature: Updated pMA to the latest stable release (3.1.3.1)
+
+2008-12-14  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.2.0
+	* Security: Security fix (PMASA-2008-10): SQL injection through XSRF on several pages
+	* Feature: Updated pMA to the latest stable release (3.1.1)
+	* Changed extension config: Set 'clearcacheonload' to 0
+	* Renamed ChangeLog to ChangeLog.txt
+
+2008-11-01  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.1.1
+	* Security: Security fix (PMASA-2008-9): XSS in a Designer component
+	* Feature: Updated pMA to the latest stable release (3.0.1.1)
+	* Feature: Configuration: Restored the default behavior of the left navigation frame. Set link to sql.php - Thanks to Julian Hofman for pointing me to this option.
+
+2008-10-25  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.1.0
+	* Updated pMA to the latest stable release (3.0.1)
+	* Fixed bug #6934: Setting the path variables in SESSION to avoid file includes
+	* Feature: Changed extension to use typo3/mod.php. See also http://bugs.typo3.org/view.php?id=5278
+
+2008-10-02  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.0.1
+	* Trying to fix the redirect bug by a forcing the cookie according to
+	  issue #8884 http://bugs.typo3.org/view.php?id=8884#c23323
+	  suggested by Rene Nitzsche
+
+2008-09-28  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.0.0
+	* Updated pMA to the latest stable release (3.0.0)
+	* Branching the pMA extension into two branches: The 3.x series with PHP4 support and the 4.x series with a minimum requirement of PHP5 (5.2 and above). This version supports various features of MySQL 5.1, the Maria and PBXT storage engines. The 3.0 series of PhpMyAdmin requires PHP 5.2+ and MySQL 5.0.15+.
+	* Old (3.x) versions may be obtained at https://www.mehrwert.de/go/t3x
+
+2008-09-22  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 3.4.0
+	* Security fix (PMASA-2008-8): XSS in MSIE using NUL byte
+	* Updated pMA to the latest stable release (2.11.9.2)
+
+2008-09-15  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 3.3.0 (skipping 3.2.0 see below)
+	* Security fix (PMASA-2008-7): Code execution vulnerability
+	* Updated pMA to the latest stable release (2.11.9.1)
+
+2008-06-25  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 3.1.0 (was release as 3.2.0 by the TYPO3 Security Team by accident)
+	* Security fix (PMASA-2008-4): XSS on plausible insecure PHP installation
+	* Updated pMA to the latest stable release (2.11.7)
+	* Changed handling of required/included files
+	* Removed XCLASS call in modsub/index.php
+
+2008-05-01  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 3.0.1
+	* Fixed a bug related to required files (only occurred if pMA is installed globally). Thanks to Laurent for pointing me to this issue.
+
+2008-04-30  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 3.0.0
+	* Updated pMA to the latest stable release (2.11.6)
+	* Changed the authentication concept for pMA
+		- Using ÈsignonÇ auth (see http://wiki.cihar.com/pma/auth_types#signon) now
+		  (Thanks to Marc Bastian Heinrichs for pointing me to this method)
+		- Added a call to the TYPO3 BE logoff hook to delete the pMA session on logout
+	* The admin may choose in the extension configuration (in EM) to show non-TYPO3 databases (if the SQL User has access to)
+	* The admin may define a path for dumped files and uploads
+	* Updated the version number
+
+2007-07-16  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 0.2.2
+	* Security fix (Issue #4110): Provides exactly the same functionality as the previous version but contains an important bug fix.
+
+2007-02-10  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 0.2.1
+	* Merged changes from latest release of the global extension (from T3 3.8.1)
+	* Updated phpMyAdmin to 2.6.4pl3 for security reasons
+	* Extension is no longer a shy extension
+	* Removed lock type GLOBAL, extension can be installed locally
+	* Merged new translations
+
+2006-09-10  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 0.1.1
+	* Pre-release of 2.6.4pl3
+
+2006-08-16  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 0.1.0
+	* Updated the phpMyAdmin version to 2.6.0pl3 and fixed the stylesheet bug
+	* Merged translations
+
+2005-11-09  Michael Stucki  <michael@typo3.org>
+	* New upstream release
+	* Check server environment settings using isset() - caused phpMyAdmin module to stop loading otherwise

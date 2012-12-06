@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="No font" xml:space="preserve" approved="yes">
+        <source>No font</source>
+      <target state="translated">Keine Schriftart</target></trans-unit>
+      <trans-unit id="No size" xml:space="preserve" approved="yes">
+        <source>No font size</source>
+      <target state="translated">Keine Schriftgröße</target></trans-unit>
+    </body>
+  </file>
+</xliff>

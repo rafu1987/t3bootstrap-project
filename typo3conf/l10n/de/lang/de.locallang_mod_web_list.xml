@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Liste der Datensätze</label>
+      <label index="mlang_labels_tabdescr">Das Modul Web &gt; Liste bietet den grundlegendsten Zugriff auf die Datensätze einer Seite.</label>
+      <label index="mlang_tabs_tab">Liste</label>
+      <label index="clip_pasteAfter">Einfügen nach: Inhalt der Zwischenablage wird nach diesem Datensatz eingefügt</label>
+      <label index="clip_pasteInto">Einfügen in: Inhalt der Zwischenablage wird in diese Seite eingefügt</label>
+      <label index="clip_paste">Zwischenablageninhalt einfügen</label>
+      <label index="clip_markRecords">Alles/nichts markieren</label>
+      <label index="clip_selectMarked">Ausgewählte Datensätze in die Zwischenablage übertragen</label>
+      <label index="clip_duplicates">Duplikate markieren</label>
+      <label index="clip_editMarked">Markierte bearbeiten</label>
+      <label index="clip_deleteMarked">Markierte löschen</label>
+      <label index="clip_deleteMarkedWarning">Alle markieren Datensätze tatsächlich aus der Tabelle "%s" löschen?</label>
+      <label index="showInfo">Informationen anzeigen</label>
+      <label index="edit">Datensatz bearbeiten</label>
+      <label index="editPage">Seiteneigenschaften bearbeiten</label>
+      <label index="new">Datensatz erstellen</label>
+      <label index="newPage">Neue Seite nach dieser Seite erstellen</label>
+      <label index="newRecord">Neuen Datensatz nach diesem Datensatz erstellen</label>
+      <label index="newRecordGeneral">Neuen Datensatz erstellen</label>
+      <label index="moveUp">Nach oben verschieben</label>
+      <label index="moveDown">Nach unten verschieben</label>
+      <label index="move_record">Datensatz verschieben</label>
+      <label index="move_page">Seite verschieben</label>
+      <label index="hide">Datensatz verbergen</label>
+      <label index="unHide">Datensatz sichtbar machen</label>
+      <label index="hidePage">Seite verbergen</label>
+      <label index="unHidePage">Seite sichtbar machen</label>
+      <label index="prevLevel">Diese Seite hinter die derzeit übergeordnete Seite verschieben (einwärts)</label>
+      <label index="nextLevel">Diese Seite als Unterseite in die derzeit vorhergehende Seite verschieben (auswärts)</label>
+      <label index="delete">Datensatz löschen(!)</label>
+      <label index="history">Änderungsverlauf anzeigen/Rückgängig</label>
+      <label index="displayVersions">Versionen anzeigen</label>
+      <label index="permissions">Zugriffsrechte für Seite festlegen</label>
+      <label index="largeControl">Erweiterte Ansicht</label>
+      <label index="contractView">Alle Tabellen anzeigen</label>
+      <label index="expandView">Nur diese Tabelle anzeigen</label>
+      <label index="showClipBoard">Zwischenablage anzeigen</label>
+      <label index="editShownColumns">Alle angezeigten Felder der aufgeführten Datensätze bearbeiten</label>
+      <label index="editThisColumn">Das Feld "%s" der aufgeführten Datensätze bearbeiten</label>
+      <label index="deleteWarning">Diesen Datensatz tatsächlich löschen?</label>
+      <label index="localization">Lokalisierungsansicht</label>
+      <label index="defaultLanguage">Standard</label>
+      <label index="multipleLanguages">Alle Sprachen</label>
+      <label index="Localize">Lokalisieren:</label>
+      <label index="viewRecords">Anzeige der Datensätze von</label>
+      <label index="pageIndicator">Seite %1$s von %2$d</label>
+      <label index="rangeIndicator">Datensätze %1$s - %2$d</label>
+      <label index="missingTcaColumnsMessageTitle"/>
+      <label index="missingTcaColumnsMessage"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

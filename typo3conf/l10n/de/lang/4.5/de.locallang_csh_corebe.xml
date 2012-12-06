@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="new_regular.image_descr">Die Auswahl an Datensätzen, die ein Benutzer auf dieser Seite anlegen kann. Die Auswahl hängt von den Rechten des Benutzers und vom Seitentyp ab. Zum Beispiel kann eine Seite des Typs "Ordner" jede Art von Datensatz enthalten, während normale Seiten nur einige Typen (wie etwa Inhaltselemente) enthalten können.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

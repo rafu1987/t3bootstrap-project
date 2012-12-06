@@ -1,0 +1,6 @@
+plugin.tx_t3jquery {
+
+	# cat=plugin.tx_t3jquery.ui-cupertino/file/010; type=file[css]; label=jQuery UI Cupertino
+	file.UI-Cupertino = EXT:t3jquery/res/css/ui/cupertino/jquery-ui-1.8.20.custom.css
+
+}

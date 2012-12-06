@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tsconfig_help" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>TypoScript Help</source>
+      <target state="translated">TypoScript-Hilfe</target></trans-unit>
+      <trans-unit id="display" xml:space="preserve" approved="yes">
+        <source>Display TypoScript Help</source>
+      <target state="translated">TypoScript-Hife anzeigen</target></trans-unit>
+      <trans-unit id="rebuild" xml:space="preserve" approved="yes">
+        <source>Rebuild TypoScript Help</source>
+      <target state="translated">TypoScript-Hilfe neu erzeugen</target></trans-unit>
+      <trans-unit id="referenceExplanation" xml:space="preserve" approved="yes">
+        <source>Choose from the following reference data</source>
+      <target state="translated">Wählen Sie aus folgenden Referenzdaten</target></trans-unit>
+      <trans-unit id="referenceExplanationDetailed" xml:space="preserve" approved="yes">
+        <source>In order to view the different TypoScript help popup windows, select from the following reference icons. This online help is built automatically from the manuals available in the installed extensions on your TYPO3 server. To rebuild the help files when you add or remove an extension, you will need to select the "Rebuild TypoScript Help" function of this module.</source>
+      <target state="translated">Zum Anzeigen der verschiedenen Popup-Fenster der TypoScript-Hilfe eines der folgenden Referenzsymbole auswählen. Diese Online-Hilfe wird automatisch aus den auf Ihrem TYPO3-Server installierten Erweiterungen erzeugt. Um die Hilfedateien neu erzeugen zu lassen, nachdem Erweiterungen hinzugefügt oder entfernt wurden, benutzen Sie bitte die Funktion "TypoScript-Hilfe neu erzeugen" dieses Moduls.</target></trans-unit>
+      <trans-unit id="displayReferences" xml:space="preserve" approved="yes">
+        <source>Display TypoScript Online Help</source>
+      <target state="translated">TypoScript-Online-Hilfe anzeigen</target></trans-unit>
+      <trans-unit id="loadedTSfrom" xml:space="preserve" approved="yes">
+        <source>Loaded TypoScript from:</source>
+      <target state="translated">TypoScript geladen von:</target></trans-unit>
+      <trans-unit id="sections" xml:space="preserve" approved="yes">
+        <source>sections</source>
+      <target state="translated">Abschnitte</target></trans-unit>
+      <trans-unit id="rebuildTS" xml:space="preserve" approved="yes">
+        <source>Rebuild TypoScript online help</source>
+      <target state="translated">TypoScript-Onine-Hilfe neu erzeugen</target></trans-unit>
+      <trans-unit id="warning_manualsWithoutMarkers" xml:space="preserve" approved="yes">
+        <source>The following manuals contain one or more tables without markers: </source>
+      <target state="translated">Folgende Handbücher enthalten eine oder mehrere Tabellen ohne Markierungen:</target></trans-unit>
+      <trans-unit id="warning_duplicateMarkers" xml:space="preserve" approved="yes">
+        <source>The following markers appear in several manuals or several times in the same manual:</source>
+      <target state="translated">Folgende Markierungen erscheinen in mehreren Handbüchern oder mehrmals im selben Handbuch:</target></trans-unit>
+      <trans-unit id="updateWarnings" xml:space="preserve" approved="yes">
+        <source>Update warnings</source>
+      <target state="translated">Aktualisierungswarnung</target></trans-unit>
+      <trans-unit id="rebuildExplanation" xml:space="preserve" approved="yes">
+        <source>Rebuilding the online help will totally wipe the online help database before parsing the TypoScript help for loaded extensions. We suggest you to have doc_core_tsref and doc_core_tsconfig installed to have them parsed as well.</source>
+      <target state="translated">Der Neuaufbau der Online-Hilfe löscht die Datenbank für die Online-Hilfe vollständig, bevor die TypoScript-Hilfe geladener Erweiterungen verarbeitet wird. Es empfiehlt sich, doc_core_tsref und doc_core_tsconfig ebenfalls zu installieren, damit auch sie verarbeitet werden.</target></trans-unit>
+      <trans-unit id="adminAccessOnly" xml:space="preserve" approved="yes">
+        <source>Access to this function of the module is restricted to admins.</source>
+      <target state="translated">Der Zugriff auf diese Funktion des Moduls ist auf Administratoren beschränkt.</target></trans-unit>
+      <trans-unit id="noRebuildOnWindows" xml:space="preserve" approved="yes">
+        <source>The Rebuild function does not run on Windows systems. Sorry!</source>
+      <target state="translated">Die Neuaufbau-Funktion funktioniert nicht mit Windows-Systemen. Entschuldigung!</target></trans-unit>
+    </body>
+  </file>
+</xliff>

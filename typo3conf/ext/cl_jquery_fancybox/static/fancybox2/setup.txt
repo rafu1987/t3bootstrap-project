@@ -1,0 +1,93 @@
+
+[globalVar = LIT:1 = {$plugin.cljqueryfancybox.includejquerycore}]
+page.includeJSFooterlibs {
+	jquery = http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+	jquery.external = 1
+	jquery.forceOnTop = 1
+}
+[global]
+
+page.includeJSFooter {
+	jquery_mousewheel = EXT:cl_jquery_fancybox/fancybox2/jquery.mousewheel-3.0.6.pack.js
+	jquery_fancybox = EXT:cl_jquery_fancybox/fancybox2/jquery.fancybox.js
+}
+
+page.includeCSS {
+	fancybox = EXT:cl_jquery_fancybox/fancybox2/jquery.fancybox.css
+	fancybox.media = screen
+	fancybox.compress = true
+}
+
+
+page.jsFooterInline.800 = COA
+page.jsFooterInline.800 {
+	wrap = jQuery(document).ready(function() { jQuery('a[class*=lightbox]').fancybox({|});  });
+	10 = TEXT
+	10.value (
+		'padding' : {$plugin.cljqueryfancybox.padding},
+		'margin' : {$plugin.cljqueryfancybox.margin},
+		'width' : {$plugin.cljqueryfancybox.width},
+		'height' : {$plugin.cljqueryfancybox.height},
+		'minWidth' : {$plugin.cljqueryfancybox.minWidth},
+		'minHeight' : {$plugin.cljqueryfancybox.minHeight},
+		'maxWidth' : {$plugin.cljqueryfancybox.maxWidth},
+		'maxHeight' : {$plugin.cljqueryfancybox.maxHeight},
+		'autoSize' : {$plugin.cljqueryfancybox.autoSize},
+		'fitToView' : {$plugin.cljqueryfancybox.fitToView},
+		'aspectRatio' : {$plugin.cljqueryfancybox.aspectRatio},
+		'topRatio' : {$plugin.cljqueryfancybox.topRatio},
+		'fixed' : {$plugin.cljqueryfancybox.fixed},
+		'scrolling' : '{$plugin.cljqueryfancybox.scrolling}',
+		'wrapCSS' : '{$plugin.cljqueryfancybox.wrapCSS}',
+		'arrows' : {$plugin.cljqueryfancybox.arrows},
+		'closeBtn' : {$plugin.cljqueryfancybox.closeBtn},
+		'closeClick' : {$plugin.cljqueryfancybox.closeClick},
+		'nextClick' : {$plugin.cljqueryfancybox.nextClick},
+		'mouseWheel' : {$plugin.cljqueryfancybox.mouseWheel},
+		'loop' : {$plugin.cljqueryfancybox.loop},
+		'modal' : {$plugin.cljqueryfancybox.modal},
+		'autoPlay' : {$plugin.cljqueryfancybox.autoPlay},
+		'playSpeed' : {$plugin.cljqueryfancybox.playSpeed},
+		'index' : {$plugin.cljqueryfancybox.index},
+		'type' : {$plugin.cljqueryfancybox.type},
+		'href' : {$plugin.cljqueryfancybox.href},
+		'content' : {$plugin.cljqueryfancybox.content},
+		'openEffect' : '{$plugin.cljqueryfancybox.openEffect}',
+		'closeEffect' : '{$plugin.cljqueryfancybox.closeEffect}',
+		'nextEffect' : '{$plugin.cljqueryfancybox.nextEffect}',
+		'prevEffect' : '{$plugin.cljqueryfancybox.prevEffect}',
+		'openSpeed' : {$plugin.cljqueryfancybox.openSpeed},
+		'closeSpeed' : {$plugin.cljqueryfancybox.closeSpeed},
+		'nextSpeed' : {$plugin.cljqueryfancybox.nextSpeed},
+		'prevSpeed' : {$plugin.cljqueryfancybox.prevSpeed},
+		'openEasing' : '{$plugin.cljqueryfancybox.openEasing}',
+		'closeEasing' : '{$plugin.cljqueryfancybox.closeEasing}',
+		'nextEasing' : '{$plugin.cljqueryfancybox.nextEasing}',
+		'prevEasing' : '{$plugin.cljqueryfancybox.prevEasing}',
+		'openOpacity' : {$plugin.cljqueryfancybox.openOpacity},
+		'closeOpacity' : {$plugin.cljqueryfancybox.closeOpacity},
+		'openMethod' : '{$plugin.cljqueryfancybox.openMethod}',
+		'closeMethod' : '{$plugin.cljqueryfancybox.closeMethod}',
+		'nextMethod' : '{$plugin.cljqueryfancybox.nextMethod}',
+		'prevMethod' : '{$plugin.cljqueryfancybox.prevMethod}',
+		'groupAttr' : 'data-fancybox-group',
+		'beforeShow' : function(opts) {
+			this.title = (jQuery(this.group[this.index]).attr('title') != undefined ? jQuery(this.group[this.index]).attr('title') : jQuery(this.group[this.index]).find('img').attr('title'));
+		}
+	)
+}
+
+# HTML5 Validität: data-fancybox-group anstatt rel verwenden
+tt_content.image.20.1.imageLinkWrap.linkParams.ATagParams.dataWrap = class="{$styles.content.imgtext.linkWrap.lightboxCssClass}" data-fancybox-group="lightbox{field:uid}"
+
+
+# tt_news
+plugin.tt_news.displaySingle.image.imageLinkWrap {
+   JSwindow = 0
+   directImageLink = 1
+   linkParams.ATagParams.dataWrap = class="{$styles.content.imgtext.linkWrap.lightboxCssClass}" data-fancybox-group="lightbox{field:uid}"
+   width = {$styles.content.imgtext.linkWrap.width}
+   height = {$styles.content.imgtext.linkWrap.height}
+}
+
+

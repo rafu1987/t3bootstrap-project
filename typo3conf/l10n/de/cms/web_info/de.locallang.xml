@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="page_title">Seitenbaumübersicht</label>
+      <label index="page_sysnote">Interne Notizen</label>
+      <label index="pageInformation">Seiteninformationen</label>
+      <label index="pages_0">Basiseinstellungen</label>
+      <label index="pages_2">Cache und Alter</label>
+      <label index="pages_1">Datensatzübersicht</label>
+      <label index="stat_type_0">Seitenzugriffe</label>
+      <label index="stat_type_1">Zugriffe insgesamt</label>
+      <label index="stat_type_2">Zugriffe auf Hauptbereich</label>
+      <label index="stat_period">Statistik der Zeitspanne %s zurück bis %s</label>
+      <label index="pI_crUser">Erstellt von</label>
+      <label index="pI_crDate">Erstellt am</label>
+      <label index="pI_lastChange">Letzte Änderung</label>
+      <label index="pI_lastChangeContent">Letzte Änderung, Inhalt</label>
+      <label index="hits_title">Zugriffsstatistik</label>
+      <label index="lang_renderl10n_viewPage">Seite anzeigen</label>
+      <label index="lang_title">Lokalisierungs-Übersicht</label>
+      <label index="lang_renderl10n_editDefaultLanguagePage">Seiteneigenschaften der Standardsprache bearbeiten</label>
+      <label index="lang_renderl10n_editLangOverlays">Alle Übersetzungen bearbeiten</label>
+      <label index="lang_renderl10n_editPageProperties">Alle Seiteneigenschaften bearbeiten</label>
+      <label index="lang_renderl10n_editPage">Seite bearbeiten</label>
+      <label index="lang_renderl10n_editPageLang">Übersetzung bearbeiten</label>
+      <label index="lang_renderl10n_badThingThereAre">FEHLER: Es existieren zwei oder mehr Übersetzungen für diese Seite! Nur eine ist erlaubt!</label>
+      <label index="lang_renderl10n_editLanguageOverlayRecord">Übersetzung bearbeiten</label>
+      <label index="lang_renderl10n_page">Seite</label>
+      <label index="lang_renderl10n_default">Standard</label>
+      <label index="lang_getlangsta_createNewTranslationHeaders">Neue Übersetzungen erstellen</label>
+      <label index="lang_renderl10n_CEcount">Anzahl Inhaltselemente</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

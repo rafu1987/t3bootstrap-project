@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mod_linkvalidator">Linkvalidierung</label>
+      <label index="tasks.validate.name">Linkvalidierung</label>
+      <label index="tasks.validate.description">Sucht nach defekten Links und speichert das Ergebnis in der Datenbanktabelle tx_linkvalidator_link, um die Benutzung des Backendmoduls zu vereinfachen.</label>
+      <label index="tasks.validate.page">Startseite (uid)</label>
+      <label index="tasks.validate.depth">Tiefe</label>
+      <label index="tasks.validate.conf">TSconfig überschreiben</label>
+      <label index="tasks.validate.email">E-Mail-Bericht senden an</label>
+      <label index="tasks.validate.emailOnBrokenLinkOnly">E-Mail nur senden, wenn neue defekte Links gefunden wurden</label>
+      <label index="tasks.validate.emailTemplateFile">Vorlagendatei für E-Mail</label>
+      <label index="tasks.validate.invalidEmail">Ungültiges Format der E-Mail-Adresse!</label>
+      <label index="tasks.validate.invalidPage">Ungültige Seiten-ID! Bitte geben Sie eine gültige ID ein.</label>
+      <label index="tasks.validate.invalidDepth">Sie haben keine Tiefe angegeben! Bitte setzen Sie einen der angebotenen Werte.</label>
+      <label index="tasks.error.noSubject">Kein Betreff für die E-Mail mit dem Bericht</label>
+      <label index="tasks.error.invalidToEmail">Ungültiges Format einer oder mehrerer Adressen der Empfänger der E-Mail!</label>
+      <label index="tasks.error.invalidFromEmail">Ungültiges Format der E-Mail-Adresse im From-Header</label>
+      <label index="tasks.error.invalidTSconfig">Ungültige TSconfig-Configuration!</label>
+      <label index="tasks.error.invalidEmailTemplateFile">Die Datei für die E-Mail-Vorlage existiert nicht!</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

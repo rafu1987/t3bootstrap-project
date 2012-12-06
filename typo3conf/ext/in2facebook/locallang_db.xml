@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'in2facebook'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_in2facebook_title">Facebook: Title of the current page</label>
+			<label index="tx_in2facebook_type">Facebook: Page type</label>
+			<label index="tx_in2facebook_type.div_activities">Activities</label>
+			<label index="tx_in2facebook_type.div_business">Business</label>
+			<label index="tx_in2facebook_type.div_groups">Groups</label>
+			<label index="tx_in2facebook_type.div_organizations">Organizations</label>
+			<label index="tx_in2facebook_type.div_people">People</label>
+			<label index="tx_in2facebook_type.div_places">Places</label>
+			<label index="tx_in2facebook_type.div_entertainment">Products and Entertainment</label>
+			<label index="tx_in2facebook_type.div_websites">Websites</label>
+			<label index="tx_in2facebook_url">Facebook: Canonical URL of this page (optional)</label>
+			<label index="tx_in2facebook_image">Facebook: Image for this page</label>
+			<label index="tx_in2facebook_site_name">Facebook: Human-readable name for your site</label>
+			<label index="tx_in2facebook_admins">Facebook: comma-separated list of either Facebook user IDs or a Facebook Platform application ID that administers this page</label>
+			<label index="tx_in2facebook_description">Facebook: A one to two sentence description of your page</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_in2facebook_title">Facebook: Der Titel der aktuellen Seite</label>
+			<label index="tx_in2facebook_type">Facebook: Typ der Seite</label>
+			<label index="tx_in2facebook_type.div_activities">Aktivitäten</label>
+			<label index="tx_in2facebook_type.div_business">Arbeit</label>
+			<label index="tx_in2facebook_type.div_groups">Gruppen</label>
+			<label index="tx_in2facebook_type.div_organizations">Organisationen</label>
+			<label index="tx_in2facebook_type.div_people">Leute</label>
+			<label index="tx_in2facebook_type.div_places">Orte</label>
+			<label index="tx_in2facebook_type.div_entertainment">Produkte und Unterhaltung</label>
+			<label index="tx_in2facebook_type.div_websites">Internetseiten</label>
+			<label index="tx_in2facebook_url">Facebook: Canonical URL dieser page (optional)</label>
+			<label index="tx_in2facebook_image">Facebook: Bild für diese Seite</label>
+			<label index="tx_in2facebook_site_name">Facebook: Lesbarer Name der Seite</label>
+			<label index="tx_in2facebook_admins">Facebook: Kommaseparierte Liste von Facebook Benutzer, welche diese Seite administrieren</label>
+			<label index="tx_in2facebook_description">Facebook: Eine kurze Beschreibung dieser Seite</label>
+		</languageKey>
+	</data>
+</T3locallang>

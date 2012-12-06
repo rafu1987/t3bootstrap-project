@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:54:34 UTC 2011" product-name="t3jquery">
+    <header/>
+    <body>
+      <trans-unit id="title" approved="yes">
+        <source>jQuery Setup</source>
+        <target state="translated">jQuery-Konfiguration</target>
+      </trans-unit>
+      <trans-unit id="version_in_use">
+        <source>Versions in use: %s</source>
+      <target></target></trans-unit>
+      <trans-unit id="integrate_from_cdn">
+        <source>You are using CDN to integrate the jQuery-Libs, there are no further settings.</source>
+      <target></target></trans-unit>
+      <trans-unit id="function1" approved="yes">
+        <source>Create custom jQuery JS library</source>
+        <target state="translated">Erstellung einer individuellen jQuery-JS-Bibliothek</target>
+      </trans-unit>
+      <trans-unit id="function2" approved="yes">
+        <source>Analyze .js for jQuery dependencies</source>
+        <target state="translated">JS-Analyse auf jQuery-Abhängigkeiten</target>
+      </trans-unit>
+      <trans-unit id="function3" approved="yes">
+        <source>Process &amp; Analyze t3jquery.txt in extensions</source>
+        <target state="translated">JS-Analyse von t3jquery.txt in Extensions</target>
+      </trans-unit>
+      <trans-unit id="function4" approved="yes">
+        <source>Compress your own javascript file</source>
+        <target state="translated">Komprimieren eigener JS-Dateien</target>
+      </trans-unit>
+      <trans-unit id="function5" approved="yes">
+        <source>Display class.t3jquery.php API</source>
+        <target state="translated">Anzeige der class.t3jquery.php-API</target>
+      </trans-unit>
+      <trans-unit id="jquery.analyze.dependencies" approved="yes">
+        <source>jQuery dependencies found in file:</source>
+        <target state="translated">jQuery-Abhängigkeiten in folgender Datei:</target>
+      </trans-unit>
+      <trans-unit id="jquery.analyze.none" approved="yes">
+        <source>None</source>
+        <target state="translated">Keine</target>
+      </trans-unit>
+      <trans-unit id="jquery.analyze.packed" approved="yes">
+        <source>File is either not ending in .js or file is compressed with Packer!</source>
+        <target state="translated">Datei endet nicht auf .js oder ist bereits komprimiert!</target>
+      </trans-unit>
+      <trans-unit id="jquery.button.check" approved="yes">
+        <source>Check</source>
+        <target state="translated">Analysieren</target>
+      </trans-unit>
+      <trans-unit id="jquery.button.compress" approved="yes">
+        <source>Compress</source>
+        <target state="translated">Komprimieren</target>
+      </trans-unit>
+      <trans-unit id="jquery.button.create" approved="yes">
+        <source>Create jQuery Library</source>
+        <target state="translated">jQuery-Bibliothek erstellen</target>
+      </trans-unit>
+      <trans-unit id="jquery.button.mergejq" approved="yes">
+        <source>Merge &amp; Use</source>
+        <target state="translated">Vereinigen &amp; Benützen</target>
+      </trans-unit>
+      <trans-unit id="jquery.button.selectall" approved="yes">
+        <source>Select all</source>
+        <target state="translated">Alles auswählen</target>
+      </trans-unit>
+      <trans-unit id="jquery.button.selectnone" approved="yes">
+        <source>Deselect all</source>
+        <target state="translated">Auswahl löschen</target>
+      </trans-unit>
+      <trans-unit id="jquery.button.usejq" approved="yes">
+        <source>Use</source>
+        <target state="translated">Benützen</target>
+      </trans-unit>
+      <trans-unit id="jquery.compress.compress" approved="yes">
+        <source>Paste in your UNCOMPRESSED javascript into this field:</source>
+        <target state="translated">Hier das &lt;em&gt;unkomprimierte&lt;/em&gt; JavaScript einfügen:</target>
+      </trans-unit>
+      <trans-unit id="jquery.compress.decompress" approved="yes">
+        <source>A COMPRESSED version of your javascript will appear in this field.</source>
+        <target state="translated">Die &lt;em&gt;komprimierte&lt;/em&gt; Version:</target>
+      </trans-unit>
+      <trans-unit id="jquery.compress.description" approved="yes">
+        <source>This module can be used for compressing your own javascript file(s), using the same compression (Packer or JsMin) used for compressing the jQuery library.</source>
+        <target state="translated">Durch dieses Modul wird die Möglichkeit zur Verfügung gestellt, eigene JavaScript-Dateien zu komprimieren. Verwendet wird &lt;a href="http://joliclic.free.fr/php/javascript-packer/en/" target="_blank"&gt;die PHP5-version&lt;/a&gt; von &lt;a href="http://dean.edwards.name/packer/" target="_blank"&gt;Dean Edwards Packer&lt;/a&gt; oder &lt;a href="http://www.crockford.com/javascript/jsmin.html" target="_blank"&gt;JSMin&lt;/a&gt;.</target>
+      </trans-unit>
+      <trans-unit id="jquery.compress.nomunge" approved="yes">
+        <source>Minify only:</source>
+        <target state="translated">Nur verkleinern:</target>
+      </trans-unit>
+      <trans-unit id="jquery.compress.nomunge.yes" approved="yes">
+        <source>Yes</source>
+        <target state="translated">Ja</target>
+      </trans-unit>
+      <trans-unit id="jquery.compress.nomunge.no" approved="yes">
+        <source>No</source>
+        <target state="translated">Nein</target>
+      </trans-unit>
+      <trans-unit id="jquery.compression" approved="yes">
+        <source>Choose compression type</source>
+        <target state="translated">Kompressionsstufe auswählen</target>
+      </trans-unit>
+      <trans-unit id="jquery.compression.jsmin.description" approved="yes">
+        <source>Cleans comments and whitespace, Compression by &lt;a href="http://www.crockford.com/javascript/jsmin.html"&gt;JSMin&lt;/a&gt;.</source>
+        <target state="translated">Säubert Kommentare und Leerzeichen, Kompression mit &lt;a href="http://www.crockford.com/javascript/jsmin.html" target="_blank"&gt;JSMin&lt;/a&gt;.</target>
+      </trans-unit>
+      <trans-unit id="jquery.compression.jsmin.name" approved="yes">
+        <source>JsMin Compression</source>
+        <target state="translated">JsMin-Komprimierung</target>
+      </trans-unit>
+      <trans-unit id="jquery.compression.nodocs.description" approved="yes">
+        <source>Uncompressed, removes only documentation</source>
+        <target state="translated">Unkomprimiert, löscht lediglich die Dokumentation.</target>
+      </trans-unit>
+      <trans-unit id="jquery.compression.nodocs.name" approved="yes">
+        <source>No Documentation</source>
+        <target state="translated">Ohne Dokumentation</target>
+      </trans-unit>
+      <trans-unit id="jquery.compression.none.description" approved="yes">
+        <source>Full Source, includes documentation. Recommended while testing &amp; building.</source>
+        <target state="translated">Unkomprimiert, inklusive Dokumentation. Empfehlenswert während der Entwicklung.</target>
+      </trans-unit>
+      <trans-unit id="jquery.compression.none.name" approved="yes">
+        <source>No Compression</source>
+        <target state="translated">Keine Komprimierung</target>
+      </trans-unit>
+      <trans-unit id="jquery.compression.packer.description" approved="yes">
+        <source>Uses &lt;a href="http://joliclic.free.fr/php/javascript-packer/en/" target="_blank"&gt;the php5 version&lt;/a&gt; of &lt;a href="http://dean.edwards.name/packer/" target="_blank"&gt;Dean Edwards Packer&lt;/a&gt;.</source>
+        <target state="translated">Verwendet &lt;a href="http://joliclic.free.fr/php/javascript-packer/en/" target="_blank"&gt;die PHP5-Version&lt;/a&gt; von &lt;a href="http://dean.edwards.name/packer/" target="_blank"&gt;Dean Edwards Packer&lt;/a&gt;.</target>
+      </trans-unit>
+      <trans-unit id="jquery.compression.packer.name" approved="yes">
+        <source>Packer Compression</source>
+        <target state="translated">Packer-Komprimierung</target>
+      </trans-unit>
+      <trans-unit id="jquery.extension.dependencies" approved="yes">
+        <source>jQuery dependencies found selected extensions:</source>
+        <target state="translated">jQuery-Abhängikeiten in den Extenions gefunden:</target>
+      </trans-unit>
+      <trans-unit id="jquery.extension.description" approved="yes">
+        <source>Select the extensions you want processed and checked for jQuery dependencies.</source>
+        <target state="translated">Extensions auswählen, die auf jQuery-Abhängigkeiten geprüft werden sollen.</target>
+      </trans-unit>
+      <trans-unit id="jquery.extension.extkey" approved="yes">
+        <source>Extension Key:</source>
+        <target state="translated">Extension-Key:</target>
+      </trans-unit>
+      <trans-unit id="jquery.extension.title" approved="yes">
+        <source>Title:</source>
+        <target state="translated">Titel:</target>
+      </trans-unit>
+      <trans-unit id="jquery.extension.version" approved="yes">
+        <source>Version:</source>
+        <target state="translated">Version:</target>
+      </trans-unit>
+      <trans-unit id="jquery.header1" approved="yes">
+        <source>Choose the jQuery Components you need:</source>
+        <target state="translated">Benötigte Komponenten auswählen:</target>
+      </trans-unit>
+      <trans-unit id="jquery.header2" approved="yes">
+        <source>Find the jQuery Components you need</source>
+        <target state="translated">Benötigten Komponenten finden</target>
+      </trans-unit>
+      <trans-unit id="jquery.header3" approved="yes">
+        <source>Find the jQuery Components you need</source>
+        <target state="translated">Vorhandene Extensions analysieren</target>
+      </trans-unit>
+      <trans-unit id="jquery.header4" approved="yes">
+        <source>Compress your own javascript file</source>
+        <target state="translated">Komprimieren eigener JS-Dateien</target>
+      </trans-unit>
+      <trans-unit id="jquery.header5" approved="yes">
+        <source>Display class.t3jquery.php API</source>
+        <target state="translated">Anzeige der class.t3jquery.php-API</target>
+      </trans-unit>
+      <trans-unit id="jquery.packito.description" approved="yes">
+        <source>Select the uncompressed Javascript file you want to check for jQuery dependencies.</source>
+        <target state="translated">Unkomprimiertes JavaScript auswählen, das auf jQuery-Abhängigkeiten geprüft werden soll.</target>
+      </trans-unit>
+      <trans-unit id="jquery.packito.local" approved="yes">
+        <source>or Local file:</source>
+        <target state="translated">oder lokale Datei:</target>
+      </trans-unit>
+      <trans-unit id="jquery.packito.note" approved="yes">
+        <source>&lt;em&gt;Note: Only files with the extension &lt;strong&gt;.js&lt;/strong&gt; is accepted.&lt;br /&gt; Local extension dirs can be accessed using EXT:. ie. EXT:t3jquery/res/jqconfig.js&lt;/em&gt;</source>
+        <target state="translated">&lt;em&gt;Achtung: Nur Dateien mit &lt;strong&gt;.js&lt;/strong&gt; werden akzeptiert.&lt;br /&gt; Extension-Verzeichnisse können mit EXT: abgerufen werden. zB. EXT:t3jquery/res/jqconfig.js&lt;/em&gt;</target>
+      </trans-unit>
+      <trans-unit id="jquery.packito.remote" approved="yes">
+        <source>Remote file:</source>
+        <target state="translated">Datei am Server:</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.jquery" approved="yes">
+        <source>The jQuery, required for UI Core.</source>
+        <target state="translated">jQuery, für UI-Kern erforderlich.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.noConflict">
+        <source>Activates the noConflict mode of jQuery to work with other JS-Frameworks</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.uicore" approved="yes">
+        <source>The core of jQuery UI, required for all interactions and widgets.</source>
+        <target state="translated">Die Basis des jQuery-UI. Erforderlich für alle Interaktionen und Widgets.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.widget" approved="yes">
+        <source>Core utility for building UI controls.</source>
+        <target state="translated">Widget, für alle Widgets erforderlich.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.mouse" approved="yes">
+        <source>Track and handle mouse-based interactions.</source>
+        <target state="translated">Mouse, für alle Interaktionen mit der Maus erforderlich.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.position">
+        <source>Place elements at specific locations in relation to other elements.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.draggable" approved="yes">
+        <source>Makes any element on the page draggable.</source>
+        <target state="translated">Macht alle Elemente einer Seite ziehbar.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.droppable" approved="yes">
+        <source>Generated drop targets for draggable elements.</source>
+        <target state="translated">Generierte Ziele für ziehbare Elemente.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.resizable" approved="yes">
+        <source>Makes any element on the page resizable.</source>
+        <target state="translated">Macht alle Elemente einer Seite in der Größe veränderbar.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.selectable" approved="yes">
+        <source>Makes a list of elements mouse selectable by dragging a box or clicking on them.</source>
+        <target state="translated">Macht eine Liste mit Elementen durch die Maus auswählbar, indem man einen Rahmen aufzieht oder darauf klickt.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.sortable" approved="yes">
+        <source>Makes a list of items sortable.</source>
+        <target state="translated">Macht eine Liste mit Einträgen sortierbar.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.accordion" approved="yes">
+        <source>Creates an accordion navigation widget.</source>
+        <target state="translated">Erzeugt ein Akkordeon-Navigationswidget.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.autocomplete">
+        <source>Autocomplete, added to an input field, enables users to quickly find and select from a pre-populated list of values as they type, leveraging searching and filtering.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.button">
+        <source>Button enhances standard form elements like button, input of type submit or reset or anchors to themable buttons with appropiate mouseover and active styles.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.dialog" approved="yes">
+        <source>Opens existing markup in a draggable and resizable dialog.</source>
+        <target state="translated">Öffnet vorhandenes Markup in einem ziehbaren und in der Größe veränderbaren Dialog.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.slider" approved="yes">
+        <source>A flexible slider with ranges and accessibility via keyboard.</source>
+        <target state="translated">Ein flexible Regler mit Begrenzungen auf dem mit der Tastatur zugegriffen werden kann.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.tabs" approved="yes">
+        <source>Transforms a set of container elements into a tab structure.</source>
+        <target state="translated">Transformiert ein Set mit Containerelementen in eine Tabstruktur.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.datepicker">
+        <source>A datepicker that can be toggled from an input or displayed inline.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.progressbar" approved="yes">
+        <source>A status indicator that can be used for a loading state and standard percentage indicators.</source>
+        <target state="translated">Ein Statusindikator. Er kann für den Ladefortschritt oder als Prozentindikator benutzt werden.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.core">
+        <source>Extends the internal jQuery effects, includes morphing, easing and is required by all other effects.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.effects.blind" approved="yes">
+        <source>Blinds the element.</source>
+        <target state="translated">Blendet das Element aus.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.bounce" approved="yes">
+        <source>Bounces an element horizontally or vertically n-times.</source>
+        <target state="translated">Das Element hüpft n-mal horizontal oder vertikal.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.clip" approved="yes">
+        <source>Clips the element on and off like an old TV.</source>
+        <target state="translated">Schaltet ein Element, wie einen alten Fernsehr, an und aus.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.drop">
+        <source>A Drop out effect by moving the element in one direction and hiding it at the same time.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.effects.explode" approved="yes">
+        <source>The element explodes in all directions into n pieces. Also supports imploding again.</source>
+        <target state="translated">Das Element explodiert nach allen Richtungen in n Stücken. Es kann auch wieder implodieren.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.fade" approved="yes">
+        <source>The element will fades in or out.</source>
+        <target state="translated">Das Element wird ein- oder ausgeblendet.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.fold" approved="yes">
+        <source>Folds the element first horizontally and then vertically.</source>
+        <target state="translated">Faltet das Element erst horizontal und dann vertikal.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.highlight" approved="yes">
+        <source>Highlights the background of the element in a defined color for a custom duration.</source>
+        <target state="translated">Hebt den Hintergrund des Elements in einer definierten Farbe für eine bestimmte Zeit hervor.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.pulsate" approved="yes">
+        <source>The element pulsates n times by changing the opacity to zero and back.</source>
+        <target state="translated">Das Element pulsiert n-mal durch Veränderung der Transparenz.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.scale" approved="yes">
+        <source>Grow or shrink any element and it's content and restore it again.</source>
+        <target state="translated">Beliebige Elemente und ihren Inhalt wachsen oder schrumpfen lassen und wiederherstellen.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.shake" approved="yes">
+        <source>Shakes the element horizontally or vertically n times.</source>
+        <target state="translated">Bewegt das Element n-mal horizontal oder vertikal hin und her (Schütteleffekt).</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.slide" approved="yes">
+        <source>The element slides in and out of the viewport.</source>
+        <target state="translated">Das Element wird in den sichtbaren Fensterbereich hinein und heraus bewegt.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.effects.transfer" approved="yes">
+        <source>Transfer effect from one element to another.</source>
+        <target state="translated">Übergangseffekt von einem Element zu einem anderen.</target>
+      </trans-unit>
+      <trans-unit id="jquery.component.easing">
+        <source>A jQuery plugin to give advanced easing options.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.lint">
+        <source>jQuery Lint works over the top of jQuery and diligently reports errors and any incorrect usage of jQuery. It will also, to some extent, offer guidance on best practices and performance concerns.</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.tabs">
+        <source>The most important UI widget on the web</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.tabsslideshow">
+        <source>Transforms tabs into a working slideshow</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.tabshistory">
+        <source>The ability to navigate through tabs with the browser's back and forward buttons</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.tooltip">
+        <source>The second most important UI widget on the web.</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.tooltipslide">
+        <source>A sliding tooltip effect with customized sliding directions, dimensions and speeds</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.tooltipdynamic">
+        <source>Dynamic positioning of the tooltip so that it always stays in the viewport</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.scrollable">
+        <source>A generic HTML scrolling widget</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.scrollablecircular">
+        <source>Makes an infinite loop from the scrollable items so that there is no beginning or end</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.scrollableautoscroll">
+        <source>Makes the scrolling behaviour automatic. highly configurable</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.scrollablenavigator">
+        <source>Provides navigation buttons for switching between pages in scrollable</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.scrollablemousewheel">
+        <source>Enables mousewheel support for scrollable</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.overlay">
+        <source>A generic HTML overlaying widget</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.overlaygallery">
+        <source>A plugin for creating "lightbox" style image galleries</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.overlayapple">
+        <source>An overlay effect that you have seen on apple.com</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.formdateinput">
+        <source>HTML5 date input for humans</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.formrangeinput">
+        <source>HTML5 range input for humans</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.formvalidator">
+        <source>HTML5 input validation for humans</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.flashembed">
+        <source>The future of Flash embedding. Works as a standalone tool and jQuery is not required. flowplayer.js contains this script.</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.history">
+        <source>Back button for AJAX apps</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.expose">
+        <source>Makes your HTML stand out from its surroundings</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.mousewheel">
+        <source>A generic mousewheel support for jQuery</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.flowplayer">
+        <source>The JavaScript component of Flowplayer - the Video player for the Web</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.flowplayercontrolbar">
+        <source>Generate video controls with HTML and CSS</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.flowplayerplaylist">
+        <source>Generate video playlists with HTML and CSS</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.flowplayerembedding">
+        <source>Generates embedding codes for Flowplayer</source>
+      <target></target></trans-unit>
+    </body>
+  </file>
+</xliff>

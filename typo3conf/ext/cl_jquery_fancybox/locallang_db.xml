@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>jQuery FancyBox</description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tt_content.tx_cljqueryfancybox_imagesetid">jQuery FancyBox Group id</label>
+            <label index="dividers2tabs.image">Image options</label>
+            <label index="dividers2tabs.generall">General options</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="tt_content.tx_cljqueryfancybox_imagesetid">jQuery FancyBox Gruppen ID</label>
+            <label index="tt_content.tx_wsimagelightbox2_imageset">Aktiviere BilderSets</label>
+            <label index="tt_content.tx_wsimagelightbox2_presentationmode">Präsentations Modus</label>
+            <label index="dividers2tabs.image">Bilder Option</label>
+            <label index="dividers2tabs.generall">Allgemeine Optionen</label>
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

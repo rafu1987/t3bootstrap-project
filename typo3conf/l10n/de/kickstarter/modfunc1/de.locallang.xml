@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">Neue Erweiterung erstellen</label>
+      <label index="fields.excludeField">Ist Ausschlußfeld</label>
+      <label index="fields.excludeField_description">Als Ausschlußfeld markierte Felder können von Benutzern nur dann bearbeitet werden, wenn sie in einer Benutzergruppe, welcher der Benutzer angehört, explizit ausgewählt wurden.\nMit anderen Worten kann bei Ausschlußfeldern festgelegt werden, welche Benutzer darauf zugreifen können.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,14 @@
+plugin.tx_indexedsearch {
+	
+	pageTitleAdd= {$plugin.tx_indexed_search.pageTitleAdd}
+	pageTitlePage= {$plugin.tx_indexed_search.pageTitlePage}
+	
+	topBrowserWrap={$plugin.tx_indexed_search.topBrowserWrap}
+	browseBoxWrap={$plugin.tx_indexed_search.browseBoxWrap}
+	pageWrap={$plugin.tx_indexed_search.pageWrap}
+	activePageWrap={$plugin.tx_indexed_search.activePageWrap}
+}
+
+// Modifies the page title according to search vars :
+	includeLibs.pagetitle = typo3conf/ext/accessible_is_browse_results/user_is_functions.php
+	config.titleTagFunction = user_is_functions->change_title

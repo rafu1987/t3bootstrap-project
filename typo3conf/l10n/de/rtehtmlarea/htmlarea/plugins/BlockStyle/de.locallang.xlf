@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="No style" xml:space="preserve" approved="yes">
+        <source>No block style</source>
+      <target state="translated">Kein Blockstil</target></trans-unit>
+      <trans-unit id="Remove style" xml:space="preserve" approved="yes">
+        <source>Remove block style</source>
+      <target state="translated">Blockstil entfernen</target></trans-unit>
+      <trans-unit id="Unknown style" xml:space="preserve" approved="yes">
+        <source>Unknown block style</source>
+      <target state="translated">Unbekannter Blockstil</target></trans-unit>
+      <trans-unit id="Element style" xml:space="preserve" approved="yes">
+        <source>Block element style</source>
+      <target state="translated">Blockelementstil</target></trans-unit>
+      <trans-unit id="BlockStyle-Tooltip" xml:space="preserve" approved="yes">
+        <source>Apply style to the containing block</source>
+      <target state="translated">Stil auf enthaltenden Block anwenden</target></trans-unit>
+      <trans-unit id="frame-frame1" xml:space="preserve" approved="yes">
+        <source>Frame with grey background</source>
+      <target state="translated">Rahmen mit grauem Hintergrund</target></trans-unit>
+      <trans-unit id="frame-frame2" xml:space="preserve" approved="yes">
+        <source>Frame with yellow background</source>
+      <target state="translated">Rahmen mit gelbem Hintergrund</target></trans-unit>
+      <trans-unit id="important" xml:space="preserve" approved="yes">
+        <source>Important</source>
+      <target state="translated">Wichtig</target></trans-unit>
+      <trans-unit id="name-of-person" xml:space="preserve" approved="yes">
+        <source>Name of person</source>
+      <target state="translated">Name der Person</target></trans-unit>
+      <trans-unit id="detail" xml:space="preserve" approved="yes">
+        <source>Detail</source>
+      <target state="translated">Detail</target></trans-unit>
+      <trans-unit id="component-items" xml:space="preserve" approved="yes">
+        <source>Component items</source>
+      <target state="translated">Komponenteneinträge</target></trans-unit>
+      <trans-unit id="action-items" xml:space="preserve" approved="yes">
+        <source>Action items</source>
+      <target state="translated">Befehlseinträge</target></trans-unit>
+      <trans-unit id="Technische Universitat Ilmenau" xml:space="preserve" approved="yes">
+        <source>Technische Universität Ilmenau</source>
+      <target state="translated">Technische Universität Ilmenau</target></trans-unit>
+    </body>
+  </file>
+</xliff>

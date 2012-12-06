@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="No markup" xml:space="preserve" approved="yes">
+        <source>No text format</source>
+      <target state="translated">Kein Textformat</target></trans-unit>
+      <trans-unit id="Remove markup" xml:space="preserve" approved="yes">
+        <source>Remove text format</source>
+      <target state="translated">Textformat entfernen</target></trans-unit>
+      <trans-unit id="FormatText-Tooltip" xml:space="preserve" approved="yes">
+        <source>Apply format to selected text</source>
+      <target state="translated">Format auf markierten Text anwenden</target></trans-unit>
+      <trans-unit id="BiDiOverride-Tooltip" xml:space="preserve" approved="yes">
+        <source>Bidirectionality override</source>
+      <target state="translated">Bidirektionalität übersteuern</target></trans-unit>
+      <trans-unit id="Big-Tooltip" xml:space="preserve" approved="yes">
+        <source>Large text</source>
+      <target state="translated">Großer Text</target></trans-unit>
+      <trans-unit id="Bold-Tooltip" xml:space="preserve" approved="yes">
+        <source>Bold</source>
+      <target state="translated">Fett</target></trans-unit>
+      <trans-unit id="Citation-Tooltip" xml:space="preserve" approved="yes">
+        <source>Citation</source>
+      <target state="translated">Zitatquelle</target></trans-unit>
+      <trans-unit id="Code-Tooltip" xml:space="preserve" approved="yes">
+        <source>Computer code fragment</source>
+      <target state="translated">Ausschnitt aus Computer-Code</target></trans-unit>
+      <trans-unit id="Code-contextMenuTitle" xml:space="preserve" approved="yes">
+        <source>Code fragment</source>
+      <target state="translated">Codeausschnitt</target></trans-unit>
+      <trans-unit id="Definition-Tooltip" xml:space="preserve" approved="yes">
+        <source>Definition</source>
+      <target state="translated">Definition</target></trans-unit>
+      <trans-unit id="DeletedText-Tooltip" xml:space="preserve" approved="yes">
+        <source>Deleted text</source>
+      <target state="translated">Gelöschter Text</target></trans-unit>
+      <trans-unit id="Emphasis-Tooltip" xml:space="preserve" approved="yes">
+        <source>Emphasis</source>
+      <target state="translated">Betonung</target></trans-unit>
+      <trans-unit id="Keyboard-Tooltip" xml:space="preserve" approved="yes">
+        <source>Text to be entered by the user</source>
+      <target state="translated">Vom Benutzer einzugebender Text</target></trans-unit>
+      <trans-unit id="Keyboard-contextMenuTitle" xml:space="preserve" approved="yes">
+        <source>Text to enter</source>
+      <target state="translated">Einzugebender Text</target></trans-unit>
+      <trans-unit id="InsertedText-Tooltip" xml:space="preserve" approved="yes">
+        <source>Inserted text</source>
+      <target state="translated">Eingefügter Text</target></trans-unit>
+      <trans-unit id="Italic-Tooltip" xml:space="preserve" approved="yes">
+        <source>Italic</source>
+      <target state="translated">Kursiv</target></trans-unit>
+      <trans-unit id="MonoSpaced-Tooltip" xml:space="preserve" approved="yes">
+        <source>Monospaced text</source>
+      <target state="translated">Text in dicktengleicher Schrift</target></trans-unit>
+      <trans-unit id="Quotation-Tooltip" xml:space="preserve" approved="yes">
+        <source>Short inline quotation</source>
+      <target state="translated">Kurzes Zitat</target></trans-unit>
+      <trans-unit id="Quotation-contextMenuTitle" xml:space="preserve" approved="yes">
+        <source>Short quotation</source>
+      <target state="translated">Kurzes Zitat</target></trans-unit>
+      <trans-unit id="Sample-Tooltip" xml:space="preserve" approved="yes">
+        <source>Sample program output or script</source>
+      <target state="translated">Beispielausgabe eines Programms oder Skript</target></trans-unit>
+      <trans-unit id="Sample-contextMenuTitle" xml:space="preserve" approved="yes">
+        <source>Sample output</source>
+      <target state="translated">Beispielausgabe</target></trans-unit>
+      <trans-unit id="Small-Tooltip" xml:space="preserve" approved="yes">
+        <source>Small text</source>
+      <target state="translated">Kleiner Text</target></trans-unit>
+      <trans-unit id="Span-Tooltip" xml:space="preserve" approved="yes">
+        <source>Style container</source>
+      <target state="translated">Stilbehälter</target></trans-unit>
+      <trans-unit id="StrikeThrough-Tooltip" xml:space="preserve" approved="yes">
+        <source>Strike-through text</source>
+      <target state="translated">Durchgestrichener Text</target></trans-unit>
+      <trans-unit id="Strong-Tooltip" xml:space="preserve" approved="yes">
+        <source>Strong emphasis</source>
+      <target state="translated">Starke Betonung</target></trans-unit>
+      <trans-unit id="Subscript-Tooltip" xml:space="preserve" approved="yes">
+        <source>Subscript</source>
+      <target state="translated">Tiefgestellt</target></trans-unit>
+      <trans-unit id="Superscript-Tooltip" xml:space="preserve" approved="yes">
+        <source>Superscript</source>
+      <target state="translated">Hochgestellt</target></trans-unit>
+      <trans-unit id="Underline-Tooltip" xml:space="preserve" approved="yes">
+        <source>Underline</source>
+      <target state="translated">Unterstrichen</target></trans-unit>
+      <trans-unit id="Variable-Tooltip" xml:space="preserve" approved="yes">
+        <source>Variable or program argument</source>
+      <target state="translated">Variable oder Programmparameter</target></trans-unit>
+      <trans-unit id="Variable-contextMenuTitle" xml:space="preserve" approved="yes">
+        <source>Variable</source>
+      <target state="translated">Variable</target></trans-unit>
+      <trans-unit id="Technische Universitat Ilmenau" xml:space="preserve" approved="yes">
+        <source>Technische Universität Ilmenau</source>
+      <target state="translated">Technische Universität Ilmenau</target></trans-unit>
+    </body>
+  </file>
+</xliff>

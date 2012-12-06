@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="Allow-Clipboard-Helper-Add-On-Title" xml:space="preserve" approved="yes">
+        <source>Firefox Add-on AllowClipboard Helper</source>
+      <target state="translated">Firefox Add-on AllowClipboard Helper</target></trans-unit>
+      <trans-unit id="Firefox-Security-Prefs-Question-Title" xml:space="preserve" approved="yes">
+        <source>Firefox Clipboard Access Security Settings</source>
+      <target state="translated">Firefox: Einstellungen zur Zugriffssicherheit der Zwischenablage</target></trans-unit>
+      <trans-unit id="Technische Universitat Ilmenau" xml:space="preserve" approved="yes">
+        <source>Technische Universität Ilmenau</source>
+      <target state="translated">Technische Universität Ilmenau</target></trans-unit>
+    </body>
+  </file>
+</xliff>

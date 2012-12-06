@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Lokales TYPO3-Handbuch</label>
+      <label index="mlang_labels_tabdescr">Lokales Handbuch, basierend auf der kontextabhängigen Hilfe des Systems.</label>
+      <label index="mlang_tabs_tab">TYPO3-Handbuch</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

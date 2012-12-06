@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Aufgaben mit Übersichten, Nachrichten, To-Do-Listen</label>
+      <label index="mlang_labels_tabdescr">Das Aufgabenzentrum bietet Ihnen Zugriff auf Ihre interne To-Do-Liste, Nachrichten, Notizen, Befehle usw. Es bietet Ihnen ebenso Verweise auf die verfügbaren Frontend-Module und die am häufigsten bearbeiteten Seiten. Im Aufgabenzentrum können Sie Ihre täglichen Aufgaben und Arbeitsabläufe verfolgen.</label>
+      <label index="mlang_tabs_tab">Aufgaben</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

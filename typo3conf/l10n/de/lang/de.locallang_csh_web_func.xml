@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">Web &gt; Funktionen</label>
+      <label index=".description">Das Modul "Web &gt; Funktionen" ist als "Container" für all diejenigen Backend-Erweiterungen gedacht, die Veränderungen an einzelnen Seiten oder am Seitenbaum vornehmen.</label>
+      <label index=".details">Konzeptionell unterscheidet sich das Modul "Web &gt; Funktionen" vom Modul "Web &gt; Info" lediglich dadurch, dass das Modul die Möglichkeit bietet, auch &lt;em&gt;Änderungen&lt;/em&gt; an den angezeigten Datensätzen vorzunehmen (im Gegensatz zum Modul "Info", das lediglich Informationen zu den Datensätzen anzeigt). Es ist Sache des Entwickler zu entscheiden, in welchem der beiden "Container" seine Erweiterung erscheinen soll.</label>
+      <label index="_.seeAlso">_MOD_web_info, Mehr über das Modul Web &gt; Funktionen | http://typo3.org/documentation/document-library/doc_core_inside/Functions_module/,, _MOD_web_func:tx_funcwizards, _MOD_web_func:tx_wizardsortpages</label>
+      <label index="_.image">EXT:lang/cshimages/pagetree_overview_11.png</label>
+      <label index=".image_descr">Das Modul "Web &gt; Funktionen" - so, wie sie vom TYPO3-Kern bereitgestellt wird - ist lediglich ein leerer "Container". Es bietet eine Programmierschnittstelle (API), welche andere Erweiterungen nutzen können, um neue Funktionalitäten innerhalb dieses Moduls bereitzustellen. Hier ist die Assistentenerweiterung (func_wizards) abgebildet, welche das Hauptfunktionsmenü in der rechten oberen Ecke liefert. Das Auswahlfeld "Wähle Assistenten:" erlaubt es dem Benutzer, andere Funktionen (also andere Assistenten) auszuwählen, welche durch andere Erweiterungen bereitgestellt werden - hier zum Beispiel der Sortierungsassistent.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

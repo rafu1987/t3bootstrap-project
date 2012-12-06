@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">htmlArea RTE &gt; Element bearbeiten</label>
+      <label index=".description">Der Dialog "Element bearbeiten" erlaubt es, die allgemeinen Attribute eines Elements im RTE zu bearbeiten.</label>
+      <label index=".details">Ein Klick auf das Symbol "Element bearbeiten" in der Menüleiste des RTE öffnet einen Dialog, mit dessen Hilfe Sie die allgemeinen Attribute eines Elements im RTE bearbeiten können. Der Dialog ermöglicht es, die Attribute id, title, class, lang und dir des Elements zu bearbeiten. Außerdem können Sie JavaScript-Handler für Tastatur- und Mausevents festlegen.</label>
+      <label index=".image">EXT:rtehtmlarea/extensions/EditElement/skin/images/element-edit.png</label>
+      <label index=".image_descr">"Element bearbeiten"-Symbol in der Menüleiste.</label>
+      <label index=".seeAlso">xEXT_rtehtmlarea_EditElement:id, xEXT_rtehtmlarea_EditElement:title, xEXT_rtehtmlarea_EditElement:className, xEXT_rtehtmlarea_Language:languageCombo, xEXT_rtehtmlarea_Language:directionCombo, xEXT_rtehtmlarea_EditElement:events</label>
+      <label index="id.alttitle">ID-Attribut</label>
+      <label index="id.description">Geben Sie den Wert des ID-Attribut des Elements an oder bearbeiten Sie ihn.</label>
+      <label index="title.alttitle">Title-Attribut</label>
+      <label index="title.description">Geben Sie den Wert des Title-Attribut des Elements an oder bearbeiten Sie ihn.</label>
+      <label index="className.alttitle">Class-Attribut</label>
+      <label index="className.description">Wählen Sie eine CSS-Klasse, die dem Elements zugeordnet werden soll.</label>
+      <label index="events.alttitle">Eventhandler</label>
+      <label index="events.description">Mit diesem Fieldset können Sie JavaScript-Handler für Tastatur- und Mausevents festlegen.</label>
+      <label index="onkeydown.alttitle">Eventhandler Onkeydown</label>
+      <label index="onkeydown.description">Geben Sie das Skript an oder bearbeiten Sie das Skript, das ausgeführt werden soll, wenn eine Taste gedrückt wird.</label>
+      <label index="onkeypress.alttitle">Eventhandler Onkeypress</label>
+      <label index="onkeypress.description">Geben Sie das Skript an oder bearbeiten Sie das Skript, das ausgeführt werden soll, wenn eine Taste gedrückt und losgelassen wird.</label>
+      <label index="onkeyup.alttitle">Eventhandler Onkeyup</label>
+      <label index="onkeyup.description">Geben Sie das Skript an oder bearbeiten Sie das Skript, das ausgeführt werden soll, wenn eine Taste gedrückt wird.</label>
+      <label index="onclick.alttitle">Eventhandler Onclick</label>
+      <label index="onclick.description">Geben Sie das Skript an oder bearbeiten Sie das Skript, das ausgeführt werden soll, wenn mit der Maus geklickt wird.</label>
+      <label index="ondblclick.alttitle">Eventhandler Ondblclick</label>
+      <label index="ondblclick.description">Geben Sie das Skript an oder bearbeiten Sie das Skript, das ausgeführt werden soll, wenn mit der Maus doppelt geklickt wird.</label>
+      <label index="onmousedown.alttitle">Eventhandler Onmousedown</label>
+      <label index="onmousedown.description">Geben Sie das Skript an oder bearbeiten Sie das Skript, das ausgeführt werden soll, wenn eine Maustaste gedrückt wird.</label>
+      <label index="onmousemove.alttitle">Eventhandler Onmousemove</label>
+      <label index="onmousemove.description">Geben Sie das Skript an oder bearbeiten Sie das Skript, das ausgeführt werden soll, wenn der Mauszeiger sich bewegt.</label>
+      <label index="onmouseout.alttitle">Eventhandler Onmouseout</label>
+      <label index="onmouseout.description">Geben Sie das Skript an oder bearbeiten Sie das Skript, das ausgeführt werden soll, wenn der Mauszeiger sich aus dem Element bewegt.</label>
+      <label index="onmouseover.alttitle">Eventhandler Onmouseover</label>
+      <label index="onmouseover.description">Geben Sie das Skript an oder bearbeiten Sie das Skript, das ausgeführt werden soll, wenn der Mauszeiger sich über das Element bewegt.</label>
+      <label index="onmouseup.alttitle">Eventhandler Onmouseup</label>
+      <label index="onmouseup.description">Geben Sie das Skript an oder bearbeiten Sie das Skript, das ausgeführt werden soll, wenn eine Maustaste losgelassen wird.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

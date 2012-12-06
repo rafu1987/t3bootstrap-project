@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="moduleFunction.tx_kickstarter_modfunc1">Neue Erweiterung erstellen</label>
+      <label index="moduleFunction.tx_kickstarter_modfunc2">Mit Kickstarter bearbeiten</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

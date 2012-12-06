@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">Seiteninformation</label>
+      <label index="depth_0">Diese Seite</label>
+      <label index="depth_1">Inkl. 1 Ebene</label>
+      <label index="depth_2">Inkl. 2 Ebenen</label>
+      <label index="depth_3">Inkl. 3 Ebenen</label>
+      <label index="mlang_labels_tablabel">Seitenbezogene Informationen, z.B. Zugriffsstatistik, Änderungsprotokollierung, Datensatzanzahl</label>
+      <label index="mlang_labels_tabdescr">Das Modul Web &gt; Info ist auf statistische Informationen über Web-Seiten spezialisiert. Dies beinhaltet Statistiken über Seitenzugriffe und eine Änderungsprotokollierung, über die man sich durch alle Änderungen der Seite bewegen kann. Es steht sowohl eine Übersicht der verwendeten Datensätze auf den einzelnen Seiten als auch der Seiteneinstellungen in Form einer Baumansicht zur Verfügung.</label>
+      <label index="mlang_tabs_tab">Info</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="tt_content.tx_cssstyledcontent_acctables">Barrierefreiheit</label>
+      <label index="tt_content.tx_cssstyledcontent_acctables_caption">Tabellenbeschriftung</label>
+      <label index="tt_content.tx_cssstyledcontent_acctables_summary">Tabellenzusammenfassung</label>
+      <label index="tt_content.tx_cssstyledcontent_acctables_tfoot">Tabellenfuß benutzen (letzte Tabellenzeile mit &lt;tfoot&gt; umfassen)</label>
+      <label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.0">Keine Kopfzeile</label>
+      <label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.1">Oben</label>
+      <label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.2">Links</label>
+      <label index="tt_content.tx_cssstyledcontent_acctables_headerpos">Position der Kopfzeile</label>
+      <label index="tt_content.tx_cssstyledcontent_acctables_nostyles">Kein CSS für diese Tabelle</label>
+      <label index="tt_content.tx_cssstyledcontent_acctables_tableclass">Zusätzliche CSS-Klasse</label>
+      <label index="tt_content.tx_cssstyledcontent_tableparsing">CSV-Analyse</label>
+      <label index="tt_content.tx_cssstyledcontent_tableparsing_quote">Textbegrenzer</label>
+      <label index="tt_content.tx_cssstyledcontent_tableparsing_quote_none">Keiner</label>
+      <label index="tt_content.tx_cssstyledcontent_tableparsing_quote_single">' (einfache Anführungszeichen)</label>
+      <label index="tt_content.tx_cssstyledcontent_tableparsing_quote_double">" (doppelte Anführungszeichen)</label>
+      <label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter">Feldbegrenzer</label>
+      <label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_pipe">| (Pipe)</label>
+      <label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_semicolon">; (Semikolon)</label>
+      <label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_colon">: (Doppelpunkt)</label>
+      <label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_comma">, (Komma)</label>
+      <label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_tab">⇥ (Tab)</label>
+      <label index="tt_content.tx_cssstyledcontent_section_frame.I.9">Kein Frame</label>
+      <label index="tt_content.tx_cssstyledcontent_section_frame.I.0">Standardframe</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

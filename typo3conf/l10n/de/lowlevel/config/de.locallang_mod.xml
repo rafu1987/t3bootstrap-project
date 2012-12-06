@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Konfiguration von localconf.php und tables.php anzeigen</label>
+      <label index="mlang_labels_tabdescr">Hier können Sie durch die Werte der Felder $TCA (Tabellenkonfiguration) und $TYPO3_CONF_VARS navigieren. Sie haben allerdings nur einen lesenden Zugriff auf die einzelnen Werte.&lt;br /&gt;&lt;em&gt;Zugriff nur für Administratoren!&lt;/em&gt;</label>
+      <label index="mlang_tabs_tab">Konfiguration</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

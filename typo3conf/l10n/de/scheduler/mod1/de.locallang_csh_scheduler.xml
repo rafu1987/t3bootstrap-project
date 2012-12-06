@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">Planer</label>
+      <label index=".description">Der Planer stellt eine Schnittstelle zur Verfügung, um einmalige oder wiederkehrende Aufträge (Tasks) zu erstellen und zu bearbeiten.</label>
+      <label index=".syntax">Der Planer nutzt einen einzigen Cron-Job, der alle registrierten Tasks abarbeitet. Dies ist sehr praktisch, da nur ein einziger Cron-Job eingerichtet werden muss und über das Backend-Modul die Häufigkeiten aller Tasks verwaltet werden können.</label>
+      <label index="task_class.alttitle">Klasse des Tasks</label>
+      <label index="task_class.description">Wählen Sie eine Klasse aus der Liste der verfügbaren Tasks.</label>
+      <label index="task_class.details">Einige Tasks werden durch den TYPO3-Kern selbst bereitgestellt. Andere kommen von unterschiedlichen Erweiterungen. Bitte beachten Sie das Handbuch, wie eigene Tasks erstellt und dem Planer hinzugefügt werden können.</label>
+      <label index="task_disable.alttitle">Task deaktivieren</label>
+      <label index="task_disable.description">Aktivieren Sie diese Option, um die geplante Ausführung dieses Tasks zu deaktivieren. Die Ausführung kann weiterhin manuell über das Backend-Modul erfolgen.</label>
+      <label index="task_type.alttitle">Typ des Tasks</label>
+      <label index="task_type.description">Legen Sie fest, ob der Tasks einmalig oder wiederkehrend ausgeführt werden soll.</label>
+      <label index="task_start.alttitle">Start des Tasks</label>
+      <label index="task_start.description">Geben Sie Startdatum und -zeit für den Task an.</label>
+      <label index="task_start.details">Das Datum muss in einem der Standardformate eingegeben werden, z.B. HH:MM TT-MM-JJJJ. Geben Sie "16:17 10-12-2011" für die erstmalige Ausführung am 10. Dezember 2011 um 16:17 Uhr ein. Schlüsselwärter "now" (heute) oder "tomorrow" (morgen) sind ebenfalls erlaubt. Datum und Zeit müssen der auf dem Server eingestellten Zeitzone entsprechen.</label>
+      <label index="task_end.alttitle">Ende des Tasks</label>
+      <label index="task_end.description">Geben Sie Datum und Zeit für die letztmalige Ausführung des Tasks ein. Dieses Feld kann leer bleiben, wenn kein Ende festgelegt werden soll.</label>
+      <label index="task_end.details">Das Datum muss in einem der Standardformate eingegeben werden, z.B. HH:MM TT-MM-JJJJ. Geben Sie "16:17 31-12-2009" für die erstmalige Ausführung am 31. Dezember 2009 um 16:17 Uhr ein. Schlüsselwärter "now" (heute) oder "tomorrow" (morgen) sind ebenfalls erlaubt. Datum und Zeit müssen der auf dem Server eingestellten Zeitzone entsprechen. Dieses Feld kann leer bleiben, wenn kein Ende festgelegt werden soll.</label>
+      <label index="task_frequency.alttitle">Häufigkeit des Tasks</label>
+      <label index="task_frequency.description">Geben Sie die Häufigkeit an, in der der Task ausgeführt werden soll: Entweder in Sekunden oder in der für Cron-Jobs üblichen Syntax (Minuten, Stunden, Tag des Monats, Monate und Tag der Woche).</label>
+      <label index="task_frequency.details">Die Häufigkeit der Ausführung kann in Sekunden eingegeben werden.Alternativ ist es möglich, die Syntax von Cron verwenden. Diese besteht aus einer Liste von fünf Zahlen oder dem "*"-Symbol, welche durch Leerzeichen getrennt sind. Die fünf Zahlen stehen für Minute, Stunde, Tag des Monats, Monat und Tag der Woche (in dieser Reihenfolge), wobei ein "*" an Stelle einer Zahl als Platzhalter gilt. Beispiele: 0 * * * * zu jeder vollen Stunde, 30 22 * * * jeden Tag um 22:30, */5 * * * * alle fünf Minuten.</label>
+      <label index="task_frequency.seeAlso">Wikipedia|http://de.wikipedia.org/wiki/Cron</label>
+      <label index="task_multiple.alttitle">Parallele Ausführung</label>
+      <label index="task_multiple.description">Legen Sie fest, ob der Task mehrmals parallel ausgeführt werden darf oder nicht.</label>
+      <label index="task_email.alttitle">E-Mail-Adresse</label>
+      <label index="task_email.description">Geben Sie den Empfänger der Mails an für den Test-Task an.</label>
+      <label index="task_sleepTime.alttitle">Pause</label>
+      <label index="task_sleepTime.description">Geben Sie eine Anzahl Sekunden an, während der der Task pausiert.</label>
+      <label index="task_cachingFrameworkGarbageCollection_selectedBackends.alttitle">Gewünschte Backends auswählen</label>
+      <label index="task_cachingFrameworkGarbageCollection_selectedBackends.description">Wenn ein Cache eines der gewählten Backends verwendet, wird die Müllsammlung für diesen Cache aufgerufen.</label>
+      <label index="task_tableGarbageCollection_numberOfDays.alttitle">Anzahl an Tagen</label>
+      <label index="task_tableGarbageCollection_numberOfDays.description">Diejenigen Zeilen aus der ausgewählten Tabelle löschen, die älter als die angegebene Anzahl Tage sind.</label>
+      <label index="task_tableGarbageCollection_table.alttitle">Tabelle auswählen</label>
+      <label index="task_tableGarbageCollection_table.description">Wählen Sie eine der registrierten Tabellen aus, damit dieser Task sie bereinigt.</label>
+      <label index="task_tableGarbageCollection_allTables.alttitle">Alle Tabellen bereinigen</label>
+      <label index="task_tableGarbageCollection_allTables.description">Falls ausgewählt, werden alle konfigurierten Tabellen bereinigt. Die Auswahl unterhalb wird ignoriert.</label>
+      <label index="task_recyclerGarbageCollection_numberOfDays.alttitle">Anzahl der Tage</label>
+      <label index="task_recyclerGarbageCollection_numberOfDays.description">Lösche alle Dateien im _recycler_ Ordner, welche älter als die angegebene Anzahl der Tage sind.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

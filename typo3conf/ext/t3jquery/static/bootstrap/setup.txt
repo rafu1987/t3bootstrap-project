@@ -1,0 +1,5 @@
+
+page.includeCSS {
+	t3jquery-bootstrap1 = {$plugin.tx_t3jquery.file.Bootstrap}
+	t3jquery-bootstrap2 = {$plugin.tx_t3jquery.file.BootstrapResponsive}
+}

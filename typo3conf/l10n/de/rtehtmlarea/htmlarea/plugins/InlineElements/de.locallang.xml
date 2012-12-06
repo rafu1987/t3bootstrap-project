@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="No markup">Kein Textformat</label>
+      <label index="Remove markup">Textformat entfernen</label>
+      <label index="FormatText-Tooltip">Format auf markierten Text anwenden</label>
+      <label index="BiDiOverride-Tooltip">Bidirektionalität übersteuern</label>
+      <label index="Big-Tooltip">Großer Text</label>
+      <label index="Bold-Tooltip">Fett</label>
+      <label index="Citation-Tooltip">Zitatquelle</label>
+      <label index="Code-Tooltip">Ausschnitt aus Computer-Code</label>
+      <label index="Code-contextMenuTitle">Codeausschnitt</label>
+      <label index="Definition-Tooltip">Definition</label>
+      <label index="DeletedText-Tooltip">Gelöschter Text</label>
+      <label index="Emphasis-Tooltip">Betonung</label>
+      <label index="Keyboard-Tooltip">Vom Benutzer einzugebender Text</label>
+      <label index="Keyboard-contextMenuTitle">Einzugebender Text</label>
+      <label index="InsertedText-Tooltip">Eingefügter Text</label>
+      <label index="Italic-Tooltip">Kursiv</label>
+      <label index="MonoSpaced-Tooltip">Text in dicktengleicher Schrift</label>
+      <label index="Quotation-Tooltip">Kurzes Zitat</label>
+      <label index="Quotation-contextMenuTitle">Kurzes Zitat</label>
+      <label index="Sample-Tooltip">Beispielausgabe eines Programms oder Skript</label>
+      <label index="Sample-contextMenuTitle">Beispielausgabe</label>
+      <label index="Small-Tooltip">Kleiner Text</label>
+      <label index="Span-Tooltip">Stilbehälter</label>
+      <label index="StrikeThrough-Tooltip">Durchgestrichener Text</label>
+      <label index="Strong-Tooltip">Starke Betonung</label>
+      <label index="Subscript-Tooltip">Tiefgestellt</label>
+      <label index="Superscript-Tooltip">Hochgestellt</label>
+      <label index="Underline-Tooltip">Unterstrichen</label>
+      <label index="Variable-Tooltip">Variable oder Programmparameter</label>
+      <label index="Variable-contextMenuTitle">Variable</label>
+      <label index="Technische Universitat Ilmenau">Technische Universität Ilmenau</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

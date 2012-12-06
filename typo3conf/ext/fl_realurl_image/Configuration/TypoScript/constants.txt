@@ -1,0 +1,29 @@
+# cat=plugin.fl_realurl_image/enable/01; type=boolean; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.conf_enable
+fl_realurl_image.conf_enable = 1
+
+# cat=plugin.fl_realurl_image/file/02; type=string; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.conf_data
+fl_realurl_image.conf_data = ts:altText // dam:title // file:origFile // page:title // image
+
+# cat=plugin.fl_realurl_image/file/03; type=options[lower,upper,none]; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.conf_case
+fl_realurl_image.conf_case = lower
+
+# cat=plugin.fl_realurl_image/file/04; type=boolean; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.conf_trim
+fl_realurl_image.conf_trim = 1
+
+# cat=plugin.fl_realurl_image/file/05; type=int; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.conf_crop
+fl_realurl_image.conf_crop = 210 |  | 1
+
+# cat=plugin.fl_realurl_image/file/06; type=string; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.conf_spaceCharacter
+fl_realurl_image.conf_spaceCharacter = -
+
+# cat=plugin.fl_realurl_image/file/07; type=boolean; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.conf_smartEncoding
+fl_realurl_image.conf_smartEncoding = 1
+
+# cat=plugin.fl_realurl_image/file/08; type=string; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.conf_imageFolder
+fl_realurl_image.conf_folder = typo3temp/fl_realurl_image
+
+# cat=plugin.fl_realurl_image/file/09; type=int; label=LLL:EXT:fl_realurl_image/Resources/Private/Language/locallang.xml:fl_realurl_image.conf_hashLength
+fl_realurl_image.conf_hashLength = 2
+
+
+

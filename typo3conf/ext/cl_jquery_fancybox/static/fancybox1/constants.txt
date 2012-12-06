@@ -1,0 +1,120 @@
+
+plugin.cljqueryfancybox {
+
+	# cat=plugin.cl_jqueryfancybox; type=boolean; label=Include jQuery core: Incluse jQuery core script
+	includejquerycore = 
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=Padding: Space between FancyBox wrapper and content
+	padding = 10
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=Margin: Space between viewport and FancyBox wrapper
+	margin = 40
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=width: Width for content types 'iframe' and 'swf'. Also set for inline content if 'autoDimensions' is set to 'false'
+	width = 560
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=height:Height for content types 'iframe' and 'swf'. Also set for inline content if 'autoDimensions' is set to 'false'
+	height = 340
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=autoSize:If true, FancyBox is scaled to fit in viewport
+	autoScale =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=opacity:When true, transparency of content is changed for elastic transitions
+	opacity =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=modal: When true, 'overlayShow' is set to 'true' and 'hideOnOverlayClick', 'hideOnContentClick', 'enableEscapeButton', 'showCloseButton' are set to 'false'
+	modal =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=cyclic: When true, galleries will be cyclic, allowing you to keep pressing next/back.
+	cyclic =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[auto,yes,no]; label=scrolling: Set the overflow CSS property to create or hide scrollbars. Can be set to 'auto', 'yes', or 'no'
+	scrolling =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=autoDimensions: For inline and ajax views, resizes the view to the element recieves. Make sure it has dimensions otherwise this will give unexpected results
+	autoDimensions =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=centerOnScroll: When true, FancyBox is centered while scrolling page
+	centerOnScroll =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=ajax: Ajax options
+	ajax =
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=swf: Params to put on the swf object
+	swf = wmode: 'transparent'
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=hideOnOverlayClick: Toggle if clicking the overlay should close FancyBox
+	hideOnOverlayClick =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=hideOnContentClick: Toggle if clicking the content should close FancyBox
+	hideOnContentClick =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=overlayShow: Toggle overlay
+	overlayShow =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=overlayOpacity: Opacity of the overlay (from 0 to 1; default - 0.3)
+	overlayOpacity =0.3
+	
+	# cat=plugin.cl_jqueryfancybox; type=color; label=overlayColor: Color of the overlay
+	overlayColor = 666
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=titleShow: Toggle title
+	titleShow =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[float,outside,inside,over]; label=titlePosition: The position of title. Can be set to 'outside', 'inside' or 'over'
+	titlePosition =float
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=titleFormat: Callback to customize title area. You can set any html - custom image counter or even custom navigation
+	titleFormat =null
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[fade,elastic,none]; label=transitionIn: The transition type
+	transitionIn =fade
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[fade,elastic,none]; label=transitionOut: The transition type
+	transitionOut =fade
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=speedIn: Speed of the fade and elastic transitions, in milliseconds
+	speedIn =300
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=speedOut: Speed of the fade and elastic transitions, in milliseconds
+	speedOut =300
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=changeSpeed: Speed of resizing when changing gallery items, in milliseconds
+	changeSpeed =300
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[fast,slow]; label=changeFade: Speed of the content fading while changing gallery items
+	changeFade =fast
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=easingIn: Easing used for elastic animations
+	easingIn =swing
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=easingOut: Easing used for elastic animations
+	easingOut =swing
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=showCloseButton:Toggle close button
+	showCloseButton =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=showNavArrows: Toggle navigation arrows
+	showNavArrows =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=enableEscapeButton: Toggle if pressing Esc button closes FancyBox
+	enableEscapeButton =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=onStart: Will be called right before attempting to load the content
+	onStart =function(){}
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=onCancel: Will be called after loading is canceled
+	onCancel =function(){}
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=onComplete: Will be called once the content is displayed
+	onComplete =function(){}
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=onCleanup: Will be called just before closing
+	onCleanup =function(){}
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=onClosed: Will be called once FancyBox is closed
+	onClosed =function(){}
+
+}
+
+styles.content.imgtext.linkWrap.lightboxEnabled = 1

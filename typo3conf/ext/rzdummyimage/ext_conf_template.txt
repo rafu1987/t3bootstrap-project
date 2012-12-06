@@ -1,0 +1,14 @@
+# cat=basic; type=string; label=Width: Standard width
+width = 600
+
+# cat=basic; type=string; label=Height: Standard height
+height = 400
+
+# cat=basic; type=string; label=Text color: Standard text color
+textColor = ffffff
+
+# cat=basic; type=string; label=Background color: Standard background color
+backgroundColor = 000000
+
+# cat=basic; type=string; label=Save path: Path where the image are stored. No trailing slash! (Usage like fileadmin/user_upload/rzdummyimage)
+storePath = fileadmin/user_upload/rzdummyimage

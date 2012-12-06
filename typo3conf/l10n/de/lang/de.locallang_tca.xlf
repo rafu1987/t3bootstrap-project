@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="file_mountpoints" xml:space="preserve" approved="yes">
+        <source>File Mounts:</source>
+      <target state="translated">Verzeichnisfreigaben:</target></trans-unit>
+      <trans-unit id="file_mountpoints_edit_title" xml:space="preserve" approved="yes">
+        <source>Edit filemount</source>
+      <target state="translated">Verzeichnisfreigabe bearbeiten</target></trans-unit>
+      <trans-unit id="file_mountpoints_add_title" xml:space="preserve" approved="yes">
+        <source>Create new filemount</source>
+      <target state="translated">Neue Verzeichnisfreigabe erstellen</target></trans-unit>
+      <trans-unit id="file_mountpoints_list_title" xml:space="preserve" approved="yes">
+        <source>List filemounts</source>
+      <target state="translated">Verzeichnisfreigaben anzeigen</target></trans-unit>
+      <trans-unit id="db_mountpoints" xml:space="preserve" approved="yes">
+        <source>DB Mounts:</source>
+      <target state="translated">Datenbankfreigaben:</target></trans-unit>
+      <trans-unit id="userMods" xml:space="preserve" approved="yes">
+        <source>Modules:</source>
+      <target state="translated">Module:</target></trans-unit>
+      <trans-unit id="allowed_languages" xml:space="preserve" approved="yes">
+        <source>Limit to languages:</source>
+      <target state="translated">Auf Sprachen einschränken:</target></trans-unit>
+      <trans-unit id="workspace_perms" xml:space="preserve" approved="yes">
+        <source>Workspace permissions:</source>
+      <target state="translated">Arbeitsumgebungsberechtigungen:</target></trans-unit>
+      <trans-unit id="workspace_perms_live" xml:space="preserve" approved="yes">
+        <source>Edit Live (Online)</source>
+      <target state="translated">Live bearbeiten (Online)</target></trans-unit>
+      <trans-unit id="workspace_perms_draft" xml:space="preserve" approved="yes">
+        <source>Edit Draft (Offline)</source>
+      <target state="translated">Entwurf bearbeiten (Offline)</target></trans-unit>
+      <trans-unit id="workspace_perms_custom" xml:space="preserve" approved="yes">
+        <source>Create new workspace projects</source>
+      <target state="translated">Neue Arbeitsumgebungsprojekte erstellen</target></trans-unit>
+      <trans-unit id="TSconfig" xml:space="preserve" approved="yes">
+        <source>TSconfig:</source>
+      <target state="translated">TSconfig:</target></trans-unit>
+      <trans-unit id="TSconfig_title" xml:space="preserve" approved="yes">
+        <source>TSconfig QuickReference</source>
+      <target state="translated">TSconfig-Kurzreferenz</target></trans-unit>
+      <trans-unit id="lockToDomain" xml:space="preserve" approved="yes">
+        <source>Lock to domain:</source>
+      <target state="translated">Auf Domäne beschränken:</target></trans-unit>
+      <trans-unit id="be_users.username" xml:space="preserve" approved="yes">
+        <source>Username:</source>
+      <target state="translated">Benutzername:</target></trans-unit>
+      <trans-unit id="be_users.password" xml:space="preserve" approved="yes">
+        <source>Password:</source>
+      <target state="translated">Passwort:</target></trans-unit>
+      <trans-unit id="be_users.usergroup" xml:space="preserve" approved="yes">
+        <source>Group:</source>
+      <target state="translated">Gruppe:</target></trans-unit>
+      <trans-unit id="be_users.usergroup_edit_title" xml:space="preserve" approved="yes">
+        <source>Edit usergroup</source>
+      <target state="translated">Benutzergruppe bearbeiten</target></trans-unit>
+      <trans-unit id="be_users.usergroup_add_title" xml:space="preserve" approved="yes">
+        <source>Create new group</source>
+      <target state="translated">Neue Gruppe erstellen</target></trans-unit>
+      <trans-unit id="be_users.usergroup_list_title" xml:space="preserve" approved="yes">
+        <source>List groups</source>
+      <target state="translated">Gruppen anzeigen</target></trans-unit>
+      <trans-unit id="be_users.disableIPlock" xml:space="preserve" approved="yes">
+        <source>Disable IP lock for user:</source>
+      <target state="translated">IP-Einschränkung für Benutzer deaktivieren</target></trans-unit>
+      <trans-unit id="be_users.admin" xml:space="preserve" approved="yes">
+        <source>Admin(!):</source>
+      <target state="translated">Admin(!):</target></trans-unit>
+      <trans-unit id="be_users.options" xml:space="preserve" approved="yes">
+        <source>Mount from groups:</source>
+      <target state="translated">Freigaben aus Gruppen:</target></trans-unit>
+      <trans-unit id="be_users.options_db_mounts" xml:space="preserve" approved="yes">
+        <source>DB Mounts:</source>
+      <target state="translated">Datenbankfreigaben:</target></trans-unit>
+      <trans-unit id="be_users.options_file_mounts" xml:space="preserve" approved="yes">
+        <source>File Mounts:</source>
+      <target state="translated">Verzeichnisfreigaben:</target></trans-unit>
+      <trans-unit id="be_users.fileoper_perms" xml:space="preserve" approved="yes">
+        <source>Fileoperation permissions:</source>
+      <target state="translated">Dateioperationsberechtigungen</target></trans-unit>
+      <trans-unit id="be_users.fileoper_perms_general" xml:space="preserve" approved="yes">
+        <source>Files: Upload,Copy,Move,Delete,Rename,New,Edit</source>
+      <target state="translated">Dateien: Hochladen, Kopieren, Verschieben, Löschen, Umbenennen, Neu, Bearbeiten</target></trans-unit>
+      <trans-unit id="be_users.fileoper_perms_unzip" xml:space="preserve" approved="yes">
+        <source>Files: Unzip</source>
+      <target state="translated">Dateien: Entpacken</target></trans-unit>
+      <trans-unit id="be_users.fileoper_perms_diroper_perms" xml:space="preserve" approved="yes">
+        <source>Directory: Move,Delete,Rename,New</source>
+      <target state="translated">Verzeichnis: Verschieben, Löschen, Umbenennen, Neu</target></trans-unit>
+      <trans-unit id="be_users.fileoper_perms_diroper_perms_copy" xml:space="preserve" approved="yes">
+        <source>Directory: Copy</source>
+      <target state="translated">Verzeichnis: Kopieren</target></trans-unit>
+      <trans-unit id="be_users.fileoper_perms_diroper_perms_delete" xml:space="preserve" approved="yes">
+        <source>Directory: Delete recursively (rm -Rf)</source>
+      <target state="translated">Verzeichnis: Rekursiv löschen</target></trans-unit>
+      <trans-unit id="be_users.lang" xml:space="preserve" approved="yes">
+        <source>Default Language:</source>
+      <target state="translated">Standardsprache:</target></trans-unit>
+      <trans-unit id="be_users.tabs.rights" xml:space="preserve" approved="yes">
+        <source>Access Rights</source>
+      <target state="translated">Zugriffsrechte</target></trans-unit>
+      <trans-unit id="be_users.tabs.mounts_and_workspaces" xml:space="preserve" approved="yes">
+        <source>Mounts and Workspaces</source>
+      <target state="translated">Freigaben und Arbeitsumgebungen</target></trans-unit>
+      <trans-unit id="be_users.tabs.options" xml:space="preserve" approved="yes">
+        <source>Options</source>
+      <target state="translated">Optionen</target></trans-unit>
+      <trans-unit id="be_users.tabs.extended" xml:space="preserve" approved="yes">
+        <source>Extended</source>
+      <target state="translated">Erweitert</target></trans-unit>
+      <trans-unit id="be_users.tabs.access" xml:space="preserve" approved="yes">
+        <source>Access</source>
+      <target state="translated">Zugriff</target></trans-unit>
+      <trans-unit id="be_groups.title" xml:space="preserve" approved="yes">
+        <source>Grouptitle:</source>
+      <target state="translated">Gruppenname:</target></trans-unit>
+      <trans-unit id="be_groups.pagetypes_select" xml:space="preserve" approved="yes">
+        <source>Page types:</source>
+      <target state="translated">Seitentypen:</target></trans-unit>
+      <trans-unit id="be_groups.tables_modify" xml:space="preserve" approved="yes">
+        <source>Tables (modify):</source>
+      <target state="translated">Tabellen (ändern):</target></trans-unit>
+      <trans-unit id="be_groups.tables_select" xml:space="preserve" approved="yes">
+        <source>Tables (listing):</source>
+      <target state="translated">Tabellen (anzeigen):</target></trans-unit>
+      <trans-unit id="be_groups.non_exclude_fields" xml:space="preserve" approved="yes">
+        <source>Allowed excludefields:</source>
+      <target state="translated">Erlaubte Ausschlussfelder:</target></trans-unit>
+      <trans-unit id="be_groups.explicit_allowdeny" xml:space="preserve" approved="yes">
+        <source>Explicitly allow/deny field values:</source>
+      <target state="translated">Feldwerte explizit erlauben/verbieten:</target></trans-unit>
+      <trans-unit id="be_groups.custom_options" xml:space="preserve" approved="yes">
+        <source>Custom module options:</source>
+      <target state="translated">Benutzdefinierte Moduloptionen:</target></trans-unit>
+      <trans-unit id="be_groups.inc_access_lists" xml:space="preserve" approved="yes">
+        <source>Include Access Lists:</source>
+      <target state="translated">Zugrifflisten mit einschließen:</target></trans-unit>
+      <trans-unit id="be_groups.hide_in_lists" xml:space="preserve" approved="yes">
+        <source>Hide in lists:</source>
+      <target state="translated">In Listen verbergen:</target></trans-unit>
+      <trans-unit id="be_groups.subgroup" xml:space="preserve" approved="yes">
+        <source>Sub Groups:</source>
+      <target state="translated">Untergruppen:</target></trans-unit>
+      <trans-unit id="be_groups.tabs.base_rights" xml:space="preserve" approved="yes">
+        <source>Access Lists</source>
+      <target state="translated">Zugriffsliste</target></trans-unit>
+      <trans-unit id="be_groups.tabs.mounts_and_workspaces" xml:space="preserve" approved="yes">
+        <source>Mounts and Workspaces</source>
+      <target state="translated">Freigaben und Arbeitsumgebungen</target></trans-unit>
+      <trans-unit id="be_groups.fileoper_perms" xml:space="preserve" approved="yes">
+        <source>Fileoperation permissions:</source>
+      <target state="translated">Rechte für Dateioperationen:</target></trans-unit>
+      <trans-unit id="be_groups.fileoper_perms_general" xml:space="preserve" approved="yes">
+        <source>Files: Upload,Copy,Move,Delete,Rename,New,Edit</source>
+      <target state="translated">Dateien: Hochladen,Kopieren,Verschieben,Löschen,Umbenennen,Neu,Bearbeiten</target></trans-unit>
+      <trans-unit id="be_groups.fileoper_perms_unzip" xml:space="preserve" approved="yes">
+        <source>Files: Unzip</source>
+      <target state="translated">Dateien: Entpacken</target></trans-unit>
+      <trans-unit id="be_groups.fileoper_perms_diroper_perms" xml:space="preserve" approved="yes">
+        <source>Directory: Move,Delete,Rename,New</source>
+      <target state="translated">Verzeichnis: Verschieben,Löschen,Umbenennen,Neu</target></trans-unit>
+      <trans-unit id="be_groups.fileoper_perms_diroper_perms_copy" xml:space="preserve" approved="yes">
+        <source>Directory: Copy</source>
+      <target state="translated">Verzeichnis: Kopieren</target></trans-unit>
+      <trans-unit id="be_groups.fileoper_perms_diroper_perms_delete" xml:space="preserve" approved="yes">
+        <source>Directory: Delete recursively (rm -Rf)</source>
+      <target state="translated">Verzeichnis: Rekursiv Löschen (rm -Rf)</target></trans-unit>
+      <trans-unit id="be_groups.tabs.options" xml:space="preserve" approved="yes">
+        <source>Options</source>
+      <target state="translated">Optionen</target></trans-unit>
+      <trans-unit id="be_groups.tabs.extended" xml:space="preserve" approved="yes">
+        <source>Extended</source>
+      <target state="translated">Erweitert</target></trans-unit>
+      <trans-unit id="sys_filemounts.tabs.users" xml:space="preserve" approved="yes">
+        <source>Users</source>
+      <target state="translated">Benutzer</target></trans-unit>
+      <trans-unit id="sys_filemounts.tabs.mountpoints" xml:space="preserve" approved="yes">
+        <source>Mountpoints</source>
+      <target state="translated">Verzeichnisfreigaben</target></trans-unit>
+      <trans-unit id="sys_filemounts.tabs.publishing" xml:space="preserve" approved="yes">
+        <source>Publishing</source>
+      <target state="translated">Veröffentlichung</target></trans-unit>
+      <trans-unit id="sys_filemounts.tabs.other" xml:space="preserve" approved="yes">
+        <source>Other</source>
+      <target state="translated">Andere</target></trans-unit>
+      <trans-unit id="sys_filemounts.title" xml:space="preserve" approved="yes">
+        <source>Label:</source>
+      <target state="translated">Bezeichnung:</target></trans-unit>
+      <trans-unit id="sys_filemounts.path" xml:space="preserve" approved="yes">
+        <source>Path:</source>
+      <target state="translated">Pfad:</target></trans-unit>
+      <trans-unit id="sys_filemounts.base" xml:space="preserve" approved="yes">
+        <source>Base:</source>
+      <target state="translated">Basis:</target></trans-unit>
+      <trans-unit id="sys_filemounts.base_absolute" xml:space="preserve" approved="yes">
+        <source>absolute (root) / </source>
+      <target state="translated">absolut (Wurzel) /</target></trans-unit>
+      <trans-unit id="sys_filemounts.base_relative" xml:space="preserve" approved="yes">
+        <source>relative ../fileadmin/</source>
+      <target state="translated">relativ ../fileadmin/</target></trans-unit>
+      <trans-unit id="sys_log" xml:space="preserve">
+        <source>System Log</source>
+      </trans-unit>
+      <trans-unit id="sys_news" xml:space="preserve" approved="yes">
+        <source>System News</source>
+      <target state="translated">System-Nachrichten</target></trans-unit>
+      <trans-unit id="sys_news.tabs.access" xml:space="preserve" approved="yes">
+        <source>Access</source>
+      <target state="translated">Zugriff</target></trans-unit>
+      <trans-unit id="sys_workspace.adminusers" xml:space="preserve" approved="yes">
+        <source>Owners:</source>
+      <target state="translated">Besitzer:</target></trans-unit>
+      <trans-unit id="sys_workspace.members" xml:space="preserve" approved="yes">
+        <source>Members:</source>
+      <target state="translated">Mitglieder:</target></trans-unit>
+      <trans-unit id="sys_workspace.reviewers" xml:space="preserve" approved="yes">
+        <source>Reviewers:</source>
+      <target state="translated">Redakteure:</target></trans-unit>
+      <trans-unit id="sys_workspace.publish_time" xml:space="preserve" approved="yes">
+        <source>Publish:</source>
+      <target state="translated">Veröffentlichen:</target></trans-unit>
+      <trans-unit id="sys_workspace.unpublish_time" xml:space="preserve" approved="yes">
+        <source>Un-Publish:</source>
+      <target state="translated">Zurückziehen:</target></trans-unit>
+      <trans-unit id="sys_workspace.freeze" xml:space="preserve" approved="yes">
+        <source>Freeze Editing</source>
+      <target state="translated">Bearbeitung einfrieren</target></trans-unit>
+      <trans-unit id="sys_workspace.live_edit" xml:space="preserve" approved="yes">
+        <source>Allow "live" editing of records from tables without versioning</source>
+      <target state="translated">Live-Bearbeitung von Datensätzen aus Tabellen ohne Versionierung erlauben</target></trans-unit>
+      <trans-unit id="sys_workspace.review_stage_edit" xml:space="preserve" approved="yes">
+        <source>Allow members to edit records in "Review" stage</source>
+      <target state="translated">Mitgliedern die Bearbeitung von Datensätzen in der Redigierungsphase erlauben</target></trans-unit>
+      <trans-unit id="sys_workspace.disable_autocreate" xml:space="preserve" approved="yes">
+        <source>Disable auto-versioning when editing</source>
+      <target state="translated">Automatische Versionierung beim Bearbeiten deaktivieren</target></trans-unit>
+      <trans-unit id="sys_workspace.swap_modes" xml:space="preserve" approved="yes">
+        <source>Swap modes</source>
+      <target state="translated">Tauschmodus</target></trans-unit>
+      <trans-unit id="sys_workspace.vtypes" xml:space="preserve" approved="yes">
+        <source>Disable Versioning Types for members and reviewers:</source>
+      <target state="translated">Versionierungstypen für Mitglieder und Redakteure deaktivieren:</target></trans-unit>
+      <trans-unit id="sys_workspace.publish_access" xml:space="preserve" approved="yes">
+        <source>Publish access:</source>
+      <target state="translated">Öffentlicher Zugriff:</target></trans-unit>
+      <trans-unit id="sys_workspace.stagechg_notification" xml:space="preserve" approved="yes">
+        <source>Stage change notification by email:</source>
+      <target state="translated">E-Mail-Benachrichtigung bei Phasenänderung:</target></trans-unit>
+      <trans-unit id="pages" xml:space="preserve" approved="yes">
+        <source>Page</source>
+      <target state="translated">Seite</target></trans-unit>
+      <trans-unit id="doktype.I.0" xml:space="preserve" approved="yes">
+        <source>Standard</source>
+      <target state="translated">Standard</target></trans-unit>
+      <trans-unit id="doktype.I.1" xml:space="preserve" approved="yes">
+        <source>SysFolder</source>
+      <target state="translated">Ordner</target></trans-unit>
+      <trans-unit id="doktype.I.folder" xml:space="preserve" approved="yes">
+        <source>Folder</source>
+      <target state="translated">Ordner</target></trans-unit>
+      <trans-unit id="doktype.I.2" xml:space="preserve" approved="yes">
+        <source>Recycler</source>
+      <target state="translated">Papierkorb</target></trans-unit>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Pagetitle:</source>
+      <target state="translated">Seitentitel:</target></trans-unit>
+      <trans-unit id="php_tree_stop" xml:space="preserve" approved="yes">
+        <source>Stop page tree:</source>
+      <target state="translated">Seitenbaum stoppen:</target></trans-unit>
+      <trans-unit id="is_siteroot" xml:space="preserve" approved="yes">
+        <source>Is root of website:</source>
+      <target state="translated">Ist Anfang der Website:</target></trans-unit>
+      <trans-unit id="storage_pid" xml:space="preserve" approved="yes">
+        <source>General Record Storage page:</source>
+      <target state="translated">Allgemeine Datensatzsammlung:</target></trans-unit>
+      <trans-unit id="be_users" xml:space="preserve" approved="yes">
+        <source>Backend user</source>
+      <target state="translated">Backend-Benutzer</target></trans-unit>
+      <trans-unit id="be_groups" xml:space="preserve" approved="yes">
+        <source>Backend usergroup</source>
+      <target state="translated">Backend-Benutzergruppe</target></trans-unit>
+      <trans-unit id="sys_filemounts" xml:space="preserve" approved="yes">
+        <source>Filemount</source>
+      <target state="translated">Verzeichnisfreigaben</target></trans-unit>
+      <trans-unit id="sys_collection" xml:space="preserve">
+        <source>Record Collection</source>
+      </trans-unit>
+      <trans-unit id="sys_collection.title" xml:space="preserve">
+        <source>Collection-Name</source>
+      </trans-unit>
+      <trans-unit id="sys_collection.description" xml:space="preserve">
+        <source>Description</source>
+      </trans-unit>
+      <trans-unit id="sys_collection.table_name" xml:space="preserve">
+        <source>Record Type of Collection</source>
+      </trans-unit>
+      <trans-unit id="sys_collection.items" xml:space="preserve">
+        <source>Items</source>
+      </trans-unit>
+      <trans-unit id="sys_collection.type" xml:space="preserve">
+        <source>Type of collection</source>
+      </trans-unit>
+      <trans-unit id="sys_collection.type.static" xml:space="preserve">
+        <source>static record composition</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage" xml:space="preserve">
+        <source>File Storage</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.type" xml:space="preserve">
+        <source>Entry point</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.name" xml:space="preserve">
+        <source>Name</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.description" xml:space="preserve">
+        <source>Description</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.hidden" xml:space="preserve">
+        <source>Hide from listings</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.is_online" xml:space="preserve">
+        <source>Is online?</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.is_browsable" xml:space="preserve">
+        <source>Is browsable?</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.is_public" xml:space="preserve">
+        <source>Is publically available?</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.is_writable" xml:space="preserve">
+        <source>Is writable?</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.capabilities" xml:space="preserve">
+        <source>Capabilities</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.processingfolder" xml:space="preserve">
+        <source>Folder for manipulated and temporary images etc.</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.driver" xml:space="preserve">
+        <source>Driver</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.driver.local" xml:space="preserve">
+        <source>Local Filesystem</source>
+      </trans-unit>
+      <trans-unit id="sys_file_storage.configuration" xml:space="preserve">
+        <source>Driver Configuration</source>
+      </trans-unit>
+      <trans-unit id="sys_file" xml:space="preserve">
+        <source>File</source>
+      </trans-unit>
+      <trans-unit id="sys_file.storage" xml:space="preserve">
+        <source>Storage</source>
+      </trans-unit>
+      <trans-unit id="sys_file.identifier" xml:space="preserve">
+        <source>Identifier</source>
+      </trans-unit>
+      <trans-unit id="sys_file.name" xml:space="preserve">
+        <source>Filename</source>
+      </trans-unit>
+      <trans-unit id="sys_file.title" xml:space="preserve">
+        <source>Title</source>
+      </trans-unit>
+      <trans-unit id="sys_file.type" xml:space="preserve">
+        <source>File Type</source>
+      </trans-unit>
+      <trans-unit id="sys_file.type.unknown" xml:space="preserve">
+        <source>Unknown</source>
+      </trans-unit>
+      <trans-unit id="sys_file.type.text" xml:space="preserve">
+        <source>Text</source>
+      </trans-unit>
+      <trans-unit id="sys_file.type.image" xml:space="preserve">
+        <source>Image</source>
+      </trans-unit>
+      <trans-unit id="sys_file.type.audio" xml:space="preserve">
+        <source>Audio</source>
+      </trans-unit>
+      <trans-unit id="sys_file.type.video" xml:space="preserve">
+        <source>Video</source>
+      </trans-unit>
+      <trans-unit id="sys_file.type.software" xml:space="preserve">
+        <source>Software</source>
+      </trans-unit>
+      <trans-unit id="sys_file.mime_type" xml:space="preserve">
+        <source>Mime Type</source>
+      </trans-unit>
+      <trans-unit id="sys_file.sha1" xml:space="preserve">
+        <source>SHA1</source>
+      </trans-unit>
+      <trans-unit id="sys_file.size" xml:space="preserve">
+        <source>Size</source>
+      </trans-unit>
+      <trans-unit id="sys_file.identifier" xml:space="preserve">
+        <source>Identifier</source>
+      </trans-unit>
+      <trans-unit id="sys_file.usage_count" xml:space="preserve">
+        <source>Usage Count</source>
+      </trans-unit>
+      <trans-unit id="sys_file.description" xml:space="preserve">
+        <source>Description</source>
+      </trans-unit>
+      <trans-unit id="sys_file.alternative" xml:space="preserve">
+        <source>Alternative Text</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference" xml:space="preserve">
+        <source>File Reference</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.uid_local" xml:space="preserve">
+        <source>File</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.uid_foreign" xml:space="preserve">
+        <source>Used by content elements</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.tablenames" xml:space="preserve">
+        <source>Table name</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.fieldname" xml:space="preserve">
+        <source>Foreign Field</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.sorting_foreign" xml:space="preserve">
+        <source>Sorting foreign</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.basicoverlayPalette" xml:space="preserve">
+        <source>File Metadata</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.imageoverlayPalette" xml:space="preserve">
+        <source>Image Metadata</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.title" xml:space="preserve">
+        <source>Title</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.description" xml:space="preserve">
+        <source>Description (Caption)</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.downloadname" xml:space="preserve">
+        <source>Download Name</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.alternative" xml:space="preserve">
+        <source>Alternative Text</source>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.link" xml:space="preserve">
+        <source>Link</source>
+      </trans-unit>
+      <trans-unit id="sys_file_collection" xml:space="preserve">
+        <source>File collection</source>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.files" xml:space="preserve">
+        <source>Files</source>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.title" xml:space="preserve">
+        <source>Title</source>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.type" xml:space="preserve">
+        <source>Type</source>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.storage" xml:space="preserve">
+        <source>File Storage</source>
+      </trans-unit>
+      <trans-unit id="sys_file_collection.folder" xml:space="preserve" approved="yes">
+        <source>Folder</source>
+      <target state="translated">Ordner</target><note>100%</note></trans-unit>
+      <trans-unit id="sys_language" xml:space="preserve" approved="yes">
+        <source>Website Language</source>
+      <target state="translated">Website-Sprache</target></trans-unit>
+      <trans-unit id="sys_language.isocode" xml:space="preserve" approved="yes">
+        <source>Select Official Language (ISO code):</source>
+      <target state="translated">Offizielle Sprache wählen (ISO-Kennung):</target></trans-unit>
+      <trans-unit id="sys_language.flag" xml:space="preserve" approved="yes">
+        <source>Select flag icon:</source>
+      <target state="translated">Flaggensymbol wählen:</target></trans-unit>
+      <trans-unit id="sys_workspace" xml:space="preserve" approved="yes">
+        <source>Workspace</source>
+      <target state="translated">Arbeitsumgebung</target></trans-unit>
+      <trans-unit id="editlock" xml:space="preserve" approved="yes">
+        <source>Restrict editing by non-Admins:</source>
+      <target state="translated">Bearbeitung erfordert Admin-Rechte:</target></trans-unit>
+      <trans-unit id="sys_category" xml:space="preserve">
+        <source>Category</source>
+      </trans-unit>
+      <trans-unit id="sys_category.title" xml:space="preserve">
+        <source>Title</source>
+      </trans-unit>
+      <trans-unit id="sys_category.description" xml:space="preserve">
+        <source>Description</source>
+      </trans-unit>
+      <trans-unit id="sys_category.parent" xml:space="preserve">
+        <source>Parent</source>
+      </trans-unit>
+      <trans-unit id="sys_category.items" xml:space="preserve">
+        <source>Items</source>
+      </trans-unit>
+      <trans-unit id="sys_category.categories" xml:space="preserve">
+        <source>Categories</source>
+      </trans-unit>
+      <trans-unit id="sys_category.tabs.category" xml:space="preserve">
+        <source>Categories</source>
+      </trans-unit>
+      <trans-unit id="sys_category.tabs.items" xml:space="preserve">
+        <source>Items</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:52:11 UTC 2011" product-name="realurl">
+    <header/>
+    <body>
+      <trans-unit id="pages.tx_realurl_pathsegment" approved="yes">
+        <source>Speaking URL path segment:</source>
+        <target state="translated">Pfadsegment für untergeordnete Seiten:</target>
+      </trans-unit>
+      <trans-unit id="pages.tx_realurl_exclude" approved="yes">
+        <source>Exclude from speaking URL:</source>
+        <target state="translated">Nicht in sprechende URL aufnehmen:</target>
+      </trans-unit>
+      <trans-unit id="pages.tx_realurl_path_override" approved="yes">
+        <source>Override the whole page path</source>
+        <target state="translated">Den gesamten Pfad überschreiben</target>
+      </trans-unit>
+      <trans-unit id="pages.tx_realurl_nocache" approved="yes">
+        <source>Disable RealURL cache</source>
+        <target state="translated">RealURL-Cache deaktivieren</target>
+      </trans-unit>
+      <trans-unit id="moduleFunction.tx_realurl_modfunc1" approved="yes">
+        <source>RealURL management</source>
+        <target state="translated">RealURL-Verwaltung</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

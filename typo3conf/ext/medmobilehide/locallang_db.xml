@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>database</type>
+        <description>Language labels for database tables/fields belonging to extension 'medmobilehide'</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tt_content.tx_medmobilehide_mobile_hidden">Hide element on devices</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.0"></label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.1">Phone</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.2">Tablet</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.3">Desktop</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.4">Phone + Tablet</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.5">Phone + Desktop</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.6">Tablet + Desktop</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.7">Desktop + Phone + Tablet</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="tt_content.tx_medmobilehide_mobile_hidden">Auf Endgeräten verstecken</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.0"></label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.1">Telefon</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.2">Tablet</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.3">Desktop</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.4">Telefon + Tablet</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.5">Telefon + Desktop</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.6">Tablet + Desktop</label>
+            <label index="tt_content.tx_medmobilehide_mobile_hidden.I.7">Desktop + Telefon + Tablet</label>            
+        </languageKey>
+    </data>
+</T3locallang>

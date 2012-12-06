@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:55:14 UTC 2011" product-name="templavoila">
+    <header/>
+    <body>
+      <trans-unit id="cm1_title" approved="yes">
+        <source>TemplaVoilà</source>
+        <target state="translated">TemplaVoilà</target>
+      </trans-unit>
+      <trans-unit id="cm1_viewsubelements" approved="yes">
+        <source>View: Sub elements</source>
+        <target state="translated">Ansicht: Unterelemente</target>
+      </trans-unit>
+      <trans-unit id="cm1_viewflexformxml" approved="yes">
+        <source>View: Flexform XML</source>
+        <target state="translated">Ansicht: Flexform-XML</target>
+      </trans-unit>
+      <trans-unit id="cm_viewdsto" approved="yes">
+        <source>View: DS/TO</source>
+        <target state="translated">Ansicht: DS/TO</target>
+      </trans-unit>
+      <trans-unit id="cm1_pagesusingthiselement" approved="yes">
+        <source>Pages using this element -&gt;</source>
+        <target state="translated">Seiten, die dieses Element nutzen -&gt;</target>
+      </trans-unit>
+      <trans-unit id="wiz_refElements" approved="yes">
+        <source>Reference unused content elements (templavoila)</source>
+        <target state="translated">Unbenutzte Inhaltselemente referenzieren (TemplaVoilà)</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

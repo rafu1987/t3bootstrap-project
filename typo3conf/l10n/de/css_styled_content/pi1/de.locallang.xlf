@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="css_styled_content" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="label.toTop" xml:space="preserve" approved="yes">
+        <source>To top</source>
+      <target state="translated">Nach oben</target></trans-unit>
+      <trans-unit id="uploads.icon" xml:space="preserve" approved="yes">
+        <source>File link icon for %s</source>
+      <target state="translated">Datei-Link-Symbol für %s</target></trans-unit>
+      <trans-unit id="login.username" xml:space="preserve" approved="yes">
+        <source>Username:</source>
+      <target state="translated">Benutzername:</target></trans-unit>
+      <trans-unit id="login.password" xml:space="preserve" approved="yes">
+        <source>Password:</source>
+      <target state="translated">Passwort:</target></trans-unit>
+      <trans-unit id="login.login" xml:space="preserve" approved="yes">
+        <source>Login</source>
+      <target state="translated">Anmelden</target></trans-unit>
+      <trans-unit id="login.logout" xml:space="preserve" approved="yes">
+        <source>Logout</source>
+      <target state="translated">Abmelden</target></trans-unit>
+      <trans-unit id="search.emptySearch" xml:space="preserve" approved="yes">
+        <source>Sorry, your search was empty!</source>
+      <target state="translated">Ihre Suche lieferte leider keine Ergebnisse.</target></trans-unit>
+      <trans-unit id="search.resultRange" xml:space="preserve" approved="yes">
+        <source>Searchresult: ###RANGELOW###-###RANGEHIGH### of ###TOTAL###</source>
+      <target state="translated">Suchergebnis: ###RANGELOW###-###RANGEHIGH### von ###TOTAL###</target></trans-unit>
+      <trans-unit id="search.searchResultNext" xml:space="preserve" approved="yes">
+        <source>Next</source>
+      <target state="translated">Nächste</target></trans-unit>
+      <trans-unit id="search.searchResultPrev" xml:space="preserve" approved="yes">
+        <source>Prev</source>
+      <target state="translated">Vorherige</target></trans-unit>
+      <trans-unit id="search.searchWord" xml:space="preserve" approved="yes">
+        <source>Searchword:</source>
+      <target state="translated">Suchwort:</target></trans-unit>
+      <trans-unit id="search.searchIn" xml:space="preserve" approved="yes">
+        <source>Search in:</source>
+      <target state="translated">Suchen in:</target></trans-unit>
+      <trans-unit id="search.headersKeywords" xml:space="preserve" approved="yes">
+        <source>Headers and keywords</source>
+      <target state="translated">Überschriften und Schlagwörter</target></trans-unit>
+      <trans-unit id="search.pageContent" xml:space="preserve" approved="yes">
+        <source>Page content</source>
+      <target state="translated">Seiteninhalt</target></trans-unit>
+      <trans-unit id="search.searchButton" xml:space="preserve" approved="yes">
+        <source>Search now!</source>
+      <target state="translated">Suchen!</target></trans-unit>
+      <trans-unit id="menu.bypassNavigation" xml:space="preserve" approved="yes">
+        <source>Skip navigation block</source>
+      <target state="translated">Navigations-Block überspringen</target></trans-unit>
+      <trans-unit id="eIcon.html" xml:space="preserve" approved="yes">
+        <source>Edit pure HTML content</source>
+      <target state="translated">Reinen HTML-Inhalt bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.header" xml:space="preserve" approved="yes">
+        <source>Edit header</source>
+      <target state="translated">Überschrift bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.subheader" xml:space="preserve" approved="yes">
+        <source>Edit subheader</source>
+      <target state="translated">Unterüberschrift bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.bodytext" xml:space="preserve" approved="yes">
+        <source>Edit bodytext</source>
+      <target state="translated">Textkörper bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.images" xml:space="preserve" approved="yes">
+        <source>Edit images</source>
+      <target state="translated">Bilder bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.caption" xml:space="preserve" approved="yes">
+        <source>Edit image caption</source>
+      <target state="translated">Bildunterschrift bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.bullets" xml:space="preserve" approved="yes">
+        <source>Edit bullet list</source>
+      <target state="translated">Aufzählungsliste bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.table" xml:space="preserve" approved="yes">
+        <source>Edit table</source>
+      <target state="translated">Tabelle bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.filelist" xml:space="preserve" approved="yes">
+        <source>Edit file list</source>
+      <target state="translated">Dateiliste bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.menuSitemap" xml:space="preserve" approved="yes">
+        <source>Edit menu / sitemap</source>
+      <target state="translated">Menü/Sitemap bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.recordList" xml:space="preserve" approved="yes">
+        <source>Edit recordlist</source>
+      <target state="translated">Datensatz bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.plugin" xml:space="preserve" approved="yes">
+        <source>Change/configure plugin</source>
+      <target state="translated">Plug-In ändern/konfigurieren</target></trans-unit>
+      <trans-unit id="eIcon.multimedia" xml:space="preserve" approved="yes">
+        <source>Edit multimedia element</source>
+      <target state="translated">Multimedia-Element bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.form" xml:space="preserve" approved="yes">
+        <source>Edit email form</source>
+      <target state="translated">E-Mail-Formular bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.search" xml:space="preserve" approved="yes">
+        <source>Edit search element</source>
+      <target state="translated">Suchformular bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.login" xml:space="preserve" approved="yes">
+        <source>Edit login element</source>
+      <target state="translated">Anmeldung bearbeiten</target></trans-unit>
+      <trans-unit id="eIcon.page" xml:space="preserve" approved="yes">
+        <source>Page:</source>
+      <target state="translated">Seite:</target></trans-unit>
+    </body>
+  </file>
+</xliff>

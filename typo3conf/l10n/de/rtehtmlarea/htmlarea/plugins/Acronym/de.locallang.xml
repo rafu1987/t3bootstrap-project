@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="Insert/Modify Acronym">Abkürzung einfügen/bearbeiten</label>
+      <label index="Insert abbreviation">Abkürzung einfügen</label>
+      <label index="Edit abbreviation">Abkürzung bearbeiten</label>
+      <label index="Term_to_abridge">Abzukürzender Begriff</label>
+      <label index="Defined_acronym">Vordefinierte Akronyme</label>
+      <label index="Defined_abbr">Vordefinierte Abkürzungen</label>
+      <label index="Term">Begriff</label>
+      <label index="Unabridged_term">Vollständiger Begriff</label>
+      <label index="Select_a_term">Einen Begriff auswählen</label>
+      <label index="Abridged_term">Abgekürzter Begriff</label>
+      <label index="Acronym">Akronym</label>
+      <label index="Abbreviation">Abkürzung</label>
+      <label index="Select_an_acronym">Ein Akronym auswählen</label>
+      <label index="Select_an_abbr">Eine Abkürzung auswählen</label>
+      <label index="Use_this_term">Diesen Begriff verwenden</label>
+      <label index="Use_this_term_explain">Diesen Begriff der aktuellen Auswahl zuordnen</label>
+      <label index="Delete">Löschen</label>
+      <label index="Select_a_language">Eine Sprache auswählen</label>
+      <label index="Language_abbr_helpText">Die Sprache, für die die Abkürzung definiert wurde</label>
+      <label index="Language_acronym_helpText">Die Sprache, für die das Akronym definiert wurde</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

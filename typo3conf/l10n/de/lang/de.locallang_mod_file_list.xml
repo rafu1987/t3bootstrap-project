@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="bigControlPanel">Erweiterte Ansicht</label>
+      <label index="clipBoard">Zwischenablage anzeigen</label>
+      <label index="clip_paste">Inhalt der Zwischenablage einfügen</label>
+      <label index="clip_pasteInto">Einfügen in: Inhalt der Zwischenablage wird in diesen Ordner eingefügt</label>
+      <label index="clip_markRecords">Alles/nichts markieren</label>
+      <label index="clip_selectMarked">Auswahl der Dateien in die Zwischenablage übertragen</label>
+      <label index="clip_deleteMarked">Markierte löschen</label>
+      <label index="clip_deleteMarkedWarning">Alle markierten Dateien aus diesem Ordner tatsächlich löschen?</label>
+      <label index="displayThumbs">Vorschaubilder anzeigen</label>
+      <label index="c_file">Dateiname</label>
+      <label index="c_size">Größe</label>
+      <label index="c_fileext">Typ</label>
+      <label index="c_tstamp">Datum</label>
+      <label index="c_rw">LS</label>
+      <label index="c__REF_">Ref.</label>
+      <label index="files">Dateien</label>
+      <label index="temp">Temporäre Dateien</label>
+      <label index="read">L</label>
+      <label index="recycler">Papierkorb</label>
+      <label index="mlang_labels_tablabel">Anzeige von Dateien und Ordnern</label>
+      <label index="mlang_labels_tabdescr">Dies ist das Dateiverwaltungssystem von TYPO3. Es erlaubt den Zugriff auf die für Ihren Benutzer gültigen Verzeichnisfreigaben. Mit diesem Modul können Sie Dateien hochladen, sie auf dem Server kopieren, verschieben und löschen.</label>
+      <label index="mlang_tabs_tab">Dateiliste</label>
+      <label index="write">S</label>
+      <label index="paramError">Parameterfehler:</label>
+      <label index="targetNoDir">Ziel war kein Verzeichnis!</label>
+      <label index="localDriverFlexform_basePath"/>
+      <label index="localDriverFlexform_pathType"/>
+      <label index="localDriverFlexform_pathType_relative"/>
+      <label index="localDriverFlexform_pathType_absolute"/>
+      <label index="storageNotBrowsableTitle"/>
+      <label index="storageNotBrowsableMessage"/>
+      <label index="folderNotFoundTitle"/>
+      <label index="folderNotFoundMessage"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

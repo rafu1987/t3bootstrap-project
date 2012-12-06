@@ -1,0 +1,25 @@
+div.editorWrap {
+	position: relative;
+}
+
+div.ad_rtepasteplain_helperLayer {
+	position: absolute;
+	left: 15px;
+	top: 125px;
+	width: 350px;
+	height: 200px;
+	padding: 10px;
+	background: #efefef;
+	border: 1px solid #a2aab8;
+    z-index: 10000;
+}
+	div.ad_rtepasteplain_helperLayer p.pasteInfo {
+		margin-bottom: 10px;
+	}
+	div.ad_rtepasteplain_helperLayer textarea {
+		width: 350px;
+		height: 130px;
+		border-width: 1px !important;
+		display: block;
+		margin-bottom: 5px;
+	}

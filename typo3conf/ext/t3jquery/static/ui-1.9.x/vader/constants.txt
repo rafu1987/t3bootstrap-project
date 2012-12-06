@@ -1,0 +1,6 @@
+plugin.tx_t3jquery {
+
+	# cat=plugin.tx_t3jquery.ui-vader/file/010; type=file[css]; label=jQuery UI Vader
+	file.UI-Vader = EXT:t3jquery/res/css/ui-1.9.x/vader/jquery-ui.css
+
+}

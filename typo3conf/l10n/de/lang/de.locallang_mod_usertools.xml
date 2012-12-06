@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Ihre persönlichen Aufgaben, Übersicht und Konfiguration</label>
+      <label index="mlang_tabs_tab">Benutzerwerkzeuge</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

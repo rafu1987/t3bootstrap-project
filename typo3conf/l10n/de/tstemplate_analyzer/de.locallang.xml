@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="currentTemplate">Aktuelles Template:</label>
+      <label index="title">Titel</label>
+      <label index="rootlevel">Wurzelebene</label>
+      <label index="clearSetup">Setup löschen</label>
+      <label index="clearConstants">Konstanten löschen</label>
+      <label index="pid">PID</label>
+      <label index="rootline">Rootline</label>
+      <label index="nextLevel">Nächste Ebene</label>
+      <label index="templateHierarchy">Template-Hierarchie:</label>
+      <label index="displayOptions">Optionen anzeigen</label>
+      <label index="lineNumbers">Zeilennummern</label>
+      <label index="syntaxHighlight">Syntaxhervorhebung</label>
+      <label index="comments">Kommentare</label>
+      <label index="cropLines">Zeilen kappen</label>
+      <label index="blockMode">Blockmodus</label>
+      <label index="constants">Konstanten:</label>
+      <label index="setup">Setup:</label>
+      <label index="viewCompleteTS">Vollständige TS-Auflistung anzeigen</label>
+      <label index="completeTS">Vollständiges TS:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

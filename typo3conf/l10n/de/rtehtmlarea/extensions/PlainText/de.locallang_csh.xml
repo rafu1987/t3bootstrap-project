@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">htmlArea RTE &gt; Bereinigtes Einfügen</label>
+      <label index=".description">Die Funktion zum bereinigten Einfügen bietet Optionen, um Inhalt, der von einer externen Quelle kopiert wurde, zu bereinigen, bevor er in den Bearbeitungsbereich eingefügt wird.</label>
+      <label index=".details"/>
+      <label index=".image">EXT:rtehtmlarea/extensions/PlainText/skin/images/paste-toggle.gif, EXT:rtehtmlarea/extensions/PlainText/skin/images/paste-behaviour.gif</label>
+      <label index=".image_descr"/>
+      <label index=".seeAlso">xEXT_rtehtmlarea_PlainText:behaviour</label>
+      <label index="behaviour.alttitle">Ein Einfügeverhalten auswählen</label>
+      <label index="behaviour.description">Wählen Sie eines der drei unterschiedlichen Einfügeverhalten.</label>
+      <label index="behaviour.details"/>
+      <label index="behaviour.seeAlso">xEXT_rtehtmlarea_PlainText:plainText,xEXT_rtehtmlarea_PlainText:pasteStructure,xEXT_rtehtmlarea_PlainText:pasteFormat,_MOD_user_setup</label>
+      <label index="plainText.alttitle">Als Klartext einfügen</label>
+      <label index="plainText.description">Wenn dieses Einfügeverhalten aktiviert ist, werden alle HTML-Auszeichungen vor dem Einfügen in den Bearbeitungsbereich entfernt.</label>
+      <label index="plainText.seeAlso">xEXT_rtehtmlarea_PlainText:behaviour</label>
+      <label index="pasteStructure.alttitle">Nur die Struktur einfügen</label>
+      <label index="pasteStructure.description"/>
+      <label index="pasteStructure.details"/>
+      <label index="pasteStructure.seeAlso">xEXT_rtehtmlarea_PlainText:behaviour</label>
+      <label index="pasteFormat.alttitle">Struktur und Grundformatierung einfügen</label>
+      <label index="pasteFormat.description"/>
+      <label index="pasteFormat.details"/>
+      <label index="pasteFormat.seeAlso">xEXT_rtehtmlarea_PlainText:behaviour</label>
+      <label index="pasteInPastingPad.description"/>
+      <label index="pasteInPastingPad.details"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

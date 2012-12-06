@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="tt_content.CType_pi1">FE-Benutzeranmeldung</label>
+      <label index="felogin_redirectPid">Bei Anmeldung zur folgenden Seite weiterleiten</label>
+      <label index="tt_content.pi_flexform.general_header">Überschrift allgemein</label>
+      <label index="tt_content.pi_flexform.general_message">Meldung allgemein</label>
+      <label index="tt_content.pi_flexform.redirect_header">Überschrift Weiterleitung</label>
+      <label index="tt_content.pi_flexform.redirect_message">Meldung Weiterleitung</label>
+      <label index="tt_content.pi_flexform.welcome_header">Überschrift Begrüßung</label>
+      <label index="tt_content.pi_flexform.welcome_message">Meldung Begrüßung</label>
+      <label index="tt_content.pi_flexform.success_header">Überschrift erfolgreiche Anmeldung</label>
+      <label index="tt_content.pi_flexform.success_message">Meldung erfolgreiche Anmeldung</label>
+      <label index="tt_content.pi_flexform.error_header">Überschrift fehlgeschlagene Anmeldung</label>
+      <label index="tt_content.pi_flexform.error_message">Meldung fehlgeschlagene Anmeldung</label>
+      <label index="tt_content.pi_flexform.status_header">Überschrift Statusanzeige</label>
+      <label index="tt_content.pi_flexform.status_message">Meldung Statusanzeige</label>
+      <label index="tt_content.pi_flexform.logout_header">Überschrift Abmeldung</label>
+      <label index="tt_content.pi_flexform.logout_message">Meldung Abmeldung</label>
+      <label index="tt_content.pi_flexform.forgot_header">Überschrift vergessenes Passwort</label>
+      <label index="tt_content.pi_flexform.forgot_message">Meldung vergessenes Passwort</label>
+      <label index="tt_content.pi_flexform.sheet_general">Allgemein</label>
+      <label index="tt_content.pi_flexform.sheet_redirect">Weiterleitungen</label>
+      <label index="tt_content.pi_flexform.sheet_messages">Meldungen</label>
+      <label index="tt_content.pi_flexform.show_forgot_password">Passwort-Wiederherstellungs-Link anzeigen</label>
+      <label index="tt_content.pi_flexform.show_permalogin">Markierungsfeld für dauerhafte Anmeldung anzeigen (wenn verfügbar)</label>
+      <label index="tt_content.pi_flexform.show_logoutFormAfterLogin">Abmeldeformular nach erfolgreicher Anmeldung zeigen</label>
+      <label index="tt_content.pi_flexform.groupSelectmode">FE-Gruppen-Auswahlmodus:</label>
+      <label index="tt_content.pi_flexform.groupSelectmode_showAll">Alle anzeigen</label>
+      <label index="tt_content.pi_flexform.groupSelectmode_showSelected">Nur die Ausgewählten anzeigen</label>
+      <label index="tt_content.pi_flexform.groupSelectmode_DontShowSelected">Die Ausgewählten NICHT anzeigen</label>
+      <label index="tt_content.pi_flexform.groupSelectmode_FromTS">(nach Typoscript)</label>
+      <label index="tt_content.pi_flexform.groupSelection">FE-Gruppen-Auswahl:</label>
+      <label index="tt_content.pi_flexform.groupSelection_noGroup">in keiner Gruppe einsortiert</label>
+      <label index="tt_content.pi_flexform.field_manualOrder">Folgende Felder benutzen:</label>
+      <label index="tt_content.pi_flexform.field_orderList">Listenansicht:</label>
+      <label index="tt_content.pi_flexform.field_orderDetails">Detailansicht:</label>
+      <label index="tt_content.pi_flexform.redirectMode">Weiterleitungsmodus</label>
+      <label index="tt_content.pi_flexform.redirectMode.I.0">Definiert durch Benutzergruppen-Datensatz</label>
+      <label index="tt_content.pi_flexform.redirectMode.I.1">Definiert durch Benutzer-Datensatz</label>
+      <label index="tt_content.pi_flexform.redirectMode.I.2">Nach Anmeldung (TS oder Flexform)</label>
+      <label index="tt_content.pi_flexform.redirectMode.I.3">Nach Abmeldung (TS oder Flexform)</label>
+      <label index="tt_content.pi_flexform.redirectMode.I.4">Nach Anmeldefehler (TS oder Flexform)</label>
+      <label index="tt_content.pi_flexform.redirectMode.I.5">Definiert durch GET- oder POST-Variablen</label>
+      <label index="tt_content.pi_flexform.redirectMode.I.6">Definiert durch Referrer</label>
+      <label index="tt_content.pi_flexform.redirectMode.I.7">Definiert durch Domäneneinträge</label>
+      <label index="tt_content.pi_flexform.redirectFirstMethod">Erste unterstützter Modus aus Auswahl</label>
+      <label index="tt_content.pi_flexform.redirectDisable">Weiterleitung aktivieren</label>
+      <label index="tt_content.pi_flexform.redirectPageLogin">Nach erfolgreicher Anmeldung auf folgende Seite weiterleiten</label>
+      <label index="tt_content.pi_flexform.redirectPageLoginError">Nach einem Fehler bei der Anmeldung auf folgende Seite weiterleiten</label>
+      <label index="tt_content.pi_flexform.redirectPageLogout">Nach Abmeldung auf folgende Seite weiterleiten</label>
+      <label index="tt_content.pi_flexform.template_file">Vorlagendatei</label>
+      <label index="tt_content.pi_flexform.user_storage">Speicherort Benutzer</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,4 @@
+
+page.includeCSS {
+	t3jquery-ui-mint-choc = {$plugin.tx_t3jquery.file.UI-Mint-Choc}
+}

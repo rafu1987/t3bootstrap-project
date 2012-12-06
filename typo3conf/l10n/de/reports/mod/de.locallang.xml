@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_tabs_tab">Berichte</label>
+      <label index="mlang_labels_tabdescr">Dieses Modul enthält eine Sammlung verschiedener Systemberichte.&lt;br /&gt;&lt;em&gt;Zugriff nur für Administratoren!&lt;/em&gt;</label>
+      <label index="mlang_labels_tablabel">Systemberichte</label>
+      <label index="title">Berichte</label>
+      <label index="reports_overview">Übersicht</label>
+      <label index="choose_report">Bericht:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

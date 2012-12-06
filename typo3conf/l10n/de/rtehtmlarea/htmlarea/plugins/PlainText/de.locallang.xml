@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="PasteToggleTooltip">Einfügemodus umschalten</label>
+      <label index="plainText">Als einfachen Text einfügen</label>
+      <label index="pasteStructure">Nur Struktur einfügen</label>
+      <label index="pasteFormat">Struktur und grundlegende Formatierung einfügen</label>
+      <label index="PasteBehaviourTooltip">Alternativen Einfügemodus auswählen</label>
+      <label index="Paste-as-Plain-Text">Als einfachen Text einfügen</label>
+      <label index="Access-to-clipboard-denied">Der Inhalt konnte nicht als einfacher Text eingefügt werden, weil der Zugriff auf die Zwischenablage verboten wurde.</label>
+      <label index="enableplainText">Einfügen als einfachen Text aktivieren</label>
+      <label index="enablepasteStructure">Einfügen nur als Struktur aktivieren</label>
+      <label index="enablepasteFormat">Einfügen als Struktur und grundlegende Formatierung aktivieren</label>
+      <label index="disableplainText">Einfügen als einfachen Text deaktivieren</label>
+      <label index="disablepasteStructure">Einfügen nur als Struktur deaktivieren</label>
+      <label index="disablepasteFormat">Einfügen als Struktur und grundlegende Formatierung deaktivieren</label>
+      <label index="pasteInPastingPad">Inhalt in dieses Einfügefeld einfügen und OK drücken.</label>
+      <label index="rteCleanPasteBehaviour">Modus für sauberes Einfügen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

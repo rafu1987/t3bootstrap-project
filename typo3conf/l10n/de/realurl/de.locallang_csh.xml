@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="tx_realurl_nocache.description">Deaktiviert den RealURL-Encode- und Decode-Cache für diese Seite.</label>
+      <label index="tx_realurl_pathsegment.description">Pfadsegment für diese Seite. Es sind nur Zeichen für URLs erlaubt, und zwar lateinische Buchstaben, Ziffern, Unterstrich und Bindestrich.</label>
+      <label index="tx_realurl_exclude.description">Nimmt diese Seite nicht in die sprechende URL auf. Beachten Sie, dass dies nur funktioniert, wenn diese Seite nicht die Zielseite des Lesers ist.</label>
+      <label index="tx_realurl_pathoverride.description">Wenn markiert, muss das Feld "Pfadsegment für untergeordnete Seiten" den gesamten Pfad zur Seite enthalten (außer pre- und postVariablen). Damit ist es möglich, den Pfad vollständig zu überschreiben. Ohne diese Option bestimmt dieses Feld nur ein einzelnes URL-Segment für die aktuelle Seite. Wenn der gesamte Pfad überschrieben wird, darf der angegebene Pfad nicht mit einem Slash anfangen oder enden!</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

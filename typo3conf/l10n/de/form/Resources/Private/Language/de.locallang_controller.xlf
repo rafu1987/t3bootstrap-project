@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="form" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="tx_form_domain_model_element_button.value" xml:space="preserve" approved="yes">
+        <source>Push this button</source>
+      <target state="translated">Drücken Sie die Schaltfläche</target><note>Translation is fine - however this button is not used yet and maybe the label itself will be changed</note></trans-unit>
+      <trans-unit id="tx_form_domain_model_element_submit.value" xml:space="preserve" approved="yes">
+        <source>Submit form</source>
+      <target state="translated">Formular absenden</target><alt-trans xml:space="preserve" origin="mmartin"><target>Formular senden</target></alt-trans><alt-trans xml:space="preserve" origin="sebastian"><target>Formular abschicken</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_domain_model_element_reset.value" xml:space="preserve" approved="yes">
+        <source>Clear form</source>
+      <target state="translated">Formular zurücksetzen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Formular leeren</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_alphabetic.message" xml:space="preserve" approved="yes">
+        <source>Use alphabetic characters</source>
+      <target state="translated">Buchstaben verwenden</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Verwenden Sie alphabetische Zeichen</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_alphabetic.message2" xml:space="preserve" approved="yes">
+        <source>whitespace allowed</source>
+      <target state="translated">Leerzeichen erlaubt</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_alphabetic.error" xml:space="preserve" approved="yes">
+        <source>The value contains not only alphabetic characters</source>
+      <target state="translated">Dieser Wert enthält nicht nur Buchstaben</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Dieser Wert enthält nicht nur alphabetische Zeichen</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_alphanumeric.message" xml:space="preserve" approved="yes">
+        <source>Use alphanumeric characters</source>
+      <target state="translated">Buchstaben oder Zahlen verwenden</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Verwenden Sie alphanumerische Zeichen</target></alt-trans><alt-trans xml:space="preserve" origin="hugoist"><target>Alphanumerische Zeichen verwenden</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_alphanumeric.message2" xml:space="preserve" approved="yes">
+        <source>whitespace allowed</source>
+      <target state="translated">Leerzeichen erlaubt</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_alphanumeric.error" xml:space="preserve" approved="yes">
+        <source>The value contains not only alphanumeric characters</source>
+      <target state="translated">Der Wert enthält nicht nur alphanumerische Zeichen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Die Eingabe enthält nicht nur alphanumerische Zeichen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Dieser Wert enthält nicht nur alphanumerische Zeichen</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_between.message" xml:space="preserve" approved="yes">
+        <source>The value must be between %minimum and %maximum</source>
+      <target state="translated">Der Wert muss zwischen %minimum und %maximum liegen</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_between.message2" xml:space="preserve" approved="yes">
+        <source>inclusively</source>
+      <target state="translated">einschließlich</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_between.error" xml:space="preserve" approved="yes">
+        <source>The value is not between %minimum and %maximum</source>
+      <target state="translated">Der Wert darf nicht zwischen %minimum und %maximum liegen</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_between.error2" xml:space="preserve" approved="yes">
+        <source>inclusively</source>
+      <target state="translated">einschließlich</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.message" xml:space="preserve" approved="yes">
+        <source>(%format)</source>
+      <target state="translated">(%format)</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.A" xml:space="preserve" approved="yes">
+        <source>dddd</source>
+      <target state="translated">dddd</target><note>Label wird im Code nicht verwendet (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.a" xml:space="preserve" approved="yes">
+        <source>ddd</source>
+      <target state="translated">ddd</target><note>Label wird im Code nicht verwendet (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.d" xml:space="preserve" approved="yes">
+        <source>dd</source>
+      <target state="translated">dd</target><note>Label wird im Code nicht verwendet (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.e" xml:space="preserve" approved="yes">
+        <source>d</source>
+      <target state="translated">d</target><note>Label wird im Code nicht verwendet (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.B" xml:space="preserve" approved="yes">
+        <source>mmmm</source>
+      <target state="translated">mmmm</target><note>Label wird im Code nicht verwendet (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.b" xml:space="preserve" approved="yes">
+        <source>mmm</source>
+      <target state="translated">mmm</target><note>Label wird anscheinend nicht verwendet (Marcus 22.02.12)</note><alt-trans xml:space="preserve" origin="hugoist"><target>mm</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.m" xml:space="preserve" approved="yes">
+        <source>mm</source>
+      <target state="translated">mm</target><note>Label ist nicht in Verwendung (Marcus 22.02.12)</note><alt-trans xml:space="preserve" origin="meincms"><target>m</target></alt-trans><alt-trans xml:space="preserve" origin="hugoist"><target>yyyy</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.Y" xml:space="preserve" approved="yes">
+        <source>yyyy</source>
+      <target state="translated">yyyy</target><note>Label scheint nicht in Verwendung zu sein. (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.y" xml:space="preserve" approved="yes">
+        <source>yy</source>
+      <target state="translated">yy</target><note>Label scheint nicht in Verwendung zu sein. (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.H" xml:space="preserve" approved="yes">
+        <source>HH</source>
+      <target state="translated">HH</target><note>Label scheint nicht in Verwendung zu sein. (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.I" xml:space="preserve" approved="yes">
+        <source>hh</source>
+      <target state="translated">hh</target><note>Label scheint nicht in Verwendung zu sein. (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.M" xml:space="preserve" approved="yes">
+        <source>mm</source>
+      <target state="translated">mm</target><note>Label scheint nicht in Verwendung zu sein. (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.strftime.S" xml:space="preserve" approved="yes">
+        <source>ss</source>
+      <target state="translated">ss</target><note>Label scheint nicht in Verwendung zu sein. (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="tx_form_system_validate_date.error" xml:space="preserve" approved="yes">
+        <source>The value does not appear to be a valid date</source>
+      <target state="translated">Der Wert scheint kein gültiges Datum zu sein</target><alt-trans xml:space="preserve" origin="sebastian"><target>Der Wert ist kein gültiges Datum</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_digit.message" xml:space="preserve" approved="yes">
+        <source>Use digit characters</source>
+      <target state="translated">Zahlen verwenden</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Verwenden Sie bitte Ziffern</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_digit.error" xml:space="preserve" approved="yes">
+        <source>The value contains not only digit characters</source>
+      <target state="translated">Der Wert enthält nicht nur Zahlen</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Der Wert enthält nicht nur Ziffern</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_email.message" xml:space="preserve" approved="yes">
+        <source>(john.doe@domain.com)</source>
+      <target state="translated">(max.muster@domain.com)</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_email.error" xml:space="preserve" approved="yes">
+        <source>This is not a valid email address</source>
+      <target state="translated">Dies ist keine gültige E-Mail-Adresse</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_equals.message" xml:space="preserve" approved="yes">
+        <source>This field must be equal to '%field'</source>
+      <target state="translated">Dieses Feld muss mit '%field' übereinstimmen</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_equals.error" xml:space="preserve" approved="yes">
+        <source>The value does not equal the value in field '%field'</source>
+      <target state="translated">Der Wert stimmt nicht mit dem Wert des Feldes "%field" überein</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_fileallowedtypes.message" xml:space="preserve" approved="yes">
+        <source>(%allowedTypes)</source>
+      <target state="translated">(%allowedTypes)</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_fileallowedtypes.error" xml:space="preserve" approved="yes">
+        <source>The file type is not allowed</source>
+      <target state="translated">Dieser Dateityp ist nicht erlaubt</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_filemaximumsize.message" xml:space="preserve" approved="yes">
+        <source>The filesize must be smaller than %maximum</source>
+      <target state="translated">Die Dateigröße muss kleiner als %maximum sein</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_filemaximumsize.error" xml:space="preserve" approved="yes">
+        <source>The filesize is too big</source>
+      <target state="translated">Die Datei ist zu groß</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_fileminimumsize.message" xml:space="preserve" approved="yes">
+        <source>The filesize must be bigger than %minimum</source>
+      <target state="translated">Die Dateigröße muss größer sein als %minimum</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Die Datei muss größer als %minimum sein</target></alt-trans><alt-trans xml:space="preserve" origin="hugoist"><target>Die Datei muss größer sein als %minimum</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_fileminimumsize.error" xml:space="preserve" approved="yes">
+        <source>The filesize is too small</source>
+      <target state="translated">Die Datei ist zu klein</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_float.message" xml:space="preserve" approved="yes">
+        <source>Enter a float</source>
+      <target state="translated">Geben Sie eine Fließkommazahl ein</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_float.error" xml:space="preserve" approved="yes">
+        <source>The value does not appear to be a float</source>
+      <target state="translated">Der angegebene Wert ist keine Gleitkommazahl</target><alt-trans xml:space="preserve" origin="hugoist"><target>Die Eingabe ist keine Fließkommazahl</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Der Wert ist keine Fließkommazahl</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_greaterthan.message" xml:space="preserve" approved="yes">
+        <source>The value must be greater than %minimum</source>
+      <target state="translated">Der Wert muss größer als %minimum sein</target><alt-trans xml:space="preserve" origin="hugoist"><target>Der Wert muss größer sein als %minimum</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_greaterthan.error" xml:space="preserve" approved="yes">
+        <source>The value does not appear to be greater than %minimum</source>
+      <target state="translated">Der Wert scheint nicht größer als %minimum zu sein</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_inarray.message" xml:space="preserve" approved="yes">
+        <source>Only a few values are possible</source>
+      <target state="translated">Nur einige Werte sind möglich</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_inarray.error" xml:space="preserve" approved="yes">
+        <source>The value does not appear to be valid</source>
+      <target state="translated">Der Wert scheint ungültig zu sein</target><alt-trans xml:space="preserve" origin="hugoist"><target>Der Wert scheint nicht gültig zu sein</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_integer.message" xml:space="preserve" approved="yes">
+        <source>Use a integer</source>
+      <target state="translated">Eine ganze Zahl verwenden</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Verwenden Sie eine ganze Zahl</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_integer.error" xml:space="preserve" approved="yes">
+        <source>The value does not appear to be an integer</source>
+      <target state="translated">Der Wert scheint keine ganze Zahl zu sein</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_ip.message" xml:space="preserve" approved="yes">
+        <source>(123.123.123.123)</source>
+      <target state="translated">(123.123.123.123)</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_ip.error" xml:space="preserve" approved="yes">
+        <source>The value does not appear to be a valid IP address</source>
+      <target state="translated">Der Wert scheint keine gültige IP-Adresse zu sein</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_length.message" xml:space="preserve" approved="yes">
+        <source>The length of the value must have a minimum of %minimum characters</source>
+      <target state="translated">Der Wert muss eine Mindestlänge von %minimum Zeichen haben</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Der Wert muss eine Länge von mindestens %minimum Zeichen haben</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_length.message2" xml:space="preserve" approved="yes">
+        <source>and a maximum of %maximum</source>
+      <target state="translated">und eine Maximallänge von %maximum Zeichen</target><alt-trans xml:space="preserve" origin="mschwemer"><target>und eine Länge von maximal %maximum Zeichen</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_length.error" xml:space="preserve" approved="yes">
+        <source>The value is less than %minimum characters long</source>
+      <target state="translated">Der Wert ist weniger als %minimum Zeichen lang</target><alt-trans xml:space="preserve" origin="hugoist"><target>Der Wert ist weniger als %minimum Zeichen lang</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Der Wert ist kürzer als %minimum Zeichen</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_length.error2" xml:space="preserve" approved="yes">
+        <source>or longer than %maximum</source>
+      <target state="translated">oder länger als %maximum Zeichen</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_lessthan.message" xml:space="preserve" approved="yes">
+        <source>The value must be less than %maximum</source>
+      <target state="translated">Der Wert muss kleiner als %maximum sein</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_lessthan.error" xml:space="preserve" approved="yes">
+        <source>The value does not appear to be less than %maximum</source>
+      <target state="translated">Der Wert scheint nicht kleiner als %maximum zu sein</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_regexp.message" xml:space="preserve" approved="yes">
+        <source>Use the right pattern</source>
+      <target state="translated">Verwenden Sie das richtige Muster</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_regexp.error" xml:space="preserve" approved="yes">
+        <source>The value does not match against pattern</source>
+      <target state="translated">Der Wert stimmt nicht mit dem Muster überein</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Der Wert passt nicht mit dem Muster zusammen</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_required.message" xml:space="preserve" approved="yes">
+        <source>Required</source>
+      <target state="translated">Pflichtfeld</target><alt-trans xml:space="preserve" origin="mschwemer"><target>notwendig</target></alt-trans><alt-trans xml:space="preserve" origin="hugoist"><target>Benötigt</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_system_validate_required.error" xml:space="preserve" approved="yes">
+        <source>This field is required</source>
+      <target state="translated">Dies ist ein Pflichtfeld</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_uri.message" xml:space="preserve" approved="yes">
+        <source>The value must be a URI</source>
+      <target state="translated">Der Wert muss eine URI sein</target></trans-unit>
+      <trans-unit id="tx_form_system_validate_uri.error" xml:space="preserve" approved="yes">
+        <source>The value does not appear to be a URI</source>
+      <target state="translated">Der Wert schein keine URI zu sein</target></trans-unit>
+      <trans-unit id="tx_form_view_confirmation.message" xml:space="preserve" approved="yes">
+        <source>Please check your input and confirm by using the appropriate button</source>
+      <target state="translated">Bitte überprüfen Sie Ihre Eingabe und drücken Sie den entsprechenden Button</target><alt-trans xml:space="preserve" origin="jansch"><target>Bitte Eingabe überprüfen und bestätigen durch Klicken der entsprechenden Schaltfläche</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Bitte überprüfen Sie Ihre Eingabe und bestätigen Sie sie mit der passenden Schaltfläche</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_view_confirmation.confirm" xml:space="preserve" approved="yes">
+        <source>Confirm</source>
+      <target state="translated">Bestätigen</target></trans-unit>
+      <trans-unit id="tx_form_view_confirmation.donotconfirm" xml:space="preserve" approved="yes">
+        <source>Go back to the form</source>
+      <target state="translated">Zurück zum Formular</target></trans-unit>
+      <trans-unit id="tx_form_view_mail.success" xml:space="preserve" approved="yes">
+        <source>The form has been sent successfully by mail</source>
+      <target state="translated">Das Formular wurde erfolgreich versandt</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Das Formular wurde erfolgreich per E-Mail versendet</target></alt-trans><alt-trans xml:space="preserve" origin="thorsten84"><target>Das Formular wurde erfolgreich an uns gesendet</target></alt-trans><alt-trans xml:space="preserve" origin="dschumbi"><target>Das Formular wurde erfolgreich per Mail versendet</target></alt-trans></trans-unit>
+      <trans-unit id="tx_form_view_mail.error" xml:space="preserve" approved="yes">
+        <source>There was an error when sending the form by mail</source>
+      <target state="translated">Ein Fehler ist beim Absenden des Formulars aufgetreten</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Beim Versenden des Formulars per E-Mail ist ein Fehler aufgetreten</target></alt-trans></trans-unit>
+    </body>
+  </file>
+</xliff>

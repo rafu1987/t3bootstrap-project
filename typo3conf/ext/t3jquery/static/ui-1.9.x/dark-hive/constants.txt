@@ -1,0 +1,6 @@
+plugin.tx_t3jquery {
+
+	# cat=plugin.tx_t3jquery.ui-dark-hive/file/010; type=file[css]; label=jQuery UI Dark-Hive
+	file.UI-Dark-Hive = EXT:t3jquery/res/css/ui-1.9.x/dark-hive/jquery-ui.css
+
+}

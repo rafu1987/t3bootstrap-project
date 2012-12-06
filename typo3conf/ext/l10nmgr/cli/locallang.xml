@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;user_txl10nmgrM1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="export.file_saved.msg">The export was saved to %s.</label>
+			<label index="error.target_language_id.msg">No target language ID given!</label>
+			<label index="error.target_language_id_integer.msg">Target language ID is not an integer!</label>
+			<label index="error.no_l10ncfg.msg">No localization configuration given!</label>
+			<label index="error.workspace_id_int.msg">Workspace ID is not an integer!</label>
+			<label index="error.l10ncfg_id_int.msg">Localization Manager configuration ID is not an integer!</label>
+			<label index="error.email.repient_missing.msg">No valid email recipient given!</label>
+			<label index="error.email.notification_disabled.msg">Email notification disabled!</label>
+			<label index="error.ftp.file_not_found.msg">FTP upload error: File does not exist!</label>
+			<label index="error.ftp.disabled.msg">FTP upload disabled!</label>
+			<label index="error.object_not_loaded.msg">Localization Manager object not loaded!</label>
+			<label index="email.suject.msg">Translation job (%1$s-%2$s) from TYPO3 site: %3$s</label>
+			<label index="email.greeting.msg">Dear translator or translation project manager,</label>
+			<label index="email.new_translation_job.msg">There is a new translation job (%1$s-%2$s) available from TYPO3 site at %3$s.</label>
+			<label index="email.info.msg">For information how to download/translate this file please refer to the documentation.</label>
+			<label index="email.info.import.msg">The translated XML file can be imported using the TYPO3 Localization Manager (l10nmgr).</label>
+			<label index="email.goodbye.msg">Kind regards,</label>
+			<label index="email.info.exportef_file.msg">Exported file:</label>
+			<label index="email.new_translation_job_attached.msg">Attached is an XML file for translation (%1$s-%2$s) from TYPO3 site at %3$s.</label>
+			<label index="error.ftp.connection.msg">FTP upload error: Couldn't upload file %1$s%2$s</label>
+			<label index="error.ftp.connection_user.msg">FTP error: Couldn't connect as %1$s</label>
+			<label index="error.ftp.connection_failed.msg">FTP error: Connection failed!</label>
+			<label index="export.process.error.empty.message">Empty element</label>
+			<label index="export.process.error.invalid.message">Detected invalid characters in element</label>
+			<label index="import.manager.error.parsing.xml2tree.message">XML2Tree parsing error: </label>
+			<label index="import.manager.error.missing.head.message">No header part found in XML structure</label>
+			<label index="import.nonfatal.errors">The following non-fatal errors occurred:</label>
+			<label index="import.mail.subject">Translations imported for site %s</label>
+			<label index="import.mail.intro">The following files were imported on %1$s into %2$s:</label>
+			<label index="import.mail.ok">OK</label>
+			<label index="import.mail.error">ERROR</label>
+			<label index="import.mail.file">File %s:</label>
+			<label index="import.mail.workspace">- Workspace: %1$s (%2$d)</label>
+			<label index="import.mail.workspace.unknown">Unknown, should not happen</label>
+			<label index="import.mail.language">- Translation language: %s</label>
+			<label index="import.mail.l10nconfig">- L10N Manager configuration: %1$s (%2$d)</label>
+			<label index="import.mail.l10nconfig.unknown">Unknown, should have aborted</label>
+			<label index="import.mail.import.failed">Import failed with following error: %s</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="error.target_language_id.msg">Keine ID für Zielsprache angegeben!</label>
+			<label index="error.target_language_id_integer.msg">ID für Zielsprache ist keine Zahl!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+	</orig_hash>
+	<orig_text type="array">
+	</orig_text>
+</T3locallang>

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="permissions" xml:space="preserve" approved="yes">
+        <source>Permissions</source>
+      <target state="translated">Rechte</target></trans-unit>
+      <trans-unit id="ch_permissions" xml:space="preserve" approved="yes">
+        <source>Change permissions</source>
+      <target state="translated">Rechte ändern</target></trans-unit>
+      <trans-unit id="Legend" xml:space="preserve" approved="yes">
+        <source>Legend</source>
+      <target state="translated">Legende</target></trans-unit>
+      <trans-unit id="Owner" xml:space="preserve" approved="yes">
+        <source>Owner</source>
+      <target state="translated">Besitzer</target></trans-unit>
+      <trans-unit id="Group" xml:space="preserve" approved="yes">
+        <source>Group</source>
+      <target state="translated">Gruppe</target></trans-unit>
+      <trans-unit id="Everybody" xml:space="preserve" approved="yes">
+        <source>Everybody</source>
+      <target state="translated">Alle</target></trans-unit>
+      <trans-unit id="EditLock" xml:space="preserve" approved="yes">
+        <source>Lock</source>
+      <target state="translated">Sperren</target></trans-unit>
+      <trans-unit id="EditLock_descr" xml:space="preserve" approved="yes">
+        <source>The page and all content is locked for editing by all non-Admin users.</source>
+      <target state="translated">Diese Seite und alle Inhaltselemente sind für die Bearbeitung durch Nicht-Administratoren gesperrt.</target></trans-unit>
+      <trans-unit id="Save" xml:space="preserve" approved="yes">
+        <source>Save</source>
+      <target state="translated">Speichern</target></trans-unit>
+      <trans-unit id="Abort" xml:space="preserve" approved="yes">
+        <source>Abort</source>
+      <target state="translated">Abbrechen</target></trans-unit>
+      <trans-unit id="Edit" xml:space="preserve" approved="yes">
+        <source>EDIT</source>
+      <target state="translated">BEARBEITEN</target></trans-unit>
+      <trans-unit id="recursive" xml:space="preserve" approved="yes">
+        <source>Set recursively</source>
+      <target state="translated">Rekursiv anwenden</target></trans-unit>
+      <trans-unit id="pages_affected" xml:space="preserve" approved="yes">
+        <source>pages affected</source>
+      <target state="translated">Betroffene Seiten</target></trans-unit>
+      <trans-unit id="user_overview" xml:space="preserve" approved="yes">
+        <source>User overview</source>
+      <target state="translated">Benutzerübersicht</target></trans-unit>
+      <trans-unit id="Mode" xml:space="preserve" approved="yes">
+        <source>Mode</source>
+      <target state="translated">Modus</target></trans-unit>
+      <trans-unit id="Depth" xml:space="preserve" approved="yes">
+        <source>Depth</source>
+      <target state="translated">Tiefe</target></trans-unit>
+      <trans-unit id="levels" xml:space="preserve" approved="yes">
+        <source>levels</source>
+      <target state="translated">Ebenen</target></trans-unit>
+      <trans-unit id="User" xml:space="preserve" approved="yes">
+        <source>User</source>
+      <target state="translated">Benutzer</target></trans-unit>
+      <trans-unit id="def" xml:space="preserve" approved="yes">
+        <source>Definition: 'content' is records from all tables on a page - except from records from the table 'pages' (Pages).</source>
+      <target state="translated">Definition: "Inhalt" sind alle Datensätze auf einer Seite - außer Datensätzen der Tabelle "pages" (Seiten).</target></trans-unit>
+      <trans-unit id="A_Granted" xml:space="preserve" approved="yes">
+        <source>Access Granted</source>
+      <target state="translated">Zugriff erlaubt</target></trans-unit>
+      <trans-unit id="A_Denied" xml:space="preserve" approved="yes">
+        <source>Access Denied</source>
+      <target state="translated">Zugriff verwehrt</target></trans-unit>
+      <trans-unit id="1" xml:space="preserve" approved="yes">
+        <source>Show page</source>
+      <target state="translated">Seite anzeigen</target></trans-unit>
+      <trans-unit id="16" xml:space="preserve" approved="yes">
+        <source>Edit content</source>
+      <target state="translated">Inhalt bearbeiten</target></trans-unit>
+      <trans-unit id="2" xml:space="preserve" approved="yes">
+        <source>Edit page</source>
+      <target state="translated">Seite bearbeiten</target></trans-unit>
+      <trans-unit id="4" xml:space="preserve" approved="yes">
+        <source>Delete page</source>
+      <target state="translated">Seite löschen</target></trans-unit>
+      <trans-unit id="8" xml:space="preserve" approved="yes">
+        <source>New pages</source>
+      <target state="translated">Neue Seiten</target></trans-unit>
+      <trans-unit id="1_t" xml:space="preserve" approved="yes">
+        <source>Show/Copy page and content.</source>
+      <target state="translated">Seite und Inhalt anzeigen/kopieren.</target></trans-unit>
+      <trans-unit id="16_t" xml:space="preserve" approved="yes">
+        <source>Change/Add/Delete/Move content.</source>
+      <target state="translated">Inhalt ändern/erstellen/löschen/verschieben.</target></trans-unit>
+      <trans-unit id="2_t" xml:space="preserve" approved="yes">
+        <source>Change/Move page, eg. change pagetitle etc.</source>
+      <target state="translated">Seite ändern/verschieben (z.B. Seitentitel ändern usw.).</target></trans-unit>
+      <trans-unit id="4_t" xml:space="preserve" approved="yes">
+        <source>Delete page and content.</source>
+      <target state="translated">Seite und Inhalt löschen.</target></trans-unit>
+      <trans-unit id="8_t" xml:space="preserve" approved="yes">
+        <source>Create new pages under this page.</source>
+      <target state="translated">Neue Seiten unter dieser Seite erstellen.</target></trans-unit>
+      <trans-unit id="mlang_labels_tablabel" xml:space="preserve" approved="yes">
+        <source>Page editing permissions</source>
+      <target state="translated">Seitenbearbeitungsrechte</target></trans-unit>
+      <trans-unit id="mlang_labels_tabdescr" xml:space="preserve" approved="yes">
+        <source>Setting of page permissions is vital for controlling backend user access to pages. You can assign a user and a group as owners of a page and set access permissions for each.</source>
+      <target state="translated">Das Setzen der Seitenzugriffsrechte ist elementar, um den Zugriff der Backend-Benutzer auf die einzelnen Seiten zu steuern. Es können einzelne Benutzer und Benutzergruppen als Besitzer der Seite definiert und deren Zugriffsrechte festgelegt werden.</target></trans-unit>
+      <trans-unit id="mlang_tabs_tab" xml:space="preserve" approved="yes">
+        <source>Access</source>
+      <target state="translated">Zugriff</target></trans-unit>
+      <trans-unit id="WorkspaceWarning" xml:space="preserve" approved="yes">
+        <source>Workspace Warning</source>
+      <target state="translated">Arbeitsumgebungswarnung</target></trans-unit>
+      <trans-unit id="WorkspaceWarningText" xml:space="preserve" approved="yes">
+        <source>Permissions you set in the workspace are effective on the elements only &lt;em&gt;after&lt;/em&gt; they are published! If you need to set permissions which are effective right now, you must do so in the Live workspace. (Permissions are always evaluated on the Live workspace record/placeholder of a draft version)</source>
+      <target state="translated">In einer Arbeitsumgebung gesetzte Berechtigungen werden erst &lt;em&gt;nach&lt;/em&gt; der Veröffentlichung aktiv! Wenn Sie sofort gültige Berechtigungen benötigen, müssen Sie diese in der LIVE-Arbeitsumgebung setzen. (Berechtigungen werden stets anhand des Datensatzes/Platzhalters einer Entwurfsversion in der LIVE-Arbeitsumgebung ausgewertet.)</target></trans-unit>
+      <trans-unit id="notSet" xml:space="preserve" approved="yes">
+        <source>not set</source>
+      <target state="translated">nicht definiert</target></trans-unit>
+      <trans-unit id="deleted" xml:space="preserve" approved="yes">
+        <source>deleted</source>
+      <target state="translated">gelöscht</target></trans-unit>
+    </body>
+  </file>
+</xliff>

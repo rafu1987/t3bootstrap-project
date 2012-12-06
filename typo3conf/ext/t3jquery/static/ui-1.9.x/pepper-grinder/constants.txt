@@ -1,0 +1,6 @@
+plugin.tx_t3jquery {
+
+	# cat=plugin.tx_t3jquery.ui-pepper-grinder/file/010; type=file[css]; label=jQuery UI Pepper-Grinder
+	file.UI-Pepper-Grinder = EXT:t3jquery/res/css/ui-1.9.x/pepper-grinder/jquery-ui.css
+
+}

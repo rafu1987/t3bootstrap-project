@@ -1,0 +1,4 @@
+
+page.includeCSS {
+	t3jquery-ui-pepper-grinder = {$plugin.tx_t3jquery.file.UI-Pepper-Grinder}
+}

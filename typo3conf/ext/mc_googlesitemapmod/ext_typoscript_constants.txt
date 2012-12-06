@@ -1,0 +1,5 @@
+plugin.muniProcAdm{
+    # cat=muniProcAdm/paths; type=string; label= Path of the template
+    template = 
+}
+

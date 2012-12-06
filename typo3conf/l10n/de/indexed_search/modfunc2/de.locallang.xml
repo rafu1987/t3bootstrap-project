@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">Statistik Indexsuche</label>
+      <label index="title2">Liste der meistgesuchten Wörter</label>
+      <label index="noresults">Kein Ergebnis</label>
+      <label index="all">Alle</label>
+      <label index="last30days">Letzte 30 Tage</label>
+      <label index="last24hours">Letzte 24 Stunden</label>
+      <label index="justthispage">Statistik für diese Seite</label>
+      <label index="allpages">Statistik für alle Seiten. Einzelstatistiken sind auf Seiten mit Suchformularen der Indexsuche verfügbar</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

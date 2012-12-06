@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="label.toTop">Nach oben</label>
+      <label index="uploads.icon">Datei-Link-Symbol für %s</label>
+      <label index="login.username">Benutzername:</label>
+      <label index="login.password">Passwort:</label>
+      <label index="login.login">Anmelden</label>
+      <label index="login.logout">Abmelden</label>
+      <label index="search.emptySearch">Ihre Suche lieferte leider keine Ergebnisse.</label>
+      <label index="search.resultRange">Suchergebnis: ###RANGELOW###-###RANGEHIGH### von ###TOTAL###</label>
+      <label index="search.searchResultNext">Nächste</label>
+      <label index="search.searchResultPrev">Vorherige</label>
+      <label index="search.searchWord">Suchwort:</label>
+      <label index="search.searchIn">Suchen in:</label>
+      <label index="search.headersKeywords">Überschriften und Schlagwörter</label>
+      <label index="search.pageContent">Seiteninhalt</label>
+      <label index="search.searchButton">Suchen!</label>
+      <label index="menu.bypassNavigation">Navigations-Block überspringen</label>
+      <label index="eIcon.html">Reinen HTML-Inhalt bearbeiten</label>
+      <label index="eIcon.header">Überschrift bearbeiten</label>
+      <label index="eIcon.subheader">Unterüberschrift bearbeiten</label>
+      <label index="eIcon.bodytext">Textkörper bearbeiten</label>
+      <label index="eIcon.images">Bilder bearbeiten</label>
+      <label index="eIcon.caption">Bildunterschrift bearbeiten</label>
+      <label index="eIcon.bullets">Aufzählungsliste bearbeiten</label>
+      <label index="eIcon.table">Tabelle bearbeiten</label>
+      <label index="eIcon.filelist">Dateiliste bearbeiten</label>
+      <label index="eIcon.menuSitemap">Menü/Sitemap bearbeiten</label>
+      <label index="eIcon.recordList">Datensatz bearbeiten</label>
+      <label index="eIcon.plugin">Plug-In ändern/konfigurieren</label>
+      <label index="eIcon.multimedia">Multimedia-Element bearbeiten</label>
+      <label index="eIcon.form">E-Mail-Formular bearbeiten</label>
+      <label index="eIcon.search">Suchformular bearbeiten</label>
+      <label index="eIcon.login">Anmeldung bearbeiten</label>
+      <label index="eIcon.page">Seite:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

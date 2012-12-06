@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tabdescr">T3 jQuery</label>
+      <label index="mlang_labels_tablabel">T3 jQuery</label>
+      <label index="mlang_tabs_tab">T3 jQuery</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

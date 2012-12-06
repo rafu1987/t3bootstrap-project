@@ -1,0 +1,13 @@
+plugin.ods_seo {
+	# cat=plugin.ods_seo/main/10; type=boolean; label=Set canonical header: If activated, sets <link rel="canonical" href="main URL" /> on each page (e.g. <link rel="canonical" href="http://www.1drop.de/contact.html" /> if called on page contact.html).
+	canonical = 1
+
+	# cat=plugin.ods_seo/main/20; type=boolean; label=Redirect to main URL: Enables 301 redirections to your main URL (e.g. "index.php?id=123", "/id=123" are redirected to "contact.html").
+	redirect = 0
+
+	# cat=plugin.ods_seo/main/30; type=boolean; label=Use L=0 if not set
+	language = 1
+
+	# cat=plugin.ods_seo/main/40; type=string; label=Special start page URL: Set the start page URL of your website (you most likely want to use "/" here => results in "1drop.de/"). Divide different URLs for each language by a semicolon. Note: The start page is the page of your TYPO3 installation flagged as "is_siteroot" in page properties.
+	startpage =
+}

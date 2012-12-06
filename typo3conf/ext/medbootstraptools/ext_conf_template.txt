@@ -1,0 +1,2 @@
+# cat=basic; type=string; label=Path to custom project less files: Don't forget trailing slash and seperate multiple paths with comma (Info: compiled CSS files will be available in fileadmin/templates/default/css/)
+less_path = fileadmin/templates/project/app/less/

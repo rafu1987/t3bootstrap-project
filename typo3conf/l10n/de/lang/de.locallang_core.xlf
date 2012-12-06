@@ -1,0 +1,934 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="labels.openInNewWindow" xml:space="preserve" approved="yes">
+        <source>Open in new window</source>
+      <target state="translated">In neuem Fenster öffnen</target></trans-unit>
+      <trans-unit id="labels.goBack" xml:space="preserve" approved="yes">
+        <source>Go back</source>
+      <target state="translated">Zurück</target></trans-unit>
+      <trans-unit id="labels.makeShortcut" xml:space="preserve" approved="yes">
+        <source>Create a shortcut to this page?</source>
+      <target state="translated">Einen Verweis auf diese Seite erzeugen?</target></trans-unit>
+      <trans-unit id="labels.makeBookmark" xml:space="preserve" approved="yes">
+        <source>Create a bookmark to this page</source>
+      <target state="translated">Ein Lesezeichen für diese Seite erzeugen</target></trans-unit>
+      <trans-unit id="labels.lockedRecord" xml:space="preserve" approved="yes">
+        <source>The user '%s' began to edit this record %s ago.</source>
+      <target state="translated">Der Benutzer "%s" hat mit der Bearbeitung dieses Datensatzes vor %s begonnen.</target></trans-unit>
+      <trans-unit id="labels.lockedRecord_content" xml:space="preserve" approved="yes">
+        <source>The user '%s' began to edit content on this page %s ago.</source>
+      <target state="translated">Der Benutzer "%s" hat mit der Bearbeitung dieser Seite vor %s begonnen.</target></trans-unit>
+      <trans-unit id="labels.lockedRecordUser" xml:space="preserve" approved="yes">
+        <source>The %s '%s' began to edit this record %s ago.</source>
+      <target state="translated">Der %s "%s" hat mit der Bearbeitung dieses Datensatzes vor %s begonnen.</target></trans-unit>
+      <trans-unit id="labels.lockedRecordUser_content" xml:space="preserve" approved="yes">
+        <source>The %s '%s' began to edit content on this page %s ago.</source>
+      <target state="translated">Der %s "%s" hat mit der Bearbeitung dieser Seite vor %s begonnen.</target></trans-unit>
+      <trans-unit id="labels.user" xml:space="preserve" approved="yes">
+        <source>User</source>
+      <target state="translated">Benutzer</target></trans-unit>
+      <trans-unit id="labels.beUser" xml:space="preserve" approved="yes">
+        <source>BE-User</source>
+      <target state="translated">BE-Benutzer</target></trans-unit>
+      <trans-unit id="labels.feUser" xml:space="preserve" approved="yes">
+        <source>FE-User</source>
+      <target state="translated">FE-Benutzer</target></trans-unit>
+      <trans-unit id="labels.unknownUser" xml:space="preserve" approved="yes">
+        <source>-Unknown-</source>
+      <target state="translated">-Unbekannt-</target></trans-unit>
+      <trans-unit id="labels.showRecords" xml:space="preserve" approved="yes">
+        <source>Show records</source>
+      <target state="translated">Datensätze anzeigen</target></trans-unit>
+      <trans-unit id="labels.path" xml:space="preserve" approved="yes">
+        <source>Path</source>
+      <target state="translated">Pfad</target></trans-unit>
+      <trans-unit id="labels.resetFilter" xml:space="preserve" approved="yes">
+        <source>Reset Filter</source>
+      <target state="translated">Filter entfernen</target></trans-unit>
+      <trans-unit id="labels.table" xml:space="preserve" approved="yes">
+        <source>Table</source>
+      <target state="translated">Tabelle</target></trans-unit>
+      <trans-unit id="labels.upOneLevel" xml:space="preserve" approved="yes">
+        <source>Up one level</source>
+      <target state="translated">Eine Ebene höher gehen</target></trans-unit>
+      <trans-unit id="labels.expandTable" xml:space="preserve" approved="yes">
+        <source>Expand table</source>
+      <target state="translated">Tabelle ausklappen</target></trans-unit>
+      <trans-unit id="labels.collapseTable" xml:space="preserve" approved="yes">
+        <source>Collapse table</source>
+      <target state="translated">Tabelle einklappen</target></trans-unit>
+      <trans-unit id="labels.enterSearchString" xml:space="preserve" approved="yes">
+        <source>Search String:</source>
+      <target state="translated">Suchbegriff:</target></trans-unit>
+      <trans-unit id="labels.enterSearchLevels" xml:space="preserve" approved="yes">
+        <source>This page|1 level down|2 levels down|3 levels down|4 levels down</source>
+      <target state="translated">Diese Seite|Inkl. 1 Ebene|Inkl. 2 Ebenen|Inkl. 3 Ebenen|Inkl. 4 Ebenen</target></trans-unit>
+      <trans-unit id="labels.noEditPermission" xml:space="preserve" approved="yes">
+        <source>Sorry, you didn't have proper permissions to perform this change.</source>
+      <target state="translated">Sie haben nicht die nötigen Rechte, um diese Änderung durchzuführen.</target></trans-unit>
+      <trans-unit id="labels.fieldsMissing" xml:space="preserve" approved="yes">
+        <source>The fields marked with a yellow exclamation mark are not yet correctly filled in. Please complete them properly.</source>
+      <target state="translated">Mit einem gelben Ausrufezeichen markierte Felder in diesem Formular wurden nicht ordnungsgemäß ausgefüllt. Bitte füllen Sie sie korrekt aus.</target></trans-unit>
+      <trans-unit id="labels.fieldsChanged" xml:space="preserve" approved="yes">
+        <source>There are unsaved changes in the form!
+Do you want to continue WITHOUT saving?</source>
+      <target state="translated">Das Formular enthält nicht gespeicherte Änderungen! Ohne Speichern fortfahren?</target></trans-unit>
+      <trans-unit id="labels.noRTEfound" xml:space="preserve" approved="yes">
+        <source>Notice: This field can only be edited with a Rich Text Editor. No editor is currently available or enabled.</source>
+      <target state="translated">Hinweis: Dieses Feld kann nur mit einem Rich-Text-Editor (RTE) bearbeitet werden. Ein solcher Editor ist jedoch momentan nicht verfügbar oder der RTE wurde deaktiviert.</target></trans-unit>
+      <trans-unit id="labels.showPalettes" xml:space="preserve" approved="yes">
+        <source>Show secondary options (palettes)</source>
+      <target state="translated">Zweite Optionspalette anzeigen</target></trans-unit>
+      <trans-unit id="labels.showDescriptions" xml:space="preserve" approved="yes">
+        <source>Show field descriptions</source>
+      <target state="translated">Feldbeschreibung anzeigen</target></trans-unit>
+      <trans-unit id="labels.disableRTE" xml:space="preserve" approved="yes">
+        <source>Disable Rich Text Editor (RTE)</source>
+      <target state="translated">Rich-Text-Editor (RTE) deaktivieren</target></trans-unit>
+      <trans-unit id="labels._CONTROL_" xml:space="preserve" approved="yes">
+        <source>Control</source>
+      <target state="translated">Bedienungselement</target></trans-unit>
+      <trans-unit id="labels._PATH_" xml:space="preserve" approved="yes">
+        <source>Path</source>
+      <target state="translated">Pfad</target></trans-unit>
+      <trans-unit id="labels._LOCALIZATION_" xml:space="preserve" approved="yes">
+        <source>Localization</source>
+      <target state="translated">Lokalisierung</target></trans-unit>
+      <trans-unit id="labels.setFields" xml:space="preserve" approved="yes">
+        <source>Set fields</source>
+      <target state="translated">Felder setzen</target></trans-unit>
+      <trans-unit id="labels.search" xml:space="preserve" approved="yes">
+        <source>Search</source>
+      <target state="translated">Suchen</target></trans-unit>
+      <trans-unit id="labels.author" xml:space="preserve" approved="yes">
+        <source>Author:</source>
+      <target state="translated">Autor:</target></trans-unit>
+      <trans-unit id="labels.note" xml:space="preserve" approved="yes">
+        <source>Note:</source>
+      <target state="translated">Bemerkung:</target></trans-unit>
+      <trans-unit id="labels.category" xml:space="preserve" approved="yes">
+        <source>Category:</source>
+      <target state="translated">Kategorie:</target></trans-unit>
+      <trans-unit id="labels.reload" xml:space="preserve" approved="yes">
+        <source>Reload</source>
+      <target state="translated">Neu laden</target></trans-unit>
+      <trans-unit id="labels.csv" xml:space="preserve" approved="yes">
+        <source>Download CSV file</source>
+      <target state="translated">CSV-Datei herunterladen</target></trans-unit>
+      <trans-unit id="labels.clear_cache" xml:space="preserve" approved="yes">
+        <source>Clear cache for this page</source>
+      <target state="translated">Cache dieser Seite löschen</target></trans-unit>
+      <trans-unit id="labels.no_title" xml:space="preserve" approved="yes">
+        <source>No title</source>
+      <target state="translated">Kein Titel</target></trans-unit>
+      <trans-unit id="labels.cancel" xml:space="preserve" approved="yes">
+        <source>Cancel</source>
+      <target state="translated">Abbruch</target></trans-unit>
+      <trans-unit id="labels.hidden" xml:space="preserve" approved="yes">
+        <source>Hidden</source>
+      <target state="translated">Verborgen</target></trans-unit>
+      <trans-unit id="labels.starttime" xml:space="preserve" approved="yes">
+        <source>Start</source>
+      <target state="translated">Start</target></trans-unit>
+      <trans-unit id="labels.endtime" xml:space="preserve" approved="yes">
+        <source>End</source>
+      <target state="translated">Stopp</target></trans-unit>
+      <trans-unit id="labels.minutesHoursDaysYears" xml:space="preserve" approved="yes">
+        <source> min| hrs| days| yrs| min| hour| day| year</source>
+      <target state="translated">Min| Std| Tage| Jahre</target></trans-unit>
+      <trans-unit id="labels.menu" xml:space="preserve" approved="yes">
+        <source>Menu:</source>
+      <target state="translated">Menü:</target></trans-unit>
+      <trans-unit id="labels.showPage" xml:space="preserve" approved="yes">
+        <source>View webpage</source>
+      <target state="translated">Web-Seite anzeigen</target></trans-unit>
+      <trans-unit id="labels.showList" xml:space="preserve" approved="yes">
+        <source>Show record list</source>
+      <target state="translated">Datensatzliste anzeigen</target></trans-unit>
+      <trans-unit id="labels.days" xml:space="preserve" approved="yes">
+        <source>days</source>
+      <target state="translated">Tage</target></trans-unit>
+      <trans-unit id="labels.depth_0" xml:space="preserve" approved="yes">
+        <source>This page</source>
+      <target state="translated">Diese Seite</target></trans-unit>
+      <trans-unit id="labels.depth_1" xml:space="preserve" approved="yes">
+        <source>1 level</source>
+      <target state="translated">1 Ebene</target></trans-unit>
+      <trans-unit id="labels.depth_2" xml:space="preserve" approved="yes">
+        <source>2 levels</source>
+      <target state="translated">2 Ebenen</target></trans-unit>
+      <trans-unit id="labels.depth_3" xml:space="preserve" approved="yes">
+        <source>3 levels</source>
+      <target state="translated">3 Ebenen</target></trans-unit>
+      <trans-unit id="labels.depth_4" xml:space="preserve" approved="yes">
+        <source>4 levels</source>
+      <target state="translated">4 Ebenen</target></trans-unit>
+      <trans-unit id="labels.depth_infi" xml:space="preserve" approved="yes">
+        <source>Infinite</source>
+      <target state="translated">Unendlich</target></trans-unit>
+      <trans-unit id="labels.allow" xml:space="preserve" approved="yes">
+        <source>Allow</source>
+      <target state="translated">Erlauben</target></trans-unit>
+      <trans-unit id="labels.deny" xml:space="preserve" approved="yes">
+        <source>Deny</source>
+      <target state="translated">Verbieten</target></trans-unit>
+      <trans-unit id="labels.automatic" xml:space="preserve" approved="yes">
+        <source>Auto</source>
+      <target state="translated">Auto</target></trans-unit>
+      <trans-unit id="labels.enabled" xml:space="preserve" approved="yes">
+        <source>Enabled</source>
+      <target state="translated">Aktiviert</target></trans-unit>
+      <trans-unit id="labels.show" xml:space="preserve" approved="yes">
+        <source>Show</source>
+      <target state="translated">Anzeigen</target></trans-unit>
+      <trans-unit id="labels.generalTab" xml:space="preserve" approved="yes">
+        <source>General</source>
+      <target state="translated">Allgemein</target></trans-unit>
+      <trans-unit id="labels.refresh" xml:space="preserve" approved="yes">
+        <source>Reload the tree from server</source>
+      <target state="translated">Baumansicht aktualisieren</target></trans-unit>
+      <trans-unit id="labels.temporaryDBmount" xml:space="preserve" approved="yes">
+        <source>Cancel temporary DB mount</source>
+      <target state="translated">Temporäre Datenbankfreigabe aufheben</target></trans-unit>
+      <trans-unit id="labels.refreshList" xml:space="preserve" approved="yes">
+        <source>Reload list from server</source>
+      <target state="translated">Liste neu laden</target></trans-unit>
+      <trans-unit id="labels.close" xml:space="preserve" approved="yes">
+        <source>Close</source>
+      <target state="translated">Schließen</target></trans-unit>
+      <trans-unit id="labels.new" xml:space="preserve" approved="yes">
+        <source>NEW</source>
+      <target state="translated">NEU</target></trans-unit>
+      <trans-unit id="labels.createNewPage" xml:space="preserve" approved="yes">
+        <source>Create new %s</source>
+      <target state="translated">%s neu erstellen</target></trans-unit>
+      <trans-unit id="labels.createNewRecord" xml:space="preserve" approved="yes">
+        <source>Create new %s on page "%s"</source>
+      <target state="translated">%s auf Seite "%s" neu erstellen</target></trans-unit>
+      <trans-unit id="labels.createNewRecordRootLevel" xml:space="preserve" approved="yes">
+        <source>Create new %s on root level</source>
+      <target state="translated">%s auf Wurzelebene neu erstellen</target></trans-unit>
+      <trans-unit id="labels.editPage" xml:space="preserve" approved="yes">
+        <source>Edit %s "%s"</source>
+      <target state="translated">%s "%s" bearbeiten</target></trans-unit>
+      <trans-unit id="labels.editRecord" xml:space="preserve" approved="yes">
+        <source>Edit %s "%s" on page "%s"</source>
+      <target state="translated">%s "%s" auf Seite %s bearbeiten</target></trans-unit>
+      <trans-unit id="labels.editRecordNoTitle" xml:space="preserve" approved="yes">
+        <source>Edit %s on page "%s"</source>
+      <target state="translated">%s auf Seite "%s" bearbeiten</target></trans-unit>
+      <trans-unit id="labels.editRecordRootLevel" xml:space="preserve" approved="yes">
+        <source>Edit %s "%s" on root level</source>
+      <target state="translated">%s "%s" auf Wurzelebene bearbeiten</target></trans-unit>
+      <trans-unit id="labels.rootLevel" xml:space="preserve" approved="yes">
+        <source>root level</source>
+      <target state="translated">Wurzelebene</target></trans-unit>
+      <trans-unit id="labels.addnew" xml:space="preserve" approved="yes">
+        <source>Add new</source>
+      <target state="translated">Neu hinzufügen</target></trans-unit>
+      <trans-unit id="labels.toggleall" xml:space="preserve" approved="yes">
+        <source>Toggle all</source>
+      <target state="translated">Alle umschalten</target></trans-unit>
+      <trans-unit id="labels.selected" xml:space="preserve" approved="yes">
+        <source>Selected Items</source>
+      <target state="translated">Ausgewählte Objekte</target></trans-unit>
+      <trans-unit id="labels.items" xml:space="preserve" approved="yes">
+        <source>Available Items</source>
+      <target state="translated">Verfügbare Objekte</target></trans-unit>
+      <trans-unit id="labels.remove_selected" xml:space="preserve" approved="yes">
+        <source>Remove selected items</source>
+      <target state="translated">Ausgewähltes Objekt löschen</target></trans-unit>
+      <trans-unit id="labels.move_to_top" xml:space="preserve" approved="yes">
+        <source>Move selected items to top</source>
+      <target state="translated">Ausgewählte Objekte zum Anfang verschieben</target></trans-unit>
+      <trans-unit id="labels.move_up" xml:space="preserve" approved="yes">
+        <source>Move selected items upwards</source>
+      <target state="translated">Ausgewählte Objekte nach oben verschieben</target></trans-unit>
+      <trans-unit id="labels.move_down" xml:space="preserve" approved="yes">
+        <source>Move selected items downwards</source>
+      <target state="translated">Ausgewählte Objekte nach unten verschieben</target></trans-unit>
+      <trans-unit id="labels.move_to_bottom" xml:space="preserve" approved="yes">
+        <source>Move selected items to bottom</source>
+      <target state="translated">Ausgewählte Objekte zum Ende verschieben</target></trans-unit>
+      <trans-unit id="labels.move" xml:space="preserve" approved="yes">
+        <source>Move this item</source>
+      <target state="translated">Dieses Objekt verschieben</target></trans-unit>
+      <trans-unit id="labels.browse_file" xml:space="preserve" approved="yes">
+        <source>Browse for files</source>
+      <target state="translated">Dateien durchblättern</target></trans-unit>
+      <trans-unit id="labels.browse_db" xml:space="preserve" approved="yes">
+        <source>Browse for records</source>
+      <target state="translated">Datensätze durchblättern</target></trans-unit>
+      <trans-unit id="labels.clipInsert_file" xml:space="preserve" approved="yes">
+        <source>Insert %s file(s) from the clipboard</source>
+      <target state="translated">%s Datei(en) aus der Zwischenablage einfügen</target></trans-unit>
+      <trans-unit id="labels.clipInsert_db" xml:space="preserve" approved="yes">
+        <source>Insert %s record(s) from the clipboard</source>
+      <target state="translated">%s Datensätze aus der Zwischenablage einfügen</target></trans-unit>
+      <trans-unit id="labels.generalOptions" xml:space="preserve" approved="yes">
+        <source>General options:</source>
+      <target state="translated">Allgemeine Optionen:</target></trans-unit>
+      <trans-unit id="labels.generalOptions_more" xml:space="preserve" approved="yes">
+        <source>General options (continued):</source>
+      <target state="translated">Allgemeine Optionen (Fortsetzung):</target></trans-unit>
+      <trans-unit id="labels.allTables" xml:space="preserve" approved="yes">
+        <source>[All tables]</source>
+      <target state="translated">[Alle Tabellen]</target></trans-unit>
+      <trans-unit id="labels.moreOptions" xml:space="preserve" approved="yes">
+        <source>More options...</source>
+      <target state="translated">Weitere Optionen...</target></trans-unit>
+      <trans-unit id="labels.noMatchingValue" xml:space="preserve" approved="yes">
+        <source>INVALID VALUE ("%s")</source>
+      <target state="translated">AKTUELLER WERT IST NICHT ERLAUBT (%s)</target></trans-unit>
+      <trans-unit id="labels.thumbmode_clip" xml:space="preserve" approved="yes">
+        <source>Show Thumbnails on ClipBoard</source>
+      <target state="translated">Vorschaubilder in der Zwischenablage anzeigen</target></trans-unit>
+      <trans-unit id="labels.copymode" xml:space="preserve" approved="yes">
+        <source>Copy items instead of moving them</source>
+      <target state="translated">Objekte kopieren statt zu verschieben</target></trans-unit>
+      <trans-unit id="labels.clipNoEl" xml:space="preserve" approved="yes">
+        <source>No elements</source>
+      <target state="translated">Keine Elemente</target></trans-unit>
+      <trans-unit id="labels.cliptabs" xml:space="preserve" approved="yes">
+        <source>Clipboard #</source>
+      <target state="translated">Zwischenablage Nr.</target></trans-unit>
+      <trans-unit id="labels.removeItem" xml:space="preserve" approved="yes">
+        <source>Remove item</source>
+      <target state="translated">Objekt löschen</target></trans-unit>
+      <trans-unit id="labels.holdDownCTRL" xml:space="preserve" approved="yes">
+        <source>Important: Hold down the CTRL key while toggling elements in this list!</source>
+      <target state="translated">Achtung: Bei Änderung innerhalb dieser Liste STRG-Taste gedrückt halten!</target></trans-unit>
+      <trans-unit id="labels.revertSelection" xml:space="preserve" approved="yes">
+        <source>Revert selection</source>
+      <target state="translated">Auswahl rückgängig machen</target></trans-unit>
+      <trans-unit id="labels.setAllCheckboxes" xml:space="preserve" approved="yes">
+        <source>Select All Checkboxes</source>
+      <target state="translated">Alle Markierungsfelder auswählen</target></trans-unit>
+      <trans-unit id="labels.checkAll" xml:space="preserve" approved="yes">
+        <source>Check all</source>
+      <target state="translated">Alle auswählen</target></trans-unit>
+      <trans-unit id="labels.uncheckAll" xml:space="preserve" approved="yes">
+        <source>Uncheck all</source>
+      <target state="translated">Keine auswählen</target></trans-unit>
+      <trans-unit id="labels.changeInOrig" xml:space="preserve" approved="yes">
+        <source>Changed in original translation</source>
+      <target state="translated">Im Original geändert</target></trans-unit>
+      <trans-unit id="labels.expandAll" xml:space="preserve" approved="yes">
+        <source>Expand all</source>
+      <target state="translated">Alle anzeigen</target></trans-unit>
+      <trans-unit id="labels.new_section" xml:space="preserve" approved="yes">
+        <source>Create new:</source>
+      <target state="translated">Neu erstellen:</target></trans-unit>
+      <trans-unit id="labels.count" xml:space="preserve" approved="yes">
+        <source>Quantity:</source>
+      <target state="translated">Menge:</target></trans-unit>
+      <trans-unit id="labels.findRecord" xml:space="preserve" approved="yes">
+        <source>Find records</source>
+      <target state="translated">Datensätze suchen</target></trans-unit>
+      <trans-unit id="labels.noRecordFound" xml:space="preserve" approved="yes">
+        <source>No record found</source>
+      <target state="translated">Kein Datensatz gefunden</target></trans-unit>
+      <trans-unit id="alttext.suggestSearching" xml:space="preserve" approved="yes">
+        <source>Searching...</source>
+      <target state="translated">Suche läuft...</target></trans-unit>
+      <trans-unit id="ver.online" xml:space="preserve" approved="yes">
+        <source>ONLINE</source>
+      <target state="translated">ONLINE</target></trans-unit>
+      <trans-unit id="ver.mgm" xml:space="preserve" approved="yes">
+        <source>Version Management</source>
+      <target state="translated">Versionsverwaltung</target></trans-unit>
+      <trans-unit id="ver.selVer" xml:space="preserve" approved="yes">
+        <source>Select version:</source>
+      <target state="translated">Version auswählen:</target></trans-unit>
+      <trans-unit id="ver.swap" xml:space="preserve" approved="yes">
+        <source>Swap/Publish</source>
+      <target state="translated">Austauschen/Veröffentlichen</target></trans-unit>
+      <trans-unit id="ver.swapPage" xml:space="preserve" approved="yes">
+        <source>Publish this version of the page including content</source>
+      <target state="translated">Diese Version der Seite inklusive Inhalt veröffentlichen</target></trans-unit>
+      <trans-unit id="TYPO3_Element_Browser" xml:space="preserve" approved="yes">
+        <source>TYPO3 Element Browser</source>
+      <target state="translated">TYPO3-Element-Browser</target></trans-unit>
+      <trans-unit id="labels.referencesToRecord" xml:space="preserve" approved="yes">
+        <source>(There are %s reference(s) to this record!)</source>
+      <target state="translated">(Auf diesen Datensatz zeigen %s Referenzen!)</target></trans-unit>
+      <trans-unit id="labels.translationsOfRecord" xml:space="preserve" approved="yes">
+        <source>(This record has %s translation(s) which will be deleted, too!)</source>
+      <target state="translated">(Für diesen Datensatz gibt es %s Übersetzung(en), die ebenfalls gelöscht werden!)</target></trans-unit>
+      <trans-unit id="show_item.php.viewItem" xml:space="preserve" approved="yes">
+        <source>View Item</source>
+      <target state="translated">Element anzeigen</target></trans-unit>
+      <trans-unit id="show_item.php.referencesToThisItem" xml:space="preserve" approved="yes">
+        <source>References to this item:</source>
+      <target state="translated">Referenzen auf dieses Element:</target></trans-unit>
+      <trans-unit id="show_item.php.referencesFromThisItem" xml:space="preserve" approved="yes">
+        <source>References from this item:</source>
+      <target state="translated">Referenzen von diesem Element aus:</target></trans-unit>
+      <trans-unit id="show_item.php.file" xml:space="preserve" approved="yes">
+        <source>File</source>
+      <target state="translated">Datei</target></trans-unit>
+      <trans-unit id="show_item.php.dimensions" xml:space="preserve" approved="yes">
+        <source>Dimensions</source>
+      <target state="translated">Ausmaße</target></trans-unit>
+      <trans-unit id="show_item.php.filesize" xml:space="preserve" approved="yes">
+        <source>Size</source>
+      <target state="translated">Dateigröße</target></trans-unit>
+      <trans-unit id="show_item.php.pixels" xml:space="preserve" approved="yes">
+        <source>Pixels</source>
+      <target state="translated">Pixel</target></trans-unit>
+      <trans-unit id="show_item.php.files" xml:space="preserve" approved="yes">
+        <source>files</source>
+      <target state="translated">Dateien</target></trans-unit>
+      <trans-unit id="show_item.php.cannotDisplayArchive" xml:space="preserve" approved="yes">
+        <source>Sorry, TYPO3_CONF_VARS[BE][disable_exec_function] was set, so cannot display content of archive file.</source>
+      <target state="translated">Es wurde leider TYPO3_CONF_VARS[BE][disable_exec_function] gesetzt, daher kann der Inhalt der Archivdatei nicht angezeigt werden.</target></trans-unit>
+      <trans-unit id="show_item.php.table" xml:space="preserve" approved="yes">
+        <source>Table:</source>
+      <target state="translated">Tabelle:</target></trans-unit>
+      <trans-unit id="show_item.php.uid" xml:space="preserve" approved="yes">
+        <source>Uid:</source>
+      <target state="translated">Uid:</target></trans-unit>
+      <trans-unit id="show_item.php.title" xml:space="preserve" approved="yes">
+        <source>Title:</source>
+      <target state="translated">Titel:</target></trans-unit>
+      <trans-unit id="show_item.php.field" xml:space="preserve" approved="yes">
+        <source>Field:</source>
+      <target state="translated">Feld:</target></trans-unit>
+      <trans-unit id="show_item.php.flexpointer" xml:space="preserve" approved="yes">
+        <source>Flexpointer:</source>
+      <target state="translated">Flexzeiger:</target></trans-unit>
+      <trans-unit id="show_item.php.softrefKey" xml:space="preserve" approved="yes">
+        <source>Softref Key:</source>
+      <target state="translated">Softref-Schlüssel:</target></trans-unit>
+      <trans-unit id="show_item.php.sorting" xml:space="preserve" approved="yes">
+        <source>Sorting:</source>
+      <target state="translated">Sortierung:</target></trans-unit>
+      <trans-unit id="show_item.php.refTable" xml:space="preserve" approved="yes">
+        <source>Ref Table:</source>
+      <target state="translated">Ref-Tabelle:</target></trans-unit>
+      <trans-unit id="show_item.php.refUid" xml:space="preserve" approved="yes">
+        <source>Ref Uid:</source>
+      <target state="translated">Ref-Uid:</target></trans-unit>
+      <trans-unit id="show_item.php.refString" xml:space="preserve" approved="yes">
+        <source>Ref String:</source>
+      <target state="translated">Ref-String:</target></trans-unit>
+      <trans-unit id="show_item.php.ftp_area" xml:space="preserve" approved="yes">
+        <source>FTP AREA</source>
+      <target state="translated">FTP-BEREICH</target></trans-unit>
+      <trans-unit id="db_new.php.pagetitle" xml:space="preserve" approved="yes">
+        <source>New record</source>
+      <target state="translated">Neuer Datensatz</target></trans-unit>
+      <trans-unit id="db_new.php.after" xml:space="preserve" approved="yes">
+        <source>after</source>
+      <target state="translated">nach</target></trans-unit>
+      <trans-unit id="db_new.php.inside" xml:space="preserve" approved="yes">
+        <source>inside</source>
+      <target state="translated">in</target></trans-unit>
+      <trans-unit id="file_upload.php.pagetitle" xml:space="preserve" approved="yes">
+        <source>Upload files</source>
+      <target state="translated">Dateien hochladen</target></trans-unit>
+      <trans-unit id="file_upload.php.submit" xml:space="preserve" approved="yes">
+        <source>Upload files</source>
+      <target state="translated">Hochladen</target></trans-unit>
+      <trans-unit id="file_upload.php.files" xml:space="preserve" approved="yes">
+        <source>files</source>
+      <target state="translated">Dateien</target></trans-unit>
+      <trans-unit id="file_upload.php.number_of_files" xml:space="preserve" approved="yes">
+        <source>Number of files:</source>
+      <target state="translated">Anzahl Dateien:</target></trans-unit>
+      <trans-unit id="file_rename.php.pagetitle" xml:space="preserve" approved="yes">
+        <source>Rename</source>
+      <target state="translated">Umbenennen</target></trans-unit>
+      <trans-unit id="file_rename.php.submit" xml:space="preserve" approved="yes">
+        <source>Rename</source>
+      <target state="translated">Umbenennen</target></trans-unit>
+      <trans-unit id="file_edit.php.pagetitle" xml:space="preserve" approved="yes">
+        <source>Edit</source>
+      <target state="translated">Bearbeiten</target></trans-unit>
+      <trans-unit id="file_edit.php.submit" xml:space="preserve" approved="yes">
+        <source>Save</source>
+      <target state="translated">Speichern</target></trans-unit>
+      <trans-unit id="file_edit.php.saveAndClose" xml:space="preserve" approved="yes">
+        <source>Save and Close</source>
+      <target state="translated">Speichern und schließen</target></trans-unit>
+      <trans-unit id="file_edit.php.coundNot" xml:space="preserve" approved="yes">
+        <source>This filetype cannot be edited.&lt;br /&gt;The file must have an extension like:&lt;br /&gt;&lt;br /&gt; &lt;b&gt;%s&lt;/b&gt;</source>
+      <target state="translated">Dieser Dateityp kann nicht bearbeitet werden. Folgende Dateitypen werden unterstützt: %s</target></trans-unit>
+      <trans-unit id="file_newfolder.php.pagetitle" xml:space="preserve" approved="yes">
+        <source>New file or folder</source>
+      <target state="translated">Neuer Ordner bzw. neue Datei</target></trans-unit>
+      <trans-unit id="file_newfolder.php.submit" xml:space="preserve" approved="yes">
+        <source>Create folders</source>
+      <target state="translated">Ordner anlegen</target></trans-unit>
+      <trans-unit id="file_newfolder.php.folders" xml:space="preserve" approved="yes">
+        <source>folders</source>
+      <target state="translated">Ordner</target></trans-unit>
+      <trans-unit id="file_newfolder.php.newfile_submit" xml:space="preserve" approved="yes">
+        <source>Create file</source>
+      <target state="translated">Datei erzeugen</target></trans-unit>
+      <trans-unit id="file_newfolder.php.newfile" xml:space="preserve" approved="yes">
+        <source>Create new textfile</source>
+      <target state="translated">Textdatei erzeugen</target></trans-unit>
+      <trans-unit id="file_newfolder.php.number_of_folders" xml:space="preserve" approved="yes">
+        <source>Number of folders:</source>
+      <target state="translated">Anzahl Ordner:</target></trans-unit>
+      <trans-unit id="file_clipupload.php.warning_head" xml:space="preserve" approved="yes">
+        <source>Upload path error</source>
+      <target state="translated">Pfadfehler beim Hochladen</target></trans-unit>
+      <trans-unit id="file_clipupload.php.warning" xml:space="preserve" approved="yes">
+        <source>No upload-folder is found. You should create a TEMP-folder ("_temp_") in the root of one of your mounts first!</source>
+      <target state="translated">Kein Ordner zum Hochladen gefunden. Legen Sie zuerst einen TEMP-Ordner in einem Ihrer Hauptverzeichnisse an ("_temp_")!</target></trans-unit>
+      <trans-unit id="mess.redraw" xml:space="preserve" approved="yes">
+        <source>Redrawing the page will discard the current data. Do you want to continue?</source>
+      <target state="translated">Durch das Neuzeichnen der Seite gehen die aktuellen Daten verloren. Den Vorgang fortsetzen?</target></trans-unit>
+      <trans-unit id="mess.delete" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to delete "%s"?</source>
+      <target state="translated">"%s" tatsächlich löschen?</target></trans-unit>
+      <trans-unit id="mess.deleteClip" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to delete ALL selected elements (%s) on the clipboard?</source>
+      <target state="translated">Alle markierten Elemente (%s) aus der Zwischenablage entfernen?</target></trans-unit>
+      <trans-unit id="mess.refresh_login" xml:space="preserve" approved="yes">
+        <source>Your login has probably expired.
+Do you want to refresh it now?</source>
+      <target state="translated">Ihre Anmeldung ist abgelaufen. Die Anmeldung erneuern?</target></trans-unit>
+      <trans-unit id="mess.refresh_login_refresh_button" xml:space="preserve" approved="yes">
+        <source>Stay logged in!</source>
+      <target state="translated">Angemeldet bleiben!</target></trans-unit>
+      <trans-unit id="mess.refresh_logout_button" xml:space="preserve" approved="yes">
+        <source>Logout</source>
+      <target state="translated">Abmelden</target></trans-unit>
+      <trans-unit id="mess.refresh_direct_logout_button" xml:space="preserve" approved="yes">
+        <source>No, log out.</source>
+      <target state="translated">Nein, abmelden.</target></trans-unit>
+      <trans-unit id="mess.refresh_login_countdown" xml:space="preserve" approved="yes">
+        <source>{0} seconds</source>
+      <target state="translated">{0} Sekunden</target></trans-unit>
+      <trans-unit id="mess.refresh_login_countdown_singular" xml:space="preserve" approved="yes">
+        <source>{0} second</source>
+      <target state="translated">{0} Sekunde</target></trans-unit>
+      <trans-unit id="mess.refresh_login_logging_in" xml:space="preserve" approved="yes">
+        <source>Logging in...</source>
+      <target state="translated">Anmeldung läuft...</target></trans-unit>
+      <trans-unit id="mess.refresh_login_failed" xml:space="preserve" approved="yes">
+        <source>Login failed</source>
+      <target state="translated">Fehler</target></trans-unit>
+      <trans-unit id="mess.refresh_login_failed_message" xml:space="preserve" approved="yes">
+        <source>Password not correct.</source>
+      <target state="translated">Das Passwort ist falsch.</target></trans-unit>
+      <trans-unit id="mess.refresh_login_title" xml:space="preserve" approved="yes">
+        <source>Refresh Login to TYPO3 (User: %s)</source>
+      <target state="translated">Anmeldung an TYPO3 erneuern (Benutzer: %s)</target></trans-unit>
+      <trans-unit id="mess.refresh_login_username" xml:space="preserve" approved="yes">
+        <source>Username</source>
+      <target state="translated">Benutzername</target></trans-unit>
+      <trans-unit id="mess.refresh_login_password" xml:space="preserve" approved="yes">
+        <source>Password</source>
+      <target state="translated">Passwort</target></trans-unit>
+      <trans-unit id="mess.refresh_login_button" xml:space="preserve" approved="yes">
+        <source>Login</source>
+      <target state="translated">Anmelden</target></trans-unit>
+      <trans-unit id="mess.refresh_login_emptyPassword" xml:space="preserve" approved="yes">
+        <source>Empty password is not allowed!</source>
+      <target state="translated">Leeres Passwort nicht erlaubt!</target></trans-unit>
+      <trans-unit id="mess.please_wait" xml:space="preserve" approved="yes">
+        <source>Please wait ...</source>
+      <target state="translated">Bitte warten...</target></trans-unit>
+      <trans-unit id="mess.be_locked" xml:space="preserve" approved="yes">
+        <source>The TYPO3 backend is currently locked for maintenance. Leave this browser window open and the backend will automatically become available again once maintenance is complete.</source>
+      <target state="translated">Das TYPO3-Backend ist derzeit wegen Wartungsarbeiten gesperrt. Wenn Sie dieses Browserfenster geöffnet lassen, steht Ihnen das Backend automatisch wieder zur Verfügung, sobald die Wartungsarbeiten beendet sind.</target></trans-unit>
+      <trans-unit id="mess.login_about_to_expire" xml:space="preserve" approved="yes">
+        <source>Your TYPO3 login is about to expire. Please confirm that you want to stay logged in.</source>
+      <target state="translated">Ihre Anmeldung an TYPO3 läuft ab. Bestätigen Sie bitte, wenn Sie weiterhin angemeldet bleiben wollen.</target></trans-unit>
+      <trans-unit id="mess.login_about_to_expire_title" xml:space="preserve" approved="yes">
+        <source>TYPO3 login expiration notice</source>
+      <target state="translated">Hinweis zum Ablauf der TYPO3-Anmeldung</target></trans-unit>
+      <trans-unit id="mess.login_expired" xml:space="preserve" approved="yes">
+        <source>Your TYPO3 login has expired. You need to login again if you want to continue. Otherwise you can close the current browser window.</source>
+      <target state="translated">Ihre TYPO3-Anmeldung ist abgelaufen. Wenn Sie fortfahren möchten, ist eine erneute Anmeldung erforderlich. Andernfalls können Sie das aktuelle Browserfenster schließen.</target></trans-unit>
+      <trans-unit id="mess.noSelItemForEdit" xml:space="preserve" approved="yes">
+        <source>Please select one or more items in the list before you can edit.</source>
+      <target state="translated">Sie müssen mindestens ein Element auswählen, bevor Sie mit der Bearbeitung beginnen.</target></trans-unit>
+      <trans-unit id="mess.onChangeAlert" xml:space="preserve" approved="yes">
+        <source>This change will affect which fields are available in the form.
+Would you like to save now in order to refresh the display?</source>
+      <target state="translated">Diese Änderung beeinflusst die zur Verfügung stehenden Eingabefelder. Die Änderungen speichern und die Anzeige aktualisieren?</target></trans-unit>
+      <trans-unit id="mess.move_into" xml:space="preserve" approved="yes">
+        <source>Move "%s" into "%s"?</source>
+      <target state="translated">"%s" nach "%s" verschieben?</target></trans-unit>
+      <trans-unit id="mess.move_after" xml:space="preserve" approved="yes">
+        <source>Move "%s" to after "%s"?</source>
+      <target state="translated">"%s" hinter "%s" verschieben?</target></trans-unit>
+      <trans-unit id="mess.copy_into" xml:space="preserve" approved="yes">
+        <source>Copy "%s" into "%s"?</source>
+      <target state="translated">"%s" nach "%s" kopieren?</target></trans-unit>
+      <trans-unit id="mess.copy_after" xml:space="preserve" approved="yes">
+        <source>Copy "%s" to after "%s"?</source>
+      <target state="translated">"%s" hinter "%s" kopieren?</target></trans-unit>
+      <trans-unit id="mess.copycb_into" xml:space="preserve" approved="yes">
+        <source>Copy all elements (%s) from the clipboard into "%s"?</source>
+      <target state="translated">Alle Objekte (%s) aus der Zwischenablage nach "%s" kopieren?</target></trans-unit>
+      <trans-unit id="mess.copycb_after" xml:space="preserve" approved="yes">
+        <source>Copy all elements (%s) from the clipboard to the position after "%s"?</source>
+      <target state="translated">Alle Objekte (%s) aus der Zwischenablage hinter "%s" kopieren?</target></trans-unit>
+      <trans-unit id="mess.movecb_into" xml:space="preserve" approved="yes">
+        <source>Move all elements (%s) from the clipboard into "%s"?</source>
+      <target state="translated">Alle Objekte (%s) aus der Zwischenablage nach "%s" verschieben?</target></trans-unit>
+      <trans-unit id="mess.movecb_after" xml:space="preserve" approved="yes">
+        <source>Move all elements (%s) from the clipboard to the position after "%s"?</source>
+      <target state="translated">Alle Objekte (%s) aus der Zwischenablage hinter "%s" verschieben?</target></trans-unit>
+      <trans-unit id="rm.menu" xml:space="preserve" approved="yes">
+        <source>[menu]</source>
+      <target state="translated">[Menü]</target></trans-unit>
+      <trans-unit id="rm.saveDoc" xml:space="preserve" approved="yes">
+        <source>Save document</source>
+      <target state="translated">Dokument speichern</target></trans-unit>
+      <trans-unit id="rm.saveDocShow" xml:space="preserve" approved="yes">
+        <source>Save document and view page</source>
+      <target state="translated">Dokument speichern und Web-Seite anzeigen</target></trans-unit>
+      <trans-unit id="rm.saveCloseDoc" xml:space="preserve" approved="yes">
+        <source>Save and close document</source>
+      <target state="translated">Dokument speichern und schließen</target></trans-unit>
+      <trans-unit id="rm.translationSaveDoc" xml:space="preserve" approved="yes">
+        <source>Translation finished, save and close</source>
+      <target state="translated">Übersetzung beendet, speichern und schließen</target></trans-unit>
+      <trans-unit id="rm.translationSaveDocClear" xml:space="preserve" approved="yes">
+        <source>Translation NOT finished, Save</source>
+      <target state="translated">Übersetzung NICHT beendet, speichern</target></trans-unit>
+      <trans-unit id="rm.saveCloseAllDocs" xml:space="preserve" approved="yes">
+        <source>Save and close all documents</source>
+      <target state="translated">Alle Dokumente speichern und schließen</target></trans-unit>
+      <trans-unit id="rm.saveNewDoc" xml:space="preserve" approved="yes">
+        <source>Save document and create a new one</source>
+      <target state="translated">Dokument speichern und neues erstellen</target></trans-unit>
+      <trans-unit id="rm.closeDoc" xml:space="preserve" approved="yes">
+        <source>Close document</source>
+      <target state="translated">Dokument schließen</target></trans-unit>
+      <trans-unit id="rm.closeAllDocs" xml:space="preserve" approved="yes">
+        <source>Close all documents</source>
+      <target state="translated">Alle Dokumente schließen</target></trans-unit>
+      <trans-unit id="rm.clearCache_clearCache" xml:space="preserve" approved="yes">
+        <source>Clear cache</source>
+      <target state="translated">Cache löschen</target></trans-unit>
+      <trans-unit id="rm.clearCache_thisPage" xml:space="preserve" approved="yes">
+        <source>This page</source>
+      <target state="translated">Diese Seite</target></trans-unit>
+      <trans-unit id="rm.clearCache_all" xml:space="preserve" approved="yes">
+        <source>Clear FE cache</source>
+      <target state="translated">Alle Caches löschen</target></trans-unit>
+      <trans-unit id="rm.clearCache_pages" xml:space="preserve" approved="yes">
+        <source>Clear Page Cache</source>
+      <target state="translated">Seiten-Cache löschen</target></trans-unit>
+      <trans-unit id="rm.clearCache_allTypo3Conf" xml:space="preserve" approved="yes">
+        <source>Clear cache in typo3conf/</source>
+      <target state="translated">Konfigurations-Cache löschen</target></trans-unit>
+      <trans-unit id="rm.clearCacheMenu_all" xml:space="preserve" approved="yes">
+        <source>Clear all caches</source>
+      <target state="translated">Alle Caches löschen</target></trans-unit>
+      <trans-unit id="rm.clearCacheMenu_pages" xml:space="preserve" approved="yes">
+        <source>Clear page content cache</source>
+      <target state="translated">Seiteninhalts-Cache löschen</target></trans-unit>
+      <trans-unit id="rm.clearCacheMenu_allTypo3Conf" xml:space="preserve" approved="yes">
+        <source>Clear configuration cache</source>
+      <target state="translated">Konfigurations-Cache löschen</target></trans-unit>
+      <trans-unit id="rm.adminFunctions" xml:space="preserve" approved="yes">
+        <source>Admin functions</source>
+      <target state="translated">Admin-Funktionen</target></trans-unit>
+      <trans-unit id="rm.edit" xml:space="preserve" approved="yes">
+        <source>Edit</source>
+      <target state="translated">Bearbeiten</target></trans-unit>
+      <trans-unit id="rm.export" xml:space="preserve" approved="yes">
+        <source>Export</source>
+      <target state="translated">Export</target></trans-unit>
+      <trans-unit id="rm.delete" xml:space="preserve" approved="yes">
+        <source>Delete</source>
+      <target state="translated">Löschen</target></trans-unit>
+      <trans-unit id="buttons.logout" xml:space="preserve" approved="yes">
+        <source>Logout</source>
+      <target state="translated">Abmelden</target></trans-unit>
+      <trans-unit id="buttons.exit" xml:space="preserve" approved="yes">
+        <source>Exit</source>
+      <target state="translated">Verlassen</target></trans-unit>
+      <trans-unit id="buttons.selMenu_modules" xml:space="preserve" approved="yes">
+        <source>MODULES</source>
+      <target state="translated">MODULE</target></trans-unit>
+      <trans-unit id="buttons.clear" xml:space="preserve" approved="yes">
+        <source>Clear</source>
+      <target state="translated">Löschen</target></trans-unit>
+      <trans-unit id="buttons.clipboard" xml:space="preserve" approved="yes">
+        <source>Clipboard</source>
+      <target state="translated">Zwischenablage</target></trans-unit>
+      <trans-unit id="cm.copy" xml:space="preserve" approved="yes">
+        <source>Copy</source>
+      <target state="translated">Kopieren</target></trans-unit>
+      <trans-unit id="cm.cut" xml:space="preserve" approved="yes">
+        <source>Cut</source>
+      <target state="translated">Ausschneiden</target></trans-unit>
+      <trans-unit id="cm.view" xml:space="preserve" approved="yes">
+        <source>Show</source>
+      <target state="translated">Ansehen</target></trans-unit>
+      <trans-unit id="cm.edit" xml:space="preserve" approved="yes">
+        <source>Edit</source>
+      <target state="translated">Bearbeiten</target></trans-unit>
+      <trans-unit id="cm.new" xml:space="preserve" approved="yes">
+        <source>New</source>
+      <target state="translated">Neu</target></trans-unit>
+      <trans-unit id="cm.pasteinto" xml:space="preserve" approved="yes">
+        <source>Paste into</source>
+      <target state="translated">Einfügen in</target></trans-unit>
+      <trans-unit id="cm.pasteafter" xml:space="preserve" approved="yes">
+        <source>Paste after</source>
+      <target state="translated">Einfügen nach</target></trans-unit>
+      <trans-unit id="cm.select" xml:space="preserve" approved="yes">
+        <source>Select</source>
+      <target state="translated">Auswählen</target></trans-unit>
+      <trans-unit id="cm.deselect" xml:space="preserve" approved="yes">
+        <source>Deselect</source>
+      <target state="translated">Auswahl aufheben</target></trans-unit>
+      <trans-unit id="cm.selectto" xml:space="preserve" approved="yes">
+        <source>Select to</source>
+      <target state="translated">Auswählen bis</target></trans-unit>
+      <trans-unit id="cm.deselectto" xml:space="preserve" approved="yes">
+        <source>Deselect to</source>
+      <target state="translated">Ausw. aufheben bis</target></trans-unit>
+      <trans-unit id="cm.delete" xml:space="preserve" approved="yes">
+        <source>Delete</source>
+      <target state="translated">Löschen</target></trans-unit>
+      <trans-unit id="cm.hide" xml:space="preserve" approved="yes">
+        <source>Hide</source>
+      <target state="translated">Verbergen</target></trans-unit>
+      <trans-unit id="cm.unhide" xml:space="preserve" approved="yes">
+        <source>Unhide</source>
+      <target state="translated">Sichtbar machen</target></trans-unit>
+      <trans-unit id="cm.upload" xml:space="preserve" approved="yes">
+        <source>Upload Files</source>
+      <target state="translated">Dateien hochladen</target></trans-unit>
+      <trans-unit id="cm.rename" xml:space="preserve" approved="yes">
+        <source>Rename</source>
+      <target state="translated">Umbenennen</target></trans-unit>
+      <trans-unit id="cm.open" xml:space="preserve" approved="yes">
+        <source>Open</source>
+      <target state="translated">Öffnen</target></trans-unit>
+      <trans-unit id="cm.save" xml:space="preserve" approved="yes">
+        <source>Save</source>
+      <target state="translated">Speichern</target></trans-unit>
+      <trans-unit id="cm.unzip" xml:space="preserve" approved="yes">
+        <source>Unzip</source>
+      <target state="translated">Entpacken</target></trans-unit>
+      <trans-unit id="cm.info" xml:space="preserve" approved="yes">
+        <source>Info</source>
+      <target state="translated">Info</target></trans-unit>
+      <trans-unit id="cm.createnew" xml:space="preserve" approved="yes">
+        <source>Create new</source>
+      <target state="translated">Neu anlegen</target></trans-unit>
+      <trans-unit id="cm.tempMountPoint" xml:space="preserve" approved="yes">
+        <source>Mount as treeroot</source>
+      <target state="translated">Als Startpunkt für den Seitenbaum festlegen</target></trans-unit>
+      <trans-unit id="cm.copyPage_into" xml:space="preserve" approved="yes">
+        <source>Copy page into</source>
+      <target state="translated">Seite kopieren in</target></trans-unit>
+      <trans-unit id="cm.copyPage_after" xml:space="preserve" approved="yes">
+        <source>Copy page after</source>
+      <target state="translated">Seite kopieren hinter</target></trans-unit>
+      <trans-unit id="cm.movePage_into" xml:space="preserve" approved="yes">
+        <source>Move page into</source>
+      <target state="translated">Seite verschieben in</target></trans-unit>
+      <trans-unit id="cm.movePage_after" xml:space="preserve" approved="yes">
+        <source>Move page after</source>
+      <target state="translated">Seite verschieben hinter</target></trans-unit>
+      <trans-unit id="cm.copyFolder_into" xml:space="preserve" approved="yes">
+        <source>Copy folder into</source>
+      <target state="translated">Ordner kopieren in</target></trans-unit>
+      <trans-unit id="cm.moveFolder_into" xml:space="preserve" approved="yes">
+        <source>Move folder into</source>
+      <target state="translated">Ordner verschieben in</target></trans-unit>
+      <trans-unit id="cm.createNewRelation" xml:space="preserve" approved="yes">
+        <source>Create new relation</source>
+      <target state="translated">Neue Relation erstellen</target></trans-unit>
+      <trans-unit id="cm.branchActions" xml:space="preserve" approved="yes">
+        <source>Branch Actions</source>
+      <target state="translated">Teilbereichsaktionen</target></trans-unit>
+      <trans-unit id="cm.copyPasteActions" xml:space="preserve" approved="yes">
+        <source>Page Actions</source>
+      <target state="translated">Seitenaktionen</target></trans-unit>
+      <trans-unit id="cm.collapseBranch" xml:space="preserve" approved="yes">
+        <source>Collapse Branch</source>
+      <target state="translated">Teilbereich einklappen</target></trans-unit>
+      <trans-unit id="cm.expandBranch" xml:space="preserve" approved="yes">
+        <source>Expand Branch</source>
+      <target state="translated">Teilbereich ausklappen</target></trans-unit>
+      <trans-unit id="tree.defaultPageTitle" xml:space="preserve" approved="yes">
+        <source>[Default Title]</source>
+      <target state="translated">[Standard-Titel]</target></trans-unit>
+      <trans-unit id="tree.copyHint" xml:space="preserve" approved="yes">
+        <source>Press Ctrl to copy.</source>
+      <target state="translated">Zum Kopieren 'Strg' drücken.</target></trans-unit>
+      <trans-unit id="tree.activeFilterMode" xml:space="preserve" approved="yes">
+        <source>Active Filtering Mode</source>
+      <target state="translated">Filtermodus aktiv</target></trans-unit>
+      <trans-unit id="tree.dropToRemove" xml:space="preserve" approved="yes">
+        <source>Drop here to delete</source>
+      <target state="translated">Zum Löschen hier ablegen</target></trans-unit>
+      <trans-unit id="tree.dropZoneElementRemoved" xml:space="preserve" approved="yes">
+        <source>Click here to undelete</source>
+      <target state="translated">Zum Wiederherstellen hier klicken</target></trans-unit>
+      <trans-unit id="tree.dropZoneElementRestored" xml:space="preserve" approved="yes">
+        <source>Page restored</source>
+      <target state="translated">Seite wiederhergestellt</target></trans-unit>
+      <trans-unit id="tree.buttonNewNode" xml:space="preserve" approved="yes">
+        <source>Create new pages</source>
+      <target state="translated">Neue Seiten erstellen</target></trans-unit>
+      <trans-unit id="tree.buttonFilter" xml:space="preserve" approved="yes">
+        <source>Filter tree</source>
+      <target state="translated">Baum filtern</target></trans-unit>
+      <trans-unit id="tree.searchTermInfo" xml:space="preserve" approved="yes">
+        <source>Enter search term</source>
+      <target state="translated">Suchbegriff eingeben</target></trans-unit>
+      <trans-unit id="warning.install_password" xml:space="preserve" approved="yes">
+        <source>The Install Tool is still using the default password "joh316". Update this within the %sAbout section%s of the Install Tool.</source>
+      <target state="translated">Das Installationsprogramm benutzt noch das Standardpasswort "joh316". Bitte ersetzen Sie es %shier%s.</target></trans-unit>
+      <trans-unit id="warning.backend_admin" xml:space="preserve" approved="yes">
+        <source>The default backend user "admin" with password "password" is still present. %sEdit this account%s, either deleting it completely or changing the username and password.</source>
+      <target state="translated">Der Standardbenutzer "admin" des Backends mit dem Passwort "password" ist noch vorhanden. %sÄndern Sie dieses Konto%s. Entweder indem Sie es vollständig löschen oder indem Sie Benutzername und Passwort ändern.</target></trans-unit>
+      <trans-unit id="warning.file_deny_pattern" xml:space="preserve" approved="yes">
+        <source>The value of fileDenyPattern is not set to its default:%s If TYPO3 is running on Apache, a customized value might enable backend or frontend users to execute malicious php scripts.</source>
+      <target state="translated">Für fileDenyPattern ist nicht der Standardwert definiert: %s Wird TYPO3 mit Apache betrieben, kann ein angepasster Wert dazu führen, dass Backend- oder Frontend-Benutzer in die Lage versetzt werden, bösartige PHP-Skripte auszuführen.</target></trans-unit>
+      <trans-unit id="warning.file_deny_pattern_partsNotPresent" xml:space="preserve" approved="yes">
+        <source>Security Risk! The new value of fileDenyPattern misses parts of its default:%s If TYPO3 is running on Apache, a customized value might enable backend or frontend users to execute malicious php scripts.</source>
+      <target state="translated">Sicherheitsrisiko! Der neue Wert von fileDenyPattern enthält nicht alle Teile des Standardwertes %s. Wenn TYPO3 auf einem Apache-Server ausgeführt wird, kann ein veränderter Wert Backend- oder Frontend-Benutzer in die Lage versetzen, bösartige PHP-Skripte auszuführen.</target></trans-unit>
+      <trans-unit id="warning.file_deny_htaccess" xml:space="preserve" approved="yes">
+        <source>The current value of fileDenyPattern allows to upload/create files with the name ".htaccess". If TYPO3 is running on Apache, this enables backend or frontend users to create and execute php scripts. Please reset the value of fileDenyPattern to its default.</source>
+      <target state="translated">Der aktuelle Wert für fileDenyPattern erlaubt das Hochladen/Anlegen von Dateien mit dem Namen ".htaccess". Wird TYPO3 mit Apache betrieben, werden Backend- und Frontend-Benutzer in die Lage versetzt, PHP-Skripte zu erstellen und auszuführen. Setzen Sie bitte fileDenyPattern auf die Voreinstellung zurück.</target></trans-unit>
+      <trans-unit id="warning.install_enabled" xml:space="preserve" approved="yes">
+        <source>The Install Tool is permanently enabled. Delete the file "%s" when you have finished setting up TYPO3.</source>
+      <target state="translated">Das Installationsprogramm ist dauerhaft aktiviert. Löschen Sie die Datei "%s", wenn Sie mit der Installation von TYPO3 fertig sind.</target></trans-unit>
+      <trans-unit id="warning.install_enabled_cmd" xml:space="preserve" approved="yes">
+        <source>Click to remove the file now!</source>
+      <target state="translated">Klicken Sie hier, um die Datei jetzt zu löschen!</target></trans-unit>
+      <trans-unit id="warning.install_encryption" xml:space="preserve" approved="yes">
+        <source>The encryption key is not set. Set it in the %sBasic Configuration section%s of the Install Tool.</source>
+      <target state="translated">Es ist kein Schlüssel für die Verschlüsselung festgelegt. Legen Sie ihn im %sAbschnitt Grundkonfiguration%s des Installationsprogramms fest.</target></trans-unit>
+      <trans-unit id="warning.install_update" xml:space="preserve" approved="yes">
+        <source>This installation is not configured for the TYPO3 version it is running. If you did so intentionally, this message can be safely ignored. If you are unsure, visit the %sUpdate Wizard%s section of the Install Tool to see how TYPO3 would change.</source>
+      <target state="translated">Diese Installation ist nicht für die laufende TYPO3-Version konfiguriert. Haben Sie dies mit Absicht getan, können Sie die Nachricht beruhigt ignorieren. Wenn Sie unsicher sind, rufen Sie den Abschnitt %sAktualisierungsassistent%s des Installationsprogramms auf, um die möglichen Änderungen zu überprüfen.</target></trans-unit>
+      <trans-unit id="warning.header" xml:space="preserve" approved="yes">
+        <source>Important Notice!</source>
+      <target state="translated">Wichtiger Hinweis!</target></trans-unit>
+      <trans-unit id="warning.backend_reference" xml:space="preserve" approved="yes">
+        <source>The Reference Index table is empty which is likely the result of a recent TYPO3 upgrade. Please go to %sTools&gt;DB Check%s and update the reference index.</source>
+      <target state="translated">Die Referenzindextabelle ist leer. Dies ist wahrscheinlich die Folge einer kürzlich erfolgten TYPO3-Aktualisierung. Bitte den Punkt %sWerkzeuge &gt; DB-Prüfung%s aufrufen und den Referenzindex aktualisieren.</target></trans-unit>
+      <trans-unit id="warning.backend_reference_index" xml:space="preserve" approved="yes">
+        <source>The Reference Index table is empty which is likely the result of a recent TYPO3 upgrade. The Reference Index was last updated on %3$s. Please go to %sTools&gt;DB Check%s and update the reference index.</source>
+      <target state="translated">Die Referenzindextabelle ist leer. Dies ist wahrscheinlich die Folge einer kürzlich erfolgten TYPO3-Aktualisierung. Der Referenzindex wurde zuletzt am %3$s aktualisiert. Bitte den Punkt %sWerkzeuge &gt; DB-Prüfung%s aufrufen und den Referenzindex aktualisieren.</target></trans-unit>
+      <trans-unit id="warning.memcache_not_usable" xml:space="preserve" approved="yes">
+        <source>Memcache is configured, but connection to memcached failed with these configuration(s):</source>
+      <target state="translated">Memcache wurde konfiguriert, aber Verbindung zu Memcache ist fehlgeschlagen mit folgender/n Konfiguration(en):</target></trans-unit>
+      <trans-unit id="warning.file_missing" xml:space="preserve" approved="yes">
+        <source>File is missing!</source>
+      <target state="translated">Datei fehlt!</target></trans-unit>
+      <trans-unit id="warning.file_missing_text" xml:space="preserve" approved="yes">
+        <source>This content element references a file which seems to not exist:</source>
+      <target state="translated">Dieses Inhaltselement verlinkt auf eine Datei, die nicht existiert:</target></trans-unit>
+      <trans-unit id="error.formProtection.tokenInvalid" xml:space="preserve" approved="yes">
+        <source>Validating the security token of this form has failed. Please reload the form and submit it again.</source>
+      <target state="translated">Die Validierung des Sicherheitstokens dieses Formulars ist fehlgeschlagen. Bitte laden Sie das Formular erneut und schicken Sie es dann noch einmal ab.</target></trans-unit>
+      <trans-unit id="toolbarItems.shortcuts" xml:space="preserve" approved="yes">
+        <source>Shortcuts</source>
+      <target state="translated">Verweise</target></trans-unit>
+      <trans-unit id="toolbarItems.shortcut" xml:space="preserve" approved="yes">
+        <source>Shortcut</source>
+      <target state="translated">Verweis</target></trans-unit>
+      <trans-unit id="toolbarItems.shortcutsGroup" xml:space="preserve" approved="yes">
+        <source>Shortcut Group</source>
+      <target state="translated">Verweisgruppe</target></trans-unit>
+      <trans-unit id="toolbarItems.shortcutsEdit" xml:space="preserve" approved="yes">
+        <source>Edit Shortcut</source>
+      <target state="translated">Verweis bearbeiten</target></trans-unit>
+      <trans-unit id="toolbarItems.shortcutsDelete" xml:space="preserve" approved="yes">
+        <source>Delete Shortcut</source>
+      <target state="translated">Verweis löschen</target></trans-unit>
+      <trans-unit id="toolbarItems.bookmarks" xml:space="preserve" approved="yes">
+        <source>Bookmarks</source>
+      <target state="translated">Lesezeichen</target></trans-unit>
+      <trans-unit id="toolbarItems.bookmark" xml:space="preserve" approved="yes">
+        <source>Bookmark</source>
+      <target state="translated">Lesezeichen</target></trans-unit>
+      <trans-unit id="toolbarItems.bookmarksGroup" xml:space="preserve" approved="yes">
+        <source>Bookmark group</source>
+      <target state="translated">Lesezeichengruppe</target></trans-unit>
+      <trans-unit id="toolbarItems.bookmarksEdit" xml:space="preserve" approved="yes">
+        <source>Edit bookmark</source>
+      <target state="translated">Lesezeichen bearbeiten</target></trans-unit>
+      <trans-unit id="toolbarItems.bookmarksDelete" xml:space="preserve" approved="yes">
+        <source>Delete bookmark</source>
+      <target state="translated">Lesezeichen löschen</target></trans-unit>
+      <trans-unit id="toolbarItems.search" xml:space="preserve" approved="yes">
+        <source>Search</source>
+      <target state="translated">Suchen</target></trans-unit>
+      <trans-unit id="toolbarItems.workspace" xml:space="preserve" approved="yes">
+        <source>Workspace</source>
+      <target state="translated">Arbeitsumgebung</target></trans-unit>
+      <trans-unit id="tabs.closeAll" xml:space="preserve" approved="yes">
+        <source>Close All Tabs</source>
+      <target state="translated">Alle Tabs schließen</target></trans-unit>
+      <trans-unit id="tabs.closeOther" xml:space="preserve" approved="yes">
+        <source>Close Other Tabs</source>
+      <target state="translated">Andere Tabs schließen</target></trans-unit>
+      <trans-unit id="tabs.close" xml:space="preserve" approved="yes">
+        <source>Close Tab</source>
+      <target state="translated">Tab schließen</target></trans-unit>
+      <trans-unit id="tabs.openInBrowserWindow" xml:space="preserve" approved="yes">
+        <source>Open In Browser Window</source>
+      <target state="translated">In Browserfenster öffnen</target></trans-unit>
+      <trans-unit id="donateWindow.title" xml:space="preserve" approved="yes">
+        <source>TYPO3 donation notice</source>
+      <target state="translated">TYPO3-Spenden-Hinweis</target></trans-unit>
+      <trans-unit id="donateWindow.message" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;You have now used TYPO3 for more than three months.&lt;/b&gt; It would be great if you could donate. TYPO3 is Open Source and relies heavily on donations from its users and supporters.&lt;br/&gt; &lt;b&gt;Thank you&lt;/b&gt; for making this great Content Management System even better with your help!</source>
+      <target state="translated">&lt;b&gt;Sie nutzen TYPO3 jetzt seit mehr als drei Monaten.&lt;/b&gt; Es wäre sehr freundlich, wenn Sie für seine Weiterentwicklung spenden könnten. TYPO3 ist Open Source und ist sehr auf Spenden seiner Nutzer und Unterstützer angewiesen.&lt;br /&gt; &lt;b&gt;Danke,&lt;/b&gt; dass Sie dieses großartige Content-Management-System mit Ihrer Hilfe noch besser machen!</target></trans-unit>
+      <trans-unit id="donateWindow.button_donate" xml:space="preserve" approved="yes">
+        <source>Donate now</source>
+      <target state="translated">Jetzt spenden</target></trans-unit>
+      <trans-unit id="donateWindow.button_disable" xml:space="preserve" approved="yes">
+        <source>Never show again</source>
+      <target state="translated">Nie wieder zeigen</target></trans-unit>
+      <trans-unit id="donateWindow.button_postpone" xml:space="preserve" approved="yes">
+        <source>Remind me later</source>
+      <target state="translated">Mich später erinnern</target></trans-unit>
+      <trans-unit id="ExtDirect.namespaceError" xml:space="preserve" approved="yes">
+        <source>Ext Direct error in "%s" with namespace: "%s"\n
+Try to clear the TYPO3 cache and / or use paramater no_cache=1 as parameter in URL typo3/ajax.php\n\n
+Check also the following points:\n
+- configuration in ext_localconf.php: registration key should be like "TYPO3.MyExtension.Sample"\n
+- URL typo3/ajax.php: namespace parameter should be like: "TYPO3.MyExtension"\n
+- javascript: method\'s name should be like: "TYPO3.MyExtension.Sample.myMethod"\n</source>
+      <target state="translated">Ext-Direct-Fehler in "%s" mit Namespace: "%s" Versuchen Sie, den TYPO3-Cache zu leeren und/oder den Parameter no_cache=1 in der URL typo3/ajax.php zu verwenden. Prüfen Sie auch folgende Punkte: - Die Konfiguration in ext_localconf.php: Der Registrierungsschlüssel sollte wie "TYPO3.MeineErweiterung.Beispiel" aussehen - URL typo3/ajax.php: Der Namespace-Parameter sollte wie "TYPO3.MeineErweiterung" aussehen - JavaScript: Methodennamen sollten wie "TYPO3.MeineErweiterung.Beispiel.meineMethode" aussehen</target></trans-unit>
+      <trans-unit id="ExtDirect.noNamespace" xml:space="preserve" approved="yes">
+        <source>Ext Direct error in "%s": no namespace has been found.</source>
+      <target state="translated">Ext-Direct-Fehler in "%s": Kein Namespace gefunden.</target></trans-unit>
+      <trans-unit id="extension.not.installed" xml:space="preserve" approved="yes">
+        <source>Extension "%s" is not installed.</source>
+      <target state="translated">Erweiterung "%s" ist nicht installiert.</target></trans-unit>
+      <trans-unit id="link.to.dblist.correctly" xml:space="preserve" approved="yes">
+        <source>Please, do not link to this page. Use t3lib_BEfunc::getListViewLink() for link generation.</source>
+      <target state="translated">Bitte verlinken Sie nicht auf diese Seite. Benutzen Sie stattdessen t3lib_extMgm::createListViewLink(), um Links zu erzeugen.</target></trans-unit>
+      <trans-unit id="link.to.filefile.correctly" xml:space="preserve" approved="yes">
+        <source>Please, do not link to this page.</source>
+      <target state="translated">Bitte verlinken Sie nicht auf diese Seite.</target></trans-unit>
+      <trans-unit id="loadingIndicator" xml:space="preserve" approved="yes">
+        <source>Loading ...</source>
+      <target state="translated">Lädt...</target></trans-unit>
+      <trans-unit id="csh_tooltip_loading" xml:space="preserve" approved="yes">
+        <source>Loading help...</source>
+      <target state="translated">Lädt Hilfetext...</target></trans-unit>
+      <trans-unit id="error.database_schema_mismatch" xml:space="preserve">
+        <source>A SQL error occurred. This may indicate a schema mismatch between TCA and the database. Try running database compare in the Install Tool.</source>
+      </trans-unit>
+      <trans-unit id="error.database_schema_mismatch_title" xml:space="preserve">
+        <source>Database Error</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

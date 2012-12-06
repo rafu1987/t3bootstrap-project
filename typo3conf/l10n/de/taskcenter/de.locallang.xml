@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="taskcenter">Aufgabenzentrum</label>
+      <label index="choose_task">Aufgabe:</label>
+      <label index="mlang_tabs_tab">Aufgaben</label>
+      <label index="task_overview">Übersicht</label>
+      <label index="lReplyAddress">Antwortadresse ist Ihre E-Mail-Adresse</label>
+      <label index="lSelf">Selbst</label>
+      <label index="lSendNew">Nachricht senden</label>
+      <label index="lSendReply">Nachricht beantworten</label>
+      <label index="listSeparator_Groups">__Gruppen:__</label>
+      <label index="lHomedir">Home-Verzeichnis</label>
+      <label index="lNone">[kein]</label>
+      <label index="lCreate">Anlegen</label>
+      <label index="lCancel">Abbrechen</label>
+      <label index="lDelete_warning">Diesen Benutzer tatsächlich löschen?</label>
+      <label index="lDelete">Löschen</label>
+      <label index="lUpdate">Aktualisieren</label>
+      <label index="task_help_title">Über das Aufgabenzentrum</label>
+      <label index="task_help_description">Erhalten Sie mehr Informationen über das Aufgabenzentrum.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

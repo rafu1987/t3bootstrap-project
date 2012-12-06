@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="bigControlPanel" xml:space="preserve" approved="yes">
+        <source>Extended view</source>
+      <target state="translated">Erweiterte Ansicht</target></trans-unit>
+      <trans-unit id="clipBoard" xml:space="preserve" approved="yes">
+        <source>Show clipboard</source>
+      <target state="translated">Zwischenablage anzeigen</target></trans-unit>
+      <trans-unit id="clip_paste" xml:space="preserve" approved="yes">
+        <source>Paste in clipboard content</source>
+      <target state="translated">Inhalt der Zwischenablage einfügen</target></trans-unit>
+      <trans-unit id="clip_pasteInto" xml:space="preserve" approved="yes">
+        <source>Paste into: Clipboard content is inserted into this folder</source>
+      <target state="translated">Einfügen in: Inhalt der Zwischenablage wird in diesen Ordner eingefügt</target></trans-unit>
+      <trans-unit id="clip_markRecords" xml:space="preserve" approved="yes">
+        <source>Mark All/Mark none</source>
+      <target state="translated">Alles/nichts markieren</target></trans-unit>
+      <trans-unit id="clip_selectMarked" xml:space="preserve" approved="yes">
+        <source>Transfer the selection of files to clipboard</source>
+      <target state="translated">Auswahl der Dateien in die Zwischenablage übertragen</target></trans-unit>
+      <trans-unit id="clip_deleteMarked" xml:space="preserve" approved="yes">
+        <source>Delete marked</source>
+      <target state="translated">Markierte löschen</target></trans-unit>
+      <trans-unit id="clip_deleteMarkedWarning" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to delete all marked files from this folder?</source>
+      <target state="translated">Alle markierten Dateien aus diesem Ordner tatsächlich löschen?</target></trans-unit>
+      <trans-unit id="displayThumbs" xml:space="preserve" approved="yes">
+        <source>Display thumbnails</source>
+      <target state="translated">Vorschaubilder anzeigen</target></trans-unit>
+      <trans-unit id="c_file" xml:space="preserve" approved="yes">
+        <source>Filename</source>
+      <target state="translated">Dateiname</target></trans-unit>
+      <trans-unit id="c_size" xml:space="preserve" approved="yes">
+        <source>Size</source>
+      <target state="translated">Größe</target></trans-unit>
+      <trans-unit id="c_fileext" xml:space="preserve" approved="yes">
+        <source>Type</source>
+      <target state="translated">Typ</target></trans-unit>
+      <trans-unit id="c_tstamp" xml:space="preserve" approved="yes">
+        <source>Date</source>
+      <target state="translated">Datum</target></trans-unit>
+      <trans-unit id="c_rw" xml:space="preserve" approved="yes">
+        <source>RW</source>
+      <target state="translated">LS</target></trans-unit>
+      <trans-unit id="c__REF_" xml:space="preserve" approved="yes">
+        <source>Ref</source>
+      <target state="translated">Ref.</target></trans-unit>
+      <trans-unit id="files" xml:space="preserve" approved="yes">
+        <source>files</source>
+      <target state="translated">Dateien</target></trans-unit>
+      <trans-unit id="temp" xml:space="preserve" approved="yes">
+        <source>Temporary files</source>
+      <target state="translated">Temporäre Dateien</target></trans-unit>
+      <trans-unit id="read" xml:space="preserve" approved="yes">
+        <source>R</source>
+      <target state="translated">L</target></trans-unit>
+      <trans-unit id="recycler" xml:space="preserve" approved="yes">
+        <source>Recycler</source>
+      <target state="translated">Papierkorb</target></trans-unit>
+      <trans-unit id="mlang_labels_tablabel" xml:space="preserve" approved="yes">
+        <source>Listing of files in the directory</source>
+      <target state="translated">Anzeige von Dateien und Ordnern</target></trans-unit>
+      <trans-unit id="mlang_labels_tabdescr" xml:space="preserve" approved="yes">
+        <source>This is the file administration system in TYPO3. It allows you to access the file mounts of your login. Through this module you can upload, copy, move an delete files on the server.</source>
+      <target state="translated">Dies ist das Dateiverwaltungssystem von TYPO3. Es erlaubt den Zugriff auf die für Ihren Benutzer gültigen Verzeichnisfreigaben. Mit diesem Modul können Sie Dateien hochladen, sie auf dem Server kopieren, verschieben und löschen.</target></trans-unit>
+      <trans-unit id="mlang_tabs_tab" xml:space="preserve" approved="yes">
+        <source>Filelist</source>
+      <target state="translated">Dateiliste</target></trans-unit>
+      <trans-unit id="write" xml:space="preserve" approved="yes">
+        <source>W</source>
+      <target state="translated">S</target></trans-unit>
+      <trans-unit id="paramError" xml:space="preserve" approved="yes">
+        <source>Parameter Error:</source>
+      <target state="translated">Parameterfehler:</target></trans-unit>
+      <trans-unit id="targetNoDir" xml:space="preserve" approved="yes">
+        <source>Target was not a directory!</source>
+      <target state="translated">Ziel war kein Verzeichnis!</target></trans-unit>
+      <trans-unit id="localDriverFlexform_basePath" xml:space="preserve">
+        <source>Base path:</source>
+      </trans-unit>
+      <trans-unit id="localDriverFlexform_pathType" xml:space="preserve">
+        <source>Path type:</source>
+      </trans-unit>
+      <trans-unit id="localDriverFlexform_pathType_relative" xml:space="preserve">
+        <source>relative</source>
+      </trans-unit>
+      <trans-unit id="localDriverFlexform_pathType_absolute" xml:space="preserve">
+        <source>absolute</source>
+      </trans-unit>
+      <trans-unit id="storageNotBrowsableTitle" xml:space="preserve">
+        <source>Access denied.</source>
+      </trans-unit>
+      <trans-unit id="storageNotBrowsableMessage" xml:space="preserve">
+        <source>You are trying to access a folder in a storage that is not browsable.</source>
+      </trans-unit>
+      <trans-unit id="folderNotFoundTitle" xml:space="preserve">
+        <source>Folder access denied.</source>
+      </trans-unit>
+      <trans-unit id="folderNotFoundMessage" xml:space="preserve">
+        <source>The folder "%s" cannot be accessed.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

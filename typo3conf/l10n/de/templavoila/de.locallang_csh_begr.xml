@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="tx_templavoila_access.description">Wählen Sie die TemplaVoilà-Objekte aus, auf die kein Zugriff erlaubt werden soll. Beachten Sie, dass ein Verbot des Zugriffs auf DS (Datenstruktur) das Verbot des Zugriffs auf diesem DS zugeordnete TO (Vorlagenobjekte) impliziert.</label>
+      <label index="datastructure.description">Wählen Sie die Datenstruktur dieses Vorlagenobjekts aus</label>
+      <label index="fileref.description">Verweis auf eine Datei, die mit diesem Vorlagenobjekt abgebildet werden soll</label>
+      <label index="templatemapping.description"/>
+      <label index="previewicon.description">Wählen Sie das Vorschausymbol aus (optional)</label>
+      <label index="description.description">Beschreibung dieses Vorlagenobjekts</label>
+      <label index="rendertype.description">Wählen Sie den Darstellungstyp aus</label>
+      <label index="sys_language_uid.description"/>
+      <label index="parent.description">Wählen Sie die Stammvorlage aus</label>
+      <label index="localprocessing.description">XML zur lokalen Verarbeitung übersteuert Teile des Datenquellen-XML. Sollen Teile des DS XML übersteuert werden, hier eingeben.</label>
+      <label index="enableaccessctrl.description">Zugriffsberechtigungen für dieses Vorlagenobjekt. Wählen Sie das Markierungsfeld aus, um die Zugriffskontrolle zu aktivieren.</label>
+      <label index="access.description">Gruppen und Benutzer anzeigen. Wählen Sie Benutzer und/oder Gruppen aus, deren Zugriff auf dieses Vorlagenobjekt erteilt werden soll.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="cm1_title">TemplaVoilà</label>
+      <label index="cm1_viewsubelements">Ansicht: Unterelemente</label>
+      <label index="cm1_viewflexformxml">Ansicht: Flexform-XML</label>
+      <label index="cm_viewdsto">Ansicht: DS/TO</label>
+      <label index="cm1_pagesusingthiselement">Seiten, die dieses Element nutzen -&gt;</label>
+      <label index="wiz_refElements">Unbenutzte Inhaltselemente referenzieren (TemplaVoilà)</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

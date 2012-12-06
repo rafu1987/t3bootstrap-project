@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="Spell Checker" xml:space="preserve" approved="yes">
+        <source>Spell Checker</source>
+      <target state="translated">Rechtschreibprüfung</target></trans-unit>
+      <trans-unit id="CONFIRM_LINK_CLICK" xml:space="preserve" approved="yes">
+        <source>Please confirm that you want to open this link</source>
+      <target state="translated">Bitte bestätigen Sie, dass Sie diesem Link folgen möchten</target></trans-unit>
+      <trans-unit id="Cancel" xml:space="preserve" approved="yes">
+        <source>Cancel</source>
+      <target state="translated">Abbrechen</target></trans-unit>
+      <trans-unit id="Dictionary" xml:space="preserve" approved="yes">
+        <source>Dictionary</source>
+      <target state="translated">Wörterbuch</target></trans-unit>
+      <trans-unit id="Finished list of mispelled words" xml:space="preserve" approved="yes">
+        <source>Finished list of mispelled words</source>
+      <target state="translated">Fertige Liste der Fehler</target></trans-unit>
+      <trans-unit id="I will open it in a new page." xml:space="preserve" approved="yes">
+        <source>I will open it in a new page.</source>
+      <target state="translated">Wird in neuer Seite geöffnet.</target></trans-unit>
+      <trans-unit id="Ignore all" xml:space="preserve" approved="yes">
+        <source>Ignore all</source>
+      <target state="translated">Alle ignorieren</target></trans-unit>
+      <trans-unit id="Ignore" xml:space="preserve" approved="yes">
+        <source>Ignore</source>
+      <target state="translated">Ignorieren</target></trans-unit>
+      <trans-unit id="NO_ERRORS" xml:space="preserve" approved="yes">
+        <source>No mispelled words found with the selected dictionary.</source>
+      <target state="translated">Im ausgewählten Wörterbuch wurden keine Fehler gefunden.</target></trans-unit>
+      <trans-unit id="NO_ERRORS_CLOSING" xml:space="preserve" approved="yes">
+        <source>Spell check complete, didn't find any mispelled words.  Closing now...</source>
+      <target state="translated">Fehlersuche beendet, es wurden keine Fehler gefunden. Die Suche wird nun beendet...</target></trans-unit>
+      <trans-unit id="OK" xml:space="preserve" approved="yes">
+        <source>OK</source>
+      <target state="translated">OK</target></trans-unit>
+      <trans-unit id="Original word" xml:space="preserve" approved="yes">
+        <source>Original word</source>
+      <target state="translated">Ursprüngliches Wort</target></trans-unit>
+      <trans-unit id="Please wait. Calling spell checker." xml:space="preserve" approved="yes">
+        <source>Please wait. Calling spell checker.</source>
+      <target state="translated">Bitte warten. Die Rechtschreibprüfung wird aufgerufen.</target></trans-unit>
+      <trans-unit id="Please wait: changing dictionary to" xml:space="preserve" approved="yes">
+        <source>Please wait: changing dictionary to</source>
+      <target state="translated">Bitte warten: das Wörterbuch wird geändert nach</target></trans-unit>
+      <trans-unit id="HTMLArea Spell Checker" xml:space="preserve" approved="yes">
+        <source>HTMLArea Spell Checker</source>
+      <target state="translated">HTMLArea-Rechtschreibprüfung</target></trans-unit>
+      <trans-unit id="QUIT_CONFIRMATION" xml:space="preserve" approved="yes">
+        <source>This will drop changes and quit spell checker.  Please confirm.</source>
+      <target state="translated">Hierdurch werden die Änderungen verworfen und die Rechtschreibprüfung beendet. Bitte bestätigen.</target></trans-unit>
+      <trans-unit id="Re-check" xml:space="preserve" approved="yes">
+        <source>Re-check</source>
+      <target state="translated">Nochmals prüfen</target></trans-unit>
+      <trans-unit id="Replacement" xml:space="preserve" approved="yes">
+        <source>Replacement</source>
+      <target state="translated">Ersatz</target></trans-unit>
+      <trans-unit id="Replace all" xml:space="preserve" approved="yes">
+        <source>Replace all</source>
+      <target state="translated">Alle ersetzen</target></trans-unit>
+      <trans-unit id="Replace with" xml:space="preserve" approved="yes">
+        <source>Replace with</source>
+      <target state="translated">Ersetzen durch</target></trans-unit>
+      <trans-unit id="Replace" xml:space="preserve" approved="yes">
+        <source>Replace</source>
+      <target state="translated">Ersetzen</target></trans-unit>
+      <trans-unit id="Learn" xml:space="preserve" approved="yes">
+        <source>Add to dictionary</source>
+      <target state="translated">Zum Wörterbuch hinzufügen</target></trans-unit>
+      <trans-unit id="Revert" xml:space="preserve" approved="yes">
+        <source>Revert</source>
+      <target state="translated">Umkehren</target></trans-unit>
+      <trans-unit id="SC-spell-check" xml:space="preserve" approved="yes">
+        <source>Spell-check</source>
+      <target state="translated">Rechtschreibprüfung</target></trans-unit>
+      <trans-unit id="Suggestions" xml:space="preserve" approved="yes">
+        <source>Suggestions</source>
+      <target state="translated">Vorschläge</target></trans-unit>
+      <trans-unit id="One occurrence" xml:space="preserve" approved="yes">
+        <source>One occurrence</source>
+      <target state="translated">Einmal</target></trans-unit>
+      <trans-unit id="Two occurrences" xml:space="preserve" approved="yes">
+        <source>Two occurrences</source>
+      <target state="translated">Zweimal</target></trans-unit>
+      <trans-unit id="occurrences" xml:space="preserve" approved="yes">
+        <source>occurrences</source>
+      <target state="translated">Anzahl Vorkommen</target></trans-unit>
+      <trans-unit id="of the word" xml:space="preserve" approved="yes">
+        <source>of the word</source>
+      <target state="translated">des Wortes</target></trans-unit>
+      <trans-unit id="was found." xml:space="preserve" approved="yes">
+        <source>was found.</source>
+      <target state="translated">wurde gefunden.</target></trans-unit>
+      <trans-unit id="were found." xml:space="preserve" approved="yes">
+        <source>were found.</source>
+      <target state="translated">wurden gefunden.</target></trans-unit>
+      <trans-unit id="Info" xml:space="preserve" approved="yes">
+        <source>Info</source>
+      <target state="translated">Info</target></trans-unit>
+      <trans-unit id="Document information" xml:space="preserve" approved="yes">
+        <source>Document information</source>
+      <target state="translated">Dokumentinformation</target></trans-unit>
+      <trans-unit id="No information available" xml:space="preserve" approved="yes">
+        <source>No information available</source>
+      <target state="translated">Keine information verfügbar</target></trans-unit>
+      <trans-unit id="Total words" xml:space="preserve" approved="yes">
+        <source>Total words</source>
+      <target state="translated">Totale Anzahl Wörter</target></trans-unit>
+      <trans-unit id="Misspelled words" xml:space="preserve" approved="yes">
+        <source>Misspelled words</source>
+      <target state="translated">Fehlerhafte Wörter</target></trans-unit>
+      <trans-unit id="Total suggestions" xml:space="preserve" approved="yes">
+        <source>Total suggestions</source>
+      <target state="translated">Total Anzahl Vorschläge</target></trans-unit>
+      <trans-unit id="Total words suggested" xml:space="preserve" approved="yes">
+        <source>Total words suggested</source>
+      <target state="translated">Total Anzahl vorgeschlagener Wörter</target></trans-unit>
+      <trans-unit id="Spelling checked in" xml:space="preserve" approved="yes">
+        <source>Spelling checked in</source>
+      <target state="translated">Rechtschreibprüfung durchgeführt in</target></trans-unit>
+      <trans-unit id="seconds" xml:space="preserve" approved="yes">
+        <source>seconds</source>
+      <target state="translated">Sekunden</target></trans-unit>
+      <trans-unit id="pliz weit ;-)" xml:space="preserve" approved="yes">
+        <source>Please wait...</source>
+      <target state="translated">Bitte warten...</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="about">Über</label>
+      <label index="and">und</label>
+      <label index="ascending">Aufsteigend</label>
+      <label index="back">Zurück</label>
+      <label index="byteSizeUnits">B| KB| MB| GB</label>
+      <label index="cancel">Abbruch</label>
+      <label index="category">Kategorie</label>
+      <label index="close">Schließen</label>
+      <label index="delete">Löschen</label>
+      <label index="descending">Absteigend</label>
+      <label index="details">Details</label>
+      <label index="disable">Deaktivieren</label>
+      <label index="disabled">Deaktiviert</label>
+      <label index="down">Nach unten</label>
+      <label index="download">Herunterladen</label>
+      <label index="edit">Bearbeiten</label>
+      <label index="editField">Feld bearbeiten</label>
+      <label index="editFile">Datei bearbeiten</label>
+      <label index="enable">Aktivieren</label>
+      <label index="enabled">Aktiviert</label>
+      <label index="file">Datei</label>
+      <label index="files">Dateien</label>
+      <label index="folder"/>
+      <label index="first">Erste</label>
+      <label index="from">Von</label>
+      <label index="go">Gehen</label>
+      <label index="goTo">Gehe zu</label>
+      <label index="help">Hilfe</label>
+      <label index="item">Element</label>
+      <label index="items">Elemente</label>
+      <label index="last">Letzte</label>
+      <label index="left">Links</label>
+      <label index="login">Anmelden</label>
+      <label index="logout">Abmelden</label>
+      <label index="more">Mehr</label>
+      <label index="move">Verschieben</label>
+      <label index="new">Neu</label>
+      <label index="next">Nächste</label>
+      <label index="no">Nein</label>
+      <label index="ok">OK</label>
+      <label index="open">Öffnen</label>
+      <label index="page">Seite</label>
+      <label index="pages">Seiten</label>
+      <label index="previous">Vorherige</label>
+      <label index="print">Drucken</label>
+      <label index="reload">Neu laden</label>
+      <label index="right">Rechts</label>
+      <label index="save">Speichern</label>
+      <label index="saveAndClose">Speichern und schließen</label>
+      <label index="saveAndCloseDoc">Dokument speichern und schließen</label>
+      <label index="saveAndCreateNewDoc">Dokument speichern und neues erstellen</label>
+      <label index="saveAndViewPage">Speichern und Web-Seite anzeigen</label>
+      <label index="search">Suchen</label>
+      <label index="send">Senden</label>
+      <label index="start">Start</label>
+      <label index="stop">Stopp</label>
+      <label index="submit">Abschicken</label>
+      <label index="to">Bis</label>
+      <label index="tsRef">TSref-Referenz</label>
+      <label index="up">Nach oben</label>
+      <label index="upload">Hochladen</label>
+      <label index="user">Benutzer</label>
+      <label index="users">Benutzer</label>
+      <label index="view">Anzeigen</label>
+      <label index="yes">Ja</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

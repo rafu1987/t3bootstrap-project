@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="introtext" xml:space="preserve" approved="yes">
+        <source>Web Content Management System</source>
+      <target state="translated">Content-Management-System</target></trans-unit>
+      <trans-unit id="introtext2" xml:space="preserve" approved="yes">
+        <source>This is a brief description of the available modules:</source>
+      <target state="translated">Dies ist eine kurze Beschreibung der vorhandenen Module:</target></trans-unit>
+      <trans-unit id="endText" xml:space="preserve" approved="yes">
+        <source>Features may vary depending on your website and permissions</source>
+      <target state="translated">Die verfügbaren Funktionen können abhängig von der Website und Ihren Zugriffsrechten variieren.</target></trans-unit>
+      <trans-unit id="userInfo" xml:space="preserve" approved="yes">
+        <source>You're logged in as user:</source>
+      <target state="translated">Sie sind angemeldet als:</target></trans-unit>
+    </body>
+  </file>
+</xliff>

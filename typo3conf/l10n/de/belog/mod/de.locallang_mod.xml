@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Protokollansicht</label>
+      <label index="mlang_labels_tabdescr">Gibt Zugriff auf die komplette TYPO3-Änderungsprotokollierung.&lt;br /&gt;&lt;em&gt;Zugriff nur für Administratoren!&lt;/em&gt;</label>
+      <label index="mlang_tabs_tab">Protokoll</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

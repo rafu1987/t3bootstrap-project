@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Indexed search statistics</source>
+      <target state="translated">Statistik Indexsuche</target></trans-unit>
+      <trans-unit id="title2" xml:space="preserve" approved="yes">
+        <source>List of most searched words</source>
+      <target state="translated">Liste der meistgesuchten Wörter</target></trans-unit>
+      <trans-unit id="noresults" xml:space="preserve" approved="yes">
+        <source>No results</source>
+      <target state="translated">Kein Ergebnis</target></trans-unit>
+      <trans-unit id="all" xml:space="preserve" approved="yes">
+        <source>All</source>
+      <target state="translated">Alle</target></trans-unit>
+      <trans-unit id="last30days" xml:space="preserve" approved="yes">
+        <source>Last 30 days</source>
+      <target state="translated">Letzte 30 Tage</target></trans-unit>
+      <trans-unit id="last24hours" xml:space="preserve" approved="yes">
+        <source>Last 24 hours</source>
+      <target state="translated">Letzte 24 Stunden</target></trans-unit>
+      <trans-unit id="justthispage" xml:space="preserve" approved="yes">
+        <source>Statistics for this page only</source>
+      <target state="translated">Statistik für diese Seite</target></trans-unit>
+      <trans-unit id="allpages" xml:space="preserve" approved="yes">
+        <source>Statistics for all pages. Select a page with indexed search form to see several statistics</source>
+      <target state="translated">Statistik für alle Seiten. Einzelstatistiken sind auf Seiten mit Suchformularen der Indexsuche verfügbar</target></trans-unit>
+    </body>
+  </file>
+</xliff>

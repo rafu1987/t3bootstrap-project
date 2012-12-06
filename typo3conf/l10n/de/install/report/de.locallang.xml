@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="status_fileSystem">Dateisystem</label>
+      <label index="status_writable">Beschreibbar</label>
+      <label index="status_missingDirectory">Benötigtes Verzeichnis fehlt</label>
+      <label index="status_nonExistingDirectory">Verzeichnis fehlt</label>
+      <label index="status_recommendedWritableDirectory">Verzeichnis sollte beschreibbar sein</label>
+      <label index="status_requiredWritableDirectory">Verzeichnis nicht beschreibbar</label>
+      <label index="status_directoryDoesNotExist">%s existiert nicht.</label>
+      <label index="status_directoryDoesNotExistCouldNotCreate">%s existiert nicht und konnte nicht erstellt werden.</label>
+      <label index="status_directoryShouldAlsoBeWritable">Beachten Sie auch, dass das Verzeichnis beschreibbar sein sollte, wenn es existieren würde.</label>
+      <label index="status_directoryShouldBeWritable">%s sollte beschreibbar sein.</label>
+      <label index="status_directoryMustBeWritable">%s muss beschreibbar sein.</label>
+      <label index="status_remainingUpdates">Verbleibende Aktualisierungen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

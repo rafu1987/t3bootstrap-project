@@ -1,0 +1,157 @@
+
+plugin.cljqueryfancybox {
+
+	# cat=plugin.cl_jqueryfancybox; type=boolean; label=Include jQuery core: Incluse jQuery core script
+	includejquerycore = 
+
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=Padding: Space inside fancyBox around content
+	padding = 15
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=Margin: Minimum space between viewport and fancyBox. Can be set as array - [top, right, bottom, left]. Right and bottom margins are ignored if content dimensions exceeds viewport
+	margin = 20
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=width: Default width for 'iframe' and 'swf' content. Also for 'inline', 'ajax' and 'html' if 'autoSize' is set to 'false'
+	width = 800
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=height:Default height for 'iframe' and 'swf' content. Also for 'inline', 'ajax' and 'html' if 'autoSize' is set to 'false'
+	height = 600
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=minWidth:Minimum width fancyBox should be allowed to resize to
+	minWidth = 100
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=minHeight:Minimum height fancyBox should be allowed to resize to
+	minHeight = 100
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=maxWidth:Maximum width fancyBox should be allowed to resize to
+	maxWidth = 9999
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=maxHeight:Maximum height fancyBox should be allowed to resize to
+	maxHeight = 9999
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=autoSize:If set to true, for 'inline', 'ajax' and 'html' type content width/height is auto determined. If no dimensions set this may give unexpected results
+	autoSize =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=fitToView:If set to true, fancyBox is resized to fit inside viewport
+	fitToView =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=aspectRatio:If set to true, resizing is constrained by the original aspect ratio (images always keep ratio)
+	aspectRatio =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=topRatio:Top space ratio for vertical centering. If set to 0.5 than vertical and bottom spece will be equal. If 0 - fancyBox will be at the viewport top
+	topRatio =0.5
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=fixed:If set to true, fancyBox position will be changed to 'fixed' if it fits inside viewport
+	fixed =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[auto, yes, no]; label=scrolling:Set the overflow CSS property to create or hide scrollbars. Can be set to 'auto', 'yes' or 'no'
+	scrolling = auto
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=wrapCSS:Customizable CSS class for wrapping element (great for custom styling)
+	wrapCSS =
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=arrows:If set to true, navigation arrows will be displayed
+	arrows =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=closeBtn:If set to true, close button will be displayed
+	closeBtn =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=closeClick:If set to true, fancyBox will be closed when user clicks the content
+	closeClick =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=nextClick:If set to true, will navigate to next gallery item when user clicks the content
+	nextClick =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=mouseWheel:If set to true, you will be able to navigate gallery using the mouse wheel
+	mouseWheel =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=loop:If set to true, enables cyclic navigation. This means, if you click "next" after you reach the last element, first element will be displayed (and vice versa).
+	loop =true
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=ajax:Options for ajax request
+	#ajax = 
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=keys:Define keyboard keys for gallery navigation and closing
+	#keys =
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=modal:If set to true, will disable navigation and closing
+	modal =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=autoPlay:If set to true, slideshow will start after opening the first gallery item
+	autoPlay =false
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=playSpeed:Slideshow speed in milliseconds
+	playSpeed =3000
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=index:Overrides group start index
+	index =0
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=type:Overrides type for content. Supported types are 'image', 'inline', 'ajax', 'iframe', 'swf' and 'html'
+	type = null
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=href:Overrides content source link
+	href =null
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=content:Overrides content to be displayed
+	content =null
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=tpl:Object containing various templates
+	#tpl = 
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[elastic,fade,none]; label=openEffect:Animation effect ('elastic', 'fade' or 'none') for each transition type
+	openEffect=fade
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[elastic,fade,none]; label=closeEffect:Animation effect ('elastic', 'fade' or 'none') for each transition type
+	closeEffect=fade
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[elastic,fade,none]; label=nextEffect:Animation effect ('elastic', 'fade' or 'none') for each transition type
+	nextEffect=fade
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[elastic,fade,none]; label=prevEffect:Animation effect ('elastic', 'fade' or 'none') for each transition type
+	prevEffect=fade
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=openSpeed:The time it takes (in ms, or "slow", "normal", "fast") to complete transition
+	openSpeed=300
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=closeSpeed:The time it takes (in ms, or "slow", "normal", "fast") to complete transition
+	closeSpeed=300
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=nextSpeed:The time it takes (in ms, or "slow", "normal", "fast") to complete transition
+	nextSpeed=300
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=prevSpeed:The time it takes (in ms, or "slow", "normal", "fast") to complete transition
+	prevSpeed=300
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=openEasing:Easing method for each transition type. You have numerous choices if easing plugin is included
+	openEasing=swing
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=closeEasing:Easing method for each transition type. You have numerous choices if easing plugin is included
+	closeEasing=swing
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=nextEasing:Easing method for each transition type. You have numerous choices if easing plugin is included
+	nextEasing=swing
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=prevEasing:Easing method for each transition type. You have numerous choices if easing plugin is included
+	prevEasing=swing
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=openOpacity:If set to true, transparency is changed for elastic transitions
+	openOpacity=true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=closeOpacity:If set to true, transparency is changed for elastic transitions
+	closeOpacity=true
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=openMethod:Method from $.fancybox.transitions() that handles transition (you can add custom effects there)
+	openMethod=zoomIn
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=closeMethod:Method from $.fancybox.transitions() that handles transition (you can add custom effects there)
+	closeMethod=zoomOut
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=nextMethod:Method from $.fancybox.transitions() that handles transition (you can add custom effects there)
+	nextMethod=changeIn
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=prevMethod:Method from $.fancybox.transitions() that handles transition (you can add custom effects there)
+	prevMethod=changeOut
+	
+
+}
+
+styles.content.imgtext.linkWrap.lightboxEnabled = 1

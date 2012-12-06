@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="hidden.description">Mit dieser Option können Sie die Benutzergruppe deaktivieren.</label>
+      <label index="hidden.details">Wenn Sie eine Benutzergruppe deaktivieren, wird die Vererbung der Eigenschaften dieser Gruppe an ihre Mitglieder unterbunden! Wenn beispielsweise eine Seite oder ein Inhaltselement so konfiguriert wurde, dass darauf nur diese Gruppe Zugriff hat, kann bei Deaktivierung dieser Gruppe niemand mehr darauf zugreifen.</label>
+      <label index="_hidden.seeAlso">fe_users:disable</label>
+      <label index="title.description">Name der Gruppe.</label>
+      <label index="title.details">Dieser Name erscheint in den Auswahlfeldern aller Elemente, für die eine Zugriffsbeschränkung definiert werden kann.</label>
+      <label index="lockToDomain.description">Geben Sie hier den Namen der Domäne an, für welche diese Benutzergruppe gelten soll.</label>
+      <label index="lockToDomain.details">Diese Option kann wichtig für Sie sein, wenn Sie mehrere Websites in der gleichen TYPO3-Datenbank speichern, aber nur einen Speicherort für &lt;em&gt;alle&lt;/em&gt; Website-Benutzer verwenden möchten. Dadurch können sich die Website-Benutzer an allen Websites anmelden. Dieses Verhalten kann man entweder als Feature (eine globale Anmeldung für alle Websites) oder als Problem betrachten - im letzteren Fall sollten Sie sowieso pro Website einen eigenen Speicherort für die Website-Benutzer definieren. Trotzdem könnte es Ihr Wunsch sein, einer globalen Website-Benutzergruppe lediglich den Zugriff auf eine bestimmte Website zu gestatten. Dies können Sie erreichen, indem Sie hier einen Domänennamen oder eine IP-Adresse eintragen. &lt;b&gt;Hinweis:&lt;/b&gt; Diese Option ist wirkungslos, wenn Sie mehrere Speicherorte für Website-Benutzer definiert haben (also etwa für jede Website einen Benutzerordner).</label>
+      <label index="_lockToDomain.seeAlso">fe_users:lockToDomain</label>
+      <label index="subgroup.description">Mitglieder anderer Gruppen</label>
+      <label index="subgroup.details">Liste anderer Gruppen, bei denen diese Gruppe Mitglied ist</label>
+      <label index="description.description">Geben Sie eine Beschreibung für die Gruppe an.</label>
+      <label index="description.details">Diese Beschreibung wird lediglich intern verwendet und bietet Ihnen die Möglichkeit zu notieren, warum diese Gruppe erstellt wurde, wozu die Gruppe dient, wer Mitglied sein sollte etc. Verwenden Sie dieses Feld einfach Ihren Vorstellungen entsprechend.</label>
+      <label index="TSconfig.description">TSconfig für die Gruppe (fortgeschrittene Konfiguration).</label>
+      <label index="TSconfig.details">Diese Werte werden an jedes Mitglied der Gruppe vererbt. Die Werte werden unter Umständen von TSconfig-Konfiguration andere Gruppen überschrieben.</label>
+      <label index="TSconfig.syntax">TypoScript-Syntax ohne Bedingungen und Konstanten.</label>
+      <label index="_TSconfig.seeAlso">fe_users:TSconfig</label>
+      <label index=".description">Definiert Benutzergruppen für Website-Benutzer.</label>
+      <label index=".details">Bei TYPO3 werden Website-Zugriffsbeschränkungen über Gruppenmitgliedschaften geregelt. Wenn eine Seite oder andere Inhaltselemente nur bestimmten Benutzern zugänglich sein soll, überprüft TYPO3, ob der angemeldete Benutzer Mitglied einer zugangsberechtigten Gruppe ist.</label>
+      <label index="_.seeAlso">fe_users, Über zugriffsbeschränkte Seiten | http://typo3.org/documentation/document-library/doc_tut_quickstart/Create_restricted_pa/</label>
+      <label index="_.image">EXT:context_help/cshimages/fegroups_3.png, EXT:context_help/cshimages/fegroups_4.png</label>
+      <label index=".image_descr">Ein Teil der Eingabemaske für Frontend-Benutzergruppen. Seiten, Inhaltselemente und andere Datensätze, die auf der Website angezeigt werden sollen, besitzen oftmals ein Auswahlfeld, über die man Zugriffsbeschränkungen für diese Elemente regeln kann.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

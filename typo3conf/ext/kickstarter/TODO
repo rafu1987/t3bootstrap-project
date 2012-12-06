@@ -1,0 +1,5 @@
+* remove pi1/static/editorcfg.txt generation
+* add names for plugins instead of pi#
+* don't show files which won't get generated (after deselecting in the show results view)
+* more single quotes
+* folders in static folder: if name is something like "abc / xyz", the folder is named "abc___xyz", reduce to one _ 

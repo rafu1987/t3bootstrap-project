@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="labels.username">Benutzername</label>
+      <label index="labels.openId">OpenID</label>
+      <label index="labels.password">Passwort</label>
+      <label index="labels.interface">Oberfläche</label>
+      <label index="labels.submitLogin">Anmelden</label>
+      <label index="labels.submitLogout">Abmelden</label>
+      <label index="labels.donate">Spenden</label>
+      <label index="labels.whatIsOpenId">Was ist OpenID?</label>
+      <label index="labels.switchToOpenId">Zum OpenID-Login</label>
+      <label index="labels.switchToDefault">Zum Standard-Login</label>
+      <label index="availableInterfaces">Backend,Frontend,Traditionelles Backend</label>
+      <label index="interface.backend">Backend</label>
+      <label index="interface.frontend">Frontend</label>
+      <label index="interface.backend_old">Traditionelles Backend</label>
+      <label index="headline">Anmeldung am Backend von ###SITENAME###</label>
+      <label index="info.about">Dies ist die Anmeldung am TYPO3-Backend. Um auf die Verwaltungsoberfläche zugreifen zu können, benötigen Sie einen Benutzernamen und ein Passwort. Falls Sie ein Besucher von ###SITENAME### sind, besuchen Sie bitte den öffentlichen Bereich: ###SITELINK###</label>
+      <label index="info.reset">Formular zurücksetzen</label>
+      <label index="info.cookies_and_js">(Hinweis: Cookies und JavaScript müssen aktiviert sein!)</label>
+      <label index="clear">Dieses Feld leeren!</label>
+      <label index="login_process">Anmeldedaten werden verifiziert...</label>
+      <label index="warning.incompatibleBrowserHeadline">Nicht unterstützter Browser</label>
+      <label index="warning.incompatibleBrowser">Sie verwenden eine nicht unterstützte Browser-Version.</label>
+      <label index="warning.incompatibleBrowserInternetExplorer">Bitte installieren Sie &lt;a href="http://www.microsoft.com/internetexplorer/" target="_blank" /&gt;eine aktuellere Browser-Version&lt;/a&gt;.</label>
+      <label index="newsheadline">Wichtige Meldungen:</label>
+      <label index="error.login">Der Anmeldeversuch ist fehlgeschlagen. Achten Sie darauf, Benutzernamen und Passwort korrekt einzugeben, einschließlich Groß-/Kleinschreibung.</label>
+      <label index="error.login.title">Ihr Anmeldeversuch war nicht erfolgreich</label>
+      <label index="error.login.description">Bitte stellen Sie sicher, dass Ihr Benutzername und Passwort korrekt sind. Groß-/Kleinschreibung wird unterschieden.</label>
+      <label index="error.javascript">Bitte aktivieren Sie JavaScript!</label>
+      <label index="error.cookies">Bitte aktivieren Sie Cookies!</label>
+      <label index="error.cookies_ignore">Ignorieren!</label>
+      <label index="error.capslock">Achtung: Feststelltaste aktiviert!</label>
+      <label index="error.furtherInformation">Weitere Informationen und Hilfe erhalten Sie hier</label>
+      <label index="warranty.by">Gewährleistung wird geboten von %s; %sDetails sind hier verfügbar.%s</label>
+      <label index="no.warranty">Sie nutzen TYPO3 OHNE GEWÄHRLEISTUNG; %sDetails sind hier verfügbar.%s</label>
+      <label index="typo3.logo">TYPO3-Logo</label>
+      <label index="typo3.cms">TYPO3 CMS</label>
+      <label index="version.short">Ver.</label>
+      <label index="copyright">Copyright</label>
+      <label index="extension.copyright">Erweiterungen sind Eigentum ihrer jeweiligen Autoren.</label>
+      <label index="details.link">Weitere Informationen erhalten Sie unter %s.</label>
+      <label index="free.software">Dies ist freie Software und Sie dürfen sie unter gewissen Voraussetzungen verbreiten; %sDetails sind hier verfügbar.%s</label>
+      <label index="keep.notice">Das Erscheinen dieses Hinweises zu verhindern, ist gesetzlich verboten.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

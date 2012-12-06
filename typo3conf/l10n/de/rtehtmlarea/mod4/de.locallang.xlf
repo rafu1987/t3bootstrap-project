@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="folderTree" xml:space="preserve" approved="yes">
+        <source>Folder tree</source>
+      <target state="translated">Verzeichnisbaum</target></trans-unit>
+      <trans-unit id="uploadImage" xml:space="preserve" approved="yes">
+        <source>Upload Image</source>
+      <target state="translated">Bild hochladen</target></trans-unit>
+      <trans-unit id="path" xml:space="preserve" approved="yes">
+        <source>Path</source>
+      <target state="translated">Pfad</target></trans-unit>
+      <trans-unit id="images" xml:space="preserve" approved="yes">
+        <source>Images</source>
+      <target state="translated">Bilder</target></trans-unit>
+      <trans-unit id="magicImage_msg" xml:space="preserve" approved="yes">
+        <source>In "Magic" mode you can select any kind of image with any dimensions. The image is automatically converted to a web image format and any adjustments you make to the size of the image is post processed in order to optimize size and quality.</source>
+      <target state="translated">Im "Zauber"-Modus kann eine (in Grenzen) beliebige Grafik mit beliebiger Größe ausgewählt werden. Die Grafik wird automatisch in ein Web-Grafikformat umgewandelt. Größenänderungen werden nachträglich vorgenommen, um die Grafikgröße und die Anzeigequalität zu optimieren.</target></trans-unit>
+      <trans-unit id="plainImage_msg" xml:space="preserve" approved="yes">
+        <source>In "Plain" mode you can insert only web image formats (jpg,jpeg,gif,png) up to %1$sx%2$s pixels. This method is designed for images which are optimized for web already.</source>
+      <target state="translated">Im "Normal"-Modus können nur Web-Grafikformate (JPG, GIF und PNG) bis zu einer Auflösung von %1$sx%2$s Pixeln verwendet werden. Dieser Modus ist zur Verwendung bereits für das Web optimierter Grafiken vorgesehen.</target></trans-unit>
+      <trans-unit id="class" xml:space="preserve" approved="yes">
+        <source>Style</source>
+      <target state="translated">Stil</target></trans-unit>
+      <trans-unit id="width" xml:space="preserve" approved="yes">
+        <source>Width</source>
+      <target state="translated">Breite</target></trans-unit>
+      <trans-unit id="height" xml:space="preserve" approved="yes">
+        <source>Height</source>
+      <target state="translated">Höhe</target></trans-unit>
+      <trans-unit id="border" xml:space="preserve" approved="yes">
+        <source>Border</source>
+      <target state="translated">Rand</target></trans-unit>
+      <trans-unit id="margin_tb" xml:space="preserve" approved="yes">
+        <source>Margin top/bottom</source>
+      <target state="translated">Seitenrand oben/unten</target></trans-unit>
+      <trans-unit id="margin_lr" xml:space="preserve" approved="yes">
+        <source>Margin left/right</source>
+      <target state="translated">Seitenrand links/rechts</target></trans-unit>
+      <trans-unit id="padding_top" xml:space="preserve" approved="yes">
+        <source>Top padding</source>
+      <target state="translated">Oberer innerer Abstand</target></trans-unit>
+      <trans-unit id="padding_right" xml:space="preserve" approved="yes">
+        <source>Right padding</source>
+      <target state="translated">Rechter innerer Abstand</target></trans-unit>
+      <trans-unit id="padding_bottom" xml:space="preserve" approved="yes">
+        <source>Bottom padding</source>
+      <target state="translated">Unterer innerer Abstand</target></trans-unit>
+      <trans-unit id="padding_left" xml:space="preserve" approved="yes">
+        <source>Left padding</source>
+      <target state="translated">Linker innerer Abstand</target></trans-unit>
+      <trans-unit id="float" xml:space="preserve" approved="yes">
+        <source>Float</source>
+      <target state="translated">Umfließen</target></trans-unit>
+      <trans-unit id="notSet" xml:space="preserve" approved="yes">
+        <source>Not set</source>
+      <target state="translated">Nicht gesetzt</target></trans-unit>
+      <trans-unit id="nonFloating" xml:space="preserve" approved="yes">
+        <source>Non-floating</source>
+      <target state="translated">Nicht umfließen</target></trans-unit>
+      <trans-unit id="left" xml:space="preserve" approved="yes">
+        <source>Left</source>
+      <target state="translated">Links</target></trans-unit>
+      <trans-unit id="right" xml:space="preserve" approved="yes">
+        <source>Right</source>
+      <target state="translated">Rechts</target></trans-unit>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titel</target></trans-unit>
+      <trans-unit id="alt" xml:space="preserve" approved="yes">
+        <source>Alternate text</source>
+      <target state="translated">Alternativtext</target></trans-unit>
+      <trans-unit id="update" xml:space="preserve" approved="yes">
+        <source>Update</source>
+      <target state="translated">Aktualisieren</target></trans-unit>
+      <trans-unit id="magicImage" xml:space="preserve" approved="yes">
+        <source>New Magic Image</source>
+      <target state="translated">Neues Zauberbild</target></trans-unit>
+      <trans-unit id="plainImage" xml:space="preserve" approved="yes">
+        <source>New Plain Image</source>
+      <target state="translated">Neues normales Bild</target></trans-unit>
+      <trans-unit id="dragDropImage" xml:space="preserve" approved="yes">
+        <source>Drag and Drop</source>
+      <target state="translated">Drag and Drop</target></trans-unit>
+      <trans-unit id="currentImage" xml:space="preserve" approved="yes">
+        <source>Current Image</source>
+      <target state="translated">Aktuelles Bild</target></trans-unit>
+      <trans-unit id="bytes" xml:space="preserve" approved="yes">
+        <source>bytes</source>
+      <target state="translated">Byte</target></trans-unit>
+      <trans-unit id="pixels" xml:space="preserve" approved="yes">
+        <source>pixels</source>
+      <target state="translated">Pixel</target></trans-unit>
+    </body>
+  </file>
+</xliff>

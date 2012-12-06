@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="wizard_crpages" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="tx_wizardcrpages.alttitle" xml:space="preserve" approved="yes">
+        <source>Create Pages wizard</source>
+      <target state="translated">Seitenerstellungsassistent</target></trans-unit>
+      <trans-unit id="tx_wizardcrpages.description" xml:space="preserve" approved="yes">
+        <source>Enables you to create a batch of new, empty pages for quickly building up a new page tree.
+Just enter the titles for the pages you need. Only filled in fields will be created as pages.</source>
+      <target state="translated">Ermöglicht Ihnen, mehrere leere Seiten auf einen Schlag zu erstellen. Geben Sie einfach die jeweilige Seitenüberschrift in die Felder ein. Dabei ergeben natürlich nur ausgefüllte Felder anschließend auch neue Seiten.</target></trans-unit>
+      <trans-unit id="tx_wizardcrpages.details" xml:space="preserve" approved="yes">
+        <source>The new pages will always be created as subpages to the currently active page from the page tree. This page is shown in the top of the page. In the example image below it is "/Intro/Startpage/".
+
+&lt;b&gt;"Place new pages after the existing subpages"&lt;/b&gt;
+If you select this option the pages will be create &lt;em&gt;after&lt;/em&gt; any existing subpages.
+
+&lt;b&gt;"Hide new pages"&lt;/b&gt;
+Select this if the new pages should be hidden by default. This option may be forced upon you if you do not have credentials to create new, online pages.
+
+
+&lt;b&gt;Lorem Ipsum...&lt;/b&gt;
+The Create new page wizard supports the Lorem Ipsum extension providing dummy content for the fields.</source>
+      <target state="translated">Die neuen Seiten erscheinen immer als Unterseiten der derzeit &lt;em&gt;aktiven&lt;/em&gt; Seite. Die aktive Seite wird dabei am Anfang der Seite angezeigt (in der Abbildung ist die aktive Seite also "/Intro/Startpage/"). &lt;b&gt;Neue Seiten nach existierenden Unterseiten anlegen&lt;/b&gt; Mit dieser Option werden neue Seiten &lt;em&gt;nach&lt;/em&gt; bereits existierenden Unterseiten angelegt. &lt;b&gt;Neue Seiten verbergen&lt;/b&gt; Wählen Sie diese Option, wenn die durch den Assistenten neu erstellte Seiten verborgen werden sollen. Es kann sein, dass diese Option automatisch gesetzt wird, nämlich dann, wenn Sie nicht das Recht haben, neue Online-Seiten zu erstellen. &lt;b&gt;Lorem Ipsum...&lt;/b&gt; Der Seitenerstellungsassistent unterstützt die Erweiterung "Lorem Ipsum", welche automatisch Blindtext in die entsprechenden Felder einträgt.</target></trans-unit>
+      <trans-unit id="_tx_wizardcrpages.seeAlso" xml:space="preserve" approved="yes">
+        <source>xEXT_loremipsum</source>
+        <target state="translated">xEXT_loremipsum</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="_tx_wizardcrpages.image" xml:space="preserve" approved="yes">
+        <source>EXT:wizard_crpages/cshimages/wizards_1.png,
+EXT:wizard_crpages/cshimages/wizards_2.png</source>
+        <target state="translated">EXT:wizard_crpages/cshimages/wizards_1.png, EXT:wizard_crpages/cshimages/wizards_2.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="tx_wizardcrpages.image_descr" xml:space="preserve" approved="yes">
+        <source>You simply enter the new page titles in the fields. Only fields you fill in will be created as pages.
+After pressing the "Create pages" button the page tree to the left will update instantly, showing you the position of the new pages!</source>
+      <target state="translated">Geben Sie einfach Seitenüberschriften für die Seiten ein, die Sie erstellen möchten. Nur ausgefüllte Felder ergeben neue Seiten. Nachdem Sie "Seiten anlegen" gedrückt haben, wird der Seitenbaum automatisch neu aufgebaut und Sie sehen sofort die Position Ihrer neuen Seiten.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

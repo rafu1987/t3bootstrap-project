@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="LeftToRight-Tooltip" xml:space="preserve" approved="yes">
+        <source>Direction left to right</source>
+      <target state="translated">Richtung links nach rechts</target></trans-unit>
+      <trans-unit id="RightToLeft-Tooltip" xml:space="preserve" approved="yes">
+        <source>Direction right to left</source>
+      <target state="translated">Richtung rechts nach links</target></trans-unit>
+      <trans-unit id="Language-Tooltip" xml:space="preserve" approved="yes">
+        <source>Language</source>
+      <target state="translated">Sprache</target></trans-unit>
+      <trans-unit id="ShowLanguageMarks-Tooltip" xml:space="preserve" approved="yes">
+        <source>Show language marks</source>
+      <target state="translated">Sprachmarkierungen anzeigen</target></trans-unit>
+      <trans-unit id="Technische Universitat Ilmenau" xml:space="preserve" approved="yes">
+        <source>Technische Universität Ilmenau</source>
+      <target state="translated">Technische Universität Ilmenau</target></trans-unit>
+    </body>
+  </file>
+</xliff>

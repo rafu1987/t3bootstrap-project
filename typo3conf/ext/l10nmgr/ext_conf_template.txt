@@ -1,0 +1,68 @@
+# Revision: $Id: ext_conf_template.txt 30653 2009-01-23 15:11:31Z d.zielinski $
+
+# Enable settings
+#
+# cat=basic/enable/10; type=boolean[1]; label=Enable hidden languages: Decide whether to make available hidden system languages for export/import.
+enable_hidden_languages = 0
+
+# cat=basic/enable/20; type=boolean[1]; label=Enable email notifications: Send email upon completion of export/import via CLI.
+enable_notification = 0
+
+# cat=basic/enable/30; type=boolean[1]; label=Enable FTP upload: Use this for uploading exports to translation agencies' FTP server. Provide login credentials below.
+enable_ftp = 0
+
+# cat=basic/enable/40; type=boolean[1]; label=Display status icons: Enable hook for displaying small icon in page tree, web>List and page module.
+enable_stat_hook = 0
+
+# cat=basic/enable/50; type=boolean[1]; label=Enable neverHideAtCopy: If translations should be visible in the FE after the import you have to enable this.
+enable_neverHideAtCopy = 1
+
+# cat=basic/enable/60; type=string; label=Disallow doktypes: If pages of certain doktypes should not be translated/exported you can define the doktypes here. Available doktypes are 1 (Standard), 2 (Advanced), 3 (External URL), 4 (Shortcut), 5 (Not in menu), 5 (Backend User Section), 7 (Mount Page), 199 (Spacer), 254 (Sys Folder), 255 (Recycler), ---div--- (------)
+disallowDoktypes = 255, ---div---
+
+# Load L10N manager configration
+#
+# cat=basic/l10nmgr/10; type=string; label=L10N Manager configurations: The uids of L10N Manager configurations (CSV).
+l10nmgr_cfg =
+
+# cat=basic/l10nmgr/20; type=string; label=L10N Manager target languages: The uids of target languages for the export (CSV).
+l10nmgr_tlangs =
+
+# Define email notification
+#
+# cat=basic/email/10; type=string; label=Email address: The email address of the recipient when new files are available for translation (export).
+email_recipient =
+# cat=basic/email/10; type=string; label=Email address: The email address of the recipient when new translations have been imported.
+email_recipient_import =
+# cat=basic/email/20; type=string; label=Email address: The email address of the sender (for all mails).
+email_sender =
+# cat=basic/email/30; type=string; label=Name: The name of the sender.
+email_sender_name =
+# cat=basic/email/40; type=string; label=Organisation: The name of the sender's organisation.
+email_sender_organisation =
+# cat=basic/email/50; type=boolean[1]; label=Attachment: Attach exported files to notification email.
+email_attachment = 0
+
+# Define FTP server details
+#
+# cat=basic/ftp/10; type=string; label=FTP server address: The FTP server address where l10nmgr exports should be saved.
+ftp_server =
+# cat=basic/ftp/20; type=string; label=FTP server upload path: Path on FTP server where to upload exports.
+ftp_server_path =
+# cat=basic/ftp/30; type=string; label=FTP server download path: Path on FTP server from which to download translations.
+ftp_server_downpath =
+# cat=basic/ftp/40; type=string; label=FTP server login: The FTP server's username.
+ftp_server_username =
+# cat=basic/ftp/50; type=string; label=FTP server password: The FTP server's password.
+ftp_server_password =
+
+# Import service
+#
+# cat=basic/service/10; type=string; label=Parallel import jobs: Maximum number of parallel import jobs (processes) (Default 2).
+service_children = 3
+# cat=basic/service/20; type=string; label=User name for CLI authentication
+service_user =
+# cat=basic/service/30; type=string; label=Password for CLI authentication
+service_pwd =
+# cat=basic/service/40; type=string; label=Encryption key for CLI authentication
+service_enc =

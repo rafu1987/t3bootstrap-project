@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:55:14 UTC 2011" product-name="templavoila">
+    <header/>
+    <body>
+      <trans-unit id="title" approved="yes">
+        <source>TemplaVoilà</source>
+        <target state="translated">TemplaVoilà</target>
+      </trans-unit>
+      <trans-unit id="templateFile" approved="yes">
+        <source>Template File</source>
+        <target state="translated">Vorlagendatei</target>
+      </trans-unit>
+      <trans-unit id="templateObject" approved="yes">
+        <source>Template Object</source>
+        <target state="translated">Vorlagenobjekt</target>
+      </trans-unit>
+      <trans-unit id="titleXmlConfiguration" approved="yes">
+        <source>XML configuration</source>
+        <target state="translated">XML-Konfiguration</target>
+      </trans-unit>
+      <trans-unit id="titleLoadDSXml" approved="yes">
+        <source>Load DS XML</source>
+        <target state="translated">DS-XML laden</target>
+      </trans-unit>
+      <trans-unit id="mappingTitle" approved="yes">
+        <source>TemplaVoilà Template Mapping</source>
+        <target state="translated">TemplaVoilà Vorlagenabbildung</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>TemplaVoilà Vorlagenverknüpfuung</target></alt-trans></trans-unit>
+      <trans-unit id="mappingNEW" approved="yes">
+        <source>[NEW]</source>
+        <target state="translated">[NEU]</target>
+      </trans-unit>
+      <trans-unit id="mappingHeadParts" approved="yes">
+        <source>Adding parts from HTML header</source>
+        <target state="translated">Teile des HTML-Kopfs hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="mappingBodyParts" approved="yes">
+        <source>Data Structure to be mapped to HTML template</source>
+        <target state="translated">Datenstruktur, die auf die HTML-Vorlage abgebildet werden soll</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Datenstruktur, die mit der HTML-Vorlage verknüpft werden soll</target></alt-trans></trans-unit>
+      <trans-unit id="rootDescription" approved="yes">
+        <source>Select the HTML element on the page which you want to be the overall container element for the template.</source>
+        <target state="translated">Wählen Sie das HTML-Element der Seite, das Sie als übergeordnetes Container-Element der Vorlage möchten.</target>
+      </trans-unit>
+      <trans-unit id="selectTOrecrdToLoadDSFrom" approved="yes">
+        <source>Select a Template Object record to load a Data Structure/Mapping information from</source>
+        <target state="translated">Wählen Sie einen Vorlagenobjekt-Datensatz, aus dem Datenstruktur und Abbildungsinformationen geladen werden sollen.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Wählen Sie einen Vorlagenobjekt-Datensatz, aus dem Datenstruktur und Verknüpfungsinformationen geladen werden sollen.</target></alt-trans></trans-unit>
+      <trans-unit id="noDSDefined" approved="yes">
+        <source>No Data Structure was defined in the record... (Must be T3DataStructure XML content)</source>
+        <target state="translated">Es wurde im Datensatz keine Datenstruktur definiert... (muss Inhalt vom Typ T3DataStructure XML sein)</target>
+      </trans-unit>
+      <trans-unit id="pasteDSXml" approved="yes">
+        <source>Alternatively, paste the Data Structure XML into this form</source>
+        <target state="translated">Alternativ können Sie das XML der Datenstruktur in dieses Formular einfügen</target>
+      </trans-unit>
+      <trans-unit id="loadDSXml" approved="yes">
+        <source>Load Data Structure</source>
+        <target state="translated">Datenstruktur laden</target>
+      </trans-unit>
+      <trans-unit id="instrunctions" approved="yes">
+        <source>Instructions</source>
+        <target state="translated">Anweisungen</target>
+      </trans-unit>
+      <trans-unit id="toBeDefined" approved="yes">
+        <source>to be defined</source>
+        <target state="translated">zu definieren</target>
+      </trans-unit>
+      <trans-unit id="tabTODetails" approved="yes">
+        <source>Information</source>
+        <target state="translated">Information</target>
+      </trans-unit>
+      <trans-unit id="tabHeadParts" approved="yes">
+        <source>Header Parts</source>
+        <target state="translated">Kopfteile</target>
+      </trans-unit>
+      <trans-unit id="tabBodyParts" approved="yes">
+        <source>Mapping</source>
+        <target state="translated">Abbildung</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfung</target></alt-trans></trans-unit>
+      <trans-unit id="dsTypes_section" approved="yes">
+        <source>Section</source>
+        <target state="translated">Abschnitt</target>
+      </trans-unit>
+      <trans-unit id="dsTypes_container" approved="yes">
+        <source>Container</source>
+        <target state="translated">Container</target>
+      </trans-unit>
+      <trans-unit id="dsTypes_attribute" approved="yes">
+        <source>Attribute</source>
+        <target state="translated">Attribut</target>
+      </trans-unit>
+      <trans-unit id="dsTypes_element" approved="yes">
+        <source>Element</source>
+        <target state="translated">Element</target>
+      </trans-unit>
+      <trans-unit id="dsTypes_notmapped" approved="yes">
+        <source>Not Mapped</source>
+        <target state="translated">Nicht abgebildet</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Nicht verknüpft</target></alt-trans></trans-unit>
+      <trans-unit id="buttonGoBack" approved="yes">
+        <source>Go back</source>
+        <target state="translated">Zurück</target>
+      </trans-unit>
+      <trans-unit id="buttonCancel" approved="yes">
+        <source>Cancel</source>
+        <target state="translated">Abbruch</target>
+      </trans-unit>
+      <trans-unit id="buttonShowXML" approved="yes">
+        <source>Show XML</source>
+        <target state="translated">XML anzeigen</target>
+      </trans-unit>
+      <trans-unit id="buttonClearAll" approved="yes">
+        <source>Clear all</source>
+        <target state="translated">Alles entfernen</target>
+      </trans-unit>
+      <trans-unit id="buttonPreview" approved="yes">
+        <source>Preview</source>
+        <target state="translated">Vorschau</target>
+      </trans-unit>
+      <trans-unit id="buttonSave" approved="yes">
+        <source>Save</source>
+        <target state="translated">Speichern</target>
+      </trans-unit>
+      <trans-unit id="buttonSaveExit" approved="yes">
+        <source>Save and Exit</source>
+        <target state="translated">Speichern und Beenden</target>
+      </trans-unit>
+      <trans-unit id="buttonSaveAs" approved="yes">
+        <source>Save as</source>
+        <target state="translated">Speichern unter</target>
+      </trans-unit>
+      <trans-unit id="buttonLoad" approved="yes">
+        <source>Load</source>
+        <target state="translated">Laden</target>
+      </trans-unit>
+      <trans-unit id="buttonRefresh" approved="yes">
+        <source>Refresh</source>
+        <target state="translated">Erneut laden</target>
+      </trans-unit>
+      <trans-unit id="buttonAdd" approved="yes">
+        <source>Add</source>
+        <target state="translated">Hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="buttonUpdate" approved="yes">
+        <source>Update</source>
+        <target state="translated">Aktualisieren</target>
+      </trans-unit>
+      <trans-unit id="buttonDelete" approved="yes">
+        <source>Delete</source>
+        <target state="translated">Löschen</target>
+      </trans-unit>
+      <trans-unit id="buttonCancelClose" approved="yes">
+        <source>Cancel / Close</source>
+        <target state="translated">Abbruch / Schließen</target>
+      </trans-unit>
+      <trans-unit id="buttonTitle_showXML" approved="yes">
+        <source>Preview the currently build Data Structure as XML</source>
+        <target state="translated">Vorschau der aktuell erzeugten Datenstruktur als XML</target>
+      </trans-unit>
+      <trans-unit id="buttonTitle_clearAll" approved="yes">
+        <source>Clear all Data Structure and Mapping information</source>
+        <target state="translated">Sämtliche Datenstrukturen und Abbildungsinformationen entfernen</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Sämtliche Datenstrukturen und Verknüpfungsinformationen entfernen</target></alt-trans></trans-unit>
+      <trans-unit id="buttonTitle_preview" approved="yes">
+        <source>Preview the mapping to the template</source>
+        <target state="translated">Vorschau der Abbildung der Vorlage</target>
+      </trans-unit>
+      <trans-unit id="buttonTitle_save" approved="yes">
+        <source>Save to current TO and DS</source>
+        <target state="translated">In aktuellem VO und DS speichern</target>
+      </trans-unit>
+      <trans-unit id="buttonTitle_saveExit" approved="yes">
+        <source>Save to current TO and DS and return to Overview</source>
+        <target state="translated">In aktuellem VO und DS speichern und zur Übersicht zurück</target>
+      </trans-unit>
+      <trans-unit id="buttonTitle_saveAs" approved="yes">
+        <source>Go to save menu</source>
+        <target state="translated">Zum Menü Speichern</target>
+      </trans-unit>
+      <trans-unit id="buttonTitle_load" approved="yes">
+        <source>Go to load menu</source>
+        <target state="translated">Zum Menü Laden</target>
+      </trans-unit>
+      <trans-unit id="buttonTitle_refresh" approved="yes">
+        <source>Redraw screen</source>
+        <target state="translated">Bildschirmdarstellung erneuern</target>
+      </trans-unit>
+      <trans-unit id="buttonSet" approved="yes">
+        <source>Set</source>
+        <target state="translated">Festlegen</target>
+      </trans-unit>
+      <trans-unit id="buttonSetTitle" approved="yes">
+        <source>Will update session data with current settings.</source>
+        <target state="translated">Aktualisiert die Sitzungsdaten mit den aktuellen Einstellungen.</target>
+      </trans-unit>
+      <trans-unit id="buttonClearAllMappingTitle" approved="yes">
+        <source>Clears all mapping information currently set.</source>
+        <target state="translated">Entfernt alle derzeit festgelegten Abbildungsinformationen.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Entfernt alle derzeit festgelegten Verknüpfungsinformationen.</target></alt-trans></trans-unit>
+      <trans-unit id="buttonPreviewMappingTitle" approved="yes">
+        <source>Will merge sample content into the template according to the current mapping information.</source>
+        <target state="translated">Fügt entsprechend der aktuellen Abbildung Beispielinhalte in die Vorlage ein.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Fügt entsprechend der aktuellen Verknüpfung Beispielinhalte in die Vorlage ein.</target></alt-trans></trans-unit>
+      <trans-unit id="buttonSaveTOTitle" approved="yes">
+        <source>Saving all mapping data into the Template Object.</source>
+        <target state="translated">Speichern aller Abbildungsdaten im Vorlagenobjekt.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Speichern aller Verknüpfungsdaten im Vorlagenobjekt.</target></alt-trans></trans-unit>
+      <trans-unit id="buttonSaveAndReturn" approved="yes">
+        <source>Save and Return</source>
+        <target state="translated">Speichern und zurück</target>
+      </trans-unit>
+      <trans-unit id="buttonSaveAndReturnTitle" approved="yes">
+        <source>Saving all mapping data into the Template Object and return.</source>
+        <target state="translated">Speichern aller Abbildungsdaten im Vorlagenobjekt und zurück.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Speichern aller Verknüpfungsdaten im Vorlagenobjekt und zurück.</target></alt-trans></trans-unit>
+      <trans-unit id="buttonRevert" approved="yes">
+        <source>Revert</source>
+        <target state="translated">Rückgängig machen</target>
+      </trans-unit>
+      <trans-unit id="buttonRevertTitle" approved="yes">
+        <source>Reverting %s mapping data to original data in the Template Object.</source>
+        <target state="translated">Abbildungsdaten %s auf die ursprünglichen Daten im Vorlagenobjekt zurücksetzen.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfungsdaten %s auf die ursprünglichen Daten im Vorlagenobjekt zurücksetzen.</target></alt-trans></trans-unit>
+      <trans-unit id="createDSTO" approved="yes">
+        <source>CREATE Data Structure / Template Object</source>
+        <target state="translated">Datenstruktur / Vorlagenobjekt ERSTELLEN</target>
+      </trans-unit>
+      <trans-unit id="updateDSTO" approved="yes">
+        <source>UPDATE existing Data Structure / Template Object</source>
+        <target state="translated">Vorhandene Datenstruktur / Vorlagenobjekt AKTUALISIEREN</target>
+      </trans-unit>
+      <trans-unit id="updateDSTOshort" approved="yes">
+        <source>UPDATE TO (and DS)</source>
+        <target state="translated">VO (und DS) AKTUALISIEREN</target>
+      </trans-unit>
+      <trans-unit id="saveDSTOconfirm" approved="yes">
+        <source>Are you sure you want to override the current contents of these records?\nThis feature is meant to support the process of creating new Data Structures which have not been manually edited yet.</source>
+        <target state="translated">Den derzeitigen Inhalt dieser Datensätze tatsächlich überschreiben?\nDiese Funktion dient der Erstellung neuer Datenstrukturen, die noch nicht von Hand bearbeitet wurden.</target>
+      </trans-unit>
+      <trans-unit id="createDSTOshort" approved="yes">
+        <source>CREATE DS / TO</source>
+        <target state="translated">DS / VO ERSTELLEN</target>
+      </trans-unit>
+      <trans-unit id="titleDSTO" approved="yes">
+        <source>Title of DS/TO</source>
+        <target state="translated">Titel DS/VO</target>
+      </trans-unit>
+      <trans-unit id="templateType" approved="yes">
+        <source>Template Type</source>
+        <target state="translated">Vorlagentyp</target>
+      </trans-unit>
+      <trans-unit id="pageTemplate" approved="yes">
+        <source>Page Template</source>
+        <target state="translated">Seitenvorlage</target>
+      </trans-unit>
+      <trans-unit id="contentElement" approved="yes">
+        <source>Content Element</source>
+        <target state="translated">Inhaltselement</target>
+      </trans-unit>
+      <trans-unit id="undefined" approved="yes">
+        <source>Undefined</source>
+        <target state="translated">Nicht definiert</target>
+      </trans-unit>
+      <trans-unit id="storeInPID" approved="yes">
+        <source>Store in PID</source>
+        <target state="translated">In PID speichern</target>
+      </trans-unit>
+      <trans-unit id="selectTO" approved="yes">
+        <source>Select TO</source>
+        <target state="translated">VO auswählen</target>
+      </trans-unit>
+      <trans-unit id="buildingDS" approved="yes">
+        <source>Building Data Structure</source>
+        <target state="translated">Erstellen der Datenstruktur</target>
+      </trans-unit>
+      <trans-unit id="renderDSO_dataStructure" approved="yes">
+        <source>Data Structure in record</source>
+        <target state="translated">Datenstruktur im Datensatz</target>
+      </trans-unit>
+      <trans-unit id="renderDSO_dataElement" approved="yes">
+        <source>Data Element</source>
+        <target state="translated">Datenelement</target>
+      </trans-unit>
+      <trans-unit id="renderDSO_mappingInstructions" approved="yes">
+        <source>Mapping Instructions</source>
+        <target state="translated">Anweisung zur Abbildung</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Anweisung zur Verknüpfung</target></alt-trans></trans-unit>
+      <trans-unit id="renderDSO_rules" approved="yes">
+        <source>Rules</source>
+        <target state="translated">Regeln</target>
+      </trans-unit>
+      <trans-unit id="renderDSO_uid" approved="yes">
+        <source>Uid</source>
+        <target state="translated">Uid</target>
+      </trans-unit>
+      <trans-unit id="renderDSO_title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="renderDSO_fileRef" approved="yes">
+        <source>File reference</source>
+        <target state="translated">Verweis auf Datei</target>
+      </trans-unit>
+      <trans-unit id="renderDSO_dataLgd" approved="yes">
+        <source>Mapping Data Lgd</source>
+        <target state="translated">Lgd Abbildungsdaten</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Lgd Verknüpfungsdaten</target></alt-trans></trans-unit>
+      <trans-unit id="renderDSO_usedTO" approved="yes">
+        <source>Template Objects using this Data Structure</source>
+        <target state="translated">Vorlagenobjekt, die diese Datenstruktur verwenden</target>
+      </trans-unit>
+      <trans-unit id="renderDSO_XML" approved="yes">
+        <source>Data Structure XML</source>
+        <target state="translated">Datenstruktur XML</target>
+      </trans-unit>
+      <trans-unit id="renderDSO_DSO" approved="yes">
+        <source>Data Structure Object</source>
+        <target state="translated">Datenstrukturobjekt</target>
+      </trans-unit>
+      <trans-unit id="renderDSO_noUid" approved="yes">
+        <source>No UID was found pointing to a Data Structure Object record.</source>
+        <target state="translated">Es wurde keine UID gefunden, die auf ein Datenstrukturobjekt verweist.</target>
+      </trans-unit>
+      <trans-unit id="renderDSO_notFound" approved="yes">
+        <source>(NOT FOUND)</source>
+        <target state="translated">(NICHT GEFUNDEN)</target>
+      </trans-unit>
+      <trans-unit id="all" approved="yes">
+        <source>(ALL)</source>
+        <target state="translated">(ALLE)</target>
+      </trans-unit>
+      <trans-unit id="renderTO_toDetails" approved="yes">
+        <source>Template Object Details</source>
+        <target state="translated">Details Vorlagenobjekt</target>
+      </trans-unit>
+      <trans-unit id="renderTO_dsRecord" approved="yes">
+        <source>Data Structure Record</source>
+        <target state="translated">Datensatz Datenstruktur</target>
+      </trans-unit>
+      <trans-unit id="renderTO_updateWarningConfirm" approved="yes">
+        <source>Warning: You should only modify Data Structures and Template Objects which have not been manually edited\nYou risk that manual changes will be removed without further notice!</source>
+        <target state="translated">Warnung: Es sollten nur Datenstrukturen und Vorlagenobjekte modifiziert werden, die nicht von Hand bearbeitet wurden.\nAndernfalls besteht die Gefahr, dass die von Hand vorgenommenen Änderungen ohne weiteren Hinweis verloren gehen!</target>
+      </trans-unit>
+      <trans-unit id="renderTO_editDSTO" approved="yes">
+        <source>Modify DS / TO</source>
+        <target state="translated">DS / VO modifizieren</target>
+      </trans-unit>
+      <trans-unit id="renderTO_dsFile" approved="yes">
+        <source>Data Structure File</source>
+        <target state="translated">Datenstrukturdatei</target>
+      </trans-unit>
+      <trans-unit id="renderTO_toInfo" approved="yes">
+        <source>Template Object Information</source>
+        <target state="translated">Vorlagenobjektinformation</target>
+      </trans-unit>
+      <trans-unit id="rootMultiTemplate_title" approved="yes">
+        <source>ROOT of MultiTemplate</source>
+        <target state="translated">Wurzel für Mehrfachvorlage</target>
+      </trans-unit>
+      <trans-unit id="rootMultiTemplate_description" approved="yes">
+        <source>Select the ROOT container for this template project. Probably just select a body-tag or some other HTML element which encapsulates ALL sub templates!</source>
+        <target state="translated">Den Wurzel-Container für dieses Vorlagenprojekt auswählen. Wahrscheinlich ist der body-Tag oder ein anderes HTML-Element auszuwählen, das ALLE Untervorlagen umschließt.</target>
+      </trans-unit>
+      <trans-unit id="msgMappingIsDifferent" approved="yes">
+        <source>The current mapping information is different from the mapping information in the Template Object</source>
+        <target state="translated">Die aktuellen Abbildungsinformationen weichen von den Abbildungsinformationen im Vorlagenobjekt ab</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Die aktuellen Verknüpfungsinformationen weichen von den Verknüpfungsinformationen im Vorlagenobjekt ab</target></alt-trans></trans-unit>
+      <trans-unit id="msgDSTOSaved" approved="yes">
+        <source>Data Structure (UID %s) and Template Record (UID %s) was saved in PID %s</source>
+        <target state="translated">Datenstruktur (UID %s) und Vorlagendatensatz (UID %s) wurden unter PID %s gespeichert</target>
+      </trans-unit>
+      <trans-unit id="msgDSTOUpdated" approved="yes">
+        <source>Data Structure (UID %s) and Template Record (UID %s) was updated</source>
+        <target state="translated">Datenstruktur (UID %s) und Vorlagendatensatz (UID %s) wurden aktualisiert</target>
+      </trans-unit>
+      <trans-unit id="msgMappingSaved" approved="yes">
+        <source>Mapping information was saved to the current Template Object!</source>
+        <target state="translated">Abbildungsinformationen wurden im aktuellen Vorlagenobjekt gespeichert!</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfungsinformationen wurden im aktuellen Vorlagenobjekt gespeichert!</target></alt-trans></trans-unit>
+      <trans-unit id="msgHeaderSet" approved="yes">
+        <source>Do not forget to press "Set" if header parts are changed!</source>
+        <target state="translated">Nach der Änderung von Teilen des Headers "Festlegen" drücken!</target>
+      </trans-unit>
+      <trans-unit id="include" approved="yes">
+        <source>Include</source>
+        <target state="translated">Einschließen</target>
+      </trans-unit>
+      <trans-unit id="tag" approved="yes">
+        <source>Tag</source>
+        <target state="translated">Tag</target>
+      </trans-unit>
+      <trans-unit id="tagContent" approved="yes">
+        <source>Tag Content</source>
+        <target state="translated">Tag-Inhalt</target>
+      </trans-unit>
+      <trans-unit id="mapDataElement" approved="yes">
+        <source>Data Element</source>
+        <target state="translated">Datenelement</target>
+      </trans-unit>
+      <trans-unit id="mapField" approved="yes">
+        <source>Field</source>
+        <target state="translated">Feld</target>
+      </trans-unit>
+      <trans-unit id="mapInstructions" approved="yes">
+        <source>Mapping Instructions</source>
+        <target state="translated">Anweisungen Abbildung</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfungsanweisungen</target></alt-trans></trans-unit>
+      <trans-unit id="mapSampleData" approved="yes">
+        <source>Sample Data</source>
+        <target state="translated">Beispieldaten</target>
+      </trans-unit>
+      <trans-unit id="mapElementPreset" approved="yes">
+        <source>Element Preset</source>
+        <target state="translated">Voreinstellungen Element</target>
+      </trans-unit>
+      <trans-unit id="mapHTMLpath" approved="yes">
+        <source>HTML-path</source>
+        <target state="translated">HTML-Pfad</target>
+      </trans-unit>
+      <trans-unit id="mapAction" approved="yes">
+        <source>Action</source>
+        <target state="translated">Aktion</target>
+      </trans-unit>
+      <trans-unit id="mapRules" approved="yes">
+        <source>Rules</source>
+        <target state="translated">Regeln</target>
+      </trans-unit>
+      <trans-unit id="mapEdit" approved="yes">
+        <source>Edit</source>
+        <target state="translated">Bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="mapMappingWindow" approved="yes">
+        <source>Mapping Window</source>
+        <target state="translated">Abbildungsfenster</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfungsfenster</target></alt-trans></trans-unit>
+      <trans-unit id="mapPreviewInfo" approved="yes">
+        <source>Preview of Data Structure sample data merged into the mapped tags</source>
+        <target state="translated">Vorschau der in die abgebildeten Tags eingefügten Beispieldaten</target>
+      </trans-unit>
+      <trans-unit id="mapDSelement" approved="yes">
+        <source>Mapping Data Element</source>
+        <target state="translated">Abbildung Datenelement</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfung Datenelement</target></alt-trans></trans-unit>
+      <trans-unit id="mapLimitToTags" approved="yes">
+        <source>Limiting to tags</source>
+        <target state="translated">Einschränken auf Tags</target>
+      </trans-unit>
+      <trans-unit id="mapWarningElementChange" approved="yes">
+        <source>Changing element type will change your existing settings!</source>
+        <target state="translated">Durch Änderung des Elementtyps ändern sich die vorhandenen Einstellungen!</target>
+      </trans-unit>
+      <trans-unit id="displayDSTitleTranslated" approved="yes">
+        <source>This title is translated!</source>
+        <target state="translated">Der Titel ist übersetzt!</target>
+      </trans-unit>
+      <trans-unit id="displayDSContentFound" approved="yes">
+        <source>Content found (%s chars)</source>
+        <target state="translated">Inhalt gefunden (%s Zeichen)</target>
+      </trans-unit>
+      <trans-unit id="displayDSContentEmpty" approved="yes">
+        <source>Content empty.</source>
+        <target state="translated">Inhalt leer.</target>
+      </trans-unit>
+      <trans-unit id="buttonRemap" approved="yes">
+        <source>Re-Map</source>
+        <target state="translated">Erneut abbilden</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Erneut verknüpfen</target></alt-trans></trans-unit>
+      <trans-unit id="buttonRemapTitle" approved="yes">
+        <source>Map this DS element to another HTML element in template file.</source>
+        <target state="translated">Dieses DS-Element auf ein anderes HTML-Element in der Vorlagendatei abbilden.</target>
+      </trans-unit>
+      <trans-unit id="buttonChangeMode" approved="yes">
+        <source>Change Mode</source>
+        <target state="translated">Modus ändern</target>
+      </trans-unit>
+      <trans-unit id="buttonChangeModeTitle" approved="yes">
+        <source>Change mapping mode, eg. from INNER to OUTER etc.</source>
+        <target state="translated">Den Abbildungsmodus ändern, z.B. von INNEN nach AUSSEN usw.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Den Verknüpfungsmodus ändern, z.B. von INNEN nach AUSSEN usw.</target></alt-trans></trans-unit>
+      <trans-unit id="msgNoContentFound" approved="yes">
+        <source>No content found!</source>
+        <target state="translated">Kein Inhalt gefunden!</target>
+      </trans-unit>
+      <trans-unit id="msgHowToMap" approved="yes">
+        <source>Click a tag-icon in the window below to map this element.</source>
+        <target state="translated">Zum Abbilden dieses Elements im unteren Fenster ein Tag-Symbol anklicken.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Zum Verknüpfen dieses Elements im unteren Fenster ein Tag-Symbol anklicken.</target></alt-trans></trans-unit>
+      <trans-unit id="buttonMap" approved="yes">
+        <source>Map</source>
+        <target state="translated">Abbilden</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfen</target></alt-trans></trans-unit>
+      <trans-unit id="editEntry" approved="yes">
+        <source>Edit entry</source>
+        <target state="translated">Eintrag bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="deleteEntry" approved="yes">
+        <source>DELETE entry</source>
+        <target state="translated">Eintrag LÖSCHEN</target>
+      </trans-unit>
+      <trans-unit id="confirmDeleteEntry" approved="yes">
+        <source>Are you sure to delete this Data Structure entry?</source>
+        <target state="translated">Diesen Eintrag der Datenstruktur tatsächlich löschen?</target>
+      </trans-unit>
+      <trans-unit id="noSampleData" approved="yes">
+        <source>No sample data</source>
+        <target state="translated">Keine Beispieldaten</target>
+      </trans-unit>
+      <trans-unit id="mapEnterNewFieldname" approved="yes">
+        <source>Enter new fieldname</source>
+        <target state="translated">Neuen Feldnamen eingeben</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_plainInput" approved="yes">
+        <source>Plain input field</source>
+        <target state="translated">Einfaches Eingabefeld</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_headerField" approved="yes">
+        <source>Header field</source>
+        <target state="translated">Überschriftenfeld</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_gHederField" approved="yes">
+        <source>Header field, Graphical</source>
+        <target state="translated">Überschriftenfeld, grafisch</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_textarea" approved="yes">
+        <source>Text area for bodytext</source>
+        <target state="translated">Textbereich für Textinhalt</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_rte" approved="yes">
+        <source>Rich text editor for bodytext</source>
+        <target state="translated">Rich-Text-Editor für Textinhalt</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_linkField" approved="yes">
+        <source>Link field</source>
+        <target state="translated">Linkfeld</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_integer" approved="yes">
+        <source>Integer value</source>
+        <target state="translated">Ganzzahliger Wert</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_imageFixed" approved="yes">
+        <source>Image field, fixed W+H</source>
+        <target state="translated">Bildfeld, feste B+H</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_select" approved="yes">
+        <source>Selector box</source>
+        <target state="translated">Auswahlliste</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_check" approved="yes">
+        <source>Check box</source>
+        <target state="translated">Markierungsfeld</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_image" approved="yes">
+        <source>Image field</source>
+        <target state="translated">Bildfeld</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_ce" approved="yes">
+        <source>Page-Content Elements [Pos.: %s]</source>
+        <target state="translated">Seite - Inhaltselemente [Pos.: %s]</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_TSobjectPath" approved="yes">
+        <source>TypoScript Object Path</source>
+        <target state="translated">TypoScript-Objektpfad</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_none" approved="yes">
+        <source>None (TypoScript only)</source>
+        <target state="translated">Keine (nur TypoScript)</target>
+      </trans-unit>
+      <trans-unit id="mapPresets_customTCA" approved="yes">
+        <source>Custom form setup (no preset used)</source>
+        <target state="translated">Benutzerdefinierte Formularkonfiguration (keine Voreinstellung)</target>
+      </trans-unit>
+      <trans-unit id="mapPresetGroups_tceFields" approved="yes">
+        <source>Form Fields</source>
+        <target state="translated">Formularfelder</target>
+      </trans-unit>
+      <trans-unit id="mapPresetGroups_ts" approved="yes">
+        <source>TypoScript Elements</source>
+        <target state="translated">TypoScript-Elemente</target>
+      </trans-unit>
+      <trans-unit id="mapPresetGroups_other" approved="yes">
+        <source>Other</source>
+        <target state="translated">Andere</target>
+      </trans-unit>
+      <trans-unit id="mapTSconstants" approved="yes">
+        <source>TypoScript Constants</source>
+        <target state="translated">TypoScript-Konstanten</target>
+      </trans-unit>
+      <trans-unit id="mapTScode" approved="yes">
+        <source>TypoScript Code</source>
+        <target state="translated">TypoScript-Code</target>
+      </trans-unit>
+      <trans-unit id="mapExtraOptions" approved="yes">
+        <source>Extra options</source>
+        <target state="translated">Zusatzoptionen</target>
+      </trans-unit>
+      <trans-unit id="mapPostProcesses" approved="yes">
+        <source>Applied post-processes</source>
+        <target state="translated">Angewendete Nachberarbeitung</target>
+      </trans-unit>
+      <trans-unit id="mapEnablePreview" approved="yes">
+        <source>Enable data preview in Page-Module</source>
+        <target state="translated">Datenvorschau in Seitenmodul aktivieren</target>
+      </trans-unit>
+      <trans-unit id="mapEnablePreview.enable" approved="yes">
+        <source>Enable</source>
+        <target state="translated">Aktivieren</target>
+      </trans-unit>
+      <trans-unit id="mapEnablePreview.disable" approved="yes">
+        <source>Disable</source>
+        <target state="translated">Deaktivieren</target>
+      </trans-unit>
+      <trans-unit id="mapPPcastInteger" approved="yes">
+        <source>Cast content to integer</source>
+        <target state="translated">Inhalt in Ganzzahl umwandeln</target>
+      </trans-unit>
+      <trans-unit id="mapPPhsc" approved="yes">
+        <source>Pass content through htmlSpecialChars (HSC)</source>
+        <target state="translated">Inhalt mit htmlSpecialChars behandeln</target>
+      </trans-unit>
+      <trans-unit id="mapCustomStdWrap" approved="yes">
+        <source>Custom stdWrap</source>
+        <target state="translated">Benutzerdefiniertes stdWrap</target>
+      </trans-unit>
+      <trans-unit id="mapTCElabel" approved="yes">
+        <source>Form label</source>
+        <target state="translated">Formularbezeichnung</target>
+      </trans-unit>
+      <trans-unit id="mapTCEconf" approved="yes">
+        <source>Form configuration</source>
+        <target state="translated">Formularkonfiguration</target>
+      </trans-unit>
+      <trans-unit id="mapTCEextras" approved="yes">
+        <source>Form extras</source>
+        <target state="translated">Formularzusätze</target>
+      </trans-unit>
+      <trans-unit id="mapElContainers" approved="yes">
+        <source>Containers</source>
+        <target state="translated">Container</target>
+      </trans-unit>
+      <trans-unit id="mapElElements" approved="yes">
+        <source>Elements</source>
+        <target state="translated">Elemente</target>
+      </trans-unit>
+      <trans-unit id="mapSection" approved="yes">
+        <source>Section of elements</source>
+        <target state="translated">Abschnitt von Elementen</target>
+      </trans-unit>
+      <trans-unit id="mapContainer" approved="yes">
+        <source>Container for elements</source>
+        <target state="translated">Container für Elemente</target>
+      </trans-unit>
+      <trans-unit id="mapElement" approved="yes">
+        <source>Element</source>
+        <target state="translated">Element</target>
+      </trans-unit>
+      <trans-unit id="mapAttribute" approved="yes">
+        <source>Attribute</source>
+        <target state="translated">Attribut</target>
+      </trans-unit>
+      <trans-unit id="mapNotMapped" approved="yes">
+        <source>Not mapped</source>
+        <target state="translated">Nicht abgebildet</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Nicht verknüpft</target></alt-trans></trans-unit>
+      <trans-unit id="mapConfiguration" approved="yes">
+        <source>Configuration</source>
+        <target state="translated">Konfiguration</target>
+      </trans-unit>
+      <trans-unit id="mapEditConfiguration" approved="yes">
+        <source>Edit general configuration</source>
+        <target state="translated">Allgemeine Konfiguration bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="mapDataProcessing" approved="yes">
+        <source>Data processing</source>
+        <target state="translated">Datenverarbeitung</target>
+      </trans-unit>
+      <trans-unit id="mapEditDataProcessing" approved="yes">
+        <source>Edit data processing modifications</source>
+        <target state="translated">Modifikationen für Datenverarbeitung bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="mapTyposcript" approved="yes">
+        <source>Typoscript</source>
+        <target state="translated">TypoScript</target>
+      </trans-unit>
+      <trans-unit id="mapEditTyposcript" approved="yes">
+        <source>Edit Typoscript</source>
+        <target state="translated">TypoScript bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="mapExtra" approved="yes">
+        <source>Extra</source>
+        <target state="translated">Zusatz</target>
+      </trans-unit>
+      <trans-unit id="mapEditExtra" approved="yes">
+        <source>Edit extra options</source>
+        <target state="translated">Zusatzoptionen bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="mapTCEform" approved="yes">
+        <source>Form</source>
+        <target state="translated">Formular</target>
+      </trans-unit>
+      <trans-unit id="mapEditTCEform" approved="yes">
+        <source>Edit form configuration</source>
+        <target state="translated">Formularkonfiguration bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="mapObjectPath" approved="yes">
+        <source>Object path</source>
+        <target state="translated">Objektpfad</target>
+      </trans-unit>
+      <trans-unit id="mapOldStyleColumnNumber" approved="yes">
+        <source>Old style column number</source>
+        <target state="translated">Frühere Spaltennummer</target>
+      </trans-unit>
+      <trans-unit id="mapOldStyleColumnNumber_label" approved="yes">
+        <source>Column number (0=normal, 1=left, 2=right, 3=border)</source>
+        <target state="translated">Spaltennummer (0 = Normal, 1 = Links, 2 = Rechts, 3 = Rand)</target>
+      </trans-unit>
+      <trans-unit id="mapEnableDragDrop" approved="yes">
+        <source>Enable Drag&amp;Drop in this container</source>
+        <target state="translated">Ziehen und Übergeben für diesen Container aktivieren</target>
+      </trans-unit>
+      <trans-unit id="errorNoContentInFile" approved="yes">
+        <source>No content found in file reference</source>
+        <target state="translated">Kein Inhalt in Dateiverweis gefunden</target>
+      </trans-unit>
+      <trans-unit id="errorNoFileToDisplay" approved="yes">
+        <source>No file to display</source>
+        <target state="translated">Keine anzuzeigende Datei</target>
+      </trans-unit>
+      <trans-unit id="error" approved="yes">
+        <source>Error</source>
+        <target state="translated">Fehler</target>
+      </trans-unit>
+      <trans-unit id="errorNoStorageFolder" approved="yes">
+        <source>No accessible Storage Folder found - please create one immediately!</source>
+        <target state="translated">Kein zugänglicher Speicherordner (Storage Folder) gefunden - bitte sofort einen anlegen!</target>
+      </trans-unit>
+      <trans-unit id="errorTONotSaved" approved="yes">
+        <source>No Template Object was created although the Data Structure was (UID %s)!</source>
+        <target state="translated">Es wurde kein Vorlagenobjekt erzeugt, obwohl die Datenstruktur (UID %s) erzeugt wurde!</target>
+      </trans-unit>
+      <trans-unit id="errorTONotCreated" approved="yes">
+        <source>No Data Structure was created!</source>
+        <target state="translated">Keine Datenstruktur erzeugt!</target>
+      </trans-unit>
+      <trans-unit id="errorNoUidFound" approved="yes">
+        <source>No UID was found pointing to a Template Object record.</source>
+        <target state="translated">Es wurde keine UID gefunden, die auf einen Vorlagenobjekt-Datensatz verweist.</target>
+      </trans-unit>
+      <trans-unit id="errorNoDSrecord" approved="yes">
+        <source>ERROR: No Data Structure Record with the UID %s</source>
+        <target state="translated">FEHLER: Kein Datenstrukturdatensatz mit der UID %s vorhanden</target>
+      </trans-unit>
+      <trans-unit id="errorInDSO" approved="yes">
+        <source>Data Structure Object ERROR</source>
+        <target state="translated">FEHLER Datenstrukturobjekt</target>
+      </trans-unit>
+      <trans-unit id="errorNoDSfound" approved="yes">
+        <source>No Data Structure Record could be found with UID "%s"!</source>
+        <target state="translated">Es konnte kein Datensatz mit einer Datenstruktur mit der UID "%s" gefunden werden!</target>
+      </trans-unit>
+      <trans-unit id="errorFileNotFound" approved="yes">
+        <source>The file "%s" could not be found!</source>
+        <target state="translated">Die Datei "%s" konnte nicht gefunden werden!</target>
+      </trans-unit>
+      <trans-unit id="errorNoTOfound" approved="yes">
+        <source>No Template Object Record with the UID "%s"!</source>
+        <target state="translated">Kein Datensatz eines Vorlagenobjekts mit der UID "%s"!</target>
+      </trans-unit>
+      <trans-unit id="errorNoToTitleDefined" approved="yes">
+        <source>No "title" defined, unable to create DS/TO.</source>
+        <target state="translated">Kein "Titel" definiert.  DS / VO kann nicht gespeichert werden.</target>
+      </trans-unit>
+      <trans-unit id="validateTpl" approved="yes">
+        <source>Validate template file (on validator.w3c.org)</source>
+        <target state="translated">Templatedatei validieren (über validator.w3c.org)</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

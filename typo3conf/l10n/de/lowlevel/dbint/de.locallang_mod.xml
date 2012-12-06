@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Datenbankintegritätsprüfung</label>
+      <label index="mlang_labels_tabdescr">Hier kann die Integrität der Datenbanktabellen, welche von $TCA angelegt wurden, überprüft werden. Zum Beispiel müssen alle Datensätze zu einer Seite gehören. Zusätzlich wird die Existenz von mit Datensätzen verknüpften, hochgeladenen Dateien überprüft (diese liegen normalerweise im Verzeichnis uploads/*). Es kann ebenfalls die komplette Seitenstruktur, inklusive gelöschter Seiten, angezeigt werden. Abschließend haben Sie noch Zugriff auf eine globale Datenbank-Suchfunktion.&lt;br /&gt;&lt;em&gt;Zugriff nur für Administratoren!&lt;/em&gt;</label>
+      <label index="mlang_tabs_tab">DB-Überprüfung</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="tx_rtehtmlarea_acronym" xml:space="preserve" approved="yes">
+        <source>Abbreviation</source>
+      <target state="translated">Abkürzung</target></trans-unit>
+      <trans-unit id="tx_rtehtmlarea_acronym.type" xml:space="preserve" approved="yes">
+        <source>Type</source>
+      <target state="translated">Typ</target></trans-unit>
+      <trans-unit id="tx_rtehtmlarea_acronym.type.I.0" xml:space="preserve" approved="yes">
+        <source>Acronym</source>
+      <target state="translated">Akronym</target></trans-unit>
+      <trans-unit id="tx_rtehtmlarea_acronym.type.I.1" xml:space="preserve" approved="yes">
+        <source>Abbreviation</source>
+      <target state="translated">Abkürzung</target></trans-unit>
+      <trans-unit id="tx_rtehtmlarea_acronym.term" xml:space="preserve" approved="yes">
+        <source>Term</source>
+      <target state="translated">Begriff</target></trans-unit>
+      <trans-unit id="tx_rtehtmlarea_acronym.acronym" xml:space="preserve" approved="yes">
+        <source>Abbreviation</source>
+      <target state="translated">Abkürzung</target></trans-unit>
+      <trans-unit id="tx_rtehtmlarea_acronym.static_lang_isocode" xml:space="preserve" approved="yes">
+        <source>Language of the abbreviation</source>
+      <target state="translated">Sprache der Abkürzung</target></trans-unit>
+    </body>
+  </file>
+</xliff>

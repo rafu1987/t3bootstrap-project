@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Static Info Tables</description>
+        <type></type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+	    <label index="m_default">default</label>
+	    <label index="m_ext">extended</label>
+	    <label index="m_country">country</label>
+	    <label index="m_other">other</label>
+        </languageKey>
+    </data>
+</T3locallang>

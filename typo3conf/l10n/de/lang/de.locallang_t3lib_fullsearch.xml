@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="query_loaded">Abfrage "%s" geladen!</label>
+      <label index="query_from_action_loaded">Abfrage aus Aktion "%s" geladen!</label>
+      <label index="query_saved">Abfrage gespeichert!</label>
+      <label index="query_notsaved">Keine Abfrage gespeichert!</label>
+      <label index="query_removed">Abfrageeintrag "%s" entfernt!</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="rte_undoLastChange" xml:space="preserve" approved="yes">
+        <source>Undo/Redo last change (%s ago)</source>
+      <target state="translated">Letzte Änderung zurücknehmen/ausführen (%s Schritte)</target></trans-unit>
+      <trans-unit id="tsprop" xml:space="preserve" approved="yes">
+        <source>TypoScript property lookup</source>
+      <target state="translated">TypoScript-Eigenschaftenanzeige</target></trans-unit>
+      <trans-unit id="tsprop_TSref" xml:space="preserve" approved="yes">
+        <source>TSref online</source>
+      <target state="translated">TSref Online</target></trans-unit>
+      <trans-unit id="tsprop_tsconfig" xml:space="preserve" approved="yes">
+        <source>TSconfig online</source>
+      <target state="translated">TSconfig Online</target></trans-unit>
+      <trans-unit id="tsprop_title" xml:space="preserve" approved="yes">
+        <source>Object title</source>
+      <target state="translated">Objekttitel</target></trans-unit>
+      <trans-unit id="tsprop_prefix" xml:space="preserve" approved="yes">
+        <source>Object prefix</source>
+      <target state="translated">Objektpräfix</target></trans-unit>
+      <trans-unit id="tsprop_mixer_indent" xml:space="preserve" approved="yes">
+        <source>Indent +2</source>
+      <target state="translated">Einzug +2</target></trans-unit>
+      <trans-unit id="tsprop_mixer_outdent" xml:space="preserve" approved="yes">
+        <source>Outdent -2</source>
+      <target state="translated">Einzug -2</target></trans-unit>
+      <trans-unit id="tsprop_mixer_wrap" xml:space="preserve" approved="yes">
+        <source>Wrap</source>
+      <target state="translated">Umbruch</target></trans-unit>
+      <trans-unit id="tsprop_mixer_transfer" xml:space="preserve" approved="yes">
+        <source>Transfer &amp; Close</source>
+      <target state="translated">Übertragen &amp; schließen</target></trans-unit>
+      <trans-unit id="tsprop_addToList" xml:space="preserve" approved="yes">
+        <source>Add to list...</source>
+      <target state="translated">Zur Liste hinzufügen...</target></trans-unit>
+      <trans-unit id="table_title" xml:space="preserve" approved="yes">
+        <source>Table wizard</source>
+      <target state="translated">Tabellenassistent</target></trans-unit>
+      <trans-unit id="table_smallFields" xml:space="preserve" approved="yes">
+        <source>Small fields</source>
+      <target state="translated">Kleine Felder</target></trans-unit>
+      <trans-unit id="table_addColumn" xml:space="preserve" approved="yes">
+        <source>Add column to the right</source>
+      <target state="translated">Spalte rechts hinzufügen</target></trans-unit>
+      <trans-unit id="table_removeColumn" xml:space="preserve" approved="yes">
+        <source>Remove column</source>
+      <target state="translated">Spalte entfernen</target></trans-unit>
+      <trans-unit id="table_addRow" xml:space="preserve" approved="yes">
+        <source>Add row below</source>
+      <target state="translated">Zeile unten hinzufügen</target></trans-unit>
+      <trans-unit id="table_removeRow" xml:space="preserve" approved="yes">
+        <source>Remove row</source>
+      <target state="translated">Zeile entfernen</target></trans-unit>
+      <trans-unit id="table_left" xml:space="preserve" approved="yes">
+        <source>Move left</source>
+      <target state="translated">Nach links verschieben</target></trans-unit>
+      <trans-unit id="table_right" xml:space="preserve" approved="yes">
+        <source>Move right</source>
+      <target state="translated">Nach rechts verschieben</target></trans-unit>
+      <trans-unit id="table_up" xml:space="preserve" approved="yes">
+        <source>Move up</source>
+      <target state="translated">Nach oben verschieben</target></trans-unit>
+      <trans-unit id="table_down" xml:space="preserve" approved="yes">
+        <source>Move down</source>
+      <target state="translated">Nach unten verschieben</target></trans-unit>
+      <trans-unit id="table_top" xml:space="preserve" approved="yes">
+        <source>Move to top</source>
+      <target state="translated">An Anfang verschieben</target></trans-unit>
+      <trans-unit id="table_bottom" xml:space="preserve" approved="yes">
+        <source>Move to bottom</source>
+      <target state="translated">An Ende verschieben</target></trans-unit>
+      <trans-unit id="table_start" xml:space="preserve" approved="yes">
+        <source>Move to first column</source>
+      <target state="translated">In erste Spalte verschieben</target></trans-unit>
+      <trans-unit id="table_end" xml:space="preserve" approved="yes">
+        <source>Move to last column</source>
+      <target state="translated">In letzten Spalte verschieben</target></trans-unit>
+      <trans-unit id="table_noData" xml:space="preserve" approved="yes">
+        <source>No table,field or uid given</source>
+      <target state="translated">Kein(e) Tabelle, Feld oder UID angegeben</target></trans-unit>
+      <trans-unit id="forms_title" xml:space="preserve" approved="yes">
+        <source>Forms wizard</source>
+      <target state="translated">Formularassistent</target></trans-unit>
+      <trans-unit id="forms_refresh" xml:space="preserve" approved="yes">
+        <source>Refresh without saving</source>
+      <target state="translated">Aktualisierung ohne speichern</target></trans-unit>
+      <trans-unit id="forms_label" xml:space="preserve" approved="yes">
+        <source>Label</source>
+      <target state="translated">Beschriftung</target></trans-unit>
+      <trans-unit id="forms_type" xml:space="preserve" approved="yes">
+        <source>Type</source>
+      <target state="translated">Typ</target></trans-unit>
+      <trans-unit id="forms_type_textarea" xml:space="preserve" approved="yes">
+        <source>Text area</source>
+      <target state="translated">Textbereich</target></trans-unit>
+      <trans-unit id="forms_type_input" xml:space="preserve" approved="yes">
+        <source>Input field</source>
+      <target state="translated">Eingabefeld</target></trans-unit>
+      <trans-unit id="forms_type_password" xml:space="preserve" approved="yes">
+        <source>Password field</source>
+      <target state="translated">Passwortfeld</target></trans-unit>
+      <trans-unit id="forms_type_file" xml:space="preserve" approved="yes">
+        <source>File upload</source>
+      <target state="translated">Dateitransfer</target></trans-unit>
+      <trans-unit id="forms_type_check" xml:space="preserve" approved="yes">
+        <source>Check box</source>
+      <target state="translated">Markierungsfeld</target></trans-unit>
+      <trans-unit id="forms_type_select" xml:space="preserve" approved="yes">
+        <source>Selector box</source>
+      <target state="translated">Auswahlfeld</target></trans-unit>
+      <trans-unit id="forms_type_radio" xml:space="preserve" approved="yes">
+        <source>Radio buttons</source>
+      <target state="translated">Radioknopf</target></trans-unit>
+      <trans-unit id="forms_type_hidden" xml:space="preserve" approved="yes">
+        <source>Hidden value</source>
+      <target state="translated">Versteckter Wert</target></trans-unit>
+      <trans-unit id="forms_type_submit" xml:space="preserve" approved="yes">
+        <source>Submit Button</source>
+      <target state="translated">Absendeschaltfläche</target></trans-unit>
+      <trans-unit id="forms_type_property" xml:space="preserve" approved="yes">
+        <source>Property</source>
+      <target state="translated">Eigenschaft</target></trans-unit>
+      <trans-unit id="forms_type_label" xml:space="preserve" approved="yes">
+        <source>Label</source>
+      <target state="translated">Beschriftung</target></trans-unit>
+      <trans-unit id="forms_required" xml:space="preserve" approved="yes">
+        <source>Required</source>
+      <target state="translated">Benötigt</target></trans-unit>
+      <trans-unit id="forms_fieldName" xml:space="preserve" approved="yes">
+        <source>Field</source>
+      <target state="translated">Feld</target></trans-unit>
+      <trans-unit id="forms_cols" xml:space="preserve" approved="yes">
+        <source>Columns</source>
+      <target state="translated">Spalten</target></trans-unit>
+      <trans-unit id="forms_rows" xml:space="preserve" approved="yes">
+        <source>Rows</source>
+      <target state="translated">Zeilen</target></trans-unit>
+      <trans-unit id="forms_size" xml:space="preserve" approved="yes">
+        <source>Size</source>
+      <target state="translated">Größe</target></trans-unit>
+      <trans-unit id="forms_max" xml:space="preserve" approved="yes">
+        <source>Max</source>
+      <target state="translated">Max</target></trans-unit>
+      <trans-unit id="forms_autosize" xml:space="preserve" approved="yes">
+        <source>Auto size</source>
+      <target state="translated">Automatische Größenanpassung</target></trans-unit>
+      <trans-unit id="forms_extra" xml:space="preserve" approved="yes">
+        <source>No Wrap</source>
+      <target state="translated">Kein Umbruch</target></trans-unit>
+      <trans-unit id="forms_default" xml:space="preserve" approved="yes">
+        <source>Value</source>
+      <target state="translated">Wert</target></trans-unit>
+      <trans-unit id="forms_multiple" xml:space="preserve" approved="yes">
+        <source>Multiple</source>
+      <target state="translated">Mehrfach</target></trans-unit>
+      <trans-unit id="forms_options" xml:space="preserve" approved="yes">
+        <source>List options</source>
+      <target state="translated">Optionen anzeigen</target></trans-unit>
+      <trans-unit id="forms_checked" xml:space="preserve" approved="yes">
+        <source>Checked</source>
+      <target state="translated">Markiert</target></trans-unit>
+      <trans-unit id="forms_preview" xml:space="preserve" approved="yes">
+        <source>Preview of element</source>
+      <target state="translated">Vorschau des Elements</target></trans-unit>
+      <trans-unit id="forms_element" xml:space="preserve" approved="yes">
+        <source>Element type</source>
+      <target state="translated">Elementtyp</target></trans-unit>
+      <trans-unit id="forms_config" xml:space="preserve" approved="yes">
+        <source>Detailed configuration</source>
+      <target state="translated">Detaillierte Konfiguration</target></trans-unit>
+      <trans-unit id="forms_eform_subject" xml:space="preserve" approved="yes">
+        <source>Subject</source>
+      <target state="translated">Betreff</target></trans-unit>
+      <trans-unit id="forms_eform_recipient" xml:space="preserve" approved="yes">
+        <source>Recipient email</source>
+      <target state="translated">Empfänger-E-Mail</target></trans-unit>
+      <trans-unit id="forms_eform_html_enabled" xml:space="preserve" approved="yes">
+        <source>HTML mode enabled</source>
+      <target state="translated">HTML-Modus aktiviert</target></trans-unit>
+      <trans-unit id="forms_eform_formtype_mail" xml:space="preserve" approved="yes">
+        <source>Send button label</source>
+      <target state="translated">Beschriftung der Absendeschaltfläche</target></trans-unit>
+      <trans-unit id="forms_special_eform" xml:space="preserve" approved="yes">
+        <source>Special configuration for mail forms</source>
+      <target state="translated">Spezielle Konfiguration für Mail-Formulare</target></trans-unit>
+      <trans-unit id="colorpicker_title" xml:space="preserve" approved="yes">
+        <source>Color Picker</source>
+      <target state="translated">Farbauswahl</target></trans-unit>
+      <trans-unit id="colorpicker_setClose" xml:space="preserve" approved="yes">
+        <source>Save and Close</source>
+      <target state="translated">Speichern und Schließen</target></trans-unit>
+      <trans-unit id="colorpicker_colorValue" xml:space="preserve" approved="yes">
+        <source>Selected Color:</source>
+      <target state="translated">Gewählte Farbe:</target></trans-unit>
+      <trans-unit id="colorpicker_fromImage" xml:space="preserve" approved="yes">
+        <source>Capture color from image (click on image):</source>
+      <target state="translated">Farbe aus dem Bild übernehmen (Klick auf das Bild):</target></trans-unit>
+      <trans-unit id="colorpicker_fromMatrix" xml:space="preserve" approved="yes">
+        <source>Select color from matrix (websafe colors):</source>
+      <target state="translated">Farbe aus der Matrix auswählen (websichere Farben):</target></trans-unit>
+      <trans-unit id="colorpicker_fromList" xml:space="preserve" approved="yes">
+        <source>Select HTML color name:</source>
+      <target state="translated">HTML-Farbbezeichnung auswählen:</target></trans-unit>
+      <trans-unit id="colorpicker_black" xml:space="preserve" approved="yes">
+        <source>BLACK</source>
+      <target state="translated">SCHWARZ</target></trans-unit>
+      <trans-unit id="colorpicker_white" xml:space="preserve" approved="yes">
+        <source>WHITE</source>
+      <target state="translated">WEISS</target></trans-unit>
+      <trans-unit id="grid_windowTitle" xml:space="preserve" approved="yes">
+        <source>Set cell name and column number</source>
+      <target state="translated">Zellenname und Spaltennummer festlegen</target></trans-unit>
+      <trans-unit id="grid_labelName" xml:space="preserve" approved="yes">
+        <source>Name</source>
+      <target state="translated">Name</target></trans-unit>
+      <trans-unit id="grid_labelColumn" xml:space="preserve" approved="yes">
+        <source>Column Number</source>
+      <target state="translated">Spaltennummer</target></trans-unit>
+      <trans-unit id="grid_labelSave" xml:space="preserve" approved="yes">
+        <source>Save to cell</source>
+      <target state="translated">In Zelle speichern</target></trans-unit>
+      <trans-unit id="grid_addColumn" xml:space="preserve" approved="yes">
+        <source>Add column</source>
+      <target state="translated">Spalte hinzufügen</target></trans-unit>
+      <trans-unit id="grid_removeColumn" xml:space="preserve" approved="yes">
+        <source>Remove column</source>
+      <target state="translated">Spalte entfernen</target></trans-unit>
+      <trans-unit id="grid_addRow" xml:space="preserve" approved="yes">
+        <source>Add row</source>
+      <target state="translated">Zeile hinzufügen</target></trans-unit>
+      <trans-unit id="grid_removeRow" xml:space="preserve" approved="yes">
+        <source>Remove row</source>
+      <target state="translated">Zeile entfernen</target></trans-unit>
+      <trans-unit id="grid_editCell" xml:space="preserve" approved="yes">
+        <source>Edit cell</source>
+      <target state="translated">Zelle bearbeiten</target></trans-unit>
+      <trans-unit id="grid_mergeCell" xml:space="preserve" approved="yes">
+        <source>Combine with next cell</source>
+      <target state="translated">Mit nächster Zelle verbinden</target></trans-unit>
+      <trans-unit id="grid_splitCell" xml:space="preserve" approved="yes">
+        <source>Split cell</source>
+      <target state="translated">Zelle teilen</target></trans-unit>
+      <trans-unit id="grid_name" xml:space="preserve" approved="yes">
+        <source>Name</source>
+      <target state="translated">Name</target></trans-unit>
+      <trans-unit id="grid_column" xml:space="preserve" approved="yes">
+        <source>Column number</source>
+      <target state="translated">Spaltennummer</target></trans-unit>
+      <trans-unit id="grid_notSet" xml:space="preserve" approved="yes">
+        <source>not set</source>
+      <target state="translated">nicht gesetzt</target></trans-unit>
+      <trans-unit id="grid_nameHelp" xml:space="preserve" approved="yes">
+        <source>Enter a name for the cell.</source>
+      <target state="translated">Geben Sie einen Namen für die Zelle ein.</target></trans-unit>
+      <trans-unit id="grid_columnHelp" xml:space="preserve" approved="yes">
+        <source>The column position defines in which area the content is rendered in the frontend.</source>
+      <target state="translated">Die Spaltenposition setzt fest, in welchem Bereich der Inhalt im Frontend dargestellt wird.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>CSH</type>
+		<csh_table>_MOD_web_l10nmgr</csh_table>
+		<description>Context sentitive help for extension 'l10nmgr'</description>
+		<fileId>EXT:l10nmgr/locallang_csh_l10nmgr.xml</fileId>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index=".description"></label>
+			<label index=".details"></label>
+			<label index="_.seeAlso"></label>
+			<label index="title.description">Title for the L10N configuration</label>
+			<label index="title.details">Title for the L10N configuration. Make sure to use a sounding title that helps you to identify your settings file easily.</label>
+			<label index="depth.description">Depth of page levels to export for translation.</label>
+			<label index="depth.details">Choose whether to export just the current page or whether to include subpages.</label>
+			<label index="tablelist.description">Export content from the following tables:</label>
+			<label index="tablelist.details">Content from pages and content elements 
+
+- Choose the tables from which you want to export your translatable data from the list. Translatable pages' meta data (page title, navigation title, keywords, description etc.) is located in the pages (Page) table. Text from content elements is located in the table tt_content (Pagecontent). So usually you need to export both tables (Pages and Pagecontent). 
+
+Content from extensions
+
+- Content from extensions is stored in different database tables. To export it select the name of the extension from the list.To select more than one entry from the list hold down your Ctrl key and select the entries by clicking on them with your mouse. </label>
+			<label index="sourceLangStaticId.description">Source language for translation.</label>
+			<label index="sourceLangStaticId.details">Please select the source language for the translation from the list. This is necessary to insert the right xml:lang attribute to the export files.</label>
+			<label index="displaymode.description">Select how to render the HTML overview</label>
+			<label index="displaymode.details"></label>
+			<label index="exclude.description">Exclude records from database tables</label>
+			<label index="exclude.details"></label>
+			<label index="include.description">Include records from database tables</label>
+			<label index="include.details"></label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="title.description">Name der L10N-Manager-Konfiguration</label>
+			<label index="title.details">Name der L10N-Manager-Konfiguration. Verwenden Sie einen eindeutigen Namen, damit Sie die einzelnen Konfigurationen schnell wiederfinden.</label>
+			<label index="depth.description">Anzahl der für die Übersetzung zu exportierenden Seitenebenen.</label>
+			<label index="depth.details">Wählen Sie aus, ob Sie nur die aktuelle Seite exportieren möchten oder ob Sie auch die Unterseiten in den Export mit einbeziehen möchten.</label>
+			<label index="tablelist.description">Exportieren Sie Inhalte aus folgenden Tabellen:</label>
+			<label index="tablelist.details">Inhalte aus Seiten und Content-Elementen
+
+- Wählen Sie aus der Liste die Tabellen, aus denen Sie die zu übersetzenden Daten exportieren möchten. Übersetzbare Metadaten der Seiten (Seitentitel, Navigationstitel, Schlüsselwörter, Beschreibung etc.) sind in der Tabelle &quot;pages&quot; (Page). Texte der Content-Elemente sind in der Tabelle &quot;tt_content&quot; (Seiteninhalte) gespeichert. In der Regel müssen Sie beide Tabellen exportieren.
+
+Inhalte aus Extensions
+
+- Inhalte aus Extensions wird in verschiedenen Datenbanktabellen gespeichert. Zum Exportieren, wählen Sie den Namen der Extension aus der Liste. Zur Auswahl mehrerer Elemente halten Sie die Strg-Taste gedrückt und klicken Sie mit der Maus auf die übrigen Elemente.</label>
+			<label index="sourceLangStaticId.description">Ausgangssprache für die Übersetzung.</label>
+			<label index="sourceLangStaticId.details">Wählen Sie die Ausgangssprache für die Übersetzung aus der Liste. Die Auswahl ist notwendig, damit die korrekten xml:lang-Attribute in die Exportdatei eingefügt werden können.</label>
+			<label index="displaymode.description">Wählen Sie die Art der HTML-Übersicht.</label>
+			<label index="exclude.description">Schließen Sie Datensätze aus bestimmten Tabellen vom Export aus.</label>
+			<label index="include.description">Schließen Sie Datensätze aus bestimmten Tabellen in den Exort ein.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+	</orig_hash>
+	<orig_text type="array">
+	</orig_text>
+</T3locallang>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Interne Erinnerungsnotiz auf einer Seite.</label>
+      <label index=".details">Bietet eine einfache Möglichkeit, um interne Informationen und Anweisungen mit einer Seite zu verknüpfen.</label>
+      <label index="_.seeAlso">Seiten</label>
+      <label index="category.description">Wählen Sie eine die Notiz beschreibende Kategorie aus.</label>
+      <label index="subject.description">Geben Sie einen Titel für die Notiz ein.</label>
+      <label index="message.description">Dies ist die eigentliche Notiz.</label>
+      <label index="author.description">Geben Sie Ihren Namen ein.</label>
+      <label index="email.description">Geben Sie Ihre E-Mail-Adresse ein.</label>
+      <label index="personal.description">Notiz auch anderen Benutzern anzeigen.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

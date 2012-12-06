@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="configuration">Konfiguration</label>
+      <label index="typo3ConfVars">$TYPO3_CONF_VARS (Globale Konfiguration)</label>
+      <label index="tca">$TCA (Array für Tabellenkonfiguration)</label>
+      <label index="tcaDescr">$TCA_DESCR (Beschreibungen für Tabellenhilfe)</label>
+      <label index="loadedExt">$TYPO3_LOADED_EXT (Geladene Erweiterungen)</label>
+      <label index="tbeStyles">$TBE_STYLES (Oberflächen-Stile)</label>
+      <label index="beUser">$BE_USER-&gt;uc (Benutzereinstellungen)</label>
+      <label index="usersettings">$TYPO3_USER_SETTINGS (Konfiguration für Benutzereinstellungen)</label>
+      <label index="t3services">$T3_SERVICES (Registrierte Dienste)</label>
+      <label index="tbemodulesext">$TBE_MODULES_EXT (Erweiterungen für BE-Module)</label>
+      <label index="tbemodules">$TBE_MODULES (BE-Module)</label>
+      <label index="cropLines">Zeilen kappen</label>
+      <label index="variable">Variable:</label>
+      <label index="copyPaste">Jetzt können Sie diesen Wert kopieren und in die Konfigurationsdatei einfügen, wo Sie ihn setzen können. Mehr ist hier nicht möglich...</label>
+      <label index="enterSearchPhrase">Suchbegriff eingeben:</label>
+      <label index="search">Suchen</label>
+      <label index="useRegExp">Regulären Ausdruck verwenden</label>
+      <label index="writeValue">Wert in Konfigurationsdatei schreiben</label>
+      <label index="writeMessage">Die folgende Zeile wurde der Konfigurationsdatei (%s) hinzugefügt: %s%s</label>
+      <label index="writeMessageFailed">Schreiben der Konfigurationsdatei fehlgeschlagen (%s)!</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="external_link_altText">Öffnet externen Link im aktuellen Fenster</label>
+      <label index="external_link_titleText">Öffnet externen Link im aktuellen Fenster</label>
+      <label index="external_link_new_window_altText">Öffnet externen Link in neuem Fenster</label>
+      <label index="external_link_new_window_titleText">Öffnet externen Link in neuem Fenster</label>
+      <label index="internal_link_altText">Öffnet internen Link im aktuellen Fenster</label>
+      <label index="internal_link_titleText">Öffnet internen Link im aktuellen Fenster</label>
+      <label index="internal_link_new_window_altText">Öffnet internen Link in neuem Fenster</label>
+      <label index="internal_link_new_window_titleText">Öffnet internen Link in neuem Fenster</label>
+      <label index="download_altText">Leitet Herunterladen der Datei ein</label>
+      <label index="download_titleText">Leitet Herunterladen der Datei ein</label>
+      <label index="mail_altText">Öffnet ein Fenster zum Versenden der E-Mail</label>
+      <label index="mail_titleText">Öffnet ein Fenster zum Versenden der E-Mail</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

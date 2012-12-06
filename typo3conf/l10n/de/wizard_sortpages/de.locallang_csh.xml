@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="tx_wizardsortpages.alttitle">Seitensortierungsassistent</label>
+      <label index="tx_wizardsortpages.description">Der Assistent ermöglicht es Ihnen, Seiten alphabetisch nach Titel oder Untertitel, Erstellungs- oder Änderungszeitpunkt zu sortieren. Auch die Reihenfolge der Seiten im Seitenbaum läßt sich hier umkehren.</label>
+      <label index="tx_wizardsortpages.details">Seiten im Seitenbaum sind immer manuell sortiert. Seiten lassen sich innerhalb des Seitenbaums hoch oder runter schieben, einrücken usw. und dieses Verhalten ist auf Systemebene nicht wirklich beeinflussbar. Dieser Assistent gibt Ihnen aber die Möglichkeit, die Sortierreihenfolge Ihrer Unterseiten schnell zu ändern. Klick einfach einen der Links am Ende der Assistenten-Seite: &lt;b&gt;Seitentitel&lt;/b&gt; Sortiert Seiten nach dem Seitentitel. &lt;b&gt;Untertitel&lt;/b&gt; Sortiert Seiten nach dem Untertitel. &lt;b&gt;Änderungszeitpunkt&lt;/b&gt; Sortiert Seiten nach dem Änderungszeitpunkt. &lt;b&gt;Erstellungszeitpunkt&lt;/b&gt; Sortiert Seiten nach dem Erstellungszeitpunkt. &lt;b&gt;Aktuelle Sortierreihenfolge umkehren&lt;/b&gt; Kehrt die aktuelle Sortierreihenfolge um. Wählen Sie diese Option, wenn Sie zum Beispiel Ihre Seiten in umgekehrt-alphabetisch Reihenfolge sortiert haben wollen (also von Z-A statt A-Z). Gleiches gilt natürlich auch für Untertitel sowie für den Erstellungs- oder Änderungszeitpunkt.</label>
+      <label index="_tx_wizardsortpages.image">EXT: wizard_sortpages/cshimages/wizards_1.png</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

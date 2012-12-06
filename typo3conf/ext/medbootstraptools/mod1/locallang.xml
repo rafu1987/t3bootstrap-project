@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for module &quot;tools_txmedbootstraptoolsM1&quot;</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="title">T3Bootstrap Configuration</label>
+            <label index="installToolPassword">Install Tool Password:</label>
+            <label index="configAlready">T3Bootstrap was already configured</label>
+            <label index="projectName">Project name:</label>
+            <label index="adminUser">Admin user</label>
+            <label index="responsive">Responsive:</label>
+            <label index="save">Save</label>
+            <label index="configSaved">The T3Bootstrap config was saved</label>
+            <label index="backendPasses">The Backend Passes are:</label>
+            <label index="adminUserInfo">(1 User per row, Mode: "User name","Name","eMail address","Language","User group (ID)","Admin (0/1)")</label>
+            <label index="admin">Admin</label>
+            <label index="adminUserGroup">Admin usergroup</label>
+            <label index="editor">Editor</label>
+            <label index="editorUserGroup">Editor usergroup</label>
+            <label index="copyrightNotice">Copyright notice:</label>
+            <label index="copyrightDefault"><![CDATA[TYPO3 implementation by medialis.net - online marketing & entwicklung]]></label>
+            <label index="database">Database:</label>
+            <label index="databaseSuccess">The database was successfully imported</label>
+            <label index="basedomainDE">German basedomain (with trailing slash):</label>
+            <label index="basedomainEN">English basedomain (with trailing slash):</label>
+            <label index="noBasedomain">No basedomain entered</label>
+            <label index="noBasedomainText">You didn't enter a basedomain. Go back and change this.</label>
+            <label index="email">Recipient eMail address contact form:</label>
+            <label index="noEmail">No eMail address entered</label>
+            <label index="noEmailText">You didn't enter an eMail address. Go back and change this.</label> 
+            <label index="noValidEmail">No valid eMail address entered</label>
+            <label index="noValidEmailText">You didn't enter a valid eMail address. Go back and change this.</label>  
+            <label index="serverName">Server name:</label>  
+            <label index="username">Username:</label> 
+            <label index="password">Password:</label>    
+            <label index="host">Host:</label> 
+            <label index="databaseConnection">Settings LIVE server</label> 
+            <label index="databaseConnectionPreview">Settings PREVIEW server</label> 
+            <label index="imageMagickPath">Imagemagick Path:</label> 
+            <label index="generalSettings">General Settings</label> 
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="title">T3Bootstrap Konfiguration</label>
+            <label index="installToolPassword">Install Tool Passwort:</label>
+            <label index="configAlready">T3Bootstrap wurde bereits konfiguriert</label>
+            <label index="projectName">Projekt Name:</label>
+            <label index="adminUser">Admin Benutzer</label>
+            <label index="responsive">Responsive:</label>
+            <label index="save">Speichern</label>
+            <label index="configSaved">Die T3Bootstrap Konfiguration wurde gespeichert</label>
+            <label index="backendPasses">Die Backend Passwörter sind:</label>
+            <label index="adminUserInfo">(1 Benutzer pro Zeile, Form: "Benutzername","Name","E-Mail Adresse","Sprache","Benutzergruppe (ID)","Admin (0/1)")</label>
+            <label index="admin">Admin</label>
+            <label index="adminUserGroup">Admin Benutzergruppe</label>
+            <label index="editor">Redakteur</label>
+            <label index="editorUserGroup">Redakteur Benutzergruppe</label> 
+            <label index="copyrightNotice">Copyright Hinweis Quelltext:</label>
+            <label index="copyrightDefault"><![CDATA[TYPO3 implementation by medialis.net - online marketing & entwicklung]]></label> 	
+            <label index="database">Datenbank:</label>
+            <label index="databaseSuccess">Die Datenbank wurde erfolgreich importiert</label>   
+            <label index="basedomainDE">Deutsche Basedomain (mit / am Ende):</label>
+            <label index="basedomainEN">Englische Basedomain (mit / am Ende):</label>
+            <label index="noBasedomain">Keine Basedomain angegegen</label>
+            <label index="noBasedomainText">Du hast keine Basedomain angegeben. Bitte gehe zurück und ändere dies.</label>                                 	        <label index="email">Empfänger E-Mail Adresse Kontaktformular:</label> 
+            <label index="noEmail">Keine E-Mail Adresse angegegen</label>
+            <label index="noEmailText">Du hast keine E-Mail Adresse angegeben. Bitte gehe zurück und ändere dies.</label> 
+            <label index="noValidEmail">Keine gültige E-Mail Adresse angegegen</label>
+            <label index="noValidEmailText">Du hast keine gültige E-Mail Adresse angegeben. Bitte gehe zurück und ändere dies.</label>   
+            <label index="serverName">Server Name:</label>  
+            <label index="username">Benutzername:</label> 
+            <label index="password">Passwort:</label>    
+            <label index="host">Host:</label>   
+            <label index="databaseConnection">Einstellungen LIVE Server</label>  
+            <label index="databaseConnectionPreview">Einstellungen PREVIEW Server</label> 
+            <label index="imageMagickPath">Imagemagick Pfad:</label>    
+            <label index="generalSettings">Allgemeine Einstellungen</label>                                
+        </languageKey>
+    </data>
+</T3locallang>

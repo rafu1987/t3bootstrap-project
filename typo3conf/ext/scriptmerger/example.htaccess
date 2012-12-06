@@ -1,0 +1,27 @@
+### BEGIN EXT:scriptmerger ###
+
+# Removal of ETag (saves some bytes; the last modified header is still there)
+FileETag MTime Size
+<IfModule mod_headers.c>
+	FileETag none
+</IfModule>
+
+# Client caching of JS/CSS files (because they are merged with an applied hash!)
+# Note: Unsetting of the last modified header causes a permant 200 Ok status
+<FilesMatch "\.(merge|min|gz)(\.gz)?\.(js|css)">
+	<IfModule mod_expires.c>
+		ExpiresActive on
+		ExpiresDefault "access plus 1 year"
+	</IfModule>
+
+	<IfModule mod_headers.c>
+		Header append Cache-Control "public"
+	</IfModule>
+</FilesMatch>
+
+# deliver the uncompressed file if gzip encoding isn't accepted
+AddEncoding x-gzip .gz
+RewriteCond %{HTTP:accept-encoding} !gzip [NC]
+RewriteRule ^typo3temp/scriptmerger/compressed/(.+)\.gz\.(js|css) typo3temp/scriptmerger/uncompressed/$1.$2 [L,NC]
+
+### END EXT:scriptmerger ###

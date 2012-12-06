@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Template file for the&quot;macina_searchbox&quot;extension.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<h3>Template file for the &quot;macina_searchbox&quot; extension.</h3>
+<p><b>Available Markers:</b></p>
+<ul>
+  <li>###HEADLINE### Displays the Headline</li>
+  <li>###ADVANCED### Advanced Search Link</li>
+  <li>###SUBMIT### Alttext for the submit button</li>
+  <li>###ACTLANG### UID of the actual language</li>
+  <li>###SEARCHPID### PID of the Searchpage</li>
+</ul>
+<!-- ###TEMPLATE### begin -->
+<form action="###SEARCHPID###" method="post" name="searchform" id="searchform" style="margin:0px; padding:0px; ">
+  <table height="14" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td valign="top">###HEADLINE###</td>
+      <td valign="middle" width="10">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left"><input name="tx_indexedsearch[sword]" type="text" style="height:18; width:130; font-size:11" /></td>
+      <td><input name="tx_indexedsearch[submit_button]" type="submit" style="border:0" value="Submit" />
+        <input type="hidden" name="tx_indexedsearch[_sections]" value="0" />
+        <input type="hidden" name="tx_indexedsearch[pointer]" value="0" />
+        <input type="hidden" name="tx_indexedsearch[ext]" value="0" />
+        <input type="hidden" name="tx_indexedsearch[lang]" value="###ACTLANG###" />
+      </td>
+    </tr>
+    <tr>
+      <td align="left" valign="middle" style="font-size:9px">###ADVANCED###</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</form>
+<!-- ###TEMPLATE### end -->
+</body>
+</html>

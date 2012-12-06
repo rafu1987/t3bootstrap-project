@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="layout.description">Das Frontend-Layout kann das Aussehen einer Seite verändern.</label>
+      <label index="layout.details">Diese Option hat nur dann Einfluss auf das Seitendesign im Frontend, wenn das Frontend-Template sie benutzt. Die meisten Templates tun dies nicht.</label>
+      <label index="doktype.description">Der Seitentyp bestimmt, ob die Seite eine normale Webseite ist, ein Verweis auf eine andere Webseite ist oder in einer anderen internen Weise verwendet wird.</label>
+      <label index="doktype.details">'Standard' ist der am häufigsten verwendete Seitentyp und wird für normale Webseiten verwendet.
+'Backend-Benutzerbereich' ist eine Option, die Seiten erstellt, welche nur im Frontend für Backend-Benutzer sichtbar sind wenn sie angemeldet sind.
+
+&lt;b&gt;Link&lt;/b&gt;
+Seiten des Typs 'Verweis' verlinken auf eine andere Seite im Seitenbaum.
+Seiten des Typs 'Einstiegspunkt' bringen Inhalt aus einem anderen Teilbereich in den aktuellen Teilbereich.
+'Link zu externer URL' ist ähnlich wie 'Verweis', zeigt aber auf externe URLs anstatt auf TYPO3-Seiten.
+
+&lt;b&gt;Spezial&lt;/b&gt;
+'Ordner' ist ein Seitentyp, der nicht als Webseite angezeigt wird, sondern Datensätze Ihrer Wahl beinhaltet.
+'Papierkorb' ist ein Mülleimer. Seiten und Datensätze im Papierkorb sind nicht im Frontend sichtbar.
+'Trennzeichen für Menü' ist nur sinnvoll, wenn ihre Frontend-Menüs so programmiert sind, dass diese verwendet werden können. Es stellt keine Seite mit Inhalt dar, sondern ist als nicht klickbarer Platzhalter in dem Menü gedacht.
+
+&lt;b&gt;Anmerkung&lt;/b&gt; Jeder Seitentyp wird durch ein spezielles Symbol dargestellt. Die verfügbaren Seitentypen können für Benutzer eingeschränkt werden, so dass nicht alle oben genannten Optionen sichtbar sein könnten. Letztlich können bestimmte Datensatztypen nur in Verbindung mit bestimmten Seitentypen erlaubt sein, aber alle Datensätze können in einem 'Ordner' platziert werden.</label>
+      <label index="_doktype.seeAlso">pages:shortcut,
+pages:url</label>
+      <label index="hidden.description">Wenn dieses Feld markiert ist, wird die Seite in der Webseite deaktiviert.</label>
+      <label index="hidden.details">Die Einstellungen zu Sichtbarkeit, Veröffentlichungsdaten und Zugriffsrechten dienen alle zur Beschränkung des Zugriffs auf Seiten und sind miteinander verwandt. Wenn eine Seite wegen einer dieser Einstellungen nicht angezeigt wird, erscheint die Seite auch nicht in Menüs. 
+Achtung: Diese Einstellungen beziehen sich &lt;em&gt;nur&lt;/em&gt; auf die Seite, bei der sie gesetzt wurden. Wenn sie auch deren Unterseiten beeinflussen sollen, muß 'Auf Unterseiten ausdehnen' aktiviert werden. 
+Angemeldete Backend-Benutzer können sich ausgeblendete Seiten anzeigen lassen, solange sie Leserechte zu ihnen haben.</label>
+      <label index="_hidden.seeAlso">pages:starttime,pages:endtime,pages:fe_group,pages:extendToSubpages</label>
+      <label index="_hidden.image">EXT:context_help/cshimages/hidden_page.gif,
+EXT:context_help/cshimages/pages_1.png</label>
+      <label index="hidden.image_descr">Das Seiten-Symbol einer deaktivierten Seite wird durch ein rotes Minus gekennzeichnet. Wenn Sie eine deaktivierte Seite betrachten, während Sie im Backend angemeldet sind, können Sie die Seite dennoch sehen. Die rote "Preview"-Box weist in solch einem Fall auf diesen gesonderten Umstand hin.</label>
+      <label index="starttime.description">Das Veröffentlichungsdatum bestimmt wann die Seite online sichtbar wird. Falls kein Veröffentlichungsdatum angegeben ist, ist die Seite sofort verfügbar.</label>
+      <label index="starttime.syntax">Das Format des Veröffentlichungsdatums ist entweder DD-MM-YYYY order MM-DD-YYYY, abhängig von der TYPO3-Konfiguration. Es stehen verschiedene Kürzel zur Verfügung, die man zur Eingabe des Datums verwenden können.
+Setzt man ein 'd' ein, wird das aktuelle Datum eingefügt. Man kann außerdem jeden beliebigen Wert in dem Feld um eine Zahl ergänzen. So addiert '+10' 10 Tage zum aktuellen Wert. Zum Beispiel würde die Eingabe von 'd+10' in einem Datum in 10 Tagen ab heute resultieren.</label>
+      <label index="_starttime.seeAlso">pages:endtime,pages:hidden</label>
+      <label index="_.seeAlso">tt_content</label>
+      <label index="endtime.description">Das Ablaufdatum bestimmt, ab wann die Seite nicht mehr online sichtbar sein wird.</label>
+      <label index="endtime.syntax">Siehe Seite / Veröffentlichungsdatum (unten anklicken)</label>
+      <label index="_endtime.seeAlso">pages:starttime</label>
+      <label index="fe_group.description">Wenn für 'Zugriffsrechte für Benutzergruppen' der Name einer Benutzergruppe ausgewählt wurde, können nur Benutzer, die Mitglied dieser Gruppe sind, die Seite ansehen. Mit der Option 'Nach Anmeldung verbergen' ist die Seite für alle angemeldeten Benutzer &lt;em&gt;nicht&lt;/em&gt; sichtbar. Entsprechend macht 'Anzeigen, wenn angemeldet' die Seite für alle angemeldeten Frontend-Benutzer sichtbar.</label>
+      <label index="_fe_group.seeAlso">fe_groups</label>
+      <label index="_fe_group.image">EXT:context_help/cshimages/fegroups_4.png</label>
+      <label index="extendToSubpages.description">Standardmäßig beeinflussen Veröffentlichungsdatum, Ablaufdatum, Zugriffsrechte für Benutzergruppen und Seiten-Sichtbarkeitseinstellungen &lt;em&gt;nur&lt;/em&gt; die Seiten, in denen sie gesetzt sind. Wenn die Option 'Auf Unterseiten ausdehnen" für die Seite gesetzt ist, dann gilt das auch für alle Unterseiten.</label>
+      <label index="extendToSubpages.details">Betrachtet man ein Szenario, in dem man einen Abschnitt von Unterseiten erstellen, die nur für angemeldete Benutzer sichtbar sind. Legt man  für die Elternseite Zugriffsrechte in diesem Bereich fest, würde die Seite aus den Menüs entfernt werden, wenn kein Benutzer angemeldet ist.
+Auf die Unterseite könnte jedoch immer zugegriffen werden, wenn man die Seite-ID errät und diese manuell in der URL einträgt. Wird die Option "Auf Unterseiten ausdehnen" aktiviert, gelten die Zugriffrechte auch für alle Unterseiten.</label>
+      <label index="_extendToSubpages.seeAlso">pages:hidden,
+pages:starttime,
+pages:endtime,
+pages:fe_group</label>
+      <label index="_extendToSubpages.image">EXT:context_help/cshimages/pages_2.png</label>
+      <label index="extendToSubpages.image_descr">Für diese Seite ist der Zugriff auf eine bestimmte Gruppe beschränkt und die Option 'Auf Unterseiten ausdehnen' ist zusätzlich gesetzt. Dies wird durch das geänderte Seitensymbol verdeutlicht.</label>
+      <label index="alias.description">Ein 'URL-Alias' ist ein eindeutiger Name für eine Seite. Dieser Name kann anstelle der numerischen ID verwendet werden, um auf die Seite zu verweisen.</label>
+      <label index="alias.details">Letztlich wird eine Seite anhand seiner ID-Nummer identifiziert. Zum Beispiel können sie eine Seite in TYPO3 mit '.../?id=123' aufrufen. Wenn die Seite mit der ID '123' das URL-Alias 'eins_zwei_drei' hat, dann würde die URL '.../?id=eins_zwei_drei' exakt die selbe Seite anzeigen, weil 'eins_zwei_drei' ein URL-Alias für die ID '123' ist.
+URL-Aliase werden normalerweise nur den meistbesuchten Seiten zugewiesen, nicht allen. Bei den meisten TYPO3-Konfigurationen können Sie den Syntax '... &amp;lt;link eins_zwei_drei&amp;gt;gehe zur Seite&amp;lt;/link&amp;gt; ...' um einen Link zu einer Seite zu erstellen. Das ist besser merkbar.
+Ein weiterer Anwendungsfall ist, wenn man die Seite ändern will, auf die ein üblicherweise verwendeter Link zeigt. In diesem Fall können sie das URL-Alias auf der Originalseite löschen und es auf der neuen Seite wieder einsetzen. Alle Links, die das URL-Alias verwenden, würden nun auf die neue Seite und seine ID-Nummer verweisen.</label>
+      <label index="alias.syntax">Ein URL-Alias darf nur Kleinbuchstaben und Ziffern enthalten und muss eindeutig sein. Bitte beachten Sie: Wenn ein gleichnamiger URL-Alias bereits existiert, wird am Ende eine Nummer angehängt werden.</label>
+      <label index="target.description">Dies setzt das standardmäßige Linkziel für die auf diese Seite verweisende Menüelemente. Es kann auch dazu verwendet werden um die Seite als Popup-Fenster zu öffnen.</label>
+      <label index="target.details">Das Linkziel hebt das standardmäßige Linkziel-Verhalten auf, welches bereits richtig für die meisten Seiten im TypoScript-Template konfiguriert sein sollte.
+Für das Linkziel-Feld sind noch zusätzliche Optionen verfügbar.
+
+Wenn sie einen Zahlenwert am Anfang des Feldes eintragen, wird dieser als Standard-Typ für die Seite gesetzt.
+Wenn zum Beispiel ein RSS-Feed im TypoScript als typenum=100 konfiguriert ist, dann könnte der Eintrag 100 bei Linkziel benutzt werden, um einen RSS-Link im Menü hinzuzufügen.
+
+Der folgende Syntax verwendet, um eine Seite in einem Popup-Fenster zu öffnen:
+400x200 - Öffnet die Seite in einem 400x200 Pixel großen Popup-Fenster.
+230x450:resizable=0,location=1 - Öffnet die Seite in einem 230x450 Pixel großen Popup-Fenster, dessen Größe nicht verändert werden kann und das eine Adressleiste hat.
+
+Kombinationen:
+100 600x350 - Öffnet die Seite in einem 600x350 Pixel großen Popup-Fenster mit type=100.
+2 _blank - Öffnet die Seite mit dem Ziel "_blank" und type=2.</label>
+      <label index="no_cache.description">Diese Option deaktiviert das serverseitige Zwischenspeichern der Seite.</label>
+      <label index="no_cache.details">Normalerweise werden Seiten in TYPO3 serverseitig zwischengespeichert, wenn sie das erste Mal erzeugt werden. Dadurch wird die Seite wesentlich schneller angezeigt, wenn sie ein weiteres Mal angefordert wird. Mit den meisten Seiten funktioniert das problemlos udn erhöht deutlich die Geschwindigkeit. Allerdings muss das Zwischenspeichern eventuell für Seiten deaktiviert werden, die dynamisch erzeugte Inhalte enthalten, die auf gar keinen Fall zwischengespeichert werden sollen. Normalerweise wird bei solchen Inhalten das Zwischenspeichern automatisch durch den darstellenden PHP-Code deaktiviert. Mit dieser Einstellung kann man jedoch erzwingen, daß die Seite nicht zwischengespeichert wird.</label>
+      <label index="_no_cache.seeAlso">pages:cache_timeout</label>
+      <label index="cache_timeout.description">Setzt die Lebensdauer des Zwischenspeichers der Seite.</label>
+      <label index="cache_timeout.details">Standardmäßig werden Seiten für 24 Stunden zwischengespeichert. Nach 24 Stunden wird die Seite neu erzeugt und neu in den Zwischenspeicher geschrieben. Abhängig von der Konfiguration wird der Zwischenspeicher möglicherweise um Mitternacht gelöscht. Wenn bestimmte Seiten eine längere oder kürzere Lebensdauer im Zwischenspeicher benötigen, kann diese Option vewendet werden.</label>
+      <label index="_cache_timeout.seeAlso">pages:no_cache</label>
+      <label index="no_search.description">Falls aktiviert verhindert diese Einstellung, dass die Seite bei einer Suche berücksichtigt wird.</label>
+      <label index="author.description">Geben Sie den Namen des Seitenautors ein.</label>
+      <label index="author.details">Ob der Name des Autors verwendet wird oder nicht, hängt von den Einstellungen in ihrem TypoScript-Template ab.
+
+- Sie können es in einem Meta-Tag verwenden.
+- Wenn sie TYPO3-Seiten als 'Artikel' verwenden, könnten sie das Feld dazu benutzen, um den Namen des Seiten-/Artikel-Autors anzuzeigen.</label>
+      <label index="_author.seeAlso">pages:author_email</label>
+      <label index="author_email.description">Geben Sie die E-Mail-Adresse des Autors ein.</label>
+      <label index="_author_email.seeAlso">pages:author</label>
+      <label index="module.description">Seite als Container für eine Erweiterung definieren.</label>
+      <label index="module.details">Das setzen diese Option zeigt im Backend an, ob diese Seite einen speziellen Inhalt oder Zweck hat; beispielsweise, dass sie eine Forum enthält oder die Ursprungsseite eines Shop-Bereiches der Webseite ist. Auf Basis dieser Einstellung kann das Backend eine Verweisliste und relenvante Funktionen im 'Web&gt;Module' Modul anzeigen. Die Frontend-Anzeige ist davon größtenteils unbeeinflusst.
+Die Seite als Inhaltsseite für ein 'Shop' Plug-in zu markieren bedeutet ganz einfach, dass sie in der Verweisliste der Module im Backend erscheinen wird.
+
+Bezüglich weiterer Details zu dieser Option verwenden sie bitte die Administrationsdokumentation.
+
+Es wird empfohlen, dass nur Admin-Benutzer Zugriff auf dieses Feld haben!</label>
+      <label index="media.description"/>
+      <label index="media.details"/>
+      <label index="subtitle.description"/>
+      <label index="subtitle.details">Ob diese Feld benutzt wird oder nicht, hängt von ihrem Template ab. In den meisten Fällen wird es nicht benutzt.</label>
+      <label index="url.description">Geben sie die URL ein, auf die diese Seite weiterleitet.</label>
+      <label index="url.details">Zum Beispiel: 'http://www.typo3.de' oder nur 'www.typo3.de', wenn bei 'Protokoll' 'http://' eingestellt ist.
+Benutzen Sie die Auswahl 'Protokoll' um einen Präfix für die URL einzustellen.
+
+Diese Option wird nur benutzt, wenn die Seite vom 'Typ' auf 'Link zu externer URL' ausgewählt ist.</label>
+      <label index="_url.seeAlso">pages:urltype</label>
+      <label index="shortcut.description">Wähle eine Seite als Verweisziel. Wird die aktuelle Seite im Frontend angefordert, erfolgt eine Weiterleitung zum Verweisziel.</label>
+      <label index="shortcut.details"/>
+      <label index="_shortcut.seeAlso">pages:doktype,
+pages:shortcut_mode</label>
+      <label index="_shortcut.image">EXT:context_help/cshimages/page_shortcut.gif</label>
+      <label index="shortcut.image_descr"/>
+      <label index="keywords.description">Geben sie Stichworte, getrennt durch Kommata, für die Seite ein. Sie können auch kurze Sätze verwenden.</label>
+      <label index="keywords.details"/>
+      <label index="_keywords.seeAlso">pages:description</label>
+      <label index="description.description">Geben Sie eine kurze Beschreibung der Seite ein. Sie wird in den Ergebnislisten der meisten Suchmaschinen angezeigt.</label>
+      <label index="description.details"/>
+      <label index="_description.seeAlso">pages:keywords
+pages:abstract</label>
+      <label index="abstract.description"/>
+      <label index="abstract.details"/>
+      <label index="_abstract.seeAlso">pages:description</label>
+      <label index="newUntil.description"/>
+      <label index="newUntil.details"/>
+      <label index="newUntil.syntax">Siehe Seite / Veröffentlichungsdatum (unten anklicken)</label>
+      <label index="_newUntil.seeAlso">pages:starttime</label>
+      <label index="lastUpdated.description"/>
+      <label index="lastUpdated.details"/>
+      <label index="lastUpdated.syntax"/>
+      <label index="nav_hide.description"/>
+      <label index="_nav_hide.seeAlso">pages:nav_title</label>
+      <label index="nav_title.description"/>
+      <label index="content_from_pid.description"/>
+      <label index="urltype.description"/>
+      <label index="shortcut_mode.description"/>
+      <label index="mount_pid.description"/>
+      <label index="mount_pid.details"/>
+      <label index="_mount_pid.seeAlso">pages:mount_pid_ol</label>
+      <label index="mount_pid_ol.description"/>
+      <label index="_mount_pid_ol.seeAlso">pages:mount_pid</label>
+      <label index="title.description.+"/>
+      <label index="TSconfig.details.+"/>
+      <label index="l18n_cfg.description"/>
+      <label index="l18n_cfg.details"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

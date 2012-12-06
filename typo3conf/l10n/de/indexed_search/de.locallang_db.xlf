@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="indexed_search" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="index_config" xml:space="preserve" approved="yes">
+        <source>Indexing Configuration</source>
+      <target state="translated">Indexierungseinstellungen</target></trans-unit>
+      <trans-unit id="index_config.title" xml:space="preserve" approved="yes">
+        <source>Title:</source>
+      <target state="translated">Titel:</target></trans-unit>
+      <trans-unit id="index_config.description" xml:space="preserve" approved="yes">
+        <source>Description:</source>
+      <target state="translated">Beschreibung:</target></trans-unit>
+      <trans-unit id="index_config.type.I.1" xml:space="preserve" approved="yes">
+        <source>Database Records</source>
+      <target state="translated">Datensätze</target></trans-unit>
+      <trans-unit id="index_config.type.I.2" xml:space="preserve" approved="yes">
+        <source>Filepath on server</source>
+      <target state="translated">Dateipfad auf dem Server</target></trans-unit>
+      <trans-unit id="index_config.type.I.3" xml:space="preserve" approved="yes">
+        <source>External URL</source>
+      <target state="translated">Externe URL</target></trans-unit>
+      <trans-unit id="index_config.type.I.4" xml:space="preserve" approved="yes">
+        <source>Page tree</source>
+      <target state="translated">Seitenbaum</target></trans-unit>
+      <trans-unit id="index_config.type.I.5" xml:space="preserve" approved="yes">
+        <source>Meta configuration</source>
+      <target state="translated">Metakonfiguration</target></trans-unit>
+      <trans-unit id="index_config.type" xml:space="preserve" approved="yes">
+        <source>Type:</source>
+      <target state="translated">Typ:</target></trans-unit>
+      <trans-unit id="index_config.depth.I.0" xml:space="preserve" approved="yes">
+        <source>Single page</source>
+      <target state="translated">Einzelne Seite</target></trans-unit>
+      <trans-unit id="index_config.depth.I.1" xml:space="preserve" approved="yes">
+        <source>1 Level</source>
+      <target state="translated">1 Ebene</target></trans-unit>
+      <trans-unit id="index_config.depth.I.2" xml:space="preserve" approved="yes">
+        <source>2 Levels</source>
+      <target state="translated">2 Ebenen</target></trans-unit>
+      <trans-unit id="index_config.depth.I.3" xml:space="preserve" approved="yes">
+        <source>3 Levels</source>
+      <target state="translated">3 Ebenen</target></trans-unit>
+      <trans-unit id="index_config.depth" xml:space="preserve" approved="yes">
+        <source>Depth:</source>
+      <target state="translated">Tiefe:</target></trans-unit>
+      <trans-unit id="index_config.table2index" xml:space="preserve" approved="yes">
+        <source>Table to index:</source>
+      <target state="translated">Zu indexierende Tabelle:</target></trans-unit>
+      <trans-unit id="index_config.alternative_source_pid" xml:space="preserve" approved="yes">
+        <source>Alternative Source Page:</source>
+      <target state="translated">Alternative Quellseite:</target></trans-unit>
+      <trans-unit id="index_config.get_params" xml:space="preserve" approved="yes">
+        <source>GET parameter string (with ###UID### substitution):</source>
+      <target state="translated">GET-Parameter-String (mit ###UID###-Ersetzung):</target></trans-unit>
+      <trans-unit id="index_config.fields" xml:space="preserve" approved="yes">
+        <source>Fields (first is title):</source>
+      <target state="translated">Felder (erstes ist Titel):</target></trans-unit>
+      <trans-unit id="index_config.externalUrl" xml:space="preserve" approved="yes">
+        <source>External URL (eg. "http://www.domain.org/"):</source>
+      <target state="translated">Externe URL (z.B.: "http://www.domain.org/"):</target></trans-unit>
+      <trans-unit id="index_config.chashcalc" xml:space="preserve" approved="yes">
+        <source>Calculate cHash (force caching)?</source>
+      <target state="translated">cHash-Wert berechnen (Caching erzwingen)?</target></trans-unit>
+      <trans-unit id="index_config.filepath" xml:space="preserve" approved="yes">
+        <source>Filepath:</source>
+      <target state="translated">Dateipfad:</target></trans-unit>
+      <trans-unit id="index_config.extensions" xml:space="preserve" approved="yes">
+        <source>Limit to extensions (commalist):</source>
+      <target state="translated">Beschränken auf folgende Erweiterungen (kommagetrennte Liste):</target></trans-unit>
+      <trans-unit id="index_config.url_deny" xml:space="preserve" approved="yes">
+        <source>Enter sub-URLs in which not to decend:</source>
+      <target state="translated">In diese Sub-URLs nicht weiter absteigen:</target></trans-unit>
+      <trans-unit id="index_config.records_indexonchange" xml:space="preserve" approved="yes">
+        <source>Index Records immediately when saved?:</source>
+      <target state="translated">Datensätze direkt beim Speichern indexieren:</target></trans-unit>
+      <trans-unit id="index_config.timer_next_indexing" xml:space="preserve" approved="yes">
+        <source>Next indexing is scheduled (if empty, then immediately):</source>
+      <target state="translated">Nächste Indexierung ist geplant (wenn leer, dann sofort):</target></trans-unit>
+      <trans-unit id="index_config.timer_offset" xml:space="preserve" approved="yes">
+        <source>Timing offset from midnight:</source>
+      <target state="translated">Zeitversatz nach Mitternacht:</target></trans-unit>
+      <trans-unit id="index_config.timer_frequency" xml:space="preserve" approved="yes">
+        <source>How often would you like a re-index?:</source>
+      <target state="translated">Wie häufig soll eine Reindexierung vorgenommen werden?</target></trans-unit>
+      <trans-unit id="index_config.timer_frequency.I.0" xml:space="preserve" approved="yes">
+        <source>Every hour</source>
+      <target state="translated">stündlich</target></trans-unit>
+      <trans-unit id="index_config.timer_frequency.I.1" xml:space="preserve" approved="yes">
+        <source>Every day (24 hours)</source>
+      <target state="translated">täglich (24 Stunden)</target></trans-unit>
+      <trans-unit id="index_config.timer_frequency.I.2" xml:space="preserve" approved="yes">
+        <source>Every week</source>
+      <target state="translated">wöchentlich</target></trans-unit>
+      <trans-unit id="index_config.recordsbatch" xml:space="preserve" approved="yes">
+        <source>How many records to index a minute (default is 100):</source>
+      <target state="translated">Wie viele Datensätze sollen pro Minute indexiert werden (Standard ist 100):</target></trans-unit>
+      <trans-unit id="index_config.set_id" xml:space="preserve" approved="yes">
+        <source>Session ID (if &gt; zero, then indexing job is running):</source>
+      <target state="translated">Sitzungs-ID (wenn &gt; Null läuft Indexierungsprozess)</target></trans-unit>
+      <trans-unit id="index_config.indexcfgs" xml:space="preserve" approved="yes">
+        <source>Indexing configurations:</source>
+      <target state="translated">Indexierungseinstellungen:</target></trans-unit>
+      <trans-unit id="index_config.parameterCfgs" xml:space="preserve" approved="yes">
+        <source>Parameter combination configuration ([tablename]:&amp;[param]=###UID###):</source>
+      <target state="translated">Konfiguration Parameterkombination ([tablename]:&amp;[param]=###UID###):</target></trans-unit>
+      <trans-unit id="index_config.rootpage" xml:space="preserve" approved="yes">
+        <source>Root page:</source>
+      <target state="translated">Wurzelseite:</target></trans-unit>
+    </body>
+  </file>
+</xliff>

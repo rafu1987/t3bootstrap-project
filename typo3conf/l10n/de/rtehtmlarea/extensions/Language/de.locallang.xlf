@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="No language mark" xml:space="preserve" approved="yes">
+        <source>No language mark</source>
+      <target state="translated">Keine Sprachmarkierung</target></trans-unit>
+    </body>
+  </file>
+</xliff>

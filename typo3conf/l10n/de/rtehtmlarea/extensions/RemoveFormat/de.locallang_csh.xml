@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">htmlArea RTE &gt; Formatierung entfernen</label>
+      <label index=".description"/>
+      <label index=".details"/>
+      <label index=".image">EXT:rtehtmlarea/extensions/RemoveFormat/skin/images/remove-format.gif</label>
+      <label index=".image_descr"/>
+      <label index=".seeAlso">xEXT_rtehtmlarea_RemoveFormat:area,xEXT_rtehtmlarea_RemoveFormat:options</label>
+      <label index="area.alttitle">Wählen Sie den Bereich aus, der bereinigt werden soll</label>
+      <label index="area.description"/>
+      <label index="area.details"/>
+      <label index="selection.alttitle"/>
+      <label index="selection.description"/>
+      <label index="_selection.seeAlso">xEXT_rtehtmlarea_RemoveFormat:area</label>
+      <label index="all.alttitle">Formatierungen im gesamten Inhalt entfernen</label>
+      <label index="all.description"/>
+      <label index="_all.seeAlso">xEXT_rtehtmlarea_RemoveFormat:area</label>
+      <label index="options.alttitle"/>
+      <label index="options.description"/>
+      <label index="options.details"/>
+      <label index="options.seeAlso">xEXT_rtehtmlarea_RemoveFormat:htmlFormat,xEXT_rtehtmlarea_RemoveFormat:msWordFormat,xEXT_rtehtmlarea_RemoveFormat:typographicalPunctuation,xEXT_rtehtmlarea_RemoveFormat:nonBreakingSpace,xEXT_rtehtmlarea_RemoveFormat:images,xEXT_rtehtmlarea_RemoveFormat:allHtml</label>
+      <label index="htmlFormat.alttitle">Alle MS Word Markierungen und Stile entfernen</label>
+      <label index="htmlFormat.description"/>
+      <label index="htmlFormat.details"/>
+      <label index="msWordFormat.alttitle">Alle MS Word Markierungen und Stile entfernen</label>
+      <label index="msWordFormat.description"/>
+      <label index="msWordFormat.details"/>
+      <label index="typographicalPunctuation.alttitle"/>
+      <label index="typographicalPunctuation.description"/>
+      <label index="typographicalPunctuation.details"/>
+      <label index="nonBreakingSpace.alttitle">Geschützte Leerzeichen ersetzen</label>
+      <label index="nonBreakingSpace.description">Aktivieren Sie diese Option, wenn Sie geschützte Leerzeichen durch normale Leerzeichen ersetzen möchten.</label>
+      <label index="nonBreakingSpace.details">Diese Option ersetzt alle geschützten Leerzeichen mit einem normalen Leerzeichen.</label>
+      <label index="images.alttitle">Bilder entfernen</label>
+      <label index="images.description"/>
+      <label index="images.details">Diese Option entfernt alle HTML-Auszeichnungen vom ausgewählten Text.</label>
+      <label index="allHtml.alttitle"/>
+      <label index="allHtml.description"/>
+      <label index="allHtml.details">Diese Option entfernt alle HTML-Auszeichnungen vom ausgewählten Text.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

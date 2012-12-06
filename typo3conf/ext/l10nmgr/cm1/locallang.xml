@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for l10nmgr module cm1</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="general.action.refresh.button.title">Refresh</label>
+			<label index="general.action.save.button.title">Save</label>
+			<label index="general.action.cancel.button.title">Cancel</label>
+			<label index="general.action.blank.title">--Select Action--</label>
+			<label index="general.action.edit.link.title">Overview with links</label>
+			<label index="general.action.edit.inline.title">Online translation</label>
+			<label index="general.action.export.excel.title">Excel export/import</label>
+			<label index="general.action.export.xml.title">XML export/import</label>
+			<label index="general.action.export.xml.button.title">Export</label>
+			<label index="general.action.import.xml.button.title">Import</label>
+			<label index="general.access.error.title">ERROR: User has no access to edit any translations!</label>
+			<label index="general.title">L10N Export/Import</label>
+			<label index="general.export.configuration.title">Configuration of translation object:</label>
+			<label index="general.export.configuration.error.title">ERROR: No valid l10nmgr config!</label>
+			<label index="general.export.choose.action.title">Choose your action</label>
+			<label index="general.list.headline.depth.title">Depth</label>
+			<label index="general.list.headline.tables">Tables</label>
+			<label index="general.list.headline.exclude.title">Exclude</label>
+			<label index="general.list.headline.include.title">Include</label>
+			<label index="general.list.headline.incfcewithdefaultlanguage.title">Default FCE</label>
+			<label index="file.settings.downloads.title">Download settings files</label>
+			<label index="file.settings.available.title">Available settings files:</label>
+			<label index="file.settings.across.title">across (.dst)</label>
+			<label index="file.settings.dejaVu.title">DéjàVu (.dvflt)</label>
+			<label index="file.settings.memoq.title">memoQ (.xml)</label>
+			<label index="file.settings.transit.title">STAR Transit (.ffd)</label>
+			<label index="file.settings.sdltrados2007.title">SDL Trados 2007 (.ini)</label>
+			<label index="file.settings.sdltrados2009.title">SDL Trados 2009 (.sdlfiletype)</label>
+			<label index="file.settings.sdlpassolo.title">SDL Passolo 2007 / 2009 (.xfg)</label>
+			<label index="file.settings.download.title">Download settings file</label>
+			<label index="inlineedit.save.alert.title">You are about to create/update ALL localizations in this form? Continue?</label>
+			<label index="inlineedit.cancel.alert.title">You are about to discard any changes you made. Continue?</label>
+			<label index="export.xml.headline.title">Export</label>
+			<label index="export.xml.source-language.title">Alternative source language: </label>
+			<label index="export.xml.new.title">New/Changed content only </label>
+			<label index="export.xml.noHidden.title">No hidden content </label>
+			<label index="export.xml.check_exports.title">Check for already exported content</label>
+			<label index="export.xml.no_check_xml.title">Do not check XML</label>
+			<label index="export.xml.checkXml.title">Check XML</label>
+			<label index="export.xml.checkUtf8.title">Check UTF-8</label>
+			<label index="export.xml.ftp.title">Send to FTP server</label>
+			<label index="export.process.error.empty.message">Empty element</label>
+			<label index="export.process.error.invalid.message">Detected invalid characters in element</label>
+			<label index="export.process.duplicate.title">Contents are already exported for translation!</label>
+			<label index="export.process.duplicate.message">Please select one of the listed exports below.</label>
+			<label index="export.overview.date.label">Date</label>
+			<label index="export.overview.configuration.label">Configuration</label>
+			<label index="export.overview.type.label">Type</label>
+			<label index="export.overview.targetlanguage.label">Target language</label>
+			<label index="export.overview.filename.label">Filename</label>
+			<label index="export.download.error">Export failed</label>
+			<label index="export.download.success">Export successful</label>
+			<label index="export.download.success.detail">To download the export click on %s.</label>
+			<label index="export.ftp.error">FTP upload failed</label>
+			<label index="export.ftp.success">FTP upload successful</label>
+			<label index="export.ftp.success.detail">Export successfully uploaded to %s on FTP server</label>
+			<label index="export.ftp.warnings">Some problems occurred during export however</label>
+			<label index="export.ftp.connection_failed">Failed to connect to FTP server</label>
+			<label index="export.ftp.login_failed">Could not log into FTP server with user %s</label>
+			<label index="export.ftp.upload_failed">Could not upload file %1$s to FTP server in path %2$s</label>
+			<label index="import.xml.headline.title">Import</label>
+			<label index="import.xml.old-format.title">Import old format (v2)</label>
+			<label index="import.xml.old-format.message">Import uses the old format without pageGrp element and checks!</label>
+			<label index="import.xml.delL10N.title">Delete localizations before import</label>
+			<label index="import.xml.make_preview_link.title">Generate preview links</label>
+			<label index="import.xml.preview_links.title">Preview links</label>
+			<label index="import.xml.done.message">Import done!</label>
+			<label index="import.xml.delL10N.count.message">Deleted %s localizations.</label>
+			<label index="import.xml.delL10N.message">Previous localizations will be deleted before importing new ones!</label>
+			<label index="import.error.title">Error in Import:</label>
+			<label index="import.success.message">Import done!</label>
+			<label index="import.manager.error.parsing.xmlstring.message">Error parsing XML string</label>
+			<label index="import.manager.error.parsing.xml2tree.message">XML2Tree parsing error: </label>
+			<label index="import.manager.error.missing.meta.message">Could not find meta data in XML!</label>
+			<label index="import.manager.error.version.message">Incorrect Version of the format: %s (required: %s)</label>
+			<label index="import.manager.error.workspace.message">Export was taken from a diffrent Workspace, please import in this workspace to avoid problems: Current %s (required: %s)</label>
+			<label index="import.manager.error.language.message">'Export was taken from a diffrent language, please select correct language above! current: %s (required: %s)</label>
+			<label index="misc.messages.title">Messages:</label>
+			<label index="render_overview.nochange.message">No change.</label>
+			<label index="render_overview.new.message">NEW</label>
+			<label index="render_overview.nodiff.message">No diff available.</label>
+			<label index="render_overview.clickedit.message">Click to edit</label>
+			<label index="render_overview.clicklocalize.message">Click to localize</label>
+			<label index="l10nmgr.documentation.title">Documentation</label>
+			<label index="email.suject.msg">Translation job (%1$s-%2$s) from TYPO3 site: %3$s</label>
+			<label index="email.greeting.msg">Dear translator or translation project manager,</label>
+			<label index="email.new_translation_job.msg">There is a new translation job (%1$s-%2$s) available from TYPO3 site at %3$s.</label>
+			<label index="email.info.msg">For information how to download/translate this file please refer to the documentation.</label>
+			<label index="email.info.import.msg">The translated XML file can be imported using the TYPO3 Localization Manager (l10nmgr).</label>
+			<label index="email.goodbye.msg">Kind regards,</label>
+			<label index="email.info.exportef_file.msg">Exported file:</label>
+			<label index="email.new_translation_job_attached.msg">Attached is an XML file for translation (%1$s-%2$s) from TYPO3 site at %3$s.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="general.action.refresh.button.title">Aktualisieren</label>
+			<label index="general.action.save.button.title">Speichern</label>
+			<label index="general.action.cancel.button.title">Abbrechen</label>
+			<label index="general.action.blank.title">--Aktion auswählen--</label>
+			<label index="general.action.edit.link.title">Übersicht mit Links</label>
+			<label index="general.action.edit.inline.title">Online-Übersetzung</label>
+			<label index="general.action.export.excel.title">Excel-Export/Import</label>
+			<label index="general.action.export.xml.title">XML-Export/Import</label>
+			<label index="general.action.export.xml.button.title">Export</label>
+			<label index="general.action.import.xml.button.title">Import</label>
+			<label index="general.access.error.title">FEHLER: Benutzer hat keinen Zugriff auf diese Sprachversion!</label>
+			<label index="general.title">L10N-Export/Import</label>
+			<label index="general.export.configuration.title">Konfiguration des Übersetzungsobjektes:</label>
+			<label index="general.export.configuration.error.title">FEHLER: Keine gültige l10nmgr-Konfiguration!</label>
+			<label index="general.export.choose.action.title">Was möchten Sie tun?</label>
+			<label index="general.list.headline.depth.title">Ebenen</label>
+			<label index="general.list.headline.tables">Tabellen</label>
+			<label index="general.list.headline.exclude.title">Ausschließen</label>
+			<label index="general.list.headline.include.title">Einschließen</label>
+			<label index="general.list.headline.incfcewithdefaultlanguage.title">Default FCE</label>
+			<label index="file.settings.downloads.title">Einstellungsdateien herunterladen:</label>
+			<label index="file.settings.available.title">Verfügbare Einstellungsdateien:</label>
+			<label index="file.settings.across.title">across (.dst)</label>
+			<label index="file.settings.dejaVu.title">DéjàVu (.dvflt)</label>
+			<label index="file.settings.memoq.title">memoQ (.xml)</label>
+			<label index="file.settings.transit.title">STAR Transit (.ffd)</label>
+			<label index="file.settings.sdltrados2007.title">SDL Trados 2007 (.ini)</label>
+			<label index="file.settings.sdltrados2009.title">SDL Trados 2009 (.sdlfiletype)</label>
+			<label index="file.settings.sdlpassolo.title">SDL Passolo 2007 / 2009 (.xfg)</label>
+			<label index="file.settings.download.title">Einstellungsdatei herunterladen</label>
+			<label index="inlineedit.save.alert.title">Sie sind dabei, ALLE Übersetzungen in diesem Formular zu erstellen/aktualisieren! Möchten Sie fortfahren?</label>
+			<label index="inlineedit.cancel.alert.title">Sie sind dabei, alle Änderungen zu verwerfen. Möchten Sie fortfahren?</label>
+			<label index="export.xml.headline.title">Export</label>
+			<label index="export.xml.source-language.title">Ausgangssprache erzwingen:</label>
+			<label index="export.xml.new.title">Nur neue/geänderte Inhalte übersetzen</label>
+			<label index="export.xml.noHidden.title">Keine versteckten Inhalte</label>
+			<label index="export.xml.check_exports.title">Überprüfung auf bereits exportierte Inhalte</label>
+			<label index="export.xml.no_check_xml.title">Überspringe XML-Überprüfung</label>
+			<label index="export.xml.checkXml.title">Prüfe XML</label>
+			<label index="export.xml.checkUtf8.title">Prüfe UTF-8</label>
+			<label index="export.process.error.empty.message">Leeres Element</label>
+			<label index="export.process.error.invalid.message">Ungültige Zeichen in Element entdeckt</label>
+			<label index="export.process.duplicate.title">Inhalte wurden schon für Übersetzung exportiert!</label>
+			<label index="export.process.duplicate.message">Bitte wählen Sie einen der existierenden Exporte.</label>
+			<label index="export.overview.date.label">Datum</label>
+			<label index="export.overview.configuration.label">Konfiguration</label>
+			<label index="export.overview.type.label">Typ</label>
+			<label index="export.overview.targetlanguage.label">Zielsprache</label>
+			<label index="export.overview.filename.label">Dateiname</label>
+			<label index="import.xml.headline.title">Import</label>
+			<label index="import.xml.old-format.title">Altes Format importieren (v2)</label>
+			<label index="import.xml.old-format.message">Import verwendet Format ohne pageGrp-Elemente und Prüfmechanismen!</label>
+			<label index="import.xml.delL10N.title">Lösche Lokalisierungen vor Import</label>
+			<label index="import.xml.delL10N.message">Vorherige Übersetzungen werden vor dem Import neuer gelöscht!</label>
+			<label index="import.error.title">Fehler beim Import:</label>
+			<label index="import.success.message">Import erfolgreich!</label>
+			<label index="import.manager.error.parsing.xml2tree.message">XML2Tree-Parsing-Fehler:</label>
+			<label index="import.manager.error.missing.meta.message">Keine Metadaten in XML gefunden!</label>
+			<label index="import.manager.error.version.message">Falsche Formatversion: %s (erforderlich: %s)</label>
+			<label index="import.manager.error.workspace.message">Export stammt aus einer anderen Workspace. Bitte importieren Sie in die Workspace, aus der der Export stammt, um Probleme zu vermeiden. Aktuelle Workspace: %s (Erfordeliche: %s)</label>
+			<label index="import.manager.error.language.message">'Export beinhaltet eine andere Sprache. Bitte wählen Sie die korrekte Sprache aus der obigen Liste aus! Aktuelle Sprache: %s (Erforderlich: %s)</label>
+			<label index="misc.messages.title">Meldungen:</label>
+			<label index="render_overview.nochange.message">Keine Änderung.</label>
+			<label index="render_overview.new.message">NEU</label>
+			<label index="render_overview.nodiff.message">Kein Diff verfügbar.</label>
+			<label index="render_overview.clickedit.message">Zum Editieren hier klicken</label>
+			<label index="render_overview.clicklocalize.message">Zum Lokalisieren hier klicken</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="general.action.refresh.button.title">Actualizar</label>
+			<label index="general.action.save.button.title">Guardar</label>
+			<label index="general.action.cancel.button.title">Cancelar</label>
+			<label index="general.action.blank.title">--Seleccionar una acción--</label>
+			<label index="general.action.edit.link.title">Visión general con enlaces</label>
+			<label index="general.action.edit.inline.title">Traducción en línea</label>
+			<label index="general.action.export.excel.title">Excel:exporte/importe</label>
+			<label index="general.action.export.xml.title">XML:exporte/importe</label>
+			<label index="general.action.export.xml.button.title">Exportar</label>
+			<label index="general.action.import.xml.button.title">Importar</label>
+			<label index="general.access.error.title">ERROR: El usuario no puede editar las traducciones en este idioma!</label>
+			<label index="general.title">L10N: exporte/importe</label>
+			<label index="general.export.configuration.title">Configuración del objeto de traducción:</label>
+			<label index="general.export.configuration.error.title">ERROR: Configuración l10nmgr inválida!</label>
+			<label index="general.export.choose.action.title">Qué quiere hacer?</label>
+			<label index="general.list.headline.depth.title">Profundidad</label>
+			<label index="general.list.headline.tables">Tablas</label>
+			<label index="general.list.headline.exclude.title">Excluir</label>
+			<label index="general.list.headline.include.title">Incluir</label>
+			<label index="file.settings.downloads.title">Descargar archivos de configuración de etiquetas:</label>
+			<label index="file.settings.available.title">Archivos de configuración disponibles:</label>
+			<label index="file.settings.across.title">across (.dst)</label>
+			<label index="file.settings.dejaVu.title">DéjàVu (.dvflt)</label>
+			<label index="file.settings.memoq.title">memoQ (.xml)</label>
+			<label index="file.settings.transit.title">STAR Transit (.ffd)</label>
+			<label index="file.settings.sdltrados2007.title">SDL Trados 2007 (.ini)</label>
+			<label index="file.settings.sdltrados2009.title">SDL Trados 2009 (.sdlfiletype)</label>
+			<label index="file.settings.sdlpassolo.title">SDL Passolo 2007 / 2009 (.xfg)</label>
+			<label index="file.settings.download.title">Descargar archivo de configuración</label>
+			<label index="inlineedit.save.alert.title">Está a punto de crear/actualizar las traducciones en este formulario. Desea continuar?</label>
+			<label index="inlineedit.cancel.alert.title">Está a punto de descartar los cambios realizados en este formulario. Desea continuar?</label>
+			<label index="export.xml.headline.title">Exporte:</label>
+			<label index="export.xml.source-language.title">Forzar idioma de salida:</label>
+			<label index="export.xml.new.title">Traducir sólo los contenidos nuevos/modificados</label>
+			<label index="export.xml.noHidden.title">Non esportare contenuti nascosti</label>
+			<label index="export.xml.check_exports.title">Verificar si los contenidos ya fueron exportados</label>
+			<label index="export.xml.no_check_xml.title">No verificar formato XML</label>
+			<label index="export.xml.checkXml.title">Verificar formato XML</label>
+			<label index="export.xml.checkUtf8.title">Verificar codificación</label>
+			<label index="export.process.error.empty.message">Elemento vacío</label>
+			<label index="export.process.error.invalid.message">Carácter inválido en el elemento</label>
+			<label index="export.process.duplicate.title">Contenidos ya exportados para la traducción!</label>
+			<label index="export.overview.date.label">Fecha</label>
+			<label index="export.overview.configuration.label">Configuración</label>
+			<label index="export.overview.type.label">Tipo</label>
+			<label index="export.overview.targetlanguage.label">Idioma de destino</label>
+			<label index="export.overview.filename.label">Nombre del archivo</label>
+			<label index="import.xml.headline.title">Importe:</label>
+			<label index="import.xml.old-format.title">Importar formato previo (v2)</label>
+			<label index="import.xml.old-format.message">Importe del formato sin elementos pageGrp y sin verificación!</label>
+			<label index="import.xml.delL10N.title">Eliminar traducciones antes de importar</label>
+			<label index="import.xml.delL10N.message">¡Las localizaciones anteriores se eliminarán previo al importe!</label>
+			<label index="import.error.title">Error durante el importe:</label>
+			<label index="import.success.message">Importe completado!</label>
+			<label index="import.manager.error.parsing.xml2tree.message">Error de XML2Tree:</label>
+			<label index="import.manager.error.missing.meta.message">No se encontraron metadatos en XML!</label>
+			<label index="import.manager.error.version.message">Versión de formato incorrecta: %s (requerida: %s)</label>
+			<label index="import.manager.error.workspace.message">El exporte proviene de otro espacio de trabajo. Por favor, importe los archivos en el espacio de trabajo del que fueron exportados para evitar errores. Espacio de trabajo actual: %s (requerido: %s)</label>
+			<label index="import.manager.error.language.message">'El exporte contiene otro idioma. Por favor, seleccione el idioma correcto en la lista superior! Idioma actual: %s (requerido: %s)</label>
+			<label index="misc.messages.title">Mensajes:</label>
+			<label index="render_overview.nochange.message">Ninguna modificación.</label>
+			<label index="render_overview.new.message">NUEVO</label>
+			<label index="render_overview.nodiff.message">Ningún Diff disponible.</label>
+			<label index="render_overview.clickedit.message">Haga clic para editar</label>
+			<label index="render_overview.clicklocalize.message">Haga clic para traducir</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="general.action.refresh.button.title">Actualiser</label>
+			<label index="general.action.save.button.title">Enregistrer</label>
+			<label index="general.action.cancel.button.title">Annuler</label>
+			<label index="general.action.blank.title">--Sélectionner action--</label>
+			<label index="general.action.edit.link.title">Vue d'ensemble avec liens</label>
+			<label index="general.action.edit.inline.title">Traduction en ligne</label>
+			<label index="general.action.export.excel.title">Exportation/Importation Excel</label>
+			<label index="general.action.export.xml.title">Exportation/Importation XML</label>
+			<label index="general.action.export.xml.button.title">Exporter</label>
+			<label index="general.action.import.xml.button.title">Importer</label>
+			<label index="general.access.error.title">ERREUR: Utilisateur n'a pas d'accès pour éditer cette langue!</label>
+			<label index="general.title">L10N Exportation/Importation</label>
+			<label index="general.export.configuration.title">Configuration de l'objet de traduction:</label>
+			<label index="general.export.configuration.error.title">ERREUR: Configuration l10nmgr non valide!</label>
+			<label index="general.export.choose.action.title">Que voulez-vous faire?</label>
+			<label index="general.list.headline.depth.title">Profondeur</label>
+			<label index="general.list.headline.tables">Tableaux</label>
+			<label index="general.list.headline.exclude.title">Exclure</label>
+			<label index="general.list.headline.include.title">Inclure</label>
+			<label index="file.settings.downloads.title">Télécharger fichiers avec paramètres des balises:</label>
+			<label index="file.settings.available.title">Fichiers avec paramètres des balises disponibles:</label>
+			<label index="file.settings.across.title">across (.dst)</label>
+			<label index="file.settings.dejaVu.title">DéjàVu (.dvflt)</label>
+			<label index="file.settings.memoq.title">memoQ (.xml)</label>
+			<label index="file.settings.transit.title">STAR Transit (.ffd)</label>
+			<label index="file.settings.sdltrados2007.title">SDL Trados 2007 (.ini)</label>
+			<label index="file.settings.sdltrados2009.title">SDL Trados 2009 (.sdlfiletype)</label>
+			<label index="file.settings.sdlpassolo.title">SDL Passolo 2007 / 2009 (.xfg)</label>
+			<label index="file.settings.download.title">Télécharger fichier avec paramètres des balises</label>
+			<label index="inlineedit.save.alert.title">Vous êtes en train de créer/actualiser TOUTES les traductions dans ce formulaire! Souhaitez-vous continuer?</label>
+			<label index="inlineedit.cancel.alert.title">Vous êtes en train d'annuler tous les changements. Souhaitez-vous continuer?</label>
+			<label index="export.xml.headline.title">Exportation:</label>
+			<label index="export.xml.source-language.title">Forcer langue source:</label>
+			<label index="export.xml.new.title">Traduire seulement contenus nouveaux/changés</label>
+			<label index="export.xml.noHidden.title">Exclure contenus cachés</label>
+			<label index="export.xml.check_exports.title">Vérification pour contenus déjà exportés</label>
+			<label index="export.xml.no_check_xml.title">Ne pas vérifier le format XML</label>
+			<label index="export.xml.checkXml.title">Vérification du code XML</label>
+			<label index="export.xml.checkUtf8.title">Vérification du codage (UTF-8)</label>
+			<label index="export.process.error.empty.message">Elément vide</label>
+			<label index="export.process.error.invalid.message">Caractère invalide dans l'élément</label>
+			<label index="export.process.duplicate.title">Les contenus ont déjà été (partiellement) exportés pour la traduction!</label>
+			<label index="export.overview.date.label">Date</label>
+			<label index="export.overview.configuration.label">Configuration</label>
+			<label index="export.overview.type.label">Type</label>
+			<label index="export.overview.targetlanguage.label">Langue cible</label>
+			<label index="export.overview.filename.label">Nom du fichier</label>
+			<label index="import.xml.headline.title">Importation:</label>
+			<label index="import.xml.old-format.title">Importer ancienne format (v2)</label>
+			<label index="import.xml.old-format.message">Importation du format sans elements pageGrp et sans vérifications!</label>
+			<label index="import.xml.delL10N.title">Supprimer localisations avant l'importation</label>
+			<label index="import.xml.delL10N.message">Le traductions précédentes seront supprimées avant l'importation!</label>
+			<label index="import.error.title">Erreurs d'import:</label>
+			<label index="import.success.message">Importation réussie!</label>
+			<label index="import.manager.error.parsing.xml2tree.message">Erreur de XML2Tree:</label>
+			<label index="import.manager.error.missing.meta.message">Métadonnées non trouvées dans l'XML!</label>
+			<label index="import.manager.error.version.message">La version du format est incorrecte: %s (requise: %s)</label>
+			<label index="import.manager.error.workspace.message">L'export provient d'un autre espace de travail. S'il vous plaît, importez dans l'espace de trouvail d'où provient l'export pour éviter d'éventuels problèmes. Espace de travail actuel: %s (Requis: %s)</label>
+			<label index="import.manager.error.language.message">'L'export contient une autre langue. S'il vous plaît, choisissez la langue correcte de la liste ci-dessus! Langue actuel: %s (Requise: %s)</label>
+			<label index="misc.messages.title">Messages:</label>
+			<label index="render_overview.nochange.message">Pas de changement.</label>
+			<label index="render_overview.new.message">NOUVEAU</label>
+			<label index="render_overview.nodiff.message">Aucun Diff disponible.</label>
+			<label index="render_overview.clickedit.message">Cliquez pour modifier</label>
+			<label index="render_overview.clicklocalize.message">Cliquez pour traduire</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="general.action.refresh.button.title">Aggiornare</label>
+			<label index="general.action.save.button.title">Salva</label>
+			<label index="general.action.cancel.button.title">Annulla</label>
+			<label index="general.action.blank.title">--Seleziona l'azione--</label>
+			<label index="general.action.edit.link.title">Panoramica con collegamenti</label>
+			<label index="general.action.edit.inline.title">Traduzione in linea</label>
+			<label index="general.action.export.excel.title">Esportazione/Importazione Excel</label>
+			<label index="general.action.export.xml.title">Esportazione/Importazione XML</label>
+			<label index="general.action.export.xml.button.title">Esporta</label>
+			<label index="general.action.import.xml.button.title">Importa</label>
+			<label index="general.access.error.title">ERRORE: Utilizzatore non a accesso per modificare i contenuti in questa lingua!</label>
+			<label index="general.title">L10N Esportazione/Importazione</label>
+			<label index="general.export.configuration.title">Configurazione dell'oggetto di traduzione:</label>
+			<label index="general.export.configuration.error.title">ERRORE: Configurazione l10nmgr non valida!</label>
+			<label index="general.export.choose.action.title">Che cosa vuole fare?</label>
+			<label index="general.list.headline.depth.title">Profondità</label>
+			<label index="general.list.headline.tables">Tabelle</label>
+			<label index="general.list.headline.exclude.title">Excludere</label>
+			<label index="general.list.headline.include.title">Includere</label>
+			<label index="file.settings.downloads.title">Scarica i file di configurazione:</label>
+			<label index="file.settings.available.title">File di configurazione disponibili:</label>
+			<label index="file.settings.across.title">across (.dst)</label>
+			<label index="file.settings.dejaVu.title">DéjàVu X (.dvflt)</label>
+			<label index="file.settings.memoq.title">memoQ (.xml)</label>
+			<label index="file.settings.transit.title">STAR Transit (.ffd)</label>
+			<label index="file.settings.sdltrados2007.title">SDL Trados 2007 (.ini)</label>
+			<label index="file.settings.sdltrados2009.title">SDL Trados 2009 (.sdlfiletype)</label>
+			<label index="file.settings.sdlpassolo.title">SDL Passolo 2007 / 2009 (.xfg)</label>
+			<label index="file.settings.download.title">Scarica file di configurazione</label>
+			<label index="inlineedit.save.alert.title">Sta per creare/aggiornare TUTTE le traduzioni in questo modulo! Continuare?</label>
+			<label index="inlineedit.cancel.alert.title">Sta per annullare tutte le modificazioni in questo modulo! Continuare?</label>
+			<label index="export.xml.headline.title">Esportazione:</label>
+			<label index="export.xml.source-language.title">Imponi lingua di partenza:</label>
+			<label index="export.xml.new.title">Tradurre solamente contenuti nuovi/modificati</label>
+			<label index="export.xml.noHidden.title">Non tradurre elementi nascosti</label>
+			<label index="export.xml.check_exports.title">Verificazione di contenuti già esportati</label>
+			<label index="export.xml.no_check_xml.title">Non verificare il formato XML</label>
+			<label index="export.xml.checkXml.title">Controllo di correttezza del formato XML</label>
+			<label index="export.xml.checkUtf8.title">Controllo della codifica dei caratteri (UTF-8)</label>
+			<label index="export.process.error.empty.message">Elemento vuoto</label>
+			<label index="export.process.error.invalid.message">Carattere non valido nell'elemento</label>
+			<label index="export.process.duplicate.title">Contenuti già esportati per la traduzione!</label>
+			<label index="export.overview.date.label">Data</label>
+			<label index="export.overview.configuration.label">Configurazione</label>
+			<label index="export.overview.type.label">Tipo</label>
+			<label index="export.overview.targetlanguage.label">Lingua di destinazione</label>
+			<label index="export.overview.filename.label">Nome file</label>
+			<label index="import.xml.headline.title">Importazione:</label>
+			<label index="import.xml.old-format.title">Importare formato precedente (v2)</label>
+			<label index="import.xml.old-format.message">Importazione del formato precedente senza elementi pageGrp e senza meccanismi di verifica!</label>
+			<label index="import.xml.delL10N.title">Elimina localizzazioni prima dell'importazione</label>
+			<label index="import.xml.delL10N.message">Precedenti localizzazioni saranno eliminate prima dell'importazione!</label>
+			<label index="import.error.title">Errore di importazione:</label>
+			<label index="import.success.message">Importzione riuscita!</label>
+			<label index="import.manager.error.parsing.xml2tree.message">Errore XML2Tree:</label>
+			<label index="import.manager.error.missing.meta.message">Metadati non trovati nell'XML!</label>
+			<label index="import.manager.error.version.message">Versione errata del formato: %s (richiesto: %s)</label>
+			<label index="import.manager.error.workspace.message">L'esportazione proviene di un'altra area di lavoro. Per favore, importa nell'area di lavoro di dove proviene l'exportazione per evitare problemi. Area di lavoro corrente: %s (richiesta: %s)</label>
+			<label index="import.manager.error.language.message">L'esportzione contiene un'altra lingua. Per favore, seleziona la lingua correcta della lista! Lingua corrente: %s (richiesta: %s)</label>
+			<label index="misc.messages.title">Messaggi:</label>
+			<label index="render_overview.nochange.message">Nessuna modificazione.</label>
+			<label index="render_overview.new.message">NUOVO</label>
+			<label index="render_overview.nodiff.message">Nessun Diff disponible.</label>
+			<label index="render_overview.clickedit.message">Fare clic per modificare.</label>
+			<label index="render_overview.clicklocalize.message">Localizzare</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="de" type="array">
+			<label index="general.action.refresh.button.title" type="integer">104491656</label>
+			<label index="general.action.save.button.title" type="integer">211601612</label>
+			<label index="general.action.cancel.button.title" type="integer">245659783</label>
+			<label index="general.action.blank.title" type="integer">45150546</label>
+			<label index="general.action.edit.link.title" type="integer">33602554</label>
+			<label index="general.action.edit.inline.title" type="integer">157719557</label>
+			<label index="general.action.export.excel.title" type="integer">134660836</label>
+			<label index="general.action.export.xml.title" type="integer">88949047</label>
+			<label index="general.action.export.xml.button.title" type="integer">613023</label>
+			<label index="general.action.import.xml.button.title" type="integer">120417658</label>
+			<label index="general.access.error.title" type="integer">100698372</label>
+			<label index="general.title" type="integer">211522609</label>
+			<label index="general.export.configuration.title" type="integer">232336617</label>
+			<label index="general.export.configuration.error.title" type="integer">143344690</label>
+			<label index="general.export.choose.action.title" type="integer">62947153</label>
+			<label index="general.list.headline.depth.title" type="integer">108332394</label>
+			<label index="general.list.headline.tables" type="integer">106016343</label>
+			<label index="general.list.headline.exclude.title" type="integer">138670721</label>
+			<label index="general.list.headline.include.title" type="integer">256733862</label>
+			<label index="file.settings.downloads.title" type="integer">97725951</label>
+			<label index="file.settings.available.title" type="integer">67194614</label>
+			<label index="file.settings.across.title" type="integer">206925895</label>
+			<label index="file.settings.dejaVu.title" type="integer">10794772</label>
+			<label index="file.settings.sdltrados.title" type="integer">214496036</label>
+			<label index="file.settings.sdlpassolo.title" type="integer">155474205</label>
+			<label index="file.settings.download.title" type="integer">163713713</label>
+			<label index="inlineedit.save.alert.title" type="integer">128271249</label>
+			<label index="inlineedit.cancel.alert.title" type="integer">211707290</label>
+			<label index="export.xml.headline.title" type="integer">122682436</label>
+			<label index="export.xml.source-language.title" type="integer">101925097</label>
+			<label index="export.xml.new.title" type="integer">89350830</label>
+			<label index="export.xml.noHidden.title" type="integer">211908847</label>
+			<label index="export.xml.check_exports.title" type="integer">228385904</label>
+			<label index="export.xml.no_check_xml.title" type="integer">174881006</label>
+			<label index="export.xml.checkXml.title" type="integer">254177049</label>
+			<label index="export.xml.checkUtf8.title" type="integer">231919218</label>
+			<label index="export.process.error.empty.message" type="integer">240250330</label>
+			<label index="export.process.error.invalid.message" type="integer">18384205</label>
+			<label index="export.process.duplicate.message" type="integer">196776564</label>
+			<label index="export.overview.date.label" type="integer">71780721</label>
+			<label index="export.overview.configuration.label" type="integer">39122498</label>
+			<label index="export.overview.type.label" type="integer">169845367</label>
+			<label index="export.overview.targetlanguage.label" type="integer">105445233</label>
+			<label index="export.overview.filename.label" type="integer">20254743</label>
+			<label index="import.xml.headline.title" type="integer">119602026</label>
+			<label index="import.xml.old-format.title" type="integer">164016322</label>
+			<label index="import.xml.delL10N.title" type="integer">148668165</label>
+			<label index="import.error.title" type="integer">161044272</label>
+			<label index="import.success.message" type="integer">230944952</label>
+			<label index="import.manager.error.parsing.xml2tree.message" type="integer">2920435</label>
+			<label index="import.manager.error.missing.meta.message" type="integer">70648761</label>
+			<label index="import.manager.error.version.message" type="integer">9699423</label>
+			<label index="import.manager.error.workspace.message" type="integer">96820248</label>
+			<label index="import.manager.error.language.message" type="integer">188199404</label>
+			<label index="misc.messages.title" type="integer">87328996</label>
+			<label index="render_overview.nochange.message" type="integer">266894773</label>
+			<label index="render_overview.new.message" type="integer">38618522</label>
+			<label index="render_overview.nodiff.message" type="integer">117343870</label>
+			<label index="render_overview.clickedit.message" type="integer">15760225</label>
+			<label index="render_overview.clicklocalize.message" type="integer">258169190</label>
+			<label index="import.xml.old-format.message" type="integer">199307402</label>
+			<label index="import.xml.delL10N.message" type="integer">236440784</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="general.action.refresh.button.title" type="integer">104491656</label>
+			<label index="general.action.save.button.title" type="integer">211601612</label>
+			<label index="general.action.cancel.button.title" type="integer">245659783</label>
+			<label index="general.action.blank.title" type="integer">45150546</label>
+			<label index="general.action.edit.link.title" type="integer">33602554</label>
+			<label index="general.action.edit.inline.title" type="integer">157719557</label>
+			<label index="general.action.export.excel.title" type="integer">134660836</label>
+			<label index="general.action.export.xml.title" type="integer">88949047</label>
+			<label index="general.action.export.xml.button.title" type="integer">613023</label>
+			<label index="general.action.import.xml.button.title" type="integer">120417658</label>
+			<label index="general.access.error.title" type="integer">100698372</label>
+			<label index="general.title" type="integer">211522609</label>
+			<label index="general.export.configuration.title" type="integer">232336617</label>
+			<label index="general.export.configuration.error.title" type="integer">143344690</label>
+			<label index="general.export.choose.action.title" type="integer">62947153</label>
+			<label index="general.list.headline.depth.title" type="integer">108332394</label>
+			<label index="general.list.headline.tables" type="integer">106016343</label>
+			<label index="general.list.headline.exclude.title" type="integer">138670721</label>
+			<label index="general.list.headline.include.title" type="integer">256733862</label>
+			<label index="file.settings.downloads.title" type="integer">97725951</label>
+			<label index="file.settings.available.title" type="integer">67194614</label>
+			<label index="file.settings.across.title" type="integer">206925895</label>
+			<label index="file.settings.dejaVu.title" type="integer">10794772</label>
+			<label index="file.settings.sdltrados.title" type="integer">214496036</label>
+			<label index="file.settings.sdlpassolo.title" type="integer">155474205</label>
+			<label index="file.settings.download.title" type="integer">163713713</label>
+			<label index="inlineedit.save.alert.title" type="integer">128271249</label>
+			<label index="inlineedit.cancel.alert.title" type="integer">211707290</label>
+			<label index="export.xml.headline.title" type="integer">122682436</label>
+			<label index="export.xml.source-language.title" type="integer">101925097</label>
+			<label index="export.xml.new.title" type="integer">89350830</label>
+			<label index="export.xml.noHidden.title" type="integer">211908847</label>
+			<label index="export.xml.check_exports.title" type="integer">228385904</label>
+			<label index="export.xml.no_check_xml.title" type="integer">174881006</label>
+			<label index="export.xml.checkXml.title" type="integer">254177049</label>
+			<label index="export.xml.checkUtf8.title" type="integer">231919218</label>
+			<label index="export.process.error.empty.message" type="integer">240250330</label>
+			<label index="export.process.error.invalid.message" type="integer">18384205</label>
+			<label index="export.process.duplicate.message" type="integer">196776564</label>
+			<label index="export.overview.date.label" type="integer">71780721</label>
+			<label index="export.overview.configuration.label" type="integer">39122498</label>
+			<label index="export.overview.type.label" type="integer">169845367</label>
+			<label index="export.overview.targetlanguage.label" type="integer">105445233</label>
+			<label index="export.overview.filename.label" type="integer">20254743</label>
+			<label index="import.xml.headline.title" type="integer">119602026</label>
+			<label index="import.xml.old-format.title" type="integer">164016322</label>
+			<label index="import.xml.delL10N.title" type="integer">148668165</label>
+			<label index="import.error.title" type="integer">161044272</label>
+			<label index="import.success.message" type="integer">230944952</label>
+			<label index="import.manager.error.parsing.xml2tree.message" type="integer">2920435</label>
+			<label index="import.manager.error.missing.meta.message" type="integer">70648761</label>
+			<label index="import.manager.error.version.message" type="integer">9699423</label>
+			<label index="import.manager.error.workspace.message" type="integer">96820248</label>
+			<label index="import.manager.error.language.message" type="integer">188199404</label>
+			<label index="misc.messages.title" type="integer">87328996</label>
+			<label index="render_overview.nochange.message" type="integer">266894773</label>
+			<label index="render_overview.new.message" type="integer">38618522</label>
+			<label index="render_overview.nodiff.message" type="integer">117343870</label>
+			<label index="render_overview.clickedit.message" type="integer">15760225</label>
+			<label index="render_overview.clicklocalize.message" type="integer">258169190</label>
+			<label index="import.xml.old-format.message" type="integer">199307402</label>
+			<label index="import.xml.delL10N.message" type="integer">236440784</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="general.action.refresh.button.title" type="integer">104491656</label>
+			<label index="general.action.save.button.title" type="integer">211601612</label>
+			<label index="general.action.cancel.button.title" type="integer">245659783</label>
+			<label index="general.action.blank.title" type="integer">45150546</label>
+			<label index="general.action.edit.link.title" type="integer">33602554</label>
+			<label index="general.action.edit.inline.title" type="integer">157719557</label>
+			<label index="general.action.export.excel.title" type="integer">134660836</label>
+			<label index="general.action.export.xml.title" type="integer">88949047</label>
+			<label index="general.action.export.xml.button.title" type="integer">613023</label>
+			<label index="general.action.import.xml.button.title" type="integer">120417658</label>
+			<label index="general.access.error.title" type="integer">100698372</label>
+			<label index="general.title" type="integer">211522609</label>
+			<label index="general.export.configuration.title" type="integer">232336617</label>
+			<label index="general.export.configuration.error.title" type="integer">143344690</label>
+			<label index="general.export.choose.action.title" type="integer">62947153</label>
+			<label index="general.list.headline.depth.title" type="integer">108332394</label>
+			<label index="general.list.headline.tables" type="integer">106016343</label>
+			<label index="general.list.headline.exclude.title" type="integer">138670721</label>
+			<label index="general.list.headline.include.title" type="integer">256733862</label>
+			<label index="file.settings.downloads.title" type="integer">97725951</label>
+			<label index="file.settings.available.title" type="integer">67194614</label>
+			<label index="file.settings.across.title" type="integer">206925895</label>
+			<label index="file.settings.dejaVu.title" type="integer">10794772</label>
+			<label index="file.settings.sdltrados.title" type="integer">214496036</label>
+			<label index="file.settings.sdlpassolo.title" type="integer">155474205</label>
+			<label index="file.settings.download.title" type="integer">163713713</label>
+			<label index="inlineedit.save.alert.title" type="integer">128271249</label>
+			<label index="inlineedit.cancel.alert.title" type="integer">211707290</label>
+			<label index="export.xml.headline.title" type="integer">122682436</label>
+			<label index="export.xml.source-language.title" type="integer">101925097</label>
+			<label index="export.xml.new.title" type="integer">89350830</label>
+			<label index="export.xml.noHidden.title" type="integer">211908847</label>
+			<label index="export.xml.check_exports.title" type="integer">228385904</label>
+			<label index="export.xml.no_check_xml.title" type="integer">174881006</label>
+			<label index="export.xml.checkXml.title" type="integer">254177049</label>
+			<label index="export.xml.checkUtf8.title" type="integer">231919218</label>
+			<label index="export.process.error.empty.message" type="integer">240250330</label>
+			<label index="export.process.error.invalid.message" type="integer">18384205</label>
+			<label index="export.process.duplicate.message" type="integer">196776564</label>
+			<label index="export.overview.date.label" type="integer">71780721</label>
+			<label index="export.overview.configuration.label" type="integer">39122498</label>
+			<label index="export.overview.type.label" type="integer">169845367</label>
+			<label index="export.overview.targetlanguage.label" type="integer">105445233</label>
+			<label index="export.overview.filename.label" type="integer">20254743</label>
+			<label index="import.xml.headline.title" type="integer">119602026</label>
+			<label index="import.xml.old-format.title" type="integer">164016322</label>
+			<label index="import.xml.delL10N.title" type="integer">148668165</label>
+			<label index="import.error.title" type="integer">161044272</label>
+			<label index="import.success.message" type="integer">230944952</label>
+			<label index="import.manager.error.parsing.xml2tree.message" type="integer">2920435</label>
+			<label index="import.manager.error.missing.meta.message" type="integer">70648761</label>
+			<label index="import.manager.error.version.message" type="integer">9699423</label>
+			<label index="import.manager.error.workspace.message" type="integer">96820248</label>
+			<label index="import.manager.error.language.message" type="integer">188199404</label>
+			<label index="misc.messages.title" type="integer">87328996</label>
+			<label index="render_overview.nochange.message" type="integer">266894773</label>
+			<label index="render_overview.new.message" type="integer">38618522</label>
+			<label index="render_overview.nodiff.message" type="integer">117343870</label>
+			<label index="render_overview.clickedit.message" type="integer">15760225</label>
+			<label index="render_overview.clicklocalize.message" type="integer">258169190</label>
+			<label index="import.xml.old-format.message" type="integer">199307402</label>
+			<label index="import.xml.delL10N.message" type="integer">236440784</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="general.action.refresh.button.title" type="integer">104491656</label>
+			<label index="general.action.save.button.title" type="integer">211601612</label>
+			<label index="general.action.cancel.button.title" type="integer">245659783</label>
+			<label index="general.action.blank.title" type="integer">45150546</label>
+			<label index="general.action.edit.link.title" type="integer">33602554</label>
+			<label index="general.action.edit.inline.title" type="integer">157719557</label>
+			<label index="general.action.export.excel.title" type="integer">134660836</label>
+			<label index="general.action.export.xml.title" type="integer">88949047</label>
+			<label index="general.action.export.xml.button.title" type="integer">613023</label>
+			<label index="general.action.import.xml.button.title" type="integer">120417658</label>
+			<label index="general.access.error.title" type="integer">100698372</label>
+			<label index="general.title" type="integer">211522609</label>
+			<label index="general.export.configuration.title" type="integer">232336617</label>
+			<label index="general.export.configuration.error.title" type="integer">143344690</label>
+			<label index="general.export.choose.action.title" type="integer">62947153</label>
+			<label index="general.list.headline.depth.title" type="integer">108332394</label>
+			<label index="general.list.headline.tables" type="integer">106016343</label>
+			<label index="general.list.headline.exclude.title" type="integer">138670721</label>
+			<label index="general.list.headline.include.title" type="integer">256733862</label>
+			<label index="file.settings.downloads.title" type="integer">97725951</label>
+			<label index="file.settings.available.title" type="integer">67194614</label>
+			<label index="file.settings.across.title" type="integer">206925895</label>
+			<label index="file.settings.dejaVu.title" type="integer">10794772</label>
+			<label index="file.settings.sdltrados.title" type="integer">214496036</label>
+			<label index="file.settings.sdlpassolo.title" type="integer">155474205</label>
+			<label index="file.settings.download.title" type="integer">163713713</label>
+			<label index="inlineedit.save.alert.title" type="integer">128271249</label>
+			<label index="inlineedit.cancel.alert.title" type="integer">211707290</label>
+			<label index="export.xml.headline.title" type="integer">122682436</label>
+			<label index="export.xml.source-language.title" type="integer">101925097</label>
+			<label index="export.xml.new.title" type="integer">89350830</label>
+			<label index="export.xml.noHidden.title" type="integer">211908847</label>
+			<label index="export.xml.check_exports.title" type="integer">228385904</label>
+			<label index="export.xml.no_check_xml.title" type="integer">174881006</label>
+			<label index="export.xml.checkXml.title" type="integer">254177049</label>
+			<label index="export.process.error.empty.message" type="integer">240250330</label>
+			<label index="export.process.error.invalid.message" type="integer">18384205</label>
+			<label index="export.process.duplicate.message" type="integer">196776564</label>
+			<label index="export.overview.date.label" type="integer">71780721</label>
+			<label index="export.overview.configuration.label" type="integer">39122498</label>
+			<label index="export.overview.type.label" type="integer">169845367</label>
+			<label index="export.overview.targetlanguage.label" type="integer">105445233</label>
+			<label index="export.overview.filename.label" type="integer">20254743</label>
+			<label index="import.xml.headline.title" type="integer">119602026</label>
+			<label index="import.xml.old-format.title" type="integer">164016322</label>
+			<label index="import.xml.old-format.message" type="integer">199307402</label>
+			<label index="import.xml.delL10N.title" type="integer">148668165</label>
+			<label index="import.xml.delL10N.message" type="integer">236440784</label>
+			<label index="import.error.title" type="integer">161044272</label>
+			<label index="import.success.message" type="integer">230944952</label>
+			<label index="import.manager.error.parsing.xml2tree.message" type="integer">2920435</label>
+			<label index="import.manager.error.missing.meta.message" type="integer">70648761</label>
+			<label index="import.manager.error.version.message" type="integer">9699423</label>
+			<label index="import.manager.error.workspace.message" type="integer">96820248</label>
+			<label index="import.manager.error.language.message" type="integer">188199404</label>
+			<label index="misc.messages.title" type="integer">87328996</label>
+			<label index="render_overview.nochange.message" type="integer">266894773</label>
+			<label index="render_overview.new.message" type="integer">38618522</label>
+			<label index="render_overview.nodiff.message" type="integer">117343870</label>
+			<label index="export.xml.checkUtf8.title" type="integer">231919218</label>
+			<label index="render_overview.clickedit.message" type="integer">15760225</label>
+			<label index="render_overview.clicklocalize.message" type="integer">258169190</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="de" type="array">
+			<label index="general.action.refresh.button.title">Refresh</label>
+			<label index="general.action.save.button.title">Save</label>
+			<label index="general.action.cancel.button.title">Cancel</label>
+			<label index="general.action.blank.title">--Select Action--</label>
+			<label index="general.action.edit.link.title">Overview with links</label>
+			<label index="general.action.edit.inline.title">Online translation</label>
+			<label index="general.action.export.excel.title">Excel export/import</label>
+			<label index="general.action.export.xml.title">XML export/import</label>
+			<label index="general.action.export.xml.button.title">Export</label>
+			<label index="general.action.import.xml.button.title">Import</label>
+			<label index="general.access.error.title">ERROR: User has no access to edit any translations!</label>
+			<label index="general.title">L10N Export/Import</label>
+			<label index="general.export.configuration.title">Configuration of translation object:</label>
+			<label index="general.export.configuration.error.title">ERROR: No valid l10nmgr config!</label>
+			<label index="general.export.choose.action.title">Choose your action</label>
+			<label index="general.list.headline.depth.title">Depth</label>
+			<label index="general.list.headline.tables">Tables</label>
+			<label index="general.list.headline.exclude.title">Exclude</label>
+			<label index="general.list.headline.include.title">Include</label>
+			<label index="file.settings.downloads.title">Download settings files</label>
+			<label index="file.settings.available.title">Available settings files:</label>
+			<label index="file.settings.across.title">across</label>
+			<label index="file.settings.dejaVu.title">DéjàVu</label>
+			<label index="file.settings.sdltrados2007.title">SDL Trados 2007</label>
+			<label index="file.settings.sdltrados2009.title">SDL Trados 2009 (.sdlfiletype)</label>
+			<label index="file.settings.sdlpassolo.title">SDL Passolo 2007 / 2009 (.xfg)</label>
+			<label index="file.settings.download.title">Download settings file</label>
+			<label index="inlineedit.save.alert.title">You are about to create/update ALL localizations in this form? Continue?</label>
+			<label index="inlineedit.cancel.alert.title">You are about to discard any changes you made. Continue?</label>
+			<label index="export.xml.headline.title">Export: </label>
+			<label index="export.xml.source-language.title">Alternative source language: </label>
+			<label index="export.xml.new.title">New/Changed content only </label>
+			<label index="export.xml.noHidden.title">No hidden content </label>
+			<label index="export.xml.check_exports.title">Check for already exported content</label>
+			<label index="export.xml.no_check_xml.title">Do not check XML</label>
+			<label index="export.xml.checkXml.title">Check XML</label>
+			<label index="export.xml.checkUtf8.title">Check UTF-8</label>
+			<label index="export.process.error.empty.message">Empty element</label>
+			<label index="export.process.error.invalid.message">Detected invalid characters in element</label>
+			<label index="export.process.duplicate.message">Contents already exported for translation! </label>
+			<label index="export.overview.date.label">Date</label>
+			<label index="export.overview.configuration.label">Configuration</label>
+			<label index="export.overview.type.label">Type</label>
+			<label index="export.overview.targetlanguage.label">Target language</label>
+			<label index="export.overview.filename.label">Filename</label>
+			<label index="import.xml.headline.title">Import: </label>
+			<label index="import.xml.old-format.title">Import old format (v2)</label>
+			<label index="import.xml.delL10N.title">Delete localizations before import</label>
+			<label index="import.error.title">Error in Import:</label>
+			<label index="import.success.message">Import done!</label>
+			<label index="import.manager.error.parsing.xml2tree.message">XML2Tree parsing error: </label>
+			<label index="import.manager.error.missing.meta.message">Could not find meta data in XML!</label>
+			<label index="import.manager.error.version.message">Incorrect Version of the format: %s (required: %s)</label>
+			<label index="import.manager.error.workspace.message">Export was taken from a diffrent Workspace, please import in this workspace to avoid problems: Current %s (required: %s)</label>
+			<label index="import.manager.error.language.message">'Export was taken from a diffrent language, please select correct language above! current: %s (required: %s)</label>
+			<label index="misc.messages.title">Messages:</label>
+			<label index="render_overview.nochange.message">No change.</label>
+			<label index="render_overview.new.message">NEW</label>
+			<label index="render_overview.nodiff.message">No diff available.</label>
+			<label index="render_overview.clickedit.message">Click to edit</label>
+			<label index="render_overview.clicklocalize.message">Click to localize</label>
+			<label index="import.xml.old-format.message">Import uses the old format without pageGrp element and checks!</label>
+			<label index="import.xml.delL10N.message">Previous localizations will be deleted before importing new ones!</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="general.action.refresh.button.title">Refresh</label>
+			<label index="general.action.save.button.title">Save</label>
+			<label index="general.action.cancel.button.title">Cancel</label>
+			<label index="general.action.blank.title">--Select Action--</label>
+			<label index="general.action.edit.link.title">Overview with links</label>
+			<label index="general.action.edit.inline.title">Online translation</label>
+			<label index="general.action.export.excel.title">Excel export/import</label>
+			<label index="general.action.export.xml.title">XML export/import</label>
+			<label index="general.action.export.xml.button.title">Export</label>
+			<label index="general.action.import.xml.button.title">Import</label>
+			<label index="general.access.error.title">ERROR: User has no access to edit any translations!</label>
+			<label index="general.title">L10N Export/Import</label>
+			<label index="general.export.configuration.title">Configuration of translation object:</label>
+			<label index="general.export.configuration.error.title">ERROR: No valid l10nmgr config!</label>
+			<label index="general.export.choose.action.title">Choose your action</label>
+			<label index="general.list.headline.depth.title">Depth</label>
+			<label index="general.list.headline.tables">Tables</label>
+			<label index="general.list.headline.exclude.title">Exclude</label>
+			<label index="general.list.headline.include.title">Include</label>
+			<label index="file.settings.downloads.title">Download settings files</label>
+			<label index="file.settings.available.title">Available settings files:</label>
+			<label index="file.settings.across.title">across</label>
+			<label index="file.settings.dejaVu.title">DéjàVu</label>
+			<label index="file.settings.sdltrados2007.title">SDL Trados 2007</label>
+			<label index="file.settings.sdltrados2009.title">SDL Trados 2009 (.sdlfiletype)</label>
+			<label index="file.settings.sdlpassolo.title">SDL Passolo 2007 / 2009 (.xfg)</label>
+			<label index="file.settings.download.title">Download settings file</label>
+			<label index="inlineedit.save.alert.title">You are about to create/update ALL localizations in this form? Continue?</label>
+			<label index="inlineedit.cancel.alert.title">You are about to discard any changes you made. Continue?</label>
+			<label index="export.xml.headline.title">Export: </label>
+			<label index="export.xml.source-language.title">Alternative source language: </label>
+			<label index="export.xml.new.title">New/Changed content only </label>
+			<label index="export.xml.noHidden.title">No hidden content </label>
+			<label index="export.xml.check_exports.title">Check for already exported content</label>
+			<label index="export.xml.no_check_xml.title">Do not check XML</label>
+			<label index="export.xml.checkXml.title">Check XML</label>
+			<label index="export.xml.checkUtf8.title">Check UTF-8</label>
+			<label index="export.process.error.empty.message">Empty element</label>
+			<label index="export.process.error.invalid.message">Detected invalid characters in element</label>
+			<label index="export.process.duplicate.message">Contents already exported for translation! </label>
+			<label index="export.overview.date.label">Date</label>
+			<label index="export.overview.configuration.label">Configuration</label>
+			<label index="export.overview.type.label">Type</label>
+			<label index="export.overview.targetlanguage.label">Target language</label>
+			<label index="export.overview.filename.label">Filename</label>
+			<label index="import.xml.headline.title">Import: </label>
+			<label index="import.xml.old-format.title">Import old format (v2)</label>
+			<label index="import.xml.delL10N.title">Delete localizations before import</label>
+			<label index="import.error.title">Error in Import:</label>
+			<label index="import.success.message">Import done!</label>
+			<label index="import.manager.error.parsing.xml2tree.message">XML2Tree parsing error: </label>
+			<label index="import.manager.error.missing.meta.message">Could not find meta data in XML!</label>
+			<label index="import.manager.error.version.message">Incorrect Version of the format: %s (required: %s)</label>
+			<label index="import.manager.error.workspace.message">Export was taken from a diffrent Workspace, please import in this workspace to avoid problems: Current %s (required: %s)</label>
+			<label index="import.manager.error.language.message">'Export was taken from a diffrent language, please select correct language above! current: %s (required: %s)</label>
+			<label index="misc.messages.title">Messages:</label>
+			<label index="render_overview.nochange.message">No change.</label>
+			<label index="render_overview.new.message">NEW</label>
+			<label index="render_overview.nodiff.message">No diff available.</label>
+			<label index="render_overview.clickedit.message">Click to edit</label>
+			<label index="render_overview.clicklocalize.message">Click to localize</label>
+			<label index="import.xml.old-format.message">Import uses the old format without pageGrp element and checks!</label>
+			<label index="import.xml.delL10N.message">Previous localizations will be deleted before importing new ones!</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="general.action.refresh.button.title">Refresh</label>
+			<label index="general.action.save.button.title">Save</label>
+			<label index="general.action.cancel.button.title">Cancel</label>
+			<label index="general.action.blank.title">--Select Action--</label>
+			<label index="general.action.edit.link.title">Overview with links</label>
+			<label index="general.action.edit.inline.title">Online translation</label>
+			<label index="general.action.export.excel.title">Excel export/import</label>
+			<label index="general.action.export.xml.title">XML export/import</label>
+			<label index="general.action.export.xml.button.title">Export</label>
+			<label index="general.action.import.xml.button.title">Import</label>
+			<label index="general.access.error.title">ERROR: User has no access to edit any translations!</label>
+			<label index="general.title">L10N Export/Import</label>
+			<label index="general.export.configuration.title">Configuration of translation object:</label>
+			<label index="general.export.configuration.error.title">ERROR: No valid l10nmgr config!</label>
+			<label index="general.export.choose.action.title">Choose your action</label>
+			<label index="general.list.headline.depth.title">Depth</label>
+			<label index="general.list.headline.tables">Tables</label>
+			<label index="general.list.headline.exclude.title">Exclude</label>
+			<label index="general.list.headline.include.title">Include</label>
+			<label index="file.settings.downloads.title">Download settings files:</label>
+			<label index="file.settings.available.title">Available settings files:</label>
+			<label index="file.settings.across.title">across</label>
+			<label index="file.settings.dejaVu.title">DéjàVu</label>
+			<label index="file.settings.sdltrados2007.title">SDL Trados 2007</label>
+			<label index="file.settings.sdltrados2009.title">SDL Trados 2009 (.sdlfiletype)</label>
+			<label index="file.settings.sdlpassolo.title">SDL Passolo 2007 / 2009 (.xfg)</label>
+			<label index="file.settings.download.title">Download settings file</label>
+			<label index="inlineedit.save.alert.title">You are about to create/update ALL localizations in this form? Continue?</label>
+			<label index="inlineedit.cancel.alert.title">You are about to discard any changes you made. Continue?</label>
+			<label index="export.xml.headline.title">Export: </label>
+			<label index="export.xml.source-language.title">Alternative source language: </label>
+			<label index="export.xml.new.title">New/Changed content only </label>
+			<label index="export.xml.noHidden.title">No hidden content </label>
+			<label index="export.xml.check_exports.title">Check for already exported content</label>
+			<label index="export.xml.no_check_xml.title">Do not check XML</label>
+			<label index="export.xml.checkXml.title">Check XML</label>
+			<label index="export.xml.checkUtf8.title">Check UTF-8</label>
+			<label index="export.process.error.empty.message">Empty element</label>
+			<label index="export.process.error.invalid.message">Detected invalid characters in element</label>
+			<label index="export.process.duplicate.message">Contents already exported for translation! </label>
+			<label index="export.overview.date.label">Date</label>
+			<label index="export.overview.configuration.label">Configuration</label>
+			<label index="export.overview.type.label">Type</label>
+			<label index="export.overview.targetlanguage.label">Target language</label>
+			<label index="export.overview.filename.label">Filename</label>
+			<label index="import.xml.headline.title">Import: </label>
+			<label index="import.xml.old-format.title">Import old format (v2)</label>
+			<label index="import.xml.delL10N.title">Delete localizations before import</label>
+			<label index="import.error.title">Error in Import:</label>
+			<label index="import.success.message">Import done!</label>
+			<label index="import.manager.error.parsing.xml2tree.message">XML2Tree parsing error: </label>
+			<label index="import.manager.error.missing.meta.message">Could not find meta data in XML!</label>
+			<label index="import.manager.error.version.message">Incorrect Version of the format: %s (required: %s)</label>
+			<label index="import.manager.error.workspace.message">Export was taken from a diffrent Workspace, please import in this workspace to avoid problems: Current %s (required: %s)</label>
+			<label index="import.manager.error.language.message">'Export was taken from a diffrent language, please select correct language above! current: %s (required: %s)</label>
+			<label index="misc.messages.title">Messages:</label>
+			<label index="render_overview.nochange.message">No change.</label>
+			<label index="render_overview.new.message">NEW</label>
+			<label index="render_overview.nodiff.message">No diff available.</label>
+			<label index="render_overview.clickedit.message">Click to edit</label>
+			<label index="render_overview.clicklocalize.message">Click to localize</label>
+			<label index="import.xml.old-format.message">Import uses the old format without pageGrp element and checks!</label>
+			<label index="import.xml.delL10N.message">Previous localizations will be deleted before importing new ones!</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="general.action.refresh.button.title">Refresh</label>
+			<label index="general.action.save.button.title">Save</label>
+			<label index="general.action.cancel.button.title">Cancel</label>
+			<label index="general.action.blank.title">--Select Action--</label>
+			<label index="general.action.edit.link.title">Overview with links</label>
+			<label index="general.action.edit.inline.title">Online translation</label>
+			<label index="general.action.export.excel.title">Excel export/import</label>
+			<label index="general.action.export.xml.title">XML export/import</label>
+			<label index="general.action.export.xml.button.title">Export</label>
+			<label index="general.action.import.xml.button.title">Import</label>
+			<label index="general.access.error.title">ERROR: User has no access to edit any translations!</label>
+			<label index="general.title">L10N Export/Import</label>
+			<label index="general.export.configuration.title">Configuration of translation object:</label>
+			<label index="general.export.configuration.error.title">ERROR: No valid l10nmgr config!</label>
+			<label index="general.export.choose.action.title">Choose your action</label>
+			<label index="general.list.headline.depth.title">Depth</label>
+			<label index="general.list.headline.tables">Tables</label>
+			<label index="general.list.headline.exclude.title">Exclude</label>
+			<label index="general.list.headline.include.title">Include</label>
+			<label index="file.settings.downloads.title">Download settings files:</label>
+			<label index="file.settings.available.title">Available settings files:</label>
+			<label index="file.settings.across.title">across</label>
+			<label index="file.settings.dejaVu.title">DéjàVu</label>
+			<label index="file.settings.sdltrados2007.title">SDL Trados 2007</label>
+			<label index="file.settings.sdltrados2009.title">SDL Trados 2009 (.sdlfiletype)</label>
+			<label index="file.settings.sdlpassolo.title">SDL Passolo 2007 / 2009 (.xfg)</label>
+			<label index="file.settings.download.title">Download settings file</label>
+			<label index="inlineedit.save.alert.title">You are about to create/update ALL localizations in this form? Continue?</label>
+			<label index="inlineedit.cancel.alert.title">You are about to discard any changes you made. Continue?</label>
+			<label index="export.xml.headline.title">Export: </label>
+			<label index="export.xml.source-language.title">Alternative source language: </label>
+			<label index="export.xml.new.title">New/Changed content only </label>
+			<label index="export.xml.noHidden.title">No hidden content </label>
+			<label index="export.xml.check_exports.title">Check for already exported content</label>
+			<label index="export.xml.no_check_xml.title">Do not check XML</label>
+			<label index="export.xml.checkXml.title">Check XML</label>
+			<label index="export.process.error.empty.message">Empty element</label>
+			<label index="export.process.error.invalid.message">Detected invalid characters in element</label>
+			<label index="export.process.duplicate.message">Contents already exported for translation! </label>
+			<label index="export.overview.date.label">Date</label>
+			<label index="export.overview.configuration.label">Configuration</label>
+			<label index="export.overview.type.label">Type</label>
+			<label index="export.overview.targetlanguage.label">Target language</label>
+			<label index="export.overview.filename.label">Filename</label>
+			<label index="import.xml.headline.title">Import: </label>
+			<label index="import.xml.old-format.title">Import old format (v2)</label>
+			<label index="import.xml.old-format.message">Import uses the old format without pageGrp element and checks!</label>
+			<label index="import.xml.delL10N.title">Delete localizations before import</label>
+			<label index="import.xml.delL10N.message">Previous localizations will be deleted before importing new ones!</label>
+			<label index="import.error.title">Error in Import:</label>
+			<label index="import.success.message">Import done!</label>
+			<label index="import.manager.error.parsing.xml2tree.message">XML2Tree parsing error: </label>
+			<label index="import.manager.error.missing.meta.message">Could not find meta data in XML!</label>
+			<label index="import.manager.error.version.message">Incorrect Version of the format: %s (required: %s)</label>
+			<label index="import.manager.error.workspace.message">Export was taken from a diffrent Workspace, please import in this workspace to avoid problems: Current %s (required: %s)</label>
+			<label index="import.manager.error.language.message">'Export was taken from a diffrent language, please select correct language above! current: %s (required: %s)</label>
+			<label index="misc.messages.title">Messages:</label>
+			<label index="render_overview.nochange.message">No change.</label>
+			<label index="render_overview.new.message">NEW</label>
+			<label index="render_overview.nodiff.message">No diff available.</label>
+			<label index="export.xml.checkUtf8.title">Check UTF-8</label>
+			<label index="render_overview.clickedit.message">Click to edit</label>
+			<label index="render_overview.clicklocalize.message">Click to localize</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

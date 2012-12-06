@@ -1,0 +1,54 @@
+					.basictab ul {
+					margin: 4px;
+					padding: 3px 0;
+					margin-left: 0;
+					font: bold 10px Verdana;
+					width:100%;
+					border-bottom: 1px solid gray;
+					list-style-type: none;
+					text-align: left; /*set to left, center, or right to align the menu as desired*/
+					margin-bottom:0px;
+					}
+					.basictab li{
+					display: inline;
+					margin: 0;
+					}
+					.basictab li a{
+					text-decoration: none;
+					padding: 3px 7px;
+					margin-right: 3px;
+					border: 1px solid grey;
+					border-bottom: none;
+					background-color: #ffffff;
+					color: #2d2b2b;
+					}
+					.basictab li a:visited{
+					color: #2d2b2b;
+					}
+					.basictab li a:hover {
+					color: black;
+					}
+					.basictab li a.current{
+					background-color: #d7d7d7;
+					color: black;
+					}
+					.basictab li a:active{
+					color: black;
+					}
+					#tabcontentcontainer{
+					width:100%; /*width of 2nd level content*/
+					height:150px; /*height of 2nd level content. Set to largests content height to avoid jittering.*/
+					border-bottom: 1px solid grey;
+					border-right: 1px solid grey;
+					border-left: 1px solid grey;
+					padding-left:5px;
+					padding-right:5px;
+					padding-top:5px;
+					margin-top:0px;
+					}
+					.tabcontent{
+					display:none;
+					padding:5px;
+					padding-top:10px;
+					min-height:165px;
+					}

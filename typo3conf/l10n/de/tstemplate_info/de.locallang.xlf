@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate_info" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="delete" xml:space="preserve" approved="yes">
+        <source>Delete:</source>
+      <target state="translated">Löschen:</target></trans-unit>
+      <trans-unit id="toTop" xml:space="preserve" approved="yes">
+        <source>To top:</source>
+      <target state="translated">Nach oben:</target></trans-unit>
+      <trans-unit id="fileChanged" xml:space="preserve" approved="yes">
+        <source>File changed</source>
+      <target state="translated">Datei geändert</target></trans-unit>
+      <trans-unit id="resourceUpdated" xml:space="preserve" approved="yes">
+        <source>Resource '%s' has been updated.</source>
+      <target state="translated">Ressource '%s' wurde aktualisiert.</target></trans-unit>
+      <trans-unit id="templateInformation" xml:space="preserve" approved="yes">
+        <source>Template information</source>
+      <target state="translated">Template-Informationen:</target></trans-unit>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titel des Templates:</target></trans-unit>
+      <trans-unit id="sitetitle" xml:space="preserve" approved="yes">
+        <source>Sitetitle</source>
+      <target state="translated">Titel der Website:</target></trans-unit>
+      <trans-unit id="description" xml:space="preserve" approved="yes">
+        <source>Description</source>
+      <target state="translated">Beschreibung:</target></trans-unit>
+      <trans-unit id="allowedExtensions" xml:space="preserve" approved="yes">
+        <source>Allowed extensions:</source>
+      <target state="translated">Erlaubte Erweiterungen:</target></trans-unit>
+      <trans-unit id="maxFilesize" xml:space="preserve" approved="yes">
+        <source>Max filesize:</source>
+      <target state="translated">Maximale Dateigröße:</target></trans-unit>
+      <trans-unit id="uploadResource" xml:space="preserve" approved="yes">
+        <source>Upload resource</source>
+      <target state="translated">Ressource hochladen:</target></trans-unit>
+      <trans-unit id="newTextResource" xml:space="preserve" approved="yes">
+        <source>New text resource (enter name)</source>
+      <target state="translated">Neue Textressource (geben Sie einen Namen an):</target></trans-unit>
+      <trans-unit id="copyResource" xml:space="preserve" approved="yes">
+        <source>Make a copy of resource:</source>
+      <target state="translated">Kopie der Ressource erstellen:</target></trans-unit>
+      <trans-unit id="updateResourceList" xml:space="preserve" approved="yes">
+        <source>Update resource list</source>
+      <target state="translated">Ressourcenliste aktualisieren:</target></trans-unit>
+      <trans-unit id="constants" xml:space="preserve" approved="yes">
+        <source>Constants</source>
+      <target state="translated">Konstanten:</target></trans-unit>
+      <trans-unit id="file" xml:space="preserve" approved="yes">
+        <source>File:</source>
+      <target state="translated">Datei:</target></trans-unit>
+      <trans-unit id="editResource" xml:space="preserve" approved="yes">
+        <source>Edit Resource:</source>
+      <target state="translated">Ressource bearbeiten:</target></trans-unit>
+      <trans-unit id="filesizeExceeded" xml:space="preserve" approved="yes">
+        <source>Filesize exceeded %s KBytes</source>
+      <target state="translated">Dateigröße überschreitet %s KB</target></trans-unit>
+      <trans-unit id="notAllowed" xml:space="preserve" approved="yes">
+        <source>Files larger than %s KBytes are not allowed to be edited.</source>
+      <target state="translated">Dateien größer als %s KB können nicht bearbeitet werden.</target></trans-unit>
+      <trans-unit id="setup" xml:space="preserve" approved="yes">
+        <source>Setup</source>
+      <target state="translated">Setup:</target></trans-unit>
+      <trans-unit id="resources" xml:space="preserve" approved="yes">
+        <source>Resources</source>
+      <target state="translated">Ressourcen:</target></trans-unit>
+      <trans-unit id="editToView" xml:space="preserve" approved="yes">
+        <source>(edit to view, %s lines)</source>
+      <target state="translated">(bearbeiten um anzuzeigen, %s Zeilen)</target></trans-unit>
+      <trans-unit id="editTemplateRecord" xml:space="preserve" approved="yes">
+        <source>Edit the whole template record</source>
+      <target state="translated">Vollständigen Template-Datensatz bearbeiten</target></trans-unit>
+      <trans-unit id="includeTypoScriptFileContent" xml:space="preserve" approved="yes">
+        <source>Include TypoScript file content</source>
+      <target state="translated">TypoScript-Dateiinhalte einbinden</target></trans-unit>
+    </body>
+  </file>
+</xliff>

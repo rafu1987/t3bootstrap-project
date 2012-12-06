@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="sys_filemounts.tabs.staging">Stufen</label>
+      <label index="sys_workspace.custom_stages">Benutzerdefinierte Stufen:</label>
+      <label index="sys_workspace_stage.responsible_persons">Verantwortliche Benutzer:</label>
+      <label index="sys_workspace_stage.default_mailcomment">Standardkommentar für E-Mails:</label>
+      <label index="sys_workspace_stage.parentid">UID des Stammdatensatzes:</label>
+      <label index="sys_workspace_stage.parenttable">Stammtabelle:</label>
+      <label index="sys_workspace_stage">Arbeitsumgebungsstufe</label>
+      <label index="tabs.notification_settings">Benachrichtigungseinstellungen</label>
+      <label index="sys_workspace.edit_notification_mode">Stufe Bearbeiten: Checkboxen für Empfängervorschläge </label>
+      <label index="sys_workspace.notification_mode.0">Alle sind standardmäßig ausgewählt (anpassen möglich)</label>
+      <label index="sys_workspace.notification_mode.1">Einige sind standardmäßig ausgewählt (abwählen nicht möglich)</label>
+      <label index="sys_workspace.notification_mode.2">Alle standardmäßig ausgewählt (anpassen nicht möglich)</label>
+      <label index="sys_workspace.edit_notification_defaults">Stufe Bearbeiten: Standardempfänger für Benachrichtigungen per E-Mail</label>
+      <label index="sys_workspace.edit_allow_notificaton_settings">Ändern der Benachrichtigungseinstellungen bei Rückstufung auf Bearbeiten erlauben</label>
+      <label index="sys_workspace.publish_notification_mode">Stufe Bereit für Veröffentlichung: Checkboxen für Empfängervorschläge</label>
+      <label index="sys_workspace.publish_notification_defaults">Stufe Bereit für Veröffentlichung: Standardempfänger für Benachrichtigungen per E-Mail</label>
+      <label index="sys_workspace.publish_allow_notificaton_settings">Ändern der Benachrichtigungseinstellungen bei Hochstufung auf "Bereit für Veröffentlichung" erlauben</label>
+      <label index="tabs.general">Allgemein</label>
+      <label index="sys_workspace_stage.notification_mode">Checkboxen für Empfängervorschläge</label>
+      <label index="sys_workspace_stage.notification_defaults">Standardempfänger für Benachrichtigungen per E-Mail</label>
+      <label index="sys_workspace_stage.allow_notificaton_settings">Ändern der Benachrichtigungseinstellungen bei Stufenänderung erlauben</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

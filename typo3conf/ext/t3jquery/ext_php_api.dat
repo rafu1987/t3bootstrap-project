@@ -1,0 +1,81 @@
+a:2:{s:4:"meta";a:3:{s:5:"title";s:0:"";s:5:"descr";s:0:"";s:7:"options";a:2:{s:10:"usageCount";N;s:19:"includeCodeAbstract";N;}}s:5:"files";a:1:{s:14:"MD5_3394e6696f";a:4:{s:8:"filename";s:21:"class.tx_t3jquery.php";s:8:"filesize";i:5470;s:6:"header";a:5:{s:4:"text";s:712:"
+
+jQuery Javascript Loader functions
+
+You are encouraged to use this library in your own scripts!
+
+USE:
+The class is intended to be used without creating an instance of it.
+So: Don't instantiate - call functions with "tx_t3jquery::" prefixed the function name.
+So use tx_t3jquery::[method-name] to refer to the functions, eg. 'tx_t3jquery::addJqJS()'
+
+Example:
+
+if (t3lib_extMgm::isLoaded('t3jquery')) {
+  require_once(t3lib_extMgm::extPath('t3jquery').'class.tx_t3jquery.php');
+}
+
+
+if (T3JQUERY === TRUE) {
+  tx_t3jquery::addJqJS();
+} else {
+  // Here you add your own version of jQuery library, which is used if the
+  // "t3jquery" extension is not installed.
+  $GLOBALS['TSFE']->additionalHeaderData[] = ..
+}
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:3:{i:0;s:49:"@author Juergen Furrer (juergen.furrer@gmail.com)";i:1;s:14:"@package TYPO3";i:2;s:20:"@subpackage t3jquery";}s:11:"other_index";a:3:{s:7:"@author";a:1:{i:0;s:41:"Juergen Furrer (juergen.furrer@gmail.com)";}s:8:"@package";a:1:{i:0;s:6:"TYPO3 ";}s:11:"@subpackage";a:1:{i:0;s:9:"t3jquery ";}}}s:3:"DAT";a:6:{i:1;a:8:{s:6:"header";s:19:"class tx_t3jquery
+{";s:5:"class";i:1;s:11:"parentClass";s:11:"tx_t3jquery";s:4:"cDat";a:5:{s:4:"text";s:712:"
+
+jQuery Javascript Loader functions
+
+You are encouraged to use this library in your own scripts!
+
+USE:
+The class is intended to be used without creating an instance of it.
+So: Don't instantiate - call functions with "tx_t3jquery::" prefixed the function name.
+So use tx_t3jquery::[method-name] to refer to the functions, eg. 'tx_t3jquery::addJqJS()'
+
+Example:
+
+if (t3lib_extMgm::isLoaded('t3jquery')) {
+  require_once(t3lib_extMgm::extPath('t3jquery').'class.tx_t3jquery.php');
+}
+
+
+if (T3JQUERY === TRUE) {
+  tx_t3jquery::addJqJS();
+} else {
+  // Here you add your own version of jQuery library, which is used if the
+  // "t3jquery" extension is not installed.
+  $GLOBALS['TSFE']->additionalHeaderData[] = ..
+}
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:3:{i:0;s:49:"@author Juergen Furrer (juergen.furrer@gmail.com)";i:1;s:14:"@package TYPO3";i:2;s:20:"@subpackage t3jquery";}s:11:"other_index";a:3:{s:7:"@author";a:1:{i:0;s:41:"Juergen Furrer (juergen.furrer@gmail.com)";}s:8:"@package";a:1:{i:0;s:6:"TYPO3 ";}s:11:"@subpackage";a:1:{i:0;s:9:"t3jquery ";}}}s:7:"content";s:0:"";s:12:"content_size";i:40;s:13:"content_lines";i:5;s:6:"atLine";i:61;}i:3;a:7:{s:6:"header";s:21:"function addJqJS()
+	{";s:11:"parentClass";s:11:"tx_t3jquery";s:4:"cDat";a:3:{s:4:"text";s:74:"
+
+Adds the jquery script tag for the page header.
+For frontend usage only.";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:4:"void";i:1;s:0:"";}}s:7:"content";s:0:"";s:12:"content_size";i:91;s:13:"content_lines";i:3;s:6:"atLine";i:74;}i:5;a:7:{s:6:"header";s:23:"function getJqPath()
+	{";s:11:"parentClass";s:11:"tx_t3jquery";s:4:"cDat";a:3:{s:4:"text";s:39:"
+
+Returns the path configuration and JS";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:0:"";}}s:7:"content";s:0:"";s:12:"content_size";i:211;s:13:"content_lines";i:5;s:6:"atLine";i:84;}i:7;a:7:{s:6:"header";s:37:"function getJqJS($urlOnly = FALSE)
+	{";s:11:"parentClass";s:11:"tx_t3jquery";s:4:"cDat";a:3:{s:4:"text";s:56:"
+
+Get the jQuery UI script tag.
+For frontend usage only.";s:5:"param";a:1:{i:0;a:2:{i:0;s:7:"boolean";i:1;s:56:"If TRUE, only the URL is returned, not a full script tag";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:53:"HTML Script tag to load the jQuery JavaScript library";}}s:7:"content";s:0:"";s:12:"content_size";i:147;s:13:"content_lines";i:4;s:6:"atLine";i:98;}i:9;a:4:{s:6:"header";s:39:"function getJqJSBE($urlOnly = FALSE)
+	{";s:11:"parentClass";s:11:"tx_t3jquery";s:4:"cDat";a:3:{s:4:"text";s:52:"
+
+Get the jquery script tag.
+For backend usage only.";s:5:"param";a:1:{i:0;a:2:{i:0;s:7:"boolean";i:1;s:56:"If TRUE, only the URL is returned, not a full script tag";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:53:"HTML Script tag to load the jQuery JavaScript library";}}s:6:"atLine";i:111;}i:11;a:7:{s:6:"header";s:34:"function addJS($content, $conf)
+	{";s:11:"parentClass";s:11:"tx_t3jquery";s:4:"cDat";a:3:{s:4:"text";s:423:"
+
+Function to be used from TypoScript to add Javascript after the jquery.js
+
+This is a small wrapper for adding javascripts script after the jQuery Library.
+This is needed in some situations because headerdata added with "page.headerData"
+is placed BEFORE the headerdata which is added using PHP.
+
+Usage:
+
+ 10 = USER
+ 10.userFunc = tx_t3jquery->addJS
+ 10.jsfile = fileadmin/testscript.js
+ 10.jsdata = alert('Hello World!');";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:55:"$content: Content input, ignore (just put blank string)";}i:1;a:2:{i:0;s:5:"array";i:1;s:46:"$conf: TypoScript configuration of the plugin!";}}s:6:"return";a:2:{i:0;s:4:"void";i:1;s:0:"";}}s:7:"content";s:0:"";s:12:"content_size";i:1000;s:13:"content_lines";i:17;s:6:"atLine";i:136;}}}}}

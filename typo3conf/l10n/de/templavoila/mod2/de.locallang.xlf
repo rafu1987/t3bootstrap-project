@@ -1,0 +1,622 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:55:14 UTC 2011" product-name="templavoila">
+    <header/>
+    <body>
+      <trans-unit id="title" approved="yes">
+        <source>TemplaVoilà Control Center</source>
+        <target state="translated">TemplaVoilà-Kontrollzentrum</target>
+      </trans-unit>
+      <trans-unit id="storagefolders" approved="yes">
+        <source>Storage Folders</source>
+        <target state="translated">Speicherordner</target>
+      </trans-unit>
+      <trans-unit id="datastructures" approved="yes">
+        <source>Data Structures</source>
+        <target state="translated">Datenstrukturen</target>
+      </trans-unit>
+      <trans-unit id="templateobjects" approved="yes">
+        <source>Template Objects</source>
+        <target state="translated">Vorlagenobjekte</target>
+      </trans-unit>
+      <trans-unit id="templatefiles" approved="yes">
+        <source>Template Files</source>
+        <target state="translated">Vorlagendateien</target>
+      </trans-unit>
+      <trans-unit id="pagetemplates" approved="yes">
+        <source>Page templates</source>
+        <target state="translated">Seiten-Templates</target>
+      </trans-unit>
+      <trans-unit id="filereference" approved="yes">
+        <source>File reference</source>
+        <target state="translated">Dateiverweis</target>
+      </trans-unit>
+      <trans-unit id="description" approved="yes">
+        <source>Description</source>
+        <target state="translated">Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="fces" approved="yes">
+        <source>Flexible CE</source>
+        <target state="translated">Flexible CE</target>
+      </trans-unit>
+      <trans-unit id="other" approved="yes">
+        <source>Other</source>
+        <target state="translated">Andere</target>
+      </trans-unit>
+      <trans-unit id="unknown" approved="yes">
+        <source>Unknown "%s"</source>
+        <target state="translated">Unbekannt "%s"</target>
+      </trans-unit>
+      <trans-unit id="losttos" approved="yes">
+        <source>Lost TOs [%d]</source>
+        <target state="translated">Verlorene VOs [%s]</target>
+      </trans-unit>
+      <trans-unit id="overview">
+        <source>Overview</source>
+        <target state="translated">XML-Datei</target>
+      </trans-unit>
+      <trans-unit id="dstotitle" approved="yes">
+        <source>DS/TO Title</source>
+        <target state="translated">DS/VO-Titel</target>
+      </trans-unit>
+      <trans-unit id="localization" approved="yes">
+        <source>Localization</source>
+        <target state="translated">Lokalisierung</target>
+      </trans-unit>
+      <trans-unit id="containerstatus" approved="yes">
+        <source>Container status</source>
+        <target state="translated">Container-Status</target>
+      </trans-unit>
+      <trans-unit id="mappingstatus" approved="yes">
+        <source>Mapping status</source>
+        <target state="translated">Abbildungsstatus</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfungsstatus</target></alt-trans></trans-unit>
+      <trans-unit id="usagecount">
+        <source>Usage Count</source>
+        <target state="translated">Verwendungshäufigkeit</target>
+      </trans-unit>
+      <trans-unit id="templatestatus" approved="yes">
+        <source>Template Status</source>
+        <target state="translated">Vorlagenstatus</target>
+      </trans-unit>
+      <trans-unit id="rendertype" approved="yes">
+        <source>Render Type</source>
+        <target state="translated">Darstellungstyp</target>
+      </trans-unit>
+      <trans-unit id="language" approved="yes">
+        <source>Language</source>
+        <target state="translated">Sprache</target>
+      </trans-unit>
+      <trans-unit id="globalprocessing_xml" approved="yes">
+        <source>Global Processing &lt;strong&gt;XML&lt;/strong&gt;</source>
+        <target state="translated">Globale Verarbeitung &lt;strong&gt;XML&lt;/strong&gt;</target>
+      </trans-unit>
+      <trans-unit id="localprocessing_xml" approved="yes">
+        <source>Local Processing &lt;strong&gt;XML&lt;/strong&gt;</source>
+        <target state="translated">Lokale Verarbeitung &lt;strong&gt;XML&lt;/strong&gt;</target>
+      </trans-unit>
+      <trans-unit id="usedby" approved="yes">
+        <source>Used by</source>
+        <target state="translated">Verwendet von</target>
+      </trans-unit>
+      <trans-unit id="created" approved="yes">
+        <source>Created</source>
+        <target state="translated">Erstellt</target>
+      </trans-unit>
+      <trans-unit id="updated" approved="yes">
+        <source>Updated</source>
+        <target state="translated">Aktualisiert</target>
+      </trans-unit>
+      <trans-unit id="noicon" approved="yes">
+        <source>[No icon]</source>
+        <target state="translated">[Kein Symbol]</target>
+      </trans-unit>
+      <trans-unit id="filenotfound" approved="yes">
+        <source>[File not found!]</source>
+        <target state="translated">[Datei nicht gefunden!]</target>
+      </trans-unit>
+      <trans-unit id="createnewto" approved="yes">
+        <source>Create new Template Object</source>
+        <target state="translated">Neues Vorlagenobjekt erstellen</target>
+      </trans-unit>
+      <trans-unit id="overview" approved="yes">
+        <source>XML file</source>
+        <target state="translated">XML-Datei</target>
+      </trans-unit>
+      <trans-unit id="containerwithseparatelocalization" approved="yes">
+        <source>Container element with separate localization!</source>
+        <target state="translated">Container-Element mit separater Lokalisierung!</target>
+      </trans-unit>
+      <trans-unit id="mixofcontentandref" approved="yes">
+        <source>Mix of content and references, OK, but be careful!</source>
+        <target state="translated">Mischung aus Inhalt und Referenzierung. In Ordnung, aber Vorsicht ist geboten!</target>
+      </trans-unit>
+      <trans-unit id="nocontentfields" approved="yes">
+        <source>No content fields, recommended to set "&lt;langDisable&gt;" = 1</source>
+        <target state="translated">Kein Inhaltsfeld. Es wird empfohlen, "&lt;langDisable&gt;" = 1 zu setzen</target>
+      </trans-unit>
+      <trans-unit id="towasupdated" approved="yes">
+        <source>Template file was updated since last mapping (%s) and you might need to remap the Template Object!</source>
+        <target state="translated">Die Vorlagendatei wurde seit der letzten Abbildung geändert. Das Vorlagenobjekt muss ggf. neu abgebildet werden.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Die Vorlagendatei wurde seit der letzten Verknüpfung geändert. Das Vorlagenobjekt muss ggf. neu verknüpft werden.</target></alt-trans></trans-unit>
+      <trans-unit id="warning_mappingstatus" approved="yes">
+        <source>%s (TO: "%s")</source>
+        <target state="translated">%s (VO: "%s")</target>
+      </trans-unit>
+      <trans-unit id="mapping_uptodate" approved="yes">
+        <source>Mapping is up to date.</source>
+        <target state="translated">Abbildung ist auf aktuellem Stand.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfung ist auf aktuellem Stand.</target></alt-trans></trans-unit>
+      <trans-unit id="update_mapping" approved="yes">
+        <source>Update mapping</source>
+        <target state="translated">Abbildung aktualisieren</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfung aktualisieren</target></alt-trans></trans-unit>
+      <trans-unit id="notmapped" approved="yes">
+        <source>Not mapped yet!</source>
+        <target state="translated">Noch keine Abbildung durchgeführt!</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Noch keine Verknüpfung durchgeführt!</target></alt-trans></trans-unit>
+      <trans-unit id="updatemapping_info" approved="yes">
+        <source> - &lt;em&gt;(It might also mean that the TO was mapped with an older version of TemplaVoila - then just go and save the mapping again at this will be updated.)&lt;/em&gt;</source>
+        <target state="translated">- &lt;em&gt;(Dies kann auch bedeuten, dass das VO mit einer älteren TemplaVoilà-Version bearbeitet wurde. In diesem Fall die Abbildungs nochmals speichern und dadurch aktualisieren.)&lt;/em&gt;</target>
+      </trans-unit>
+      <trans-unit id="map" approved="yes">
+        <source>Map</source>
+        <target state="translated">Abbilden</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfen</target></alt-trans></trans-unit>
+      <trans-unit id="remap" approved="yes">
+        <source>Remap</source>
+        <target state="translated">Erneut Abbilden</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Erneut verknüpfen</target></alt-trans></trans-unit>
+      <trans-unit id="preview" approved="yes">
+        <source>Preview</source>
+        <target state="translated">Vorschau</target>
+      </trans-unit>
+      <trans-unit id="toused_title" approved="yes">
+        <source>Title</source>
+        <target state="translated">Titel</target>
+      </trans-unit>
+      <trans-unit id="toused_pid" approved="yes">
+        <source>Page ID</source>
+        <target state="translated">Seiten-ID</target>
+      </trans-unit>
+      <trans-unit id="toused_path" approved="yes">
+        <source>Path</source>
+        <target state="translated">Pfad</target>
+      </trans-unit>
+      <trans-unit id="toused_workspace" approved="yes">
+        <source>Workspace</source>
+        <target state="translated">Arbeitsumgebung</target>
+      </trans-unit>
+      <trans-unit id="toused_uid" approved="yes">
+        <source>UID</source>
+        <target state="translated">UID</target>
+      </trans-unit>
+      <trans-unit id="toused_header" approved="yes">
+        <source>Header</source>
+        <target state="translated">Kopfbereich</target>
+      </trans-unit>
+      <trans-unit id="toused_usedin" approved="yes">
+        <source>Used in %d Elements</source>
+        <target state="translated">In %s Elementen verwendet</target>
+      </trans-unit>
+      <trans-unit id="noaccess" approved="yes">
+        <source>No Access</source>
+        <target state="translated">Kein Zugriff</target>
+      </trans-unit>
+      <trans-unit id="usage" approved="yes">
+        <source>Usage</source>
+        <target state="translated">Verwendung</target>
+      </trans-unit>
+      <trans-unit id="action" approved="yes">
+        <source>Action</source>
+        <target state="translated">Aktion</target>
+      </trans-unit>
+      <trans-unit id="refresh" approved="yes">
+        <source>Refresh</source>
+        <target state="translated">Auffrischen</target>
+      </trans-unit>
+      <trans-unit id="invalidtemplatevalues" approved="yes">
+        <source>Invalid template values in %d elements</source>
+        <target state="translated">Ungültige Werte in %s Elementen</target>
+      </trans-unit>
+      <trans-unit id="noerrorsfound" approved="yes">
+        <source>No errors found!</source>
+        <target state="translated">Keine Fehler gefunden!</target>
+      </trans-unit>
+      <trans-unit id="byuser" approved="yes">
+        <source>by user</source>
+        <target state="translated">von Benutzer</target>
+      </trans-unit>
+      <trans-unit id="file" approved="yes">
+        <source>File</source>
+        <target state="translated">Datei</target>
+      </trans-unit>
+      <trans-unit id="usagecount" approved="yes">
+        <source>Usage count</source>
+        <target state="translated">Verwendungshäufigkeit</target>
+      </trans-unit>
+      <trans-unit id="newdsto" approved="yes">
+        <source>New DS/TO</source>
+        <target state="translated">Neue DS/VO</target>
+      </trans-unit>
+      <trans-unit id="usedfiles" approved="yes">
+        <source>Used files</source>
+        <target state="translated">Verwendete Dateien</target>
+      </trans-unit>
+      <trans-unit id="templatearchive" approved="yes">
+        <source>Template Archive</source>
+        <target state="translated">Vorlagenarchiv</target>
+      </trans-unit>
+      <trans-unit id="configuration" approved="yes">
+        <source>Configuration</source>
+        <target state="translated">Konfiguration</target>
+      </trans-unit>
+      <trans-unit id="fceislocalized" approved="yes">
+        <source>FCE-element is localized</source>
+        <target state="translated">FCE-Element ist lokalisiert</target>
+      </trans-unit>
+      <trans-unit id="fceinlineislocalized" approved="yes">
+        <source>FCE-inline-elements of the FCE-element are localized</source>
+        <target state="translated">Unter-FCEs des FCE sind lokalisiert</target>
+      </trans-unit>
+      <trans-unit id="casttointeger" approved="yes">
+        <source>the entered/computed value will be cast to an integer</source>
+        <target state="translated">Aus dem eingegebenen Wert wird eine ganze Zahl erstellt</target>
+      </trans-unit>
+      <trans-unit id="hsced" approved="yes">
+        <source>the entered/computed value will be passed to htmlentities</source>
+        <target state="translated">Im eingegebenen Wert vorhandene Sonderzeichen werden in HTML-Entitäten umgewandelt</target>
+      </trans-unit>
+      <trans-unit id="hsc_on" approved="yes">
+        <source>[HTML-code won't be available]</source>
+        <target state="translated">[HTML-Code ist nicht verfügbar]</target>
+      </trans-unit>
+      <trans-unit id="hsc_off" approved="yes">
+        <source>[HTML-code will be displayed as-is]</source>
+        <target state="translated">[HTML-Code wird wie eingegeben dargestellt]</target>
+      </trans-unit>
+      <trans-unit id="stdwrap" approved="yes">
+        <source>the entered/computed value will be wrapped</source>
+        <target state="translated">Der eingegebene/berechnete Wert wird umschlossen</target>
+      </trans-unit>
+      <trans-unit id="redundant" approved="yes">
+        <source>redundant</source>
+        <target state="translated">redundant</target>
+      </trans-unit>
+      <trans-unit id="illegalcharacters" approved="yes">
+        <source>entry contains illegal characters and/or has multiple lines</source>
+        <target state="translated">Eingabe enthält unzulässige Zeichen und/oder mehrere Zeilen</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menuhtmlcode" approved="yes">
+        <source>Here is the HTML code from the Template that encapsulated the menu</source>
+        <target state="translated">Hier der HTML-Code aus dem Template, der das Menü umschließt</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menuenc" approved="yes">
+        <source>It seems that the menu consists of menu items encapsulated with %s.</source>
+        <target state="translated">Das Menü scheint aus Menüeinträgen zu bestehen, die in %s eingeschlossen sind.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menunoa" approved="yes">
+        <source>It seems that the menu consists of menu items not wrapped in any block tags except A-tags.</source>
+        <target state="translated">Das Menü scheint aus Menüeinträgen zu bestehen, die abgesehen von den a-Tags nicht in Blocktags eingeschlossen sind.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menuwrap" approved="yes">
+        <source>It also seems that the whole menu is wrapped in this tag %s</source>
+        <target state="translated">Darüber hinaus scheint das gesamte Menü mit dem Tag %s umschlossen zu sein.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menudiv" approved="yes">
+        <source>Between the menu elements there seems to be a visual division element with this HTML code: "%s". That will be added between each element as well.</source>
+        <target state="translated">Zwischen den Menüeinträgen scheint sich ein visuelles Trennelement mit folgendem HTML-Code zu befinden: "%s" Es wird zwischen allen Elementen eingefügt.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menuimg" approved="yes">
+        <source>The menu items were detected to be images - TYPO3 will try to generate graphical menu items automatically (GMENU). You will need to customize the look of these before it will match the originals!</source>
+        <target state="translated">Die Menüeinträge wurden als Bilder erkannt - TYPO3 wird versuchen, automatisch grafische Menüeinträge zu erzeugen (GMENU). Diese müssen angepaßt werden, damit sie dem Originalerscheinungsbild entsprechen!</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menumouseover" approved="yes">
+        <source>It seems like a mouseover functionality has been applied previously, so roll-over effect has been applied as well.</source>
+        <target state="translated">Es scheint, daß zuvor eine Mouseover-Funktion verwendet wurde, daher wurde auch ein Roll-Over-Effekt hinzugefügt.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menuts" approved="yes">
+        <source>Based on this analysis, this TypoScript configuration for the menu is suggested:</source>
+        <target state="translated">Basierend auf dieser Analyse wird für das Menü folgende TypoScript-Konfiguration vorgeschlagen:</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menufinetune" approved="yes">
+        <source>You can fine tune the configuration here before it is saved:</source>
+        <target state="translated">Die Konfiguration kann hier vor dem Speichern angepaßt werden:</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menuwritets" approved="yes">
+        <source>Write %s TypoScript code</source>
+        <target state="translated">%s TypoScript-Code schreiben</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menufinished" approved="yes">
+        <source>The basics of your website should be working now. It seems like you did not map the %s to any element, so the menu configuration process will be skipped.</source>
+        <target state="translated">Die grundlegende Web-Site sollte nun funktionieren. Wie es scheint, haben Sie %s keinem Element zugewiesen, daher wird der Konfigurationsvorgang für das Menü übersprungen.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_menunext" approved="yes">
+        <source>Next...</source>
+        <target state="translated">Weiter...</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step5" approved="yes">
+        <source>Step 5 %s: Trying to create dynamic menu</source>
+        <target state="translated">Schritt 5 %s: Versuch, ein dynamisches Menü zu erstellen</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_sitecreated" approved="yes">
+        <source>&lt;b&gt;Congratulations!&lt;/b&gt; You have completed the initial creation of a new website in TYPO3 based on the TemplaVoila engine. After you click the "Finish" button you can go to the Web&gt;Page module to edit your pages!</source>
+        <target state="translated">&lt;b&gt;Herzlichen Glückwunsch!&lt;/b&gt; Sie haben die grundlegende Erstellung einer neuen Web-Site unter TYPO3 mit der TemplaVoilà-Engine abgeschlossen. Nach Drücken von "Assistent beenden!" können Sie mit dem Modul Web&gt;Seite Seiten bearbeiten!</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_finish" approved="yes">
+        <source>Finish Wizard!</source>
+        <target state="translated">Assistent beenden!</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_done" approved="yes">
+        <source>Step 6: Done</source>
+        <target state="translated">Schritt 6: Fertig</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_basicsshouldwork" approved="yes">
+        <source>The basics of your website should be working now. However the %s still needs to be configured so that TYPO3 automatically generates a menu reflecting the pages in the page tree. This process involves configuration of the TypoScript object path, "lib.%s". This is a technical job which requires that you know about TypoScript if you want it 100%% customized.&lt;br/&gt;To assist you getting started with the %s this wizard will try to analyse the menu found inside the template file. If the menu was created of a series of repetitive block tags containing A-tags then there is a good chance this will succeed. You can see the result below.</source>
+        <target state="translated">Die Basis der Web-Site steht nun bereit. Jedoch muss %s noch konfiguriert werden, so dass TYPO3 automatisch ein Menü passend zum Seitenbaum generiert. Dies beinhaltet die Konfiguration des TypoScript-Objektpfads "lib.%s". Dies ist eine technische Aufgabe, welche Kenntnisse über TypoScript erfordert um diese 100%% anzupassen.&lt;br/&gt;Um Sie beim Start mit %s zu unterstützen wird dieser Assistent das Menü der Vorlagendatei analysieren. Sollte das Menü als Reihe von wiederkehrenden Blöcken mit A-Tags erstellt worden sein, besteht eine gute Chance, dass dies gelingt. Unten sehen Sie das Ergebnis.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_headerinclude" approved="yes">
+        <source>Finally you also have to select which parts of the HTML header you want to include. For instance it is important that you select all sections with CSS styles in order to preserve the correct visual appearance of your website.&lt;br/&gt;You can also select the body-tag of the template if you want to use the original body-tag.&lt;br/&gt;This animations shows an example of this process:</source>
+        <target state="translated">Abschließend müssen Sie auch festlegen welche Teile des HTML-Kopfs eingebunden werden. Es ist z.B. wichtig alle Abschnitte mit CSS-Angaben einzubinden um eine korrekte grafische Darstellung der Website beizubehalten.&lt;br/&gt;Sie können auch das body-Tag auswählen, wenn sie das Original-body-Tag beibehalten wollen.&lt;br/&gt;Diese Animation zeigt ein Beispiel des Vorgangs:</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_headerselect" approved="yes">
+        <source>Select HTML header parts</source>
+        <target state="translated">Teile des HTML-Headers auswählen</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step4" approved="yes">
+        <source>Step 4: Select HTML header parts</source>
+        <target state="translated">Schritt 4: Teile des HTML-Headers auswählen</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_maintemplate" approved="yes">
+        <source>Main template:</source>
+        <target state="translated">Haupt-Template</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_created" approved="yes">
+        <source>New site has been created and adapted.</source>
+        <target state="translated">Eine neue Site wurde erstellt und übernommen.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step3error" approved="yes">
+        <source>Error happened: Either you did not specify a website name or username in the previous form!</source>
+        <target state="translated">Es ist ein Fehler aufgetreten. Entweder haben Sie in letzten Formular keinen Namen für die Web-Site oder keinen Benutzernamen eingegeben!</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step3ready" approved="yes">
+        <source>You are now ready to point out at which position in the HTML code to insert the TYPO3 generated page content and the main menu. This process is called "mapping".&lt;br/&gt;The process of mapping is shown with this little animation. Please study it closely to understand the flow, then click the button below to start the mapping process on your own. Complete the mapping process by pressing "Save and Return".</source>
+        <target state="translated">Sie können nun festlegen an welcher Stelle im HTML-Code der von TYPO3 generierte Seiteninhalt und das Hauptmenü eingefügt werden sollen. Dieser Prozess heißt "Mapping".&lt;br/&gt;Die nachfolgende Animation zeigt den Ablauf. Bitte sehen Sie sich diese gut an um das Vorgehen kennenzulernen und Starten das Mapping durch Klick auf die Schaltfläche darunter. Beenden Sie den Prozess durch Klick auf "Speichern und Schließen".</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Sie können nun festlegen an welcher Stelle im HTML-Code der von TYPO3 generierte Seiteninhalt und das Hauptmenü eingefügt werden sollen. Dieser Prozess heißt "Mapping" (Verknüpfen).&lt;br/&gt;Die nachfolgende Animation zeigt den Ablauf. Bitte sehen Sie sich diese gut an um das Vorgehen kennenzulernen und Starten das Mapping durch Klick auf die Schaltfläche darunter. Beenden Sie den Prozess durch Klick auf "Speichern und Schließen".</target></alt-trans></trans-unit>
+      <trans-unit id="newsitewizard_startmapping" approved="yes">
+        <source>Start the mapping process</source>
+        <target state="translated">Abbildungsvorgang starten</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Verknüpfungsvorgang starten</target></alt-trans></trans-unit>
+      <trans-unit id="newsitewizard_beginmapping" approved="yes">
+        <source>Step 3: Begin mapping</source>
+        <target state="translated">Schritt 3: Abbildungsvorgang starten</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Schritt 3: Verknüpfungsvorgang starten</target></alt-trans></trans-unit>
+      <trans-unit id="newsitewizard_firststep" approved="yes">
+        <source>The first step is to select the HTML file you want to base the new website design on. Below you see a list of HTML files found in the folder "%s". Click the "Preview"-link to see what the file looks like and when the right template is found, just click the "Choose as template"-link in order to proceed.&lt;br/&gt;If the list of files is empty you must now copy the HTML file you want to use as a template into the template folder. When you have done that, press the refresh button to refresh the list.</source>
+        <target state="translated">Der erste Schritt ist es eine HTML-Datei als Basis für das neue Web-Site-Design zu wählen. Unten sehen Sie eine liste von HTML-Dateien im Ordner "%s". Klicken Sie auf den "Vorschau"-Link um das Aussehen der Datei zu prüfen und, sobald Sie die richtige Template-Datei gefunden haben, auf den "Als Template auswählen"-Link um fortzufahren.&lt;br/&gt;Sollte jene Dateiliste leer sein, müssen Sie nun die gewünschte Templatedatei in den Templateordner kopieren. Anschließend drücken Sie die Auffrischen-Schaltfläche.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Der erste Schritt ist es eine HTML-Datei als Basis für das neue Website-Design zu wählen. Unten sehen Sie eine liste von HTML-Dateien im Ordner "%s". Klicken Sie auf den "Vorschau"-Link um das Aussehen der Datei zu prüfen und, sobald Sie die richtigeVorlagen-Datei gefunden haben, auf den "Als Vorlage auswählen"-Link um fortzufahren.&lt;br/&gt;Sollte jene Dateiliste leer sein, müssen Sie nun die gewünschte Vorlagendatei in den Vorlagenordner kopieren. Anschließend drücken Sie die Auffrischen-Schaltfläche.</target></alt-trans></trans-unit>
+      <trans-unit id="newsitewizard_selecttemplate" approved="yes">
+        <source>Step 1: Select the template HTML file</source>
+        <target state="translated">Schritt 1: Die HTML-Vorlagendatei auswählen</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_error" approved="yes">
+        <source>TemplaVoila wizard error</source>
+        <target state="translated">Fehler im TemplaVoilà-Assistenten</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_errornodir" approved="yes">
+        <source>The template directory is empty or could not be found. Please, create it before starting this wizard.</source>
+        <target state="translated">Das Template-Verzeichnis ist leer oder konnte nicht gefunden werden. Bitte vor Starten des Assistenten erstellen.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_templateselected" approved="yes">
+        <source>The template file "%s" is now selected:</source>
+        <target state="translated">Die Vorlagendatei "%s" ist nun ausgewählt:</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2next" approved="yes">
+        <source>Next, you should enter default values for the new website. With this basic set of information we are ready to create the initial website structure!</source>
+        <target state="translated">Als nächstes sollten Sie Standardwerte für die neue Web-Site eingeben. Mit diesen Grundinformationen kann die Grundstruktur der Web-Site erstellt werden!</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2_name" approved="yes">
+        <source>Name of the site</source>
+        <target state="translated">Name der Site</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2_url" approved="yes">
+        <source>URL of the website</source>
+        <target state="translated">URL der Web-Site</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2_editor" approved="yes">
+        <source>Editor username</source>
+        <target state="translated">Benutzername des Redakteurs</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2_required" approved="yes">
+        <source>(Required)</source>
+        <target state="translated">(Pflichtangabe)</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2_optional" approved="yes">
+        <source>(Optional)</source>
+        <target state="translated">(Optional)</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2_createnewsite" approved="yes">
+        <source>Create new site</source>
+        <target state="translated">Neue Site erstellen</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2_notemplatefound" approved="yes">
+        <source>No template file found!?</source>
+        <target state="translated">Keine Vorlagendatei gefunden!?</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2_valuename" approved="yes">
+        <source>This value is shown in the browsers title bar and will be the default name of the first page in the page tree.</source>
+        <target state="translated">Dieser Wert wird in der Titelleiste des Browsers angezeigt und ist der Standardname der ersten Seite im Seitenbaum.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2_valueurl" approved="yes">
+        <source>If you know the URL of the website already please enter it here, eg. "www.mydomain.com".</source>
+        <target state="translated">Wenn die URL der Web-Site bekannt ist, geben Sie sie hier bitte ein, z.B. "www.meinedomaene.com".</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2_username" approved="yes">
+        <source>Enter the username of a new backend user/group who will be able to edit the pages on the new website. (Password will be "password" by default, make sure to change that!)</source>
+        <target state="translated">Geben Sie den Benutzernamen eines neuen Benutzers bzw. einer Benutzergruppe ein, die in der Lage sein soll, die Seiten der neuen Web-Site zu bearbeiten. (Das Passwort wird standardmäßig auf "password" gesetzt. Vergessen Sie nicht, es zu ändern!)</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_step2" approved="yes">
+        <source>Step 2: Enter default values for new site</source>
+        <target state="translated">Schritt 2: Standardwerte für die neue Site festlegen</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_usedtimes" approved="yes">
+        <source>Used %d times</source>
+        <target state="translated">%s Mal verwendet</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_notused" approved="yes">
+        <source>Not used yet</source>
+        <target state="translated">Noch nicht verwendet</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_preview" approved="yes">
+        <source>[Preview first]</source>
+        <target state="translated">[Erst Vorschau anzeigen]</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_choose" approved="yes">
+        <source>[Choose as Template]</source>
+        <target state="translated">[Als Template auswählen]</target>
+      </trans-unit>
+      <trans-unit id="dsdetails_nobasicdefinitions" approved="yes">
+        <source>The element has no basic definitions!</source>
+        <target state="translated">Das Element besitzt keine grundlegenden Definitionen!</target>
+      </trans-unit>
+      <trans-unit id="dsdetails_notceformdefinitions" approved="yes">
+        <source>The element has no TCE-form definitions!</source>
+        <target state="translated">Das Element besitzt keine TCE-form-Definitionen!</target>
+      </trans-unit>
+      <trans-unit id="dsdetails_notes" approved="yes">
+        <source>Notes</source>
+        <target state="translated">Bemerkungen</target>
+      </trans-unit>
+      <trans-unit id="dsdetails_ts" approved="yes">
+        <source>TypoScript</source>
+        <target state="translated">TypoScript</target>
+      </trans-unit>
+      <trans-unit id="dsdetails_column" approved="yes">
+        <source>Column-positioning</source>
+        <target state="translated">Spalten-Positionierung</target>
+      </trans-unit>
+      <trans-unit id="dsdetails_preset" approved="yes">
+        <source>Preset used for the element</source>
+        <target state="translated">Für das Element verwendete Voreinstellung</target>
+      </trans-unit>
+      <trans-unit id="dsdetails_tsutilize" approved="yes">
+        <source>will utilize the TS-structure %s defined inside the &lt;TypoScriptObjPath&gt;-entry</source>
+        <target state="translated">verwende die VO-Struktur %s wie im &lt;TypoScriptObjPath&gt;-Eintrag definiert</target>
+      </trans-unit>
+      <trans-unit id="dsdetails_tslines" approved="yes">
+        <source>%d lines of TS-code inside the &lt;TypoScript&gt;-entry</source>
+        <target state="translated">%d Zeilen TypoScript-Code im &lt;TypoScript&gt;-Eintrag</target>
+      </trans-unit>
+      <trans-unit id="dsdetails_tsconstants" approved="yes">
+        <source>%d TS-constants defined for use in the &lt;TypoScript&gt;-entry</source>
+        <target state="translated">%d TypoScript-Konstanten zur Verwendun im &lt;TypoScript&gt;-Eintrag definiert</target>
+      </trans-unit>
+      <trans-unit id="warnings" approved="yes">
+        <source>Warnings</source>
+        <target state="translated">Warnungen</target>
+      </trans-unit>
+      <trans-unit id="fatalerrors" approved="yes">
+        <source>Fatal errors</source>
+        <target state="translated">Schwere Fehler</target>
+      </trans-unit>
+      <trans-unit id="invaliddatastructure_xmlbroken" approved="yes">
+        <source>The the element "%1$s" within the datastructure seems to contain invalid XML, therefore the required data can't be displayed.</source>
+        <target state="translated">Das Element "%1$s" innerhalb der Datenstruktur scheint ungültiges XML zu enthalten. Daher können die erforderlichen Daten nicht angezeigt werden.</target>
+      </trans-unit>
+      <trans-unit id="wiz_title" approved="yes">
+        <source>New site wizard</source>
+        <target state="translated">Neue-Site-Assistent</target>
+      </trans-unit>
+      <trans-unit id="wiz_step" approved="yes">
+        <source>Step %s</source>
+        <target state="translated">Schritt %s</target>
+      </trans-unit>
+      <trans-unit id="description_pagesWithCertainDsTo" approved="yes">
+        <source>The following pages in the root line contain data structures and template objects</source>
+        <target state="translated">Die folgenden Seiten innerhalb der Rootline enthalten Datenstrukturen und Vorlagenobjekte</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_intro" approved="yes">
+        <source>If you want to start a new website based on the TemplaVoila template engine you can start this wizard which will set up all the boring initial stuff for you.
+You will be taken through these steps:
+- Creation of a new website root, storage folder, sample pages.
+- Creation of the main TemplaVoila template, including mapping of one content area and a main menu.
+- Creation of a backend user and group to manage only that website.
+
+You should prepare an HTML template before you begin the wizard; simply make a design in HTML and place the HTML file including graphics and stylesheets in a subfolder of "%s" relative to the websites root directory.
+Tip about menus: If you include a main menu in the template, try to place the whole menu inside a container (like &lt;div&gt;, &lt;table&gt; or &lt;tr&gt;) and encapsulate each menu item in a block tag (like &lt;tr&gt;, &lt;td&gt; or &lt;div&gt;). Use A-tags for the links. If you want different designs for normal and active menu elements, design the first menu item as "Active" and the second (and rest) as "Normal", then the wizard might be able to capture the right configuration.
+Tip about stylesheets: The content elements from TYPO3 will be outputted in regular HTML tags like &lt;p&gt;, &lt;h1&gt; to &lt;h6&gt;, &lt;ol&gt; etc. You will prepare yourself well if your stylesheet in the HTML template provides good styles for these standard elements from the start. Then you will have less finetuning to do later.</source>
+        <target state="translated">Wenn Sie eine neue Web-Site auf Basis der TemplaVoila-Template-Engine erstellen wollen, kann dieser Assistenten die Basisarbeit für Sie übernehmen.
+Die Schritte hierbei sind:
+- Erstellung einer neuen Website-Wurzel, eines Ablageordners und Beispielseiten.
+- Erstellung der Haupt-TemplaVoila-Vorlage, inkl. Zuweisung ("Mapping") eines Inhaltsbereichs und eines Hauptmenüs.
+- Erstellung des Backend-Benutzer und einer zugehörigen -Gruppe um nur jene Website zu bearbeiten.
+
+Sie sollten eine HTML-Vorlage vorbereiten bevor Sie diesen Assistente starten; einfach eine Vorlage in HTML erstellen und diese inkl. Grafiken und CSS-Dateien in einem Unterordner von "%s" relativ zum Wurzelverzeichnis der Website ablegen.
+Hinweis zu Menüs: Wenn Sie in Hauptmenü in die Vorlage einfügen, platzieren Sie diese in einen Container (wie &lt;div&gt;, &lt;table&gt; oder &lt;tr&gt;) und schließen Sie jeden Menüeintrag mit einem Block-Tag ein (wie &lt;tr&gt;, &lt;td&gt; oder &lt;div&gt;). Verwenden Sie A-Tags für die Links. Falls sie abweichende Vorlagen für normale und aktive Menüeintrage wünschen, legen Sie erst einen Menüeintrag für "Aktiv" und danach "Normale" Menüeintrage an, so dass der Assistent die richtige Konfiguration erkennen kann.
+Hinweis zu Stylesheets (CSS): Die Inhaltselemente von TYPO3 werden in normalen HTML-Tags wie &lt;p&gt;, &lt;h1&gt; to &lt;h6&gt;, &lt;ol&gt; notiert. Es empfiehlt sich im Stylesheet für jene Tags passende Stile bereits zu Beginn zu definieren. Dies erspart einige spätere Feinarbeiten.</target>
+      <alt-trans xml:space="preserve" origin="davidarndt"><target>Wenn Sie eine neue Web-Site auf Basis der TemplaVoila-Template-Engine erstellen wollen, kann dieser Assistenten die Basisarbeit für Sie übernehmen. Die Schritte hierbei sind: - Erstellung einer neuen Website-Wurzel, eines Ablageordners und Beispielseiten. - Erstellung der Haupt-TemplaVoila-Vorlage, inkl. Verknüpfung ("Mapping") eines Inhaltsbereichs und eines Hauptmenüs. - Erstellung des Backend-Benutzer und einer zugehörigen -Gruppe um nur jene Website zu bearbeiten. Sie sollten eine HTML-Vorlage vorbereiten bevor Sie diesen Assistente starten; einfach eine Vorlage in HTML erstellen und diese inkl. Grafiken und CSS-Dateien in einem Unterordner von "%s" relativ zum Wurzelverzeichnis der Website ablegen. Hinweis zu Menüs: Wenn Sie in Hauptmenü in die Vorlage einfügen, platzieren Sie diese in einen Container (wie &lt;div&gt;, &lt;table&gt; oder &lt;tr&gt;) und schließen Sie jeden Menüeintrag mit einem Block-Tag ein (wie &lt;tr&gt;, &lt;td&gt; oder &lt;div&gt;). Verwenden Sie A-Tags für die Links. Falls sie abweichende Vorlagen für normale und aktive Menüeintrage wünschen, legen Sie erst einen Menüeintrag für "Aktiv" und danach "Normale" Menüeintrage an, so dass der Assistent die richtige Konfiguration erkennen kann. Hinweis zu Stylesheets (CSS): Die Inhaltselemente von TYPO3 werden in normalen HTML-Tags wie &lt;p&gt;, &lt;h1&gt; to &lt;h6&gt;, &lt;ol&gt; notiert. Es empfiehlt sich im Stylesheet für jene Tags passende Stile bereits zu Beginn zu definieren. Dies erspart einige spätere Feinarbeiten.</target></alt-trans></trans-unit>
+      <trans-unit id="newsitewizard_startnow" approved="yes">
+        <source>Start wizard now!</source>
+        <target state="translated">Assistent jetzt starten!</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_cancel" approved="yes">
+        <source>Cancel wizard</source>
+        <target state="translated">Assistent abbrechen</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_problem" approved="yes">
+        <source>&lt;em&gt;There are some technical problems you have to solve before you can start the wizard! Please see below for details. Solve these problems first and come back.&lt;/em&gt;</source>
+        <target state="translated">&lt;em&gt;Es gilt noch technische Probleme zu lösen bevor Sie mit dem Assistent beginnen können! Details finden Sie unten. Bitte lösen Sie erst jene Probleme und kehren dann hierhin zurück.&lt;/em&gt;</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_missingext" approved="yes">
+        <source>Missing extension!</source>
+        <target state="translated">Erweiterung fehlt!</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_missingconf" approved="yes">
+        <source>Missing configuration!</source>
+        <target state="translated">Konfiguration fehlt!</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_missingconf_description" approved="yes">
+        <source>The TemplaVoila extension configuration is missing. Please clear the cache and recheck the configuration within the extension manager.</source>
+        <target state="translated">Die Konfiguration der TemplaVoila-Erweiterung fehlt. Bitte leeren Sie den Cache und prüfen Sie erneut die Konfiguration über den Extension-Manager.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_missingdir" approved="yes">
+        <source>Missing directory!</source>
+        <target state="translated">Verzeichnis fehlt!</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_missingext_description" approved="yes">
+        <source>Before the wizard can run some extensions are required to be installed. Below you will see the which extensions are required and which are not available at this moment. Please go to the Extension Manager and install these first.</source>
+        <target state="translated">Vor Start dieses Assistent ist die Installation einiger Erweiterungen notwendig. Unten sehen Sie welche Erweiterungen benötigt werden und welche derzeit nicht verfügbar sind. Bitte verwenden Sie den Erweiterungsmanager um jene zuerst zu installieren.</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_missingext_extkey" approved="yes">
+        <source>Extension Key:</source>
+        <target state="translated">Erweiterungsschlüssel:</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_missingext_installed" approved="yes">
+        <source>Installed?</source>
+        <target state="translated">Installiert?</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_missingext_yes" approved="yes">
+        <source>Yes</source>
+        <target state="translated">Ja</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_missingext_no" approved="yes">
+        <source>No</source>
+        <target state="translated">Nein</target>
+      </trans-unit>
+      <trans-unit id="newsitewizard_missingdir_instruction" approved="yes">
+        <source>The directory "%s" (relative to the website root) does not exist! This is where you must place your HTML templates. Please create that directory &lt;u&gt;before you start the wizard&lt;/u&gt;. In order to do so, follow these directions:
+
+			- Go to the module File &gt; Filelist
+			- Click the icon of the "%s" root and select "Create" from the context menu.
+			- Enter the name "templates" of the folder and press the "Create" button.
+			- Return to this wizard</source>
+        <target state="translated">Das Verzeichnis "%s" (relativ zur Wurzel der Website) existiert nicht! Dort müssen die HTML-Vorlagen abgelegt werden. Bitte erstellen Sie jenes Verzeichnis &lt;u&gt;bevor Sie diesen Assistent starten&lt;/u&gt;. Gehen Sie dazu wie folgt vor:
+
+- Gehen Sie zum Modul Datei &gt; Dateiliste
+- Klicken Sie auf das Icon der "%s"-Wurzel und wählen Sie "Erstellen" aus dem Kontent-Menü.
+- Geben Sie den Namen "templates" für das Verzeichnis an und klicken Sie die "Erstellen"-Schaltfläche.
+- Kehren Sie zu diesem Assistenten zurück.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

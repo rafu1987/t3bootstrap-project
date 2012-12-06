@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="bold">Fett</label>
+      <label index="italic">Kursiv</label>
+      <label index="underline">Unterstrichen</label>
+      <label index="strikethrough">Durchgestrichen</label>
+      <label index="subscript">Tiefgestellt</label>
+      <label index="superscript">Hochgestellt</label>
+      <label index="justifyleft">Linksbündig</label>
+      <label index="justifycenter">Zentrieren</label>
+      <label index="justifyright">Rechtsbündig</label>
+      <label index="justifyfull">Blocksatz</label>
+      <label index="insertorderedlist">Nummerierung</label>
+      <label index="insertunorderedlist">Aufzählung</label>
+      <label index="outdent">Einzug verkleinern</label>
+      <label index="indent">Einzug vergrößern</label>
+      <label index="forecolor">Zeichenfarbe</label>
+      <label index="hilitecolor">Hintergrundfarbe</label>
+      <label index="inserthorizontalrule">Horizontale Linie</label>
+      <label index="createlink">Link einfügen</label>
+      <label index="unlink">Link entfernen</label>
+      <label index="insertimage">Bild einfügen/verändern</label>
+      <label index="inserttable">Tabelle einfügen</label>
+      <label index="htmlmode">Zur HTML-Ansicht wechseln</label>
+      <label index="popupeditor">Editor-Fenster vergrößern</label>
+      <label index="about">Über diesen Editor</label>
+      <label index="showhelp">Hilfe</label>
+      <label index="textindicator">Momentaner Stil</label>
+      <label index="undo">Letzte Aktion rückgängig machen</label>
+      <label index="redo">Letzte Aktion wiederholen</label>
+      <label index="cut">Auswahl ausschneiden</label>
+      <label index="copy">Auswahl kopieren</label>
+      <label index="paste">Aus der Zwischenablage einfügen</label>
+      <label index="lefttoright">Schreibrichtung von links nach rechts</label>
+      <label index="righttoleft">Schreibrichtung von rechts nach links</label>
+      <label index="removeformat">Formatierung entfernen</label>
+      <label index="print">Das Dokument drucken</label>
+      <label index="killword">MSOffice &lt;o:&gt; entfernen</label>
+      <label index="fontname">Schriftart</label>
+      <label index="fontsize">Schriftgröße</label>
+      <label index="formatblock">Absatzart</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

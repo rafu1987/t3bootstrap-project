@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="testTask.name">Planer-Test-Task</label>
+      <label index="testTask.description">Der Test-Task schickt eine E-Mail an eine angegebene E-Mail-Adresse. Er ist zu Testzwecken gedacht.</label>
+      <label index="sleepTask.name">Planer-Pause-Task</label>
+      <label index="sleepTask.description">Dieser Task macht nichts außer PHP eine gewisse Anzahl Sekunden zu pausieren. Er ist zum Testen mehrfacher, gleichzeitiger Ausführungen des Planers gedacht.</label>
+      <label index="cachingFrameworkGarbageCollection.name">Müllsammlung des Caching-Frameworks</label>
+      <label index="cachingFrameworkGarbageCollection.description">Dieser Task ruft die Müllsammlung der Caches des konfigurierten Caching-Frameworks auf. Dies gibt Platz in Cache-Backends freigeben, die keine interne Müllsammlung haben. Im Fall des Standard-Datenbank-Backends ist es ratsam, diesen Task einmal täglich auszuführen, bevorzugt wenn die Datenbank weitestgehend leerläuft.</label>
+      <label index="fileIndexing.name"/>
+      <label index="fileIndexing.description"/>
+      <label index="tableGarbageCollection.name">Tabellen-Müllsammlung</label>
+      <label index="tableGarbageCollection.description">Task zum Löschen alter Einträge aus bestimmten Tabellen wie sys_log. Benutzen Sie $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_scheduler_TableGarbageCollection']['options']['tables'] um die Tabellen zu konfigurieren. Weitere Details finden Sie im Handbuch.</label>
+      <label index="recyclerGarbageCollection.name">Müllsammlung für den Ordner fileadmin</label>
+      <label index="recyclerGarbageCollection.description">Dieser Task leert alle Order mit dem Namen "_recycler_" im Ordner fileadmin. So können Sie Speicherplatz im Dateisystem freigeben.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

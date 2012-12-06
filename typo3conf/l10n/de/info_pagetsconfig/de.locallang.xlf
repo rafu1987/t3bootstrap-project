@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="info_pagetsconfig" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="tsconf_title" xml:space="preserve" approved="yes">
+        <source>Page TSconfig</source>
+      <target state="translated">Seiten-TSconfig</target></trans-unit>
+      <trans-unit id="tsconf_parts_0" xml:space="preserve" approved="yes">
+        <source>All</source>
+      <target state="translated">Alles</target></trans-unit>
+      <trans-unit id="tsconf_parts_1" xml:space="preserve" approved="yes">
+        <source>Module key ('mod') with overruling user settings</source>
+      <target state="translated">Modulschlüssel ("mod") mit Überschreibungen der Benutzereinstellungen</target></trans-unit>
+      <trans-unit id="tsconf_parts_1a" xml:space="preserve" approved="yes">
+        <source>Module: Web&gt;Page</source>
+      <target state="translated">Modul: Web &gt; Seite</target></trans-unit>
+      <trans-unit id="tsconf_parts_1b" xml:space="preserve" approved="yes">
+        <source>Module: Web&gt;View</source>
+      <target state="translated">Modul: Web &gt; Anzeigen</target></trans-unit>
+      <trans-unit id="tsconf_parts_1c" xml:space="preserve" approved="yes">
+        <source>Module: Web&gt;Modules</source>
+      <target state="translated">Modul: Web &gt; Module</target></trans-unit>
+      <trans-unit id="tsconf_parts_1d" xml:space="preserve" approved="yes">
+        <source>Module: Web&gt;List</source>
+      <target state="translated">Modul: Web &gt; Liste</target></trans-unit>
+      <trans-unit id="tsconf_parts_1e" xml:space="preserve" approved="yes">
+        <source>Module: Web&gt;Info</source>
+      <target state="translated">Modul: Web &gt; Info</target></trans-unit>
+      <trans-unit id="tsconf_parts_1f" xml:space="preserve" approved="yes">
+        <source>Module: Web&gt;Func</source>
+      <target state="translated">Modul: Web &gt; Funktionen</target></trans-unit>
+      <trans-unit id="tsconf_parts_1g" xml:space="preserve" approved="yes">
+        <source>Module: Web&gt;Template</source>
+      <target state="translated">Modul: Web &gt; Vorlage</target></trans-unit>
+      <trans-unit id="tsconf_configFields" xml:space="preserve" approved="yes">
+        <source>View TSconfig fields content</source>
+      <target state="translated">Inhalt des TSconfig-Felds anzeigen</target></trans-unit>
+      <trans-unit id="editThisColumn" xml:space="preserve" approved="yes">
+        <source>Edit the field '%s' for all listed pages</source>
+      <target state="translated">Feld "%s" für alle aufgelisteten Seiten bearbeiten</target></trans-unit>
+      <trans-unit id="editTSconfig" xml:space="preserve" approved="yes">
+        <source>Edit TSconfig for this page</source>
+      <target state="translated">Inhalt des TSconfig-Felds dieser Seite bearbeiten</target></trans-unit>
+      <trans-unit id="editTSconfig_all" xml:space="preserve" approved="yes">
+        <source>Edit TSconfig for all shown pages</source>
+      <target state="translated">Inhalt des TSconfig-Felds aller angezeigter Seiten bearbeiten</target></trans-unit>
+      <trans-unit id="editTSconfig_default" xml:space="preserve" approved="yes">
+        <source>Default Configuration from TYPO3_CONF_VARS</source>
+      <target state="translated">Standardkonfiguration aus TYPO3_CONF_VARS</target></trans-unit>
+      <trans-unit id="mod_pagetsconfig" xml:space="preserve" approved="yes">
+        <source>Page TSconfig</source>
+      <target state="translated">Seiten-TSconfig</target></trans-unit>
+      <trans-unit id="sort_alphabetic" xml:space="preserve" approved="yes">
+        <source>Sort alphabetically:</source>
+      <target state="translated">Alphabetisch sortieren:</target></trans-unit>
+    </body>
+  </file>
+</xliff>

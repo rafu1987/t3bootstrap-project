@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Installations-Tool</label>
+      <label index="mlang_labels_tabdescr">Bietet einen Link auf das Installations-Tool. Zu beachten ist, dass das Installations-Tool (in typo3/install/) aktiviert sein muss.&lt;br /&gt;&lt;em&gt;Zugriff nur für Administratoren!&lt;/em&gt;</label>
+      <label index="mlang_tabs_tab">Installation</label>
+      <label index="confirmUnlockInstallToolTitle">Das Installations-Tool ist deaktiviert.</label>
+      <label index="confirmUnlockInstallToolMessage">&lt;p&gt;Das Installations-Tool ist aus Sicherheitsgründen standardmäßig gesperrt.&lt;/p&gt;
+&lt;p&gt;Um das Installations-Tool zu entsperren, müssen Sie eine leere Datei mit dem Namen ENABLE_INSTALL_TOOL im Ordner typo3conf/ anlegen.&lt;/p&gt;
+&lt;p&gt;Wenn Sie die nachfolgende Schaltfläche klicken, wird diese Datei für Sie erstellt und das Installations-Tool entsperrt.&lt;/p&gt;
+&lt;p&gt;Wir empfehlen Ihnen, sich nach getaner Arbeit vom Installations-Tool abzumelden. Andernfalls wird das Installations-Tool nach einer Stunde automatisch gesperrt.&lt;/p&gt;</label>
+      <label index="confirmUnlockInstallToolButton">Installations-Tool freischalten</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

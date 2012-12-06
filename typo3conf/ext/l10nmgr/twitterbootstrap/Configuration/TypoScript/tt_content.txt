@@ -1,0 +1,178 @@
+/**
+ * Remove default CSS
+ */
+plugin.tx_cssstyledcontent._CSS_DEFAULT_STYLE >
+
+/**
+ * Configure section frames
+ */
+tt_content.stdWrap.innerWrap.cObject {
+	21 = TEXT
+	21.value = <div class="hero-unit">|</div>
+	22 = TEXT
+	22.value = <div class="well">|</div>
+	23 = TEXT
+	23.value = <div class="alert alert-error">|</div>
+	24 = TEXT
+	24.value = <div class="alert alert-error"><a class="close" data-dismiss="alert">×</a>|</div>
+	25 = TEXT
+	25.value = <div class="alert alert-success">|</div>
+	26 = TEXT
+	26.value = <div class="alert alert-success"><a class="close" data-dismiss="alert">×</a>|</div>
+	27 = TEXT
+	27.value = <div class="alert alert-info">|</div>
+	28 = TEXT
+	28.value = <div class="alert alert-info"><a class="close" data-dismiss="alert">×</a>|</div>
+	29 = TEXT
+	29.value = <div class="alert">|</div>
+	30 = TEXT
+	30.value = <div class="alert"><a class="close" data-dismiss="alert">×</a>|</div>
+}
+
+/**
+ * Configure image rendering
+ */
+tt_content.image.5 = COA
+
+tt_content.image.5.10 = LOAD_REGISTER
+tt_content.image.5.10 {
+	bootstrapImageGrid.cObject = CASE
+	bootstrapImageGrid.cObject {
+		setCurrent.field = imagecols
+		key.field = imagecols
+		default = TEXT
+		default.value = 4
+		1 = TEXT
+		1.value = 12
+		2 = TEXT
+		2.value = 6
+		3 = TEXT
+		3.value = 4
+		4 = TEXT
+		4.value = 3
+		6 = TEXT
+		6.value = 2
+		12 = TEXT
+		12.value = 1
+	}
+}
+
+tt_content.image.5.20 = LOAD_REGISTER
+tt_content.image.5.20 {
+	bootstrapImageWidth.cObject = CASE
+	bootstrapImageWidth.cObject {
+		setCurrent.field = imagecols
+		key.field = imagecols
+		default = TEXT
+		default.field = imagewidth
+		1 = TEXT
+		1.value = 930
+		2 = TEXT
+		2.value = 450
+		3 = TEXT
+		3.value = 290
+		4 = TEXT
+		4.value = 210
+		6 = TEXT
+		6.value = 130
+		12 = TEXT
+		12.value = 50
+	}
+}
+
+tt_content.image.5.30 = LOAD_REGISTER
+tt_content.image.5.30 {
+	bootstrapImageOrientation.cObject = CASE
+	bootstrapImageOrientation.cObject {
+		setCurrent.field = imageorient
+		key.field = imageorient
+		# above-center
+		default = TEXT
+		default.value =
+		# above-right
+		1 < .default
+		1.value = pull-right
+		1.noTrimWrap = | ||
+		# above-left
+		2 < .default
+		2.value =
+		# below-center
+		8 < .default
+		8.value =
+		# below-right
+		9 < .default
+		9.value = pull-right
+		9.noTrimWrap = | ||
+		# below-left
+		10 < .default
+		10.value =
+		# intext-right
+		17 < .default
+		17.value = pull-right
+		17.noTrimWrap = | ||
+		# intext-left
+		18 < .default
+		18.value =
+		# beside-text-right
+		25 < .default
+		25.value = pull-right
+		25.noTrimWrap = | ||
+		# beside-text-left
+		26 < .default
+		26.value =
+	}
+}
+
+tt_content.image.20 {
+	1.file.width.override.data = register:bootstrapImageWidth
+	renderMethod = ul
+	rendering {
+		ul.noRowsStdWrap.wrap = <ul class="thumbnails{register:bootstrapImageOrientation}"> | </ul>
+		ul.noRowsStdWrap.insertData = 1
+		ul.imageRowStdWrap.dataWrap = <ul class="thumbnails{register:bootstrapImageOrientation}"> | </ul>
+		ul.imageLastRowStdWrap.dataWrap = <ul class="thumbnails{register:bootstrapImageOrientation}"> | </ul>
+		ul.oneImageStdWrap.dataWrap = <li class="span{register:bootstrapImageGrid}"><div class="thumbnail"> | </div></li>
+		ul.caption {
+			wrap >
+			stdWrap.wrap = <p> | </p>
+            stdWrap.required = 1
+		}
+	}
+	imageStdWrap.dataWrap = |
+	imageStdWrapNoWidth.wrap = |
+	imageColumnStdWrap.dataWrap = |
+	caption.1.br = 0
+	layout {
+		# above-center
+		default.value = ###IMAGES######TEXT###
+		# above-right
+		1.value = ###IMAGES######TEXT###
+		# above-left
+		2.value = ###IMAGES######TEXT###
+		# below-center
+		8.value = ###TEXT######IMAGES###
+		# below-right
+		9.value = ###TEXT######IMAGES###
+		# below-left
+		10.value = ###TEXT######IMAGES###
+		# intext-right
+		17.value = ###IMAGES######TEXT###
+		# intext-left
+		18.value = ###IMAGES######TEXT###
+		# beside-text-right
+		25.value = ###IMAGES######TEXT###
+		# beside-text-left
+		26.value = ###IMAGES######TEXT###
+	}
+}
+tt_content.image.20.rendering.ul.caption.wrap >
+tt_content.image.20.rendering.ul.caption.stdWrap.wrap = <p>|</p>
+tt_content.image.20.rendering.ul.caption.stdWrap.required = 1
+
+tt_content.image.20.2 = RESTORE_REGISTER
+
+/**
+ * Copy the bootstrap registers to tt_content.textpic and remove the wrap
+ */
+tt_content.textpic.5 = < tt_content.image.5
+tt_content.textpic.20.text.wrap =

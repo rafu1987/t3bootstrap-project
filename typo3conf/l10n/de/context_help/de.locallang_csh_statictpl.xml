@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Statische Vorlagen stellen eine von TYPO3 gelieferte, zentrale TypoScript-Sammlung dar. Sie sollten diese Werte keinesfalls verändern!</label>
+      <label index=".details">Statische Vorlagen werden normalerweise innerhalb Ihrer eigenen TypoScript-Vorlagen je nach Bedarf eingebunden. Näheres dazu erfahren Sie im Dokument TSref-Referenz (siehe unten). Bitte sorgen Sie dafür, dass Sie sich mit jeder neuen TYPO3-Version auch die dazugehörigen (und eventuell geänderten) statischen Vorlagen innerhalb des Installationsprogramms (im Bereich Datenbank) neu installieren. Lesen Sie sich dazu bitte das Dokument "Installation/Upgrade" (siehe unten).</label>
+      <label index="_.seeAlso">sys_template TSref | http://typo3.org/documentation/document-library/doc_core_tsref/ TypoScript by Example | http://typo3.org/documentation/document-library/doc_core_tsbyex/ Installation/Upgrade | http://typo3.org/documentation/document-library/doc_inst_upgr/, sys_template:include_static</label>
+      <label index="_.image">EXT:context_help/cshimages/static.png</label>
+      <label index=".image_descr">Innerhalb des Seitenbaumes befinden sich die statischen Vorlagen an einer Stelle, zu der nur Administratoren Zugang haben. Trotzdem haben auch Administratoren standardmäßig nur lesenden Zugriff auf diese Dateien, auch sie können keine Änderungen vornehmen.</label>
+      <label index="title.description">Vorlagenbeschreibung - wird als Titel innerhalb der Vorlagenübersicht angezeigt.</label>
+      <label index="constants.description">Das Feld TypoScript-Konstanten</label>
+      <label index="_constants.seeAlso">sys_template:constants</label>
+      <label index="config.description">Das Feld TypoScript-Setup-Code</label>
+      <label index="_config.seeAlso">sys_template:config</label>
+      <label index="include_static.description">Andere statische Vorlagen einbinden.</label>
+      <label index="description.description">Beschreibung der statischen Vorlage.</label>
+      <label index="editorcfg.description">Konfiguration des Stilvorlagen-Editors.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="details" xml:space="preserve" approved="yes">
+        <source>Details</source>
+      <target state="translated">Details</target></trans-unit>
+      <trans-unit id="syntax" xml:space="preserve" approved="yes">
+        <source>Syntax</source>
+      <target state="translated">Syntax</target></trans-unit>
+      <trans-unit id="seeAlso" xml:space="preserve" approved="yes">
+        <source>See also</source>
+      <target state="translated">Siehe auch</target></trans-unit>
+      <trans-unit id="goBack" xml:space="preserve" approved="yes">
+        <source>Go back</source>
+      <target state="translated">Zurück</target></trans-unit>
+      <trans-unit id="fullDescription" xml:space="preserve" approved="yes">
+        <source>See full description of table</source>
+      <target state="translated">Komplette Beschreibung der Tabelle ansehen</target></trans-unit>
+      <trans-unit id="fullDescription_module" xml:space="preserve" approved="yes">
+        <source>See full description of module</source>
+      <target state="translated">Komplette Beschreibung des Moduls ansehen</target></trans-unit>
+      <trans-unit id="goToToc" xml:space="preserve" approved="yes">
+        <source>&lt;&lt; go to Manual Index</source>
+      <target state="translated">&lt;&lt; Zum Inhaltsverzeichnis</target></trans-unit>
+      <trans-unit id="to_top" xml:space="preserve" approved="yes">
+        <source>To top</source>
+      <target state="translated">Nach oben</target></trans-unit>
+      <trans-unit id="TOC" xml:space="preserve" approved="yes">
+        <source>Table Of Contents</source>
+      <target state="translated">Inhaltsverzeichnis</target></trans-unit>
+      <trans-unit id="TOC_core" xml:space="preserve" approved="yes">
+        <source>TYPO3 Core Features</source>
+      <target state="translated">TYPO3-Kernfunktionen</target></trans-unit>
+      <trans-unit id="TOC_modules" xml:space="preserve" approved="yes">
+        <source>Backend Modules</source>
+      <target state="translated">Backend-Module</target></trans-unit>
+      <trans-unit id="TOC_tables" xml:space="preserve" approved="yes">
+        <source>Database Tables</source>
+      <target state="translated">Datenbanktabellen</target></trans-unit>
+      <trans-unit id="TOC_extensions" xml:space="preserve" approved="yes">
+        <source>Extensions</source>
+      <target state="translated">Erweiterungen</target></trans-unit>
+      <trans-unit id="TOC_glossary" xml:space="preserve" approved="yes">
+        <source>Glossary</source>
+      <target state="translated">Glossar</target></trans-unit>
+      <trans-unit id="TOC_other" xml:space="preserve" approved="yes">
+        <source>Other</source>
+      <target state="translated">Sonstiges</target></trans-unit>
+      <trans-unit id="close" xml:space="preserve" approved="yes">
+        <source>Close</source>
+      <target state="translated">Schließen</target></trans-unit>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>TYPO3 Inline Help</source>
+      <target state="translated">Lokale TYPO3-Hilfe</target></trans-unit>
+      <trans-unit id="manual_title" xml:space="preserve" approved="yes">
+        <source>TYPO3 Inline User Manual</source>
+      <target state="translated">Lokales TYPO3-Handbuch</target></trans-unit>
+      <trans-unit id="introduction" xml:space="preserve" approved="yes">
+        <source>Introduction</source>
+      <target state="translated">Einleitung</target></trans-unit>
+      <trans-unit id="description" xml:space="preserve" approved="yes">
+        <source>The TYPO3 Inline User Manual is composed from the available help in this TYPO3 Installation (Context Sensitive Help). Here you will find a general description of the TYPO3 Core modules, installation specific Backend Modules and Database Tables that are available based on your login credentials.</source>
+      <target state="translated">Das lokale TYPO3-Handbuch wird dynamisch aus den Hilfetexten dieser TYPO3-Installation erzeugt (kontextabhängige Hilfe). Es enthält eine allgemeine Beschreibung der Kernmodule von TYPO3, Beschreibungen zur Installation bestimmter Backend-Module und Datenbanktabellen, die abhängig von Ihren Zugriffsrechten zur Verfügung stehen.</target></trans-unit>
+      <trans-unit id="full_manual" xml:space="preserve" approved="yes">
+        <source>Full Manual (in one page)</source>
+      <target state="translated">Vollständiges Handbuch (auf einer Seite)</target></trans-unit>
+      <trans-unit id="full_manual_chapters" xml:space="preserve" approved="yes">
+        <source>Manual Chapters</source>
+      <target state="translated">Kapitel des Handbuchs</target></trans-unit>
+    </body>
+  </file>
+</xliff>

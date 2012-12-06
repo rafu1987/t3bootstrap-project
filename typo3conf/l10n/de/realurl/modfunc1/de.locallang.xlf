@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="Tue Jul 12 18:52:11 UTC 2011" product-name="realurl">
+    <header/>
+    <body>
+      <trans-unit id="title" approved="yes">
+        <source>Speaking URL Management</source>
+        <target state="translated">RealURL-Verwaltung</target>
+      </trans-unit>
+      <trans-unit id="no_page_id" approved="yes">
+        <source>Please, select a page from the page tree.</source>
+        <target state="translated">Bitte wählen Sie eine Seite aus dem Seitenbaum.</target>
+      </trans-unit>
+      <trans-unit id="depth" approved="yes">
+        <source>Depth:</source>
+        <target state="translated">Tiefe:</target>
+      </trans-unit>
+      <trans-unit id="function" approved="yes">
+        <source>Show:</source>
+        <target state="translated">Anzeigen:</target>
+      </trans-unit>
+      <trans-unit id="default_language" approved="yes">
+        <source>Default</source>
+        <target state="translated">Standard</target>
+      </trans-unit>
+      <trans-unit id="all_languages" approved="yes">
+        <source>All</source>
+        <target state="translated">Alle</target>
+      </trans-unit>
+      <trans-unit id="language" approved="yes">
+        <source>Language:</source>
+        <target state="translated">Sprache:</target>
+      </trans-unit>
+      <trans-unit id="search_path" approved="yes">
+        <source>Path:</source>
+        <target state="translated">Pfad:</target>
+      </trans-unit>
+      <trans-unit id="look_up" approved="yes">
+        <source>Look up</source>
+        <target state="translated">Suchen</target>
+      </trans-unit>
+      <trans-unit id="show_all" approved="yes">
+        <source>Show all</source>
+        <target state="translated">Alle zeigen</target>
+      </trans-unit>
+      <trans-unit id="displaying_results" approved="yes">
+        <source>Results %1$d-%2$d of %3$d</source>
+        <target state="translated">Ergebnisse %1$d-%2$d von %3$d</target>
+      </trans-unit>
+      <trans-unit id="all_domains" approved="yes">
+        <source>-- All domains --</source>
+      <target state="translated">-- Alle Domains --</target></trans-unit>
+    </body>
+  </file>
+</xliff>

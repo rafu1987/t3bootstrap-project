@@ -1,0 +1,25 @@
+plugin.tx_odsseo_pi1 {
+	canonical = {$plugin.ods_seo.canonical}
+	redirect = {$plugin.ods_seo.redirect}
+	startpage = {$plugin.ods_seo.startpage}
+	typolink.parameter.dataWrap = {TSFE:id}
+	typolink.returnLast = url
+}
+
+[globalVar = GP:L=] && [globalVar = LIT:{$plugin.ods_seo.language}=1]
+	plugin.tx_odsseo_pi1.typolink.additionalParams = &L=0
+[end]
+
+#[globalString = IENV:QUERY_STRING = id=*]
+#	config.additionalHeaders = Location:
+#[end]
+
+# canonical tag
+#page.headerData.121 = TEXT
+#page.headerData.121 {
+#	typolink {
+#		parameter.data = TSFE:id
+#		returnLast = url
+#	}
+#	wrap = <link rel="canonical" href="http://www.meineDomain.de/|" />
+#}
