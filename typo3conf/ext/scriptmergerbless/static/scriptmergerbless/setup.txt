@@ -1,0 +1,8 @@
+plugin.tx_scriptmerger {
+  css {
+    scriptmergerBless {
+      activate = {$plugin.tx_scriptmerger.css.scriptmergerBless.activate}
+      threshold = {$plugin.tx_scriptmerger.css.scriptmergerBless.threshold}
+    }
+  }
+}

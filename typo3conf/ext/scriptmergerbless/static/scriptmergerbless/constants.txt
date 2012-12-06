@@ -1,0 +1,8 @@
+plugin.tx_scriptmerger {
+  css {
+    scriptmergerBless {
+      activate = 1
+      threshold = 4095      
+    }
+  }  
+}
