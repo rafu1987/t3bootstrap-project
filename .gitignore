@@ -22,3 +22,4 @@ styles_*.css
 Thumbs.db
 /index.php
 _.htaccess
+typo3conf/localconf.php
