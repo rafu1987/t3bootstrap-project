@@ -720,25 +720,25 @@ $settingsContent = "<?php
         }
     }
     
-function emptyDirectory($dirname,$self_delete=false) {
-   if (is_dir($dirname))
-      $dir_handle = opendir($dirname);
-   if (!$dir_handle)
-      return false;
-   while($file = readdir($dir_handle)) {
-      if ($file != "." && $file != "..") {
-         if (!is_dir($dirname."/".$file))
-            @unlink($dirname."/".$file);
-         else
-            $this->emptyDirectory($dirname.'/'.$file,true);    
-      }
-   }
-   closedir($dir_handle);
-   if ($self_delete){
-        @rmdir($dirname);
-   }   
-   return true;
-}
+	function emptyDirectory($dirname,$self_delete=false) {
+	   if (is_dir($dirname))
+	      $dir_handle = opendir($dirname);
+	   if (!$dir_handle)
+	      return false;
+	   while($file = readdir($dir_handle)) {
+	      if ($file != "." && $file != "..") {
+	         if (!is_dir($dirname."/".$file))
+	            @unlink($dirname."/".$file);
+	         else
+	            $this->emptyDirectory($dirname.'/'.$file,true);    
+	      }
+	   }
+	   closedir($dir_handle);
+	   if ($self_delete){
+	        @rmdir($dirname);
+	   }   
+	   return true;
+	}
 
     private function generatePW($length = 8) {
         $dummy = array_merge(range('0', '9'), range('a', 'z'), range('A', 'Z'), array('#', '&', '@', '$', '_', '%', '?', '+'));
@@ -774,9 +774,6 @@ function emptyDirectory($dirname,$self_delete=false) {
 if (defined('TYPO3_MODE') && isset($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/medbootstraptools/mod1/index.php'])) {
     include_once($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/medbootstraptools/mod1/index.php']);
 }
-
-
-
 
 // Make instance:
 /** @var $SOBE tx_medbootstraptools_module1 */
