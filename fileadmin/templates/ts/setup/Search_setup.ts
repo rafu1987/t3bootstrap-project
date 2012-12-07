@@ -7,7 +7,7 @@ plugin.tx_indexedsearch {
     templateFile = fileadmin/templates/default/templates/search/t3bootstrap-indexed-search.tmpl
     _CSS_DEFAULT_STYLE = 
     pageTitleAdd =
-    pageTitlePage = Seite
+    pageTitlePage = 
     _DEFAULT_PI_VARS.results = 10
 }
 
