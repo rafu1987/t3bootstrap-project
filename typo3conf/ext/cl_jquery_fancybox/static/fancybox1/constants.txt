@@ -56,7 +56,7 @@ plugin.cljqueryfancybox {
 	overlayOpacity =0.3
 	
 	# cat=plugin.cl_jqueryfancybox; type=color; label=overlayColor: Color of the overlay
-	overlayColor = 666
+	overlayColor = #666
 	
 	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=titleShow: Toggle title
 	titleShow =true
