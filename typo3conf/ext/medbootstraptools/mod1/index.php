@@ -417,18 +417,15 @@ $settingsContent = "<?php
 	                    /**
 	                    * @todo Replace @mysql_connect, as TYPO3 Backend is already connected; change import script class
 	                    */
-	                    
-	                    // Include localconf to get database settings
-	                	include(PATH_typo3conf . 'localconf.php');
 	                	
 	                	// Connect to database
-	                	$connection = @mysql_connect($typo_db_host,$typo_db_username,$typo_db_password);
+	                	$connection = @mysql_connect(TYPO3_db_host,TYPO3_db_username,TYPO3_db_password);
 	                		                	
 	                	// Get SQL file
 	                	$filename = PATH_typo3conf.'ext/medbootstraptools/mod1/sql/t3bootstrap.sql';
 	                	$compress = false;
 	                	
-						$dump = new phpMyImporter($typo_db,$connection,$filename,$compress);
+						$dump = new phpMyImporter(TYPO3_db,$connection,$filename,$compress);
 						$dump->utf8 = true; // Uses UTF8 connection with MySQL server, default: true                  
 						
 						$dump->doImport();
@@ -579,7 +576,6 @@ $settingsContent = "<?php
 	                    $localconfFileNew = PATH_typo3conf . 'new_localconf.php';
 	                    	  
 	                   	// Include localconf to get database connection for new localconf file                  
-	                    //include(PATH_typo3conf . 'localconf.php');	                    
 	                    
 	                    // Open new_localconf.php
 	                    $localconfFileNewContent = file_get_contents($localconfFileNew);
@@ -592,10 +588,10 @@ $settingsContent = "<?php
 	                    		"\$typo_db = '';"
 	                    	),
 	                    	array(
-	                    		"\$typo_db_username = '".$typo_db_username."';",
-	                    		"\$typo_db_password = '".$typo_db_password."';",
-	                    		"\$typo_db_host = '".$typo_db_host."';",
-	                    		"\$typo_db = '".$typo_db."';"	                    		
+	                    		"\$typo_db_username = '".TYPO3_db_username."';",
+	                    		"\$typo_db_password = '".TYPO3_db_password."';",
+	                    		"\$typo_db_host = '".TYPO3_db_host."';",
+	                    		"\$typo_db = '".TYPO3_db."';"	                    		
 	                    	),
 	                    	$localconfFileNewContent
 	                    );
@@ -641,7 +637,7 @@ $settingsContent = "<?php
 	                        $content = '<p><b>'.$GLOBALS['LANG']->getLL('configAlready').'</b></p>';
 	                    }
 
-                    else {
+                    else {                    	
                         $content = '
                             <form method="post" action="">
                             	<div class="settings">

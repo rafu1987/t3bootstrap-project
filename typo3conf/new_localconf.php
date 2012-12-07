@@ -79,23 +79,5 @@ $TYPO3_CONF_VARS['EXT']['extConf']['medbootstraptools'] = 'a:1:{s:9:"less_path";
 $TYPO3_CONF_VARS['GFX']['im'] = '1';	// Modified or inserted by TYPO3 Install Tool. 
 $TYPO3_CONF_VARS['GFX']['im_combine_filename'] = 'composite';	// Modified or inserted by TYPO3 Install Tool. 
 // Updated by TYPO3 Install Tool 29.11.12 14:32:57
-$TYPO3_CONF_VARS['EXT']['extConf']['scriptmergercache'] = 'a:1:{s:9:"cacheTime";s:5:"86400";}';	// Modified or inserted by TYPO3 Extension Manager. p
-$TYPO3_CONF_VARS['EXT']['extConf']['np_subversion'] = 'a:11:{s:8:"svn_path";s:18:"/usr/local/bin/svn";s:14:"svn_config_dir";s:0:"";s:12:"svn_encoding";s:0:"";s:5:"umask";s:0:"";s:11:"backup_path";s:23:"uploads/tx_npsubversion";s:15:"cookie_lifetime";s:7:"2592000";s:13:"show_svn_dirs";s:1:"0";s:16:"log_svn_commands";s:20:"commit,update,export";s:12:"use_passthru";s:1:"0";s:14:"command_suffix";s:4:"2>&1";s:26:"increase_version_on_commit";s:1:"0";}';	//  Modified or inserted by TYPO3 Extension Manager.
-$TYPO3_CONF_VARS['EXT']['extConf']['svnupdater'] = 'a:5:{s:13:"repositoryUrl";s:40:"http://svn.medialis-hosting.net/svn/ecs/";s:8:"rootPath";s:0:"";s:8:"username";s:7:"raphael";s:8:"password";s:8:"g6zottel";s:9:"svnClient";s:6:"PHPSVN";}';	// Modified or inserted by TYPO3 Extension Manager.svn.medialis-hosting.net/svn/ecs/";s:8:"rootPath";s:0:"";s:8:"username";s:7:"raphael";s:8:"password";s:8:"g6zottel";s:9:"svnClient";s:16:"COMMAND LINE SVN";}';	// 
-// Updated by TYPO3 Extension Manager 05.12.12 19:15:00
-
-// Updated by medbootstraptools 07.12.12 12:21:15
-$TYPO3_CONF_VARS['BE']['installToolPassword'] = '34d2683853f2a30bf462610a01cda68e';
-
-// Updated by medbootstraptools 07.12.12 12:27:17
-$TYPO3_CONF_VARS['BE']['installToolPassword'] = '85e71e0f0f7cba964469434e00d68292';
-
-// Updated by medbootstraptools 07.12.12 12:45:27
-$TYPO3_CONF_VARS['BE']['installToolPassword'] = '3b165ea16d7f0202ac39c42747dbf004';
-
-// Updated by medbootstraptools 07.12.12 12:49:23
-$TYPO3_CONF_VARS['BE']['installToolPassword'] = '2d4814606acf13b3ecb3669a6d69f2d3';
-
-// Updated by medbootstraptools 07.12.12 12:53:37
-$TYPO3_CONF_VARS['BE']['installToolPassword'] = '51a761648a52c4c7796dedf81985c8d0';
+$TYPO3_CONF_VARS['EXT']['extConf']['scriptmergercache'] = 'a:1:{s:9:"cacheTime";s:5:"86400";}';	// Modified or inserted by TYPO3 Extension Manager.
 ?>
