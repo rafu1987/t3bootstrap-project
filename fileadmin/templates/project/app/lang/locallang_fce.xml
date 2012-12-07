@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>database</type>
+        <description>Language labels for flexible content elements</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <!-- FCE titles and description -->
+            <label index="title">Title</label> 
+            <label index="description">Description</label>                           
+            
+            <!-- FCE labels -->
+            <label index="fieldLabel">Field label</label>                                                                                                            
+        </languageKey>
+        <languageKey index="de" type="array">
+            <!-- FCE titles and description -->
+            <label index="title">Titel</label> 
+            <label index="description">Beschreibung</label>                           
+            
+            <!-- FCE labels -->
+            <label index="fieldLabel">Feldbezeichnung</label>                                                                                                          
+        </languageKey>          
+    </data>
+</T3locallang>  
