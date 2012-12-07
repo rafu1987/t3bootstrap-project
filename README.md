@@ -13,7 +13,7 @@ t3bootstrap is a TYPO3 collection of tools, flexible content elements ([TemplaVo
 ## Installation
 ### Follow the installation steps carefully and as described here. Only then, we can guarantee, that t3bootstrap will work for you. Please use t3bootstrap only on a fresh TYPO3 installation.
 
-Just install your TYPO3 source. For that go through the 1-2-3 installer, and when finished log in to the backend with:
+1) Just install your TYPO3 source. For that go through the 1-2-3 installer, and when finished log in to the backend with:
 
 > Username: *admin*  
 > Password: *password*  
@@ -21,13 +21,15 @@ Just install your TYPO3 source. For that go through the 1-2-3 installer, and whe
 
 You don't need to configure anything else; t3bootstrap will do that for you later.
 
-Then get the latest t3bootstrap version, unzip the downloaded file and put all the containing files and folders inside your TYPO3 installation. This brings some basic configuration. You have to clear the TYPO3 cache and reload the backend.
+2) Then get the latest t3bootstrap version, unzip the downloaded file and put all the containing files and folders inside your TYPO3 installation. This brings some basic configuration. You have to clear the TYPO3 cache and reload the backend.
 
-After the reload you will find a new backend module called **T3Bootstrap configuration** in the admin tools section. Click on the module and go through the settings. When finished, click the **Save** button at the bottom of the page.
+3) After the reload you will need to install the **medbootstraptools** extensions in the extension manager in order to configure t3bootstrap. Go to the extension manager and install the extension. You can ignore the dependencies and you don't need to configure anything else, just install it. :)
 
-Note the admin password and install tool password (and all the other generated passwords, if you created users with the configurator) and reload the page. You will have to log in the backend again with the new password, which was just generated automatically.
+4) After the installation of medbootstraptools, you will find a new backend module called **T3Bootstrap configuration** in the admin tools section. Click on the module and go through the settings. When finished, click the **Save** button at the bottom of the page.
 
-Now, if you click on the page module, you should see a dummy page tree with some content elements.
+5) Write down the admin password and install tool password (and all the other generated passwords, if you created users with the configurator) and reload the page. You will have to log in the backend again with the new password, which was just generated automatically.
+
+6) Now, if you click on the page module, you should see a dummy page tree with some content elements.
 
 ### Be aware that you can only do the settings the first time you call the module; after hitting the save button, you won't be able to configure anything through the backend module anymore.
 

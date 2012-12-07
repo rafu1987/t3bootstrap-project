@@ -206,6 +206,52 @@ class tx_medbootstraptools_module1 extends t3lib_SCbase {
 	                    // Rename dir
 	                    rename($path . $projectDir, $path . $projectName);
 	
+	                    /* Switch localconf BEGIN */
+	                    
+	                    // Get files
+	                    $localconfFileAct = PATH_typo3conf . 'localconf.php';
+	                    $localconfFileOld = PATH_typo3conf . 'old_localconf.php';
+	                    $localconfFileNew = PATH_typo3conf . 'new_localconf.php';
+	                    
+	                    if(!is_file($localconfFileNew)) {
+	                		$errorMessageContent = '<h3>'.$GLOBALS['LANG']->getLL('noNewLocalconfFile').'</h3>';
+	                		$errorMessageContent .= '<p>'.$GLOBALS['LANG']->getLL('noNewLocalconfFileText').'</p>';
+		                    $content = '<div class="alert alert-error">'.$errorMessageContent.'</div>';
+		                    $this->content .= $this->doc->section($GLOBALS['LANG']->getLL('title'), $content, 0, 1);	
+		                    
+		                    return false;	                    
+	                    }
+	                    	  
+	                   	// Include localconf to get database connection for new localconf file                  
+	                    include(PATH_typo3conf . 'localconf.php');	                    
+	                    
+	                    // Open new_localconf.php
+	                    $localconfFileNewContent = file_get_contents($localconfFileNew);
+	                    
+	                    $localconfFileNewContent = str_replace(
+	                    	array(
+	                    		"\$typo_db_username = '';",
+	                    		"\$typo_db_password = '';",
+	                    		"\$typo_db_host = '';",
+	                    		"\$typo_db = '';"
+	                    	),
+	                    	array(
+	                    		"\$typo_db_username = '".$typo_db_username."';",
+	                    		"\$typo_db_password = '".$typo_db_password."';",
+	                    		"\$typo_db_host = '".$typo_db_host."';",
+	                    		"\$typo_db = '".$typo_db."';"	                    		
+	                    	),
+	                    	$localconfFileNewContent
+	                    );
+	                    
+	                    file_put_contents($localconfFileNew, $localconfFileNewContent);
+	                    	                    
+	                    // Rename files
+	                    rename($localconfFileAct,$localconfFileOld);
+	                    rename($localconfFileNew,$localconfFileAct);
+	                    
+	                    /* Switch localconf END */
+	
 	                    /* Change files BEGIN */
 	                    
 	                    // Files to change
@@ -415,12 +461,11 @@ $settingsContent = "<?php
 	                    /* Import database BEGIN */
 	                    
 	                    /**
-	                    * @todo Is there another way to get the database connection values from localconf.php
 	                    * @todo Replace @mysql_connect, as TYPO3 Backend is already connected; change import script class
 	                    */
 	                    
 	                    // Include localconf to get database settings
-	                	include(PATH_typo3conf . 'localconf.php');
+	                	//include(PATH_typo3conf . 'localconf.php');
 	                	
 	                	// Connect to database
 	                	$connection = @mysql_connect($typo_db_host,$typo_db_username,$typo_db_password);

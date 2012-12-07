@@ -41,6 +41,8 @@
             <label index="databaseConnectionPreview">Settings PREVIEW server</label> 
             <label index="imageMagickPath">Imagemagick Path:</label> 
             <label index="generalSettings">General Settings</label> 
+            <label index="noNewLocalconfFile">new_localconf.php file doesn't exist</label>
+            <label index="noNewLocalconfFileText"><![CDATA[The file <b>new_localconf.php</b> doesn't exist in the typo3conf folder.]]></label>             
         </languageKey>
         <languageKey index="de" type="array">
             <label index="title">t3bootstrap Konfiguration</label>
@@ -76,7 +78,9 @@
             <label index="databaseConnection">Einstellungen LIVE Server</label>  
             <label index="databaseConnectionPreview">Einstellungen PREVIEW Server</label> 
             <label index="imageMagickPath">Imagemagick Pfad:</label>    
-            <label index="generalSettings">Allgemeine Einstellungen</label>                                
+            <label index="generalSettings">Allgemeine Einstellungen</label>
+            <label index="noNewLocalconfFile">Datei new_localconf.php nicht vorhanden</label>
+            <label index="noNewLocalconfFileText"><![CDATA[Die Datei <b>new_localconf.php</b> ist nicht im typo3conf Ordner vorhanden.]]></label>                                            
         </languageKey>
     </data>
 </T3locallang>
