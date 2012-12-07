@@ -9,7 +9,7 @@
       <label index="ll_error_header">Anmeldefehler</label>
       <label index="ll_error_message">Während der Anmeldung ist ein Fehler aufgetreten. Wahrscheinlich haben Sie Ihren Benutzernamen oder das Passwort falsch eingegeben. Vergewissern Sie sich, dass Sie beide Angaben korrekt eingegeben haben - Groß-/Kleinschreibung wird unterschieden. Eine andere Möglichkeit ist, dass Sie eventuell die Cookies in Ihrem Web-Browser deaktiviert haben.</label>
       <label index="ll_success_header">Anmeldung erfolgreich</label>
-      <label index="ll_success_message">Sie sind nun angemeldet als '###USER###'.</label>
+      <label index="ll_success_message">Sie sind nun angemeldet als '###USER###'</label>
       <label index="ll_status_header">Aktueller Status</label>
       <label index="ll_status_message">Das ist Ihr aktueller Status:</label>
       <label index="cookie_warning">Warnung: Es besteht die Möglichkeit, dass in Ihrem Browser Cookies deaktiviert sind! Sollte trotz erfolgreicher Anmeldung beim nächsten Klick wieder die Anmeldeseite erscheinen, so sind Cookies deaktiviert. Sie sollten daher umgehend Cookies akzeptieren, entweder generell für alle Websites oder nur für diese spezielle.</label>
@@ -24,7 +24,7 @@
       <label index="ll_change_password_message">Das neue Passwort bitte zweimal eingeben. Es ist eine Mindestlänge von %s Zeichen erforderlich.</label>
       <label index="ll_change_password_nolinkprefix_message">Fehler: Kein Präfix für Link. Bitte eine der folgenden Eigenschaften im TypoScript-Template definieren: plugin.tx_felogin_pi1.feloginBaseURL = http://ihredomaene/, config.baseURL = http://ihredomaene/, config.absRelPrefix = http://ihredomaene/</label>
       <label index="ll_change_password_notvalid_message">Der angeklickte Link ist ungültig. Den Vorgang für vergessene Passwörter bitte erneut durchführen.</label>
-      <label index="ll_change_password_notequal_message">Die Passwörter stimmen nicht überein. Das neue Passwort bitte zweimal eingeben. Es ist eine Mindestlänge von %s Zeichen erforderlich.</label>
+      <label index="ll_change_password_notequal_message">Die Passwörter stimmen nicht überein -  das neue Passwort bitte zweimal eingeben. Es ist eine Mindestlänge von %s Zeichen erforderlich.</label>
       <label index="ll_change_password_tooshort_message">Das Passwort ist zu kurz. Das neue Passwort bitte zweimal eingeben. Es ist eine Mindestlänge von %s Zeichen erforderlich.</label>
       <label index="ll_change_password_done_message">Das Passwort wurde gespeichert. Sie können sich nun mit dem neuen Passwort anmelden.</label>
       <label index="change_password">Passwort ändern</label>
@@ -52,7 +52,7 @@ Aus Sicherheitsgründen ist dieser Link nur bis %s aktiv. Falls Sie den Link nic
       <label index="ll_forgot_message_emailSent">Ihr Passwort wurde an die E-Mail-Adresse %s versandt.</label>
       <label index="ll_forgot_reset_message">Bitte den Benutzernamen oder die E-Mail-Adresse eingeben. Sie erhalten dann umgehend Anweisungen zum Zurücksetzen des Passworts zugesandt.</label>
       <label index="ll_forgot_reset_message_emailSent">Es wurde eine E-Mail mit einem Link zum Zurücksetzen des Passworts an die in Ihrem Benutzerkonto gespeicherte E-Mail-Adresse geschickt. Sollten Sie keine E-Mail erhalten, wurde Ihr Konto oder die E-Mail-Adresse nicht gefunden.</label>
-      <label index="ll_forgot_reset_message_error"/>
+      <label index="ll_forgot_reset_message_error">Ihr Konto oder Ihre E-Mail-Adresse existiert nicht.</label>
       <label index="ll_forgot_header_backToLogin">Zurück zum Anmeldeformular</label>
       <label index="ll_enter_your_data">Benutzername oder E-Mail-Adresse:</label>
       <label index="noValidRedirectUrl">Die URL "%s" wurde nicht als Weiterleitung akzeptiert!</label>

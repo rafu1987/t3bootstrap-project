@@ -5,13 +5,16 @@
       <label index="ext.saltedpasswords.title.tx_saltedpasswords_salts_phpass">Portables PHP-Passwort-Hashing (phpass)</label>
       <label index="ext.saltedpasswords.title.tx_saltedpasswords_salts_md5">MD5-salted Hashing (sicher)</label>
       <label index="ext.saltedpasswords.title.tx_saltedpasswords_salts_blowfish">Blowfish-salted Hashing (erweitert)</label>
+      <label index="ext.saltedpasswords.title.phpasssalt"/>
+      <label index="ext.saltedpasswords.title.md5salt"/>
+      <label index="ext.saltedpasswords.title.blowfishsalt"/>
       <label index="ext.saltedpasswords.tasks.bulkupdate.name">Benutzerpasswörter zu saltedpasswords konvertieren</label>
       <label index="ext.saltedpasswords.tasks.bulkupdate.description">Alle Frontend- und Backend-Benutzerpasswörter zu saltedpasswords aktualisieren. Dieser Task deaktiviert sich nach Beendigung selbst.</label>
-      <label index="ext.saltedpasswords.tasks.bulkupdate.label.numberOfRecords"/>
-      <label index="ext.saltedpasswords.tasks.bulkupdate.invalidNumberOfRecords"/>
-      <label index="ext.saltedpasswords.tasks.bulkupdate.label.canDeactivateSelf"/>
-      <label index="ext.saltedpasswords.tasks.bulkupdate.label.additionalinformation.deactivateself"/>
-      <label index="ext.saltedpasswords.tasks.bulkupdate.label.additionalinformation.numberofrecords"/>
+      <label index="ext.saltedpasswords.tasks.bulkupdate.label.numberOfRecords">Die Anzahl zu bearbeitender Datensätze pro Durchlauf</label>
+      <label index="ext.saltedpasswords.tasks.bulkupdate.invalidNumberOfRecords">Die Anzahl zu bearbeitender Datensätze pro Durchlauf muss größer Null und numerisch sein.</label>
+      <label index="ext.saltedpasswords.tasks.bulkupdate.label.canDeactivateSelf">Deaktivieren sobald alle Datensätze konvertiert wurden</label>
+      <label index="ext.saltedpasswords.tasks.bulkupdate.label.additionalinformation.deactivateself">Deaktivieren=</label>
+      <label index="ext.saltedpasswords.tasks.bulkupdate.label.additionalinformation.numberofrecords">Anzahl Datensätze=</label>
     </languageKey>
   </data>
 </T3locallangExt>

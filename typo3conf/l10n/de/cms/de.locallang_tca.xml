@@ -193,10 +193,10 @@
       <label index="sys_template.static_file_mode">Statische Template-Dateien aus Erweiterungen:</label>
       <label index="sys_template.static_file_mode.0">Standard (einschließen vor, wenn Wurzel-Option gesetzt)</label>
       <label index="sys_template.static_file_mode.1">Stets vor diesem Template-Datensatz einschließen</label>
-      <label index="sys_template.static_file_mode.2">Nie vor diesem Template-Datensatz einschließen</label>
-      <label index="sys_template.static_file_mode.3">Vor allen statischen Templates einfügen, wenn die Wurzel-Option gesetzt ist.</label>
+      <label index="sys_template.static_file_mode.2">Nie vor diesem Template-Datensatz einbinden</label>
+      <label index="sys_template.static_file_mode.3">Vor allen statischen Templates einbinden, wenn die Wurzel-Option gesetzt ist</label>
       <label index="sys_template.basedOn_add">Neues Basis-Template hinzufügen</label>
-      <label index="sys_template.tabs.files">Ressourcen</label>
+      <label index="sys_template.tabs.files">Quellen</label>
       <label index="sys_template.tabs.include">Enthält</label>
       <label index="sys_template.tabs.options">Optionen</label>
       <label index="sys_template.tabs.access">Zugriff</label>

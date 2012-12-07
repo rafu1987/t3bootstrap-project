@@ -60,7 +60,7 @@
       <label index="attributes_enctype">Enctype</label>
       <label index="attributes_enctype_1">codiert</label>
       <label index="attributes_enctype_2">Keine Kodierung - Datei hochladen</label>
-      <label index="attributes_enctype_3"/>
+      <label index="attributes_enctype_3">Keine Kodierung - Leerzeichen konvertiert</label>
       <label index="attributes_id">Id</label>
       <label index="attributes_label">Beschriftung</label>
       <label index="attributes_lang">Sprache</label>
@@ -92,13 +92,13 @@
       <label index="attributes_value">Wert</label>
       <label index="options_label">Eigenschaften der Beschriftung</label>
       <label index="label_label">Beschriftung</label>
-      <label index="label_layout">Beschriftungsposition</label>
+      <label index="label_layout">Position der Beschriftung</label>
       <label index="label_layout_front">im Vordergrund</label>
       <label index="label_layout_back">nach</label>
       <label index="options_legend">Eigenschaften der Legende</label>
       <label index="legend_legend">Legende</label>
       <label index="options_filters">Filter</label>
-      <label index="filters_emptytext">Einen Filter hinzufügen</label>
+      <label index="filters_emptytext">Filter hinzufügen</label>
       <label index="filters_alert_title">Hinzufügen eines Filters</label>
       <label index="filters_alert_description">Der gewählte Filter wurde bereits verwendet</label>
       <label index="filters_dummy_title">Kein Filter ausgewählt</label>
@@ -111,7 +111,7 @@
       <label index="filters_lowercase">Kleingeschrieben</label>
       <label index="filters_regexp">Regulärer Ausdruck</label>
       <label index="filters_removexss">XSS entfernen</label>
-      <label index="filters_stripnewlines">Leerzeilen entfernen</label>
+      <label index="filters_stripnewlines">Zeilenumbrüche entfernen</label>
       <label index="filters_titlecase">Großschrift</label>
       <label index="filters_trim">Leerzeichen filtern</label>
       <label index="filters_uppercase">Großgeschrieben</label>
@@ -121,7 +121,7 @@
       <label index="filters_properties_expression">Ausdruck</label>
       <label index="filters_properties_characterlist">Zeichenliste</label>
       <label index="filters_properties_none">Dieser Filter hat keine Konfigurationseinstellungen</label>
-      <label index="options_validation">Gültigkeitsprüfung</label>
+      <label index="options_validation">Gültigkeit</label>
       <label index="validation_emptytext">Eine Gültigkeitsregel hinzufügen</label>
       <label index="validation_alert_title">eine Gültigkeitsregel hinzufügen</label>
       <label index="validation_alert_description">Die ausgewählte Gültigkeitsregel ist bereits vorhanden</label>
@@ -184,7 +184,7 @@
       <label index="postprocessor_dummy_description">Um eine Nachbearbeitung hinzuzufügen, bitte eine aus dem Dropdown-Menü auswählen.</label>
       <label index="postprocessor_properties_recipientemail">E-Mailadresse des Empfängers</label>
       <label index="postprocessor_properties_senderemail">E-Mailadresse des Senders</label>
-      <label index="postprocessor_properties_subject"/>
+      <label index="postprocessor_properties_subject">Betreff</label>
       <label index="postprocessor_mail">E-Mail senden</label>
       <label index="prefix_prefix">Präfix</label>
       <label index="elements_dummy_title">Bisher wurden keine Elemente hinzugefügt!</label>

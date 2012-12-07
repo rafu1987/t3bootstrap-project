@@ -8,7 +8,7 @@
       <target state="translated">FE-Benutzeranmeldung</target></trans-unit>
       <trans-unit id="felogin_redirectPid" xml:space="preserve" approved="yes">
         <source>Redirect at Login to Page (felogin)</source>
-      <target state="translated">Bei Anmeldung zur folgenden Seite weiterleiten</target></trans-unit>
+      <target state="translated">Bei Anmeldung zur folgenden Seite weiterleiten (felogin)</target></trans-unit>
       <trans-unit id="tt_content.pi_flexform.general_header" xml:space="preserve" approved="yes">
         <source>General Header</source>
       <target state="translated">Überschrift allgemein</target></trans-unit>

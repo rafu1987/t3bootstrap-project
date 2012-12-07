@@ -3,10 +3,10 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="version" target-language="de">
     <header/>
     <body>
-      <trans-unit id="subject" xml:space="preserve">
+      <trans-unit id="subject" xml:space="preserve" approved="yes">
         <source>TYPO3 Workspace Note: Stage Change for ###ELEMENT_NAME###</source>
-      </trans-unit>
-      <trans-unit id="message" xml:space="preserve">
+      <target state="translated">TYPO3 Hinweis für Arbeitsumgebung: Stufe für ###ELEMENT_NAME### geändert</target></trans-unit>
+      <trans-unit id="message" xml:space="preserve" approved="yes">
         <source>At the TYPO3 site "###SITE_NAME###" (###SITE_URL###)
 in workspace "###WORKSPACE_TITLE###" (###WORKSPACE_UID###)
 the stage has changed for the element(s) "###RECORD_TITLE###" (###ELEMENT_NAME###) at location "###RECORD_PATH###" in the page tree:
@@ -17,7 +17,16 @@ User Comment:
 "###COMMENT###"
 
 State was changed by ###USER_FULLNAME### (username: ###USER_USERNAME###)</source>
-      </trans-unit>
+      <target state="translated">In der TYPO3 Website "###SITE_NAME###" (###SITE_URL###)
+in der Arbeitsumgebung "###WORKSPACE_TITLE###" (###WORKSPACE_UID###)
+hat sich die Stufe des Elements/der Elemente "###RECORD_TITLE###" (###ELEMENT_NAME###) im Seitenbaum an der Stelle "###RECORD_PATH###" geändert:
+
+=&gt; ###NEXT_STAGE###
+
+Kommentar der Nutzers:
+"###COMMENT###"
+
+Stufe wurde geändert von ###USER_FULLNAME### (Benutzername: ###USER_USERNAME###)</target></trans-unit>
     </body>
   </file>
 </xliff>

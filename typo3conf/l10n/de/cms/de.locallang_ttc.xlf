@@ -773,7 +773,7 @@
       <target state="translated">Erweiterungsoptionen</target></trans-unit>
       <trans-unit id="accessibility_title" xml:space="preserve" approved="yes">
         <source>Block title</source>
-      <target state="translated">Title-Attribut für den Abschnitt</target></trans-unit>
+      <target state="translated">Blocktitel</target></trans-unit>
       <trans-unit id="accessibility_bypass" xml:space="preserve" approved="yes">
         <source>Add link to bypass block</source>
       <target state="translated">Link zum Überspringen des Blocks hinzufügen</target></trans-unit>
@@ -995,7 +995,7 @@
       <target state="translated">Vollbildschirm erlauben</target></trans-unit>
       <trans-unit id="media.params.preload" xml:space="preserve" approved="yes">
         <source>Preload media</source>
-      <target state="translated">Medien vorausladen</target></trans-unit>
+      <target state="translated">Medien vorladen</target></trans-unit>
       <trans-unit id="media.params.controlsBelow" xml:space="preserve" approved="yes">
         <source>Display controls below video</source>
       <target state="translated">Steuerelemente unterhalb des Videos anzeigen</target></trans-unit>

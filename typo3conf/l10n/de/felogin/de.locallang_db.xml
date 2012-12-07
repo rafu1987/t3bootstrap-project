@@ -3,7 +3,7 @@
   <data type="array">
     <languageKey index="de" type="array">
       <label index="tt_content.CType_pi1">FE-Benutzeranmeldung</label>
-      <label index="felogin_redirectPid">Bei Anmeldung zur folgenden Seite weiterleiten</label>
+      <label index="felogin_redirectPid">Bei Anmeldung zur folgenden Seite weiterleiten (felogin)</label>
       <label index="tt_content.pi_flexform.general_header">Überschrift allgemein</label>
       <label index="tt_content.pi_flexform.general_message">Meldung allgemein</label>
       <label index="tt_content.pi_flexform.redirect_header">Überschrift Weiterleitung</label>

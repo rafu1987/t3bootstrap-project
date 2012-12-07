@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="adodb" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="dbtype" xml:space="preserve" approved="yes">
+        <source>Database type</source>
+      <target state="translated">Datenbanktyp</target></trans-unit>
+      <trans-unit id="host" xml:space="preserve" approved="yes">
+        <source>Host or DSN</source>
+      <target state="translated">Host oder DSN</target></trans-unit>
+      <trans-unit id="dbname" xml:space="preserve" approved="yes">
+        <source>Database name</source>
+      <target state="translated">Datenbankname</target></trans-unit>
+      <trans-unit id="username" xml:space="preserve" approved="yes">
+        <source>Username</source>
+      <target state="translated">Benutzername</target></trans-unit>
+      <trans-unit id="password" xml:space="preserve" approved="yes">
+        <source>Password</source>
+      <target state="translated">Passwort</target></trans-unit>
+      <trans-unit id="table" xml:space="preserve" approved="yes">
+        <source>Table name</source>
+      <target state="translated">Tabellenname</target></trans-unit>
+      <trans-unit id="checkconnectionwizard" xml:space="preserve" approved="yes">
+        <source>Check connection to database with configuration entered below</source>
+      <target state="translated">Verbindung zur Datenbank mit den unten angegebenen Einstellungen prüfen</target></trans-unit>
+    </body>
+  </file>
+</xliff>

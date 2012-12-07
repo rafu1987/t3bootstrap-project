@@ -12,7 +12,7 @@
       <label index="status_enabledPermanently">Dauerhaft aktiviert</label>
       <label index="status_enabledTemporarily">Temporär aktiviert</label>
       <label index="status_empty">Leer</label>
-      <label index="status_none"/>
+      <label index="status_none">Keine</label>
       <label index="status_connectionFailed">Verbindung fehlgeschlagen</label>
       <label index="status_updateComplete">Aktualisierung vollständig</label>
       <label index="status_updateIncomplete">Aktualisierung nicht vollständig</label>
@@ -25,16 +25,16 @@
       <label index="status_memcachedConfiguration">Memcached-Konfiguration</label>
       <label index="status_PhpSafeMode">PHP-Safe-Mode</label>
       <label index="status_PhpMagicQuotesGpc">PHP: magic_quotes_gpc</label>
-      <label index="status_CreatedFilePermissions"/>
-      <label index="status_CreatedFilePermissions.writable"/>
-      <label index="status_CreatedDirectoryPermissions"/>
-      <label index="status_CreatedDirectoryPermissions.writable"/>
+      <label index="status_CreatedFilePermissions">Berechtigungen für erstellte Dateien</label>
+      <label index="status_CreatedFilePermissions.writable">Durch TYPO3 erstellte Dateien sind für jeden schreibbar konfiguriert. Abhängig von ihrer Serverkonfiguration kann dies ein SIcherheitsrisiko darstellen. Es ist üblicherweise besser das Schreiben von Dateien nicht für "jeden" zu erlauben. Eine sinnvolle Standardeinstellung ist oft '0660' für $GLOBALS['TYPO3_CONF_VARS']['BE']['fileCreateMask']. Dies kann im Install Tool eingestellt werden.</label>
+      <label index="status_CreatedDirectoryPermissions">Berechtigungen für erstellte Verzeichnisse</label>
+      <label index="status_CreatedDirectoryPermissions.writable">Durch TYPO3 erstellte Verzeichnisse sind für jeden schreibbar konfiguriert. Abhängig von ihrer Serverkonfiguration kann dies ein SIcherheitsrisiko darstellen. Es ist üblicherweise besser das Schreiben in Verzeichnisse durch "jeden" nicht zu erlauben. Eine sinnvolle Standardeinstellung ist oft '2770' für $GLOBALS['TYPO3_CONF_VARS']['BE']['folderCreateMask']. Dies kann im Install Tool eingestellt werden.</label>
       <label index="status_adminUserAccount">Admin-Benutzerkonten</label>
       <label index="status_encryptionKey">Verschlüsselungsschlüssel</label>
-      <label index="status_saltedPasswords"/>
-      <label index="status_saltedPasswords_infoText"/>
-      <label index="status_saltedPasswords_notInstalled"/>
-      <label index="status_saltedPasswords_notAllPasswordsHashed"/>
+      <label index="status_saltedPasswords">Passwort-Hashes der Backend-Benutzer</label>
+      <label index="status_saltedPasswords_infoText">Während der Konfigurationsüberprüfung von saltedpasswords wurden folgende Probleme gefunden:</label>
+      <label index="status_saltedPasswords_notInstalled">Die Erweiterung saltedpasswords ist nicht installiert. Passwörter werden nur mit MD5 gehashed, was als unsicher gilt. Installieren und konfigurieren sie die saltedpasswords-Erweiterung und führen sie die Planer-Aufgabe zur Konvertierung aller Passwörter zu gesalzenen hashes durch.</label>
+      <label index="status_saltedPasswords_notAllPasswordsHashed">DIe Passwörter einiger Backend-Benutzer sind nur MD5-gehashed. Verwenden sie die Planer-Aufgabe zur Konvertierung aller Passwörter zu gesalzenen Hashes.</label>
       <label index="status_fileDenyPattern">Dateiverweigerungsmuster</label>
       <label index="status_htaccessUploadProtection">.htaccess-Hochladeschutz</label>
       <label index="status_installToolPassword">Passwort für das Installations-Tool</label>
@@ -46,7 +46,7 @@
       <label index="status_phpMemoryRequirement">Je nachdem, wie Sie TYPO3 konfiguriert haben, kann TYPO3 mit einem PHP-Memory-Limit von %1$s laufen. Trotzdem wird ein Memory-Limit von mindestens %2$s benötigt, besonders wenn Ihre Seite zahlreiche Erweiterungen benutzt.</label>
       <label index="status_phpMemoryEditLimit">Erhöhen Sie das Memory-Limit, indem Sie den Parameter "memory_limit" in der Datei %s bearbeiten und Ihren Webserver dann neustarten. Alternativ fragen Sie Ihren Systemadministrator oder Hosting-Provider um Hilfe.</label>
       <label index="status_phpMemoryContactAdmin">Fragen Sie Ihren Systemadministrator oder Hosting-Provider um Hilfe, um das Memory-Limit zu erhöhen.</label>
-      <label index="status_phpMemoryUnlimited"/>
+      <label index="status_phpMemoryUnlimited">unbegrenzt</label>
       <label index="status_phpPeakMemory">PHP: Höchste Speichernutzung</label>
       <label index="status_phpPeakMemoryTooHigh">Während einer Anfrage wurden %2$s des Memory-Limits genutzt. Am %4$s nutzte eine Anfrage an %5$s %1$s von %3$s.</label>
       <label index="status_phpPeakMemoryClearFlag">Diese Option zurücksetzen</label>
@@ -56,6 +56,8 @@
       <label index="status_phpRegisterGlobalsHowToChange">Wie Sie diese Konfigurationseinstellungen ändern</label>
       <label index="status_phpRegisterGlobalsPHPManual">Das PHP-Handbuch enthält weitere Anweisungen für %s.</label>
       <label index="status_webServer">Webserver</label>
+      <label index="status_webServer_infoText"/>
+      <label index="status_webServer_threadStackSize"/>
       <label index="status_phpModules">PHP-Module</label>
       <label index="status_phpModulesMissing">Es fehlen ein oder mehrere Module</label>
       <label index="status_phpModulesList">Es fehlen nachfolgende PHP Module: %s.</label>
@@ -67,20 +69,20 @@
       <label index="status_configuration_DeprecationLogEnabled">Das Protokoll für Aufrufe veralteter Funktionen hält fest, ob Erweiterungen alte APIs nutzen. Abhängig von den Erweiterungen, die Sie benutzen, und davon, ob diese veraltete APIs verwenden, kann das Protokoll mit der Zeit viel Platz beanspruchen. Je größer es wird, desto mehr kann es die Leistung Ihrer Installation beeinträchtigen. Es wird empfohlen, das Protokoll für Aufrufe veralteter Funktionen in Produktionsumgebungen zu deaktivieren.</label>
       <label index="status_configuration_DeprecationLogFile">Sie können das Protokoll für Aufrufe veralteter Funktionen unter %s finden.</label>
       <label index="status_configuration_DeprecationLogSize">Ihr Protokoll für Aufrufe veralteter Funktionen hat gegenwärtig eine Größe von %s.</label>
-      <label index="status_configuration_DeprecationLogDeleteLink"/>
-      <label index="status_configuration_DeprecationLogDeletedSuccessful"/>
-      <label index="status_configuration_DeprecationLogDeletionFailed"/>
-      <label index="status_configuration_PhpSafeModeEnabled">Die Einstellung safe_mode "On" in php.ini wird seit PHP 5.2 nicht mehr empfohlen und ist seit PHP 5.3 veraltet. Sie sollte nicht mehr benutzt werden.</label>
-      <label index="status_configuration_PhpMagicQuotesGpcEnabled">Die Einstellung magic_quotes_gpc "On" in php.ini ist seit PHP 5.3 veraltet. Bis diese Einstellung entfernt wird, sollte der Wert auf "Off" gesetzt werden.</label>
+      <label index="status_configuration_DeprecationLogDeleteLink">Protokoll für Aufrufe veralteter Funktionen löschen.</label>
+      <label index="status_configuration_DeprecationLogDeletedSuccessful">Das Protokoll für Aufrufe veralteter Funktionen wurde erfolgreich gelöscht.</label>
+      <label index="status_configuration_DeprecationLogDeletionFailed">Das Protokoll für Aufrufe veralteter Funktionen konnte nicht gelöscht werden.</label>
+      <label index="status_configuration_PhpSafeModeEnabled">Die Einstellung safe_mode "On" wird seit PHP 5.3 nicht mehr empfohlen und wird von TYPO3 nicht mehr unterstützt.</label>
+      <label index="status_configuration_PhpMagicQuotesGpcEnabled">Die Einstellung magic_quotes_gpc "On" ist seit PHP 5.3 veraltet. Dieser Wert sollte auf "Off" gesetzt werden bis er endgültig entfernt wird.</label>
       <label index="status_updateTaskTitle">Aktualisierung des Systemstatus</label>
-      <label index="status_updateTaskDescription">Führt eine Überprüfung des Systemstatus durch und versendet eine Mitteilung, wenn Probleme gefunden wurden.</label>
-      <label index="status_updateTaskField_notificationEmail">E-Mail-Adresse für Bericht</label>
-      <label index="status_updateTaskField_notificationEmail_invalid">Leere oder ungültige E-Mail-Adresse.</label>
+      <label index="status_updateTaskDescription">Führt eine Überprüfung des Systemstatus durch und versendet eine Mitteilung wenn Probleme gefunden wurden.</label>
+      <label index="status_updateTaskField_notificationEmail">E-Mail-Adresse für Benachrichtigung</label>
+      <label index="status_updateTaskField_notificationEmail_invalid">Leere oder ungültige E-Mail-Adresse für Benachrichtigungen.</label>
       <label index="status_updateTask_email_subject">Systemstatus-Bericht für Seite %s</label>
       <label index="status_updateTask_email_site">Seite</label>
       <label index="status_updateTask_email_issues">Probleme</label>
-      <label index="status_oldXclassUsage"/>
-      <label index="status_oldXclassUsageFound"/>
+      <label index="status_oldXclassUsage">Alte XCLASS-Method verwendet</label>
+      <label index="status_oldXclassUsageFound">Alte XCLASS-Methode verwendet in %d Fällen verwendet:</label>
     </languageKey>
   </data>
 </T3locallangExt>

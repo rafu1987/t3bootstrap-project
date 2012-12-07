@@ -2,38 +2,65 @@
 <T3locallangExt>
   <data type="array">
     <languageKey index="de" type="array">
-      <label index=".description"/>
-      <label index=".details"/>
+      <label index=".description">Der sichtbare Inhalt von Websiten setzt sich üblicherweise aus "Seiteninhalt"-Elementen zusammen, oft auch als "Inhaltselemente" bezeichnet. Inhaltselemente werden über das "Seite"-Modul verwaltet, welches Inhaltselemente in mehreren Spalten und Sprachen organisiert.</label>
+      <label index=".details">"Seiteninhalt"-Datensätze sind sortierbar und verschiebar. Die "Sprache" und "Spalte"-Auswahlfelder von "Seiteninhalt"-Dateiensätzen geben an wann und wo diese erscheinen. Wenn Sie die Werte für "Sprache" und "Spalte" eines Inhaltselements nicht verändern werden diese gemäß der Standardeinstellung erscheinen.</label>
       <label index="_.seeAlso"/>
-      <label index="_.image"/>
-      <label index=".image_descr"/>
-      <label index="CType.description"/>
+      <label index="_.image">EXT:context_help/cshimages/ttcontent_1.png,
+EXT:context_help/cshimages/ttcontent_2.png,
+EXT:context_help/cshimages/ttcontent_3.png</label>
+      <label index=".image_descr">Das Seite-Modul wird verwendet um Inhaltselemente in Spalten und Sprachen zu verwalten.
+Ein Inhaltselement besitzt ein Bearbeitungsformular mit vielen Optionen. Der "Typ" legt fest welche Optionen sichtbar sind.
+Im Frontend könnte ein Inhaltselement wie das obige wie folgt aussehen.</label>
+      <label index="CType.description">Wählen Sie die Art des Seiteninhalts den dieses Element darstellt. Neue Optionen erscheinen sobald der Datensatz gespeichert wird.</label>
       <label index="CType.details"/>
       <label index="_CType.seeAlso"/>
       <label index="_CType.image">EXT:context_help/cshimages/ttcontent_4.png</label>
-      <label index="hidden.description"/>
-      <label index="_hidden.seeAlso">tt_content:starttime, tt_content:endtime, tt_content:fe_group, tt_content:colPos, tt_content:sys_language_uid</label>
-      <label index="starttime.description"/>
-      <label index="_starttime.seeAlso">pages:starttime, tt_content:endtime, tt_content:hidden, tt_content:fe_group</label>
-      <label index="endtime.description"/>
-      <label index="_endtime.seeAlso">pages:endtime, tt_content:starttime, tt_content:hidden, tt_content:fe_group</label>
+      <label index="hidden.description">Wählen Sie diese Box um das Inhaltselement zu deaktivieren und zu verhindern, dass es auf der Website erscheint.</label>
+      <label index="_hidden.seeAlso">tt_content:starttime,
+tt_content:endtime,
+tt_content:fe_group,
+tt_content:colPos,
+tt_content:sys_language_uid</label>
+      <label index="starttime.description">Geben Sie das Datum ein wann das Inhaltselement veröffentlicht und auf der Website angezeigt werden soll.</label>
+      <label index="_starttime.seeAlso">pages:starttime,
+tt_content:endtime,
+tt_content:hidden,
+tt_content:fe_group</label>
+      <label index="endtime.description">Geben Sie das Datum ein, wann das Inhaltselement ablaufen und von der Website verschwinden soll.</label>
+      <label index="_endtime.seeAlso">pages:endtime,
+tt_content:starttime,
+tt_content:hidden,
+tt_content:fe_group</label>
       <label index="fe_group.description"/>
       <label index="fe_group.details"/>
-      <label index="_fe_group.seeAlso">tt_content:hidden, tt_content:starttime, tt_content:endtime, pages:fe_group, fe_users, fe_groups</label>
+      <label index="_fe_group.seeAlso">tt_content:hidden,
+tt_content:starttime,
+tt_content:endtime,
+pages:fe_group,
+fe_users,
+fe_groups</label>
       <label index="sys_language_uid.description"/>
       <label index="sys_language_uid.details"/>
-      <label index="_sys_language_uid.seeAlso"/>
+      <label index="_sys_language_uid.seeAlso">tt_content:colPos,
+sys_language,
+Localization concepts [Technical] | http://typo3.org/documentation/tips-tricks/multi-language-sites-in-typo3/,
+_MOD_web_layout:language_list</label>
       <label index="layout.description">Wählen Sie ein Layout.</label>
       <label index="layout.details"/>
       <label index="colPos.description"/>
       <label index="colPos.details"/>
-      <label index="_colPos.seeAlso">tt_content:sys_language_uid, _MOD_web_layout:columns_multi, _MOD_web_layout:columns_single</label>
-      <label index="date.description"/>
-      <label index="header.description"/>
+      <label index="_colPos.seeAlso">tt_content:sys_language_uid,
+_MOD_web_layout:columns_multi,
+_MOD_web_layout:columns_single</label>
+      <label index="date.description">Geben Sie ein Datum zur Angabe oberhalb der Kopfzeile ein.</label>
+      <label index="header.description">Geben SIe den Text für die Kopfzeile des Inhaltselement ein</label>
       <label index="header.details"/>
-      <label index="_header.seeAlso">tt_content:header_position, tt_content:header_link, tt_content:header_layout, tt_content:date,</label>
+      <label index="_header.seeAlso">tt_content:header_position,
+tt_content:header_link,
+tt_content:header_layout,
+tt_content:date,</label>
       <label index="_header.image">EXT:context_help/cshimages/ttcontent_6.png</label>
-      <label index="header_position.description"/>
+      <label index="header_position.description">Richtet die Kopfzeile links, mittig oder rechts aus.</label>
       <label index="_header_position.seeAlso">tt_content:header</label>
       <label index="header_link.description"/>
       <label index="header_link.syntax"/>
@@ -43,61 +70,99 @@
       <label index="_header_layout.seeAlso">tt_content:header</label>
       <label index="subheader.description"/>
       <label index="subheader.details"/>
-      <label index="_subheader.seeAlso">tt_content:header tt_content:bodytext</label>
-      <label index="bodytext.description"/>
+      <label index="_subheader.seeAlso">tt_content:header
+tt_content:bodytext</label>
+      <label index="bodytext.description">Geben sie den Haupttext ein.</label>
       <label index="bodytext.details"/>
-      <label index="_bodytext.seeAlso">tt_content:CType, tt_content:subheader, xMOD_csh_corebe:wizard_forms_wiz, xMOD_csh_corebe:wizard_table_wiz</label>
+      <label index="_bodytext.seeAlso">tt_content:CType,
+tt_content:subheader,
+xMOD_csh_corebe:wizard_forms_wiz,
+xMOD_csh_corebe:wizard_table_wiz</label>
       <label index="text_align.description"/>
       <label index="text_align.details"/>
-      <label index="_text_align.seeAlso">tt_content:text_face, tt_content:bodytext</label>
+      <label index="_text_align.seeAlso">tt_content:text_face,
+tt_content:bodytext</label>
       <label index="text_face.description"/>
       <label index="text_face.details"/>
-      <label index="_text_face.seeAlso">tt_content:text_face, tt_content:bodytext</label>
+      <label index="_text_face.seeAlso">tt_content:text_face,
+tt_content:bodytext</label>
       <label index="text_size.description"/>
       <label index="text_size.details"/>
-      <label index="_text_size.seeAlso">tt_content:text_face, tt_content:bodytext</label>
+      <label index="_text_size.seeAlso">tt_content:text_face,
+tt_content:bodytext</label>
       <label index="text_color.description"/>
       <label index="text_color.details"/>
-      <label index="_text_color.seeAlso">tt_content:text_face, tt_content:bodytext</label>
+      <label index="_text_color.seeAlso">tt_content:text_face,
+tt_content:bodytext</label>
       <label index="text_properties.description"/>
       <label index="text_properties.details"/>
-      <label index="_text_properties.seeAlso">tt_content:text_face, tt_content:bodytext</label>
+      <label index="_text_properties.seeAlso">tt_content:text_face,
+tt_content:bodytext</label>
       <label index="image.description"/>
       <label index="image.details"/>
-      <label index="_image.seeAlso"/>
+      <label index="_image.seeAlso">tt_content:imagewidth,
+tt_content:imageheight,
+tt_content:imageorient,
+tt_content:imageborder,
+tt_content:image_noRows,
+tt_content:image_link,
+tt_content:image_zoom,
+tt_content:imagecols,
+tt_content:imagecaption,
+tt_content:image_effects,
+tt_content:image_frames,
+tt_content:image_compression,
+Using images ("Getting Started") | http://typo3.org/documentation/document-library/doc_tut_quickstart/Managing_files_in_TY/
+Using images (Animation) | FILE:EXT:welcome/modsub/ani_10.gif</label>
       <label index="_image.image">EXT:context_help/cshimages/ttcontent_5.png</label>
       <label index="image.image_descr"/>
       <label index="imagewidth.description"/>
       <label index="imagewidth.details"/>
-      <label index="_imagewidth.seeAlso">tt_content:imageheight, tt_content:image</label>
+      <label index="_imagewidth.seeAlso">tt_content:imageheight,
+tt_content:image</label>
       <label index="imageheight.description"/>
-      <label index="_imageheight.seeAlso">tt_content:imagewidth, tt_content:image</label>
+      <label index="_imageheight.seeAlso">tt_content:imagewidth,
+tt_content:image</label>
       <label index="imageorient.description"/>
       <label index="imageorient.details"/>
       <label index="imageborder.description"/>
-      <label index="_imageborder.seeAlso">tt_content:imagecols, tt_content:image</label>
+      <label index="_imageborder.seeAlso">tt_content:imagecols,
+tt_content:image</label>
       <label index="image_noRows.description"/>
       <label index="image_noRows.details"/>
-      <label index="_image_noRows.seeAlso">tt_content:imagecols, tt_content:image</label>
+      <label index="_image_noRows.seeAlso">tt_content:imagecols,
+tt_content:image</label>
       <label index="image_link.description"/>
       <label index="image_link.details"/>
-      <label index="_image_link.seeAlso">tt_content:header_link, tt_content:image_zoom, tt_content:image</label>
+      <label index="_image_link.seeAlso">tt_content:header_link,
+tt_content:image_zoom,
+tt_content:image</label>
       <label index="image_zoom.description"/>
       <label index="image_zoom.details"/>
-      <label index="_image_zoom.seeAlso">tt_content:image_link, tt_content:image</label>
+      <label index="_image_zoom.seeAlso">tt_content:image_link,
+tt_content:image</label>
       <label index="image_effects.description"/>
-      <label index="_image_effects.seeAlso">tt_content:image_compression, tt_content:image_frames, tt_content:image</label>
+      <label index="_image_effects.seeAlso">tt_content:image_compression,
+tt_content:image_frames,
+tt_content:image</label>
       <label index="image_frames.description"/>
-      <label index="_image_frames.seeAlso">tt_content:image_compression, tt_content:image_effects, tt_content:image</label>
+      <label index="_image_frames.seeAlso">tt_content:image_compression,
+tt_content:image_effects,
+tt_content:image</label>
       <label index="image_compression.description"/>
-      <label index="_image_compression.seeAlso">tt_content:image_frames, tt_content:image_effects, tt_content:image</label>
+      <label index="_image_compression.seeAlso">tt_content:image_frames,
+tt_content:image_effects,
+tt_content:image</label>
       <label index="imagecols.description"/>
-      <label index="_imagecols.seeAlso">tt_content:image_noRows, tt_content:image</label>
+      <label index="_imagecols.seeAlso">tt_content:image_noRows,
+tt_content:image</label>
       <label index="imagecaption.description"/>
       <label index="imagecaption.details"/>
-      <label index="_imagecaption.seeAlso">tt_content:imagecaption_position, tt_content:image</label>
+      <label index="_imagecaption.seeAlso">tt_content:imagecaption_position,
+tt_content:image</label>
       <label index="imagecaption_position.description"/>
-      <label index="_imagecaption_position.seeAlso">tt_content:imagecaption, tt_content:image</label>
+      <label index="_imagecaption_position.seeAlso">tt_content:imagecaption,
+tt_content:image</label>
       <label index="cols.description"/>
       <label index="pages.description"/>
       <label index="pages.details"/>

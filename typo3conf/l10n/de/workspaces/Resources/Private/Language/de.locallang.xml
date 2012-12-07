@@ -55,7 +55,7 @@
       <label index="tooltip.sendToNextStage">Datensatz an nächste Stufe senden</label>
       <label index="tooltip.discardVersion">Entwurfversion des Datensatzes verwerfen.</label>
       <label index="tooltip.swap">Live- und Arbeitsumgebungsversion austauschen</label>
-      <label index="tooltip.showHistory"/>
+      <label index="tooltip.showHistory">Zeige Verlauf der Version in der Arbeitsumgebung</label>
       <label index="window.discard.title">Entwurfversion des Datensatzes verwerfen.</label>
       <label index="window.discardAll.title">Alle Entwurfsversionen der aktuellen Seite verwerfen.</label>
       <label index="window.discard.message">Diese Version tatsächlich aus der Arbeitsumgebung verwerfen?</label>
@@ -100,15 +100,15 @@
       <label index="path">&lt;b&gt;Pfad&lt;/b&gt;: {0}</label>
       <label index="stage">Stufe {0}</label>
       <label index="comments">Benutzerkommentare für &lt;b&gt;Schritt {0} von Stufe&lt;/b&gt; "{1}"</label>
-      <label index="language.allLanguages"/>
-      <label index="language.selectLanguage"/>
-      <label index="integrity.dependsOnDefaultLanguageRecord"/>
-      <label index="integrity.isDefaultLanguageRecord"/>
-      <label index="integrity.hasIssuesDescription"/>
-      <label index="integrity.hasIssuesQuestion"/>
-      <label index="status.info"/>
-      <label index="status.warning"/>
-      <label index="status.error"/>
+      <label index="language.allLanguages">Alle Sprachen</label>
+      <label index="language.selectLanguage">Alle Sprachen</label>
+      <label index="integrity.dependsOnDefaultLanguageRecord">Datensatz "%s" ist abhängig vom Datensatz in der Standardsprache</label>
+      <label index="integrity.isDefaultLanguageRecord">Datensatz in der Standardsprache für Datensatz "%s"</label>
+      <label index="integrity.hasIssuesDescription">Bei der Prüfung der Integrität wurden mehrere Probleme gefunden. Weitere Details siehe Statussymbol vor den Datensätzen.</label>
+      <label index="integrity.hasIssuesQuestion">Möchten Sie fortfahren?</label>
+      <label index="status.info">Information</label>
+      <label index="status.warning">Warnung</label>
+      <label index="status.error">Fehler</label>
     </languageKey>
   </data>
 </T3locallangExt>

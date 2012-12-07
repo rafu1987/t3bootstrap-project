@@ -13,7 +13,7 @@
       <label index="hide">Verbergen</label>
       <label index="edit">Bearbeiten</label>
       <label index="newAfter">Neuen Datensatz nach diesem anfügen</label>
-      <label index="newRecordHere">Neuen Datensatz hier hinzufügen</label>
+      <label index="newRecordHere">Neuen Datensatz an diesem Ort hinzufügen</label>
       <label index="move_record">Datensatz verschieben</label>
       <label index="move_page">Seite verschieben</label>
       <label index="deleteItem">Löschen</label>

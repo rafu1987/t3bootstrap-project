@@ -68,7 +68,7 @@
       <label index="relations">Verknüpfungen</label>
       <label index="relations_description">Führt eine Analyse der Datenbank-Tabellen durch und prüft, ob Verknüpfungen zwischen Einträgen ungültig sind oder Dateien an der erwarteten Position fehlen.</label>
       <label index="files_many_ref">Dateien, die in mehr als einem Eintrag verwendet werden:</label>
-      <label index="no_files_found"/>
+      <label index="no_files_found">Keine Dateien gefunden.</label>
       <label index="files_no_ref">Dateien, die in keinem Eintrag verwendet werden (bitte löschen!):</label>
       <label index="files_no_file">Fehlende Dateien:</label>
       <label index="select_db">Auswahlfelder:</label>

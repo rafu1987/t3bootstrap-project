@@ -258,7 +258,7 @@
       <label index="rte_enabled_formlabel">Rich-Text-Editor</label>
       <label index="rte_enabled.I.0">Deaktivieren</label>
       <label index="pi_flexform">Erweiterungsoptionen</label>
-      <label index="accessibility_title">Title-Attribut für den Abschnitt</label>
+      <label index="accessibility_title">Blocktitel</label>
       <label index="accessibility_bypass">Link zum Überspringen des Blocks hinzufügen</label>
       <label index="accessibility_bypass_text">Link-Text zum Überspringen des Blocks</label>
       <label index="ALT.imgOptions">Bildoptionen</label>
@@ -332,7 +332,7 @@
       <label index="media.params.bgColor">Hintergrundfarbe</label>
       <label index="media.params.allowScriptAccess">ScriptAccess erlauben</label>
       <label index="media.params.allowFullScreen">Vollbildschirm erlauben</label>
-      <label index="media.params.preload">Medien vorausladen</label>
+      <label index="media.params.preload">Medien vorladen</label>
       <label index="media.params.controlsBelow">Steuerelemente unterhalb des Videos anzeigen</label>
       <label index="media.params.controlsAtStart">Steuerelemente während des Seiten-Aufbaus anzeigen</label>
       <label index="media.params.controlsHiding">Steuerelemente verbergen, wenn der Mauszeiger nicht über dem Video positioniert ist</label>

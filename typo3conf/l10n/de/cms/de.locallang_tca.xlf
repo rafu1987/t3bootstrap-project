@@ -578,16 +578,16 @@
       <target state="translated">Stets vor diesem Template-Datensatz einschließen</target></trans-unit>
       <trans-unit id="sys_template.static_file_mode.2" xml:space="preserve" approved="yes">
         <source>Never include before this template record</source>
-      <target state="translated">Nie vor diesem Template-Datensatz einschließen</target></trans-unit>
+      <target state="translated">Nie vor diesem Template-Datensatz einbinden</target></trans-unit>
       <trans-unit id="sys_template.static_file_mode.3" xml:space="preserve" approved="yes">
         <source>Include before all static templates if root flag is set</source>
-      <target state="translated">Vor allen statischen Templates einfügen, wenn die Wurzel-Option gesetzt ist.</target></trans-unit>
+      <target state="translated">Vor allen statischen Templates einbinden, wenn die Wurzel-Option gesetzt ist</target></trans-unit>
       <trans-unit id="sys_template.basedOn_add" xml:space="preserve" approved="yes">
         <source>Add New Basis Template</source>
       <target state="translated">Neues Basis-Template hinzufügen</target></trans-unit>
       <trans-unit id="sys_template.tabs.files" xml:space="preserve" approved="yes">
         <source>Resources</source>
-      <target state="translated">Ressourcen</target></trans-unit>
+      <target state="translated">Quellen</target></trans-unit>
       <trans-unit id="sys_template.tabs.include" xml:space="preserve" approved="yes">
         <source>Includes</source>
       <target state="translated">Enthält</target></trans-unit>

@@ -2,8 +2,13 @@
 <T3locallangExt>
   <data type="array">
     <languageKey index="de" type="array">
-      <label index="widget.pagination.previous"/>
-      <label index="widget.pagination.next"/>
+      <label index="widget.pagination.previous">vorherige</label>
+      <label index="widget.pagination.next">nächste</label>
+      <label index="widget.pagination.first"/>
+      <label index="widget.pagination.last"/>
+      <label index="widget.pagination.records"/>
+      <label index="widget.pagination.page"/>
+      <label index="widget.pagination.refresh"/>
     </languageKey>
   </data>
 </T3locallangExt>

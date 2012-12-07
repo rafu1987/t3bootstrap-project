@@ -9,366 +9,366 @@
       <trans-unit id="title_review" xml:space="preserve" approved="yes">
         <source>Send to review/pub</source>
       <target state="translated">Zur Prüfung weitergeben</target></trans-unit>
-      <trans-unit id="mlang_labels_tablabel" xml:space="preserve">
+      <trans-unit id="mlang_labels_tablabel" xml:space="preserve" approved="yes">
         <source>Page and content versioning and workspace management for pages.</source>
-      </trans-unit>
-      <trans-unit id="mlang_labels_tabdescr" xml:space="preserve">
+      <target state="translated">Versionierung von Seiten und Inhalten sowie Verwaltung von Arbeitsumgebungen für Seiten.</target></trans-unit>
+      <trans-unit id="mlang_labels_tabdescr" xml:space="preserve" approved="yes">
         <source>The Web&gt;Versioning module provides access to versioning features for the page tree.</source>
-      </trans-unit>
-      <trans-unit id="mlang_tabs_tab" xml:space="preserve">
+      <target state="translated">Das Modul Web&gt;Versionierung stellt Funktionen zur Versionierung des Seitenbaumes bereit.</target></trans-unit>
+      <trans-unit id="mlang_tabs_tab" xml:space="preserve" approved="yes">
         <source>Versioning</source>
-      </trans-unit>
-      <trans-unit id="clickAPage_header" xml:space="preserve">
+      <target state="translated">Versionierung</target><note>100%</note></trans-unit>
+      <trans-unit id="clickAPage_header" xml:space="preserve" approved="yes">
         <source>Web&gt;Versioning module</source>
-      </trans-unit>
-      <trans-unit id="clickAPage_content" xml:space="preserve">
+      <target state="translated">Modul Web&gt;Versionierung</target></trans-unit>
+      <trans-unit id="clickAPage_content" xml:space="preserve" approved="yes">
         <source>Please click a page in the pagetree frame to see the versioning module.</source>
-      </trans-unit>
-      <trans-unit id="filter_drafts" xml:space="preserve">
+      <target state="translated">Bitte klicken Sie auf eine Seite im Seitenbaum um das Versionierungsmodul zu sehen.</target></trans-unit>
+      <trans-unit id="filter_drafts" xml:space="preserve" approved="yes">
         <source>Drafts</source>
-      </trans-unit>
-      <trans-unit id="filter_archive" xml:space="preserve">
+      <target state="translated">Entwürfe</target></trans-unit>
+      <trans-unit id="filter_archive" xml:space="preserve" approved="yes">
         <source>Archive</source>
-      </trans-unit>
-      <trans-unit id="filter_all" xml:space="preserve">
+      <target state="translated">Archiv</target></trans-unit>
+      <trans-unit id="filter_all" xml:space="preserve" approved="yes">
         <source>All</source>
-      </trans-unit>
-      <trans-unit id="diffing" xml:space="preserve">
+      <target state="translated">Alle</target></trans-unit>
+      <trans-unit id="diffing" xml:space="preserve" approved="yes">
         <source>DIFFING</source>
-      </trans-unit>
-      <trans-unit id="fieldname" xml:space="preserve">
+      <target state="translated">VERGLEICH</target></trans-unit>
+      <trans-unit id="fieldname" xml:space="preserve" approved="yes">
         <source>Fieldname</source>
-      </trans-unit>
-      <trans-unit id="coloredDiffView" xml:space="preserve">
+      <target state="translated">Feldname</target></trans-unit>
+      <trans-unit id="coloredDiffView" xml:space="preserve" approved="yes">
         <source>Colored diff-view</source>
-      </trans-unit>
-      <trans-unit id="recordsMatchesCompletely" xml:space="preserve">
+      <target state="translated">Farblich hervorgehobene Vergleichsansicht</target></trans-unit>
+      <trans-unit id="recordsMatchesCompletely" xml:space="preserve" approved="yes">
         <source>Records matches completely on all editable fields!</source>
-      </trans-unit>
-      <trans-unit id="errorRecordsNotFound" xml:space="preserve">
+      <target state="translated">Datensätze sind in allen bearbeitbaren Feldern identisch!</target></trans-unit>
+      <trans-unit id="errorRecordsNotFound" xml:space="preserve" approved="yes">
         <source>ERROR: Records could strangely not be found!</source>
-      </trans-unit>
-      <trans-unit id="errorDiffSources" xml:space="preserve">
+      <target state="translated">FEHLER: Datensatz konnte nicht gefunden werden!</target></trans-unit>
+      <trans-unit id="errorDiffSources" xml:space="preserve" approved="yes">
         <source>ERROR: You didn't select two sources for diffing!</source>
-      </trans-unit>
-      <trans-unit id="tblHeader_title" xml:space="preserve">
+      <target state="translated">FEHLER: Sie müssen zwei Quellen zum Vergleichen auswählen!</target></trans-unit>
+      <trans-unit id="tblHeader_title" xml:space="preserve" approved="yes">
         <source>Title</source>
-      </trans-unit>
-      <trans-unit id="tblHeader_uid" xml:space="preserve">
+      <target state="translated">Titel</target></trans-unit>
+      <trans-unit id="tblHeader_uid" xml:space="preserve" approved="yes">
         <source>UID</source>
-      </trans-unit>
-      <trans-unit id="tblHeader_t3ver_oid" xml:space="preserve">
+      <target state="translated">UID</target></trans-unit>
+      <trans-unit id="tblHeader_t3ver_oid" xml:space="preserve" approved="yes">
         <source>oid</source>
-      </trans-unit>
-      <trans-unit id="tblHeader_t3ver_id" xml:space="preserve">
+      <target state="translated">oid</target></trans-unit>
+      <trans-unit id="tblHeader_t3ver_id" xml:space="preserve" approved="yes">
         <source>id</source>
-      </trans-unit>
-      <trans-unit id="tblHeader_t3ver_wsid" xml:space="preserve">
+      <target state="translated">id</target></trans-unit>
+      <trans-unit id="tblHeader_t3ver_wsid" xml:space="preserve" approved="yes">
         <source>wsid</source>
-      </trans-unit>
-      <trans-unit id="tblHeader_t3ver_state" xml:space="preserve">
+      <target state="translated">wsid</target></trans-unit>
+      <trans-unit id="tblHeader_t3ver_state" xml:space="preserve" approved="yes">
         <source>state</source>
-      </trans-unit>
-      <trans-unit id="tblHeader_t3ver_stage" xml:space="preserve">
+      <target state="translated">Status</target></trans-unit>
+      <trans-unit id="tblHeader_t3ver_stage" xml:space="preserve" approved="yes">
         <source>stage</source>
-      </trans-unit>
-      <trans-unit id="tblHeader_t3ver_count" xml:space="preserve">
+      <target state="translated">Stufe</target></trans-unit>
+      <trans-unit id="tblHeader_t3ver_count" xml:space="preserve" approved="yes">
         <source>count</source>
-      </trans-unit>
-      <trans-unit id="tblHeader_pid" xml:space="preserve">
+      <target state="translated">Anzahl</target></trans-unit>
+      <trans-unit id="tblHeader_pid" xml:space="preserve" approved="yes">
         <source>pid</source>
-      </trans-unit>
-      <trans-unit id="tblHeader_t3ver_label" xml:space="preserve">
+      <target state="translated">pid</target></trans-unit>
+      <trans-unit id="tblHeader_t3ver_label" xml:space="preserve" approved="yes">
         <source>Label</source>
-      </trans-unit>
-      <trans-unit id="tblHeaderDesc_title" xml:space="preserve">
+      <target state="translated">Beschriftung</target></trans-unit>
+      <trans-unit id="tblHeaderDesc_title" xml:space="preserve" approved="yes">
         <source>Header of element</source>
-      </trans-unit>
-      <trans-unit id="tblHeaderDesc_uid" xml:space="preserve">
+      <target state="translated">Kopfzeile des Elementes</target></trans-unit>
+      <trans-unit id="tblHeaderDesc_uid" xml:space="preserve" approved="yes">
         <source>Unique ID of element</source>
-      </trans-unit>
-      <trans-unit id="tblHeaderDesc_t3ver_oid" xml:space="preserve">
+      <target state="translated">Eindeutige ID des Elements</target></trans-unit>
+      <trans-unit id="tblHeaderDesc_t3ver_oid" xml:space="preserve" approved="yes">
         <source>t3ver_oid - Reference to live version UID</source>
-      </trans-unit>
-      <trans-unit id="tblHeaderDesc_t3ver_id" xml:space="preserve">
+      <target state="translated">t3ver_oid - Referenz zur UID der LIVE Version</target></trans-unit>
+      <trans-unit id="tblHeaderDesc_t3ver_id" xml:space="preserve" approved="yes">
         <source>t3ver_id - Version number, incremental integer</source>
-      </trans-unit>
-      <trans-unit id="tblHeaderDesc_t3ver_wsid" xml:space="preserve">
+      <target state="translated">t3ver_id - Versionsnummer, fortlaufende Nummerierung</target></trans-unit>
+      <trans-unit id="tblHeaderDesc_t3ver_wsid" xml:space="preserve" approved="yes">
         <source>t3ver_wsid - Workspace ID. There can be only one version of an element per ID (except ID zero).</source>
-      </trans-unit>
-      <trans-unit id="tblHeaderDesc_t3ver_state" xml:space="preserve">
+      <target state="translated">t3ver_wsid - ID der Arbeitsumgebung. Es kann immer nur eine Version eines Elementes pro ID (Arbeitsumgebung) existieren (außer bei ID 0).</target></trans-unit>
+      <trans-unit id="tblHeaderDesc_t3ver_state" xml:space="preserve" approved="yes">
         <source>t3ver_state - Special states of a version: 1=Placeholder for "New". 2=Marked deleted.</source>
-      </trans-unit>
-      <trans-unit id="tblHeaderDesc_t3ver_stage" xml:space="preserve">
+      <target state="translated">t3ver_state - spezieller Status einer Version: 1=Platzhalter für "NEU". 2=Als gelöscht markiert.</target></trans-unit>
+      <trans-unit id="tblHeaderDesc_t3ver_stage" xml:space="preserve" approved="yes">
         <source>t3ver_stage - Publishing stage: Editing (0), review (1), publish (10), rejected (-1).</source>
-      </trans-unit>
-      <trans-unit id="tblHeaderDesc_t3ver_count" xml:space="preserve">
+      <target state="translated">t3ver_stage - Veröffentlichungsstufe: in Bearbeitung (0), wird überprüft (1), veröffentlicht (10), zurückgewiesen (-1).</target></trans-unit>
+      <trans-unit id="tblHeaderDesc_t3ver_count" xml:space="preserve" approved="yes">
         <source>t3ver_count - Life cycle counter. Incremented each time element is unpublished.</source>
-      </trans-unit>
-      <trans-unit id="tblHeaderDesc_pid" xml:space="preserve">
+      <target state="translated">t3ver_count - Lebenszyklus Zähler. Wird bei jeder Änderung auf "unveröffentlicht" erhöht.</target></trans-unit>
+      <trans-unit id="tblHeaderDesc_pid" xml:space="preserve" approved="yes">
         <source>Page ID</source>
-      </trans-unit>
-      <trans-unit id="tblHeaderDesc_t3ver_label" xml:space="preserve">
+      <target state="translated">Seiten ID</target></trans-unit>
+      <trans-unit id="tblHeaderDesc_t3ver_label" xml:space="preserve" approved="yes">
         <source>Label</source>
-      </trans-unit>
-      <trans-unit id="diff" xml:space="preserve">
+      <target state="translated">Beschriftung</target></trans-unit>
+      <trans-unit id="diff" xml:space="preserve" approved="yes">
         <source>Diff</source>
-      </trans-unit>
-      <trans-unit id="swapWithCurrent" xml:space="preserve">
+      <target state="translated">Vergleich</target></trans-unit>
+      <trans-unit id="swapWithCurrent" xml:space="preserve" approved="yes">
         <source>SWAP with current</source>
-      </trans-unit>
-      <trans-unit id="currentOnlineVersion" xml:space="preserve">
+      <target state="translated">Mit aktueller Version tauschen</target></trans-unit>
+      <trans-unit id="currentOnlineVersion" xml:space="preserve" approved="yes">
         <source>CURRENT ONLINE VERSION!</source>
-      </trans-unit>
-      <trans-unit id="cmdPid0" xml:space="preserve">
+      <target state="translated">AKTUELLE ONLINE-VERSION!</target></trans-unit>
+      <trans-unit id="cmdPid0" xml:space="preserve" approved="yes">
         <source>Page: Page + content</source>
-      </trans-unit>
-      <trans-unit id="cmdPid100" xml:space="preserve">
+      <target state="translated">Seite: Seite + Inhalt</target></trans-unit>
+      <trans-unit id="cmdPid100" xml:space="preserve" approved="yes">
         <source>Branch: All subpages</source>
-      </trans-unit>
-      <trans-unit id="cmdPid1" xml:space="preserve">
+      <target state="translated">Teilbereich: Alle Unterseiten</target></trans-unit>
+      <trans-unit id="cmdPid1" xml:space="preserve" approved="yes">
         <source>Element: Just record</source>
-      </trans-unit>
-      <trans-unit id="createNewVersion" xml:space="preserve">
+      <target state="translated">Element: Nur Datensatz</target></trans-unit>
+      <trans-unit id="createNewVersion" xml:space="preserve" approved="yes">
         <source>Create new version</source>
-      </trans-unit>
-      <trans-unit id="previewLink" xml:space="preserve">
+      <target state="translated">Erstelle neue Version</target></trans-unit>
+      <trans-unit id="previewLink" xml:space="preserve" approved="yes">
         <source>Preview Link</source>
-      </trans-unit>
-      <trans-unit id="publishPage" xml:space="preserve">
+      <target state="translated">Vorschau-Link</target></trans-unit>
+      <trans-unit id="publishPage" xml:space="preserve" approved="yes">
         <source>Publish Page</source>
-      </trans-unit>
-      <trans-unit id="swapPage" xml:space="preserve">
+      <target state="translated">Seite veröffentlichen</target></trans-unit>
+      <trans-unit id="swapPage" xml:space="preserve" approved="yes">
         <source>Swap page</source>
-      </trans-unit>
-      <trans-unit id="publishPageQuestion" xml:space="preserve">
+      <target state="translated">Tausche Seite</target></trans-unit>
+      <trans-unit id="publishPageQuestion" xml:space="preserve" approved="yes">
         <source>Are you sure you want to publish all content %sfrom this page?</source>
-      </trans-unit>
-      <trans-unit id="swapPageQuestion" xml:space="preserve">
+      <target state="translated">Wollen Sie wirklich alle Inhalte %sdieser Seite veröffentlichen?</target></trans-unit>
+      <trans-unit id="swapPageQuestion" xml:space="preserve" approved="yes">
         <source>Are you sure you want to publish (swap) all content %sfrom this page?</source>
-      </trans-unit>
-      <trans-unit id="publishPageQuestionStage" xml:space="preserve">
+      <target state="translated">Wollen Sie wirklich alle Inhalte %sdieser Seite veröffentlichen (tauschen)?</target></trans-unit>
+      <trans-unit id="publishPageQuestionStage" xml:space="preserve" approved="yes">
         <source>in "Publish" stage </source>
-      </trans-unit>
-      <trans-unit id="previewUrl" xml:space="preserve">
+      <target state="translated">in Stufe "Veröffentlichen"</target></trans-unit>
+      <trans-unit id="previewUrl" xml:space="preserve" approved="yes">
         <source>Preview Url:</source>
-      </trans-unit>
-      <trans-unit id="previewInstruction" xml:space="preserve">
+      <target state="translated">Vorschau-URL</target></trans-unit>
+      <trans-unit id="previewInstruction" xml:space="preserve" approved="yes">
         <source>You can preview this page from the workspace using this link for the next %s hours (does not require backend login):</source>
-      </trans-unit>
-      <trans-unit id="versionDetails" xml:space="preserve">
+      <target state="translated">Die Vorschau dieser Seite in der Arbeitsumgebung ist mit diesen Vorschau-Link für die nächsten %s Stunden möglich (keine Backend-Anmeldung erforderlich):</target></trans-unit>
+      <trans-unit id="versionDetails" xml:space="preserve" approved="yes">
         <source>Details for version</source>
-      </trans-unit>
-      <trans-unit id="wsManagement" xml:space="preserve">
+      <target state="translated">Details der Version</target></trans-unit>
+      <trans-unit id="wsManagement" xml:space="preserve" approved="yes">
         <source>Workspace management</source>
-      </trans-unit>
-      <trans-unit id="showDiffView" xml:space="preserve">
+      <target state="translated">Verwaltung der Arbeitsumgebungen</target></trans-unit>
+      <trans-unit id="showDiffView" xml:space="preserve" approved="yes">
         <source>Show difference view</source>
-      </trans-unit>
-      <trans-unit id="liveVersion" xml:space="preserve">
+      <target state="translated">Zeige Vergleichsansicht</target></trans-unit>
+      <trans-unit id="liveVersion" xml:space="preserve" approved="yes">
         <source>Live Version:</source>
-      </trans-unit>
-      <trans-unit id="wsVersions" xml:space="preserve">
+      <target state="translated">Live Version:</target></trans-unit>
+      <trans-unit id="wsVersions" xml:space="preserve" approved="yes">
         <source>Workspace Versions:</source>
-      </trans-unit>
-      <trans-unit id="controls" xml:space="preserve">
+      <target state="translated">Versionen in Arbeitsumgebungen:</target></trans-unit>
+      <trans-unit id="controls" xml:space="preserve" approved="yes">
         <source>Controls:</source>
-      </trans-unit>
-      <trans-unit id="goBack" xml:space="preserve">
+      <target state="translated">Optionen:</target></trans-unit>
+      <trans-unit id="goBack" xml:space="preserve" approved="yes">
         <source>Click here to go back</source>
-      </trans-unit>
-      <trans-unit id="showAllInformation" xml:space="preserve">
+      <target state="translated">Zurück</target></trans-unit>
+      <trans-unit id="showAllInformation" xml:space="preserve" approved="yes">
         <source>Show all information</source>
-      </trans-unit>
-      <trans-unit id="newElement" xml:space="preserve">
+      <target state="translated">Zeige alle Informationen</target></trans-unit>
+      <trans-unit id="newElement" xml:space="preserve" approved="yes">
         <source>New element</source>
-      </trans-unit>
-      <trans-unit id="deletedElement" xml:space="preserve">
+      <target state="translated">Neues Element</target></trans-unit>
+      <trans-unit id="deletedElement" xml:space="preserve" approved="yes">
         <source>Deleted element</source>
-      </trans-unit>
-      <trans-unit id="moveToPlaceholder" xml:space="preserve">
+      <target state="translated">Gelöschtes Element</target></trans-unit>
+      <trans-unit id="moveToPlaceholder" xml:space="preserve" approved="yes">
         <source>Move-to placeholder (destination)</source>
-      </trans-unit>
-      <trans-unit id="moveToPointer" xml:space="preserve">
+      <target state="translated">Verschieben-nach Platzhalter (Ziel)</target></trans-unit>
+      <trans-unit id="moveToPointer" xml:space="preserve" approved="yes">
         <source>Move-to pointer (source)</source>
-      </trans-unit>
-      <trans-unit id="notAvailable" xml:space="preserve">
+      <target state="translated">Verschieben-nach Platzhalter (Quelle)</target></trans-unit>
+      <trans-unit id="notAvailable" xml:space="preserve" approved="yes">
         <source>N/A</source>
-      </trans-unit>
-      <trans-unit id="change" xml:space="preserve">
+      <target state="translated">Nicht verfügbar</target></trans-unit>
+      <trans-unit id="change" xml:space="preserve" approved="yes">
         <source>change:</source>
-      </trans-unit>
-      <trans-unit id="element" xml:space="preserve">
+      <target state="translated">Änderung:</target></trans-unit>
+      <trans-unit id="element" xml:space="preserve" approved="yes">
         <source> [Element]</source>
-      </trans-unit>
-      <trans-unit id="page" xml:space="preserve">
+      <target state="translated">[Element]</target></trans-unit>
+      <trans-unit id="page" xml:space="preserve" approved="yes">
         <source> [Page]</source>
-      </trans-unit>
-      <trans-unit id="branch" xml:space="preserve">
+      <target state="translated">[Seite]</target></trans-unit>
+      <trans-unit id="branch" xml:space="preserve" approved="yes">
         <source> [Branch]</source>
-      </trans-unit>
-      <trans-unit id="otherVersions" xml:space="preserve">
+      <target state="translated">[Teilbereich]</target></trans-unit>
+      <trans-unit id="otherVersions" xml:space="preserve" approved="yes">
         <source>Other version(s) in workspace </source>
-      </trans-unit>
-      <trans-unit id="multipleVersions" xml:space="preserve">
+      <target state="translated">Andere Version(en) in Arbeitsumgebung</target></trans-unit>
+      <trans-unit id="multipleVersions" xml:space="preserve" approved="yes">
         <source>Multiple versions in same workspace!</source>
-      </trans-unit>
-      <trans-unit id="versionInVersion" xml:space="preserve">
+      <target state="translated">Verschiedene Versionen in der gleichen Arbeitsumgebung!</target></trans-unit>
+      <trans-unit id="versionInVersion" xml:space="preserve" approved="yes">
         <source>Version inside version!</source>
-      </trans-unit>
-      <trans-unit id="lifecycle" xml:space="preserve">
+      <target state="translated">Version innerhalb Version!</target></trans-unit>
+      <trans-unit id="lifecycle" xml:space="preserve" approved="yes">
         <source>Lifecycle</source>
-      </trans-unit>
-      <trans-unit id="workspace" xml:space="preserve">
+      <target state="translated">Lebenszyklus</target></trans-unit>
+      <trans-unit id="workspace" xml:space="preserve" approved="yes">
         <source>Workspace</source>
-      </trans-unit>
-      <trans-unit id="diffToLiveElement" xml:space="preserve">
+      <target state="translated">Arbeitsumgebung</target></trans-unit>
+      <trans-unit id="diffToLiveElement" xml:space="preserve" approved="yes">
         <source>Difference to live element:</source>
-      </trans-unit>
-      <trans-unit id="commentForReviewer" xml:space="preserve">
+      <target state="translated">Unterschied zum Live Element:</target></trans-unit>
+      <trans-unit id="commentForReviewer" xml:space="preserve" approved="yes">
         <source>Comment for Reviewer:</source>
-      </trans-unit>
-      <trans-unit id="commentForPublisher" xml:space="preserve">
+      <target state="translated">Kommentar für Redakteur:</target></trans-unit>
+      <trans-unit id="commentForPublisher" xml:space="preserve" approved="yes">
         <source>Comment for Publisher:</source>
-      </trans-unit>
-      <trans-unit id="sendItemsToReview" xml:space="preserve">
+      <target state="translated">Kommentar für Veröffentlichung:</target></trans-unit>
+      <trans-unit id="sendItemsToReview" xml:space="preserve" approved="yes">
         <source>Sending %s item(s) to review. </source>
-      </trans-unit>
-      <trans-unit id="sendAllToReview" xml:space="preserve">
+      <target state="translated">Sende %s Element(e) zur Überprüfung.</target></trans-unit>
+      <trans-unit id="sendAllToReview" xml:space="preserve" approved="yes">
         <source>Send all to Review</source>
-      </trans-unit>
-      <trans-unit id="approveToPublish" xml:space="preserve">
+      <target state="translated">Sende alles zur Überprüfung</target></trans-unit>
+      <trans-unit id="approveToPublish" xml:space="preserve" approved="yes">
         <source>Approving %s item(s) to publishing. </source>
-      </trans-unit>
-      <trans-unit id="approveAllToPublish" xml:space="preserve">
+      <target state="translated">Stimme der Veröffentlichung von %s Element(e) zu.</target></trans-unit>
+      <trans-unit id="approveAllToPublish" xml:space="preserve" approved="yes">
         <source>Approve all for Publishing</source>
-      </trans-unit>
-      <trans-unit id="offline" xml:space="preserve">
+      <target state="translated">Bestätigen aller Elemente zur Veröffentlichung</target></trans-unit>
+      <trans-unit id="offline" xml:space="preserve" approved="yes">
         <source>[Offline]</source>
-      </trans-unit>
-      <trans-unit id="draft" xml:space="preserve">
+      <target state="translated">[Offline]</target></trans-unit>
+      <trans-unit id="draft" xml:space="preserve" approved="yes">
         <source>Draft</source>
-      </trans-unit>
-      <trans-unit id="archive" xml:space="preserve">
+      <target state="translated">Entwurf</target></trans-unit>
+      <trans-unit id="archive" xml:space="preserve" approved="yes">
         <source>Archive</source>
-      </trans-unit>
-      <trans-unit id="publishedXTimes" xml:space="preserve">
+      <target state="translated">Archiv</target></trans-unit>
+      <trans-unit id="publishedXTimes" xml:space="preserve" approved="yes">
         <source>Published %s times</source>
-      </trans-unit>
-      <trans-unit id="stage.sentToReview" xml:space="preserve">
+      <target state="translated">%s mal veröffentlicht</target></trans-unit>
+      <trans-unit id="stage.sentToReview" xml:space="preserve" approved="yes">
         <source>sent element to "Review"</source>
-      </trans-unit>
-      <trans-unit id="stage.approvedForPublish" xml:space="preserve">
+      <target state="translated">sende Element zur "Überprüfung"</target></trans-unit>
+      <trans-unit id="stage.approvedForPublish" xml:space="preserve" approved="yes">
         <source>approved for "Publish"</source>
-      </trans-unit>
-      <trans-unit id="stage.rejectedElement" xml:space="preserve">
+      <target state="translated">bestätigt zur "Veröffentlichung"</target></trans-unit>
+      <trans-unit id="stage.rejectedElement" xml:space="preserve" approved="yes">
         <source>rejected element!</source>
-      </trans-unit>
-      <trans-unit id="stage.resetToEdit" xml:space="preserve">
+      <target state="translated">zurückgewiesenes Element!</target></trans-unit>
+      <trans-unit id="stage.resetToEdit" xml:space="preserve" approved="yes">
         <source>reset to "Editing"</source>
-      </trans-unit>
-      <trans-unit id="stage.undefined" xml:space="preserve">
+      <target state="translated">zurücksetzen auf "Bearbeiten"</target></trans-unit>
+      <trans-unit id="stage.undefined" xml:space="preserve" approved="yes">
         <source>[undefined]</source>
-      </trans-unit>
-      <trans-unit id="userComment" xml:space="preserve">
+      <target state="translated">[nicht definiert]</target></trans-unit>
+      <trans-unit id="userComment" xml:space="preserve" approved="yes">
         <source>User Comment</source>
-      </trans-unit>
-      <trans-unit id="subElementsClick" xml:space="preserve">
+      <target state="translated">Benutzer-Kommentar</target></trans-unit>
+      <trans-unit id="subElementsClick" xml:space="preserve" approved="yes">
         <source>[Sub elements, click for details]</source>
-      </trans-unit>
-      <trans-unit id="subElements" xml:space="preserve">
+      <target state="translated">[Unterelemente, anklicken für Details]</target></trans-unit>
+      <trans-unit id="subElements" xml:space="preserve" approved="yes">
         <source>[Sub elements]</source>
-      </trans-unit>
-      <trans-unit id="completeMatch" xml:space="preserve">
+      <target state="translated">[Unterelemente]</target></trans-unit>
+      <trans-unit id="completeMatch" xml:space="preserve" approved="yes">
         <source>Complete match on editable fields.</source>
-      </trans-unit>
-      <trans-unit id="editing" xml:space="preserve">
+      <target state="translated">Komplette Übereinstimmung in bearbeitbaren Feldern.</target></trans-unit>
+      <trans-unit id="editing" xml:space="preserve" approved="yes">
         <source>Editing</source>
-      </trans-unit>
-      <trans-unit id="sendToReview" xml:space="preserve">
+      <target state="translated">Bearbeitung</target></trans-unit>
+      <trans-unit id="sendToReview" xml:space="preserve" approved="yes">
         <source>Send to Review</source>
-      </trans-unit>
-      <trans-unit id="review" xml:space="preserve">
+      <target state="translated">Sende zur Überprüfung</target></trans-unit>
+      <trans-unit id="review" xml:space="preserve" approved="yes">
         <source>Review</source>
-      </trans-unit>
-      <trans-unit id="swap" xml:space="preserve">
+      <target state="translated">Überprüfung</target></trans-unit>
+      <trans-unit id="swap" xml:space="preserve" approved="yes">
         <source>Swap</source>
-      </trans-unit>
-      <trans-unit id="approveForPublishing" xml:space="preserve">
+      <target state="translated">Tausche</target></trans-unit>
+      <trans-unit id="approveForPublishing" xml:space="preserve" approved="yes">
         <source>Approve for Publishing</source>
-      </trans-unit>
-      <trans-unit id="publish" xml:space="preserve">
+      <target state="translated">Veröffentlichung zustimmen</target></trans-unit>
+      <trans-unit id="publish" xml:space="preserve" approved="yes">
         <source>Publish</source>
-      </trans-unit>
-      <trans-unit id="rejected" xml:space="preserve">
+      <target state="translated">Veröffentlichen</target></trans-unit>
+      <trans-unit id="rejected" xml:space="preserve" approved="yes">
         <source>Rejected</source>
-      </trans-unit>
-      <trans-unit id="comment" xml:space="preserve">
+      <target state="translated">Zurückgewiesen</target></trans-unit>
+      <trans-unit id="comment" xml:space="preserve" approved="yes">
         <source>Comment:</source>
-      </trans-unit>
-      <trans-unit id="resetStage" xml:space="preserve">
+      <target state="translated">Kommentar:</target></trans-unit>
+      <trans-unit id="resetStage" xml:space="preserve" approved="yes">
         <source>Reset stage</source>
-      </trans-unit>
-      <trans-unit id="undefined" xml:space="preserve">
+      <target state="translated">Stufe zurücksetzen</target></trans-unit>
+      <trans-unit id="undefined" xml:space="preserve" approved="yes">
         <source>Undefined</source>
-      </trans-unit>
-      <trans-unit id="rejectExplain" xml:space="preserve">
+      <target state="translated">Undefiniert</target></trans-unit>
+      <trans-unit id="rejectExplain" xml:space="preserve" approved="yes">
         <source>Please explain why you reject:</source>
-      </trans-unit>
-      <trans-unit id="removeFromWorkspace" xml:space="preserve">
+      <target state="translated">Bitte erläutern Sie die Zurückweisung:</target></trans-unit>
+      <trans-unit id="removeFromWorkspace" xml:space="preserve" approved="yes">
         <source>Remove from workspace</source>
-      </trans-unit>
-      <trans-unit id="showLog" xml:space="preserve">
+      <target state="translated">Entfernen aus Arbeitsumgebung</target></trans-unit>
+      <trans-unit id="showLog" xml:space="preserve" approved="yes">
         <source>Show Log</source>
-      </trans-unit>
-      <trans-unit id="liveWorkspace" xml:space="preserve">
+      <target state="translated">Protokoll anzeigen</target></trans-unit>
+      <trans-unit id="liveWorkspace" xml:space="preserve" approved="yes">
         <source>[Live workspace]</source>
-      </trans-unit>
-      <trans-unit id="draftWorkspaces" xml:space="preserve">
+      <target state="translated">[Live-Arbeitsumgebung]</target></trans-unit>
+      <trans-unit id="draftWorkspaces" xml:space="preserve" approved="yes">
         <source>Draft Workspaces</source>
-      </trans-unit>
-      <trans-unit id="defaultDraft" xml:space="preserve">
+      <target state="translated">Entwurfarbeitsumgebungen</target></trans-unit>
+      <trans-unit id="defaultDraft" xml:space="preserve" approved="yes">
         <source>[Default Draft]</source>
-      </trans-unit>
-      <trans-unit id="errors" xml:space="preserve">
+      <target state="translated">[Standard-Entwurf]</target></trans-unit>
+      <trans-unit id="errors" xml:space="preserve" approved="yes">
         <source>Errors:</source>
-      </trans-unit>
-      <trans-unit id="refresh" xml:space="preserve">
+      <target state="translated">Fehler:</target></trans-unit>
+      <trans-unit id="refresh" xml:space="preserve" approved="yes">
         <source>Refresh</source>
-      </trans-unit>
-      <trans-unit id="allowPreviewOfWholeWorkspace" xml:space="preserve">
+      <target state="translated">Aktualisieren</target></trans-unit>
+      <trans-unit id="allowPreviewOfWholeWorkspace" xml:space="preserve" approved="yes">
         <source>Allow preview of whole workspace</source>
-      </trans-unit>
-      <trans-unit id="versionId" xml:space="preserve">
+      <target state="translated">Vorschau der gesamten Arbeitsumgebung ermöglichen</target></trans-unit>
+      <trans-unit id="versionId" xml:space="preserve" approved="yes">
         <source>ID:</source>
-      </trans-unit>
-      <trans-unit id="workspaceId" xml:space="preserve">
+      <target state="translated">ID:</target></trans-unit>
+      <trans-unit id="workspaceId" xml:space="preserve" approved="yes">
         <source>Workspace-Id:</source>
-      </trans-unit>
-      <trans-unit id="live" xml:space="preserve">
+      <target state="translated">Arbeitsumgebungs-ID:</target></trans-unit>
+      <trans-unit id="live" xml:space="preserve" approved="yes">
         <source>LIVE</source>
-      </trans-unit>
-      <trans-unit id="versionSelect.label" xml:space="preserve">
+      <target state="translated">LIVE</target></trans-unit>
+      <trans-unit id="versionSelect.label" xml:space="preserve" approved="yes">
         <source>Versions of this page:</source>
-      </trans-unit>
-      <trans-unit id="versionSelect.live" xml:space="preserve">
+      <target state="translated">Versionen dieser Seite:</target></trans-unit>
+      <trans-unit id="versionSelect.live" xml:space="preserve" approved="yes">
         <source>LIVE version</source>
-      </trans-unit>
-      <trans-unit id="versionSelect.publish" xml:space="preserve">
+      <target state="translated">LIVE-Version</target></trans-unit>
+      <trans-unit id="versionSelect.publish" xml:space="preserve" approved="yes">
         <source>Publish page</source>
-      </trans-unit>
-      <trans-unit id="versionSelect.inBranch" xml:space="preserve">
+      <target state="translated">Seite veröffentlichen</target></trans-unit>
+      <trans-unit id="versionSelect.inBranch" xml:space="preserve" approved="yes">
         <source>Inside branch, no further versioning possible</source>
-      </trans-unit>
-      <trans-unit id="versionSelect.versionsFound" xml:space="preserve">
+      <target state="translated">Innerhalb Teilbereich, keine weitere Versionierung möglich</target></trans-unit>
+      <trans-unit id="versionSelect.versionsFound" xml:space="preserve" approved="yes">
         <source>Versions found on page, no "Page" versioning possible</source>
-      </trans-unit>
-      <trans-unit id="autopublishTask.name" xml:space="preserve">
+      <target state="translated">Versionen auf Seite gefunden, keine "Seiten"-Versionierung möglich</target></trans-unit>
+      <trans-unit id="autopublishTask.name" xml:space="preserve" approved="yes">
         <source>Workspaces auto-publication</source>
-      </trans-unit>
-      <trans-unit id="autopublishTask.description" xml:space="preserve">
+      <target state="translated">Automatische Veröffentlichung aus Arbeitungsumgebungen</target></trans-unit>
+      <trans-unit id="autopublishTask.description" xml:space="preserve" approved="yes">
         <source>This tasks checks any workspace that has a publication date set in the past and automatically publishes it.</source>
-      </trans-unit>
+      <target state="translated">Dieser Task überprüft jeden Arbeitsbereich auf ein Veröffentlichungsdatum in der Vergangenheit und veröffentlicht diesen automatisch.</target></trans-unit>
     </body>
   </file>
 </xliff>

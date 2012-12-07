@@ -181,9 +181,9 @@ Dito , gilt auch für die ganzen folgenden Labels (Marcus 22.02.12)</note></tran
       <trans-unit id="attributes_enctype_2" xml:space="preserve" approved="yes">
         <source>No encoding - File upload</source>
       <target state="translated">Keine Kodierung - Datei hochladen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Keine Entschlüsselung - Datei hochladen</target></alt-trans><alt-trans xml:space="preserve" origin="manne."><target>Keine Verschlüsselung - Datei hochladen</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Nicht codierender Datei-Upload</target></alt-trans></trans-unit>
-      <trans-unit id="attributes_enctype_3" xml:space="preserve">
+      <trans-unit id="attributes_enctype_3" xml:space="preserve" approved="yes">
         <source>No encoding - Spaces converted</source>
-      <target></target><alt-trans xml:space="preserve" origin="manne."><target>Keine Verschlüsselung - Leerzeichen konvertiert</target></alt-trans><alt-trans xml:space="preserve" origin="mrimann"><target>Keine Kodierung - Leerzeichen konvertiert</target></alt-trans></trans-unit>
+      <target state="translated">Keine Kodierung - Leerzeichen konvertiert</target></trans-unit>
       <trans-unit id="attributes_id" xml:space="preserve" approved="yes">
         <source>Id</source>
       <target state="translated">Id</target></trans-unit>
@@ -279,7 +279,7 @@ Dito , gilt auch für die ganzen folgenden Labels (Marcus 22.02.12)</note></tran
       <target state="translated">Beschriftung</target></trans-unit>
       <trans-unit id="label_layout" xml:space="preserve" approved="yes">
         <source>Label position</source>
-      <target state="translated">Beschriftungsposition</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Position der Beschriftung</target></alt-trans></trans-unit>
+      <target state="translated">Position der Beschriftung</target></trans-unit>
       <trans-unit id="label_layout_front" xml:space="preserve" approved="yes">
         <source>In front</source>
       <target state="translated">im Vordergrund</target><alt-trans xml:space="preserve" origin="hugoist"><target>in Front</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>zu vorderst</target></alt-trans></trans-unit>
@@ -297,7 +297,7 @@ Dito , gilt auch für die ganzen folgenden Labels (Marcus 22.02.12)</note></tran
       <target state="translated">Filter</target></trans-unit>
       <trans-unit id="filters_emptytext" xml:space="preserve" approved="yes">
         <source>Add a filter</source>
-      <target state="translated">Einen Filter hinzufügen</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Filter hinzufügen</target></alt-trans></trans-unit>
+      <target state="translated">Filter hinzufügen</target></trans-unit>
       <trans-unit id="filters_alert_title" xml:space="preserve" approved="yes">
         <source>Adding a filter</source>
       <target state="translated">Hinzufügen eines Filters</target></trans-unit>
@@ -336,7 +336,7 @@ Dito , gilt auch für die ganzen folgenden Labels (Marcus 22.02.12)</note></tran
       <target state="translated">XSS entfernen</target></trans-unit>
       <trans-unit id="filters_stripnewlines" xml:space="preserve" approved="yes">
         <source>Strip New Lines</source>
-      <target state="translated">Leerzeilen entfernen</target><alt-trans xml:space="preserve" origin="mschwemer"><target>Zeilenumbrüche entfernen</target></alt-trans></trans-unit>
+      <target state="translated">Zeilenumbrüche entfernen</target></trans-unit>
       <trans-unit id="filters_titlecase" xml:space="preserve" approved="yes">
         <source>Titlecase</source>
       <target state="translated">Großschrift</target><alt-trans xml:space="preserve" origin="meincms"><target>grossgeschrieben</target></alt-trans><alt-trans xml:space="preserve" origin="hugoist"><target>großgeschrieben</target></alt-trans></trans-unit>
@@ -366,7 +366,7 @@ Dito , gilt auch für die ganzen folgenden Labels (Marcus 22.02.12)</note></tran
       <target state="translated">Dieser Filter hat keine Konfigurationseinstellungen</target></trans-unit>
       <trans-unit id="options_validation" xml:space="preserve" approved="yes">
         <source>Validation</source>
-      <target state="translated">Gültigkeitsprüfung</target><alt-trans xml:space="preserve" origin="meincms"><target>Validierung</target></alt-trans><alt-trans xml:space="preserve" origin="hugoist"><target>Gültigkeit</target></alt-trans></trans-unit>
+      <target state="translated">Gültigkeit</target></trans-unit>
       <trans-unit id="validation_emptytext" xml:space="preserve" approved="yes">
         <source>Add a validation rule</source>
       <target state="translated">Eine Gültigkeitsregel hinzufügen</target></trans-unit>
@@ -553,9 +553,9 @@ Dito , gilt auch für die ganzen folgenden Labels (Marcus 22.02.12)</note></tran
       <trans-unit id="postprocessor_properties_senderemail" xml:space="preserve" approved="yes">
         <source>Email address of the sender</source>
       <target state="translated">E-Mailadresse des Senders</target></trans-unit>
-      <trans-unit id="postprocessor_properties_subject" xml:space="preserve">
+      <trans-unit id="postprocessor_properties_subject" xml:space="preserve" approved="yes">
         <source>Subject</source>
-      <target></target></trans-unit>
+      <target state="translated">Betreff</target></trans-unit>
       <trans-unit id="postprocessor_mail" xml:space="preserve" approved="yes">
         <source>Send email</source>
       <target state="translated">E-Mail senden</target></trans-unit>

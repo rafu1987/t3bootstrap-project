@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="dbtype">Datenbanktyp</label>
+      <label index="host">Host oder DSN</label>
+      <label index="dbname">Datenbankname</label>
+      <label index="username">Benutzername</label>
+      <label index="password">Passwort</label>
+      <label index="table">Tabellenname</label>
+      <label index="checkconnectionwizard">Verbindung zur Datenbank mit den unten angegebenen Einstellungen prüfen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

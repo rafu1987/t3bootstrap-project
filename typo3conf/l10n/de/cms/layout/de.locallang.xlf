@@ -38,7 +38,7 @@
       <target state="translated">Neuen Datensatz nach diesem anfügen</target></trans-unit>
       <trans-unit id="newRecordHere" xml:space="preserve" approved="yes">
         <source>Add a new record at this place</source>
-      <target state="translated">Neuen Datensatz hier hinzufügen</target></trans-unit>
+      <target state="translated">Neuen Datensatz an diesem Ort hinzufügen</target></trans-unit>
       <trans-unit id="move_record" xml:space="preserve" approved="yes">
         <source>Re-position current content element</source>
       <target state="translated">Datensatz verschieben</target></trans-unit>

@@ -33,9 +33,9 @@
       <trans-unit id="status_empty" xml:space="preserve" approved="yes">
         <source>Empty</source>
       <target state="translated">Leer</target></trans-unit>
-      <trans-unit id="status_none" xml:space="preserve">
+      <trans-unit id="status_none" xml:space="preserve" approved="yes">
         <source>None</source>
-      </trans-unit>
+      <target state="translated">Keine</target></trans-unit>
       <trans-unit id="status_connectionFailed" xml:space="preserve" approved="yes">
         <source>Connection Failed</source>
       <target state="translated">Verbindung fehlgeschlagen</target></trans-unit>
@@ -72,36 +72,36 @@
       <trans-unit id="status_PhpMagicQuotesGpc" xml:space="preserve" approved="yes">
         <source>PHP magic_quotes_gpc</source>
       <target state="translated">PHP: magic_quotes_gpc</target></trans-unit>
-      <trans-unit id="status_CreatedFilePermissions" xml:space="preserve">
+      <trans-unit id="status_CreatedFilePermissions" xml:space="preserve" approved="yes">
         <source>Permissions of created files</source>
-      </trans-unit>
-      <trans-unit id="status_CreatedFilePermissions.writable" xml:space="preserve">
+      <target state="translated">Berechtigungen für erstellte Dateien</target></trans-unit>
+      <trans-unit id="status_CreatedFilePermissions.writable" xml:space="preserve" approved="yes">
         <source>Files created by TYPO3 are configured to be world writeable. Depending on your server configuration, this can be a security risk. It is usually better to configure the create mask to not allow writing to files by "others". A sane default is often '0660' for $GLOBALS['TYPO3_CONF_VARS']['BE']['fileCreateMask']. This can be set in the install tool.</source>
-      </trans-unit>
-      <trans-unit id="status_CreatedDirectoryPermissions" xml:space="preserve">
+      <target state="translated">Durch TYPO3 erstellte Dateien sind für jeden schreibbar konfiguriert. Abhängig von ihrer Serverkonfiguration kann dies ein SIcherheitsrisiko darstellen. Es ist üblicherweise besser das Schreiben von Dateien nicht für "jeden" zu erlauben. Eine sinnvolle Standardeinstellung ist oft '0660' für $GLOBALS['TYPO3_CONF_VARS']['BE']['fileCreateMask']. Dies kann im Install Tool eingestellt werden.</target></trans-unit>
+      <trans-unit id="status_CreatedDirectoryPermissions" xml:space="preserve" approved="yes">
         <source>Permissions of created directories</source>
-      </trans-unit>
-      <trans-unit id="status_CreatedDirectoryPermissions.writable" xml:space="preserve">
+      <target state="translated">Berechtigungen für erstellte Verzeichnisse</target></trans-unit>
+      <trans-unit id="status_CreatedDirectoryPermissions.writable" xml:space="preserve" approved="yes">
         <source>Directories created by TYPO3 are configured to be world writeable. Depending on your server configuration, this can be a security risk. It is usually better to configure the create mask to not allow writing to directories by "others". A sane default is often '2770' for $GLOBALS['TYPO3_CONF_VARS']['BE']['folderCreateMask']. This can be set in the install tool.</source>
-      </trans-unit>
+      <target state="translated">Durch TYPO3 erstellte Verzeichnisse sind für jeden schreibbar konfiguriert. Abhängig von ihrer Serverkonfiguration kann dies ein SIcherheitsrisiko darstellen. Es ist üblicherweise besser das Schreiben in Verzeichnisse durch "jeden" nicht zu erlauben. Eine sinnvolle Standardeinstellung ist oft '2770' für $GLOBALS['TYPO3_CONF_VARS']['BE']['folderCreateMask']. Dies kann im Install Tool eingestellt werden.</target></trans-unit>
       <trans-unit id="status_adminUserAccount" xml:space="preserve" approved="yes">
         <source>Admin User Account</source>
       <target state="translated">Admin-Benutzerkonten</target></trans-unit>
       <trans-unit id="status_encryptionKey" xml:space="preserve" approved="yes">
         <source>Encryption Key</source>
       <target state="translated">Verschlüsselungsschlüssel</target></trans-unit>
-      <trans-unit id="status_saltedPasswords" xml:space="preserve">
+      <trans-unit id="status_saltedPasswords" xml:space="preserve" approved="yes">
         <source>Backend user password hashes</source>
-      </trans-unit>
-      <trans-unit id="status_saltedPasswords_infoText" xml:space="preserve">
+      <target state="translated">Passwort-Hashes der Backend-Benutzer</target></trans-unit>
+      <trans-unit id="status_saltedPasswords_infoText" xml:space="preserve" approved="yes">
         <source>During the configuration check of saltedpasswords the following issues have been found:</source>
-      </trans-unit>
-      <trans-unit id="status_saltedPasswords_notInstalled" xml:space="preserve">
+      <target state="translated">Während der Konfigurationsüberprüfung von saltedpasswords wurden folgende Probleme gefunden:</target></trans-unit>
+      <trans-unit id="status_saltedPasswords_notInstalled" xml:space="preserve" approved="yes">
         <source>The saltedpasswords extension is not installed. The passwords are only hashed with md5 which is considered to be insecure. Install and configure the saltedpasswords extension and run the scheduler task to convert all passwords to salted hashes.</source>
-      </trans-unit>
-      <trans-unit id="status_saltedPasswords_notAllPasswordsHashed" xml:space="preserve">
+      <target state="translated">Die Erweiterung saltedpasswords ist nicht installiert. Passwörter werden nur mit MD5 gehashed, was als unsicher gilt. Installieren und konfigurieren sie die saltedpasswords-Erweiterung und führen sie die Planer-Aufgabe zur Konvertierung aller Passwörter zu gesalzenen hashes durch.</target></trans-unit>
+      <trans-unit id="status_saltedPasswords_notAllPasswordsHashed" xml:space="preserve" approved="yes">
         <source>Some backend user passwords are found to be only md5 hashed. Run the scheduler task to convert all passwords to salted hashes.</source>
-      </trans-unit>
+      <target state="translated">DIe Passwörter einiger Backend-Benutzer sind nur MD5-gehashed. Verwenden sie die Planer-Aufgabe zur Konvertierung aller Passwörter zu gesalzenen Hashes.</target></trans-unit>
       <trans-unit id="status_fileDenyPattern" xml:space="preserve" approved="yes">
         <source>File Deny Pattern</source>
       <target state="translated">Dateiverweigerungsmuster</target></trans-unit>
@@ -135,9 +135,9 @@
       <trans-unit id="status_phpMemoryContactAdmin" xml:space="preserve" approved="yes">
         <source>Contact your system administrator or hosting provider for assistance with increasing your PHP memory limit.</source>
       <target state="translated">Fragen Sie Ihren Systemadministrator oder Hosting-Provider um Hilfe, um das Memory-Limit zu erhöhen.</target></trans-unit>
-      <trans-unit id="status_phpMemoryUnlimited" xml:space="preserve">
+      <trans-unit id="status_phpMemoryUnlimited" xml:space="preserve" approved="yes">
         <source>unlimited</source>
-      </trans-unit>
+      <target state="translated">unbegrenzt</target></trans-unit>
       <trans-unit id="status_phpPeakMemory" xml:space="preserve" approved="yes">
         <source>PHP peak memory usage</source>
       <target state="translated">PHP: Höchste Speichernutzung</target></trans-unit>
@@ -165,6 +165,18 @@
       <trans-unit id="status_webServer" xml:space="preserve" approved="yes">
         <source>Web Server</source>
       <target state="translated">Webserver</target></trans-unit>
+      <trans-unit id="status_webServer_infoText" xml:space="preserve">
+        <source>For your Web Server some notifications have been found:</source>
+      </trans-unit>
+      <trans-unit id="status_webServer_threadStackSize" xml:space="preserve">
+        <source><![CDATA[Fluid uses complex regular expressions which require a lot of stack space during the first processing.
+On Windows the default stack size for Apache is a lot smaller than on unix.
+You can increase the size to 8MB (default on unix) by adding to the httpd.conf:
+<br />&lt;IfModule mpm_winnt_module&gt;
+<br />ThreadStackSize 8388608
+<br />&lt;/IfModule&gt;
+<br />Restart Apache after this change.]]></source>
+      </trans-unit>
       <trans-unit id="status_phpModules" xml:space="preserve" approved="yes">
         <source>PHP Modules</source>
       <target state="translated">PHP-Module</target></trans-unit>
@@ -198,33 +210,33 @@
       <trans-unit id="status_configuration_DeprecationLogSize" xml:space="preserve" approved="yes">
         <source>Your deprecation log file currently takes up %s.</source>
       <target state="translated">Ihr Protokoll für Aufrufe veralteter Funktionen hat gegenwärtig eine Größe von %s.</target></trans-unit>
-      <trans-unit id="status_configuration_DeprecationLogDeleteLink" xml:space="preserve">
+      <trans-unit id="status_configuration_DeprecationLogDeleteLink" xml:space="preserve" approved="yes">
         <source>Delete deprecation log file.</source>
-      </trans-unit>
-      <trans-unit id="status_configuration_DeprecationLogDeletedSuccessful" xml:space="preserve">
+      <target state="translated">Protokoll für Aufrufe veralteter Funktionen löschen.</target></trans-unit>
+      <trans-unit id="status_configuration_DeprecationLogDeletedSuccessful" xml:space="preserve" approved="yes">
         <source>The deprecation log file was successfully deleted.</source>
-      </trans-unit>
-      <trans-unit id="status_configuration_DeprecationLogDeletionFailed" xml:space="preserve">
+      <target state="translated">Das Protokoll für Aufrufe veralteter Funktionen wurde erfolgreich gelöscht.</target></trans-unit>
+      <trans-unit id="status_configuration_DeprecationLogDeletionFailed" xml:space="preserve" approved="yes">
         <source>The deprecation log file could not be deleted!</source>
-      </trans-unit>
+      <target state="translated">Das Protokoll für Aufrufe veralteter Funktionen konnte nicht gelöscht werden.</target></trans-unit>
       <trans-unit id="status_configuration_PhpSafeModeEnabled" xml:space="preserve" approved="yes">
         <source>PHP INI setting safe_mode "On" is deprecated since PHP 5.3 and is not supported by TYPO3 anymore.</source>
-      <target state="translated">Die Einstellung safe_mode "On" in php.ini wird seit PHP 5.2 nicht mehr empfohlen und ist seit PHP 5.3 veraltet. Sie sollte nicht mehr benutzt werden.</target></trans-unit>
+      <target state="translated">Die Einstellung safe_mode "On" wird seit PHP 5.3 nicht mehr empfohlen und wird von TYPO3 nicht mehr unterstützt.</target></trans-unit>
       <trans-unit id="status_configuration_PhpMagicQuotesGpcEnabled" xml:space="preserve" approved="yes">
         <source>PHP INI setting magic_quotes_gpc "On" is deprecated since PHP 5.3. You are advised to set it to "Off" until it gets completely removed.</source>
-      <target state="translated">Die Einstellung magic_quotes_gpc "On" in php.ini ist seit PHP 5.3 veraltet. Bis diese Einstellung entfernt wird, sollte der Wert auf "Off" gesetzt werden.</target></trans-unit>
+      <target state="translated">Die Einstellung magic_quotes_gpc "On" ist seit PHP 5.3 veraltet. Dieser Wert sollte auf "Off" gesetzt werden bis er endgültig entfernt wird.</target></trans-unit>
       <trans-unit id="status_updateTaskTitle" xml:space="preserve" approved="yes">
         <source>System Status Update</source>
       <target state="translated">Aktualisierung des Systemstatus</target></trans-unit>
       <trans-unit id="status_updateTaskDescription" xml:space="preserve" approved="yes">
         <source>Runs a system status check and sends notifications if problems have been found.</source>
-      <target state="translated">Führt eine Überprüfung des Systemstatus durch und versendet eine Mitteilung, wenn Probleme gefunden wurden.</target></trans-unit>
+      <target state="translated">Führt eine Überprüfung des Systemstatus durch und versendet eine Mitteilung wenn Probleme gefunden wurden.</target></trans-unit>
       <trans-unit id="status_updateTaskField_notificationEmail" xml:space="preserve" approved="yes">
         <source>Notification Email Address</source>
-      <target state="translated">E-Mail-Adresse für Bericht</target></trans-unit>
+      <target state="translated">E-Mail-Adresse für Benachrichtigung</target></trans-unit>
       <trans-unit id="status_updateTaskField_notificationEmail_invalid" xml:space="preserve" approved="yes">
         <source>Empty or invalid notification email address.</source>
-      <target state="translated">Leere oder ungültige E-Mail-Adresse.</target></trans-unit>
+      <target state="translated">Leere oder ungültige E-Mail-Adresse für Benachrichtigungen.</target></trans-unit>
       <trans-unit id="status_updateTask_email_subject" xml:space="preserve" approved="yes">
         <source>System Status Notification for site %s</source>
       <target state="translated">Systemstatus-Bericht für Seite %s</target></trans-unit>
@@ -234,12 +246,12 @@
       <trans-unit id="status_updateTask_email_issues" xml:space="preserve" approved="yes">
         <source>Issues</source>
       <target state="translated">Probleme</target></trans-unit>
-      <trans-unit id="status_oldXclassUsage" xml:space="preserve">
+      <trans-unit id="status_oldXclassUsage" xml:space="preserve" approved="yes">
         <source>Old XCLASS method used</source>
-      </trans-unit>
-      <trans-unit id="status_oldXclassUsageFound" xml:space="preserve">
+      <target state="translated">Alte XCLASS-Method verwendet</target></trans-unit>
+      <trans-unit id="status_oldXclassUsageFound" xml:space="preserve" approved="yes">
         <source>Old XCLASS method is used in %d cases:</source>
-      </trans-unit>
+      <target state="translated">Alte XCLASS-Methode verwendet in %d Fällen verwendet:</target></trans-unit>
     </body>
   </file>
 </xliff>

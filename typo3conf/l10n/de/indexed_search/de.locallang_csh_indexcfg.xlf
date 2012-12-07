@@ -24,7 +24,7 @@
       <trans-unit id="_hidden.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:starttime</source>
         <target state="translated">index_config:starttime</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note><alt-trans xml:space="preserve" origin="kaystrobach"><target>Startzeit</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="starttime.description" xml:space="preserve" approved="yes">
         <source>Set a start time for the configuration. If set, the configuration will be bypassed by the crawlers cron job until this time is reached.</source>
       <target state="translated">Legt eine Startzeit für die Konfiguration fest. Wird hier ein Wert eingetragen, so wird die Konfiguration vom Crawler-Cron-Job so lange übersprungen, bis der angegebene Zeitpunkt erreicht ist.</target></trans-unit>

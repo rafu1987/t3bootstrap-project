@@ -69,7 +69,9 @@ Kombinationen:
 100 600x350 - Öffnet die Seite in einem 600x350 Pixel großen Popup-Fenster mit type=100.
 2 _blank - Öffnet die Seite mit dem Ziel "_blank" und type=2.</label>
       <label index="no_cache.description">Diese Option deaktiviert das serverseitige Zwischenspeichern der Seite.</label>
-      <label index="no_cache.details">Normalerweise werden Seiten in TYPO3 serverseitig zwischengespeichert, wenn sie das erste Mal erzeugt werden. Dadurch wird die Seite wesentlich schneller angezeigt, wenn sie ein weiteres Mal angefordert wird. Mit den meisten Seiten funktioniert das problemlos udn erhöht deutlich die Geschwindigkeit. Allerdings muss das Zwischenspeichern eventuell für Seiten deaktiviert werden, die dynamisch erzeugte Inhalte enthalten, die auf gar keinen Fall zwischengespeichert werden sollen. Normalerweise wird bei solchen Inhalten das Zwischenspeichern automatisch durch den darstellenden PHP-Code deaktiviert. Mit dieser Einstellung kann man jedoch erzwingen, daß die Seite nicht zwischengespeichert wird.</label>
+      <label index="no_cache.details">Normalerweise werden Seiten in TYPO3 auf dem Server zwischengespeichert, nachdem sie das erste Mal erzeugt wurden. Dadurch wird die Seite wesentlich schneller angezeigt, wenn sie ein zweites Mal angefordert wird.
+Mit den meisten Seiten funktioniert das problemlos; tatsächlich erhöht sich die Geschwindigkeit der Website wesentlich.
+Allerdings kann es notwendig sein das Zwischenspeichern für Seiten zu deaktivieren, die dynamisch erzeugte Inhalte enthalten, die auf gar keinen Fall zwischengespeichert werden dürfen. Normalerweise wird bei solchen Inhalten das Zwischenspeichern automatisch durch den darstellenden PHP-Code deaktiviert. Mit dieser Einstellung kann man jedoch erzwingen, daß die Seite nicht zwischengespeichert wird.</label>
       <label index="_no_cache.seeAlso">pages:cache_timeout</label>
       <label index="cache_timeout.description">Setzt die Lebensdauer des Zwischenspeichers der Seite.</label>
       <label index="cache_timeout.details">Standardmäßig werden Seiten für 24 Stunden zwischengespeichert. Nach 24 Stunden wird die Seite neu erzeugt und neu in den Zwischenspeicher geschrieben. Abhängig von der Konfiguration wird der Zwischenspeicher möglicherweise um Mitternacht gelöscht. Wenn bestimmte Seiten eine längere oder kürzere Lebensdauer im Zwischenspeicher benötigen, kann diese Option vewendet werden.</label>
@@ -90,9 +92,10 @@ Die Seite als Inhaltsseite für ein 'Shop' Plug-in zu markieren bedeutet ganz ei
 Bezüglich weiterer Details zu dieser Option verwenden sie bitte die Administrationsdokumentation.
 
 Es wird empfohlen, dass nur Admin-Benutzer Zugriff auf dieses Feld haben!</label>
-      <label index="media.description"/>
-      <label index="media.details"/>
-      <label index="subtitle.description"/>
+      <label index="media.description">Medien-Dateien mit Bezug zu dieser Seite hinzufügen.</label>
+      <label index="media.details">Mit diesem Feld können sie der Seite verschiedenste Dateien anfügen. Wie diese Dateien verwendet werden hängt von Ihrer Vorlage (Template) ab.
+Beispielsweise könnte das Template diese Feld benutzen um der Seite ein Logo hinzuzufügen oder es könnte ebenso die erste Datei in Form eines Bildes dazu benutzen, einen Link im Navigationsmenü darzustellen. Zur Erinnerung: es hängt gänzlich davon ab wie ihr Template programmiert ist.</label>
+      <label index="subtitle.description">Geben Sie, falls notwendig, einen Untertitel ein.</label>
       <label index="subtitle.details">Ob diese Feld benutzt wird oder nicht, hängt von ihrem Template ab. In den meisten Fällen wird es nicht benutzt.</label>
       <label index="url.description">Geben sie die URL ein, auf die diese Seite weiterleitet.</label>
       <label index="url.details">Zum Beispiel: 'http://www.typo3.de' oder nur 'www.typo3.de', wenn bei 'Protokoll' 'http://' eingestellt ist.
@@ -101,43 +104,79 @@ Benutzen Sie die Auswahl 'Protokoll' um einen Präfix für die URL einzustellen.
 Diese Option wird nur benutzt, wenn die Seite vom 'Typ' auf 'Link zu externer URL' ausgewählt ist.</label>
       <label index="_url.seeAlso">pages:urltype</label>
       <label index="shortcut.description">Wähle eine Seite als Verweisziel. Wird die aktuelle Seite im Frontend angefordert, erfolgt eine Weiterleitung zum Verweisziel.</label>
-      <label index="shortcut.details"/>
+      <label index="shortcut.details">Klicken Sie das 'Datensätze durchblättern'-Symbol. Es erscheint ein neues Fenster, in dem sie einfach eine Seite aussuchen können, die als Verweis-Ziel verwendet werden soll.
+
+Diese Option wird nur benutzt, wenn in der Seite der Typ 'Verweis' ausgewählt ist.</label>
       <label index="_shortcut.seeAlso">pages:doktype,
 pages:shortcut_mode</label>
       <label index="_shortcut.image">EXT:context_help/cshimages/page_shortcut.gif</label>
-      <label index="shortcut.image_descr"/>
+      <label index="shortcut.image_descr">Wählen Sie ein Verweisziel in der Elementauswahl.</label>
       <label index="keywords.description">Geben sie Stichworte, getrennt durch Kommata, für die Seite ein. Sie können auch kurze Sätze verwenden.</label>
-      <label index="keywords.details"/>
+      <label index="keywords.details">Die meisten TYPO3 Websites verwende diese Schlüsselworte in einem Meta-Tag auf der Seite, aber man muss das entsprechende TypoScript-Template selbst erstellen
+
+Um eine Seite für Suchmaschinen wie Google zu optimieren sollte man nicht mehr als 3 bis 6 Schlüsselworte benutzen. Man sollte auch sicher stellen, dass diese Schlüsselworte im Inhalt der Seite vorhanden sind.
+
+Beachte dass Such-Erweiterungen für TYPO3 wie "Indexed Search" so konfiguriert werden, dass sie diese Schlüsselworte zu verwenden.
+
+Die Schlüsselworte können ebenfalls dazu benutzt werden um ein Menü von verwandten Seiten zu erzeugen. Lege ein Inhaltselement vom Typ 'Sitemap' an und wähle den Menütyp &lt;i&gt;Verwandte Seiten (basierend auf Schlüsselworten)&lt;/i&gt;</label>
       <label index="_keywords.seeAlso">pages:description</label>
       <label index="description.description">Geben Sie eine kurze Beschreibung der Seite ein. Sie wird in den Ergebnislisten der meisten Suchmaschinen angezeigt.</label>
-      <label index="description.details"/>
+      <label index="description.details">Die meisten Websites fügen die Beschreibung in einem meta-Tag auf einer Seite ein, aber es kann sein dass man dies im TypoScript-Template selber konfigurieren muss.
+
+Die meisten Suchmaschinen werden diese Beschreibung in ihrer Ergebnisliste anzeigen. Daher sollte diser Text kurz sein (ungefähr maximal 160 Zeichen) und die Formulierung sollte sinnvoll in der Ergebnisliste sein.
+
+Zusätzlich wird die beschreibung angezeigt, wenn man ein Content Element vom Typ 'Sitemap' anlegt und den Menü-Typ &lt;i&gt;Menü von Unterseiten (mit Inhaltsangabe)&lt;/i&gt; wählt. Wenn eine Inhaltsangabe für eien Seite existiert wird dise statt der Beschreibung benutzt.
+
+&lt;b&gt;Beachte:&lt;/b&gt; Einige Suchmaschinen benutzen die Beschreibung nur wenn der text nicht irgendwo anders auf der Seite erscheint. Also nicht einfach nur wiederholen.</label>
       <label index="_description.seeAlso">pages:keywords
 pages:abstract</label>
-      <label index="abstract.description"/>
-      <label index="abstract.details"/>
+      <label index="abstract.description">Geben Sie eine Zusammenfassung des Inhalts ein. Sie kann in einer Übersicht von Artikeln angezeigt werden.</label>
+      <label index="abstract.details">Eine Zusammanfassung ist eine kurze Beschreibung des Seiteninhaltes, der etwas länger sein kann als im Feld &lt;i&gt;Beschreibung&lt;/i&gt;.
+
+Anders als die Beschreibung, ist die Zusammanfassung nicht dafür gedacht in den Ergebnissen von Suchmaschinen angezeigt zu werden, sondern für eigene Bedürfnisse genutzt zu werden.
+
+Wenn Sie ein Inhaltselement des Typs &lt;i&gt;Sitemap&lt;/i&gt; erstellen und dann &lt;i&gt;Menü der Unterseiten dieser Seite (mit Zusammenfassung)&lt;/i&gt; auswählen, wird eine Übersicht von Seiten erstellt. Falls eine Zusammenfassung für eine Seite existiert, wird diese anstelle der Beschreibung angezeigt.
+
+&lt;b&gt;Beachte:&lt;/b&gt; man sollte nicht den Text der Beschreibung im &lt;i&gt;Feld Zusammenfassung&lt;/i&gt; weiderholen.
+
+Administratoren können das Feld durch ihre TypoScript Templates benutzen.</label>
       <label index="_abstract.seeAlso">pages:description</label>
-      <label index="newUntil.description"/>
-      <label index="newUntil.details"/>
+      <label index="newUntil.description">Geben Sie ein Datum ein ab dem diese Seite nicht mehr als "neu" gilt.</label>
+      <label index="newUntil.details">Das Datum 'Neu bis' hat keine Auswirkungen auf die Anzeige der Seite. Der Wert ist für den internen Gebrauch gedacht, als Erinnerung für das Datum, zu dem die Seite überarbeitet werden soll. Falls der Inhalt der Seite an einem bestimmten Tag überholt sein wird, können Sie diesen Wert auf das ungefähre Datum setzen. 
+Um einen Überblick über Seiten und deren Datum, ab dem sie überholt sein werden, zu bekommen, nutzen Sie die 'Seitenbaumübersicht' im Modul 'Web &gt; Info'</label>
       <label index="newUntil.syntax">Siehe Seite / Veröffentlichungsdatum (unten anklicken)</label>
       <label index="_newUntil.seeAlso">pages:starttime</label>
-      <label index="lastUpdated.description"/>
-      <label index="lastUpdated.details"/>
-      <label index="lastUpdated.syntax"/>
-      <label index="nav_hide.description"/>
+      <label index="lastUpdated.description">Geben Sie Datum und Zeit der letzten Änderung an dieser Seite ein.</label>
+      <label index="lastUpdated.details">Wie der Wert dieses Feldes verwendet wird, wird durch das TypoScript Template der Seite bestimmt. Sollen Inhalte mit der Eigenschaft 'Zuletzt aktualisiert' angezeigt werden, müssen diese auf den Seiten eingefügt werden und das TypoScript Template so konfiguriert werden, dass es diesen Wert verwendet.
+Die häufigste Anwendung ist die Anzeige des Datums aus dem automatisch aktualisieten Feld 'tstamp', es sei denn das Feld 'zuletzt aktualisiert' ist gesetzt. In diesem Fall wird das Feld 'zuletzt aktualisiert' verwendet.</label>
+      <label index="lastUpdated.syntax">Abhängig von Ihrer TYPO3 Konfiguration ist das Format HH:MM DD-MM-YYYY oder HH:MM MM-DD-YYYY. 
+Wenn Sie ein 'd' einfügen, werden die aktuelle Zeit und Datum eingesetzt. Sie können auch jedem Wert in dem Feld ein Zahl wie '+10' hinzufügen, was 10 Tage zu dem aktuellen Wert hinzu addiert.</label>
+      <label index="nav_hide.description">Mit dieser Option wird die Seite nicht in den Menüs im Frontend angezeigt. Die Seite wird trotzdem noch angezeigt, wenn die URL direkt verlinkt ist.</label>
       <label index="_nav_hide.seeAlso">pages:nav_title</label>
-      <label index="nav_title.description"/>
-      <label index="content_from_pid.description"/>
-      <label index="urltype.description"/>
-      <label index="shortcut_mode.description"/>
-      <label index="mount_pid.description"/>
-      <label index="mount_pid.details"/>
+      <label index="nav_title.description">Alternativer Navigationstitel für Menüelemente im Frontend. Falls dieser gesetzt ist, wird er statt des Seitentitels verwendet.</label>
+      <label index="content_from_pid.description">Falls gesetzt, wird eine andere Seite verwendet, von welcher die Inhaltselemente angezeigt werden.
+Ob dieses Feld verwendet wird, hängt von dem TypoScript template der Webseite ab.</label>
+      <label index="urltype.description">Setzt das Protokoll der URL.</label>
+      <label index="shortcut_mode.description">Wählen Sie einen Verweismodus. Standardmässig muss die Verweisseite ein Verweisziel haben. Andere Optionen sind zur ersten Unterseite, zu einer zufälligen Unterseite oder zurück zur Elternseite zu gehen.</label>
+      <label index="mount_pid.description">Verwenden Sie diese Seite als Objektträger. Falls gesetzt kommen Unterseiten dieser Seite dann von der angegebenen Seite.</label>
+      <label index="mount_pid.details">Im Frontend wird das durch das Hinzufügen der neuen Variable &amp;MP zur URL erreicht. Dies verknüpft den "gemounteten" Ast mit dem Hauptast anhand der Seiten-Ids.</label>
       <label index="_mount_pid.seeAlso">pages:mount_pid_ol</label>
-      <label index="mount_pid_ol.description"/>
+      <label index="mount_pid_ol.description">Zeigt den Inhalt der aktuellen Seite oder ersetzt ihn vollständig durch die gemountete Seite.</label>
       <label index="_mount_pid_ol.seeAlso">pages:mount_pid</label>
-      <label index="title.description.+"/>
-      <label index="TSconfig.details.+"/>
-      <label index="l18n_cfg.description"/>
-      <label index="l18n_cfg.details"/>
+      <label index="title.description.+">Dies wird üblicherweise in der Navigation der Website angezeigt.</label>
+      <label index="TSconfig.details.+">&lt;strong&gt;Beispiel:&lt;/strong&gt;
+Im Modul 'Web&gt;Seite' kann man Inhalte in vier Spalten erzeugen, links, normal, rechts, Rand, wenn das Template für die Nutzung der Spalten konfiguriert ist. (Wie auch immer, die meisten Websites nutzen nur eine oder zwei Spalten, so dass einige dieser Inhaltsspalten Platz verbrauchen und Anwender verwirren) 
+Wenn man diese Zeichenkette im Feld 'TSConfig' eingibt, dann zeigt das Modul 'Web&gt;Seite'  nur die Spalten 'Normal' und 'Rand' an!
+
+&lt;em&gt;mod.web_layout.tt_content.colPos_list = 0,3&lt;/em&gt;
+
+(Muss auf einer Zeile angegeben werden!)</label>
+      <label index="l18n_cfg.description">Wirkt sich auf die Verfügbarkeit in den verschiedenen Sprachen aus.</label>
+      <label index="l18n_cfg.details">&lt;b&gt;Verstecke Standardübersetzung der Seite&lt;/b&gt;
+Falls gesetzt, ist die Seite nur in übersetzten Versionen und nicht in der Standardsprache verfügbar. Jeder Versuch die Seite in der Standardsprache anzuzeigen, endet mit einer Fehlermeldung.
+
+&lt;b&gt;Verstecke Seite, wenn keine Übersetzung für die aktuelle Sprache existiert&lt;/b&gt;
+Falls gesetzt, wird jeder Versuch die Seite in einer Sprache, für die keine Übersetzung existiert,  anzuzeigen, in einer Fehlermeldung enden. Üblicherweise wird eine Seite, für die keine Übersetzung existiert, in der Standardsprache angezeigt.</label>
     </languageKey>
   </data>
 </T3locallangExt>

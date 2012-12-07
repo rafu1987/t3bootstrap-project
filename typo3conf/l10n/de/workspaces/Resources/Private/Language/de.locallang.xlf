@@ -158,9 +158,9 @@
       <trans-unit id="tooltip.swap" xml:space="preserve" approved="yes">
         <source>Swap live and workspace versions of record</source>
       <target state="translated">Live- und Arbeitsumgebungsversion austauschen</target></trans-unit>
-      <trans-unit id="tooltip.showHistory" xml:space="preserve">
+      <trans-unit id="tooltip.showHistory" xml:space="preserve" approved="yes">
         <source>Show history of workspace version</source>
-      </trans-unit>
+      <target state="translated">Zeige Verlauf der Version in der Arbeitsumgebung</target></trans-unit>
       <trans-unit id="window.discard.title" xml:space="preserve" approved="yes">
         <source>Discard workspace version of record.</source>
       <target state="translated">Entwurfversion des Datensatzes verwerfen.</target></trans-unit>
@@ -288,33 +288,33 @@
       <trans-unit id="comments" xml:space="preserve" approved="yes">
         <source><![CDATA[User comments for <b>step {0} of stage</b> "{1}"]]></source>
       <target state="translated">Benutzerkommentare für &lt;b&gt;Schritt {0} von Stufe&lt;/b&gt; "{1}"</target></trans-unit>
-      <trans-unit id="language.allLanguages" xml:space="preserve">
+      <trans-unit id="language.allLanguages" xml:space="preserve" approved="yes">
         <source>all languages</source>
-      </trans-unit>
-      <trans-unit id="language.selectLanguage" xml:space="preserve">
+      <target state="translated">Alle Sprachen</target></trans-unit>
+      <trans-unit id="language.selectLanguage" xml:space="preserve" approved="yes">
         <source>all languages</source>
-      </trans-unit>
-      <trans-unit id="integrity.dependsOnDefaultLanguageRecord" xml:space="preserve">
+      <target state="translated">Alle Sprachen</target></trans-unit>
+      <trans-unit id="integrity.dependsOnDefaultLanguageRecord" xml:space="preserve" approved="yes">
         <source><![CDATA[Record "%s" depends on default language record]]></source>
-      </trans-unit>
-      <trans-unit id="integrity.isDefaultLanguageRecord" xml:space="preserve">
+      <target state="translated">Datensatz "%s" ist abhängig vom Datensatz in der Standardsprache</target></trans-unit>
+      <trans-unit id="integrity.isDefaultLanguageRecord" xml:space="preserve" approved="yes">
         <source><![CDATA[Default language record for record "%s"]]></source>
-      </trans-unit>
-      <trans-unit id="integrity.hasIssuesDescription" xml:space="preserve">
+      <target state="translated">Datensatz in der Standardsprache für Datensatz "%s"</target></trans-unit>
+      <trans-unit id="integrity.hasIssuesDescription" xml:space="preserve" approved="yes">
         <source>The integrity check discovered several issues, see status icons infront of each record for further details.</source>
-      </trans-unit>
-      <trans-unit id="integrity.hasIssuesQuestion" xml:space="preserve">
+      <target state="translated">Bei der Prüfung der Integrität wurden mehrere Probleme gefunden. Weitere Details siehe Statussymbol vor den Datensätzen.</target></trans-unit>
+      <trans-unit id="integrity.hasIssuesQuestion" xml:space="preserve" approved="yes">
         <source>Do you want to continue?</source>
-      </trans-unit>
-      <trans-unit id="status.info" xml:space="preserve">
+      <target state="translated">Möchten Sie fortfahren?</target></trans-unit>
+      <trans-unit id="status.info" xml:space="preserve" approved="yes">
         <source>Information</source>
-      </trans-unit>
-      <trans-unit id="status.warning" xml:space="preserve">
+      <target state="translated">Information</target></trans-unit>
+      <trans-unit id="status.warning" xml:space="preserve" approved="yes">
         <source>Warning</source>
-      </trans-unit>
-      <trans-unit id="status.error" xml:space="preserve">
+      <target state="translated">Warnung</target></trans-unit>
+      <trans-unit id="status.error" xml:space="preserve" approved="yes">
         <source>Error</source>
-      </trans-unit>
+      <target state="translated">Fehler</target></trans-unit>
     </body>
   </file>
 </xliff>
