@@ -23,3 +23,4 @@ Thumbs.db
 /index.php
 _.htaccess
 typo3conf/localconf.php
+typo3conf/old_localconf.php

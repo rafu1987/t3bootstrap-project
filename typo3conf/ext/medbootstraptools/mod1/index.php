@@ -206,59 +206,13 @@ class tx_medbootstraptools_module1 extends t3lib_SCbase {
 	                    // Rename dir
 	                    rename($path . $projectDir, $path . $projectName);
 	
-	                    /* Switch localconf BEGIN */
-	                    
-	                    // Get files
-	                    $localconfFileAct = PATH_typo3conf . 'localconf.php';
-	                    $localconfFileOld = PATH_typo3conf . 'old_localconf.php';
-	                    $localconfFileNew = PATH_typo3conf . 'new_localconf.php';
-	                    
-	                    if(!is_file($localconfFileNew)) {
-	                		$errorMessageContent = '<h3>'.$GLOBALS['LANG']->getLL('noNewLocalconfFile').'</h3>';
-	                		$errorMessageContent .= '<p>'.$GLOBALS['LANG']->getLL('noNewLocalconfFileText').'</p>';
-		                    $content = '<div class="alert alert-error">'.$errorMessageContent.'</div>';
-		                    $this->content .= $this->doc->section($GLOBALS['LANG']->getLL('title'), $content, 0, 1);	
-		                    
-		                    return false;	                    
-	                    }
-	                    	  
-	                   	// Include localconf to get database connection for new localconf file                  
-	                    include(PATH_typo3conf . 'localconf.php');	                    
-	                    
-	                    // Open new_localconf.php
-	                    $localconfFileNewContent = file_get_contents($localconfFileNew);
-	                    
-	                    $localconfFileNewContent = str_replace(
-	                    	array(
-	                    		"\$typo_db_username = '';",
-	                    		"\$typo_db_password = '';",
-	                    		"\$typo_db_host = '';",
-	                    		"\$typo_db = '';"
-	                    	),
-	                    	array(
-	                    		"\$typo_db_username = '".$typo_db_username."';",
-	                    		"\$typo_db_password = '".$typo_db_password."';",
-	                    		"\$typo_db_host = '".$typo_db_host."';",
-	                    		"\$typo_db = '".$typo_db."';"	                    		
-	                    	),
-	                    	$localconfFileNewContent
-	                    );
-	                    
-	                    file_put_contents($localconfFileNew, $localconfFileNewContent);
-	                    	                    
-	                    // Rename files
-	                    rename($localconfFileAct,$localconfFileOld);
-	                    rename($localconfFileNew,$localconfFileAct);
-	                    
-	                    /* Switch localconf END */
-	
 	                    /* Change files BEGIN */
 	                    
 	                    // Files to change
 	                    $files = array(
 	                        PATH_site . 'fileadmin/templates/ts/setup/JavaScriptIncludes_setup.ts',
 	                        PATH_site . 'fileadmin/templates/ts/TSConfig/Page.ts',
-	                        PATH_site . 'typo3conf/localconf.php'
+	                        PATH_site . 'typo3conf/new_localconf.php'
 	                    );
 	
 	                    // Parse files
@@ -382,7 +336,7 @@ t3bootstrap {
 	
 	                    /* Install Tool password BEGIN */
 	
-	                    $localconfFile = PATH_site . 'typo3conf/localconf.php';
+	                    $localconfFile = PATH_site . 'typo3conf/new_localconf.php';
 	                    $localconfData = file_get_contents($localconfFile);
 	
 	                    $newInstallPassword = $this->generatePW();
@@ -465,7 +419,7 @@ $settingsContent = "<?php
 	                    */
 	                    
 	                    // Include localconf to get database settings
-	                	//include(PATH_typo3conf . 'localconf.php');
+	                	include(PATH_typo3conf . 'localconf.php');
 	                	
 	                	// Connect to database
 	                	$connection = @mysql_connect($typo_db_host,$typo_db_username,$typo_db_password);
@@ -508,7 +462,7 @@ $settingsContent = "<?php
 	                    /* Update page ID 1 BEGIN */
 	
 	                    $updateArrayMod = array(
-	                        'tx_medbootstraptools_bootstrapconfig' => 1,
+	                        //'tx_medbootstraptools_bootstrapconfig' => 1,
 	                        'title' => ucfirst($projectNameUpper)
 	                    );
 	
@@ -552,7 +506,7 @@ $settingsContent = "<?php
 		                    foreach($beUsers as $beUser) {
 		                    	$userData = explode(",",$beUser);
 		                    	
-		                    	if(!$userData[0] != 'admin') {
+		                    	if($userData[0] != 'admin') {
 									$insertArray = array(						
 										'username' => trim(str_replace('"','',stripslashes($userData[0]))),	
 										'admin' => trim(str_replace('"','',stripslashes($userData[5]))),
@@ -597,6 +551,9 @@ $settingsContent = "<?php
 	                                }
 	                            }
 	                        }
+                            else {
+	                        	$saltedPassword = $password;    
+                            }	                      
 	
 	                        $updateArray = array(
 	                            'password' => $saltedPassword
@@ -607,7 +564,49 @@ $settingsContent = "<?php
 	                        $i++;
 	                    }
 	
-	                    /* Backend user passwords END */	                                      
+	                    /* Backend user passwords END */	                    
+	
+	                    /* Switch localconf BEGIN */
+	                    
+	                    // Clear temp files
+						foreach (glob(PATH_typo3conf . "temp_*.php") as $filename) {
+						    unlink($filename);
+						}							                    
+	                    
+	                    // Get files
+	                    $localconfFileAct = PATH_typo3conf . 'localconf.php';
+	                    $localconfFileOld = PATH_typo3conf . 'old_localconf.php';
+	                    $localconfFileNew = PATH_typo3conf . 'new_localconf.php';
+	                    	  
+	                   	// Include localconf to get database connection for new localconf file                  
+	                    //include(PATH_typo3conf . 'localconf.php');	                    
+	                    
+	                    // Open new_localconf.php
+	                    $localconfFileNewContent = file_get_contents($localconfFileNew);
+	                    
+	                    $localconfFileNewContent = str_replace(
+	                    	array(
+	                    		"\$typo_db_username = '';",
+	                    		"\$typo_db_password = '';",
+	                    		"\$typo_db_host = '';",
+	                    		"\$typo_db = '';"
+	                    	),
+	                    	array(
+	                    		"\$typo_db_username = '".$typo_db_username."';",
+	                    		"\$typo_db_password = '".$typo_db_password."';",
+	                    		"\$typo_db_host = '".$typo_db_host."';",
+	                    		"\$typo_db = '".$typo_db."';"	                    		
+	                    	),
+	                    	$localconfFileNewContent
+	                    );
+	                    
+	                    file_put_contents($localconfFileNew, $localconfFileNewContent);
+	                    	                    
+	                    // Rename files
+	                    rename($localconfFileAct,$localconfFileOld);
+	                    rename($localconfFileNew,$localconfFileAct);
+	                    
+	                    /* Switch localconf END */	                    	                                      
 	
 	                    // Success message
 	                    $successMessageContent = '<h3>'.$GLOBALS['LANG']->getLL('configSaved').'</h3>';
@@ -628,7 +627,10 @@ $settingsContent = "<?php
 	                    $successMessageContent .= '<p><br /><b>'.$GLOBALS['LANG']->getLL('database').'</b><br />'.$GLOBALS['LANG']->getLL('databaseSuccess').'</p>';  
 	                    
 	                    $content = '<div class="alert alert-success">'.$successMessageContent.'</div>';
-	                    $this->content .= $this->doc->section($GLOBALS['LANG']->getLL('title'), $content, 0, 1);
+	                    $this->content .= $this->doc->section($GLOBALS['LANG']->getLL('title'), $content, 0, 1);	                    
+						
+						// Clear typo3temp folder recursively
+						$this->emptyDirectory(PATH_site.'typo3temp/Cache/Code');	                  
 	                 }
 	                } else {
 	                    // Check if module has already been deactivated
@@ -717,6 +719,26 @@ $settingsContent = "<?php
                 break;
         }
     }
+    
+function emptyDirectory($dirname,$self_delete=false) {
+   if (is_dir($dirname))
+      $dir_handle = opendir($dirname);
+   if (!$dir_handle)
+      return false;
+   while($file = readdir($dir_handle)) {
+      if ($file != "." && $file != "..") {
+         if (!is_dir($dirname."/".$file))
+            @unlink($dirname."/".$file);
+         else
+            $this->emptyDirectory($dirname.'/'.$file,true);    
+      }
+   }
+   closedir($dir_handle);
+   if ($self_delete){
+        @rmdir($dirname);
+   }   
+   return true;
+}
 
     private function generatePW($length = 8) {
         $dummy = array_merge(range('0', '9'), range('a', 'z'), range('A', 'Z'), array('#', '&', '@', '$', '_', '%', '?', '+'));
