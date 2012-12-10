@@ -1,0 +1,4 @@
+plugin.medbugherd {
+	# cat=medbugherd/medbugherd/010; type=string; label=API Key: The BugHerd API Key of the project
+	apiKey = 
+}
