@@ -83,6 +83,7 @@ You don't need to configure anything else; t3bootstrap will do that for you late
 	* [rzdummyimage](http://typo3.org/extensions/repository/view/rzdummyimage)
 	* [templavoila](http://typo3.org/extensions/repository/view/templavoila)
 	* [medmarkdown](https://github.com/medialis/medmarkdown)
+	* [medbugherd](https://github.com/medialis/medbugherd)
 	
 ## ToDo's
 * Implement a way to change the default language in the configurator (right now, German is configured as the default language; of course you can change that with a few steps in the backend by yourself).
