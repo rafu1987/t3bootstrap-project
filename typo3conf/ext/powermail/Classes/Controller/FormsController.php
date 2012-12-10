@@ -144,9 +144,9 @@ class Tx_Powermail_Controller_FormsController extends Tx_Extbase_MVC_Controller_
 	/**
 	 * Action create entry
 	 *
-	 * @param array Field Values
-	 * @param integer Form UID
-	 * @param object Mail object (normally empty, filled when mail already exists via double-optin)
+	 * @param integer $form			Form UID
+	 * @param array $field			Field Values
+	 * @param integer $mail			Mail object (normally empty, filled when mail already exists via double-optin)
 	 * @validate $field Tx_Powermail_Domain_Validator_UploadValidator
 	 * @validate $field Tx_Powermail_Domain_Validator_MandatoryValidator
 	 * @validate $field Tx_Powermail_Domain_Validator_StringValidator
@@ -157,7 +157,7 @@ class Tx_Powermail_Controller_FormsController extends Tx_Extbase_MVC_Controller_
 	 * @dontvalidate $mail
 	 * @return void
 	 */
-	public function createAction(array $field = array(), $form, $mail = NULL) {
+	public function createAction($form, array $field = array(), $mail = NULL) {
 		// forward back to formAction if wrong form
 		$this->ignoreWrongForm($form);
 
@@ -205,7 +205,8 @@ class Tx_Powermail_Controller_FormsController extends Tx_Extbase_MVC_Controller_
 	 */
 	private function sendMail($field) {
 		if ($this->settings['receiver']['enable']) {
-			$receivers = $this->div->getReceiverEmails($this->settings['receiver']['email'], $this->settings['receiver']['fe_group']);
+			$receiverString = $this->div->fluidParseString($this->settings['receiver']['email'], $this->objectManager);
+			$receivers = $this->div->getReceiverEmails($receiverString, $this->settings['receiver']['fe_group']);
 			if ($this->cObj->cObjGetSingle($this->conf['receiver.']['overwrite.']['email'], $this->conf['receiver.']['overwrite.']['email.'])) { // overwrite from typoscript
 				$receivers = t3lib_div::trimExplode(',', $this->cObj->cObjGetSingle($this->conf['receiver.']['overwrite.']['email'], $this->conf['receiver.']['overwrite.']['email.']), 1);
 			}
@@ -428,7 +429,7 @@ class Tx_Powermail_Controller_FormsController extends Tx_Extbase_MVC_Controller_
 		$this->signalSlotDispatcher->dispatch(__CLASS__, __FUNCTION__ . 'BeforeRenderView', array($mail, $hash, $this));
 		$mail = $this->mailsRepository->findByUid($mail);
 
-		if (!empty($hash) && $hash == $this->div->createOptinHash($mail->getUid() . $mail->getPid() . $mail->getForm())) {
+		if (!empty($hash) && $hash == $this->div->createOptinHash($mail->getUid() . $mail->getPid() . $mail->getForm()->getUid())) {
 			// only if hidden = 0
 			if ($mail->getHidden() == 1) {
 				$mail->setHidden(0);
@@ -440,8 +441,8 @@ class Tx_Powermail_Controller_FormsController extends Tx_Extbase_MVC_Controller_
 				}
 				$arguments = array(
 					'field' => $fields,
-					'form' => $mail->getForm(),
-					'mail' => $mail,
+					'form' => $mail->getForm()->getUid(),
+					'mail' => $mail->getUid(),
 					'__referrer' => array(
 						'actionName' => 'optinConfirm'
 					)
