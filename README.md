@@ -37,7 +37,7 @@ You don't need to configure anything else; t3bootstrap will do that for you late
 ## Features
 
 * Pre-configured default language **German** and second languange **English**
-* Includes **[FitVids.js](https://github.com/davatron5000/FitVids.js/)**
+* Includes **[FitVids.js](https://github.com/davatron5000/FitVids.js/)** for media content element
 * The default image and text with image content elements are deactivated as they bring problems to twitter Bootstrap; there are two new flexible content elements, where the name ***flexible*** is really appropriate :)
 * Flexible content elements for **buttons**, with customizable styles, **containers** with customizable colors (all via the backend and records)
 * Flexible content elements for **columns** (1,2,3,4) where you can dynamically set the **width** and **offset**, according to twitter Bootstrap guidelines
