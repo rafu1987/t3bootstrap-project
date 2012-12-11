@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <t3jquery>
 	<version type="array">
-		<act>1.8.2</act>
-		<cdn>1.8.2</cdn>
+		<act>1.8.3</act>
+		<cdn>1.8.3</cdn>
 	</version>
 	<groups type="array">
 		<numIndex index="1" type="array">
