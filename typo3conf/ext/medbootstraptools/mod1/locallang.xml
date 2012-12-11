@@ -28,6 +28,8 @@
             <label index="basedomainEN">English basedomain (with trailing slash):</label>
             <label index="noBasedomain">No basedomain entered</label>
             <label index="noBasedomainText">You didn't enter a basedomain. Go back and change this.</label>
+            <label index="noHttpHost">No HTTP host entered</label>
+            <label index="noHttpHostText">You didn't enter a HTTP host. Go back and change this.</label>
             <label index="email">Recipient eMail address contact form:</label>
             <label index="noEmail">No eMail address entered</label>
             <label index="noEmailText">You didn't enter an eMail address. Go back and change this.</label> 
@@ -37,6 +39,7 @@
             <label index="username">Username:</label> 
             <label index="password">Password:</label>    
             <label index="host">Host:</label> 
+            <label index="httpHost">HTTP Host:</label> 
             <label index="databaseConnection">Settings LIVE server</label> 
             <label index="databaseConnectionPreview">Settings PREVIEW server</label> 
             <label index="imageMagickPath">Imagemagick Path:</label> 
@@ -66,7 +69,9 @@
             <label index="basedomainDE">Deutsche Basedomain (mit / am Ende):</label>
             <label index="basedomainEN">Englische Basedomain (mit / am Ende):</label>
             <label index="noBasedomain">Keine Basedomain angegegen</label>
-            <label index="noBasedomainText">Du hast keine Basedomain angegeben. Bitte gehe zurück und ändere dies.</label>                                 	        <label index="email">Empfänger E-Mail Adresse Kontaktformular:</label> 
+            <label index="noBasedomainText">Du hast keine Basedomain angegeben. Bitte gehe zurück und ändere dies.</label> 
+            <label index="noHttpHost">Kein HTTP Host angegegen</label>
+            <label index="noHttpHostText">Du hast keinen HTTP Host angegeben. Bitte gehe zurück und ändere dies.</label>                                             	        <label index="email">Empfänger E-Mail Adresse Kontaktformular:</label> 
             <label index="noEmail">Keine E-Mail Adresse angegegen</label>
             <label index="noEmailText">Du hast keine E-Mail Adresse angegeben. Bitte gehe zurück und ändere dies.</label> 
             <label index="noValidEmail">Keine gültige E-Mail Adresse angegegen</label>
@@ -75,6 +80,7 @@
             <label index="username">Benutzername:</label> 
             <label index="password">Passwort:</label>    
             <label index="host">Host:</label>   
+            <label index="httpHost">HTTP Host:</label> 
             <label index="databaseConnection">Einstellungen LIVE Server</label>  
             <label index="databaseConnectionPreview">Einstellungen PREVIEW Server</label> 
             <label index="imageMagickPath">Imagemagick Pfad:</label>    

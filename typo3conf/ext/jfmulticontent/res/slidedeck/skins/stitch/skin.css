@@ -1,0 +1,153 @@
+/*
+Skin Name: Stitch
+Skin URI: http://www.slidedeck.com/
+Skin Type: fixed
+Skin Height: 392
+Description: The skin used at slidedeck.com
+Version: 1.0
+Author: digital-telepathy
+Designer: Orman Clarck
+Author URI: http://www.dtelepathy.com/
+Tags: fixed, multi-color
+*/
+.skin-slidedeck {
+	height: 392px;
+	padding: 10px 0;
+	background: #393d40;
+	border-radius: 5px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-o-border-radius: 10px;
+	margin: 0 0 25px;
+}
+.skin-slidedeck dl.slidedeck {
+	height: 392px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.skin-slidedeck dl.slidedeck dd {
+	padding: 10px 30px;
+	background: url('slide.png') top right no-repeat #fff;
+}
+.skin-slidedeck dl.slidedeck dt {
+	position: relative;
+	cursor: pointer;
+	height: 60px !important;
+	color: #fff !important;
+	font-family: "Century Gothic", Arial, sans-serif !important;
+	font-size: 18px !important;
+	font-weight: bold !important;
+	text-align: right !important;
+	line-height: 60px;
+	background: url('spines.jpg') center 0 no-repeat #393d40;
+	padding: 0 40px 0 5px !important;
+	width: 347px !important;
+}
+.skin-slidedeck dl.slidedeck dt .index {
+	font-size: 14px !important;
+	font-weight: bold !important;
+	line-height: 18px;
+	left: 30px !important;
+}
+.skin-slidedeck dl.slidedeck dt.spine_2 { background-position: center -61px; }
+.skin-slidedeck dl.slidedeck dt.spine_3 { background-position: center -121px; }
+.skin-slidedeck dl.slidedeck dt.spine_4 { background-position: center -181px; }
+.skin-slidedeck dl.slidedeck dt.spine_5 { background-position: center -241px; }
+.skin-slidedeck dl.slidedeck dt.spine_6 { background-position: center -301px; }
+.skin-slidedeck dl.slidedeck dt.spine_7 { background-position: center -361px; }
+.skin-slidedeck dl.slidedeck dt.spine_8 { background-position: center -421px; }
+.skin-slidedeck dl.slidedeck dt.spine_9 { background-position: center 0; }
+.skin-slidedeck dl.slidedeck dt.spine_10 { background-position: center -61px; }
+
+.skin-slidedeck dl.slidedeck .activeCorner {
+	background: url('corners.png') 0 0 no-repeat;
+	width: 13px;
+	height: 16px;
+	top: 30px !important;
+	margin-left:-7px !important;
+	display:none;
+}
+.skin-slidedeck dl.slidedeck .activeCorner.spine_2 { background-position: 0 -16px; }
+.skin-slidedeck dl.slidedeck .activeCorner.spine_3 { background-position: 0 -32px; }
+.skin-slidedeck dl.slidedeck .activeCorner.spine_4 { background-position: 0 -48px; }
+.skin-slidedeck dl.slidedeck .activeCorner.spine_5 { background-position: 0 -64px; }
+.skin-slidedeck dl.slidedeck .activeCorner.spine_6 { background-position: 0 -80px; }
+.skin-slidedeck dl.slidedeck .activeCorner.spine_7 { background-position: 0 -96px; }
+.skin-slidedeck dl.slidedeck .activeCorner.spine_8 { background-position: 0 -112px; }
+.skin-slidedeck dl.slidedeck .activeCorner.spine_9 { background-position: 0 -128px; }
+.skin-slidedeck dl.slidedeck .activeCorner.spine_10 { background-position: 0 -144px; }
+
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical { text-indent: 0; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical li {
+	overflow: hidden;
+	padding: 10px !important;
+	margin: 0 !important;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav {
+	top: 10px;
+	right: 10px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li {
+	position: relative;
+	z-index: 2;
+	margin: 0;
+	padding: 0 0 3px;
+	width: 12px;
+	height: 12px;
+	overflow: hidden;
+	line-height: 12px;
+	list-style: none;
+	font-size: 1px; /* Stupid IE */
+}
+.skin-slidedeck dl.slidedeck ul li:before { content: "" !important; }
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
+	position: absolute;
+	display: block;
+	z-index: 1;
+	width: 10px;
+	height: 0;
+	padding-top: 10px;
+	padding-bottom: 0;
+	overflow: hidden;
+	left: 0;
+	border: 1px solid #333;
+	background: #444;
+	background-image: -moz-linear-gradient(top, #000, #444); /* FF3.6 */
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #000),color-stop(1, #444)); /* Saf4+, Chrome */
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a, .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:link, .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:visited {
+	position: relative;
+	display: block;
+	width: 10px;
+	height: 0;
+	overflow: hidden;
+	padding-top: 10px;
+	background: #fff;
+	outline: none;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	filter: Alpha(opacity=50);
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-webkit-opacity: 0.5;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
+	opacity: 0.75;
+	-moz-opacity: 0.75;
+	-webkit-opacity: 0.75;
+	filter: Alpha(opacity=75); 
+}

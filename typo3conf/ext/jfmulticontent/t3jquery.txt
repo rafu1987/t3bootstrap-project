@@ -1,0 +1,2 @@
+script=
+components=jQuery,Core,Widget,Mouse,Position,Draggable,Accordion,Tabs,Easing,Cookie,MouseWheel

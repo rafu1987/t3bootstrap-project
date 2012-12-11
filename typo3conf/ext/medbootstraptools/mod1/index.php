@@ -189,7 +189,13 @@ class tx_medbootstraptools_module1 extends t3lib_SCbase {
 	                    $content = '<div class="alert alert-error">'.$errorMessageContent.'</div>';
 	                    $this->content .= $this->doc->section($GLOBALS['LANG']->getLL('title'), $content, 0, 1);	                	
                 	}
-                	else {         	
+                	else if(!$_POST['project_httphost']) {
+                		$errorMessageContent = '<h3>'.$GLOBALS['LANG']->getLL('noHttpHost').'</h3>';
+                		$errorMessageContent .= '<p>'.$GLOBALS['LANG']->getLL('noHttpHostText').'</p>';
+	                    $content = '<div class="alert alert-error">'.$errorMessageContent.'</div>';
+	                    $this->content .= $this->doc->section($GLOBALS['LANG']->getLL('title'), $content, 0, 1);	                	
+                	}
+                	else {                	                	     	
 	                    // Get project name
 	                    $projectName = trim(strtolower($_POST['project_name']));
 	                    
@@ -283,6 +289,15 @@ class tx_medbootstraptools_module1 extends t3lib_SCbase {
 	                    foreach($files4 as $f4) {
 	                    	$basedomainDE = trim($_POST['project_basedomainde'],'/').'/';
 	                    	$basedomainEN = trim($_POST['project_basedomainen'],'/').'/';
+	                    	$httpHost = trim($_POST['project_httphost'],'/');
+	                    	
+	                    	$basedomainDEPreview = trim($_POST['preview_basedomainde'],'/').'/';
+	                    	$basedomainENPreview = trim($_POST['preview_basedomainen'],'/').'/';
+	                    	$httpHostPreview = trim($_POST['preview_httphost'],'/');
+	                    	
+	                    	$basedomainDELive = trim($_POST['live_basedomainde'],'/').'/';
+	                    	$basedomainENLive = trim($_POST['live_basedomainen'],'/').'/';
+	                    	$httpHostLive = trim($_POST['live_httphost'],'/');	                    		                    	
 	                    
 		                    // Open file
 		                    $data4 = file_get_contents($f4);
@@ -292,10 +307,28 @@ $data4 = "".$data4."
 
 # # medbootstraptools [BEGIN]
 
+[globalVar = IENV:HTTP_HOST = ".$httpHost."]
+
 t3bootstrap {
 \tbasedomain.de = ".$basedomainDE."
 \tbasedomain.en = ".$basedomainEN."
 }
+
+[globalVar = IENV:HTTP_HOST = ".$httpHostPreview."]
+
+t3bootstrap {
+\tbasedomain.de = ".$basedomainDEPreview."
+\tbasedomain.en = ".$basedomainENPreview."
+}
+
+[globalVar = IENV:HTTP_HOST = ".$httpHostLive."]
+
+t3bootstrap {
+\tbasedomain.de = ".$basedomainDELive."
+\tbasedomain.en = ".$basedomainENLive."
+}
+
+[global]
 
 # # medbootstraptools [END]";
 		                    
@@ -651,6 +684,9 @@ $settingsContent = "<?php
 	                                
 	                                <label>'.$GLOBALS['LANG']->getLL('basedomainEN').'</label>
 	                                <input type="text" placeholder="http://subdomain.domain.de/en/" name="project_basedomainen" class="input-middle">     
+	                                
+	                                <label>'.$GLOBALS['LANG']->getLL('httpHost').'</label>
+	                                <input type="text" name="project_httphost" placeholder="subdomain.domain.de">
 	                                    
 	                                <label>'.$GLOBALS['LANG']->getLL('copyrightNotice').'</label>
 	                                <input type="text" class="input-long" placeholder="'.$GLOBALS['LANG']->getLL('copyrightDefault').'" name="project_copyright">     
@@ -665,6 +701,15 @@ $settingsContent = "<?php
 	                                <input type="checkbox" name="project_responsive" checked="checked">                         
 	                                
 	                                <h4>'.$GLOBALS['LANG']->getLL('databaseConnectionPreview').'</h4>
+	                                
+	                                <label>'.$GLOBALS['LANG']->getLL('basedomainDE').'</label>
+	                                <input type="text" placeholder="http://subdomain.domain.de/" name="preview_basedomainde" class="input-middle"> 
+	                                
+	                                <label>'.$GLOBALS['LANG']->getLL('basedomainEN').'</label>
+	                                <input type="text" placeholder="http://subdomain.domain.de/en/" name="preview_basedomainen" class="input-middle">  	         
+	                                
+	                                <label>'.$GLOBALS['LANG']->getLL('httpHost').'</label>
+	                                <input type="text" name="preview_httphost" placeholder="subdomain.domain.de">	                                                       
 	                                
 	                                <label>'.$GLOBALS['LANG']->getLL('serverName').'</label>
 	                                <input type="text" name="preview_server" placeholder="domain.de">                              
@@ -685,6 +730,15 @@ $settingsContent = "<?php
 	                                <input type="text" name="preview_impath" placeholder="/usr/local/bin/">                                                                  
 	                                
 	                                <h4>'.$GLOBALS['LANG']->getLL('databaseConnection').'</h4>
+	                                
+	                                <label>'.$GLOBALS['LANG']->getLL('basedomainDE').'</label>
+	                                <input type="text" placeholder="http://subdomain.domain.de/" name="live_basedomainde" class="input-middle"> 
+	                                
+	                                <label>'.$GLOBALS['LANG']->getLL('basedomainEN').'</label>
+	                                <input type="text" placeholder="http://subdomain.domain.de/en/" name="live_basedomainen" class="input-middle">  	                                
+	                                
+	                                <label>'.$GLOBALS['LANG']->getLL('httpHost').'</label>
+	                                <input type="text" name="live_httphost" placeholder="subdomain.domain.de">	                                
 	                              
 	                                <label>'.$GLOBALS['LANG']->getLL('serverName').'</label>
 	                                <input type="text" name="live_server" placeholder="domain.de">                              

@@ -1,0 +1,131 @@
+/*
+Skin Name: Ribbons
+Skin URI: http://www.slidedeck.com/
+Skin Type: fixed
+Skin Height: 344
+Description: Steel Gray Ribbons.
+Version: 1.0
+Author: digital-telepathy
+Designer: Artem Laptiski
+Tags: flexible, white, gray
+*/
+div.skin-slidedeck { width: 800px; margin: 0 auto;} /* defines the width of the deck container */
+.skin-slidedeck dl.slidedeck {  margin: 0 auto 25px; height: 344px; }
+.skin-slidedeck dl.slidedeck dd {
+	padding: 10px;
+	background: -moz-linear-gradient(top, #ffffff, #e2e2e2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e2e2e2));
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffff',EndColorStr='#e2e2e2');
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffff',EndColorStr='#e2e2e2')";
+	height: 308px !important;
+	margin-top: 8px !important;
+}
+.skin-slidedeck dl.slidedeck dt {
+	height: 41px;
+	line-height: 41px;
+	cursor: pointer;
+	font-size: 13px !important;
+	font-weight: normal !important;
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif !important;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: -1px -1px 1px #434b56;
+	background: url('spines.png') 0 -104px no-repeat;
+	color: #fff !important;
+	padding-bottom: 0 !important;
+}
+.skin-slidedeck dl.slidedeck dt:hover { background-position: 0 -153px; }
+.skin-slidedeck dl.slidedeck dt.active {
+	padding-bottom: 7px !important;
+	background-position: 0 -48px;
+}
+.skin-slidedeck dl.slidedeck dt.active:hover { background-position: 0 0; }
+.skin-slidedeck dl.slidedeck dt.next {
+	padding-top: 7px !important;
+	background-position: 0 -97px;
+	margin-left: -28px !important;
+}
+.skin-slidedeck dl.slidedeck dt.next:hover { background-position: 0 -146px; }
+.skin-slidedeck dl.slidedeck dt .index {
+	line-height: 41px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff !important;
+	margin-left: 4px;
+}
+.skin-slidedeck dl.slidedeck dt.active .index { margin-bottom: 6px; }
+.skin-slidedeck dl.slidedeck dt:hover .index { color: #fecb00 !important; }
+.skin-slidedeck dl.slidedeck .activeCorner { display:none; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical { text-indent: 0; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical li {
+	overflow: hidden;
+	padding: 10px !important;
+	margin: 0 !important;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav {
+	top: 10px;
+	right: 10px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li {
+	position: relative;
+	z-index: 2;
+	margin: 0;
+	padding: 0 0 3px;
+	width: 12px;
+	height: 12px;
+	overflow: hidden;
+	line-height: 12px;
+	list-style: none;
+	font-size: 1px; /* Stupid IE */
+}
+.skin-slidedeck dl.slidedeck ul li:before { content: "" !important; }
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
+	position: absolute;
+	display: block;
+	z-index: 1;
+	width: 10px;
+	height: 0;
+	padding-top: 10px;
+	padding-bottom: 0;
+	overflow: hidden;
+	left: 0;
+	border: 1px solid #333;
+	background: #444;
+	background-image: -moz-linear-gradient(top, #000, #444); /* FF3.6 */
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #000),color-stop(1, #444)); /* Saf4+, Chrome */
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a, .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:link, .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:visited {
+	position: relative;
+	display: block;
+	width: 10px;
+	height: 0;
+	overflow: hidden;
+	padding-top: 10px;
+	background: #fff;
+	outline: none;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	filter: Alpha(opacity=50);
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-webkit-opacity: 0.5;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
+	opacity: 0.75;
+	-moz-opacity: 0.75;
+	-webkit-opacity: 0.75;
+	filter: Alpha(opacity=75);
+}

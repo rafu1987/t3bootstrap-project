@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'jfmulticontent'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Multiple Content</label>
+			<label index="pi1_plus_wiz_description">Create a multiple content</label>
+			<label index="cms_layout.style">Display: %s</label>
+			<label index="cms_layout.not_configured">Plugin is not configured!</label>
+			<label index="extmng.updatermsgHeader">Important!</label>
+			<label index="extmng.updatermsg">jfmulticontent comes with a new updater-script which fix old content elements. You have to run this script if you are updating from older installation.</label>
+			<label index="extmng.updatermsgLink">[Click here to open the updater]</label>
+
+			<label index="extmng.classInnerHeader">Warning!</label>
+			<label index="extmng.classInner">You have to use the "Update"-Button below to ensure proper working for all functions in this extension.</label>
+
+			<label index="updater.back">[&lt;- back]</label>
+			<label index="updater.reload">[reload this page]</label>
+
+			<label index="updater.warningHeader">Important! Please Read!</label>
+			<label index="updater.nothingtodo">Nothing to do</label>
+			<label index="updater.actions">Actions:</label>
+			<label index="updater.updateresults">Update results:</label>
+			<label index="updater.warningMsg">
+				The updater manipulates your database and due to the huge amount of configuration variants it is 
+				possible that it &lt;br&gt;might not produce the expected results.&lt;br&gt;
+				So backup your database (at least the table tt_content) or do a t3d export of your site 
+				&lt;strong&gt;BEFORE&lt;/strong&gt; &lt;br&gt;
+				you click on any of the "DO IT" Buttons.
+			</label>
+
+			<label index="updater.lbl_searchFlexForm">Search "old values" in FF</label>
+			<label index="updater.msg_searchFlexForm">Search for jfmulticontent content elements with old values in flexforms (This fields where moved to another sheet):</label>
+			<label index="updater.foundMsg_searchFlexForm">Found ###COUNT### content elements.</label>
+			<label index="updater.question_searchFlexForm">Should the updater fix this settings?</label>
+			<label index="updater.questionInfo_searchFlexForm">(If you click "DO IT" all old fields will be moved to the new flexform sheet)</label>
+
+			<label index="updater.lbl_searchWrongStyle">Search "wrong style" in FF</label>
+			<label index="updater.msg_searchWrongStyle">Search for jfmulticontent content elements with wrong style in flexforms:</label>
+			<label index="updater.foundMsg_searchWrongStyle">Found ###COUNT### content elements.</label>
+			<label index="updater.question_searchWrongStyle">Should the updater fix this settings?</label>
+			<label index="updater.questionInfo_searchWrongStyle">(If you click "DO IT" the flexform will be fix with the correct style)</label>
+
+			<label index="updater.lbl_searchWrongLanguage">Search "wrong languages" in contentlist</label>
+			<label index="updater.msg_searchWrongLanguage">Search for jfmulticontent content elements with wrong languages in contentlist:</label>
+			<label index="updater.foundMsg_searchWrongLanguage">Found ###COUNT### content elements.</label>
+			<label index="updater.question_searchWrongLanguage">Should the updater fix this settings?</label>
+			<label index="updater.questionInfo_searchWrongLanguage">(If you click "DO IT" the contentlist will be fix with the default language)</label>
+
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+	</orig_hash>
+	<orig_text type="array">
+	</orig_text>
+</T3locallang>

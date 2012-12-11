@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<TITLE>Multi Content Template</TITLE>
+</head>
+<body>
+
+<h1>Multi Content Template</h1>
+
+<br />
+<br />
+<br />
+
+<em>Common markers:</em>
+KEY       - Unique key of the multicontent
+ID        - ID of the contentn
+REL       - the rel value, rendered as cObject views.page.rel
+TITLES    - Subpart for the title
+TITLE     - Title of the contentn
+COLUMNS   - Subpart for the content
+ATTRIBUTE - Attribute for the content
+CONTENT   - The rendered content
+
+<em>Columns markers:</em>
+EQUALIZE_CLASS - Sets the class to equalize the columns height
+COLUMN_CLASSES - String with all classes (252550 in case of selected columns: 25, 25, 50)
+
+<em>Tabs markers:</em>
+TAB_KEY - Defined by TS (plugin.tx_jfmulticontent_pi1.tabKey)
+
+<em>Easyaccordion markers:</em>
+SKIN - Sets the selected skin-name
+EASYACCORDION_ACTIVE - Sets the active content (class)
+
+
+<h2>TEMPLATE_COLUMNS:</h2>
+
+<!-- ###TEMPLATE_COLUMNS### begin -->
+<div class="subcolumns###EQUALIZE_CLASS###">
+	<!-- ###COLUMNS### -->
+	<div ###ATTRIBUTE###>###CONTENT###</div>
+	<!-- ###COLUMNS### -->
+</div>
+<!-- ###TEMPLATE_COLUMNS### end -->
+
+
+
+
+
+<h2>TEMPLATE_TAB:</h2>
+
+<!-- ###TEMPLATE_TAB### begin -->
+<div id="###KEY###">
+	<ul>
+		<!-- ###TITLES### -->
+		<li><a href="####TAB_KEY###" rel="###REL###">###TITLE###</a></li>
+		<!-- ###TITLES### -->
+	</ul>
+	<!-- ###COLUMNS### -->
+	<div ###ATTRIBUTE### id="###TAB_KEY###">
+		###CONTENT###
+	</div>
+	<!-- ###COLUMNS### -->
+</div>
+<!-- ###TEMPLATE_TAB### end -->
+
+
+
+
+
+<h2>TEMPLATE_ACCORDION:</h2>
+
+<!-- ###TEMPLATE_ACCORDION### begin -->
+<div id="###KEY###">
+	<!-- ###COLUMNS### -->
+	<h3><a href="####KEY###-###ID###" rel="###REL###">###TITLE###</a></h3>
+	<div ###ATTRIBUTE###>
+		###CONTENT###
+	</div>
+	<!-- ###COLUMNS### -->
+</div>
+<!-- ###TEMPLATE_ACCORDION### end -->
+
+
+
+
+
+<h2>TEMPLATE_SLIDER:</h2>
+
+<!-- ###TEMPLATE_SLIDER### begin -->
+<ul id="###KEY###">
+	<!-- ###COLUMNS### -->
+	<li ###ATTRIBUTE###>
+		###CONTENT###
+	</li>
+	<!-- ###COLUMNS### -->
+</ul>
+<!-- ###TEMPLATE_SLIDER### end -->
+
+
+
+
+
+<h2>TEMPLATE_SLIDEDECK:</h2>
+
+<!-- ###TEMPLATE_SLIDEDECK### begin -->
+<div class="skin-slidedeck">
+	<dl id="###KEY###" class="slidedeck">
+		<!-- ###COLUMNS### -->
+		<dt>###TITLE###</dt>
+		<dd>###CONTENT###</dd>
+		<!-- ###COLUMNS### -->
+	</dl>
+</div>
+<!-- ###TEMPLATE_SLIDEDECK### end -->
+
+
+
+
+
+<h2>TEMPLATE_EASYACCORDION:</h2>
+
+<!-- ###TEMPLATE_EASYACCORDION### begin -->
+<div id="###KEY###" class="easy-accordion-###SKIN###">
+	<dl>
+		<!-- ###COLUMNS### -->
+		<dt ###EASYACCORDION_ACTIVE###>###TITLE###</dt>
+		<dd ###ATTRIBUTE###>###CONTENT###</dd>
+		<!-- ###COLUMNS### -->
+	</dl>
+</div>
+<!-- ###TEMPLATE_EASYACCORDION### end -->
+
+
+
+
+
+<h2>TEMPLATE_BOOKLET:</h2>
+
+<!-- ###TEMPLATE_BOOKLET### begin -->
+<div id="###KEY###">
+	<div class="b-load">
+		<!-- ###COLUMNS### -->
+		<div>
+			<h3>###TITLE###</h3>
+			<div>###CONTENT###</div>
+		</div>
+		<!-- ###COLUMNS### -->
+	</div>
+</div>
+<!-- ###TEMPLATE_BOOKLET### end -->
+
+
+
+
+
+</body>
+</html>
+

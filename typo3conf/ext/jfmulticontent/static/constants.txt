@@ -1,0 +1,101 @@
+plugin.tx_jfmulticontent_pi1 {
+
+	# cat=plugin.tx_jfmulticontent/enable/010; type=boolean; label=jQuery noConflict: Use jQuery in noConflict mode
+	jQueryNoConflict = 0
+
+	# cat=plugin.tx_jfmulticontent/enable/030; type=boolean; label=Javascript in Footer: If set, the Javascript will be rendered in Footer
+	jsInFooter = 0
+
+	# cat=plugin.tx_jfmulticontent/enable/040; type=boolean; label=Minify Javascript: If set, the Javascript will be minified
+	jsMinify = 0
+
+	# cat=plugin.tx_jfmulticontent/enable/050; type=boolean; label=Javascript to Inline: If set, the Javascript will be inserted into the inlineJS, after this, its possible to put it into externel files (config.removeDefaultJS = external)
+	jsInline = 0
+
+	# cat=plugin.tx_jfmulticontent/enable/060; type=boolean; label=Minify CSS: If set, the CSS will be minified
+	cssMinify = 0
+
+
+
+	# cat=plugin.tx_jfmulticontent/file/010; type=file[html,htm,tmpl,txt]; label=HTML-Template file: Location of the used template
+	file.templateFile = EXT:jfmulticontent/res/tx_jfmulticontent_pi1.tmpl
+
+	# cat=plugin.tx_jfmulticontent/file/020; type=file[js]; label=JS-Template file: Location of the used template for JS
+	file.templateFileJS = EXT:jfmulticontent/res/tx_jfmulticontent_pi1.js
+
+	# cat=plugin.tx_jfmulticontent/file/030; type=file[css]; label=CSS file: CSS-File to include
+	file.cssFile = EXT:jfmulticontent/res/tx_jfmulticontent_pi1.css
+
+	# cat=plugin.tx_jfmulticontent/file/040; type=file[js]; label=jQuery Library: Location of the jQuery Lib
+	file.jQueryLibrary = EXT:jfmulticontent/res/jquery/js/jquery-1.8.3.min.js
+
+	# cat=plugin.tx_jfmulticontent/file/045; type=file[js]; label=jQuery Cookies: Location of jQuery Cookies
+	file.jQueryCookies = EXT:jfmulticontent/res/jquery/js/jquery.cookie.js
+
+	# cat=plugin.tx_jfmulticontent/file/050; type=file[js]; label=jQuery Easing: Location of the jQuery Easing
+	file.jQueryEasing = EXT:jfmulticontent/res/jquery/js/jquery.easing-1.3.js
+
+	# cat=plugin.tx_jfmulticontent/file/060; type=file[js]; label=Mousewheel: Location of the Mousewheel
+	file.jQueryMouseWheel = EXT:jfmulticontent/res/jquery/js/jquery.mousewheel-3.0.6.min.js
+
+	# cat=plugin.tx_jfmulticontent/file/070; type=file[js]; label=jQuery UI: Location of the jQuery UI
+	file.jQueryUI = EXT:jfmulticontent/res/jquery/js/jquery-ui-1.9.2.custom.min.js
+
+	# cat=plugin.tx_jfmulticontent/file/080; type=file[css]; label=jQuery UI style: Location of the jQuery UI CSS
+	file.jQueryUIstyle = EXT:jfmulticontent/res/jquery/css/theme-1.9.2/jquery-ui-1.9.2.custom.css
+
+	# cat=plugin.tx_jfmulticontent/file/090; type=file[js]; label=anythingSlider JS-File: Location of the anythingSlider JS-file
+	file.sliderJS = EXT:jfmulticontent/res/anythingslider/jquery.anythingslider-1.8.6.min.js
+
+	# cat=plugin.tx_jfmulticontent/file/095; type=file[js]; label=anythingSlider Video JS-File: Location of the anythingSlider Video JS-file
+	file.sliderJSvideo = EXT:jfmulticontent/res/anythingslider/jquery.anythingslider-1.8.6.video.min.js
+
+	# cat=plugin.tx_jfmulticontent/file/095; type=file[js]; label=anythingSlider FX JS-File: Location of the anythingSlider FX JS-file
+	file.sliderJSfx = EXT:jfmulticontent/res/anythingslider/jquery.anythingslider-1.8.6.fx.min.js
+
+	# cat=plugin.tx_jfmulticontent/file/100; type=file[css]; label=anythingSlider CSS-File: Location of the default anythingSlider CSS-File
+	file.sliderCSS = EXT:jfmulticontent/res/anythingslider/style.css
+
+	# cat=plugin.tx_jfmulticontent/file/105; type=file[css]; label=anythingSlider CSS-File for IE7: Location of the anythingSlider CSS-File for IE7 and lower
+	file.sliderCSSie7 = EXT:jfmulticontent/res/anythingslider/style-ie.css
+
+	# cat=plugin.tx_jfmulticontent/file/110; type=file[js]; label=SlideDeck JS-File: Location of the SlideDeck JS-file
+	file.slidedeckJS = EXT:jfmulticontent/res/slidedeck/jquery.slidedeck-1.3.2.min.js
+
+	# cat=plugin.tx_jfmulticontent/file/120; type=file[css]; label=SlideDeck CSS-File: Location of the SlideDeck CSS-File
+	file.slidedeckCSS = EXT:jfmulticontent/res/slidedeck/skins/default/skin.css
+
+	# cat=plugin.tx_jfmulticontent/file/130; type=file[js]; label=Easy-Accordion JS-File: Location of the Easy-Accordion JS-file
+	file.easyaccordionJS = EXT:jfmulticontent/res/easyaccordion/jquery.easyAccordion-0.2.js
+
+	# cat=plugin.tx_jfmulticontent/file/140; type=file[css]; label=easyAccordion CSS-File: Location of the easyAccordion CSS-File
+	file.easyaccordionCSS = EXT:jfmulticontent/res/easyaccordion/style.css
+
+	# cat=plugin.tx_jfmulticontent/file/150; type=string; label=easyAccordion skin: Used skin for easyAccordion
+	easyaccordionSkin = orange
+
+	# cat=plugin.tx_jfmulticontent/file/160; type=file[js]; label=Booklet JS-File: Location of the Booklet JS-file
+	file.bookletJS = EXT:jfmulticontent/res/booklet/jquery.booklet-1.4.0a.min.js
+
+	# cat=plugin.tx_jfmulticontent/file/170; type=file[css]; label=Booklet CSS-File: Location of the Booklet CSS-file
+	file.bookletCSS = EXT:jfmulticontent/res/booklet/jquery.booklet-1.4.0.css
+
+
+
+	# cat=plugin.tx_jfmulticontent/typo/010; type=string; label=2 Column Classes: Wrap of the classname for 2 Column
+	2columnClasses = c|l |*| c|r
+
+	# cat=plugin.tx_jfmulticontent/typo/020; type=string; label=3 Column Classes: Wrap of the classname for 3 Column
+	3columnClasses = c|l |*| c|l |*| c|r
+
+	# cat=plugin.tx_jfmulticontent/typo/030; type=string; label=4 Column Classes: Wrap of the classname for 4 Column
+	4columnClasses = c|l |*| c|l |*| c|l |*| c|r
+
+	# cat=plugin.tx_jfmulticontent/typo/040; type=string; label=5 Column Classes: Wrap of the classname for 5 Column
+	5columnClasses = c|l |*| c|l |*| c|l |*| c|l |*| c|r
+
+	# cat=plugin.tx_jfmulticontent/typo/050; type=string; label=Equalized class: Used class for equalized columns (equalize)
+	equalizeClass = equalize
+
+}
+

@@ -83,5 +83,14 @@
         
         // Fitvids
         $(".fitvid").fitVids();
+        
+        // Tabs
+		$(".t3bootstrap-tabs a").click(function (e) {
+		  e.preventDefault();
+		  $(this).tab('show');
+		});
+		
+		$(".tab-content").children(":first").addClass("active");
+		$(".t3bootstrap-tabs").children(":first").addClass("active");
     });
 })(jQuery);

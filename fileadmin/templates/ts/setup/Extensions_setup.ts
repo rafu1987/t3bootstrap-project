@@ -134,6 +134,10 @@ page {
     includeJSFooterlibs {
         powermailJQuery >
         powermailJQueryUi >
+        #powermailJQueryTabs >
+    }
+    includeCSS {
+    	powermailJQueryUiTheme >
     }
 }
 

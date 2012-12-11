@@ -1,0 +1,423 @@
+plugin.tx_jfmulticontent_pi1 {
+	jQueryNoConflict = {$plugin.tx_jfmulticontent_pi1.jQueryNoConflict}
+	jsInFooter = {$plugin.tx_jfmulticontent_pi1.jsInFooter}
+	jsMinify = {$plugin.tx_jfmulticontent_pi1.jsMinify}
+	jsInline = {$plugin.tx_jfmulticontent_pi1.jsInline}
+	cssMinify = {$plugin.tx_jfmulticontent_pi1.cssMinify}
+
+	templateFile = {$plugin.tx_jfmulticontent_pi1.file.templateFile}
+	templateFileJS = {$plugin.tx_jfmulticontent_pi1.file.templateFileJS}
+	cssFile = {$plugin.tx_jfmulticontent_pi1.file.cssFile}
+	jQueryLibrary = {$plugin.tx_jfmulticontent_pi1.file.jQueryLibrary}
+	jQueryCookies = {$plugin.tx_jfmulticontent_pi1.file.jQueryCookies}
+	jQueryEasing = {$plugin.tx_jfmulticontent_pi1.file.jQueryEasing}
+	jQueryMouseWheel = {$plugin.tx_jfmulticontent_pi1.file.jQueryMouseWheel}
+	jQueryUI = {$plugin.tx_jfmulticontent_pi1.file.jQueryUI}
+	jQueryUIstyle = {$plugin.tx_jfmulticontent_pi1.file.jQueryUIstyle}
+
+	sliderJS = {$plugin.tx_jfmulticontent_pi1.file.sliderJS}
+	sliderJSvideo = {$plugin.tx_jfmulticontent_pi1.file.sliderJSvideo}
+	sliderJSfx = {$plugin.tx_jfmulticontent_pi1.file.sliderJSfx}
+
+	sliderCSS = {$plugin.tx_jfmulticontent_pi1.file.sliderCSS}
+	sliderCSSie7 = {$plugin.tx_jfmulticontent_pi1.file.sliderCSSie7}
+
+	slidedeckJS = {$plugin.tx_jfmulticontent_pi1.file.slidedeckJS}
+	slidedeckCSS = {$plugin.tx_jfmulticontent_pi1.file.slidedeckCSS}
+
+	easyaccordionJS = {$plugin.tx_jfmulticontent_pi1.file.easyaccordionJS}
+	easyaccordionCSS = {$plugin.tx_jfmulticontent_pi1.file.easyaccordionCSS}
+
+	bookletJS = {$plugin.tx_jfmulticontent_pi1.file.bookletJS}
+	bookletCSS = {$plugin.tx_jfmulticontent_pi1.file.bookletCSS}
+
+	2columnClasses = {$plugin.tx_jfmulticontent_pi1.2columnClasses}
+	3columnClasses = {$plugin.tx_jfmulticontent_pi1.3columnClasses}
+	4columnClasses = {$plugin.tx_jfmulticontent_pi1.4columnClasses}
+	5columnClasses = {$plugin.tx_jfmulticontent_pi1.5columnClasses}
+	equalizeClass = {$plugin.tx_jfmulticontent_pi1.equalizeClass}
+
+	columnWrap {
+		wrap = <div class="subcl">|</div> |*| <div class="subc">|</div> |*| <div class="subcr">|</div>
+	}
+	tabWrap {
+		wrap = |
+	}
+	tabKey = TEXT
+	tabKey {
+		value = {register:key}-{register:id}
+		insertData = 1
+	}
+	accordionWrap {
+		wrap = |
+	}
+	sliderWrap {
+		wrap = |
+	}
+	slidedeckWrap {
+		wrap = |
+	}
+	easyaccordionWrap {
+		wrap = |
+	}
+	bookletWrap {
+		wrap = |
+	}
+
+	disableJs = 0
+
+	config {
+		contentKey = jfmulticontent_ts1
+		style = 2column
+		columnOrder =
+		column1 = 50
+		column2 = 50
+		column3 =
+		column4 =
+		column5 =
+		equalize = 0
+
+		tabCollapsible = 1
+		tabOpen = 1
+		tabRandomContent = 0
+		tabEvent =
+		tabHeightStyle = auto
+		tabCookieExpires =
+		tabCookieRoot = 0
+		tabHideEffect = fadeOut
+		tabHideTransition =
+		tabHideTransitiondir =
+		tabHideTransitionduration =
+		tabShowEffect = fadeIn
+		tabShowTransition =
+		tabShowTransitiondir =
+		tabShowTransitionduration =
+		tabOptions (
+		)
+		tabOptionsOverride = 0
+
+		accordionCollapsible = 0
+		accordionClosed = 0
+		accordionOpen = 1
+		accordionRandomContent = 0
+		accordionEvent =
+		accordionHeightStyle = auto
+		accordionAnimate = 1
+		accordionTransition =
+		accordionTransitiondir = In
+		accordionTransitionduration = 1000
+		accordionOptions (
+		)
+		accordionOptionsOverride = 0
+
+		sliderWidth =
+		sliderHeight =
+		sliderResizeContents = 0
+		sliderTheme =
+		sliderMode = horizontal
+		sliderOpen = 1
+		sliderRandomContent = 0
+		sliderHashTags = 0
+		sliderBuildArrows = 1
+		sliderToggleArrows = 0
+		sliderNavigation = 1
+		sliderStartStop = 1
+		sliderPanelFromHeader = 0
+		sliderToggleControls = 0
+		sliderAutoStart = 0
+		sliderPauseOnHover = 0
+		sliderAllowRapidChange = 0
+		sliderResumeOnVideoEnd = 0
+		sliderStopAtEnd = 0
+		sliderPlayRtl = 0
+		sliderTransition = swing
+		sliderTransitiondir = In
+		sliderTransitionduration = 1000
+		sliderAutoplay = 0
+		sliderOptions (
+		)
+		sliderOptionsOverride = 0
+
+		slidedeckHeight = 300
+		slidedeckTransition = swing
+		slidedeckTransitiondir =
+		slidedeckTransitionduration = 500
+		slidedeckStart = 1
+		slidedeckActivecorner = 1
+		slidedeckIndex = 1
+		slidedeckScroll = 0
+		slidedeckKeys = 0
+		slidedeckHidespines = 0
+		slidedeckOptions (
+		)
+		slidedeckOptionsOverride = 0
+
+		easyaccordionSkin = {$plugin.tx_jfmulticontent_pi1.easyaccordionSkin}
+		easyaccordionOpen = 1
+		easyaccordionWidth = 600
+		easyaccordionSlideNum = 1
+		easyaccordionOptions (
+		)
+		easyaccordionOptionsOverride = 0
+
+		bookletWidth = 600
+		bookletHeight = 400
+		bookletSpeed = 1000
+		bookletStartingPage = 0
+		bookletRTL = 0
+		bookletTransition =
+		bookletTransitiondir =
+		bookletPagePadding = 10
+		bookletPageNumbers = 1
+		bookletManual = 0
+		bookletShadows = 1
+		bookletClosed = 0
+		bookletCovers = 0
+		bookletAutoCenter = 0
+		bookletHash = 0
+		bookletKeyboard = 0
+		bookletAuto = 0
+		bookletDelay = 5000
+		bookletOverlays = 1
+		bookletArrows = 0
+		bookletArrowsHide = 0
+		bookletHovers = 1
+		bookletOptions (
+		)
+		bookletOptionsOverride = 0
+
+		delayDuration = 0
+		autoplayCycle = 0
+
+	}
+	views {
+		page {
+			content = CONTENT
+			content {
+				table = tt_content
+				select {
+					pidInList.data = register:pid
+					orderBy = sorting
+					where = colPos=0
+					languageField = sys_language_uid
+				}
+			}
+			title = TEXT
+			title.data = register:page_title
+			rel = COA
+			rel {
+				if.equals.data = register:page_doktype
+				if.value = 3
+				10 = CASE
+				10 {
+					key.data = register:page_urltype
+					1 = TEXT
+					1.value = http://
+					2 = TEXT
+					2.value = ftp://
+					3 = TEXT
+					3.value = mailto:
+					4 = TEXT
+					4.value = https://
+					default.value =
+				}
+				20 = TEXT
+				20 {
+					data = register:page_url
+				}
+			}
+		}
+		content {
+			content = RECORDS
+			content {
+				tables = tt_content
+				source.data = register:uid
+				dontCheckPid = 1
+			}
+			title = TEXT
+			title.data = register:title
+			rel >
+		}
+		irre {
+			content = RECORDS
+			content {
+				tables = tt_content
+				source.data = register:uid
+				dontCheckPid = 1
+			}
+			title = TEXT
+			title.data = register:title
+			rel >
+		}
+	}
+	contents {
+		10 {
+			content = CONTENT
+			content {
+				table = tt_content
+				select {
+					orderBy = sorting
+					where = colPos=12
+					begin = 0
+					max = 1
+					languageField = sys_language_uid
+				}
+			}
+			title < .content
+			title.renderObj = COA
+			title.renderObj {
+				10 = TEXT
+				10.field = header
+			}
+			rel >
+		}
+		20 < .10
+		20.id = 2
+		20.content.select.begin = 1
+		20.title.select.begin = 1
+		30 < .10
+		30.id = 3
+		30.content.select.begin = 2
+		30.title.select.begin = 2
+		40 < .10
+		40.id = 4
+		40.content.select.begin = 3
+		40.title.select.begin = 3
+	}
+}
+
+
+
+
+/*
+# Example page-view for templavoila
+includeLibs.jfmulticontent = EXT:jfmulticontent/class.tx_jfmulticontent.php
+plugin.tx_jfmulticontent_pi1 {
+	views.page >
+	views {
+		page {
+			content = COA
+			content {
+				10 = USER
+				10 {
+					userFunc = tx_jfmulticontent->getContentFromTemplavoilaField
+					field = field_feature
+					pageID.data = register:pid
+					contentRender = RECORDS
+					contentRender {
+						tables = tt_content
+						source.data = register:uid
+						dontCheckPid = 1
+					}
+				}
+				20 < .10
+				20 {
+					field = field_content_block_1
+				}
+			}
+			title = TEXT
+			title.data = register:page_title
+		}
+	}
+}
+
+# Example for accordion in template
+plugin.tx_jfmulticontent_pi1 {
+	config {
+		contentKey = jfmulticontent_accordion
+		style = accordion
+		accordionCollapsible = 0
+		accordionClosed = 0
+		accordionOpen = 1
+		accordionRandomContent = 0
+		accordionEvent =
+		delayDuration = 0
+		options (
+		)
+		optionsOverride = 0
+	}
+	contents {
+		10 {
+			id = 1
+			content = CONTENT
+			content {
+				table = tt_content
+				select {
+					orderBy = sorting
+					where = colPos=12
+					begin = 0
+					max = 1
+					languageField = sys_language_uid
+				}
+			}
+			title < .content
+			title.renderObj = COA
+			title.renderObj {
+				10 = TEXT
+				10.field = header
+			}
+		}
+		20 < .10
+		20.id = 2
+		20.content.select.begin = 1
+		20.title.select.begin = 1
+		30 < .10
+		30.id = 3
+		30.content.select.begin = 2
+		30.title.select.begin = 2
+		40 < .10
+		40.id = 4
+		40.content.select.begin = 3
+		40.title.select.begin = 3
+	}
+}
+
+# Example for tab in template
+plugin.tx_jfmulticontent_pi1 {
+	config {
+		contentKey = jfmulticontent_tab
+		style = tab
+		tabCollapsible = 0
+		tabOpen = 1
+		tabRandomContent = 0
+		delayDuration = 0
+		options (
+		)
+		optionsOverride = 0
+	}
+	contents {
+		10 {
+			id = 1
+			content = CONTENT
+			content {
+				table = tt_content
+				select {
+					orderBy = sorting
+					where = colPos=12
+					begin = 0
+					max = 1
+					languageField = sys_language_uid
+				}
+			}
+			title < .content
+			title.renderObj = COA
+			title.renderObj {
+				10 = TEXT
+				10.field = header
+			}
+		}
+		20 < .10
+		20.id = 2
+		20.content.select.begin = 1
+		20.title.select.begin = 1
+		30 < .10
+		30.id = 3
+		30.content.select.begin = 2
+		30.title.select.begin = 2
+		40 < .10
+		40.id = 4
+		40.content.select.begin = 3
+		40.title.select.begin = 3
+	}
+}
+*/

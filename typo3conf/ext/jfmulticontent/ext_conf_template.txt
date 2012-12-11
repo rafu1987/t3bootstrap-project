@@ -1,0 +1,83 @@
+
+# cat=basic/enable/010; type=boolean; label=Use General Record Storage page only: If set, only content can be choosen from the defined General Record Storage page
+useStoragePidOnly = 1
+
+# cat=basic/enable/020; type=boolean; label=Activate tt_news codes: Enables the additional codes in tt_news
+ttNewsCodes = 0
+
+# cat=basic/enable/030; type=boolean; label=Enable FE-Errormessages: If set, messages in case of missing templates are displayed in FE (Turn of in production)
+frontendErrorMsg = 1
+
+# cat=basic/enable/040; type=boolean; label=Enable select instead of checkbox: If set, most of checkboxes will turn into selectboxes, so you can choose "from TS"
+useSelectInsteadCheckbox = 0
+
+# cat=basic/enable/050; type=boolean; label=Enable own userFunc in page mode: If set, you have to do the pagerendering with a own userFunc (e.g.: TemplaVoila, see documentation)
+useOwnUserFuncForPages = 0
+
+# cat=basic/enable/060; type=boolean; label=Open external links in page-view: If set, the external link in page-view will be opened
+openExternalLink = 0
+
+# cat=basic/enable/070; type=boolean; label=Show empty content: If set, an empty content will be shown as well
+showEmptyContent = 0
+
+# cat=basic/enable/080; type=boolean; label=Add Browse Links: If set, there will be an additional tab in the link-browser
+addBrowseLinks = 0
+
+# cat=basic/enable/090; type=boolean; label=Select tab by Hash-Value: If set, the tabs can be selected by hash-value in URL
+tabSelectByHash = 0
+
+# cat=basic/enable/100; type=integer; label=colPos of IRRE Content: Select the colPos where the tt_content will be saved in IRRE-view
+colPosOfIrreContent = 93
+
+
+
+# cat=basic/basic/10; type=boolean; label=Enable 2column: Enables the 2column-Style for the backend
+style.2column = 1
+
+# cat=basic/basic/20; type=boolean; label=Enable 3column: Enables the 3column-Style for the backend
+style.3column = 1
+
+# cat=basic/basic/30; type=boolean; label=Enable 4column: Enables the 4column-Style for the backend
+style.4column = 1
+
+# cat=basic/basic/40; type=boolean; label=Enable 5column: Enables the 5column-Style for the backend
+style.5column = 1
+
+# cat=basic/basic/50; type=boolean; label=Enable tab: Enables the tab-Style for the backend
+style.tab = 1
+
+# cat=basic/basic/60; type=boolean; label=Enable accordion: Enables the accordion-Style for the backend
+style.accordion = 1
+
+# cat=basic/basic/70; type=boolean; label=Enable slider: Enables the slider-Style for the backend
+style.slider = 1
+
+# cat=basic/basic/80; type=boolean; label=Enable slidedeck: Enables the slidedeck-Style for the backend
+style.slidedeck = 1
+
+# cat=basic/basic/90; type=boolean; label=Enable easyaccordion: Enables the easyaccordion-Style for the backend
+style.easyaccordion = 1
+
+# cat=basic/basic/100; type=boolean; label=Enable booklet: Enables the booklet-Style for the backend
+style.booklet = 1
+
+# cat=basic/basic/110; type=boolean; label=Enable typoscript: Enables the typoscript-Style for the backend
+style.typoscript = 0
+
+
+
+# cat=basic/basic/20; type=string; label=Class Inner: Possible values to wrap in column classes (,16,20,25,33,38,40,50,60,62,66,75,80)
+classInner = ,16,20,25,33,38,40,50,60,62,66,75,80
+
+# cat=basic/basic/30; type=string; label=anythingSlider theme folder: Location of the theme folder for anythingSlider
+anythingSliderThemeFolder = EXT:jfmulticontent/res/anythingslider/themes/
+
+# cat=basic/basic/40; type=string; label=easyAccordion skin folder: Location of the skin folder for easyAccordion
+easyAccordionSkinFolder = EXT:jfmulticontent/res/easyaccordion/skins/
+
+# cat=basic/basic/20; type=string; label=Slider Modes: Possible values to use for AnythingSlider "mode" (horizontal,vertical,fade)
+anythingSliderModes = horizontal,vertical,fade
+
+# cat=basic/dev/1000; type=user[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tsparserext.php:tx_jfmulticontent_tsparserext->displayMessage]; label=Updater
+updateMessage = 0
+

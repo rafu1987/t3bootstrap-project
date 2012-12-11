@@ -1,0 +1,1909 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<general>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sheet_general</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<style>
+						<TCEforms>
+							<onChange>reload</onChange>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.style</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<itemsProcFunc>tx_jfmulticontent_itemsProcFunc->getStyle</itemsProcFunc>
+							</config>
+						</TCEforms>
+					</style>
+					
+					<!-- COLUMN -->
+					
+					<columnOrder>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:IN:,2column,3column,4column,5column</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.columnOrder</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<default></default>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.columnOrder.I.0</numIndex>
+										<numIndex index="1"></numIndex>
+										<numIndex index="2">EXT:jfmulticontent/selicon_tt_content_tx_jfmulticontent_columnOrder_0.gif</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.columnOrder.I.1</numIndex>
+										<numIndex index="1">1</numIndex>
+										<numIndex index="2">EXT:jfmulticontent/selicon_tt_content_tx_jfmulticontent_columnOrder_1.gif</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.columnOrder.I.2</numIndex>
+										<numIndex index="1">2</numIndex>
+										<numIndex index="2">EXT:jfmulticontent/selicon_tt_content_tx_jfmulticontent_columnOrder_2.gif</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</columnOrder>
+					<column1>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:IN:,2column,3column,4column,5column</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.column1</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<itemsProcFunc>tx_jfmulticontent_itemsProcFunc->getClassInner</itemsProcFunc>
+							</config>
+						</TCEforms>
+					</column1>
+					<column2>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:IN:,2column,3column,4column,5column</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.column2</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<itemsProcFunc>tx_jfmulticontent_itemsProcFunc->getClassInner</itemsProcFunc>
+							</config>
+						</TCEforms>
+					</column2>
+					<column3>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:IN:3column,4column,5column</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.column3</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<itemsProcFunc>tx_jfmulticontent_itemsProcFunc->getClassInner</itemsProcFunc>
+							</config>
+						</TCEforms>
+					</column3>
+					<column4>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:IN:4column,5column</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.column4</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<itemsProcFunc>tx_jfmulticontent_itemsProcFunc->getClassInner</itemsProcFunc>
+							</config>
+						</TCEforms>
+					</column4>
+					<column5>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:IN:5column</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.column5</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<itemsProcFunc>tx_jfmulticontent_itemsProcFunc->getClassInner</itemsProcFunc>
+							</config>
+						</TCEforms>
+					</column5>
+					<equalize>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:IN:,2column,3column,4column,5column</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.equalize</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</equalize>
+					
+					<!-- TAB -->
+					
+					<tabCollapsible>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabCollapsible</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</tabCollapsible>
+					<tabOpen>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabOpen</label>
+							<config>
+								<type>input</type>
+								<size>2</size>
+								<max>2</max>
+								<default></default>
+								<eval>nospace</eval>
+							</config>
+						</TCEforms>
+					</tabOpen>
+					<tabRandomContent>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabRandomContent</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</tabRandomContent>
+					<tabEvent>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabEvent</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabEvent.I.1</numIndex>
+										<numIndex index="1">click</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabEvent.I.2</numIndex>
+										<numIndex index="1">mouseover</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</tabEvent>
+					<tabHeightStyle>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabHeightStyle</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabHeightStyle.I.1</numIndex>
+										<numIndex index="1">auto</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabHeightStyle.I.2</numIndex>
+										<numIndex index="1">fill</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabHeightStyle.I.3</numIndex>
+										<numIndex index="1">content</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</tabHeightStyle>
+					<tabCookieExpires>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabCookieExpires</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>nospace</eval>
+							</config>
+						</TCEforms>
+					</tabCookieExpires>
+					<tabCookieRoot>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabCookieRoot</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</tabCookieRoot>
+					<tabHideEffect>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabHideEffect</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabShowEffect.I.1</numIndex>
+										<numIndex index="1">none</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabShowEffect.I.2</numIndex>
+										<numIndex index="1">fadeOut</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabShowEffect.I.3</numIndex>
+										<numIndex index="1">slideUp</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</tabHideEffect>
+					<tabHideTransition>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabHideTransition</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Swing</numIndex>
+										<numIndex index="1">swing</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Linear</numIndex>
+										<numIndex index="1">linear</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Quad</numIndex>
+										<numIndex index="1">Quad</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Cubic</numIndex>
+										<numIndex index="1">Cubic</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Quart</numIndex>
+										<numIndex index="1">Quart</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Quint</numIndex>
+										<numIndex index="1">Quint</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">Sine</numIndex>
+										<numIndex index="1">Sine</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">Expo</numIndex>
+										<numIndex index="1">Expo</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">Circ</numIndex>
+										<numIndex index="1">Circ</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">Back</numIndex>
+										<numIndex index="1">Back</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">Bounce</numIndex>
+										<numIndex index="1">Bounce</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">Elastic</numIndex>
+										<numIndex index="1">Elastic</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</tabHideTransition>
+					<tabHideTransitiondir>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabHideTransitiondir</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">In</numIndex>
+										<numIndex index="1">In</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Out</numIndex>
+										<numIndex index="1">Out</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">InOut</numIndex>
+										<numIndex index="1">InOut</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</tabHideTransitiondir>
+					<tabHideTransitionduration>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabHideTransitionduration</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</tabHideTransitionduration>
+					<tabShowEffect>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabShowEffect</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabShowEffect.I.1</numIndex>
+										<numIndex index="1">none</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabShowEffect.I.2</numIndex>
+										<numIndex index="1">fadeIn</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabShowEffect.I.3</numIndex>
+										<numIndex index="1">slideDown</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</tabShowEffect>
+					<tabShowTransition>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabShowTransition</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Swing</numIndex>
+										<numIndex index="1">swing</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Linear</numIndex>
+										<numIndex index="1">linear</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Quad</numIndex>
+										<numIndex index="1">Quad</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Cubic</numIndex>
+										<numIndex index="1">Cubic</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Quart</numIndex>
+										<numIndex index="1">Quart</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Quint</numIndex>
+										<numIndex index="1">Quint</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">Sine</numIndex>
+										<numIndex index="1">Sine</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">Expo</numIndex>
+										<numIndex index="1">Expo</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">Circ</numIndex>
+										<numIndex index="1">Circ</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">Back</numIndex>
+										<numIndex index="1">Back</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">Bounce</numIndex>
+										<numIndex index="1">Bounce</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">Elastic</numIndex>
+										<numIndex index="1">Elastic</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</tabShowTransition>
+					<tabShowTransitiondir>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabShowTransitiondir</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">In</numIndex>
+										<numIndex index="1">In</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Out</numIndex>
+										<numIndex index="1">Out</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">InOut</numIndex>
+										<numIndex index="1">InOut</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</tabShowTransitiondir>
+					<tabShowTransitionduration>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:tab</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.tabShowTransitionduration</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</tabShowTransitionduration>
+					
+					<!-- ACCORDION -->
+					
+					<accordionCollapsible>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:accordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionCollapsible</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</accordionCollapsible>
+					<accordionClosed>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:accordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionClosed</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</accordionClosed>
+					<accordionOpen>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:accordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionOpen</label>
+							<config>
+								<type>input</type>
+								<size>2</size>
+								<max>2</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</accordionOpen>
+					<accordionRandomContent>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:accordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionRandomContent</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</accordionRandomContent>
+					<accordionEvent>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:accordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionEvent</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionEvent.I.1</numIndex>
+										<numIndex index="1">click</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionEvent.I.2</numIndex>
+										<numIndex index="1">mouseover</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</accordionEvent>
+					<accordionHeightStyle>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:accordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionHeightStyle</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionHeightStyle.I.1</numIndex>
+										<numIndex index="1">auto</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionHeightStyle.I.2</numIndex>
+										<numIndex index="1">fill</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionHeightStyle.I.3</numIndex>
+										<numIndex index="1">content</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</accordionHeightStyle>
+					<accordionAnimate>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:accordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionAnimate</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</accordionAnimate>
+					<accordionTransition>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:accordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionTransition</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Swing</numIndex>
+										<numIndex index="1">swing</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Linear</numIndex>
+										<numIndex index="1">linear</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Quad</numIndex>
+										<numIndex index="1">Quad</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Cubic</numIndex>
+										<numIndex index="1">Cubic</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Quart</numIndex>
+										<numIndex index="1">Quart</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Quint</numIndex>
+										<numIndex index="1">Quint</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">Sine</numIndex>
+										<numIndex index="1">Sine</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">Expo</numIndex>
+										<numIndex index="1">Expo</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">Circ</numIndex>
+										<numIndex index="1">Circ</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">Back</numIndex>
+										<numIndex index="1">Back</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">Bounce</numIndex>
+										<numIndex index="1">Bounce</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">Elastic</numIndex>
+										<numIndex index="1">Elastic</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</accordionTransition>
+					<accordionTransitiondir>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:accordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionTransitiondir</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">In</numIndex>
+										<numIndex index="1">In</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Out</numIndex>
+										<numIndex index="1">Out</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">InOut</numIndex>
+										<numIndex index="1">InOut</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</accordionTransitiondir>
+					<accordionTransitionduration>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:accordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.accordionTransitionduration</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</accordionTransitionduration>
+					
+					<!-- SLIDER -->
+					
+					<sliderWidth>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderWidth</label>
+							<config>
+								<type>input</type>
+								<size>16</size>
+								<max>16</max>
+								<eval>nospace</eval>
+							</config>
+						</TCEforms>
+					</sliderWidth>
+					<sliderHeight>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderHeight</label>
+							<config>
+								<type>input</type>
+								<size>16</size>
+								<max>16</max>
+								<eval>nospace</eval>
+							</config>
+						</TCEforms>
+					</sliderHeight>
+					<sliderResizeContents>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderResizeContents</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderResizeContents>
+					<sliderTheme>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderTheme</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+								</items>
+								<itemsProcFunc>tx_jfmulticontent_itemsProcFunc->getAnythingSliderThemes</itemsProcFunc>
+							</config>
+						</TCEforms>
+					</sliderTheme>
+					<sliderMode>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderMode</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+								</items>
+								<itemsProcFunc>tx_jfmulticontent_itemsProcFunc->getAnythingSliderModes</itemsProcFunc>
+							</config>
+						</TCEforms>
+					</sliderMode>
+					<sliderOpen>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderOpen</label>
+							<config>
+								<type>input</type>
+								<size>2</size>
+								<max>2</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</sliderOpen>
+					<sliderRandomContent>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderRandomContent</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderRandomContent>
+					<sliderHashTags>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderHashTags</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderHashTags>
+					<sliderBuildArrows>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderBuildArrows</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</sliderBuildArrows>
+					<sliderToggleArrows>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderToggleArrows</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderToggleArrows>
+					<sliderNavigation>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderNavigation</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</sliderNavigation>
+					<sliderStartStop>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderStartStop</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</sliderStartStop>
+					<sliderPanelFromHeader>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderPanelFromHeader</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderPanelFromHeader>
+					<sliderToggleControls>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderToggleControls</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderToggleControls>
+					<sliderAutoStart>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderAutoStart</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderAutoStart>
+					<sliderPauseOnHover>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderPauseOnHover</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderPauseOnHover>
+					<sliderAllowRapidChange>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderAllowRapidChange</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderAllowRapidChange>
+					<sliderResumeOnVideoEnd>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderResumeOnVideoEnd</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderResumeOnVideoEnd>
+					<sliderStopAtEnd>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderStopAtEnd</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderStopAtEnd>
+					<sliderPlayRtl>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderPlayRtl</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderPlayRtl>
+					<sliderTransition>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderTransition</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Swing</numIndex>
+										<numIndex index="1">swing</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Linear</numIndex>
+										<numIndex index="1">linear</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Quad</numIndex>
+										<numIndex index="1">Quad</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Cubic</numIndex>
+										<numIndex index="1">Cubic</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Quart</numIndex>
+										<numIndex index="1">Quart</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Quint</numIndex>
+										<numIndex index="1">Quint</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">Sine</numIndex>
+										<numIndex index="1">Sine</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">Expo</numIndex>
+										<numIndex index="1">Expo</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">Circ</numIndex>
+										<numIndex index="1">Circ</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">Back</numIndex>
+										<numIndex index="1">Back</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">Bounce</numIndex>
+										<numIndex index="1">Bounce</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">Elastic</numIndex>
+										<numIndex index="1">Elastic</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</sliderTransition>
+					<sliderTransitiondir>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderTransitiondir</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">In</numIndex>
+										<numIndex index="1">In</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Out</numIndex>
+										<numIndex index="1">Out</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">InOut</numIndex>
+										<numIndex index="1">InOut</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</sliderTransitiondir>
+					<sliderTransitionduration>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderTransitionduration</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</sliderTransitionduration>
+					<sliderAutoplay>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slider</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sliderAutoplay</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</sliderAutoplay>
+					
+					<!-- SLIDEDECK -->
+					
+					<slidedeckHeight>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slidedeck</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.slidedeckHeight</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</slidedeckHeight>
+					<slidedeckTransition>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slidedeck</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.slidedeckTransition</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Swing</numIndex>
+										<numIndex index="1">swing</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Linear</numIndex>
+										<numIndex index="1">linear</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Quad</numIndex>
+										<numIndex index="1">Quad</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Cubic</numIndex>
+										<numIndex index="1">Cubic</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Quart</numIndex>
+										<numIndex index="1">Quart</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Quint</numIndex>
+										<numIndex index="1">Quint</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">Sine</numIndex>
+										<numIndex index="1">Sine</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">Expo</numIndex>
+										<numIndex index="1">Expo</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">Circ</numIndex>
+										<numIndex index="1">Circ</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">Back</numIndex>
+										<numIndex index="1">Back</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">Bounce</numIndex>
+										<numIndex index="1">Bounce</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">Elastic</numIndex>
+										<numIndex index="1">Elastic</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</slidedeckTransition>
+					<slidedeckTransitiondir>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slidedeck</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.slidedeckTransitiondir</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">In</numIndex>
+										<numIndex index="1">In</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Out</numIndex>
+										<numIndex index="1">Out</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">InOut</numIndex>
+										<numIndex index="1">InOut</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</slidedeckTransitiondir>
+					<slidedeckTransitionduration>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slidedeck</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.slidedeckTransitionduration</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</slidedeckTransitionduration>
+					<slidedeckStart>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slidedeck</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.slidedeckStart</label>
+							<config>
+								<type>input</type>
+								<size>2</size>
+								<max>2</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</slidedeckStart>
+					<slidedeckActivecorner>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slidedeck</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.slidedeckActivecorner</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</slidedeckActivecorner>
+					<slidedeckIndex>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slidedeck</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.slidedeckIndex</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</slidedeckIndex>
+					<slidedeckScroll>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slidedeck</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.slidedeckScroll</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</slidedeckScroll>
+					<slidedeckKeys>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slidedeck</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.slidedeckKeys</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</slidedeckKeys>
+					<slidedeckHidespines>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:slidedeck</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.slidedeckHidespines</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</slidedeckHidespines>
+					
+					<!-- EASYACCORDION -->
+					
+					<easyaccordionSkin>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:easyaccordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.easyaccordionSkin</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+								</items>
+								<itemsProcFunc>tx_jfmulticontent_itemsProcFunc->getEasyaccordionSkin</itemsProcFunc>
+							</config>
+						</TCEforms>
+					</easyaccordionSkin>
+					<easyaccordionOpen>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:easyaccordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.easyaccordionOpen</label>
+							<config>
+								<type>input</type>
+								<size>2</size>
+								<max>2</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</easyaccordionOpen>
+					<easyaccordionWidth>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:easyaccordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.easyaccordionWidth</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</easyaccordionWidth>
+					<easyaccordionSlideNum>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:easyaccordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.easyaccordionSlideNum</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</easyaccordionSlideNum>
+					
+					<!-- BOOKLET -->
+					
+					<bookletWidth>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletWidth</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</bookletWidth>
+					<bookletHeight>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletHeight</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</bookletHeight>
+					<bookletSpeed>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletSpeed</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</bookletSpeed>
+					<bookletStartingPage>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletStartingPage</label>
+							<config>
+								<type>input</type>
+								<size>3</size>
+								<max>3</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</bookletStartingPage>
+					<bookletRTL>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletRTL</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</bookletRTL>
+					<bookletTransition>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletTransition</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Swing</numIndex>
+										<numIndex index="1">swing</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Linear</numIndex>
+										<numIndex index="1">linear</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Quad</numIndex>
+										<numIndex index="1">Quad</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Cubic</numIndex>
+										<numIndex index="1">Cubic</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Quart</numIndex>
+										<numIndex index="1">Quart</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Quint</numIndex>
+										<numIndex index="1">Quint</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">Sine</numIndex>
+										<numIndex index="1">Sine</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">Expo</numIndex>
+										<numIndex index="1">Expo</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">Circ</numIndex>
+										<numIndex index="1">Circ</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">Back</numIndex>
+										<numIndex index="1">Back</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">Bounce</numIndex>
+										<numIndex index="1">Bounce</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">Elastic</numIndex>
+										<numIndex index="1">Elastic</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</bookletTransition>
+					<bookletTransitiondir>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletTransitiondir</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.pi_flexform.from_ts</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">In</numIndex>
+										<numIndex index="1">In</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Out</numIndex>
+										<numIndex index="1">Out</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">InOut</numIndex>
+										<numIndex index="1">InOut</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</bookletTransitiondir>
+					<bookletPagePadding>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletPagePadding</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</bookletPagePadding>
+					<bookletPageNumbers>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletPageNumbers</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</bookletPageNumbers>
+					<bookletManual>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletManual</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</bookletManual>
+					<bookletShadows>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletShadows</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</bookletShadows>
+					<bookletClosed>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletClosed</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</bookletClosed>
+					<bookletCovers>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletCovers</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</bookletCovers>
+					<bookletAutoCenter>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletAutoCenter</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</bookletAutoCenter>
+					<bookletHash>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletHash</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</bookletHash>
+					<bookletKeyboard>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletKeyboard</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</bookletKeyboard>
+					<bookletAuto>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletAuto</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</bookletAuto>
+					<bookletDelay>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletDelay</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</bookletDelay>
+					<bookletOverlays>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletOverlays</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</bookletOverlays>
+					<bookletArrows>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletArrows</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</bookletArrows>
+					<bookletArrowsHide>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletArrowsHide</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</bookletArrowsHide>
+					<bookletHovers>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:booklet</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.bookletHovers</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>1</checked>
+							</config>
+						</TCEforms>
+					</bookletHovers>
+					
+					<!-- TYPOSCRIPT -->
+					
+					<typoscriptInfo>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:=:typoscript</displayCond>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getTypoScriptInfo]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</typoscriptInfo>
+					
+					<!-- AUTOPLAY -->
+					
+					<delayDuration>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:IN:slider,slidedeck,easyaccordion</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.autoplayDuration</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<max>6</max>
+								<default></default>
+								<checkbox>0</checkbox>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</delayDuration>
+					<autoplayCycle>
+						<TCEforms>
+							<exclude>1</exclude>
+							<displayCond>FIELD:style:IN:slidedeck</displayCond>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.autoplayCycle</label>
+							<config>
+								<form_type>user</form_type>
+								<userFunc><![CDATA[EXT:jfmulticontent/lib/class.tx_jfmulticontent_tceFunc.php:&tx_jfmulticontent_tceFunc->getCheckbox]]></userFunc>
+								<checked>0</checked>
+							</config>
+						</TCEforms>
+					</autoplayCycle>
+				</el>
+			</ROOT>
+		</general>
+		<title>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sheet_title</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<titles>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.titles</label>
+							<config>
+								<type>text</type>
+								<wrap>OFF</wrap>
+								<cols>48</cols>
+								<rows>6</rows>
+							</config>
+						</TCEforms>
+					</titles>
+				</el>
+			</ROOT>
+		</title>
+		<attribute>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sheet_attribute</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<attributes>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.attributes</label>
+							<config>
+								<type>text</type>
+								<wrap>OFF</wrap>
+								<cols>48</cols>
+								<rows>6</rows>
+							</config>
+						</TCEforms>
+					</attributes>
+				</el>
+			</ROOT>
+		</attribute>
+		<special>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.sheet_options</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<options>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.options</label>
+							<config>
+								<type>text</type>
+								<wrap>OFF</wrap>
+								<cols>48</cols>
+								<rows>10</rows>
+							</config>
+						</TCEforms>
+					</options>
+					<optionsOverride>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:jfmulticontent/locallang_db.xml:tt_content.tx_jfmulticontent.optionsOverride</label>
+							<config>
+								<type>check</type>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</optionsOverride>
+				</el>
+			</ROOT>
+		</special>
+	</sheets>
+</T3DataStructure>
+

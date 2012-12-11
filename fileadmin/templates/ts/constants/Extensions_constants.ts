@@ -67,3 +67,16 @@ plugin.tx_news {
 }
 
 # # News [END]
+
+# # Multi content [BEGIN]
+
+plugin.tx_jfmulticontent_pi1 {
+	file {
+		templateFile = fileadmin/templates/default/templates/jfmulticontent/tx_jfmulticontent_pi1.tmpl
+		cssFile >
+		templateFileJS >
+		jQueryUIstyle >
+	}
+}
+
+# # Multi content [END]

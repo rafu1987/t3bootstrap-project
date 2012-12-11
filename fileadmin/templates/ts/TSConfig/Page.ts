@@ -74,6 +74,73 @@ TCEFORM {
     spaceAfter {
         disabled = 1
     }
+    pi_flexform {
+    	jfmulticontent_pi1 {
+    		general {
+    			tabCollapsible {
+    				disabled = 1
+    			}
+    			tabOpen {
+    				disabled = 1
+    			}
+    			tabRandomContent {
+    				diabled = 1
+    			}
+    			tabEvent {
+    				disabled = 1
+    			}
+    			tabHeightStyle {
+    				disabled = 1
+    			}
+    			tabCookieExpires {
+    				disabled = 1
+    			}
+    			tabRandomContent {
+    				disabled = 1
+    			}
+    			tabCookieRoot {
+    				disabled = 1
+    			}
+    			tabHideEffect {
+    				disabled = 1
+    			}
+    			tabHideTransition {
+    				disabled = 1
+    			}
+    			tabHideTransitiondir {
+    				disabled = 1
+    			}
+    			tabHideTransitionduration {
+    				disabled = 1
+    			}
+    			tabShowEffect {
+    				disabled = 1
+    			}
+    			tabShowTransition {
+    				disabled = 1
+    			}
+    			tabShowTransitiondir {
+    				disabled = 1
+    			}
+    			tabShowTransitionduration {
+    				disabled = 1
+    			}
+    		}
+    		attribute {
+    			attributes {
+    				disabled = 1
+    			}
+    		}
+    		special {
+    			options {
+    				disabled = 1
+    			}
+    			optionsOverride {
+    				disabled = 1
+    			}
+    		}
+    	}
+    }		
   }
   pages {
     tx_in2facebook_url {

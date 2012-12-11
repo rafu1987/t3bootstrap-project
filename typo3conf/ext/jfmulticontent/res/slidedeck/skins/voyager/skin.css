@@ -1,0 +1,146 @@
+/*
+Skin Name: Voyager
+Skin URI: http://www.slidedeck.com/
+Skin Type: fluid
+Description: Clean fluid skin with dark background
+Version: 1.0
+Author: digital-telepathy
+Designer: Chan Karunamuni
+Author URI: http://www.dtelepathy.com/
+Tags: flexible, white, black, blue
+*/
+.skin-slidedeck dl.slidedeck {
+	margin: 0;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #666;
+}
+.skin-slidedeck dl.slidedeck dd {
+	padding: 10px 30px;
+	background: url('slides.png') center bottom repeat-x #101115;
+	background: -webkit-gradient(linear, left top, left bottom, from(#101115), to(#545966));
+	background: -moz-linear-gradient(top,  #101115,  #545966);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#101115', endColorstr='#545966');
+	color: #fff;
+}
+.skin-slidedeck dl.slidedeck dt {
+	position: relative;
+	cursor: pointer;
+	height: 65px;
+	line-height: 60px;
+	font-size: 25px !important;
+	font-family: "GothamHTF Book", "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+	font-weight: normal !important;
+	letter-spacing: 1px;
+	color: #666 !important;
+	text-align: center !important;
+	text-shadow: -1px -1px 1px #d2d3da;
+	background: url('spines.png') center 0 no-repeat;
+	border-left: 1px solid #bbb !important;
+}
+.skin-slidedeck dl.slidedeck dt:hover {
+	background: url('spines.png') center -169px no-repeat;
+	color: #000 !important;
+}
+.skin-slidedeck dl.slidedeck dt.active, .slmidedeck dt.active:hover {
+	cursor: default;
+	color: #fff !important;
+	height: 85px;
+	text-shadow: 0 0 7px #fff;
+	background: url('spines.png') center -83px no-repeat;
+	border-left: 1px solid #445ac5 !important;
+}
+
+.skin-slidedeck dl.slidedeck dt .index {
+	font-size: 24px;
+	font-weight: bold;
+	color: #666 !important;
+	margin-left: 20px;
+	text-shadow: -1px 1px 1px #d2d3da;
+}
+.skin-slidedeck dl.slidedeck dt:hover .index { color:#000 !important; }
+.skin-slidedeck dl.slidedeck dt.active .index {
+	text-shadow: 0 0 7px #fff;
+	color: #fff !important;
+}
+.skin-slidedeck dl.slidedeck .activeCorner {
+	margin-left: -1px;
+	margin-top: -25px;
+	background-image: url('corner.png');
+	width: 25px;
+	height: 50px;
+	top: 50% !important;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical { text-indent: 0; }
+.skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical li {
+	overflow: hidden;
+	padding: 10px !important;
+	margin: 0 !important;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav {
+	top: 10px;
+	right: 10px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li {
+	position: relative;
+	z-index: 2;
+	margin: 0;
+	padding: 0 0 3px;
+	width: 12px;
+	height: 12px;
+	overflow: hidden;
+	line-height: 12px;
+	list-style: none;
+	font-size: 1px; /* Stupid IE */
+}
+.skin-slidedeck dl.slidedeck ul li:before { content: "" !important; }
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
+	position: absolute;
+	display: block;
+	z-index: 1;
+	width: 10px;
+	height: 0;
+	padding-top: 10px;
+	padding-bottom: 0;
+	overflow: hidden;
+	left: 0;
+	border: 1px solid #333;
+	background: #ccc;
+	background-image: -moz-linear-gradient(top, #999, #ddd); /* FF3.6 */
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #999),color-stop(1, #ddd)); /* Saf4+, Chrome */
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a, .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:link, .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:visited {
+	position: relative;
+	display: block;
+	width: 10px;
+	height: 0;
+	overflow: hidden;
+	padding-top: 10px;
+	background: #fff;
+	outline: none;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	filter: Alpha(opacity=50);
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-webkit-opacity: 0.5;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
+	opacity: 0.75;
+	-moz-opacity: 0.75;
+	-webkit-opacity: 0.75;
+	filter: Alpha(opacity=75);
+}

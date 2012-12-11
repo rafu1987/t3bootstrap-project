@@ -1,0 +1,16 @@
+/*
+Skin Name: Ribbons
+Skin URI: http://www.slidedeck.com/
+Skin Type: fixed
+Skin Height: 344
+Description: Steel Gray Ribbons.
+Version: 1.0
+Author: digital-telepathy
+Designer: Artem Laptiski
+Tags: flexible, white, gray
+
+IE Specific Stylesheet for Index and "Next" Placement
+
+*/
+.skin-slidedeck dl.slidedeck dt.next { margin-left: -7px !important; }
+.skin-slidedeck dl.slidedeck dt .index { margin-left: 0; }

@@ -1,0 +1,56 @@
+.easy-accordion-orange {
+	height: 195px;
+	padding: 30px;
+	background: #fff;
+	border: 1px solid #b5c9e8;
+	margin-bottom: .5em;
+}
+.easy-accordion-orange h2 {
+	font-size: 2.5em;
+	margin-top: 10px;
+}
+.easy-accordion-orange dl {
+	height: 195px;
+}	
+.easy-accordion-orange dt {
+	height: 56px;
+	line-height: 44px;
+	text-align: right;
+	padding: 10px 15px 0 0;
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background: #fff url(images/slide-title-inactive.jpg) 0 0 no-repeat;
+	color: #26526c;
+}
+.easy-accordion-orange dt.active {
+	cursor: pointer;
+	color: #fff;
+	background: #fff url(images/slide-title-active.jpg) 0 0 no-repeat;
+}
+.easy-accordion-orange dt.hover {
+	color: #68889b;
+}
+.easy-accordion-orange dt.active.hover {
+	color: #fff;
+}
+.easy-accordion-orange dd {
+	padding: 25px;
+	background: url(images/slide.jpg) bottom left repeat-x;
+	border: 1px solid #dbe9ea;
+	border-left: 0;
+	margin-right: 3px;
+}
+.easy-accordion-orange .slide-number {
+	color: #68889b;
+	left: 10px;
+	font-weight: bold;
+}
+.easy-accordion-orange .active .slide-number {
+	color: #fff;
+}
+.easy-accordion-orange a {
+	color: #68889b;
+}
