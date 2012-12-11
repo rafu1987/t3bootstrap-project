@@ -80,5 +80,8 @@
         $(".text-white a").not(".btn").css({
 	        color: "white"
         });
+        
+        // Fitvids
+        $(".fitvid").fitVids();
     });
 })(jQuery);

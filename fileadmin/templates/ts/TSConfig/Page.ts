@@ -272,6 +272,6 @@ TCEFORM.tt_content.bodytext.RTEfullScreenWidth= 80%
 
 # # Hide content elements [BEGIN]
 
-TCEFORM.tt_content.CType.removeItems = div,rte,splash,table,media,search,mailform,multimedia,script,textpic,bullets,uploads,image
+TCEFORM.tt_content.CType.removeItems = div,rte,splash,table,search,mailform,multimedia,script,textpic,bullets,uploads,image
 
 # # Hide content elements [END]

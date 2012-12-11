@@ -15,6 +15,7 @@ page {
         bootstrap_collapse = fileadmin/templates/default/bootstrap/js/plugins/bootstrap-collapse.js
         bootstrap_carousel = fileadmin/templates/default/bootstrap/js/plugins/bootstrap-carousel.js
         bootstrap_typehead = fileadmin/templates/default/bootstrap/js/plugins/bootstrap-typeahead.js
+        fitVids = fileadmin/templates/default/js/jquery.fitvids.js
         t3bootstrap = fileadmin/templates/default/js/t3bootstrap.min.js
         functions = fileadmin/templates/project/app/js/functions.js
     }
