@@ -67,7 +67,7 @@ You don't need to configure anything else; t3bootstrap will do that for you late
 	* [medresponsinator](https://github.com/medialis/medresponsinator)
 	* [ws_404](http://typo3.org/extensions/repository/view/ws_404)
 	* [scriptmerger](http://typo3.org/extensions/repository/view/scriptmerger)
-	* mc_googlesitemapmod *(A modification of the original extension)*
+	* mc_googlesitemapmod *(a modification of the original extension)*
 	* [fl_realurl_image](http://typo3.org/extensions/repository/view/fl_realurl_image)
 	* [ods_seo](http://typo3.org/extensions/repository/view/ods_seo)
 	* [scriptmergerbless](http://typo3.org/extensions/repository/view/scriptmergerbless)
@@ -85,6 +85,7 @@ You don't need to configure anything else; t3bootstrap will do that for you late
 	* [templavoila](http://typo3.org/extensions/repository/view/templavoila)
 	* [medmarkdown](https://github.com/medialis/medmarkdown)
 	* [medbugherd](https://github.com/medialis/medbugherd)
+	* [jfmulticontent](http://typo3.org/extensions/repository/view/jfmulticontent) *(customized to work with the twitter Bootstrap tabs)*
 	
 ## ToDo's
 * Implement a way to change the default language in the configurator (right now, German is configured as the default language; of course you can change that with a few steps in the backend by yourself).
