@@ -338,6 +338,40 @@ t3bootstrap {
 	                    
 	                    /* Basedomain END */
 	                    
+	                    /* Robots BEGIN */
+	                    
+	                    // Get file
+	                    $robotsFile = PATH_site . 'fileadmin/templates/ts/setup/StandardConfig_setup.ts';
+	                    
+	                    // Open file
+	                    $robotsFileContent = file_get_contents($robotsFile);
+	                    
+// Add data
+$robotsFileContent = "".$robotsFileContent."
+
+# # medbootstraptools [BEGIN]
+
+[globalVar = IENV:HTTP_HOST = ".$httpHost."]
+
+page.meta.robots = noindex, nofollow
+
+[globalVar = IENV:HTTP_HOST = ".$httpHostPreview."]
+
+page.meta.robots = noindex, nofollow
+
+[globalVar = IENV:HTTP_HOST = ".$httpHostLive."]
+
+page.meta.robots = index, follow
+
+[global]
+
+# # medbootstraptools [END]";
+
+						// Write file
+						file_put_contents($robotsFile, $robotsFileContent);
+	                    
+	                    /* Robots END */
+	                    
 	                    /* Responsive or not BEGIN */
 	                    
 	                    if ($_POST['project_responsive'] != "on") {

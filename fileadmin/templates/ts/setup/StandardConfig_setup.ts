@@ -30,9 +30,6 @@ page.headerData.1 {
     }
 }
 
-# # Deactivate, when page goes online
-page.meta.robots = noindex, nofollow
-
 page.headerData.555 = TEXT
 page.meta.description.field = description
 
@@ -55,3 +52,9 @@ page.10 {
 }
 
 # # Page [END]
+
+# # Robots [BEGIN]
+
+page.meta.robots = noindex, nofollow
+
+# # Robots [END]
