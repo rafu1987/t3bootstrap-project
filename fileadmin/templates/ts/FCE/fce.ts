@@ -61,6 +61,7 @@ lib.textpic.image {
                         userFunc = user_t3bootstrap->imageLink
                         file.data = TSFE:lastImageInfo|origFile
                         link.field = field_link
+                        enlarge.field = field_enlarge
                     }
                 }
             }

@@ -58,7 +58,7 @@ class user_t3bootstrap {
         $uid = $this->cObj->stdWrap($content, $conf['uid.']);
         $link = $this->cObj->stdWrap($content, $conf['link.']);
 
-        if (!$link) {
+        if (!$link || ($link && $enlarge) || (!$link && $enlarge)) {
             if ($enlarge && !$gallery) {
                 return 'class="lightbox"';
             } else {
@@ -70,11 +70,14 @@ class user_t3bootstrap {
     public function imageLink($content, $conf) {
         $file = $this->cObj->stdWrap($content, $conf['file.']);
         $link = $this->cObj->stdWrap($content, $conf['link.']);
+        $enlarge = $this->cObj->stdWrap($content, $conf['enlarge.']);
 
-        if ($link) {
+        if ($link && !$enlarge) {
             return $link;
-        } else {
-            return $file;
+        } else if($link && $enlarge || (!$link && $enlarge)) {
+	    	return $file;    
+        } else if(!$link && $file) {
+            return false;
         }
     }
 
