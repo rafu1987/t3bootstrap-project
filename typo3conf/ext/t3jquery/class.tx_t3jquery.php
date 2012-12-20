@@ -210,9 +210,9 @@ class tx_t3jquery
 					);
 				}
 				if ($confArr['jQueryBootstrapVersion'] != '') {
-					if ($confArr['jQueryBootstrapVersion'] == '2.1.1') {
+					if ($confArr['jQueryBootstrapVersion'] == '2.2.0') {
 						t3lib_div::devLog('jQuery Bootstrap \''.$confArr['jQueryBootstrapVersion'].'\' not available', 't3jquery', 1);
-						$confArr['jQueryBootstrapVersion'] = '2.1.0';
+						$confArr['jQueryBootstrapVersion'] = '2.2.2';
 					}
 					$jsFile = 'http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/'.$confArr['jQueryBootstrapVersion'].'/bootstrap.min.js';
 					$params['jsFiles'][$jsFile] = array(
@@ -259,9 +259,9 @@ class tx_t3jquery
 					);
 				}
 				if ($confArr['jQueryBootstrapVersion'] != '') {
-					if ($confArr['jQueryBootstrapVersion'] == '2.1.1') {
+					if ($confArr['jQueryBootstrapVersion'] == '2.2.0') {
 						t3lib_div::devLog('jQuery Bootstrap \''.$confArr['jQueryBootstrapVersion'].'\' not available', 't3jquery', 1);
-						$confArr['jQueryBootstrapVersion'] = '2.1.0';
+						$confArr['jQueryBootstrapVersion'] = '2.2.2';
 					}
 					$jsFile = 'http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/'.$confArr['jQueryBootstrapVersion'].'/bootstrap.min.js';
 					$params['jsFiles'][$jsFile] = array(
@@ -324,9 +324,9 @@ class tx_t3jquery
 					);
 				}
 				if ($confArr['jQueryBootstrapVersion'] != '') {
-					if ($confArr['jQueryBootstrapVersion'] == '2.1.1') {
+					if ($confArr['jQueryBootstrapVersion'] == '2.2.0') {
 						t3lib_div::devLog('jQuery Bootstrap \''.$confArr['jQueryBootstrapVersion'].'\' not available', 't3jquery', 1);
-						$confArr['jQueryBootstrapVersion'] = '2.1.0';
+						$confArr['jQueryBootstrapVersion'] = '2.2.2';
 					}
 					$jsFile = 'http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/'.$confArr['jQueryBootstrapVersion'].'/bootstrap.min.js';
 					$params['jsFiles'][$jsFile] = array(

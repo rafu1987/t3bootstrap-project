@@ -32,7 +32,7 @@ jQueryUiVersion = 1.9.x
 # cat=basic/typo/30; type=options[,1.2.x,1.1.x]; label=jQuery TOOLS Version: Defines the jQuery TOOLS Version
 jQueryTOOLSVersion = 
 
-# cat=basic/typo/40; type=options[,2.1.x,2.0.x]; label=jQuery Bootstrap Version: Defines the jQuery Bootstrap Version
+# cat=basic/typo/40; type=options[,2.2.x,2.1.x,2.0.x]; label=jQuery Bootstrap Version: Defines the jQuery Bootstrap Version
 jQueryBootstrapVersion = 
 
 

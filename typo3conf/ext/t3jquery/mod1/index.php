@@ -61,7 +61,7 @@ class  tx_t3jquery_module1 extends t3lib_SCbase
 	var $jQueryVersionOrig          = '1.8.x';
 	var $jQueryUiVersionOrig        = '1.9.x';
 	var $jQueryTOOLSVersionOrig     = '1.2.x';
-	var $jQueryBootstrapVersionOrig = '2.1.x';
+	var $jQueryBootstrapVersionOrig = '2.2.x';
 	var $jQueryOriginalVersions = array();
 	var $jQueryConfig      = array();
 	var $jQueryUiConfig    = array();
