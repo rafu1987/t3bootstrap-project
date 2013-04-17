@@ -342,3 +342,11 @@ TCEFORM.tt_content.bodytext.RTEfullScreenWidth= 80%
 TCEFORM.tt_content.CType.removeItems = div,rte,splash,table,search,mailform,multimedia,script,textpic,bullets,uploads,image
 
 # # Hide content elements [END]
+
+# # Show translate link in FCE's [BEGIN]
+
+mod.web_txtemplavoilaM1 {
+	enableLocalizationLinkForFCEs = 1
+}
+
+# # Show translate link in FCE's [END]

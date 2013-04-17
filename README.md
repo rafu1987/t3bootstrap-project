@@ -5,7 +5,7 @@ t3bootstrap is a TYPO3 collection of tools, flexible content elements ([TemplaVo
 *t3bootstrap uses version* **2.2.1** *of twitter Bootstrap*
 
 ## Requirements
-* TYPO3 stable version **4.7.7** Source - Get it here: [http://get.typo3.org/4.7](http://get.typo3.org/4.7)
+* TYPO3 stable version **4.7.10** Source - Get it here: [http://get.typo3.org/4.7](http://get.typo3.org/4.7)
 * PHP version 5.3.x
 * MySQL version 5.0.x-5.1.x
 * A webserver to run TYPO3 on
