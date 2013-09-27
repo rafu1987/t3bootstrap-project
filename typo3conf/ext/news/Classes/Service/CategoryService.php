@@ -1,26 +1,21 @@
 <?php
 /***************************************************************
-*  Copyright notice
-*
-*  (c) 2011 Georg Ringer <typo3@ringerge.org>
-*  All rights reserved
-*
-*  This script is part of the TYPO3 project. The TYPO3 project is
-*  free software; you can redistribute it and/or modify
-*  it under the terms of the GNU General Public License as published by
-*  the Free Software Foundation; either version 2 of the License, or
-*  (at your option) any later version.
-*
-*  The GNU General Public License can be found at
-*  http://www.gnu.org/copyleft/gpl.html.
-*
-*  This script is distributed in the hope that it will be useful,
-*  but WITHOUT ANY WARRANTY; without even the implied warranty of
-*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*  GNU General Public License for more details.
-*
-*  This copyright notice MUST APPEAR in all copies of the script!
-***************************************************************/
+ *  Copyright notice
+ *  (c) 2011 Georg Ringer <typo3@ringerge.org>
+ *  All rights reserved
+ *  This script is part of the TYPO3 project. The TYPO3 project is
+ *  free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *  The GNU General Public License can be found at
+ *  http://www.gnu.org/copyleft/gpl.html.
+ *  This script is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *  This copyright notice MUST APPEAR in all copies of the script!
+ ***************************************************************/
 
 /**
  * Service for category related stuff
@@ -37,18 +32,39 @@ class Tx_News_Service_CategoryService {
 	 * @param string $idList list of category ids to start
 	 * @param integer $counter
 	 * @param string $additionalWhere additional where clause
-	 * @return string comma seperated list of category ids
+	 * @param boolean $removeGivenIdListFromResult remove the given id list from result
+	 * @return string comma separated list of category ids
 	 */
-	public static function getChildrenCategories($idList, $counter = 0, $additionalWhere = '') {
+	public static function getChildrenCategories($idList, $counter = 0, $additionalWhere = '', $removeGivenIdListFromResult = FALSE) {
 		$cache = t3lib_div::makeInstance('Tx_News_Service_CacheService', 'news_categorycache');
 		$cacheIdentifier = sha1('children' . $idList);
 
 		$entry = $cache->get($cacheIdentifier);
-		if(!$entry) {
+		if (!$entry) {
 			$entry = self::getChildrenCategoriesRecursive($idList, $counter, $additionalWhere);
 			$cache->set($cacheIdentifier, $entry);
 		}
+
+		if ($removeGivenIdListFromResult) {
+			$entry = self::removeValuesFromString($entry, $idList);
+		}
+
 		return $entry;
+	}
+
+	/**
+	 * Remove values of a comma separated list from another comma separated list
+	 *
+	 * @param string $result string comma separated list
+	 * @param $toBeRemoved string comma separated list
+	 * @return string
+	 */
+	public static function removeValuesFromString($result, $toBeRemoved) {
+		$resultAsArray = t3lib_div::trimExplode(',', $result, TRUE);
+		$idListAsArray = t3lib_div::trimExplode(',', $toBeRemoved, TRUE);
+
+		$result = implode(',', array_diff($resultAsArray, $idListAsArray));
+		return $result;
 	}
 
 	/**
@@ -57,14 +73,14 @@ class Tx_News_Service_CategoryService {
 	 *
 	 * @param integer $id category id to start
 	 * @param string $additionalWhere additional where clause
-	 * @return string comma seperated list of category ids
+	 * @return string comma separated list of category ids
 	 */
 	public static function getRootline($id, $additionalWhere = '') {
 		$cache = t3lib_div::makeInstance('Tx_News_Service_CacheService', 'news_categorycache');
 		$cacheIdentifier = sha1('rootline' . $id);
 
 		$entry = $cache->get($cacheIdentifier);
-		if(!$entry) {
+		if (!$entry) {
 			$entry = self::getRootlineRecursive($id, $additionalWhere);
 			$cache->set($cacheIdentifier, $entry);
 		}
@@ -77,12 +93,12 @@ class Tx_News_Service_CategoryService {
 	 * @param string $idList list of category ids to start
 	 * @param integer $counter
 	 * @param string $additionalWhere additional where clause
-	 * @return string comma seperated list of category ids
+	 * @return string comma separated list of category ids
 	 */
 	private static function getChildrenCategoriesRecursive($idList, $counter, $additionalWhere) {
 		$result = array();
 
-			// add idlist to the output too
+		// add idlist to the output too
 		if ($counter === 0) {
 			$result[] = $GLOBALS['TYPO3_DB']->cleanIntList($idList);
 		}
@@ -90,7 +106,8 @@ class Tx_News_Service_CategoryService {
 		$res = $GLOBALS['TYPO3_DB']->exec_SELECTquery(
 			'uid',
 			'tx_news_domain_model_category',
-			'tx_news_domain_model_category.parentcategory IN (' . $GLOBALS['TYPO3_DB']->cleanIntList($idList) . ') AND deleted=0 ' . $additionalWhere);
+			'tx_news_domain_model_category.parentcategory IN (' . $GLOBALS['TYPO3_DB']->cleanIntList($idList) . ')
+				AND deleted=0 ' . $additionalWhere);
 
 		while (($row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res))) {
 			$counter++;
@@ -115,7 +132,7 @@ class Tx_News_Service_CategoryService {
 	 * @param string $additionalWhere additional where clause
 	 * @return string comma separated list of category ids
 	 */
-	public static function getRootlineRecursive($id, $counter=0, $additionalWhere = '') {
+	public static function getRootlineRecursive($id, $counter = 0, $additionalWhere = '') {
 		$id = (int)$id;
 		$result = array();
 
@@ -139,6 +156,40 @@ class Tx_News_Service_CategoryService {
 
 		$result = implode(',', $result);
 		return $result;
+	}
+
+
+	/**
+	 * Translate a category record in the backend
+	 *
+	 * @param string $default default label
+	 * @param array $row category record
+	 * @return string
+	 * @throws UnexpectedValueException
+	 */
+	public static function translateCategoryRecord($default, array $row = array()) {
+		if (TYPO3_MODE != 'BE') {
+			throw new UnexpectedValueException('TYPO3 Mode must be BE');
+		}
+
+		$overlayLanguage = (int)$GLOBALS['BE_USER']->uc['newsoverlay'];
+
+		$title = '';
+
+		if ($row['uid'] > 0 && $overlayLanguage > 0 && $row['sys_language_uid'] == 0) {
+			$overlayRecord = $GLOBALS['TYPO3_DB']->exec_SELECTgetRows(
+				'*',
+				'tx_news_domain_model_category',
+				'deleted=0 AND sys_language_uid=' . $overlayLanguage . ' AND l10n_parent=' . $row['uid']
+			);
+			if (isset($overlayRecord[0]['title'])) {
+				$title = $overlayRecord[0]['title'] . ' (' . $row['title'] . ')';
+			}
+		}
+
+		$title = ($title ? $title : $default);
+
+		return $title;
 	}
 
 }

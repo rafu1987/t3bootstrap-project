@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-{namespace n=Tx_News_ViewHelpers}
-<rss version="2.0">
+{namespace n=Tx_News_ViewHelpers}<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 	<channel>
 		<title>{settings.list.rss.channel.title}</title>
 		<link>{settings.list.rss.channel.link}</link>
@@ -9,8 +8,8 @@
 		<f:if condition="{settings.list.rss.channel.copyright}">
 			<copyright>{settings.list.rss.channel.copyright}</copyright>
 		</f:if>
-		<pubDate><n:format.date format="%a, %d %b %Y %T %z" currentDate="true" /></pubDate>
-		<lastBuildDate><n:format.date format="%a, %d %b %Y %T %z" currentDate="true" /></lastBuildDate>
+		<pubDate><n:format.date format="%a, %d %b %Y %T %z" currentDate="1" strftime="1" /></pubDate>
+		<lastBuildDate><n:format.date format="%a, %d %b %Y %T %z" currentDate="1" strftime="1" /></lastBuildDate>
 		<f:if condition="{settings.list.rss.channel.category}">
 			<category>{settings.list.rss.channel.category}</category>
 		</f:if>
@@ -18,9 +17,12 @@
 			<f:if condition="{news}">
 				<f:for each="{news}" as="newsItem">
 					<item>
+						<guid>news-{newsItem.uid}</guid>
+						<pubDate><n:format.date format="%a, %d %b %Y %T %z" currentDate="1" strftime="1">{newsItem.datetime}</n:format.date></pubDate>
 						<title><n:format.hsc>{newsItem.title}</n:format.hsc></title>
-						<link><n:link newsItem="{newsItem}" settings="{settings}" configuration="{returnLast:'url'}" hsc="TRUE"></n:link></link>
+						<link><n:format.hsc><n:link newsItem="{newsItem}" settings="{settings}" uriOnly="1" /></n:format.hsc></link>
 						<description><n:format.hsc><n:format.striptags>{newsItem.teaser}</n:format.striptags></n:format.hsc></description>
+						<content:encoded><f:format.cdata><f:format.html>{newsItem.bodytext}</f:format.html></f:format.cdata></content:encoded>
 					</item>
 				</f:for>
 			</f:if>

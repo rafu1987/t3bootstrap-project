@@ -1,0 +1,4 @@
+
+page.includeCSS {
+	t3jquery-ui-le-frog = {$plugin.tx_t3jquery.file.UI-Le-Frog}
+}

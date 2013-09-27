@@ -23,7 +23,7 @@
 ***************************************************************/
 
 /**
- * Update class for extmgr.
+ * Update class for the extension manager.
  *
  * @package TYPO3
  * @subpackage tx_news
@@ -53,7 +53,7 @@ class ext_update {
 	 * @todo find a better way to determine if update is needed or not.
 	 */
 	public function access() {
-		return FALSE;
+		return TRUE;
 	}
 
 	/**
@@ -62,12 +62,15 @@ class ext_update {
 	 * @return void
 	 */
 	protected function processUpdates() {
+
+		$this->updateContentRelationToMm();
+
+		/*
 		$this->renameDatabaseTable('tx_news2_domain_model_news', 'tx_news_domain_model_news');
 		$this->renameDatabaseTable('tx_news2_domain_model_category', 'tx_news_domain_model_category');
 		$this->renameDatabaseTable('tx_news2_domain_model_news_category_mm', 'tx_news_domain_model_news_category_mm');
 		$this->renameDatabaseTable('tx_news2_domain_model_news_related_mm', 'tx_news_domain_model_news_related_mm');
 		$this->renameDatabaseTable('tx_news2_domain_model_media', 'tx_news_domain_model_media');
-		$this->renameDatabaseTable('tx_news2_domain_model_news_file_mm', 'tx_news_domain_model_news_file_mm');
 		$this->renameDatabaseTable('tx_news2_domain_model_file', 'tx_news_domain_model_file');
 		$this->renameDatabaseTable('tx_news2_domain_model_link', 'tx_news_domain_model_link');
 		$this->renameDatabaseTable('tx_news2_domain_model_tag', 'tx_news_domain_model_tag');
@@ -89,6 +92,47 @@ class ext_update {
 		$this->renameFlexformField('news_pi1', array('template', 'settings.cropLength'), array('template', 'settings.cropMaxCharacters'));
 
 		$this->renameDatabaseTableField('tx_news_domain_model_media', 'content', 'image');
+		*/
+	}
+
+	/**
+	 * news records got a relation to content elements and the relation uses now a mm query
+	 * This method allows to update the mm table to got everything in sync again
+	 *
+	 * @return void
+	 */
+	protected function updateContentRelationToMm() {
+		$title = 'Update tt_content relation';
+
+		$countMmTable = $GLOBALS['TYPO3_DB']->exec_SELECTcountRows('*', 'tx_news_domain_model_news_ttcontent_mm', '1=1');
+		$countContentElementRelation = $GLOBALS['TYPO3_DB']->exec_SELECTcountRows('*', 'tx_news_domain_model_news', 'deleted=0 AND content_elements != ""');
+		if ($countMmTable === 0 && $countContentElementRelation > 0) {
+			$newsCount = 0;
+			$res = $GLOBALS['TYPO3_DB']->exec_SELECTquery('uid,content_elements', 'tx_news_domain_model_news', 'deleted=0 AND content_elements != ""');
+			while ($row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res)) {
+				$newsCount++;
+				$contentElementUids = explode(',', $row['content_elements']);
+				$i = 1;
+				foreach ($contentElementUids as $contentElement) {
+						// Insert mm relation
+					$insert = array(
+						'uid_local' => $row['uid'],
+						'uid_foreign' => $contentElement,
+						'sorting' => $i++
+					);
+					$GLOBALS['TYPO3_DB']->exec_INSERTquery('tx_news_domain_model_news_ttcontent_mm', $insert);
+				}
+
+					// Update new record
+				$update = array('content_elements' => count($contentElementUids));
+				$GLOBALS['TYPO3_DB']->exec_UPDATEquery('tx_news_domain_model_news', 'uid=' . $row['uid'], $update);
+			}
+			$GLOBALS['TYPO3_DB']->sql_free_result($res);
+
+			$this->messageArray[] = array(t3lib_FlashMessage::OK, $title, $newsCount . ' news records have been updated!');
+		} else {
+			$this->messageArray[] = array(t3lib_FlashMessage::NOTICE, $title, 'Not needed/possible anymore as the mm table is already filled!');
+		}
 	}
 
 	/**
@@ -152,7 +196,7 @@ class ext_update {
 			$message = 'Table ' . $oldTableName . ' does not exist';
 			$status = t3lib_FlashMessage::ERROR;
 		} else {
-			$sql = 'RENAME TABLE ' . $oldTableName .' TO ' . $newTableName . ';';
+			$sql = 'RENAME TABLE ' . $oldTableName . ' TO ' . $newTableName . ';';
 
 			if ($GLOBALS['TYPO3_DB']->admin_query($sql) === FALSE) {
 				$message = ' SQL ERROR: ' .  $GLOBALS['TYPO3_DB']->sql_error();
@@ -272,14 +316,13 @@ class ext_update {
 		} else {
 			$status = t3lib_FlashMessage::WARNING;
 			$messageTmp = array();
-			foreach($affectedTsFiles as $tsFile) {
+			foreach ($affectedTsFiles as $tsFile) {
 				$messageTmp[] = sprintf('"News2" found in TS record with title "%s" on page with uid "%s".', $tsFile['title'], $tsFile['pid']);
 			}
 			$message = implode('<br />', $messageTmp);
 		}
 
 		$this->messageArray[] = array($status, $title, $message);
-
 
 			// try to rename directory
 		if (is_dir('../uploads/tx_news2/')) {
@@ -294,16 +337,16 @@ class ext_update {
 					$message = 'Directory uploads/tx_news2/ has been renamed';
 				} else {
 					$status = t3lib_FlashMessage::ERROR;
-					$message = 'Directory uploads/tx_news2/ coult not be renamed to uploads/tx_news/. Solve it manually!';
+					$message = 'Directory uploads/tx_news2/ could not be renamed to uploads/tx_news/. Solve it manually!';
 				}
 			}
 
 		} elseif (is_dir('../uploads/tx_news/')) {
 				$status = t3lib_FlashMessage::OK;
-				$message = 'No action needed, directory uploads/tx_news exists and uploads/tx_news2 doesn\'t.';
+				$message = 'No action needed, directory uploads/tx_news exists and uploads/tx_news2 does not.';
 		} else {
 			$status = t3lib_FlashMessage::ERROR;
-			$message = 'None of the directories uploads/tx_news/ and uploads/tx_news/ exist. Data lost or just no diretory there? Solve it manually!';
+			$message = 'None of the directories uploads/tx_news/ and uploads/tx_news/ exist. Data lost or just no directory there? Solve it manually!';
 		}
 
 		$this->messageArray[] = array($status, $title, $message);

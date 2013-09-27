@@ -13,7 +13,7 @@ class Tx_Powermail_Domain_Validator_MandatoryValidator extends Tx_Extbase_Valida
 	 *
 	 * @var bool
 	 */
-	private $isValid = true;
+	protected $isValid = true;
 
 	/**
 	 * Validation of given Params
@@ -41,7 +41,7 @@ class Tx_Powermail_Domain_Validator_MandatoryValidator extends Tx_Extbase_Valida
 				if (is_array($params[$field->getUid()])) {
 					$empty = 1;
 					foreach ($params[$field->getUid()] as $value) {
-						if (!strlen($value)) {
+						if (strlen($value)) {
 							$empty = 0;
 							break;
 						}

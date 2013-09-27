@@ -32,8 +32,10 @@
  * <n:social.googlePlus></n:social.googlePlus>
  * Result: Google Plus Button
  *
- * <n:social.googlePlus size="small"  href="http://www.mydomain.tld" count="false"></n:social.googlePlus>
- * Result: Small Google Plus Button to share www.mydomain.tld without showing the counter
+ * <n:social.googlePlus size="small"
+ * 		href="http://www.mydomain.tld" count="false"></n:social.googlePlus>
+ * Result: Small Google Plus Button to share www.mydomain.tld
+ * 	without showing the counter
  *
  * @package TYPO3
  * @subpackage tx_news
@@ -52,6 +54,7 @@ class Tx_News_ViewHelpers_Social_GooglePlusViewHelper extends Tx_Fluid_Core_View
 
 	/**
 	 * @var Tx_News_Service_SettingsService $pluginSettingsService
+	 * @return void
 	 */
 	public function injectSettingsService(Tx_News_Service_SettingsService $pluginSettingsService) {
 		$this->pluginSettingsService = $pluginSettingsService;
@@ -73,14 +76,14 @@ class Tx_News_ViewHelpers_Social_GooglePlusViewHelper extends Tx_Fluid_Core_View
 	/**
 	 * Render the Google+ button
 	 *
-	 * @param string $jsCode
+	 * @param string $jsCode Alternative JavaScript code which is used
 	 * @return string
 	 */
 	public function render($jsCode = '') {
 		$code = '';
 		if (empty($jsCode)) {
 			$jsCode = 'https://apis.google.com/js/plusone.js';
-		} elseif($jsCode != '-1') {
+		} elseif ($jsCode != '-1') {
 			$jsCode = htmlspecialchars($jsCode);
 		}
 

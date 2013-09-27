@@ -45,6 +45,8 @@ class Tx_News_Service_Import_TTNewsNewsDataProviderService implements Tx_News_Se
 		);
 
 		list($count) = $GLOBALS['TYPO3_DB']->sql_fetch_row($res);
+		$GLOBALS['TYPO3_DB']->sql_free_result($res);
+
 		return (int)$count;
 	}
 
@@ -70,6 +72,8 @@ class Tx_News_Service_Import_TTNewsNewsDataProviderService implements Tx_News_Se
 			$importData[] = array(
 				'pid' => $row['pid'],
 				'hidden' => $row['hidden'],
+				'l10n_parent' => $row['l18n_parent'],
+				'sys_language_uid' => $row['sys_language_uid'],
 				'starttime' => $row['starttime'],
 				'endtime'  => $row['endtime'],
 				'title'	=>	$row['title'],
@@ -85,6 +89,8 @@ class Tx_News_Service_Import_TTNewsNewsDataProviderService implements Tx_News_Se
 				'internalurl' => $row['page'],
 				'categories' => $this->getCategories($row['uid']),
 				'media' => $this->getMedia($row),
+				'related_files' => $this->getFiles($row),
+				'related_links' => $this->getRelatedLinks($row['links']),
 				'content_elements' => $row['tx_rgnewsce_ce'],
 				'import_id' => $row['uid'],
 				'import_source' => $this->importSource
@@ -93,6 +99,30 @@ class Tx_News_Service_Import_TTNewsNewsDataProviderService implements Tx_News_Se
 		$GLOBALS['TYPO3_DB']->sql_free_result($res);
 
 		return $importData;
+	}
+
+	/**
+	 * Parses the related files
+	 *
+	 * @param array $row
+	 * @return array
+	 */
+	protected function getFiles(array $row) {
+		if (empty($row['news_files'])) {
+			return FALSE;
+		}
+
+		$relatedFiles = array();
+
+		$files = t3lib_div::trimExplode(',', $row['news_files']);
+
+		foreach ($files as $file) {
+			$relatedFiles[] = array(
+				'file' => 'uploads/media/' . $file
+			);
+		}
+
+		return $relatedFiles;
 	}
 
 	/**
@@ -151,5 +181,37 @@ class Tx_News_Service_Import_TTNewsNewsDataProviderService implements Tx_News_Se
 		return $media;
 	}
 
+	/**
+	 * Get link elements to be imported
+	 *
+	 * @param string $newsLinks
+	 * @return array
+	 */
+	protected function getRelatedLinks($newsLinks) {
+		$links = array();
+
+		if (empty($newsLinks)) {
+			return $links;
+		}
+
+		$newsLinks = str_replace(array('<link ', '</link>'), array('<LINK ', '</LINK>'), $newsLinks);
+
+		$linkList = t3lib_div::trimExplode('</LINK>', $newsLinks, TRUE);
+		foreach ($linkList as $singleLink) {
+			if (strpos($singleLink, '<LINK') === FALSE) {
+				continue;
+			}
+			$title = substr(strrchr($singleLink, '>'), 1);
+			$uri = str_replace('>' . $title, '', substr(strrchr($singleLink, '<link '), 6));
+			$links[] = array(
+				'uri' => $uri,
+				'title' => $title,
+				'description' => '',
+			);
+		}
+		return $links;
+	}
+
 }
+
 ?>

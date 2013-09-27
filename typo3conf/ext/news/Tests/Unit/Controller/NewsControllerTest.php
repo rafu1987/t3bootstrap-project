@@ -31,7 +31,7 @@
  * @author Oliver Klee <typo3-coding@oliverklee.de>
  * @author Georg Ringer <mail@ringerge.org>
  */
-class Tx_News_Controller_NewsControllerTest extends Tx_Phpunit_TestCase {
+class Tx_News_Tests_Unit_Controller_NewsControllerTest extends Tx_Phpunit_TestCase {
 
 	/**
 	 * @var Tx_News_Controller_NewsController
@@ -73,7 +73,7 @@ class Tx_News_Controller_NewsControllerTest extends Tx_Phpunit_TestCase {
 	 * @return void
 	 */
 	public function listActionFindsDemandedNewsByDemandFromSettings() {
-		$demand = clone new Tx_News_Domain_Model_NewsDemand();
+		$demand = clone new Tx_News_Domain_Model_Dto_AdministrationDemand();
 		$settings = array('list' => 'foo');
 
 		$configurationManager = $this->getMock(

@@ -6,14 +6,14 @@ class Tx_Powermail_Domain_Validator_SpamShieldValidator extends Tx_Extbase_Valid
 	 *
 	 * @var integer
 	 */
-	private $spamIndicator = 0;
+	protected $spamIndicator = 0;
 
 	/**
 	 * TypoScript Settings
 	 *
 	 * @var array
 	 */
-	private $settings;
+	protected $settings;
 
 	/**
 	 * Instance for Misc Functions
@@ -40,7 +40,7 @@ class Tx_Powermail_Domain_Validator_SpamShieldValidator extends Tx_Extbase_Valid
 	 * Spam-Validation of given Params
 	 * 		see powermail/doc/SpamDetection for formula
 	 *
-	 * @param $params
+	 * @param array $params
 	 * @return bool
 	 */
 	public function isValid($params) {
@@ -87,10 +87,10 @@ class Tx_Powermail_Domain_Validator_SpamShieldValidator extends Tx_Extbase_Valid
 				$message .= 'Spamfactor of this mail: ' . $this->formatSpamFactor($thisSpamFactor) . "\n";
 				$message .= "\n\n";
 				$message .= 'Failed Spamchecks:' . "\n";
-				$message .= $this->div->viewPlainArray($this->msg);
+				$message .= Tx_Powermail_Utility_Div::viewPlainArray($this->msg);
 				$message .= "\n\n";
 				$message .= 'Given Form variables:' . "\n";
-				$message .= $this->div->viewPlainArray($params);
+				$message .= Tx_Powermail_Utility_Div::viewPlainArray($params);
 				$header  = 'MIME-Version: 1.0' . "\r\n";
 				$header .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 				$header .= 'From: powermail@' . t3lib_div::getIndpEnv('TYPO3_HOST_ONLY') . "\r\n";
@@ -106,11 +106,11 @@ class Tx_Powermail_Domain_Validator_SpamShieldValidator extends Tx_Extbase_Valid
 	/**
 	 * Honeypod Check: Spam recognized if Honeypod field is filled
 	 *
-	 * @param $params array Given params
-	 * @param $indication float Indication if check fails
+	 * @param array $params Given params
+	 * @param float $indication Indication if check fails
 	 * @return void
 	 */
-	private function honeypodCheck($params, $indication = 1) {
+	protected function honeypodCheck($params, $indication = 1.0) {
 		if (!$indication) {
 			return;
 		}
@@ -126,12 +126,12 @@ class Tx_Powermail_Domain_Validator_SpamShieldValidator extends Tx_Extbase_Valid
 	/**
 	 * Link Check: Counts numbers of links in message
 	 *
-	 * @param $params array Given params
-	 * @param $indication float Indication if check fails
-	 * @param $limit integer Limit of allowed links in mail
+	 * @param array $params Given params
+	 * @param float $indication Indication if check fails
+	 * @param integer $limit Limit of allowed links in mail
 	 * @return void
 	 */
-	private function linkCheck($params, $indication = 1, $limit = 2) {
+	protected function linkCheck($params, $indication = 1.0, $limit = 2) {
 		if (!$indication) {
 			return;
 		}
@@ -159,11 +159,11 @@ class Tx_Powermail_Domain_Validator_SpamShieldValidator extends Tx_Extbase_Valid
 	/**
 	 * Name Check: Compares first- and lastname (shouldn't be the same)
 	 *
-	 * @param $params array Given params
-	 * @param $indication float Indication if check fails
+	 * @param array $params Given params
+	 * @param float $indication Indication if check fails
 	 * @return void
 	 */
-	private function nameCheck($params, $indication = 1) {
+	protected function nameCheck($params, $indication = 1.0) {
 		if (!$indication) {
 			return;
 		}
@@ -208,17 +208,17 @@ class Tx_Powermail_Domain_Validator_SpamShieldValidator extends Tx_Extbase_Valid
 	/**
 	 * Session Check: Checks if session was started correct on form delivery
 	 *
-	 * @param $indication float Indication if check fails
+	 * @param float $indication Indication if check fails
 	 * @return void
 	 */
-	private function sessionCheck($indication = 1) {
+	protected function sessionCheck($indication = 1.0) {
 		// Stop sessionCheck if indicator was turned to 0 OR if last action was optinConfirm
 		if (!$indication || $this->referrer == 'optinConfirm') {
 			return;
 		}
 		$gp = t3lib_div::_GP('tx_powermail_pi1');
 		$formUid = $gp['form'];
-		$time = $this->div->getFormStartFromSession($formUid);
+		$time = Tx_Powermail_Utility_Div::getFormStartFromSession($formUid);
 
 		// if check failes
 		if (!isset($time) || !$time) {
@@ -231,22 +231,26 @@ class Tx_Powermail_Domain_Validator_SpamShieldValidator extends Tx_Extbase_Valid
 	/**
 	 * Unique Check: Checks if values in given params are different
 	 *
-	 * @param $params array Given params
-	 * @param $indication float Indication if check fails
+	 * @param array $params Given params
+	 * @param float $indication Indication if check fails
 	 * @return void
 	 */
-	private function uniqueCheck($params, $indication = 1) {
+	protected function uniqueCheck($params, $indication = 1.0) {
 		if (!$indication) {
 			return;
 		}
 
-		// don't want values in second level (from checkboxes e.g.)
 		$arr = array();
 		foreach ((array) $params as $value) {
+
+			// don't want values in second level (from checkboxes e.g.)
 			if (is_array($value)) {
 				continue;
 			}
-			$arr[] = $value;
+
+			if (!empty($value)) {
+				$arr[] = $value;
+			}
 		}
 
 		// if check failes
@@ -260,11 +264,11 @@ class Tx_Powermail_Domain_Validator_SpamShieldValidator extends Tx_Extbase_Valid
 	/**
 	 * Blacklist String Check: Check if a blacklisted word is in given values
 	 *
-	 * @param $params array Given params
-	 * @param $indication float Indication if check fails
+	 * @param array $params Given params
+	 * @param float $indication Indication if check fails
 	 * @return void
 	 */
-	private function blacklistStringCheck($params, $indication = 1) {
+	protected function blacklistStringCheck($params, $indication = 1.0) {
 		if (!$indication) {
 			return;
 		}
@@ -289,10 +293,10 @@ class Tx_Powermail_Domain_Validator_SpamShieldValidator extends Tx_Extbase_Valid
 	/**
 	 * Blacklist IP-Address Check: Check if Senders IP is blacklisted
 	 *
-	 * @param $indication float Indication if check fails
+	 * @param float $indication Indication if check fails
 	 * @return void
 	 */
-	private function blacklistIpCheck($indication = 1) {
+	protected function blacklistIpCheck($indication = 1.0) {
 		if (!$indication) {
 			return;
 		}
@@ -309,16 +313,15 @@ class Tx_Powermail_Domain_Validator_SpamShieldValidator extends Tx_Extbase_Valid
 	/**
 	 * Format for Spamfactor (0.23 => 23%)
 	 *
-	 * @param $factor
+	 * @param float $factor
+	 * @return float
 	 */
-	private function formatSpamFactor($factor) {
+	protected function formatSpamFactor($factor) {
 		return number_format(($factor * 100), 0) . '%';
 	}
 
 	/**
 	 * Constructor
-	 *
-	 * @return	void
 	 */
 	public function __construct() {
 		$piVars = t3lib_div::_GP('tx_powermail_pi1');

@@ -34,11 +34,12 @@ class Tx_News_Domain_Model_Dto_EmConfiguration {
 	 * Fill the properties properly
 	 *
 	 * @param array $configuration em configuration
-	 * @return void
 	 */
 	public function __construct(array $configuration) {
-		foreach($configuration as $key => $value) {
-			$this->$key = $value;
+		foreach ($configuration as $key => $value) {
+			if (property_exists(__CLASS__, $key)) {
+				$this->$key = $value;
+			}
 		}
 	}
 
@@ -61,16 +62,6 @@ class Tx_News_Domain_Model_Dto_EmConfiguration {
 	 * @var integer
 	 */
 	protected $tagPid = 0;
-
-	/**
-	 * @var boolean;
-	 */
-	protected $hideMediaTable = TRUE;
-
-	/**
-	 * @var boolean;
-	 */
-	protected $hideFileTable = TRUE;
 
 	/**
 	 * @var boolean;
@@ -103,6 +94,14 @@ class Tx_News_Domain_Model_Dto_EmConfiguration {
 	protected $showImporter = FALSE;
 
 	/**
+	 * @var boolean
+	 */
+	protected $showAdministrationModule = TRUE;
+
+	/** @var boolean  */
+	protected $showMediaDescriptionField = FALSE;
+
+	/**
 	 * @return integer
 	 */
 	public function getRemoveListActionFromFlexforms() {
@@ -128,20 +127,6 @@ class Tx_News_Domain_Model_Dto_EmConfiguration {
 	 */
 	public function getTagPid() {
 		return (int)$this->tagPid;
-	}
-
-	/**
-	 * @return boolean
-	 */
-	public function getHideMediaTable() {
-		return (boolean)$this->hideMediaTable;
-	}
-
-	/**
-	 * @return boolean
-	 */
-	public function getHideFileTable() {
-		return (boolean)$this->hideFileTable;
 	}
 
 	/**
@@ -187,6 +172,36 @@ class Tx_News_Domain_Model_Dto_EmConfiguration {
 		return (boolean)$this->showImporter;
 	}
 
-}
+	/**
+	 * @param boolean $showAdministrationModule
+	 * @return void
+	 */
+	public function setShowAdministrationModule($showAdministrationModule) {
+		$this->showAdministrationModule = $showAdministrationModule;
+	}
 
+	/**
+	 * @return boolean
+	 */
+	public function getShowAdministrationModule() {
+		return $this->showAdministrationModule;
+	}
+
+	/**
+	 * @param boolean $showMediaDescriptionField
+	 * @return void
+	 */
+	public function setShowMediaDescriptionField($showMediaDescriptionField) {
+		$this->showMediaDescriptionField = $showMediaDescriptionField;
+	}
+
+	/**
+	 * @return boolean
+	 */
+	public function getShowMediaDescriptionField() {
+		return $this->showMediaDescriptionField;
+	}
+
+
+}
 ?>

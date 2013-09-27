@@ -35,10 +35,8 @@ class Tx_News_Hooks_SuggestReceiver extends t3lib_TCEforms_Suggest_DefaultReceiv
 	/**
 	 * Queries a table for records and completely processes them
 	 *
-	 * Returns a two-dimensional array of almost finished records; the only need to be put into a <li>-structure
-	 *
-	 * If you subclass this class, you will most likely only want to overwrite the functions called from here, but not
-	 * this function itself
+	 * Returns a two-dimensional array of almost finished records;
+	 * they only need to be put into a <li>-structure
 	 *
 	 * @param array $params
 	 * @param integer $recursionCounter recursion counter
@@ -46,11 +44,10 @@ class Tx_News_Hooks_SuggestReceiver extends t3lib_TCEforms_Suggest_DefaultReceiv
 	 */
 	public function queryTable(&$params, $recursionCounter = 0) {
 		$uid = t3lib_div::_GP('uid');
-//		$pageId = t3lib_div::_GP('pid');
 
 		$records = parent::queryTable($params, $recursionCounter);
 
-		if (count($records) === 0) {
+		if ($this->checkIfTagIsNotFound($records)) {
 			$text = htmlspecialchars($params['value']);
 $javaScriptCode = '
 var value=\'' . $text . '\';
@@ -86,7 +83,26 @@ $link = implode(' ', explode(chr(10), $javaScriptCode));
 		}
 
 		return $records;
+	}
 
+	/**
+	 * Check if current tag is found.
+	 *
+	 * @param array $tags returned tags
+	 * @return boolean
+	 */
+	protected function checkIfTagIsNotFound(array $tags) {
+		if (count($tags) === 0) {
+			return TRUE;
+		}
+
+		foreach ($tags as $tag) {
+			if ($tag['label'] === $this->params['value']) {
+				return FALSE;
+			}
+		}
+
+		return TRUE;
 	}
 
 	private function getDummyIconPath() {

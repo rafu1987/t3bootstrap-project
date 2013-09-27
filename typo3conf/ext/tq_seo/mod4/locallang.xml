@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;web_txtqseoM4&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">SEO</label>
+			<label index="title_content">TEQneers SEO Settings</label>
+			<label index="function_metadata">Metatags</label>
+			<label index="function_pagetitle">Pagetitle</label>
+			<label index="function_searchengines">SearchEngines</label>
+			<label index="function_url">URL Handling</label>
+			<label index="function_pagetitle_simulator">Pagetitle Simulator (Slow!)</label>
+
+			<label index="title_overview">SEO Overview</label>
+
+			<label index="boolean_yes">Yes</label>
+			<label index="boolean_no">No</label>
+
+			<label index="title_sitemap_list">Sitemap list for "%s"</label>
+			<label index="pager_desc">Page %s of %s</label>
+			<label index="pager_results">Show rows {0} - {1} of {2}</label>
+			<label index="pager_noresults">There are no entries</label>
+
+			<label index="label_depth">Depth</label>
+
+			<label index="header_sitemap_page_uid">UID</label>
+			<label index="header_sitemap_page_title">Page</label>
+
+			<label index="header_sitemap_page_keywords">Keywords</label>
+			<label index="header_sitemap_page_description">Description</label>
+			<label index="header_sitemap_page_abstract">Abstract</label>
+			<label index="header_sitemap_page_author">Author Name</label>
+			<label index="header_sitemap_page_author_email">Author E-Mail</label>
+			<label index="header_sitemap_page_lastupdated">Last updated</label>
+
+			<label index="header_sitemap_page_tx_tqseo_pagetitle">Title (Absolute)</label>
+			<label index="header_sitemap_page_tx_tqseo_pagetitle_rel">Browsertitle</label>
+			<label index="header_sitemap_page_tx_tqseo_pagetitle_prefix">Prefix</label>
+			<label index="header_sitemap_page_tx_tqseo_pagetitle_suffix">Suffix</label>
+
+			<label index="header_pagetitlesim_title_simulated">Title (Simulated)</label>
+
+			<label index="header_searchengine_canonicalurl">Canonical URL</label>
+			<label index="header_searchengine_is_excluded">Excluded</label>
+			<label index="searchengine_is_exclude_disabled">No, visible to SearchEngines</label>
+			<label index="searchengine_is_exclude_enabled">Yes, EXCLUDE page from SearchEngines index</label>
+
+			<label index="header_url_scheme">Scheme</label>
+			<label index="page_url_scheme_default">Default</label>
+			<label index="page_url_scheme_http">HTTP</label>
+			<label index="page_url_scheme_https">HTTPS</label>
+
+			<label index="header_url_alias">Alias</label>
+			<label index="header_url_realurl_pathsegment">RealURL Path Segment</label>
+			<label index="header_url_realurl_pathoverride">RealURL Path Override</label>
+			<label index="header_url_realurl_exclude">RealURL Exclude</label>
+
+			<label index="header_sitemap_priority">Sitemap Priority</label>
+
+			<label index="label_search_fulltext">Search</label>
+			<label index="empty_search_fulltext">Search...</label>
+
+			<label index="value_default">Default</label>
+
+			<label index="message_no_valid_page">Please select a page from the left tree.</label>
+
+			<label index="qtip_pagetitle_simulate">Show simulated pagetitle</label>
+			<label index="qtip_url_simulate">Show simulated url</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="title">SEO</label>
+			<label index="title_content">TEQneers SEO Einstellungen</label>
+			<label index="function_metadata">Metatags</label>
+			<label index="function_pagetitle">Seitentitel</label>
+			<label index="function_searchengines">Suchmaschinen</label>
+			<label index="function_url">URL Konfiguration</label>
+			<label index="function_pagetitle_simulator">Seitentitel Simulator (Langsam!)</label>
+
+			<label index="title_overview">SEO Übersicht</label>
+
+			<label index="boolean_yes">Ja</label>
+			<label index="boolean_no">Nein</label>
+
+			<label index="title_sitemap_list">Sitemap liste für"%s"</label>
+			<label index="pager_desc">Seite %s von %s</label>
+			<label index="pager_results">Zeige Zeilen {0} - {1} von {2}</label>
+			<label index="pager_noresults">Es wurden keine Einträge gefunden</label>
+
+			<label index="label_depth">Seitentiefe</label>
+
+			<label index="header_sitemap_page_uid">UID</label>
+			<label index="header_sitemap_page_title">Seite</label>
+
+			<label index="header_sitemap_page_keywords">Stichworte</label>
+			<label index="header_sitemap_page_description">Beschreibung</label>
+			<label index="header_sitemap_page_abstract">Abstrakt</label>
+			<label index="header_sitemap_page_author">Autorenname</label>
+			<label index="header_sitemap_page_author_email">Author E-Mail</label>
+			<label index="header_sitemap_page_lastupdated">Letzte Aktualisierung</label>
+
+			<label index="header_sitemap_page_tx_tqseo_pagetitle">Titel (Absolut)</label>
+			<label index="header_sitemap_page_tx_tqseo_pagetitle_rel">Browsertitel</label>
+			<label index="header_sitemap_page_tx_tqseo_pagetitle_prefix">Präfix</label>
+			<label index="header_sitemap_page_tx_tqseo_pagetitle_suffix">Suffix</label>
+
+			<label index="header_pagetitlesim_title_simulated">Titel (Simuliert)</label>
+
+			<label index="header_searchengine_canonicalurl">Canonical URL</label>
+			<label index="header_searchengine_is_excluded">Ausgeschlossen</label>
+			<label index="searchengine_is_exclude_disabled">Nein, Seite ist für Suchmaschinen sichtbar</label>
+			<label index="searchengine_is_exclude_enabled">Ja, Seite ist für Suchmaschinen NICHT sichtbar</label>
+
+			<label index="header_url_scheme">Protokoll</label>
+			<label index="page_url_scheme_default">Standard</label>
+			<label index="page_url_scheme_http">HTTP</label>
+			<label index="page_url_scheme_https">HTTPS</label>
+
+			<label index="header_url_alias">Alias</label>
+			<label index="header_url_realurl_pathsegment">RealURL Pfad-Segment</label>
+			<label index="header_url_realurl_pathoverride">RealURL Pfad-Überschreibung</label>
+			<label index="header_url_realurl_exclude">RealURL Deaktiviert</label>
+
+			<label index="header_sitemap_priority">Sitemap Priorität</label>
+
+			<label index="label_search_fulltext">Suche</label>
+			<label index="empty_search_fulltext">Suche...</label>
+
+			<label index="value_default">Standard</label>
+			<label index="message_no_valid_page">Bitte wählen Sie aus dem linken Seitenbaum eine Seite.</label>+
+
+			<label index="qtip_pagetitle_simulate">Zeige simulierten Seitentitel an</label>
+			<label index="qtip_url_simulate">Zeige simulierten URL an</label>
+		</languageKey>
+	</data>
+</T3locallang>

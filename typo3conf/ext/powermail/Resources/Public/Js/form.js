@@ -1,47 +1,60 @@
 /**
+ * Baseurl
+ *
+ * @type {string}
+ */
+var baseurl;
+
+/**
  * Powermail main JavaScript for form validation
  */
 jQuery(document).ready(function($) {
 
-	// Baseurl
-	var baseurl = getBaseUrl();
+	// Read baseURL
+	baseurl = getBaseUrl();
 
 	// Form validation
-	$('.powermail_form').validationEngine();
+	if ($.fn.validationEngine) {
+		$('.powermail_form').validationEngine();
+	}
 
 	// Tabs
-	$('.powermail_morestep').powermailTabs();
+	if ($.fn.powermailTabs) {
+		$('.powermail_morestep').powermailTabs();
+	}
 
 	// Datepicker field
-	$('.powermail_date').datepicker({
-		dateFormat: $('.container_datepicker_dateformat:first').val(),
-		dayNamesMin: [
-			$('.container_datepicker_day_so:first').val(),
-			$('.container_datepicker_day_mo:first').val(),
-			$('.container_datepicker_day_tu:first').val(),
-			$('.container_datepicker_day_we:first').val(),
-			$('.container_datepicker_day_th:first').val(),
-			$('.container_datepicker_day_fr:first').val(),
-			$('.container_datepicker_day_sa:first').val()
-		],
-		monthNames: [
-			$('.container_datepicker_month_jan:first').val(),
-			$('.container_datepicker_month_feb:first').val(),
-			$('.container_datepicker_month_mar:first').val(),
-			$('.container_datepicker_month_apr:first').val(),
-			$('.container_datepicker_month_may:first').val(),
-			$('.container_datepicker_month_jun:first').val(),
-			$('.container_datepicker_month_jul:first').val(),
-			$('.container_datepicker_month_aug:first').val(),
-			$('.container_datepicker_month_sep:first').val(),
-			$('.container_datepicker_month_oct:first').val(),
-			$('.container_datepicker_month_nov:first').val(),
-			$('.container_datepicker_month_dec:first').val()
-		],
-		nextText: '&gt;',
-		prevText: '&lt;',
-		firstDay: 1
-	});
+	if ($.fn.datepicker) {
+		$('.powermail_date').datepicker({
+			dateFormat: $('.container_datepicker_dateformat:first').val(),
+			dayNamesMin: [
+				$('.container_datepicker_day_so:first').val(),
+				$('.container_datepicker_day_mo:first').val(),
+				$('.container_datepicker_day_tu:first').val(),
+				$('.container_datepicker_day_we:first').val(),
+				$('.container_datepicker_day_th:first').val(),
+				$('.container_datepicker_day_fr:first').val(),
+				$('.container_datepicker_day_sa:first').val()
+			],
+			monthNames: [
+				$('.container_datepicker_month_jan:first').val(),
+				$('.container_datepicker_month_feb:first').val(),
+				$('.container_datepicker_month_mar:first').val(),
+				$('.container_datepicker_month_apr:first').val(),
+				$('.container_datepicker_month_may:first').val(),
+				$('.container_datepicker_month_jun:first').val(),
+				$('.container_datepicker_month_jul:first').val(),
+				$('.container_datepicker_month_aug:first').val(),
+				$('.container_datepicker_month_sep:first').val(),
+				$('.container_datepicker_month_oct:first').val(),
+				$('.container_datepicker_month_nov:first').val(),
+				$('.container_datepicker_month_dec:first').val()
+			],
+			nextText: '&gt;',
+			prevText: '&lt;',
+			firstDay: 1
+		});
+	}
 
 	// Location field
 	if ($('.powermail_fieldwrap_location input').length > 0) {
@@ -61,8 +74,8 @@ jQuery(document).ready(function($) {
 function checkCheckboxes(field, rules, i, options) {
 	var checked = 0; // no checkbox checked at the beginning
 	var classes = field.attr('class').split(' ');
-	$('.' + classes[1]).each(function() {
-		if ($(this).attr('checked')) {
+	jQuery('.' + classes[1]).each(function() {
+		if (jQuery(this).attr('checked')) {
 			checked = 1;
 		}
 	});
@@ -83,19 +96,19 @@ function getLocationAndWrite() {
 			var lat = position.coords.latitude;
 			var lng = position.coords.longitude;
 			var url = baseurl + '/index.php' + '?eID=' + 'powermailEidGetLocation';
-			$.ajax({
+			jQuery.ajax({
 				url: url,
 				data: 'lat=' + lat + '&lng=' + lng,
 				cache: false,
 				beforeSend: function(jqXHR, settings) {
-					$('body').css('cursor', 'wait');
+					jQuery('body').css('cursor', 'wait');
 				},
 				complete: function(jqXHR, textStatus) {
-					$('body').css('cursor', 'default');
+					jQuery('body').css('cursor', 'default');
 				},
 				success: function(data) { // return values
 					if (data) {
-						$('.powermail_fieldwrap_location input').val(data);
+						jQuery('.powermail_fieldwrap_location input').val(data);
 					}
 				}
 			});
@@ -109,10 +122,15 @@ function getLocationAndWrite() {
  * @return	string	Base Url
  */
 function getBaseUrl() {
-	if ($('base').length > 0) {
-		baseurl = $('base').attr('href');
+	var baseurl;
+	if (jQuery('base').length > 0) {
+		baseurl = jQuery('base').attr('href');
 	} else {
-		baseurl = window.location.hostname;
+		if (window.location.protocol != "https:") {
+			baseurl = 'http://' + window.location.hostname;
+		} else {
+			baseurl = 'https://' + window.location.hostname;
+		}
 	}
 	return baseurl;
 }

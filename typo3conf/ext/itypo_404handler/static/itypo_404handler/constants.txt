@@ -1,0 +1,10 @@
+plugin.itypo_404handler {
+	# cat=itypo_404handler/general/1; type=input; label=ID of login page or path to it, for example: 54 or ?login=1
+	loginPage = 1
+	
+	# cat=itypo_404handler/general/2; type=int+; label=ID of 403 page.
+	forbiddenPage = 1
+	
+	# cat=itypo_404handler/general/3; type=int+; label=ID of 404 page.
+	notfoundPage = 1
+}

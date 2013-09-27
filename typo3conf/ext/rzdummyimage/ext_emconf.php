@@ -1,21 +1,21 @@
 <?php
 
-########################################################################
-# Extension Manager/Repository config file for ext "rzdummyimage".
-#
-# Auto generated 05-11-2012 12:17
-#
-# Manual updates:
-# Only the data in the array - everything else is removed by next
-# writing. "version" and "dependencies" must not be touched!
-########################################################################
+/***************************************************************
+ * Extension Manager/Repository config file for ext "rzdummyimage".
+ *
+ * Auto generated 27-09-2013 17:41
+ *
+ * Manual updates:
+ * Only the data in the array - everything else is removed by next
+ * writing. "version" and "dependencies" must not be touched!
+ ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Dummy Image Mod',
 	'description' => 'Generates dummy images from http://dummyimage.com/. It it a mod of the extension fr_dummy_image',
 	'category' => 'module',
 	'shy' => 0,
-	'version' => '0.0.1',
+	'version' => '0.0.2',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -34,6 +34,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'CGLcompliance_note' => '',
 	'constraints' => array(
 		'depends' => array(
+			'typo3' => '4.5.0-4.7.10',
 		),
 		'conflicts' => array(
 		),

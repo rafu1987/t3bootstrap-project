@@ -25,7 +25,7 @@
 /**
  * Speaking Url management extension
  *
- * $Id: class.tx_realurl_modfunc1.php 63822 2012-06-25 09:29:36Z dmitry $
+ * $Id$
  *
  * @author	Kasper Skaarhoj <kasperYYYY@typo3.com>
  */
@@ -1682,11 +1682,20 @@ class tx_realurl_modfunc1 extends t3lib_extobjbase {
 		$gpVars = t3lib_div::_GP('SET');
 		if (isset($gpVars['ob'])) {
 			$sortingParameter = $gpVars['ob'];
-			$sortingDirection = $gpVars['obdir'];
+			if (!t3lib_div::inList('url,destination,domain_limit,has_moved,counter,last_referer', $sortingParameter)) {
+				$sortingParameter = '';
+				$sortingDirection = '';
+			}
+			else {
+				$sortingDirection = strtoupper($gpVars['obdir']);
+				if ($sortingDirection != 'DESC' && $sortingDirection != 'ASC') {
+					$sortingDirection = '';
+				}
+			}
 			$_SESSION['realurl']['redirects_view']['sorting'] = array($sortingParameter, $sortingDirection);
 		}
 		elseif (!isset($_SESSION['realurl']['redirects_view']['sorting'])) {
-			$_SESSION['realurl']['redirects_view']['sorting'] = array('url','asc');
+			$_SESSION['realurl']['redirects_view']['sorting'] = array('url','ASC');
 		}
 
 

@@ -28,16 +28,17 @@ CREATE TABLE tx_news_domain_model_news (
 	fe_group varchar(100) DEFAULT '0' NOT NULL,
 	title tinytext,
 	teaser text,
-	bodytext text,
+	bodytext mediumtext,
 	datetime int(11) DEFAULT '0' NOT NULL,
 	archive int(11) DEFAULT '0' NOT NULL,
 	author tinytext,
 	author_email tinytext,
 	categories int(11) DEFAULT '0' NOT NULL,
 	related int(11) DEFAULT '0' NOT NULL,
+	related_from int(11) DEFAULT '0' NOT NULL,
 	related_files tinytext,
 	related_links tinytext,
-	type int(11) DEFAULT '0' NOT NULL,
+	type varchar(100) NOT NULL DEFAULT '0',
 	keywords text,
 	tags int(11) DEFAULT '0' NOT NULL,
 	media text,
@@ -47,13 +48,14 @@ CREATE TABLE tx_news_domain_model_news (
 	content_elements text,
 	path_segment tinytext,
 	alternative_title tinytext,
+	rte_disabled tinyint(4) DEFAULT '0' NOT NULL,
 
 	import_id varchar(100) DEFAULT '' NOT NULL,
 	import_source varchar(100) DEFAULT '' NOT NULL,
 	is_dummy_record tinyint(1) unsigned DEFAULT '0' NOT NULL,
 
 	PRIMARY KEY (uid),
-	KEY parent (pid)
+	KEY parent (pid),
 	KEY import (import_id,import_source)
 );
 
@@ -95,6 +97,19 @@ CREATE TABLE tx_news_domain_model_category (
 
 
 #
+# Table structure for table 'tx_news_domain_model_news_ttcontent_mm'
+#
+#
+CREATE TABLE tx_news_domain_model_news_ttcontent_mm (
+	uid_local int(11) DEFAULT '0' NOT NULL,
+	uid_foreign int(11) DEFAULT '0' NOT NULL,
+	tablenames varchar(30) DEFAULT '' NOT NULL,
+	sorting int(11) DEFAULT '0' NOT NULL,
+	KEY uid_local (uid_local),
+	KEY uid_foreign (uid_foreign)
+);
+
+#
 # Table structure for table 'tx_news_domain_model_news_category_mm'
 #
 #
@@ -119,6 +134,7 @@ CREATE TABLE tx_news_domain_model_news_related_mm (
 	uid_foreign int(11) DEFAULT '0' NOT NULL,
 	tablenames varchar(30) DEFAULT '' NOT NULL,
 	sorting int(11) DEFAULT '0' NOT NULL,
+	sorting_foreign int(11) DEFAULT '0' NOT NULL,
 	KEY uid_local (uid_local),
 	KEY uid_foreign (uid_foreign)
 );
@@ -135,7 +151,16 @@ CREATE TABLE tx_news_domain_model_media (
 	cruser_id int(11) DEFAULT '0' NOT NULL,
 	sys_language_uid int(11) DEFAULT '0' NOT NULL,
 	l10n_parent int(11) DEFAULT '0' NOT NULL,
+	t3_origuid int(11) DEFAULT '0' NOT NULL,
 	l10n_diffsource mediumtext,
+	t3ver_oid int(11) DEFAULT '0' NOT NULL,
+	t3ver_id int(11) DEFAULT '0' NOT NULL,
+	t3ver_wsid int(11) DEFAULT '0' NOT NULL,
+	t3ver_label varchar(30) DEFAULT '' NOT NULL,
+	t3ver_state tinyint(4) DEFAULT '0' NOT NULL,
+	t3ver_stage tinyint(4) DEFAULT '0' NOT NULL,
+	t3ver_count int(11) DEFAULT '0' NOT NULL,
+	t3ver_tstamp int(11) DEFAULT '0' NOT NULL,
 	sorting int(10) DEFAULT '0' NOT NULL,
 	deleted tinyint(4) DEFAULT '0' NOT NULL,
 	hidden tinyint(4) DEFAULT '0' NOT NULL,
@@ -143,6 +168,7 @@ CREATE TABLE tx_news_domain_model_media (
 	caption tinytext,
 	alt tinytext,
 	title tinytext,
+	copyright tinytext,
 	image text,
 	html text,
 	dam int(11) DEFAULT '0' NOT NULL,
@@ -151,24 +177,11 @@ CREATE TABLE tx_news_domain_model_media (
 	showinpreview tinyint(4) DEFAULT '0' NOT NULL,
 	width int(11) DEFAULT '0' NOT NULL,
 	height int(11) DEFAULT '0' NOT NULL,
+	description mediumtext,
 	is_dummy_record tinyint(1) unsigned DEFAULT '0' NOT NULL,
 
 	PRIMARY KEY (uid),
 	KEY parent (pid)
-);
-
-
-#
-# Table structure for table 'tx_news_domain_model_news_file_mm'
-#
-#
-CREATE TABLE tx_news_domain_model_news_file_mm (
-	uid_local int(11) DEFAULT '0' NOT NULL,
-	uid_foreign int(11) DEFAULT '0' NOT NULL,
-	tablenames varchar(30) DEFAULT '' NOT NULL,
-	sorting int(11) DEFAULT '0' NOT NULL,
-	KEY uid_local (uid_local),
-	KEY uid_foreign (uid_foreign)
 );
 
 
@@ -184,12 +197,23 @@ CREATE TABLE tx_news_domain_model_file (
 	sys_language_uid int(11) DEFAULT '0' NOT NULL,
 	l10n_parent int(11) DEFAULT '0' NOT NULL,
 	l10n_diffsource mediumtext,
+	t3ver_oid int(11) DEFAULT '0' NOT NULL,
+	t3ver_id int(11) DEFAULT '0' NOT NULL,
+	t3_origuid int(11) DEFAULT '0' NOT NULL,
+	t3ver_wsid int(11) DEFAULT '0' NOT NULL,
+	t3ver_label varchar(30) DEFAULT '' NOT NULL,
+	t3ver_state tinyint(4) DEFAULT '0' NOT NULL,
+	t3ver_stage tinyint(4) DEFAULT '0' NOT NULL,
+	t3ver_count int(11) DEFAULT '0' NOT NULL,
+	t3ver_tstamp int(11) DEFAULT '0' NOT NULL,
 	sorting int(10) DEFAULT '0' NOT NULL,
 	deleted tinyint(4) DEFAULT '0' NOT NULL,
 	hidden tinyint(4) DEFAULT '0' NOT NULL,
+	fe_group varchar(100) DEFAULT '0' NOT NULL,
 	title tinytext,
 	description text,
 	file text,
+	parent int(11) DEFAULT '0' NOT NULL,
 	is_dummy_record tinyint(1) unsigned DEFAULT '0' NOT NULL,
 
 	PRIMARY KEY (uid),
@@ -209,6 +233,15 @@ CREATE TABLE tx_news_domain_model_link (
 	sys_language_uid int(11) DEFAULT '0' NOT NULL,
 	l10n_parent int(11) DEFAULT '0' NOT NULL,
 	l10n_diffsource mediumtext,
+	t3ver_oid int(11) DEFAULT '0' NOT NULL,
+	t3ver_id int(11) DEFAULT '0' NOT NULL,
+	t3_origuid int(11) DEFAULT '0' NOT NULL,
+	t3ver_wsid int(11) DEFAULT '0' NOT NULL,
+	t3ver_label varchar(30) DEFAULT '' NOT NULL,
+	t3ver_state tinyint(4) DEFAULT '0' NOT NULL,
+	t3ver_stage tinyint(4) DEFAULT '0' NOT NULL,
+	t3ver_count int(11) DEFAULT '0' NOT NULL,
+	t3ver_tstamp int(11) DEFAULT '0' NOT NULL,
 	sorting int(10) DEFAULT '0' NOT NULL,
 	deleted tinyint(4) DEFAULT '0' NOT NULL,
 	hidden tinyint(4) DEFAULT '0' NOT NULL,
@@ -259,6 +292,7 @@ CREATE TABLE tx_news_domain_model_news_tag_mm (
 CREATE TABLE cf_news_categorycache (
     id int(11) unsigned NOT NULL auto_increment,
     identifier varchar(250) DEFAULT '' NOT NULL,
+    expires int(11) unsigned DEFAULT '0' NOT NULL,
     crdate int(11) unsigned DEFAULT '0' NOT NULL,
     content mediumblob,
     lifetime int(11) unsigned DEFAULT '0' NOT NULL,
@@ -277,3 +311,18 @@ CREATE TABLE cf_news_categorycache_tags (
     KEY cache_id (identifier),
     KEY cache_tag (tag)
 ) ENGINE=InnoDB;
+
+#
+# Table structure for table 'be_groups'
+#
+CREATE TABLE be_groups (
+	tx_news_categorymounts varchar(255) DEFAULT '' NOT NULL,
+
+);
+
+#
+# Table structure for table 'be_users'
+#
+CREATE TABLE be_users (
+	tx_news_categorymounts varchar(255) DEFAULT '' NOT NULL,
+);

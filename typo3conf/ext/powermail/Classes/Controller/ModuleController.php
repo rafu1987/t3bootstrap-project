@@ -57,7 +57,7 @@ class Tx_Powermail_Controller_ModuleController extends Tx_Extbase_MVC_Controller
 	/**
 	 * List View Backend
 	 *
-	 * @return	void
+	 * @return void
 	 */
 	public function listBeAction() {
 		$mails = $this->mailsRepository->findAllInPid(t3lib_div::_GP('id'), $this->settings, $this->piVars);
@@ -74,8 +74,8 @@ class Tx_Powermail_Controller_ModuleController extends Tx_Extbase_MVC_Controller
 	/**
 	 * Check View Backend
 	 *
-	 * @param	string		email address
-	 * @return	void
+	 * @param string $email email address
+	 * @return void
 	 */
 	public function checkBeAction($email = NULL) {
 		$this->view->assign('pid', t3lib_div::_GP('id'));
@@ -101,8 +101,8 @@ class Tx_Powermail_Controller_ModuleController extends Tx_Extbase_MVC_Controller
 	/**
 	 * Reporting
 	 *
-	 * @param	string		'form' or 'marketing'
-	 * @return	void
+	 * @param string $subaction could be 'form' or 'marketing'
+	 * @return void
 	 */
 	public function reportingBeAction($subaction = NULL) {
 		if ($subaction == 'form') {
@@ -116,12 +116,12 @@ class Tx_Powermail_Controller_ModuleController extends Tx_Extbase_MVC_Controller
 	/**
 	 * Reporting Form
 	 *
-	 * @return	void
+	 * @return void
 	 */
 	public function reportingFormBeAction() {
 		$mails = $this->mailsRepository->findAllInPid(t3lib_div::_GP('id'), $this->settings, $this->piVars);
 		$firstMail = $this->mailsRepository->findFirstInPid(t3lib_div::_GP('id'));
-		$groupedAnswers = $this->div->getGroupedMailAnswers($mails);
+		$groupedAnswers = Tx_Powermail_Utility_Div::getGroupedMailAnswers($mails);
 
 		$this->view->assign('groupedAnswers', $groupedAnswers);
 		$this->view->assign('mails', $mails);
@@ -135,12 +135,12 @@ class Tx_Powermail_Controller_ModuleController extends Tx_Extbase_MVC_Controller
 	/**
 	 * Reporting Marketing
 	 *
-	 * @return	void
+	 * @return void
 	 */
 	public function reportingMarketingBeAction() {
 		$mails = $this->mailsRepository->findAllInPid(t3lib_div::_GP('id'), $this->settings, $this->piVars);
 		$firstMail = $this->mailsRepository->findFirstInPid(t3lib_div::_GP('id'));
-		$groupedMarketingStuff = $this->div->getGroupedMarketingStuff($mails);
+		$groupedMarketingStuff = Tx_Powermail_Utility_Div::getGroupedMarketingStuff($mails);
 
 		$this->view->assign('groupedMarketingStuff', $groupedMarketingStuff);
 		$this->view->assign('mails', $mails);
@@ -154,8 +154,8 @@ class Tx_Powermail_Controller_ModuleController extends Tx_Extbase_MVC_Controller
 	/**
 	 * Export Action
 	 *
-	 * @param	array		export settings
-	 * @return	void
+	 * @param array $export export settings
+	 * @return void
 	 */
 	public function exportBeAction(array $export = array()) {
 		if ($export['format'] == 'xls') {
@@ -167,8 +167,8 @@ class Tx_Powermail_Controller_ModuleController extends Tx_Extbase_MVC_Controller
 	/**
 	 * Export Action for XLS Files
 	 *
-	 * @param	array		export settings
-	 * @return	void
+	 * @param array $export export settings
+	 * @return void
 	 */
 	public function exportXlsBeAction(array $export = array()) {
 		$mails = $this->mailsRepository->findByUidList($export['mails'], $export['sorting']);
@@ -183,8 +183,8 @@ class Tx_Powermail_Controller_ModuleController extends Tx_Extbase_MVC_Controller
 	/**
 	 * Export Action for CSV Files
 	 *
-	 * @param	array		export settings
-	 * @return	void
+	 * @param array $export export settings
+	 * @return void
 	 */
 	public function exportCsvBeAction(array $export = array()) {
 		$mails = $this->mailsRepository->findByUidList($export['mails'], $export['sorting']);

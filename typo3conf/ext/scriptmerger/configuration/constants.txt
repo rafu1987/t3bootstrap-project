@@ -3,25 +3,21 @@ plugin.tx_scriptmerger {
 		enable = 1
 		addContentInDocument = 0
 
-		# minification
 		minify {
 			enable = 1
 			ignore = \.min\.
 		}
 
-		# gzip compression
 		compress {
 			enable = 1
 			ignore = \.gz\.
 		}
 
-		# merging
 		merge {
 			enable = 1
 			ignore =
 		}
 		
-		# charset
 		uniqueCharset {
 			enable = 1
 			value = @charset "UTF-8";
@@ -35,24 +31,22 @@ plugin.tx_scriptmerger {
 		doNotRemoveInDocInBody = 1
 		addContentInDocument = 0
 
-		# minification
 		minify {
 			enable = 1
 			useJSMinPlus = 1
 			ignore = \?,\.min\.
 		}
 
-		# gzip compression
 		compress {
 			enable = 1
 			ignore = \?,\.gz\.
 		}
 
-		# merging
 		merge {
 			enable = 1
 			ignore = \?
 		}
 	}
+
 	externalFileCacheLifetime = 3600
 }

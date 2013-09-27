@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;web_txtqseoM3&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">SEO</label>
+			<label index="title_content">TEQneers SEO Settings</label>
+			<label index="function_sitemap">Sitemap</label>
+
+			<label index="header_rootpage">Root Website</label>
+			<label index="header_sitemap_pages">Pages</label>
+			<label index="header_sitemap_total">Pages (with virtual pages/extensions)</label>
+			<label index="header_sitemap_page_uid">ID</label>
+			<label index="header_sitemap_page_uid">PID</label>
+			<label index="header_sitemap_page_url">URL</label>
+			<label index="header_sitemap_page_language">Language</label>
+			<label index="header_sitemap_page_depth">Depth</label>
+			<label index="header_sitemap_crdate">Created</label>
+			<label index="header_sitemap_tstamp">Last indexed</label>
+
+			<label index="title_sitemap_list">Sitemap list for "%s" (UID:%s)</label>
+			<label index="pager_desc">Page %s of %s</label>
+			<label index="pager_results">Show rows {0} - {1} of {2}</label>
+			<label index="pager_noresults">There are no entries</label>
+
+			<label index="default_language">Default</label>
+
+			<label index="label_search_fulltext">Search</label>
+			<label index="empty_search_fulltext">Search...</label>
+
+			<label index="label_search_page_uid">PID</label>
+			<label index="empty_search_page_uid"></label>
+
+			<label index="label_search_page_language">Language</label>
+			<label index="empty_search_page_language">-- All --</label>
+
+			<label index="label_search_page_depth">Depth</label>
+			<label index="empty_search_page_depth">-- All --</label>
+
+			<label index="button_yes">Yes</label>
+			<label index="button_no">No</label>
+
+			<label index="button_delete">Delete</label>
+			<label index="button_delete_hint">Delete all selected sitemap entries</label>
+
+			<label index="message_delete_title">Delete entries</label>
+			<label index="message_delete_question">Do you really want to delete these sitemap entries?</label>
+
+			<label index="message_no_selected_items">You must select at least one sitemap entry.</label>
+
+			<label index="today">Today</label>
+			<label index="yesterday">Yesterday</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="title">SEO</label>
+			<label index="title_content">TEQneers SEO Einstellungen</label>
+			<label index="function_sitemap">Sitemap</label>
+
+			<label index="header_rootpage">Website</label>
+			<label index="header_sitemap_pages">Seiten</label>
+			<label index="header_sitemap_total">Seiten (mit virtuellen Seiten/Erweiterungen)</label>
+			<label index="header_sitemap_page_uid">ID</label>
+			<label index="header_sitemap_page_uid">PID</label>
+			<label index="header_sitemap_page_url">URL</label>
+			<label index="header_sitemap_page_language">Sprache</label>
+			<label index="header_sitemap_page_depth">Tiefe</label>
+			<label index="header_sitemap_crdate">Erstellt am</label>
+			<label index="header_sitemap_tstamp">Zuletzt indiziert am</label>
+
+			<label index="title_sitemap_list">Sitemap liste von "%s" (UID:%s)</label>
+			<label index="pager_desc">Seite %s von %s</label>
+			<label index="pager_results">Zeige {0} Einträge - {1} bis {2}</label>
+			<label index="pager_noresults">Es sind keine Einträge vorhanden</label>
+
+			<label index="default_language">Standard</label>
+
+			<label index="label_search_fulltext">Suche</label>
+			<label index="empty_search_fulltext">Suche...</label>
+
+			<label index="label_search_page_uid">PID</label>
+			<label index="empty_search_page_uid"></label>
+
+			<label index="label_search_page_language">Sprache</label>
+			<label index="empty_search_page_language">-- Alle --</label>
+
+			<label index="label_search_page_depth">Tiefe</label>
+			<label index="empty_search_page_depth">-- Alle --</label>
+
+			<label index="button_yes">Ja</label>
+			<label index="button_no">Nein</label>
+
+			<label index="button_delete">Löschen</label>
+			<label index="button_delete_hint">Alle ausgewählten Sitemap-Einträge löschen</label>
+
+			<label index="message_delete_title">Einträge löschen</label>
+			<label index="message_delete_question">Wollen Sie wirklich die ausgewählten Sitemap-Einträge löschen?</label>
+
+			<label index="message_no_selected_items">Sie müssen mindestens einen Eintrag auswählen.</label>
+
+			<label index="today">Heute</label>
+			<label index="yesterday">Gestern</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -25,6 +25,14 @@
 /**
  * ViewHelper to include a css/js file
  *
+ * # Example: Basic example
+ * <code>
+ * <n:includeFile path="{settings.cssFile}" />
+ * </code>
+ * <output>
+ * This will include the file provided by {settings} in the header
+ * </output>
+ *
  * @package TYPO3
  * @subpackage tx_news
  */
@@ -33,14 +41,14 @@ class Tx_News_ViewHelpers_IncludeFileViewHelper extends Tx_Fluid_Core_ViewHelper
 	/**
 	 * Include a CSS/JS file
 	 *
-	 * @param string $path path to the file
-	 * @param boolean $compress if file should be compressed
+	 * @param string $path Path to the CSS/JS file which should be included
+	 * @param boolean $compress Define if file should be compressed
 	 * @return void
 	 */
 	public function render($path, $compress = FALSE) {
-		$path = $GLOBALS['TSFE']->tmpl->getFileName($path);
+		if (TYPO3_MODE === 'FE') {
+			$path = $GLOBALS['TSFE']->tmpl->getFileName($path);
 
-		if ($path) {
 				// JS
 			if (strtolower(substr($path, -3)) === '.js') {
 				$GLOBALS['TSFE']->getPageRenderer()->addJsFile($path, NULL, $compress);
@@ -48,6 +56,18 @@ class Tx_News_ViewHelpers_IncludeFileViewHelper extends Tx_Fluid_Core_ViewHelper
 				// CSS
 			} elseif (strtolower(substr($path, -4)) === '.css') {
 				$GLOBALS['TSFE']->getPageRenderer()->addCssFile($path, 'stylesheet', 'all', '', $compress);
+			}
+		} else {
+			$doc = t3lib_div::makeInstance('template');
+			$pageRenderer = $doc->getPageRenderer();
+
+				// JS
+			if (strtolower(substr($path, -3)) === '.js') {
+				$pageRenderer->addJsFile($path, NULL, $compress);
+
+				// CSS
+			} elseif (strtolower(substr($path, -4)) === '.css') {
+				$pageRenderer->addCssFile($path, 'stylesheet', 'all', '', $compress);
 			}
 		}
 	}

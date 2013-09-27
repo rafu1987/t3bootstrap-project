@@ -29,6 +29,7 @@
  * @subpackage tx_news
  */
 class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
+
 	/**
 	 * @var DateTime
 	 */
@@ -133,6 +134,12 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	protected $related;
 
 	/**
+	 * @var Tx_Extbase_Persistence_ObjectStorage<Tx_News_Domain_Model_News>
+	 * @lazy
+	 */
+	protected $relatedFrom;
+
+	/**
 	 * @var Tx_Extbase_Persistence_ObjectStorage<Tx_News_Domain_Model_File>
 	 * @lazy
 	 */
@@ -145,7 +152,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	protected $relatedLinks;
 
 	/**
-	 * @var integer
+	 * @var string
 	 */
 	protected $type;
 
@@ -176,7 +183,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	protected $istopnews;
 
 	/**
-	 * @var Tx_Extbase_Persistence_ObjectStorage<Tx_News_Domain_Model_External_TtContent>
+	 * @var Tx_Extbase_Persistence_ObjectStorage<Tx_News_Domain_Model_TtContent>
 	 * @lazy
 	 */
 	protected $contentElements;
@@ -215,11 +222,13 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	/**
 	 * Initialize categories and media relation
 	 *
-	 * @return void
+	 * @return \Tx_News_Domain_Model_News
 	 */
 	public function __construct() {
 		$this->categories = new Tx_Extbase_Persistence_ObjectStorage();
+		$this->contentElements = new Tx_Extbase_Persistence_ObjectStorage();
 		$this->relatedFiles = new Tx_Extbase_Persistence_ObjectStorage();
+		$this->relatedLinks = new Tx_Extbase_Persistence_ObjectStorage();
 		$this->media = new Tx_Extbase_Persistence_ObjectStorage();
 	}
 
@@ -324,7 +333,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 * @return integer
 	 */
 	public function getYearOfDatetime() {
-		return $this->datetime->format('Y');
+		return $this->getDatetime()->format('Y');
 	}
 
 	/**
@@ -333,7 +342,16 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 * @return integer
 	 */
 	public function getMonthOfDatetime() {
-		return $this->datetime->format('m');
+		return $this->getDatetime()->format('m');
+	}
+
+	/**
+	 * Get day of datetime
+	 *
+	 * @return integer
+	 */
+	public function getDayOfDatetime() {
+		return (int) $this->datetime->format('d');
 	}
 
 	/**
@@ -361,7 +379,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 * @return integer
 	 */
 	public function getYearOfArchive() {
-		return $this->archive->format('Y');
+		return $this->getArchive()->format('Y');
 	}
 
 	/**
@@ -370,7 +388,16 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 * @return integer
 	 */
 	public function getMonthOfArchive() {
-		return $this->archive->format('m');
+		return $this->getArchive()->format('m');
+	}
+
+	/**
+	 * Get day of archive date
+	 *
+	 * @return integer
+	 */
+	public function getDayOfArchive() {
+		return (int) $this->archive->format('d');
 	}
 
 	/**
@@ -393,7 +420,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	}
 
 	/**
-	 * Gett author's email
+	 * Get author's email
 	 *
 	 * @return string
 	 */
@@ -427,9 +454,12 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 */
 	public function getFirstCategory() {
 		$categories = $this->getCategories();
-		$categories->rewind();
-
-		return $categories->current();
+		if (!is_null($categories)) {
+			$categories->rewind();
+			return $categories->current();
+		} else {
+			return NULL;
+		}
 	}
 
 	/**
@@ -449,7 +479,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 * @return void
 	 */
 	public function addCategory(Tx_News_Domain_Model_Category $category) {
-		$this->categories->attach($category);
+		$this->getCategories()->attach($category);
 	}
 
 	/**
@@ -462,15 +492,73 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	}
 
 	/**
+	 * Set related from
+	 *
+	 * @param Tx_Extbase_Persistence_ObjectStorage<Tx_News_Domain_Model_News> $relatedFrom
+	 * @return void
+	 */
+	public function setRelatedFrom($relatedFrom) {
+		$this->relatedFrom = $relatedFrom;
+	}
+
+	/**
+	 * Get related from
+	 *
+	 * @return Tx_Extbase_Persistence_ObjectStorage<Tx_News_Domain_Model_News>
+	 */
+	public function getRelatedFrom() {
+		return $this->relatedFrom;
+	}
+
+	/**
+	 * Return related from items sorted by datetime
+	 *
+	 * @return array
+	 */
+	public function getRelatedFromSorted() {
+		$items = $this->getRelatedFrom();
+		if ($items) {
+			$items = $items->toArray();
+			usort($items, create_function('$a, $b', 'return $a->getDatetime() < $b->getDatetime();'));
+		}
+		return $items;
+	}
+
+	/**
+	 * Return related from items sorted by datetime
+	 *
+	 * @return array
+	 */
+	public function getAllRelatedSorted() {
+		$all = array();
+		$itemsRelated = $this->getRelated();
+		if ($itemsRelated) {
+			$all = array_merge($all, $itemsRelated->toArray());
+		}
+
+		$itemsRelatedFrom = $this->getRelatedFrom();
+		if ($itemsRelatedFrom) {
+			$all = array_merge($all, $itemsRelatedFrom->toArray());
+		}
+
+		if (count($all) > 0) {
+			usort($all, create_function('$a, $b', 'return $a->getDatetime() < $b->getDatetime();'));
+		}
+		return $all;
+	}
+
+
+	/**
 	 * Return related items sorted by datetime
 	 *
 	 * @return array
 	 */
 	public function getRelatedSorted() {
 		$items = $this->getRelated();
-		$items = $items->toArray();
-
-		usort($items, create_function('$a, $b', 'return $a->getDatetime() < $b->getDatetime();'));
+		if ($items) {
+			$items = $items->toArray();
+			usort($items, create_function('$a, $b', 'return $a->getDatetime() < $b->getDatetime();'));
+		}
 		return $items;
 	}
 
@@ -510,7 +598,10 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 * @return void
 	 */
 	public function addRelatedFile(Tx_News_Domain_Model_File $file) {
-		$this->relatedFiles->attach($file);
+		if ($this->getRelatedFiles() === NULL) {
+			$this->relatedFiles = new Tx_Extbase_Persistence_ObjectStorage();
+		}
+		$this->getRelatedFiles()->attach($file);
 	}
 
 	/**
@@ -535,7 +626,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	/**
 	 * Get type of news
 	 *
-	 * @return integer
+	 * @return string
 	 */
 	public function getType() {
 		return $this->type;
@@ -585,7 +676,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 * @return array
 	 */
 	public function getMediaPreviews() {
-		$mediaElements = $this->media;
+		$mediaElements = $this->getMedia();
 
 		$previewCollection = array();
 		foreach ($mediaElements as $mediaElement) {
@@ -607,7 +698,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 * @return array
 	 */
 	public function getNonMediaPreviews() {
-		$mediaElements = $this->media;
+		$mediaElements = $this->getMedia();
 
 		$collection = array();
 		foreach ($mediaElements as $mediaElement) {
@@ -630,8 +721,23 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 * @return void
 	 */
 	public function addMedia(Tx_News_Domain_Model_Media $media) {
-		$this->media->attach($media);
+		if ($this->getMedia() === NULL) {
+			$this->media = new Tx_Extbase_Persistence_ObjectStorage();
+		}
+		$this->getMedia()->attach($media);
+	}
 
+	/**
+	 * Adds a related link.
+	 *
+	 * @param Tx_News_Domain_Model_Link $relatedLink
+	 * @return void
+	 */
+	public function addRelatedLink(Tx_News_Domain_Model_Link $relatedLink) {
+		if ($this->relatedLinks === NULL) {
+			$this->relatedLinks = new Tx_Extbase_Persistence_ObjectStorage();
+		}
+		$this->relatedLinks->attach($relatedLink);
 	}
 
 	/**
@@ -643,7 +749,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 		$mediaElements = $this->getMedia();
 
 		foreach ($mediaElements as $mediaElement) {
-			if ($mediaElement->getShowinpreview() && $mediaElement->getType() == 0) {
+			if ($mediaElement->getShowinpreview()) {
 				return $mediaElement;
 			}
 		}
@@ -673,11 +779,11 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	/**
 	 * Set internal url
 	 *
-	 * @param string $internalurl internal url
+	 * @param string $internalUrl internal url
 	 * @return void
 	 */
-	public function setInternalurl($internalurl) {
-		$this->internalurl = $internalurl;
+	public function setInternalurl($internalUrl) {
+		$this->internalurl = $internalUrl;
 	}
 
 	/**
@@ -692,11 +798,11 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	/**
 	 * Set external url
 	 *
-	 * @param string $externalurl external url
+	 * @param string $externalUrl external url
 	 * @return void
 	 */
-	public function setExternalurl($externalurl) {
-		$this->externalurl = $externalurl;
+	public function setExternalurl($externalUrl) {
+		$this->externalurl = $externalUrl;
 	}
 
 	/**
@@ -730,11 +836,24 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	/**
 	 * Set content element list
 	 *
-	 * @param string $contentElements list of ce uids
+	 * @param Tx_Extbase_Persistence_ObjectStorage $contentElements content elements
 	 * @return void
 	 */
 	public function setContentElements($contentElements) {
 		$this->contentElements = $contentElements;
+	}
+
+	/**
+	 * Adds a content element to the record
+	 *
+	 * @param Tx_News_Domain_Model_TtContent $contentElement
+	 * @return void
+	*/
+	public function addContentElement(Tx_News_Domain_Model_TtContent $contentElement) {
+		if ($this->getContentElements() === NULL) {
+			$this->contentElements = new Tx_Extbase_Persistence_ObjectStorage();
+		}
+		$this->contentElements->attach($contentElement);
 	}
 
 	/**
@@ -744,7 +863,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 */
 	public function getContentElementIdList() {
 		$idList = array();
-		foreach($this->contentElements as $contentElement) {
+		foreach ($this->getContentElements() as $contentElement) {
 			$idList[] = $contentElement->getUid();
 		}
 		return implode(',', $idList);
@@ -807,6 +926,33 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	}
 
 	/**
+	 * Get year of crdate
+	 *
+	 * @return integer
+	 */
+	public function getYearOfCrdate() {
+		return $this->getCrdate()->format('Y');
+	}
+
+	/**
+	 * Get month of crdate
+	 *
+	 * @return integer
+	 */
+	public function getMonthOfCrdate() {
+		return $this->getCrdate()->format('m');
+	}
+
+	/**
+	 * Get day of crdate
+	 *
+	 * @return integer
+	 */
+	public function getDayOfCrdate() {
+		return (int) $this->crdate->format('d');
+	}
+
+	/**
 	 * Get timestamp
 	 *
 	 * @return integer
@@ -823,6 +969,71 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	 */
 	public function setTstamp($tstamp) {
 		$this->tstamp = $tstamp;
+	}
+
+	/**
+	 * Set sys language
+	 *
+	 * @param int $sysLanguageUid
+	 * @return void
+	 */
+	public function setSysLanguageUid($sysLanguageUid) {
+		$this->_languageUid = $sysLanguageUid;
+	}
+
+	/**
+	 * Get sys language
+	 *
+	 * @return int
+	 */
+	public function getSysLanguageUid() {
+		return $this->_languageUid;
+	}
+
+	/**
+	 * Set l10n parent
+	 *
+	 * @param int $l10nParent
+	 * @return void
+	 */
+	public function setL10nParent($l10nParent) {
+		$this->l10nParent = $l10nParent;
+	}
+
+	/**
+	 * Get l10n parent
+	 *
+	 * @return int
+	 */
+	public function getL10nParent() {
+		return $this->l10nParent;
+	}
+
+	/**
+	 * Get year of tstamp
+	 *
+	 * @return integer
+	 */
+	public function getYearOfTstamp() {
+		return $this->getTstamp()->format('Y');
+	}
+
+	/**
+	 * Get month of tstamp
+	 *
+	 * @return integer
+	 */
+	public function getMonthOfTstamp() {
+		return $this->getTstamp()->format('m');
+	}
+
+	/**
+	 * Get day of tstamp
+	 *
+	 * @return integer
+	 */
+	public function getDayOfTimestamp() {
+		return (int) $this->tstamp->format('d');
 	}
 
 	/**
@@ -904,7 +1115,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	/**
 	 * Get start time
 	 *
-	 * @return integer
+	 * @return DateTime
 	 */
 	public function getStarttime() {
 		return $this->starttime;
@@ -921,9 +1132,36 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	}
 
 	/**
-	 * Get enddtime
+	 * Get year of starttime
 	 *
 	 * @return integer
+	 */
+	public function getYearOfStarttime() {
+		return $this->getStarttime()->format('Y');
+	}
+
+	/**
+	 * Get month of starttime
+	 *
+	 * @return integer
+	 */
+	public function getMonthOfStarttime() {
+		return $this->getStarttime()->format('m');
+	}
+
+	/**
+	 * Get day of starttime
+	 *
+	 * @return integer
+	 */
+	public function getDayOfStarttime() {
+		return (int) $this->starttime->format('d');
+	}
+
+	/**
+	 * Get endtime
+	 *
+	 * @return DateTime
 	 */
 	public function getEndtime() {
 		return $this->endtime;
@@ -940,6 +1178,33 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	}
 
 	/**
+	 * Get year of endtime
+	 *
+	 * @return integer
+	 */
+	public function getYearOfEndtime() {
+		return $this->getEndtime()->format('Y');
+	}
+
+	/**
+	 * Get month of endtime
+	 *
+	 * @return integer
+	 */
+	public function getMonthOfEndtime() {
+		return $this->getEndtime()->format('m');
+	}
+
+	/**
+	 * Get day of endtime
+	 *
+	 * @return integer
+	 */
+	public function getDayOfEndtime() {
+		return (int) $this->endtime->format('d');
+	}
+
+	/**
 	 * Get fe groups
 	 *
 	 * @return string
@@ -951,7 +1216,7 @@ class Tx_News_Domain_Model_News extends Tx_Extbase_DomainObject_AbstractEntity {
 	/**
 	 * Set fe group
 	 *
-	 * @param string $feGroup comma seperated list
+	 * @param string $feGroup comma separated list
 	 * @return void
 	 */
 	public function setFeGroup($feGroup) {

@@ -45,7 +45,7 @@ var Site = {
 	},
 
 	uncheck: function(input) {
-		jQuery(input).attr('checked', false);
+		jQuery(input).prop('checked', false);
 		var deps = jQuery(input).attr('deps');
 		if (deps) {
 			Site.uncheckDepending(jQuery(input).attr('id'));
@@ -53,7 +53,7 @@ var Site = {
 	},
 
 	check: function(input) {
-		jQuery(input).attr('checked', true);
+		jQuery(input).prop('checked', true);
 		var deps = jQuery(input).attr('deps');
 		if (deps) {
 			Site.checkDependants(deps.split(','));

@@ -22,7 +22,7 @@
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 /**
- * $Id: class.tx_realurl_pagebrowser.php 39319 2010-10-19 09:14:10Z dmitry $
+ * $Id$
  *
  */
 

@@ -23,7 +23,7 @@
 ***************************************************************/
 
 /**
- * Do some file infos
+ * File utility
  *
  * @package TYPO3
  * @subpackage tx_news
@@ -35,11 +35,14 @@ class Tx_News_Service_FileService {
 	 *
 	 * @param string $url
 	 * @return string
+	 * @throws UnexpectedValueException
 	 */
 	public static function getCorrectUrl($url) {
 		if (empty($url)) {
-			throw new Exception('An empty url is given');
+			throw new UnexpectedValueException('An empty url is given');
 		}
+
+		$url = self::getFalFilename($url);
 			// check URL
 		$urlInfo = parse_url($url);
 
@@ -52,7 +55,7 @@ class Tx_News_Service_FileService {
 				// absolute path is used to check path
 			$absoluteUrl = t3lib_div::getFileAbsFileName($url);
 			if (!t3lib_div::isAllowedAbsPath($absoluteUrl)) {
-				throw new Exception('The path "' . $url . '" is not allowed.');
+				throw new UnexpectedValueException('The path "' . $url . '" is not allowed.');
 			}
 
 				// append current domain
@@ -70,6 +73,28 @@ class Tx_News_Service_FileService {
 	 */
 	public static function getUniqueId(Tx_News_Domain_Model_Media $element) {
 		return 'mediaelement-' . md5($element->getUid() . uniqid());
+	}
+
+	/**
+	 * If filename starts with file:, return de real path.
+	 *
+	 * @param @param string $url
+	 * @return string
+	 */
+
+	public static function getFalFilename($url) {
+		if (substr($url, 0, 5) === 'file:') {
+			$fileUid = substr($url, 5);
+
+			if (\TYPO3\CMS\Core\Utility\MathUtility::canBeInterpretedAsInteger($fileUid)) {
+				$fileObject = \TYPO3\CMS\Core\Resource\ResourceFactory::getInstance()->getFileObject($fileUid);
+
+				if ($fileObject instanceof \TYPO3\CMS\Core\Resource\FileInterface) {
+					$url = $fileObject->getPublicUrl();
+				}
+			}
+		}
+		return $url;
 	}
 
 }

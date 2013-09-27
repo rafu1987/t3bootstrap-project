@@ -1,42 +1,54 @@
 <?php
 /***************************************************************
-*  Copyright notice
-*
-*  (c) 2010 Georg Ringer <typo3@ringerge.org>
-*  All rights reserved
-*
-*  This script is part of the TYPO3 project. The TYPO3 project is
-*  free software; you can redistribute it and/or modify
-*  it under the terms of the GNU General Public License as published by
-*  the Free Software Foundation; either version 2 of the License, or
-*  (at your option) any later version.
-*
-*  The GNU General Public License can be found at
-*  http://www.gnu.org/copyleft/gpl.html.
-*
-*  This script is distributed in the hope that it will be useful,
-*  but WITHOUT ANY WARRANTY; without even the implied warranty of
-*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*  GNU General Public License for more details.
-*
-*  This copyright notice MUST APPEAR in all copies of the script!
-***************************************************************/
+ *  Copyright notice
+ *  (c) 2010 Georg Ringer <typo3@ringerge.org>
+ *  All rights reserved
+ *  This script is part of the TYPO3 project. The TYPO3 project is
+ *  free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *  The GNU General Public License can be found at
+ *  http://www.gnu.org/copyleft/gpl.html.
+ *  This script is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *  This copyright notice MUST APPEAR in all copies of the script!
+ ***************************************************************/
 
 /**
  * ViewHelper to render links from news records to detail view or page
  *
- * Example
+ * # Example: Basic link
+ * <code>
  * <n:link newsItem="{newsItem}" settings="{settings}">
- * {newsItem.title}
+ * 	{newsItem.title}
  * </n:link>
+ * </code>
+ * <output>
+ * A link to the given news record using the news title as link text
+ * </output>
  *
- * Inline notation:
- * {n:link(newsItem:newsItem,settings:settings,configuration:{returnLast:'url'})}
+ * # Example: Set an additional attribute
+ * # Description: Available: class, dir, id, lang, style, title, accesskey, tabindex, onclick
+ * <code>
+ * <n:link newsItem="{newsItem}" settings="{settings}" class="a-link-class">fo</n:link>
+ * </code>
+ * <output>
+ * <a href="link" class="a-link-class">fo</n:link>
+ * </output>
  *
- * @package TYPO3
- * @subpackage tx_news
+ * # Example: Return the link only
+ * <code>
+ * <n:link newsItem="{newsItem}" settings="{settings}" uriOnly="1" />
+ * </code>
+ * <output>
+ * The uri is returned
+ * </output>
+ *
  */
-class Tx_News_ViewHelpers_LinkViewHelper extends Tx_Fluid_Core_ViewHelper_AbstractViewHelper {
+class Tx_News_ViewHelpers_LinkViewHelper extends Tx_Fluid_ViewHelpers_Link_PageViewHelper {
 
 	/**
 	 * @var Tx_News_Service_SettingsService
@@ -46,7 +58,7 @@ class Tx_News_ViewHelpers_LinkViewHelper extends Tx_Fluid_Core_ViewHelper_Abstra
 	/**
 	 * @var array
 	 */
-	protected $detailPidDeterminationCallbacks = array (
+	protected $detailPidDeterminationCallbacks = array(
 		'flexform' => 'getDetailPidFromFlexform',
 		'categories' => 'getDetailPidFromCategories',
 		'default' => 'getDetailPidFromDefaultDetailPid',
@@ -54,6 +66,7 @@ class Tx_News_ViewHelpers_LinkViewHelper extends Tx_Fluid_Core_ViewHelper_Abstra
 
 	/**
 	 * @var Tx_News_Service_SettingsService $pluginSettingsService
+	 * @return void
 	 */
 	public function injectSettingsService(Tx_News_Service_SettingsService $pluginSettingsService) {
 		$this->pluginSettingsService = $pluginSettingsService;
@@ -62,14 +75,16 @@ class Tx_News_ViewHelpers_LinkViewHelper extends Tx_Fluid_Core_ViewHelper_Abstra
 	/**
 	 * Render link to news item or internal/external pages
 	 *
-	 * @param Tx_News_Domain_Model_News $newsItem
+	 * @param Tx_News_Domain_Model_News $newsItem current news object
 	 * @param array $settings
-	 * @param boolean $hsc add htmlspecialchars() at the end
+	 * @param boolean $uriOnly return only the url without the a-tag
 	 * @param array $configuration optional typolink configuration
-	 * @return string url
+	 * @return string link
 	 */
-	public function render(Tx_News_Domain_Model_News $newsItem, array $settings = array(), $hsc = FALSE, $configuration = array()) {
+	public function render(Tx_News_Domain_Model_News $newsItem, array $settings = array(), $uriOnly = FALSE, $configuration = array()) {
 		$tsSettings = $this->pluginSettingsService->getSettings();
+
+		/** @var $cObj tslib_cObj */
 		$cObj = t3lib_div::makeInstance('tslib_cObj');
 
 		$newsType = (int)$newsItem->getType();
@@ -95,7 +110,7 @@ class Tx_News_ViewHelpers_LinkViewHelper extends Tx_Fluid_Core_ViewHelper_Abstra
 				foreach ($detailPidDeterminationMethods as $determinationMethod) {
 					if ($callback = $this->detailPidDeterminationCallbacks[$determinationMethod]) {
 						if ($detailPid = call_user_func(array($this, $callback), $settings, $newsItem)) {
-						  break;
+							break;
 						}
 					}
 				}
@@ -106,9 +121,12 @@ class Tx_News_ViewHelpers_LinkViewHelper extends Tx_Fluid_Core_ViewHelper_Abstra
 
 				$configuration['useCacheHash'] = 1;
 				$configuration['parameter'] = $detailPid;
-				$configuration['additionalParams'] .= '&tx_news_pi1[controller]=News' .
-					'&tx_news_pi1[action]=detail' .
-					'&tx_news_pi1[news]=' . $newsItem->getUid();
+				$configuration['additionalParams'] .= '&tx_news_pi1[news]=' . $newsItem->getUid();
+
+				if ((int)$tsSettings['link']['skipControllerAndAction'] !== 1) {
+					$configuration['additionalParams'] .= '&tx_news_pi1[controller]=News' .
+						'&tx_news_pi1[action]=detail';
+				}
 
 					// Add date as human readable (30/04/2011)
 				if ($tsSettings['link']['hrDate'] == 1 || $tsSettings['link']['hrDate']['_typoScriptNodeValue'] == 1) {
@@ -125,14 +143,20 @@ class Tx_News_ViewHelpers_LinkViewHelper extends Tx_Fluid_Core_ViewHelper_Abstra
 					}
 				}
 		}
-
-		$link = $cObj->typolink($this->renderChildren(), $configuration);
-
-		if ($hsc) {
-			$link = htmlspecialchars($link);
+		if (isset($tsSettings['link']['typesOpeningInNewWindow'])) {
+			if (t3lib_div::inList($tsSettings['link']['typesOpeningInNewWindow'], $newsType)) {
+				$this->tag->addAttribute('target', '_blank');
+			}
 		}
 
-		return $link;
+		$url = $cObj->typoLink_URL($configuration);
+		if ($uriOnly) {
+			return $url;
+		}
+
+		$this->tag->addAttribute('href', $url);
+		$this->tag->setContent($this->renderChildren());
+		return $this->tag->render();
 	}
 
 	/**
@@ -164,7 +188,7 @@ class Tx_News_ViewHelpers_LinkViewHelper extends Tx_Fluid_Core_ViewHelper_Abstra
 	}
 
 	/**
-	 * Gets detailPid from flexfrom of current plugin.
+	 * Gets detailPid from flexform of current plugin.
 	 *
 	 * @param  array $settings
 	 * @param  Tx_News_Domain_Model_News $newsItem
@@ -175,4 +199,5 @@ class Tx_News_ViewHelpers_LinkViewHelper extends Tx_Fluid_Core_ViewHelper_Abstra
 
 	}
 }
+
 ?>

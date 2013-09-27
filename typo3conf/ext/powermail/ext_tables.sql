@@ -8,7 +8,7 @@ CREATE TABLE tx_powermail_domain_model_forms (
 
 	title varchar(255) DEFAULT '' NOT NULL,
 	css varchar(255) DEFAULT '' NOT NULL,
-	pages int(11) unsigned DEFAULT '0' NOT NULL,
+	pages varchar(255) DEFAULT '' NOT NULL,
 
 	tstamp int(11) unsigned DEFAULT '0' NOT NULL,
 	crdate int(11) unsigned DEFAULT '0' NOT NULL,
@@ -17,6 +17,8 @@ CREATE TABLE tx_powermail_domain_model_forms (
 	hidden tinyint(4) unsigned DEFAULT '0' NOT NULL,
 	starttime int(11) unsigned DEFAULT '0' NOT NULL,
 	endtime int(11) unsigned DEFAULT '0' NOT NULL,
+
+	is_dummy_record tinyint(1) DEFAULT '0' NOT NULL,
 
 	t3ver_oid int(11) DEFAULT '0' NOT NULL,
 	t3ver_id int(11) DEFAULT '0' NOT NULL,
@@ -97,7 +99,7 @@ CREATE TABLE tx_powermail_domain_model_fields (
 	path varchar(255) DEFAULT '' NOT NULL,
 	content_element int(11) DEFAULT '0' NOT NULL,
 	text text NOT NULL,
-	prefill_value varchar(255) DEFAULT '' NOT NULL,
+	prefill_value text NOT NULL,
 	validation int(11) DEFAULT '0' NOT NULL,
 	css varchar(255) DEFAULT '' NOT NULL,
 	feuser_value varchar(255) DEFAULT '' NOT NULL,

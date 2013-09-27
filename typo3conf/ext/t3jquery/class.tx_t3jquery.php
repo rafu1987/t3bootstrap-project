@@ -210,11 +210,15 @@ class tx_t3jquery
 					);
 				}
 				if ($confArr['jQueryBootstrapVersion'] != '') {
-					if ($confArr['jQueryBootstrapVersion'] == '2.2.0') {
-						t3lib_div::devLog('jQuery Bootstrap \''.$confArr['jQueryBootstrapVersion'].'\' not available', 't3jquery', 1);
-						$confArr['jQueryBootstrapVersion'] = '2.2.2';
+					if (tx_t3jquery::getIntFromVersion($confArr['jQueryBootstrapVersion']) < 3000000) {
+						if ($confArr['jQueryBootstrapVersion'] == '2.2.0') {
+							t3lib_div::devLog('jQuery Bootstrap \''.$confArr['jQueryBootstrapVersion'].'\' not available', 't3jquery', 1);
+							$confArr['jQueryBootstrapVersion'] = '2.2.2';
+						}
+						$jsFile = '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/'.$confArr['jQueryBootstrapVersion'].'/js/bootstrap.min.js';
+					} else {
+						$jsFile = '//netdna.bootstrapcdn.com/bootstrap/'.$confArr['jQueryBootstrapVersion'].'/js/bootstrap.min.js';
 					}
-					$jsFile = 'http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/'.$confArr['jQueryBootstrapVersion'].'/bootstrap.min.js';
 					$params['jsFiles'][$jsFile] = array(
 						'file'                     => $jsFile,
 						'type'                     => 'text/javascript',
@@ -238,8 +242,12 @@ class tx_t3jquery
 						'excludeFromConcatenation' => TRUE
 					);
 				} else {
+					if ($confArr['jQueryVersion'] == '2.0.0b1') {
+						t3lib_div::devLog('jQuery \''.$confArr['jQueryVersion'].'\' not in Google-CDN', 't3jquery', 1);
+						$confArr['jQueryVersion'] = '1.9.1';
+					}
 					$params['jsLibs']['jQuery'] = array(
-						'file'                     => 'https://ajax.googleapis.com/ajax/libs/jquery/'.$confArr['jQueryVersion'].'/jquery.min.js',
+						'file'                     => '//ajax.googleapis.com/ajax/libs/jquery/'.$confArr['jQueryVersion'].'/jquery.min.js',
 						'type'                     => 'text/javascript',
 						'section'                  => self::getSection(),
 						'forceOnTop'               => TRUE,
@@ -248,7 +256,7 @@ class tx_t3jquery
 					);
 				}
 				if ($confArr['jQueryUiVersion'] != '') {
-					$jsFile = 'https://ajax.googleapis.com/ajax/libs/jqueryui/'.$confArr['jQueryUiVersion'].'/jquery-ui.min.js';
+					$jsFile = '//ajax.googleapis.com/ajax/libs/jqueryui/'.$confArr['jQueryUiVersion'].'/jquery-ui.min.js';
 					$params['jsFiles'][$jsFile] = array(
 						'file'                     => $jsFile,
 						'type'                     => 'text/javascript',
@@ -259,11 +267,15 @@ class tx_t3jquery
 					);
 				}
 				if ($confArr['jQueryBootstrapVersion'] != '') {
-					if ($confArr['jQueryBootstrapVersion'] == '2.2.0') {
-						t3lib_div::devLog('jQuery Bootstrap \''.$confArr['jQueryBootstrapVersion'].'\' not available', 't3jquery', 1);
-						$confArr['jQueryBootstrapVersion'] = '2.2.2';
+					if (tx_t3jquery::getIntFromVersion($confArr['jQueryBootstrapVersion']) < 3000000) {
+						if ($confArr['jQueryBootstrapVersion'] == '2.2.0') {
+							t3lib_div::devLog('jQuery Bootstrap \''.$confArr['jQueryBootstrapVersion'].'\' not available', 't3jquery', 1);
+							$confArr['jQueryBootstrapVersion'] = '2.2.2';
+						}
+						$jsFile = '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/'.$confArr['jQueryBootstrapVersion'].'/js/bootstrap.min.js';
+					} else {
+						$jsFile = '//netdna.bootstrapcdn.com/bootstrap/'.$confArr['jQueryBootstrapVersion'].'/js/bootstrap.min.js';
 					}
-					$jsFile = 'http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/'.$confArr['jQueryBootstrapVersion'].'/bootstrap.min.js';
 					$params['jsFiles'][$jsFile] = array(
 						'file'                     => $jsFile,
 						'type'                     => 'text/javascript',
@@ -287,6 +299,10 @@ class tx_t3jquery
 						'excludeFromConcatenation' => TRUE
 					);
 				} else {
+					if ($confArr['jQueryVersion'] == '2.0.0b1') {
+						t3lib_div::devLog('jQuery \''.$confArr['jQueryVersion'].'\' not in MSN-CDN', 't3jquery', 1);
+						$confArr['jQueryVersion'] = '1.9.1';
+					}
 					if (tx_t3jquery::getIntFromVersion($confArr['jQueryVersion']) < 1003002) {
 						t3lib_div::devLog('jQuery \''.$confArr['jQueryVersion'].'\' not in MSN-CDN', 't3jquery', 1);
 						$confArr['jQueryVersion'] = '1.3.2';
@@ -296,7 +312,7 @@ class tx_t3jquery
 						$confArr['jQueryVersion'] = substr($confArr['jQueryVersion'], 0, -2);
 					}
 					$params['jsLibs']['jQuery'] = array(
-						'file'                     => 'http://ajax.aspnetcdn.com/ajax/jquery/jquery-'.$confArr['jQueryVersion'].'.min.js',
+						'file'                     => '//ajax.aspnetcdn.com/ajax/jquery/jquery-'.$confArr['jQueryVersion'].'.min.js',
 						'type'                     => 'text/javascript',
 						'section'                  => self::getSection(),
 						'forceOnTop'               => TRUE,
@@ -313,7 +329,7 @@ class tx_t3jquery
 						t3lib_div::devLog('jQuery UI \''.$confArr['jQueryUiVersion'].'\' not in MSN-CDN', 't3jquery', 1);
 						$confArr['jQueryUiVersion'] = '1.8.23';
 					}
-					$jsFile = 'http://ajax.aspnetcdn.com/ajax/jquery.ui/'.$confArr['jQueryUiVersion'].'/jquery-ui.min.js';
+					$jsFile = '//ajax.aspnetcdn.com/ajax/jquery.ui/'.$confArr['jQueryUiVersion'].'/jquery-ui.min.js';
 					$params['jsFiles'][$jsFile] = array(
 						'file'                     => $jsFile,
 						'type'                     => 'text/javascript',
@@ -324,11 +340,15 @@ class tx_t3jquery
 					);
 				}
 				if ($confArr['jQueryBootstrapVersion'] != '') {
-					if ($confArr['jQueryBootstrapVersion'] == '2.2.0') {
-						t3lib_div::devLog('jQuery Bootstrap \''.$confArr['jQueryBootstrapVersion'].'\' not available', 't3jquery', 1);
-						$confArr['jQueryBootstrapVersion'] = '2.2.2';
+					if (tx_t3jquery::getIntFromVersion($confArr['jQueryBootstrapVersion']) < 3000000) {
+						if ($confArr['jQueryBootstrapVersion'] == '2.2.0') {
+							t3lib_div::devLog('jQuery Bootstrap \''.$confArr['jQueryBootstrapVersion'].'\' not available', 't3jquery', 1);
+							$confArr['jQueryBootstrapVersion'] = '2.2.2';
+						}
+						$jsFile = '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/'.$confArr['jQueryBootstrapVersion'].'/js/bootstrap.min.js';
+					} else {
+						$jsFile = '//netdna.bootstrapcdn.com/bootstrap/'.$confArr['jQueryBootstrapVersion'].'/js/bootstrap.min.js';
 					}
-					$jsFile = 'http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/'.$confArr['jQueryBootstrapVersion'].'/bootstrap.min.js';
 					$params['jsFiles'][$jsFile] = array(
 						'file'                     => $jsFile,
 						'type'                     => 'text/javascript',

@@ -7,8 +7,7 @@ CREATE TABLE static_territories (
   tr_iso_nr int(11) unsigned DEFAULT '0' NOT NULL,
   tr_parent_iso_nr int(11) unsigned DEFAULT '0' NOT NULL,
   tr_name_en varchar(50) DEFAULT '' NOT NULL,
-  PRIMARY KEY (uid),
-  UNIQUE uid (uid)
+  PRIMARY KEY (uid)
 );
 
 #
@@ -35,8 +34,7 @@ CREATE TABLE static_countries (
   cn_zone_flag tinyint(4) DEFAULT '0' NOT NULL,
   cn_short_local varchar(70) DEFAULT '' NOT NULL,
   cn_short_en varchar(50) DEFAULT '' NOT NULL,
-  PRIMARY KEY (uid),
-  UNIQUE uid (uid)
+  PRIMARY KEY (uid)
 );
 
 
@@ -52,8 +50,7 @@ CREATE TABLE static_country_zones (
   zn_code varchar(45) DEFAULT '' NOT NULL,
   zn_name_local varchar(128) DEFAULT '' NOT NULL,
   zn_name_en varchar(50) DEFAULT '' NOT NULL,
-  PRIMARY KEY (uid),
-  UNIQUE uid (uid)
+  PRIMARY KEY (uid)
 );
 
 
@@ -76,7 +73,6 @@ CREATE TABLE static_currencies (
   cu_sub_symbol_left varchar(12) DEFAULT '' NOT NULL,
   cu_sub_symbol_right varchar(12) DEFAULT '' NOT NULL,
   PRIMARY KEY (uid),
-  UNIQUE uid (uid),
   KEY parent (pid)
 );
 
@@ -96,7 +92,6 @@ CREATE TABLE static_languages (
   lg_sacred tinyint(3) unsigned DEFAULT '0' NOT NULL,
   lg_constructed tinyint(3) unsigned DEFAULT '0' NOT NULL,
   PRIMARY KEY (uid),
-  UNIQUE uid (uid),
   KEY parent (pid)
 );
 

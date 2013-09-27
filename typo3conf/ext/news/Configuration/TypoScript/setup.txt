@@ -3,6 +3,8 @@
 # FE-Plugin configuration for EXT:news
 # ==============================================
 plugin.tx_news {
+	mvc.callDefaultActionIfActionCantBeResolved = 1
+
 	persistence {
 		classes {
 			Tx_News_Domain_Model_News {
@@ -51,6 +53,8 @@ plugin.tx_news {
 	# Settings available inside Controller and View by accessing $this->settings or {settings.xyz}
 	# ====================================
 	settings {
+		cssFile = {$plugin.tx_news.settings.cssFile}
+
 		#Displays a dummy image if the news have no media items
 		displayDummyIfNoMedia = 1
 
@@ -58,11 +62,7 @@ plugin.tx_news {
 		format = html
 
 		# general settings
-		overrideFlexformSettingsIfEmpty = cropMaxCharacters,dateField,timeRestriction,orderBy,orderDirection
-
-		pidBackAdditionalParams {
-
-		}
+		overrideFlexformSettingsIfEmpty = cropMaxCharacters,dateField,timeRestriction,orderBy,orderDirection,backPid,listPid,startingpoint
 
 		includeSubCategories = 0
 
@@ -80,12 +80,15 @@ plugin.tx_news {
 		dateField = datetime
 
 		link {
+			typesOpeningInNewWindow = 2
 			hrDate = 0
 			hrDate {
 				day = j
 				month = n
 				year = Y
 			}
+
+			skipControllerAndAction = 0
 		}
 
 		cropMaxCharacters = 150
@@ -96,11 +99,12 @@ plugin.tx_news {
 
 		facebookLocale = en_US
 		googlePlusLocale = en
+		disqusLocale = en
 
-		# Interface implemenations
+		# Interface implementations
 		interfaces {
 			media {
-				video = Tx_News_Interfaces_Audio_Mp3,Tx_News_Interfaces_Video_Quicktime,Tx_News_Interfaces_Video_Flv,Tx_News_Interfaces_Video_Videosites
+				video = Tx_News_MediaRenderer_Audio_Mp3,Tx_News_MediaRenderer_Video_Quicktime,Tx_News_MediaRenderer_Video_File,Tx_News_MediaRenderer_Video_Youtube,Tx_News_MediaRenderer_Video_Videosites
 			}
 		}
 
@@ -115,7 +119,9 @@ plugin.tx_news {
 		#  Detail
 		# --------------
 		detail {
+			errorHandling = pageNotFoundHandler
 			registerProperties = keywords,title
+			showSocialShareButtons = 1
 
 			# media configuration
 			media {
@@ -123,6 +129,7 @@ plugin.tx_news {
 						# choose the rel tag like gallery[fo]
 					lightbox = lightbox[myImageSet]
 					maxWidth = 282
+					maxHeight =
 				}
 
 				video {
@@ -142,17 +149,20 @@ plugin.tx_news {
 					maxWidth = 100
 					maxHeight = 100
 				}
+				dummyImage = typo3conf/ext/news/Resources/Public/Images/dummy-preview-image.png
 			}
 
 			# Paginate configuration.
 			paginate {
 				itemsPerPage = 10
-				insertAbove = TRUE
-				insertBelow = TRUE
-				lessPages = TRUE
+				insertAbove = 1
+				insertBelow = 1
+				lessPages = 1
 				forcedNumberOfLinks = 5
 				pagesBefore = 3
 				pagesAfter = 3
+				templatePath =
+				prevNextHeaderTags = 1
 			}
 
 			rss {
@@ -171,6 +181,7 @@ plugin.tx_news {
 		#  Common
 		# --------------
 		relatedFiles {
+			fileSizeLabels =
 			download {
 				labelStdWrap {
 					cObject = TEXT
@@ -188,7 +199,7 @@ plugin.tx_news {
 			fax_number =
 			latitude =
 			longitude =
-			street-adress =
+			street-address =
 			locality =
 			region =
 			postal-code =
@@ -215,12 +226,13 @@ module.tx_news < plugin.tx_news
 # Mapping of tt_content and its properties
 # ==============================================
 config.tx_extbase.persistence.classes {
-	Tx_News_Domain_Model_External_TtContent {
+	Tx_News_Domain_Model_TtContent {
 		mapping {
 			tableName = tt_content
 			columns {
 				altText.mapOnProperty = altText
 				titleText.mapOnProperty = titleText
+				colPos.mapOnProperty = colPos
 			}
 		}
 	}

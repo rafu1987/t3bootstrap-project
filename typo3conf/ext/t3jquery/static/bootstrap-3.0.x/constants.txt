@@ -1,0 +1,9 @@
+plugin.tx_t3jquery {
+
+	# cat=plugin.tx_t3jquery.bootstrap/file/010; type=file[css]; label=Bootstrap base
+	file.Bootstrap = EXT:t3jquery/res/css/bootstrap/default-3.0.x/css/bootstrap.min.css
+
+	# cat=plugin.tx_t3jquery.bootstrap/file/020; type=file[css]; label=Bootstrap Theme
+	file.BootstrapTheme = EXT:t3jquery/res/css/bootstrap/default-3.0.x/css/bootstrap-theme.min.css
+
+}

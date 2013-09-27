@@ -2,7 +2,7 @@
 /***************************************************************
 *  Copyright notice
 *
-*  (c) 2010 Georg Ringer <typo3@ringerge.org>
+*  (c) 2011 Georg Ringer <typo3@ringerge.org>
 *  All rights reserved
 *
 *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -64,6 +64,10 @@ class Tx_News_Hooks_CmsLayout {
 	public function getExtensionSummary(array $params, $pObj) {
 		$result = $actionTranslationKey = '';
 
+		if ($this->showExtensionTitle()) {
+			$result .= '<strong>' . $GLOBALS['LANG']->sL(self::LLPATH . 'pi1_title', TRUE) . '</strong>';
+		}
+
 		if ($params['row']['list_type'] == self::KEY . '_pi1') {
 			$this->flexformData = t3lib_div::xml2array($params['row']['pi_flexform']);
 
@@ -76,8 +80,7 @@ class Tx_News_Hooks_CmsLayout {
 				$actionTranslationKey = strtolower(str_replace('->', '_', $actionList[0]));
 				$actionTranslation = $GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.mode.' . $actionTranslationKey);
 
-				$result = '<strong>' . $actionTranslation . '</strong>';
-				$result = '<h5>' . $actionTranslation . '</h5>';
+				$result .= '<h5>' . $actionTranslation . '</h5>';
 
 			} else {
 				$result = $GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.mode.not_configured');
@@ -94,9 +97,12 @@ class Tx_News_Hooks_CmsLayout {
 						$this->getCategorySettings();
 						$this->getArchiveSettings();
 						$this->getOffsetLimitSettings();
+						$this->getDetailPidSetting();
+						$this->getListPidSetting();
 						break;
 					case 'news_detail':
 						$this->getSingleNewsSettings();
+						$this->getDetailPidSetting();
 						break;
 					case 'news_datemenu':
 						$this->getStartingPoint();
@@ -105,6 +111,14 @@ class Tx_News_Hooks_CmsLayout {
 						$this->getDateMenuSettings();
 						$this->getCategorySettings();
 						break;
+					case 'category_list':
+						$this->getCategorySettings(FALSE);
+						break;
+					case 'tag_list':
+						$this->getStartingPoint(FALSE);
+						$this->getListPidSetting();
+						break;
+					default:
 				}
 
 					// for all views
@@ -123,7 +137,7 @@ class Tx_News_Hooks_CmsLayout {
 	 *
 	 * @return void
 	 */
-	private function getArchiveSettings() {
+	protected function getArchiveSettings() {
 		$archive = $this->getFieldFromFlexform($this->flexformData, 'settings.archiveRestriction');
 
 		if (!empty($archive)) {
@@ -139,22 +153,101 @@ class Tx_News_Hooks_CmsLayout {
 	 *
 	 * @return void
 	 */
-	private function getSingleNewsSettings() {
+	protected function getSingleNewsSettings() {
+		$content = '';
 		$singleNewsRecord = (int)$this->getFieldFromFlexform($this->flexformData, 'settings.singleNews');
 
 		if ($singleNewsRecord > 0) {
-			$newsRecord = $GLOBALS['TYPO3_DB']->exec_SELECTgetSingleRow('*', 'tx_news_domain_model_news', 'uid=' . $singleNewsRecord);
-			$pageRecord = t3lib_BEfunc::getRecord('pages', $newsRecord['pid']);
+			$newsRecord = $GLOBALS['TYPO3_DB']->exec_SELECTgetSingleRow('*', 'tx_news_domain_model_news', 'deleted=0 AND uid=' . $singleNewsRecord);
 
-			$icon = t3lib_iconWorks::getSpriteIconForRecord('pages', $pageRecord, array('title' => 'Uid: ' . $pageRecord['uid']));
-			$onClick = $GLOBALS['SOBE']->doc->wrapClickMenuOnIcon($icon, 'tx_news_domain_model_news', $newsRecord['uid'], 1, '', '+info,edit', TRUE);
+			if (is_array($newsRecord)) {
+				$pageRecord = t3lib_BEfunc::getRecord('pages', $newsRecord['pid']);
 
-			$content = '<a href="#" onclick="' . htmlspecialchars($onClick) . '">' . $icon . '</a>' .
-							htmlspecialchars($pageRecord['title']) . ': ' .
-							htmlspecialchars($newsRecord['title']) . ' <small>(' . $newsRecord['uid'] . ')</small>';
+				if (is_array($pageRecord)) {
+					$iconPage = t3lib_iconWorks::getSpriteIconForRecord('pages', $pageRecord, array('title' => 'Uid: ' . $pageRecord['uid']));
+					$iconNews = t3lib_iconWorks::getSpriteIconForRecord('tx_news_domain_model_news', $newsRecord, array('title' => 'Uid: ' . $newsRecord['uid']));
+
+					$onClickPage = $GLOBALS['SOBE']->doc->wrapClickMenuOnIcon($iconPage, 'pages', $pageRecord['uid'], 1, '', '+info,edit,view', TRUE);
+					$onClickNews = $GLOBALS['SOBE']->doc->wrapClickMenuOnIcon($iconNews, 'tx_news_domain_model_news', $newsRecord['uid'], 1, '', '+info,edit', TRUE);
+
+					$content = '<a href="#" onclick="' . htmlspecialchars($onClickPage) . '">' . $iconPage . '</a>' .
+						htmlspecialchars(t3lib_BEfunc::getRecordTitle('pages', $pageRecord)) . ': ' .
+						'<a href="#" onclick="' . htmlspecialchars($onClickNews) . '">' .
+							$iconNews . htmlspecialchars(t3lib_BEfunc::getRecordTitle('tx_news_domain_model_news', $newsRecord)) .
+						'</a>';
+				} else {
+					/** @var $message t3lib_FlashMessage */
+					$text = sprintf($GLOBALS['LANG']->sL(self::LLPATH . 'pagemodule.pageNotAvailable', TRUE), $newsRecord['pid']);
+					$message = t3lib_div::makeInstance('t3lib_FlashMessage', $text, '', t3lib_FlashMessage::WARNING);
+					$content = $message->render();
+				}
+			} else {
+				/** @var $message t3lib_FlashMessage */
+				$text = sprintf($GLOBALS['LANG']->sL(self::LLPATH . 'pagemodule.newsNotAvailable', TRUE), $singleNewsRecord);
+				$message = t3lib_div::makeInstance('t3lib_FlashMessage', $text, '', t3lib_FlashMessage::WARNING);
+				$content = $message->render();
+			}
 
 			$this->tableData[] = array($GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.singleNews'), $content);
 		}
+	}
+
+	/**
+	 * Render single news settings
+	 *
+	 * @return void
+	 */
+	protected function getDetailPidSetting() {
+		$content = '';
+		$detailPid = (int)$this->getFieldFromFlexform($this->flexformData, 'settings.detailPid', 'additional');
+
+		if ($detailPid > 0) {
+			$content = $this->getPageRecordData($detailPid);
+
+			$this->tableData[] = array($GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_additional.detailPid'), $content);
+		}
+	}
+
+	/**
+	 * Render listPid news settings
+	 *
+	 * @return void
+	 */
+	protected function getListPidSetting() {
+		$content = '';
+		$listPid = (int)$this->getFieldFromFlexform($this->flexformData, 'settings.listPid', 'additional');
+
+		if ($listPid > 0) {
+			$content = $this->getPageRecordData($listPid);
+
+			$this->tableData[] = array($GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_additional.listPid'), $content);
+		}
+	}
+
+	/**
+	 * Get the rendered page title including onclick menu
+	 *
+	 * @param $detailPid
+	 * @return string
+	 */
+	protected function getPageRecordData($detailPid) {
+		$content = '';
+		$pageRecord = t3lib_BEfunc::getRecord('pages', $detailPid);
+
+		if (is_array($pageRecord)) {
+			$icon = t3lib_iconWorks::getSpriteIconForRecord('pages', $pageRecord, array('title' => 'Uid: ' . $pageRecord['uid']));
+			$onClick = $GLOBALS['SOBE']->doc->wrapClickMenuOnIcon($icon, 'pages', $pageRecord['uid'], 1, '', '+info,edit', TRUE);
+
+			$content = '<a href="#" onclick="' . htmlspecialchars($onClick) . '">' . $icon . '</a>' .
+				htmlspecialchars(t3lib_BEfunc::getRecordTitle('pages', $pageRecord));
+		} else {
+			/** @var $message t3lib_FlashMessage */
+			$text = sprintf($GLOBALS['LANG']->sL(self::LLPATH . 'pagemodule.pageNotAvailable', TRUE), $detailPid);
+			$message = t3lib_div::makeInstance('t3lib_FlashMessage', $text, '', t3lib_FlashMessage::WARNING);
+			$content = $message->render();
+		}
+
+		return $content;
 	}
 
 	/**
@@ -162,7 +255,7 @@ class Tx_News_Hooks_CmsLayout {
 	 *
 	 * @return void
 	 */
-	private function getOrderSettings() {
+	protected function getOrderSettings() {
 		$orderField = $this->getFieldFromFlexform($this->flexformData, 'settings.orderBy');
 		if (!empty($orderField)) {
 			$text = $GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.orderBy.' . $orderField);
@@ -190,9 +283,10 @@ class Tx_News_Hooks_CmsLayout {
 	/**
 	 * Render category settings
 	 *
+	 * @param boolean $showCategoryMode show the category conjunction
 	 * @return void
 	 */
-	private function getCategorySettings() {
+	protected function getCategorySettings($showCategoryMode = TRUE) {
 		$categoryMode = '';
 		$categoriesOut = array();
 
@@ -202,26 +296,35 @@ class Tx_News_Hooks_CmsLayout {
 				// Category mode
 			$categoryModeSelection = $this->getFieldFromFlexform($this->flexformData, 'settings.categoryConjunction');
 
-			if (empty($categoryModeSelection)) {
-				$categoryMode = $GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.categoryConjunction.all');
-			} else {
-				$categoryMode = $GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.categoryConjunction.' . $categoryModeSelection);
+			if ($showCategoryMode) {
+				if (empty($categoryModeSelection)) {
+					$categoryMode = $GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.categoryConjunction.all');
+				} else {
+					$categoryMode = $GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.categoryConjunction.' . $categoryModeSelection);
+				}
+
+				$categoryMode = '<span style="font-weight:normal;font-style:italic">(' . htmlspecialchars($categoryMode) . ')</span>';
 			}
 
 				// Category records
 			$rawCategoryRecords = $GLOBALS['TYPO3_DB']->exec_SELECTgetRows(
-				'title',
+				'*',
 				'tx_news_domain_model_category',
 				'deleted=0 AND uid IN(' . implode(',', $categories) . ')'
 			);
 
 			foreach ($rawCategoryRecords as $record) {
-				$categoriesOut[] = htmlspecialchars($record['title']);
+				$categoriesOut[] = htmlspecialchars(t3lib_BEfunc::getRecordTitle('tx_news_domain_model_category', $record));
+			}
+
+			$includeSubcategories = $this->getFieldFromFlexform($this->flexformData, 'settings.includeSubCategories');
+			if ($includeSubcategories) {
+				$categoryMode .= '<br />+ ' . $GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.includeSubCategories', TRUE);
 			}
 
 			$this->tableData[] = array(
 							$GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.categories') .
-								'<br /><span style="font-weight:normal;font-style:italic">(' . htmlspecialchars($categoryMode) . ')</span>',
+								'<br />' . $categoryMode,
 							implode(', ', $categoriesOut)
 						);
 		}
@@ -232,7 +335,7 @@ class Tx_News_Hooks_CmsLayout {
 	 *
 	 * @return void
 	 */
-	private function getOffsetLimitSettings() {
+	protected function getOffsetLimitSettings() {
 		$offset = $this->getFieldFromFlexform($this->flexformData, 'settings.offset', 'additional');
 		$limit = $this->getFieldFromFlexform($this->flexformData, 'settings.limit', 'additional');
 		$hidePagionation = $this->getFieldFromFlexform($this->flexformData, 'settings.hidePagination', 'additional');
@@ -253,7 +356,7 @@ class Tx_News_Hooks_CmsLayout {
 	 *
 	 * @return void
 	 */
-	private function getDateMenuSettings() {
+	protected function getDateMenuSettings() {
 		$dateMenuField = $this->getFieldFromFlexform($this->flexformData, 'settings.dateField');
 
 		$this->tableData[] = array(
@@ -267,13 +370,21 @@ class Tx_News_Hooks_CmsLayout {
 	 *
 	 * @return void
 	 */
-	private function getTimeRestrictionSetting() {
+	protected function getTimeRestrictionSetting() {
 		$timeRestriction = $this->getFieldFromFlexform($this->flexformData, 'settings.timeRestriction');
 
 		if (!empty($timeRestriction)) {
 			$this->tableData[] = array(
 							$GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.timeRestriction'),
 							htmlspecialchars($timeRestriction)
+						);
+		}
+
+		$timeRestrictionHigh = $this->getFieldFromFlexform($this->flexformData, 'settings.timeRestrictionHigh');
+		if (!empty($timeRestrictionHigh)) {
+			$this->tableData[] = array(
+							$GLOBALS['LANG']->sL(self::LLPATH . 'flexforms_general.timeRestrictionHigh'),
+							htmlspecialchars($timeRestrictionHigh)
 						);
 		}
 	}
@@ -283,7 +394,7 @@ class Tx_News_Hooks_CmsLayout {
 	 *
 	 * @return void
 	 */
-	private function getTopNewsRestrictionSetting() {
+	protected function getTopNewsRestrictionSetting() {
 		$topNewsRestriction = (int)$this->getFieldFromFlexform($this->flexformData, 'settings.topNewsRestriction');
 		if ($topNewsRestriction > 0) {
 			$this->tableData[] = array(
@@ -298,13 +409,13 @@ class Tx_News_Hooks_CmsLayout {
 	 *
 	 * @return void
 	 */
-	private function getTemplateLayoutSettings() {
+	protected function getTemplateLayoutSettings() {
 		$title = '';
 
 		$field = $this->getFieldFromFlexform($this->flexformData, 'settings.templateLayout', 'template');
-		if (!empty($field))
-				// find correct title by looping over all options
-			foreach($GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['templateLayouts'] as $layouts) {
+		if (!empty($field) && is_array($GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['templateLayouts']))
+				// Find correct title by looping over all options
+			foreach ($GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['templateLayouts'] as $layouts) {
 				if ($layouts[1] === $field) {
 					$title = $layouts[0];
 				}
@@ -323,7 +434,7 @@ class Tx_News_Hooks_CmsLayout {
 	 *
 	 * @return void
 	 */
-	private function getOverrideDemandSettings() {
+	protected function getOverrideDemandSettings() {
 		$field = $this->getFieldFromFlexform($this->flexformData, 'settings.disableOverrideDemand', 'additional');
 
 		if ($field == 1) {
@@ -337,19 +448,19 @@ class Tx_News_Hooks_CmsLayout {
 	 *
 	 * @return void
 	 */
-	private function getStartingPoint() {
+	protected function getStartingPoint() {
 		$value = $this->getFieldFromFlexform($this->flexformData, 'settings.startingpoint');
 
 		if (!empty($value)) {
 			$pagesOut = array();
 			$rawPagesRecords = $GLOBALS['TYPO3_DB']->exec_SELECTgetRows(
-				'title,uid',
+				'*',
 				'pages',
 				'deleted=0 AND uid IN(' . implode(',', t3lib_div::intExplode(',', $value, TRUE)) . ')'
 			);
 
 			foreach ($rawPagesRecords as $page) {
-				$pagesOut[] = htmlspecialchars($page['title']) . '<small> (' . $page['uid'] . ')</small>';
+				$pagesOut[] = htmlspecialchars(t3lib_BEfunc::getRecordTitle('pages', $page)) . '<small> (' . $page['uid'] . ')</small>';
 			}
 
 			$recursiveLevel = (int)$this->getFieldFromFlexform($this->flexformData, 'settings.recursive');
@@ -362,8 +473,8 @@ class Tx_News_Hooks_CmsLayout {
 
 			if (!empty($recursiveLevelText)) {
 				$recursiveLevelText =  '<br /><small>' .
-							$GLOBALS['LANG']->sL('LLL:EXT:lang/locallang_general.xml:LGL.recursive', TRUE)
-								. ': ' . $recursiveLevelText . '</small>';
+							$GLOBALS['LANG']->sL('LLL:EXT:lang/locallang_general.xml:LGL.recursive', TRUE) .
+							': ' . $recursiveLevelText . '</small>';
 			}
 
 			$this->tableData[] = array(
@@ -387,9 +498,9 @@ class Tx_News_Hooks_CmsLayout {
 
 		$visible = ($record['hidden'] == 0);
 		$i = 0;
-		foreach($this->tableData as $line) {
-				// Check if the setting is in the list of diabled ones
-			$class = ($i++ % 2 == 0) ? 'bgColor4' : 'bgColor3';
+		foreach ($this->tableData as $line) {
+				// Check if the setting is in the list of disabled ones
+			$class = ($i++ % 2 === 0) ? 'bgColor4' : 'bgColor3';
 			$renderedLine = '';
 
 			if (!empty($line[1])) {
@@ -402,7 +513,10 @@ class Tx_News_Hooks_CmsLayout {
 		}
 
 		if (!empty($content)) {
-			$content = '<table class="typo3-dblist">' . $content . '</table>';
+			$styles = 'width:100%;';
+			$styles .= ($visible) ? '' : 'opacity:0.7;';
+
+			$content = '<table style="' . $styles . '" class="typo3-dblist">' . $content . '</table>';
 		}
 
 		return $content;
@@ -418,14 +532,28 @@ class Tx_News_Hooks_CmsLayout {
 	 * @return NULL if nothing found, value if found
 	 */
 	protected function getFieldFromFlexform($flexform, $key, $sheet = 'sDEF') {
-		$flexform = $flexform['data'];
-		if (is_array($flexform) && is_array($flexform[$sheet]) && is_array($flexform[$sheet]['lDEF'])
-				&& is_array($flexform[$sheet]['lDEF'][$key]) && isset($flexform[$sheet]['lDEF'][$key]['vDEF'])
-		) {
-			return $flexform[$sheet]['lDEF'][$key]['vDEF'];
+		if (is_array($flexform) && isset($flexform['data'])) {
+			$flexform = $flexform['data'];
+			if (is_array($flexform) && is_array($flexform[$sheet]) && is_array($flexform[$sheet]['lDEF'])
+					&& is_array($flexform[$sheet]['lDEF'][$key]) && isset($flexform[$sheet]['lDEF'][$key]['vDEF'])
+			) {
+				return $flexform[$sheet]['lDEF'][$key]['vDEF'];
+			}
 		}
 
 		return NULL;
+	}
+
+	/**
+	 * Because of changes since TYPO3 CMS version 6.0,
+	 * the extension name needs to be shown additionally
+	 *
+	 * @return boolean
+	 */
+	protected function showExtensionTitle() {
+		$majorVersion = intval(substr(TYPO3_branch, 0, 1));
+
+		return ($majorVersion >= 6);
 	}
 }
 

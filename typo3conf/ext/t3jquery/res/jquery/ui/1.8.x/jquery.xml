@@ -21,21 +21,21 @@
 					<label>Widget</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.widget</detail>
 					<file>ui/jquery.ui.widget.js</file>
-					<depends>Core</depends>
+					<depends>jQuery</depends>
 				</numIndex>
 				<numIndex index="3" type="array">
 					<name>Mouse</name>
 					<label>Mouse</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.mouse</detail>
 					<file>ui/jquery.ui.mouse.js</file>
-					<depends>Core,Widget</depends>
+					<depends>jQuery,Widget</depends>
 				</numIndex>
 				<numIndex index="4" type="array">
 					<name>Position</name>
 					<label>Position</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.position</detail>
 					<file>ui/jquery.ui.position.js</file>
-					<depends>Core,Widget</depends>
+					<depends>jQuery</depends>
 				</numIndex>
 			</files>
 		</numIndex>
@@ -114,7 +114,7 @@
 					<label>Autocomplete</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.autocomplete</detail>
 					<file>ui/jquery.ui.autocomplete.js</file>
-					<depends>Core,Widget</depends>
+					<depends>Core,Widget,Position</depends>
 					<sources type="array">
 						<numIndex index="1">.autocomplete(</numIndex>
 					</sources>
@@ -135,7 +135,7 @@
 					<label>Dialog</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.dialog</detail>
 					<file>ui/jquery.ui.dialog.js</file>
-					<depends>Core,Draggable,Mouse,Position,Resizable,Widget</depends>
+					<depends>Core,Draggable,Mouse,Position,Resizable,Widget,Button</depends>
 					<sources type="array">
 						<numIndex index="1">.dialog(</numIndex>
 					</sources>
@@ -544,7 +544,7 @@
 					<label>Effects Core</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.core</detail>
 					<file>ui/jquery.effects.core.js</file>
-					<depends>Core</depends>
+					<depends>jQuery</depends>
 					<sources type="array">
 						<numIndex index="1">.effect(</numIndex>
 					</sources>
@@ -554,7 +554,7 @@
 					<label>Effects Blind</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.blind</detail>
 					<file>ui/jquery.effects.blind.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("blind"</numIndex>
 						<numIndex index="2">.show("blind"</numIndex>
@@ -566,7 +566,7 @@
 					<label>Effects Bounce</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.bounce</detail>
 					<file>ui/jquery.effects.bounce.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("bounce"</numIndex>
 						<numIndex index="2">.show("bounce"</numIndex>
@@ -578,7 +578,7 @@
 					<label>Effects Clip</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.clip</detail>
 					<file>ui/jquery.effects.clip.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("clip"</numIndex>
 						<numIndex index="2">.show("clip"</numIndex>
@@ -590,7 +590,7 @@
 					<label>Effects Drop</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.drop</detail>
 					<file>ui/jquery.effects.drop.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("drop"</numIndex>
 						<numIndex index="2">.show("drop"</numIndex>
@@ -602,7 +602,7 @@
 					<label>Effects Explode</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.explode</detail>
 					<file>ui/jquery.effects.explode.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("explode"</numIndex>
 						<numIndex index="2">.show("explode"</numIndex>
@@ -614,7 +614,7 @@
 					<label>Effects Fade</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.fade</detail>
 					<file>ui/jquery.effects.fade.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("fade"</numIndex>
 						<numIndex index="2">.show("fade"</numIndex>
@@ -626,7 +626,7 @@
 					<label>Effects Fold</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.fold</detail>
 					<file>ui/jquery.effects.fold.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("fold"</numIndex>
 						<numIndex index="2">.show("fold"</numIndex>
@@ -638,7 +638,7 @@
 					<label>Effects Highlight</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.highlight</detail>
 					<file>ui/jquery.effects.highlight.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("highlight"</numIndex>
 						<numIndex index="2">.show("highlight"</numIndex>
@@ -650,7 +650,7 @@
 					<label>Effects Pulsate</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.pulsate</detail>
 					<file>ui/jquery.effects.pulsate.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("pulsate"</numIndex>
 						<numIndex index="2">.show("pulsate"</numIndex>
@@ -662,7 +662,7 @@
 					<label>Effects Scale</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.scale</detail>
 					<file>ui/jquery.effects.scale.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("scale"</numIndex>
 						<numIndex index="2">.show("scale"</numIndex>
@@ -674,7 +674,7 @@
 					<label>Effects Shake</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.shake</detail>
 					<file>ui/jquery.effects.shake.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("shake"</numIndex>
 						<numIndex index="2">.show("shake"</numIndex>
@@ -686,7 +686,7 @@
 					<label>Effects Slide</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.slide</detail>
 					<file>ui/jquery.effects.slide.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("slide"</numIndex>
 						<numIndex index="2">.show("slide"</numIndex>
@@ -698,7 +698,7 @@
 					<label>Effects Transfer</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.effects.transfer</detail>
 					<file>ui/jquery.effects.transfer.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">.effect("transfer"</numIndex>
 						<numIndex index="2">.show("transfer"</numIndex>
@@ -710,7 +710,7 @@
 					<label>Easing</label>
 					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.easing</detail>
 					<file>jquery-easing.js</file>
-					<depends>Core,EffectsCore</depends>
+					<depends>EffectsCore</depends>
 					<sources type="array">
 						<numIndex index="1">easing:</numIndex>
 					</sources>

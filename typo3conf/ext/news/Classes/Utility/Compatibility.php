@@ -32,21 +32,29 @@ class Tx_News_Utility_Compatibility {
 
 	/**
 	 * Returns TRUE if the current TYPO3 version is compatible to the input version
-	 * Notice that this function compares branches, not versions (4.0.1 would be > 4.0.0 although they use the same compat_version)
+	 * Notice that this function compares branches, not versions
+	 * (4.0.1 would be > 4.0.0 although they use the same compat_version)
 	 *
-	 * @param string $verNumberStr	Minimum branch number required (format x.y / e.g. "4.0" NOT "4.0.0"!)
-	 * @return boolean Returns TRUE if this setup is compatible with the provided version number
+	 * @param string $verNumberStr Minimum branch number: format "4.0" NOT "4.0.0"
+	 * @return boolean Returns TRUE if compatible with the provided version number
 	 */
 	public static function convertVersionNumberToInteger($verNumberStr) {
-		if (class_exists('t3lib_utility_VersionNumber')) {
-			return t3lib_utility_VersionNumber::convertVersionNumberToInteger($verNumberStr);
+		$result = '';
+
+		if (self::isEqualOrHigherSixZero()) {
+			$result = \TYPO3\CMS\Core\Utility\VersionNumberUtility::convertVersionNumberToInteger($verNumberStr);
+		} elseif (class_exists('t3lib_utility_VersionNumber')) {
+			$result = t3lib_utility_VersionNumber::convertVersionNumberToInteger($verNumberStr);
 		} else {
-			return t3lib_div::int_from_ver($verNumberStr);
+			$result = t3lib_div::int_from_ver($verNumberStr);
 		}
+
+		return $result;
 	}
 
 	/**
-	 * Forces the integer $theInt into the boundaries of $min and $max. If the $theInt is 'FALSE' then the $zeroValue is applied.
+	 * Forces the integer $theInt into the boundaries of $min and $max.
+	 * If the $theInt is 'FALSE' then the $zeroValue is applied.
 	 *
 	 * @param integer $theInt Input value
 	 * @param integer $min Lower limit
@@ -55,11 +63,16 @@ class Tx_News_Utility_Compatibility {
 	 * @return integer The input value forced into the boundaries of $min and $max
 	 */
 	public static function forceIntegerInRange($theInt, $min, $max = 2000000000, $zeroValue = 0) {
-		if (class_exists('t3lib_utility_Math')) {
-			return t3lib_utility_Math::forceIntegerInRange($theInt, $min, $max, $zeroValue);
+		$result = '';
+		if (self::isEqualOrHigherSixZero()) {
+			$result = \TYPO3\CMS\Core\Utility\MathUtility::forceIntegerInRange($theInt, $min, $max, $zeroValue);
+		} elseif (class_exists('t3lib_utility_Math')) {
+			$result = t3lib_utility_Math::forceIntegerInRange($theInt, $min, $max, $zeroValue);
 		} else {
-			return t3lib_div::intInRange($theInt, $min, $max, $zeroValue);
+			$result = t3lib_div::intInRange($theInt, $min, $max, $zeroValue);
 		}
+
+		return $result;
 	}
 
 	/**
@@ -69,11 +82,16 @@ class Tx_News_Utility_Compatibility {
 	 * @return boolean Returns TRUE if string is an integer
 	 */
 	public static function canBeInterpretedAsInteger($var) {
-		if (class_exists('t3lib_utility_Math')) {
-			return t3lib_utility_Math::canBeInterpretedAsInteger($var);
+		$result = '';
+		if (self::isEqualOrHigherSixZero()) {
+			$result = \TYPO3\CMS\Core\Utility\MathUtility::canBeInterpretedAsInteger($var);
+		} elseif (class_exists('t3lib_utility_Math')) {
+			$result = t3lib_utility_Math::canBeInterpretedAsInteger($var);
 		} else {
-			return t3lib_div::testInt($var);
+			$result = t3lib_div::testInt($var);
 		}
+
+		return $result;
 	}
 
 	/**
@@ -83,11 +101,44 @@ class Tx_News_Utility_Compatibility {
 	 * @return integer
 	 */
 	public static function convertToPositiveInteger($theInt) {
-		if (class_exists('t3lib_utility_Math')) {
-			return t3lib_utility_Math::convertToPositiveInteger($theInt);
+		$result = '';
+		if (self::isEqualOrHigherSixZero()) {
+			$result = \TYPO3\CMS\Core\Utility\MathUtility::convertToPositiveInteger($theInt);
+		} elseif (class_exists('t3lib_utility_Math')) {
+			$result = t3lib_utility_Math::convertToPositiveInteger($theInt);
 		} else {
-			return t3lib_div::intval_positive($theInt);
+			$result = t3lib_div::intval_positive($theInt);
 		}
+
+		return $result;
+	}
+
+	/**
+	 * Gets list of loaded extensions.
+	 *
+	 * @return string List of loaded extensions
+	 */
+	public static function getLoadedExtensionList() {
+		$result = '';
+		if (self::convertVersionNumberToInteger(TYPO3_version) <  '6000000') {
+			$result = t3lib_extMgm::getEnabledExtensionList();
+		} else {
+			$result = implode(',', t3lib_extMgm::getLoadedExtensionListArray());
+		}
+
+		return $result;
+	}
+
+	/**
+	 * Simple method to check if current TYPO3 version is equal or higher than 6.0
+	 *
+	 * @return boolean
+	 */
+	public static function isEqualOrHigherSixZero() {
+		$version = TYPO3_version;
+		$firstNumber = (int)$version{0};
+
+		return ($firstNumber >= 6);
 	}
 }
 ?>

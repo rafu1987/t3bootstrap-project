@@ -28,7 +28,7 @@
  *
  * @package		TYPO3
  * @subpackage	tx_phpmyadmin
- * @version		$Id: index.php 68078 2012-11-28 23:22:22Z mehrwert $
+ * @version		$Id: index.php 79361 2013-09-01 08:36:12Z mehrwert $
  * @author		mehrwert <typo3@mehrwert.de>
  * @author		Kasper Skårhøj <kasperYYYY@typo3.com>
  * @license		GPL
@@ -103,6 +103,9 @@ class SC_mod_tools_phpadmin_index {
 			// Path to install dir
 		$this->MCONF['PMA_absolute_path'] = $extPath.$this->MCONF['PMA_subdir'];
 
+			// PMA uses relative file inclusion, so we need to ensure a proper include_path
+		@set_include_path($this->MCONF['PMA_absolute_path'] . PATH_SEPARATOR . get_include_path());
+
 			// Path to web dir
 		$this->MCONF['PMA_relative_path'] = t3lib_extMgm::extRelPath('phpmyadmin').$this->MCONF['PMA_subdir'];
 
@@ -147,6 +150,14 @@ class SC_mod_tools_phpadmin_index {
 				$_SESSION['PMA_uploadDir'] = $extensionConfiguration['uploadDir'];
 			}
 			$_SESSION['PMA_typo_db'] = TYPO3_db;
+
+				// Check if Ajax is enabled by config - @see http://forge.typo3.org/issues/51384
+			$ajaxEnable = (boolean) $extensionConfiguration['ajaxEnable'];
+			if ($ajaxEnable === TRUE) {
+				$_SESSION['AjaxEnable'] = TRUE;
+			} else {
+				$_SESSION['AjaxEnable'] = FALSE;
+			}
 
 			$id = session_id();
 

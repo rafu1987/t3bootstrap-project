@@ -1,4 +1,4 @@
-plugin.tx_staticinfotables_pi1 {.
+plugin.tx_staticinfotables_pi1 {
 
     # cat=plugin.tx_staticinfotables_pi1//; type=string; label= Default currency: ISO alpha-3 code of the default currency used to format an amount.
    currencyCode = EUR

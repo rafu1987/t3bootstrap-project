@@ -25,19 +25,28 @@
 /**
  * ViewHelper to render the filesize
  *
+ * # Example: Basic example
+ * # Description: If format is empty, the default from t3lib_div:::formatSize() is taken.
+ * <code>
+ * <n:format.fileSize file="uploads/tx_news/{relatedFile.file}" format="' | K| M| G'" />
+ * </code>
+ * <output>
+ *  3 M
+ * </output>
+ *
  * @package TYPO3
  * @subpackage tx_news
  */
 class Tx_News_ViewHelpers_Format_FileSizeViewHelper extends Tx_Fluid_Core_ViewHelper_AbstractViewHelper {
 
-
 	/**
 	 * Renders the size of a file using t3lib_div::formatSize
 	 *
-	 * @param string $file
-	 * @param string $format
-	 * @param boolean $hideError
+	 * @param string $file Path to the file
+	 * @param string $format Labels for bytes, kilo, mega and giga separated by vertical bar (|) and possibly encapsulated in "". Eg: " | K| M| G" (which is the default value)
+	 * @param boolean $hideError Define if an error should be displayed if file not found
 	 * @return string
+	 * @throws Tx_Fluid_Core_ViewHelper_Exception_InvalidVariableException
 	 */
 	public function render($file, $format = '', $hideError = FALSE) {
 		if (!is_file($file)) {

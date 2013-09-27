@@ -1,0 +1,4 @@
+
+page.includeCSS {
+	t3jquery-ui-dot-luv = {$plugin.tx_t3jquery.file.UI-Dot-Luv}
+}

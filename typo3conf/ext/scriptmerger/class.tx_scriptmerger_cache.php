@@ -2,7 +2,7 @@
 /***************************************************************
  *  Copyright notice
  *
- *  (c) 2010-2011 Stefan Galinski (stefan.galinski@gmail.com)
+ *  (c) Stefan Galinski (stefan.galinski@gmail.com)
  *  All rights reserved
  *
  *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -27,9 +27,6 @@
 
 /**
  * This class contains a hook method for the "clear all cache" action in the TYPO3 backend.
- *
- * @author Stefan Galinski <stefan.galinski@gmail.com>
- * @package scriptmerger
  */
 class tx_scriptmerger_cache {
 	/**
@@ -92,7 +89,9 @@ class tx_scriptmerger_cache {
 	}
 }
 
-if (defined('TYPO3_MODE') && $GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/scriptmerger/class.tx_scriptmerger_cache.php']) {
+if (defined('TYPO3_MODE')
+	&& $GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/scriptmerger/class.tx_scriptmerger_cache.php']
+) {
 	include_once($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/scriptmerger/class.tx_scriptmerger_cache.php']);
 }
 

@@ -21,7 +21,8 @@ FileETag MTime Size
 
 # deliver the uncompressed file if gzip encoding isn't accepted
 AddEncoding x-gzip .gz
-RewriteCond %{HTTP:accept-encoding} !gzip [NC]
+RewriteCond %{HTTP:accept-encoding} !.*(x-)?gzip.* [NC,OR]
+RewriteCond %{HTTP:accept-encoding} .*(x-)?gzip;q=0.* [NC]
 RewriteRule ^typo3temp/scriptmerger/compressed/(.+)\.gz\.(js|css) typo3temp/scriptmerger/uncompressed/$1.$2 [L,NC]
 
 ### END EXT:scriptmerger ###

@@ -27,7 +27,7 @@
 /**
  * Class for updating the db
  *
- * $Id: class.ext_update.php 9462 2008-07-15 16:05:14Z franzholz $
+ * $Id: class.ext_update.php 71336 2013-02-20 04:30:42Z stan $
  *
  * @author	 René Fritz <r.fritz@colorcube.de>
  */
@@ -47,7 +47,7 @@ class ext_update  {
 		$content = '';
 		$content.= '<br />Convert character encoding of the static info tables.';
 		$content.= '<br />The default encoding is UTF-8.';
-		$destEncoding = t3lib_div::_GP('dest_encoding');
+		$destEncoding = htmlspecialchars(t3lib_div::_GP('dest_encoding'));
 
 		if(t3lib_div::_GP('convert') AND ($destEncoding != '')) {
 			foreach ($tableArray as $table) {
@@ -70,6 +70,7 @@ class ext_update  {
 		}
 
 		return $content;
+
 	}
 
 	/**
@@ -78,7 +79,8 @@ class ext_update  {
 	 * @return	boolean		Always returns true
 	 */
 	function access() {
-		return true;
+		$typo3Version = class_exists('t3lib_utility_VersionNumber') ? t3lib_utility_VersionNumber::convertVersionNumberToInteger(TYPO3_version) : t3lib_div::int_from_ver(TYPO3_version);
+		return ($typo3Version < 4007000);
 	}
 
 

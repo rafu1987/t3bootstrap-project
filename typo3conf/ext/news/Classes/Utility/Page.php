@@ -23,7 +23,7 @@
 ***************************************************************/
 
 /**
- * Page Utitlity class
+ * Page Utility class
  *
  * @package TYPO3
  * @subpackage tx_news
@@ -34,41 +34,33 @@ class Tx_News_Utility_Page {
 	/**
 	 * Find all ids from given ids and level
 	 *
-	 * @param string $pidList comma seperated list of ids
+	 * @param string $pidList comma separated list of ids
 	 * @param integer $recursive recursive levels
-	 * @return string comma seperated list of ids
+	 * @return string comma separated list of ids
 	 */
 	public static function extendPidListByChildren($pidList = '', $recursive = 0) {
+		$recursive = (int)$recursive;
 		if ($recursive <= 0) {
 			return $pidList;
 		}
 
-		$cObj = t3lib_div::makeInstance('tslib_cObj');
-
-		$recursive = Tx_News_Utility_Compatibility::forceIntegerInRange($recursive, 0);
-
-		$pidList = array_unique(t3lib_div::trimExplode(',', $pidList, 1));
-
-		$result = array();
-
-		foreach ($pidList as $pid) {
-			$pid = Tx_News_Utility_Compatibility::forceIntegerInRange($pid, 0);
-			if ($pid) {
-				$children = $cObj->getTreeList(-1 * $pid, $recursive);
-				if ($children) {
-					$result[] = $children;
-				}
+		$queryGenerator = t3lib_div::makeInstance('t3lib_queryGenerator');
+		$recursiveStoragePids = $pidList;
+		$storagePids = t3lib_div::intExplode(',', $pidList);
+		foreach ($storagePids as $startPid) {
+			$pids = $queryGenerator->getTreeList($startPid, $recursive, 0, 1);
+			if (strlen($pids) > 0) {
+				$recursiveStoragePids .= ',' . $pids;
 			}
 		}
-
-		return implode(',', $result);
+		return $recursiveStoragePids;
 	}
 
 	/**
 	 * Set properties of an object/array in cobj->LOAD_REGISTER which can then
 	 * be used to be loaded via TS with register:name
 	 *
-	 * @param string $properties comma seperated list of properties
+	 * @param string $properties comma separated list of properties
 	 * @param mixed $object object or array to get the properties
 	 * @param string $prefix optional prefix
 	 * @return void
@@ -90,5 +82,36 @@ class Tx_News_Utility_Page {
 			$cObj->LOAD_REGISTER($register, '');
 		}
 	}
+
+	/**
+	 * Return a page tree
+	 *
+	 * @param integer $pageUid page to start with
+	 * @param integer $treeLevel count of levels
+	 * @return t3lib_pageTree
+	 * @throws Exception
+	 */
+	public static function pageTree($pageUid, $treeLevel) {
+		if (TYPO3_MODE !== 'BE') {
+			throw new Exception('Page::pageTree does only work in the backend!');
+		}
+
+		/* @var $tree t3lib_pageTree */
+		$tree = t3lib_div::makeInstance('t3lib_pageTree');
+		$tree->init('AND ' . $GLOBALS['BE_USER']->getPagePermsClause(1));
+
+		$treeStartingRecord = t3lib_BEfunc::getRecord('pages', $pageUid);
+		t3lib_BEfunc::workspaceOL('pages', $treeStartingRecord);
+
+			// Creating top icon; the current page
+		$tree->tree[] = array(
+			'row' => $treeStartingRecord,
+			'HTML' => t3lib_iconWorks::getIconImage('pages', $treeStartingRecord, $GLOBALS['BACK_PATH'], 'align="top"')
+		);
+
+		$tree->getTree($pageUid, $treeLevel, '');
+		return $tree;
+	}
+
 }
 ?>

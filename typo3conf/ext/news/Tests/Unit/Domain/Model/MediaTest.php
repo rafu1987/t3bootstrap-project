@@ -214,18 +214,6 @@ class Tx_News_Tests_Unit_Domain_Model_MediaTest extends Tx_Extbase_Tests_Unit_Ba
 	}
 
 	/**
-	 * Test if html can be set
-	 *
-	 * @test
-	 * @return void
-	 */
-	public function htmlCanBeSet() {
-		$html = '<div>123</div>';
-		$this->mediaDomainModelInstance->setHtml($html);
-		$this->assertEquals($html, $this->mediaDomainModelInstance->getHtml());
-	}
-
-	/**
 	 * Test if dam can be set
 	 *
 	 * @test
@@ -235,6 +223,30 @@ class Tx_News_Tests_Unit_Domain_Model_MediaTest extends Tx_Extbase_Tests_Unit_Ba
 		$dam = 123;
 		$this->mediaDomainModelInstance->setDam($dam);
 		$this->assertEquals($dam, $this->mediaDomainModelInstance->getDam());
+	}
+
+	/**
+	 * Test if copyright can be set
+	 *
+	 * @test
+	 * @return void
+	 */
+	public function copyrightCanBeSet() {
+		$copyright = 'by Creative Commons';
+		$this->mediaDomainModelInstance->setCopyright($copyright);
+		$this->assertEquals($copyright, $this->mediaDomainModelInstance->getCopyright());
+	}
+
+	/**
+	 * Test if description can be set
+	 *
+	 * @test
+	 * @return void
+	 */
+	public function descriptionCanBeSet() {
+		$description = 'Some words';
+		$this->mediaDomainModelInstance->setDescription($description);
+		$this->assertEquals($description, $this->mediaDomainModelInstance->getDescription());
 	}
 }
 ?>

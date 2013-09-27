@@ -1,4 +1,7 @@
+{namespace n=Tx_News_ViewHelpers}
+
 <f:be.container>
+	<n:includeFile path="../typo3conf/ext/news/Resources/Public/Css/administration.css" />
 	<div class="typo3-fullDoc">
 		<div id="typo3-docheader">
 			<div id="typo3-docheader-row1">
@@ -19,8 +22,7 @@
 			</div>
 		</div>
 		<div id="typo3-docbody">
-			<div id="typo3-inner-docbody">
-				<f:renderFlashMessages class="tx-extbase-flash-message" />
+			<div id="typo3-inner-docbody" class="news-administration">
 				<f:render section="content" />
 			</div>
 		</div>

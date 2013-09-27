@@ -2,10 +2,10 @@
 
 t3bootstrap is a TYPO3 collection of tools, flexible content elements ([TemplaVoilà](http://typo3.org/extensions/repository/view/templavoila)), custom helper extensions and the basic [twitter Bootstrap](http://twitter.github.com/bootstrap/) framework. Initially developed by us for us, we'll try to move forward to a public version, for you to try out.
 
-*t3bootstrap uses version* **2.2.1** *of twitter Bootstrap*
+*t3bootstrap uses version* **2.3.2** *of twitter Bootstrap*
 
 ## Requirements
-* TYPO3 stable version **4.7.10** Source - Get it here: [http://get.typo3.org/4.7](http://get.typo3.org/4.7)
+* TYPO3 stable version **4.7.15** Source - Get it here: [http://get.typo3.org/4.7](http://get.typo3.org/4.7)
 * PHP version 5.3.x
 * MySQL version 5.0.x-5.1.x
 * A webserver to run TYPO3 on

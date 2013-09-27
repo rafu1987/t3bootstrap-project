@@ -24,9 +24,11 @@
 			<label index="settings.dateField.description">Select the field which is used to build the date menu.</label>
 			<label index="settings.categories.description">Choose the categories to define which news items are displayed</label>
 			<label index="settings.categoryConjunction.description">Define how the selected categories are used</label>
+			<label index="settings.includeSubCategories.description">Include all subcategories of the selected categories too.</label>
 			<label index="settings.categoryConjunction.details">"Don't care": No category restriction is set. "Show items with selected categories OR": A news records need to be related with at least one of the selected categories. "Show selected categories AND". A news record need to be related to all selected categories. "Do not show" is the opposite of above.</label>
 			<label index="settings.archiveRestriction.description">Choose between: 1) Show all news records, 2) Show only active news records, 3) Show only archived news records. The archive date is defined in each news record. If no archive date is set, the news record can't be archived.</label>
-			<label index="settings.timeRestriction.description">Set a time limit. This can either be an integer and means seconds, e.g. 86400 means 1 day(60 * 60 * 24) or a string like "-4 days" or "-3 hours". The prepended - is important!</label>
+			<label index="settings.timeRestriction.description">Set a time limit. This can either be an integer and means seconds, e.g. 86400 means 1 day(60 * 60 * 24) or a string like "-4 days" or "-3 hours". The prepended - is important! Only news items after the given time are shown.</label>
+			<label index="settings.timeRestrictionHigh.description">Set a time limit. This can either be an integer and means seconds, e.g. 86400 means 1 day(60 * 60 * 24) or a string like "-4 days" or "-3 hours". The prepended - is important! Only news items before the given time are shown.</label>
 			<label index="settings.topNewsRestriction.description">A news record can be set as top news. Therefore it can be defined to show either all news records, only top news or only nontop news.</label>
 			<label index="settings.singleNews.description">Display the selected single news record.</label>
 			<label index="settings.previewHiddenRecords.description">If set, hidden records are also displayed. This is needed if you want to preview still hidden records.</label>
@@ -48,7 +50,7 @@
 			<label index="settings.cropMaxCharacters.description">Define the length of the teaser in chars. The teaser is typically cropped in the list view.</label>
 			<label index="settings.templateLayout.description">Select a special layout for displaying news records.</label>
 		</languageKey>
-		<languageKey index="dk" type="array">
+		<languageKey index="da" type="array">
 			<!-- Tab General -->
 			<label index="switchableControllerActions.description">Angiv visningstype</label>
 			<label index="switchableControllerActions.details">Listevisning viser alle nyheder. Nyeste bruger en tidsbegrænsning, resten burde være indlysende</label>
@@ -80,6 +82,40 @@
 			<label index="settings.media.maxHeight.description">Maksimum højde på medie-elemnter (billeder, videoer, ...)</label>
 			<label index="settings.cropMaxCharacters.description">Angiv længde på teaser-teksten i antal tegn. Typisk beskæres teaser-teksten i listevisningen.</label>
 			<label index="settings.templateLayout.description">Vælg et særligt layout for nyheds-visning.</label>
+		</languageKey>
+        <languageKey index="nl" type="array">
+			<!-- Tab General -->
+			<label index="switchableControllerActions.description">Kies de weergave die getoond moet worden</label>
+			<label index="switchableControllerActions.details">Lijst weergave toont alle nieuws records. Laatste maakt gebruik van een tijdsrestrictie, overige zou begrijpelijk moeten zijn</label>
+			<label index="settings.orderBy.description">Definieer het sorteerveld</label>
+			<label index="settings.orderDirection.description">Definieer de sorteer richting</label>
+			<label index="settings.dateField.description">Kies het veld dat wordt gebruikt om het datum menu te maken.</label>
+			<label index="settings.categories.description">Kies de categorieën om te bepalen welke nieuwsitems worden getoond</label>
+			<label index="settings.categoryConjunction.description">Bepaal hoe de geselecteerde categorieën worden gebruikt</label>
+			<label index="settings.categoryConjunction.details">"Maakt niet uit": Geen Categorie beperking is ingesteld. "Toon items met geselecteerde categorieën OR": Een nieuwsrecord moeten worden gerelateerd met ten minste een van de geselecteerde categorieën. "Toon geselecteerde categorieën AND". Een nieuwsrecord moeten worden gerelateerd aan alle geselecteerde categorieën. "Niet tonen" is het tegenovergestelde van hierboven.</label>
+			<label index="settings.archiveRestriction.description">Kies uit: 1) Toon alle nieuwsrecords, 2) Toon alleen actieve nieuwsrecords, 3) Toon alleen gearchiveerde nieuwsrecords. De archiefdatum wordt vastgesteld voor elk nieuws record. Als er geen archiefdatum is ingesteld, kan het nieuwsrecord niet worden gearchiveerd.</label>
+			<label index="settings.timeRestriction.description">Stel een tijdslimiet in. Dit kan zijn een integer in seconden, bijv. 86400 betekent 1 dag (60 * 60 * 24) of een string als "-4 dagen" of "-3 uur". De voorgevoegde - is belangrijk! Alleen nieuws items na de opgegeven tijd worden getoond.</label>
+			<label index="settings.timeRestrictionHigh.description">Stel een tijdslimiet in. Dit kan zijn een integer in seconden, bijv. 86400 betekent 1 dag (60 * 60 * 24) of een string als "-4 dagen" of "-3 uur". De voorgevoegde - is belangrijk! Alleen nieuws items voor de opgegeven tijd worden getoond.</label>
+			<label index="settings.topNewsRestriction.description">Een nieuwsrecord kan worden ingesteld als top nieuws. Daarom kan worden bepaald om ofwel alle nieuwsrecords te tonen, alleen top nieuws of alleen nontop nieuws.</label>
+			<label index="settings.singleNews.description">Toon het geselecteerde single nieuwsrecord.</label>
+			<label index="settings.previewHiddenRecords.description">Indien ingesteld, worden verborgen records ook weergegeven. Dit is nodig om nog steeds verborgen records voor te vertonen.</label>
+			<label index="settings.startingpoint.description">Kies de pagina's/sysfolders waar de nieuwsrecords staan</label>
+			<label index="settings.recursive.description">Kies het recursieve niveau van het startpunt.</label>
+
+			<!-- Tab Additional -->
+			<label index="settings.detailPid.description">Kies de pagina waarop de detailweergave getoond moet worden.</label>
+			<label index="settings.backPid.description">Kies de pagina die wordt gebruikt om terug te keren naar de detailweergave.</label>
+			<label index="settings.listPid.description">Kies de pagina waarop de lijstweergave wordt getoond.</label>
+			<label index="settings.limit.description">Stel de maximale hoeveelheid in van het aantal nieuwsrecords dat moet worden weergegeven</label>
+			<label index="settings.offset.description">Stel de offset in om mee te beginnen. Bijv. 3 betekent dat de eerste 2 records niet worden weergegeven.</label>
+			<label index="settings.topNewsFirst.description">Indien aangevinkt: maakt niet uit welke sorteerwijze is bepaald, top nieuwsrecords worden getoond als eerste nieuwsrecords.</label>
+			<label index="settings.disableOverrideDemand.description">Indien aangevinkt, zal deze plugin niet worden beïnvloed door de override demand instellingen die bijvoorbeeld een categorie via een URL-parameter kunnen zijn.</label>
+
+			<!-- Tab Template -->
+			<label index="settings.media.maxWidth.description">Maximale breedte van media-elementen (afbeeldingen, video's, ...)</label>
+			<label index="settings.media.maxHeight.description">Maximale hoogte van media-elementen (afbeeldingen, video's, ...)</label>
+			<label index="settings.cropMaxCharacters.description">Bepaal de lengte van de teaser in tekens. De teaser wordt meestal gecropped in de lijstweergave.</label>
+			<label index="settings.templateLayout.description">Selecteer een speciale lay-out voor het weergeven van nieuwsrecords.</label>
 		</languageKey>
 	</data>
 </T3locallang>

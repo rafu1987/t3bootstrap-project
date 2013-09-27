@@ -25,6 +25,38 @@
 /**
  * ViewHelper to format a date, using strftime
  *
+ * # Example: Basic example using default strftime
+ * <code>
+ * <n:format.date>{newsItem.dateTime}</n:format.date>
+ * </code>
+ * <output>
+ * 2013-06-08
+ * </output>
+ *
+ * # Example: Basic example using default strftime and a format
+ * <code>
+ * <n:format.date format="%B">{newsItem.dateTime}</n:format.date>
+ * </code>
+ * <output>
+ * June
+ * </output>
+ *
+ * # Example: Basic example using datetime
+ * <code>
+ * <n:format.date format="c" strftime="0">{newsItem.crdate}</n:format.date>
+ * </code>
+ * <output>
+ * 2004-02-12T15:19:21+00:00
+ * </output>
+ *
+ * # Example: Render current time
+ * <code>
+ * <n:format.date format="c" strftime="0" currentDate="1">{newsItem.crdate}</n:format.date>
+ * </code>
+ * <output>
+ * 2013-06-12T15:19:21+00:00
+ * </output>
+ *
  * @package TYPO3
  * @subpackage tx_news
  */
@@ -33,14 +65,20 @@ class Tx_News_ViewHelpers_Format_DateViewHelper extends Tx_Fluid_Core_ViewHelper
 	/**
 	 * Render the supplied DateTime object as a formatted date.
 	 *
-	 * @param mixed $date either a DateTime object or a string that is accepted by DateTime constructor
+	 * @param mixed $date DateTime object or a string that is accepted by DateTime constructor
 	 * @param string $format Format String which is taken to format the Date/Time
 	 * @param bool $currentDate if true, the current date is used
+	 * @param bool $strftime if true, the strftime is used instead of date()
 	 * @return string Formatted date
+	 * @throws Tx_Fluid_Core_ViewHelper_Exception
 	 */
-	public function render($date = NULL, $format = '%Y-%m-%d', $currentDate = FALSE) {
+	public function render($date = NULL, $format = '%Y-%m-%d', $currentDate = FALSE, $strftime = TRUE) {
 		if ($currentDate) {
-			return strftime($format, $GLOBALS['EXEC_TIME']);
+			if ($strftime) {
+				return strftime($format, $GLOBALS['EXEC_TIME']);
+			} else {
+				return date($format, $GLOBALS['EXEC_TIME']);
+			}
 		}
 
 		if ($date === NULL) {
@@ -57,7 +95,14 @@ class Tx_News_ViewHelpers_Format_DateViewHelper extends Tx_Fluid_Core_ViewHelper
 			}
 		}
 
-		return strftime($format, $date->format('U'));
+		$formattedDate = '';
+		if ($strftime) {
+			$formattedDate = strftime($format, $date->format('U'));
+		} else {
+			$formattedDate = date($format, $date->format('U'));
+		}
+
+		return $formattedDate;
 	}
 }
 ?>

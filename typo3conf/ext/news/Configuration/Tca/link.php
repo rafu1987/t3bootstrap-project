@@ -15,27 +15,17 @@ $TCA['tx_news_domain_model_link'] = array(
 	'columns' => array(
 		'pid' => array(
 			'config'  => array(
-				'type'    => 'input'
+				'type'    => 'passthrough'
 			)
 		),
 		'crdate' => array(
-			'l10n_mode' => 'mergeIfNotBlank',
 			'config'  => array(
-				'type'     => 'input',
-				'size'     => 8,
-				'max'      => 20,
-				'eval'     => 'date',
-				'default'  => 0,
+				'type'     => 'passthrough',
 			)
 		),
 		'tstamp' => array(
-			'l10n_mode' => 'mergeIfNotBlank',
 			'config'  => array(
-				'type'     => 'input',
-				'size'     => 8,
-				'max'      => 20,
-				'eval'     => 'date',
-				'default'  => 0,
+				'type'     => 'passthrough',
 			)
 		),
 		'sys_language_uid' => array(
@@ -60,8 +50,8 @@ $TCA['tx_news_domain_model_link'] = array(
 				'items' => array(
 					array('', 0),
 				),
-				'foreign_table'       => 'tx_news_domain_model_news',
-				'foreign_table_where' => 'AND tx_news_domain_model_news.pid=###CURRENT_PID### AND tx_news_domain_model_news.sys_language_uid IN (-1,0)',
+				'foreign_table'       => 'tx_news_domain_model_link',
+				'foreign_table_where' => 'AND tx_news_domain_model_link.pid=###CURRENT_PID### AND tx_news_domain_model_link.sys_language_uid IN (-1,0)',
 			)
 		),
 		'l10n_diffsource' => array(
@@ -102,9 +92,10 @@ $TCA['tx_news_domain_model_link'] = array(
 			'label' => $ll . 'tx_news_domain_model_link.uri',
 			'config' => array(
 				'type' => 'input',
-				'eval' => 'required',
+				'placeholder' => $ll . 'tx_news_domain_model_link.uri.placeholder',
 				'size' => 30,
 				'eval' => 'trim,required',
+				'softref' => 'news_externalurl',
 				'wizards' => array(
 					'_PADDING' => 2,
 					'link' => array(

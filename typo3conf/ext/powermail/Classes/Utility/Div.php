@@ -42,8 +42,8 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Get Field Uid List from given Form Uid
 	 *
-	 * @param	integer		Form Uid
-	 * return	array		Fieldlist
+	 * @param integer $formUid Form Uid
+	 * @return array
 	 */
 	public function getFieldsFromForm($formUid) {
 		$formsRepository = t3lib_div::makeInstance('Tx_Powermail_Domain_Repository_FormsRepository');
@@ -64,8 +64,8 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Returns sendername from a couple of arguments
 	 *
-	 * @param	array	Given Params
-	 * @return	string	Sender Name
+	 * @param array $fields Given Params
+	 * @return string Sender Name
 	 */
 	public function getSenderNameFromArguments($fields) {
 		if (!is_array($fields)) {
@@ -90,8 +90,8 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Returns senderemail from a couple of arguments
 	 *
-	 * @param	array	Given Params
-	 * @return	string	Sender Email
+	 * @param array $fields Given Params
+	 * @return string Sender Email
 	 */
 	public function getSenderMailFromArguments($fields) {
 		if (!is_array($fields)) {
@@ -111,7 +111,7 @@ class Tx_Powermail_Utility_Div {
 		if (!$email) {
 			$email = Tx_Extbase_Utility_Localization::translate('error_no_sender_email', 'powermail');
 			$email .= '@';
-			$email .= t3lib_div::getIndpEnv('TYPO3_HOST_ONLY');
+			$email .= str_replace('www.', '', t3lib_div::getIndpEnv('TYPO3_HOST_ONLY'));
 		}
 		return $email;
 	}
@@ -119,10 +119,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Save current timestamp to session
 	 *
-	 * @param	integer		Form uid
-	 * @return	void
+	 * @param integer $formUid Form uid
+	 * @return void
 	 */
-	public function saveFormStartInSession($formUid) {
+	public static function saveFormStartInSession($formUid) {
 		if (intval($formUid) === 0) {
 			return;
 		}
@@ -134,10 +134,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Read FormStart
 	 *
-	 * @param	integer		Form UID
-	 * return	integer		Timestamp
+	 * @param integer $formUid Form UID
+	 * @return integer Timestamp
 	 */
-	public function getFormStartFromSession($formUid) {
+	public static function getFormStartFromSession($formUid) {
 		$timestamp = $GLOBALS['TSFE']->fe_user->getKey('ses', 'powermailFormstart' . $formUid);
 		return $timestamp;
 	}
@@ -145,10 +145,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Returns given number or the current PID
 	 *
-	 * @param	int		Storage PID or nothing
-	 * @return	int		Storage PID or current PID
+	 * @param integer $pid Storage PID or nothing
+	 * @return integer $pid
 	 */
-	public function getStoragePage($pid = '') {
+	public static function getStoragePage($pid = 0) {
 		if (!$pid) {
 			$pid = $GLOBALS['TSFE']->id;
 		}
@@ -158,20 +158,23 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * This functions renders the powermail_all Template to use in Mails and Other views
 	 *
-	 * @param	array		Arguments from form POST
-	 * @param	object		Configuration Manager
-	 * @param	object		Object Manager
-	 * @param	string		Choose a section (web or mail)
-	 * @return	string		content parsed from powermailAll HTML Template
+	 * @param array $variables Arguments from form POST
+	 * @param object $configurationManager Configuration Manager
+	 * @param object $objectManager Object Manager
+	 * @param string $section Choose a section (web or mail)
+	 * @param array $settings TypoScript Settings
+	 * @return string content parsed from powermailAll HTML Template
 	 */
-	public function powermailAll($variables, $configurationManager, $objectManager, $section = 'web') {
+	public function powermailAll($variables, $configurationManager, $objectManager, $section = 'web', $settings = array()) {
 		$powermailAll = $objectManager->create('Tx_Fluid_View_StandaloneView');
 		$extbaseFrameworkConfiguration = $configurationManager->getConfiguration(Tx_Extbase_Configuration_ConfigurationManagerInterface::CONFIGURATION_TYPE_FRAMEWORK);
 		$templatePathAndFilename = t3lib_div::getFileAbsFileName($extbaseFrameworkConfiguration['view']['templateRootPath']) . 'Forms/PowermailAll.html';
 		$powermailAll->setLayoutRootPath(t3lib_div::getFileAbsFileName($extbaseFrameworkConfiguration['view']['layoutRootPath']));
+		$powermailAll->setPartialRootPath(t3lib_div::getFileAbsFileName($extbaseFrameworkConfiguration['view']['partialRootPath']));
 		$powermailAll->setTemplatePathAndFilename($templatePathAndFilename);
 		$powermailAll->assign('variables', $variables);
 		$powermailAll->assign('section', $section);
+		$powermailAll->assign('settings', $settings);
 		$content = $powermailAll->render();
 
 		return $content;
@@ -182,8 +185,8 @@ class Tx_Powermail_Utility_Div {
 	 * 		before: 123 => value
 	 * 		after: firstname => value
 	 *
-	 * @param	array		piVars from Form Submit
-	 * @return	array		new array
+	 * @param array $fields piVars from Form Submit
+	 * @return array new array
 	 */
 	public function getVariablesWithMarkers($fields) {
 		$variables = array();
@@ -191,7 +194,22 @@ class Tx_Powermail_Utility_Div {
 			if (!is_numeric($uid)) {
 				continue;
 			}
-			$variables[$this->getMarkerFromField($uid)] = $value;
+			if (!is_array($value)) {
+				// default values
+				$variables[$this->getMarkerFromField($uid)] = $value;
+			} else {
+				// values from checkboxes
+				$marker = $this->getMarkerFromField($uid);
+				$variables[$marker] = '';
+				foreach ($value as $singleValue) {
+					if (empty($singleValue)) {
+						continue;
+					}
+					$variables[$marker] .= $singleValue;
+					$variables[$marker] .= ', ';
+				}
+				$variables[$marker] = substr(trim($variables[$marker]), 0, -1); // remove last comma
+			}
 		}
 		return $variables;
 	}
@@ -201,8 +219,8 @@ class Tx_Powermail_Utility_Div {
 	 * 		before: 123 => value
 	 * 		after: Your Firstname: => value
 	 *
-	 * @param	array		piVars from Form Submit
-	 * @return	array		new array
+	 * @param array $fields piVars from Form Submit
+	 * @return array new array
 	 */
 	public function getVariablesWithLabels($fields) {
 		$variables = array();
@@ -218,8 +236,8 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Get label of a field (and respect FE language)
 	 *
-	 * @param	integer		Field UID
-	 * @return	string		Label
+	 * @param integer $uid Field UID
+	 * @return string Label
 	 */
 	public function getLabelFromField($uid) {
 		$fieldsRepository = t3lib_div::makeInstance('Tx_Powermail_Domain_Repository_FieldsRepository');
@@ -236,8 +254,8 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Read marker from given field uid
 	 *
-	 * @param	integer		Field UID
-	 * @return	string		Marker name
+	 * @param integer $uid Field UID
+	 * @return string Marker name
 	 */
 	public function getMarkerFromField($uid) {
 		$fieldsRepository = t3lib_div::makeInstance('Tx_Powermail_Domain_Repository_FieldsRepository');
@@ -255,10 +273,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Add uploads fields and rewrite date fields
 	 *
-	 * @param	array		Field array
-	 * @return	void
+	 * @param array $fields Field array
+	 * @return void
 	 */
-	public function addUploadsToFields(&$fields) {
+	public static function addUploadsToFields(&$fields) {
 		// add filenames to variable
 		if (isset($_FILES['tx_powermail_pi1']['name']['field'])) {
 			foreach ((array) $_FILES['tx_powermail_pi1']['name']['field'] as $uid => $value) {
@@ -272,11 +290,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Add uploads fields and rewrite date fields
 	 *
-	 * @param	array		Field array
-	 * @param	array		TypoScript Settings
-	 * @return	void
+	 * @param array $fields Field array
+	 * @return void
 	 */
-	public function rewriteDateInFields($fields, $settings) {
+	public function rewriteDateInFields($fields) {
 		// rewrite datetime
 		$fieldsRepository = t3lib_div::makeInstance('Tx_Powermail_Domain_Repository_FieldsRepository');
 		foreach ((array) $fields as $uid => $value) {
@@ -291,7 +308,7 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * This is the main-function for sending Mails
 	 *
-	 * @param 	array 		Array with all needed mail information
+	 * @param array $mail Array with all needed mail information
 	 * 		$mail['receiverName'] = 'Name';
 	 * 		$mail['receiverEmail'] = 'receiver@mail.com';
 	 *		$mail['senderName'] = 'Name';
@@ -300,12 +317,12 @@ class Tx_Powermail_Utility_Div {
 	 * 		$mail['template'] = 'PathToTemplate/';
 	 * 		$mail['rteBody'] = 'This is the <b>content</b> of the RTE';
 	 * 		$mail['format'] = 'both'; // or plain or html
-	 * @param	array		All arguments from POST or GET
-	 * @param	array		TypoScript Settings
-	 * @param	string		Email to "sender" or "receiver"
+	 * @param array $fields All arguments from POST or GET
+	 * @param array $settings TypoScript Settings
+	 * @param string $type Email to "sender" or "receiver"
 	 * @param Tx_Extbase_Object_ObjectManager $objectManager
-	 * @param 	object		$configurationManager
-	 * @return 	boolean 	TRUE on success, otherwise false
+	 * @param object $configurationManager
+	 * @return boolean Mail was successfully sent?
 	 */
 	public function sendTemplateEmail($mail, $fields, $settings, $type, $objectManager, $configurationManager) {
 		/*****************
@@ -346,14 +363,13 @@ class Tx_Powermail_Utility_Div {
 		$extbaseFrameworkConfiguration = $configurationManager->getConfiguration(Tx_Extbase_Configuration_ConfigurationManagerInterface::CONFIGURATION_TYPE_FRAMEWORK);
 		$templatePathAndFilename = t3lib_div::getFileAbsFileName($extbaseFrameworkConfiguration['view']['templateRootPath']) . $mail['template'] . '.html';
 		$emailView = $objectManager->create('Tx_Fluid_View_StandaloneView');
-		$emailView->getRequest()->setControllerExtensionName('powermail');
+		$emailView->getRequest()->setControllerExtensionName('Powermail'); // extension name for translate viewhelper
 		$emailView->getRequest()->setPluginName('Pi1');
 		$emailView->getRequest()->setControllerName('Forms');
 		$emailView->setFormat('html');
 		$emailView->setTemplatePathAndFilename($templatePathAndFilename);
 		$emailView->setPartialRootPath(t3lib_div::getFileAbsFileName($extbaseFrameworkConfiguration['view']['partialRootPath']));
 		$emailView->setLayoutRootPath(t3lib_div::getFileAbsFileName($extbaseFrameworkConfiguration['view']['layoutRootPath']));
-		$emailView->getRequest()->setControllerExtensionName('Powermail'); // extension name for translate viewhelper
 
 		// get variables
 			// additional variables
@@ -366,13 +382,13 @@ class Tx_Powermail_Utility_Div {
 		$emailView->assignMultiple($variablesWithMarkers);
 			// powermail_all
 		$variables = $this->getVariablesWithLabels($fields);
-		$content = $this->powermailAll($variables, $configurationManager, $objectManager, 'mail');
+		$content = $this->powermailAll($variables, $configurationManager, $objectManager, 'mail', $settings);
 		$emailView->assign('powermail_all', $content);
 			// from rte
 		$emailView->assign('powermail_rte', $mail['rteBody']);
 		$variablesWithLabels = $this->getVariablesWithLabels($fields);
 		$emailView->assign('variablesWithLabels', $variablesWithLabels);
-		$emailView->assign('marketingInfos', $this->getMarketingInfos());
+		$emailView->assign('marketingInfos', self::getMarketingInfos());
 		$emailBody = $emailView->render();
 
 
@@ -455,10 +471,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Parse String with Fluid View
 	 *
-	 * @param	string		Any string
-	 * @param 	object		$objectManager
-	 * @param 	array		Variables
-	 * @return	string		Parsed string
+	 * @param string $string Any string
+	 * @param object $objectManager
+	 * @param array $variables Variables
+	 * @return string Parsed string
 	 */
 	public function fluidParseString($string, $objectManager, $variables = array()) {
 		if (!$string) {
@@ -476,10 +492,10 @@ class Tx_Powermail_Utility_Div {
 	 * Function makePlain() removes html tags and add linebreaks
 	 * 		Easy generate a plain email bodytext from a html bodytext
 	 *
-	 * @param	string		$content: HTML Mail bodytext
-	 * @return	string		$content: Plain Mail bodytext
+	 * @param string $content: HTML Mail bodytext
+	 * @return string $content: Plain Mail bodytext
 	 */
-	private function makePlain($content) {
+	protected function makePlain($content) {
 		// config
 		$htmltagarray = array ( // This tags will be added with linebreaks
 			'</p>',
@@ -523,10 +539,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Function br2nl is the opposite of nl2br
 	 *
-	 * @param	string		$content: Anystring
-	 * @return	string		$content: Manipulated string
+	 * @param string $content: Anystring
+	 * @return string $content: Manipulated string
 	 */
-	private function br2nl($content) {
+	protected function br2nl($content) {
 		$array = array(
 			'<br >',
 			'<br>',
@@ -541,8 +557,8 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Use htmlspecialchars on array (key and value) (any depth - recursive call)
 	 *
-	 * @param	array	Any array
-	 * @return	array	Cleaned array
+	 * @param array $array Any array
+	 * @return array Cleaned array
 	 */
 	public function htmlspecialcharsOnArray($array) {
 		$newArray = array();
@@ -560,8 +576,9 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Get all receiver emails in an array
 	 *
-	 * @param	string		String with some emails
-	 * @param	int			fe_groups Uid
+	 * @param string $receiverString String with some emails
+	 * @param int $feGroup fe_groups Uid
+	 * @return array
 	 */
 	public function getReceiverEmails($receiverString, $feGroup) {
 		$array = $this->getEmailsFromString($receiverString);
@@ -574,8 +591,8 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Read E-Mails from String
 	 *
-	 * @param	int			fe_groups Uid
-	 * @return	array		Array with emails
+	 * @param int $uid fe_groups Uid
+	 * @return array Array with emails
 	 */
 	public function getEmailsFromFeGroup($uid) {
 		$userRepository = t3lib_div::makeInstance('Tx_Powermail_Domain_Repository_UserRepository');
@@ -592,8 +609,8 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Read E-Mails from String
 	 *
-	 * @param	string		Any given string from a textarea with some emails
-	 * @return	array		Array with emails
+	 * @param string $string Any given string from a textarea with some emails
+	 * @return array Array with emails
 	 */
 	public function getEmailsFromString($string) {
 		$array = array();
@@ -612,10 +629,10 @@ class Tx_Powermail_Utility_Div {
 	 * 			value => red
 	 * 			selected => 1
 	 *
-	 * @param	string		Options from the Textarea
-	 * @return	array		Options Array
+	 * @param string $string Options from the Textarea
+	 * @return array Options Array
 	 */
-	public function optionArray($string) {
+	public static function optionArray($string) {
 		$options = array();
 		$settingsField = t3lib_div::trimExplode("\n", $string, 1);
 		foreach ($settingsField as $line) {
@@ -629,33 +646,16 @@ class Tx_Powermail_Utility_Div {
 
 		return $options;
 	}
-	
-	/**
-	 * Change Timestamp to String
-	 * 
-	 * @param	array		Field array with uids and strings
-	 * @param	array		TypoScript settings
-	 * @return	void
-	 */
-	public function changeDateFieldsToString(&$fields, $settings) {
-		$fieldsRepository = t3lib_div::makeInstance('Tx_Powermail_Domain_Repository_FieldsRepository');
-		foreach ((array) $fields as $uid => $value) {
-			$field = $fieldsRepository->findByUid($uid);
-			if (method_exists($field, 'getType') && $field->getType() == 'date') {
-				$fields[$uid] = strftime('%d.%m.%Y', $value);
-			}
-		}
-	}
 
 	/**
 	 * Get grouped mail answers for reporting
 	 *
-	 * @param	array		Mail array
-	 * @param 	int 		Max Labels
-	 * @param 	string 		Label for "Max Labels" - could be "all others"
-	 * @return	array
+	 * @param array $mails Mail array
+	 * @param int $max Max Labels
+	 * @param string $maxLabel Label for "Max Labels" - could be "all others"
+	 * @return array
 	 */
-	public function getGroupedMailAnswers($mails, $max = 5, $maxLabel = 'All others') {
+	public static function getGroupedMailAnswers($mails, $max = 5, $maxLabel = 'All others') {
 		$arr = array();
 		foreach ($mails as $mail) {
 			foreach ($mail->getAnswers() as $answer) {
@@ -702,12 +702,12 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Get grouped marketing stuff for reporting
 	 *
-	 * @param	object		Mails
-	 * @param 	int 		Max Labels
-	 * @param 	string 		Label for "Max Labels" - could be "all others"
-	 * @return	array
+	 * @param object $mails Mails
+	 * @param int $max Max Labels
+	 * @param string $maxLabel Label for "Max Labels" - could be "all others"
+	 * @return array
 	 */
-	public function getGroupedMarketingStuff($mails, $max = 10, $maxLabel = 'All others') {
+	public static function getGroupedMarketingStuff($mails, $max = 10, $maxLabel = 'All others') {
 		$arr = array(
 			'marketingSearchterm' => array(),
 			'marketingReferer' => array(),
@@ -764,9 +764,9 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Read MarketingInfos from Session
 	 *
-	 * return array
+	 * @return array
 	 */
-	public function getMarketingInfos() {
+	public static function getMarketingInfos() {
 		$info = $GLOBALS['TSFE']->fe_user->getKey('ses', 'powermail_marketing');
 		return $info;
 	}
@@ -774,16 +774,16 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Powermail SendPost - Send values via curl to target
 	 *
-	 * @param	$fields		array		Params from User
-	 * @param	$settings	array		TypoScript Settings
-	 * @param	object		Configuration Manager
-	 * @return	void
+	 * @param array $fields Params from User
+	 * @param array $conf TypoScript Settings
+	 * @param object $configurationManager Configuration Manager
+	 * @return void
 	 */
-	public function sendPost($fields, $conf, $configurationManager) {
+	public static function sendPost($fields, $conf, $configurationManager) {
 		if (!$conf['marketing.']['sendPost.']['_enable']) {
 			return;
 		}
-		$fields = $this->getVariablesWithMarkers($fields);
+		$fields = self::getVariablesWithMarkers($fields);
 		$cObj = $configurationManager->getContentObject();
 		$cObj->start($fields);
 		$curl = array(
@@ -808,9 +808,9 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Returns array with alphabetical letters
 	 *
-	 * @return	array
+	 * @return array
 	 */
-	public function getAbcArray() {
+	public static function getAbcArray() {
 		$arr = array();
 		for ($a=A; $a != AA; $a++) { // ABC loop
 			$arr[] = $a;
@@ -821,10 +821,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Check of value is serialized
 	 *
-	 * @param $val Any String
+	 * @param string $val Any String
 	 * @return bool
 	 */
-	public function is_serialized($val) {
+	public static function is_serialized($val) {
 		if (!is_string($val) || trim($val) == '') {
 			return false;
 		}
@@ -837,9 +837,9 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Check if logged in user is allowed to make changes in Pi2
 	 *
-	 * @param 	array		$settings TypoScript and Flexform Settings
-	 * @param	object		$mail Mail Object
-	 * @return	bool
+	 * @param array $settings $settings TypoScript and Flexform Settings
+	 * @param object $mail $mail Mail Object
+	 * @return bool
 	 */
 	public function isAllowedToEdit($settings, $mail) {
 		// settings
@@ -877,11 +877,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Return usergroups uid of a given fe_user
 	 *
-	 * @param 	string 	$uid				FE_user UID
-	 * @param 	string 	$table				Table name		('fe_users' or 'fe_groups')
-	 * @return	array	Usergroups
+	 * @param string $uid FE_user UID
+	 * @return array Usergroups
 	 */
-	private function getUserGroupsFromUser($uid) {
+	protected function getUserGroupsFromUser($uid) {
 		$groups = array();
 		$select = 'fe_groups.uid';
 		$from = 'fe_users, fe_groups, sys_refindex';
@@ -902,10 +901,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Create Hash from String and TYPO3 Encryption Key
 	 *
-	 * @param $string	Any String
-	 * @return string	Hashed String
+	 * @param string $string Any String
+	 * @return string Hashed String
 	 */
-	public function createOptinHash($string) {
+	public static function createOptinHash($string) {
 		if (!empty($GLOBALS['TYPO3_CONF_VARS']['SYS']['encryptionKey'])) {
 			$hash = t3lib_div::shortMD5($string . $GLOBALS['TYPO3_CONF_VARS']['SYS']['encryptionKey']);
 		} else {
@@ -917,10 +916,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Plain String output for given array
 	 *
-	 * @param $array
+	 * @param array $array
 	 * @return string
 	 */
-	public function viewPlainArray($array) {
+	public static function viewPlainArray($array) {
 		$string = '';
 		foreach ((array) $array as $key => $value) {
 			$string .= $key . ': ' . $value . "\n";
@@ -931,12 +930,12 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Set a powermail session (don't overwrite existing sessions)
 	 *
-	 * @param $name string			A session name
-	 * @param $value mixed			Values to save
-	 * @param $overwrite bool		Overwrite existing values
+	 * @param string $name A session name
+	 * @param array $values Values to save
+	 * @param int $overwrite Overwrite existing values
 	 * @return void
 	 */
-	static public function setSessionValue($name, $values, $overwrite = 0) {
+	public static function setSessionValue($name, $values, $overwrite = 0) {
 		if (!$overwrite) {
 			$oldValues = self::getSessionValue($name); // read existing values
 			$values = array_merge((array) $oldValues, (array) $values); // merge old values with new
@@ -952,10 +951,10 @@ class Tx_Powermail_Utility_Div {
 	/**
 	 * Read a powermail session
 	 *
-	 * @param $name string			A session name
-	 * @return mixed				Values from session
+	 * @param string $name A session name
+	 * @return mixed Values from session
 	 */
-	static public function getSessionValue($name = '') {
+	public static function getSessionValue($name = '') {
 		$powermailSession = $GLOBALS['TSFE']->fe_user->getKey('ses', self::$extKey);
 		if ($name && isset($powermailSession[$name])) {
 			return $powermailSession[$name];
@@ -967,10 +966,11 @@ class Tx_Powermail_Utility_Div {
 	 * Merges Flexform and TypoScript Settings (up to 2 levels) and add Global Config from ext_conf_template.txt
 	 * 		Why: It's not possible to have the same field in TypoScript and Flexform and if FF value is empty, we want the TypoScript value instead
 	 *
-	 * @param	array	All settings
-	 * @return	array	Merged settings
+	 * @param array $settings All settings
+	 * @param string $typoScriptLevel Startpoint
+	 * @return array Merged settings
 	 */
-	public function mergeTypoScript2FlexForm(&$settings, $typoScriptLevel = 'setup') {
+	public static function mergeTypoScript2FlexForm(&$settings, $typoScriptLevel = 'setup') {
 		// config
 		$tmp_settings = array();
 		$confArr = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['powermail']);

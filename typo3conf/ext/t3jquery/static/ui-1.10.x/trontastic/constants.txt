@@ -1,0 +1,6 @@
+plugin.tx_t3jquery {
+
+	# cat=plugin.tx_t3jquery.ui-trontastic/file/010; type=file[css]; label=jQuery UI Trontastic
+	file.UI-Trontastic = EXT:t3jquery/res/css/ui-1.10.x/trontastic/jquery-ui-1.10.0.custom.min.css
+
+}

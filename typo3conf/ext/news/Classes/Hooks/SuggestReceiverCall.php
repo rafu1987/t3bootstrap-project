@@ -42,12 +42,13 @@ class Tx_News_Hooks_SuggestReceiverCall {
 	 * @param array $params
 	 * @param TYPO3AJAX $ajaxObj
 	 * @return void
+	 * @throws Exception
 	 */
 	public function createTag(array $params, TYPO3AJAX $ajaxObj) {
 		$request = t3lib_div::_POST();
 
 		try {
-				// check if a tag is submitted
+				// Check if a tag is submitted
 			if (!isset($request['item']) || empty($request['item'])) {
 				throw new Exception('error_no-tag');
 			}
@@ -57,7 +58,7 @@ class Tx_News_Hooks_SuggestReceiverCall {
 				throw new Exception('error_no-newsid');
 			}
 
-				// get tag uid
+				// Get tag uid
 			$newTagId = $this->getTagUid($request);
 
 			$ajaxObj->setContentFormat('javascript');
@@ -83,6 +84,7 @@ class Tx_News_Hooks_SuggestReceiverCall {
 	 *
 	 * @param array $request ajax request
 	 * @return integer
+	 * @throws Exception
 	 */
 	protected function getTagUid(array $request) {
 		$tagUid = 0;
@@ -90,19 +92,28 @@ class Tx_News_Hooks_SuggestReceiverCall {
 			// Get configuration from EM
 		$configuration = Tx_News_Utility_EmConfiguration::getSettings();
 
+		$pid = $configuration->getTagPid();
+		if ($pid === 0) {
+			$pid = $this->getTagPidFromTsConfig($request['newsid']);
+		}
+
+		if ($pid === 0) {
+			throw new Exception('error_no-pid-defined');
+		}
+
 		$record = $GLOBALS['TYPO3_DB']->exec_SELECTgetSingleRow(
 					'*',
 					self::TAG,
-					'deleted=0 AND pid=' . $configuration->getTagPid() .
+					'deleted=0 AND pid=' . $pid .
 						' AND title=' . $GLOBALS['TYPO3_DB']->fullQuoteStr($request['item'], self::TAG)
 					);
-		if(isset($record['uid'])) {
+		if (isset($record['uid'])) {
 			$tagUid = $record['uid'];
 		} else {
 			$tcemainData = array(
 				self::TAG => array(
 					'NEW' => array(
-						'pid' => $configuration->getTagPid(),
+						'pid' => $pid,
 						'title' => $request['item']
 					)
 				)
@@ -123,6 +134,25 @@ class Tx_News_Hooks_SuggestReceiverCall {
 		}
 
 		return $tagUid;
+	}
+
+	/**
+	 * Get pid for tags from TsConfig
+	 *
+	 * @param integer $newsUid uid of current news record
+	 * @return int
+	 */
+	protected function getTagPidFromTsConfig($newsUid) {
+		$pid = 0;
+
+		$newsRecord = t3lib_BEfunc::getRecord('tx_news_domain_model_news', (int)$newsUid);
+
+		$pagesTsConfig = t3lib_BEfunc::getPagesTSconfig($newsRecord['pid']);
+		if (isset($pagesTsConfig['tx_news.']) && isset($pagesTsConfig['tx_news.']['tagPid'])) {
+			$pid = (int)$pagesTsConfig['tx_news.']['tagPid'];
+		}
+
+		return $pid;
 	}
 
 }

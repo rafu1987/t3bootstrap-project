@@ -1,0 +1,5 @@
+plugin.itypo_404handler {
+	loginPage = {$plugin.itypo_404handler.loginPage}
+	forbiddenPage = {$plugin.itypo_404handler.forbiddenPage}
+	notfoundPage = {$plugin.itypo_404handler.notfoundPage}
+}

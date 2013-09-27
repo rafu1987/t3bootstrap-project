@@ -1,0 +1,4 @@
+
+page.includeCSS {
+	t3jquery-ui-start = {$plugin.tx_t3jquery.file.UI-Start}
+}

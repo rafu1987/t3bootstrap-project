@@ -55,15 +55,13 @@ class Minify_ImportProcessor {
         self::$filesIncluded[] = realpath($file);
         $this->_currentDir = dirname($file);
 
-// #####################
-			// BEGIN TYPO3 modification
+// ##################### BEGIN TYPO3 modification
 		if (strpos($this->_currentDir, realpath(t3lib_div::getIndpEnv('TYPO3_DOCUMENT_ROOT'))) === FALSE) {
 			$realPathToTYPO3 = str_replace('typo3/', '', realpath(PATH_typo3));
 			$this->_currentDir = str_replace($realPathToTYPO3, '', $this->_currentDir);
 			$this->_currentDir = realpath(PATH_site) . '/typo3' . $this->_currentDir;
 		}
-			// END TYPO3 modification
-// #####################
+// ##################### END TYPO3 modification
 
         // remove UTF-8 BOM if present
         if (pack("CCC",0xef,0xbb,0xbf) === substr($content, 0, 3)) {

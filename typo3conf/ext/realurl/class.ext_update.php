@@ -25,7 +25,7 @@
 /**
  * Class for updating RealURL data
  *
- * $Id: class.ext_update.php 42711 2011-01-27 13:04:36Z dmitry $
+ * $Id$
  *
  * @author  Dmitry Dulepov <dmitry.dulepov@typo3.org>
  * @package TYPO3

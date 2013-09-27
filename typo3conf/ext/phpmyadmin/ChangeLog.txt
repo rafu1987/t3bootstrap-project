@@ -1,3 +1,21 @@
+2013-09-01  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.17.0
+	* Feature: #51384: Add EM-config option to disable Ajax in pMA (thanks to Gabriel Kaufmann for the suggestion)
+
+2013-07-29  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.16.0
+	* Feature: Updated pMA to the latest stable release (3.5.8.2)
+	* Security: Includes several security fixes
+		* PMASA-2013-15: SQL injection vulnerabilities, producing a privilege escalation (control user).
+		* PMASA-2013-14: Self-XSS due to unescaped HTML output in schema export.
+		* PMASA-2013-12: Full path disclosure vulnerabilities.
+		* PMASA-2013-11: If a crafted version.json would be presented, an XSS could be introduced.
+		* PMASA-2013-9: 5 XSS vulnerabilities in setup, chart display, process list, and logo link.
+
+2013-03-11  Andreas Beutel  <typo3@mehrwert.de>
+	* Version 4.15.1
+	* Fix: #46165: Wrong include files can be used (thanks to Dmitry Dulepov for reporting the issue and providing the patch!)
+
 2012-11-28  Andreas Beutel  <typo3@mehrwert.de>
 	* Version 4.15.0
 	* Set TYPO3 6.0 compatibility

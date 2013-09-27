@@ -51,11 +51,18 @@ class Tx_T3jquery_ViewHelpers_AddJQueryAndScriptViewHelper extends Tx_Fluid_Core
 	 * @param string $compress
 	 * @param string $type
 	 * @param boolean $tofooter
+	 * @param boolean $renderChildrenToData
 	 * @return string
 	 */
 
-	public function render($jsfile = NULL, $jsurl = NULL, $jsdata = NULL, $jsready = NULL, $forceOnTop = NULL, $compress = NULL, $type = "text/javascript", $tofooter = null) {
-		$buffer = $this->renderChildren();
+	public function render($jsfile = NULL, $jsurl = NULL, $jsdata = NULL, $jsready = NULL, $forceOnTop = NULL, $compress = NULL, $type = "text/javascript", $tofooter = null, $renderChildrenToData = false) {
+		$buffer_data = NULL;
+		$buffer_ready = NULL;
+		if ($renderChildrenToData === true ) {
+			$buffer_data = $this->renderChildren();
+		} else {
+			$buffer_ready = $this->renderChildren();
+		}
 			// checks if t3jquery is loaded
 		if (T3JQUERY === true) {
 			$config = array();
@@ -65,10 +72,15 @@ class Tx_T3jquery_ViewHelpers_AddJQueryAndScriptViewHelper extends Tx_Fluid_Core
 			if($jsurl !== NULL) {
 				$config['jsurl'] = $jsurl;
 			}
-			if($jsready !== NULL) {
-				$config['jsready'] = $buffer . "\n". $jsready;
+			if($jsdata !== NULL) {
+				$config['jsdata'] = $buffer_data . "\n" . $jsdata;
 			} else {
-				$config['jsready'] = $buffer;
+				$config['jsdata'] = $buffer_data;
+			}
+			if($jsready !== NULL) {
+				$config['jsready'] = $buffer_ready . "\n" . $jsready;
+			} else {
+				$config['jsready'] = $buffer_ready;
 			}
 			if($forceOnTop !== NULL) {
 				$config['forceOnTop'] = $forceOnTop;

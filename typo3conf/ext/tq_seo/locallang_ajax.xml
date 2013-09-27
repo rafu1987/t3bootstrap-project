@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>ajax</type>
+		<description>Language labels for ajax stuff belonging to extension 'tq_seo'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="error_access_denied">Access to this element was denied.</label>
+			<label index="error_url_generation_failed">URL could not be generated (not possible for access protected pages)</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="error_access_denied">Der Zugriff auf dieses Element wurde verweigert.</label>
+			<label index="error_url_generation_failed">Der URL konnte nicht generiert werden (nicht möglich für geschützte Seiten)</label>
+		</languageKey>
+	</data>
+</T3locallang>

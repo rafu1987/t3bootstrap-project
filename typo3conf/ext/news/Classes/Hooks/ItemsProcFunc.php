@@ -46,7 +46,7 @@ class Tx_News_Hooks_ItemsProcFunc {
 			$damEntry = array(
 				$GLOBALS['LANG']->sL($locallangFile . 'tx_news_domain_model_media.type.I.3'),
 				'3',
-				t3lib_extMgm::extRelPath('news').'Resources/Public/Icons/media_type_dam.gif'
+				t3lib_extMgm::extRelPath('news') . 'Resources/Public/Icons/media_type_dam.gif'
 			);
 
 				// add entry to type list
@@ -62,11 +62,11 @@ class Tx_News_Hooks_ItemsProcFunc {
 	 * @return void
 	 */
 	public function user_templateLayout(array &$config, t3lib_TCEforms $parentObject) {
-			// check if the layouts are extended
+			// Check if the layouts are extended by ext_tables
 		if (isset($GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['templateLayouts'])
 				&& is_array($GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['templateLayouts'])) {
 
-				// add every item
+				// Add every item
 			foreach ($GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['templateLayouts'] as $layouts) {
 				$additionalLayout = array(
 					$GLOBALS['LANG']->sL($layouts[0], TRUE),
@@ -75,10 +75,27 @@ class Tx_News_Hooks_ItemsProcFunc {
 				array_push($config['items'], $additionalLayout);
 			}
 		}
+
+			// Add tsconfig values
+		if (is_numeric($config['row']['pid'])) {
+			$pagesTsConfig = t3lib_BEfunc::getPagesTSconfig($config['row']['pid']);
+			if (isset($pagesTsConfig['tx_news.']['templateLayouts.']) && is_array($pagesTsConfig['tx_news.']['templateLayouts.'])) {
+
+					// Add every item
+				foreach ($pagesTsConfig['tx_news.']['templateLayouts.'] as $key => $label) {
+					$additionalLayout = array(
+						$GLOBALS['LANG']->sL($label, TRUE),
+						$key
+					);
+					array_push($config['items'], $additionalLayout);
+				}
+			}
+		}
+
 	}
 
 	/**
-	 * Modifies the selectbox of orderby-options as a categorymenu
+	 * Modifies the select box of orderBy-options as a category menu
 	 * needs different ones then a news action
 	 *
 	 * @param array &$config configuration array
@@ -95,10 +112,12 @@ class Tx_News_Hooks_ItemsProcFunc {
 				// check if there is a flexform configuration
 			if (isset($flexformConfig['data']['sDEF']['lDEF']['switchableControllerActions']['vDEF'])) {
 				$selectedActionList = $flexformConfig['data']['sDEF']['lDEF']['switchableControllerActions']['vDEF'];
-
 					// check for selected action
 				if (t3lib_div::isFirstPartOfStr($selectedActionList, 'Category')) {
 					$newItems = $GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['orderByCategory'];
+				} elseif (t3lib_div::isFirstPartOfStr($selectedActionList, 'Tag')) {
+					$this->removeNonValidOrderFields($config, 'tx_news_domain_model_tag');
+					$newItems = $GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['orderByTag'];
 				} else {
 					$newItems = $GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['orderByNews'];
 				}
@@ -126,6 +145,23 @@ class Tx_News_Hooks_ItemsProcFunc {
 	}
 
 	/**
+	 * Remove not valid fields from ordering
+	 *
+	 * @param array $config tca items
+	 * @param string $tableName table name
+	 * @return void
+	 */
+	protected function removeNonValidOrderFields(array &$config, $tableName) {
+		$allowedFields = array_keys($GLOBALS['TCA'][$tableName]['columns']);
+
+		foreach($config['items'] as $key => $item) {
+			if ($item[1] != '' && !in_array($item[1], $allowedFields)) {
+				unset($config['items'][$key]);
+			}
+		}
+	}
+
+	/**
 	 * Modifies the selectbox of available actions
 	 *
 	 * @param array &$config
@@ -142,6 +178,7 @@ class Tx_News_Hooks_ItemsProcFunc {
 					case 2:
 						$this->removeActionFromList($config, 'News->list;News->detail');
 						break;
+					default:
 				}
 		}
 
@@ -162,7 +199,7 @@ class Tx_News_Hooks_ItemsProcFunc {
 	 * @return void
 	 */
 	private function removeActionFromList(array &$config, $action) {
-		foreach($config['items'] as $key => $item) {
+		foreach ($config['items'] as $key => $item) {
 			if ($item[1] === $action) {
 				unset($config['items'][$key]);
 				continue;

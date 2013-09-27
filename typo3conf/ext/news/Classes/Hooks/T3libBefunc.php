@@ -37,8 +37,8 @@ class Tx_News_Hooks_T3libBefunc {
 	 * @var array
 	 */
 	public $removedFieldsInDetailView = array(
-			'sDEF' => 'orderBy,orderDirection,categories,categoryConjunction,
-						archiveRestriction,timeRestriction,topNewsRestriction,
+			'sDEF' => 'orderBy,orderDirection,categories,categoryConjunction,includeSubCategories,
+						archiveRestriction,timeRestriction,timeRestrictionHigh,topNewsRestriction,
 						startingpoint,recursive,dateField',
 			'additional' => 'limit,offset,hidePagination,topNewsFirst,listPid',
 			'template' => 'cropMaxCharacters'
@@ -51,7 +51,7 @@ class Tx_News_Hooks_T3libBefunc {
 	 */
 	public $removedFieldsInListView = array(
 			'sDEF' => 'dateField,singleNews,previewHiddenRecords',
-			'additional' => 'listPid',
+			'additional' => '',
 			'template' => ''
 		);
 
@@ -62,7 +62,7 @@ class Tx_News_Hooks_T3libBefunc {
 	 */
 	public $removedFieldsInDateMenuView = array(
 			'sDEF' => 'orderBy,singleNews',
-			'additional' => 'limit,offset,hidePagination,topNewsFirst,detailPid,backPid,previewHiddenRecords',
+			'additional' => 'limit,offset,hidePagination,topNewsFirst,detailPid,backPid,previewHiddenRecords,excludeAlreadyDisplayedNews',
 			'template' => 'cropMaxCharacters,media.maxWidth,media.maxHeight'
 		);
 
@@ -71,15 +71,39 @@ class Tx_News_Hooks_T3libBefunc {
 	 *
 	 * @var array
 	 */
-	public	$removedFieldsInSearchFormView = array(
-			'sDEF' => 'orderBy,orderDirection,categories,categoryConjunction,
-						archiveRestriction,timeRestriction,topNewsRestriction,
+	public $removedFieldsInSearchFormView = array(
+			'sDEF' => 'orderBy,orderDirection,categories,categoryConjunction,includeSubCategories,
+						archiveRestriction,timeRestriction,timeRestrictionHigh,topNewsRestriction,
 						startingpoint,recursive,dateField,singleNews,previewHiddenRecords',
-			'additional' => 'limit,offset,hidePagination,topNewsFirst,listPid,detailPid,backPid',
+			'additional' => 'limit,offset,hidePagination,topNewsFirst,detailPid,backPid,excludeAlreadyDisplayedNews',
 			'template' => 'cropMaxCharacters,media.maxWidth,media.maxHeight'
 		);
 
+	/**
+	 * Fields which are removed in category list view
+	 *
+	 * @var array
+	 */
+	public $removedFieldsInCategoryListView = array(
+			'sDEF' => 'orderBy,orderDirection,categoryConjunction,includeSubCategories,
+						archiveRestriction,timeRestriction,timeRestrictionHigh,topNewsRestriction,
+						startingpoint,recursive,dateField,singleNews,previewHiddenRecords',
+			'additional' => 'limit,offset,hidePagination,topNewsFirst,detailPid,backPid,excludeAlreadyDisplayedNews',
+			'template' => 'cropMaxCharacters,media.maxWidth,media.maxHeight'
+		);
 
+	/**
+	 * Fields which are removed in tag list view
+	 *
+	 * @var array
+	 */
+	public $removedFieldsInTagListView = array(
+			'sDEF' => 'categories,categoryConjunction,includeSubCategories,
+						archiveRestriction,timeRestriction,timeRestrictionHigh,topNewsRestriction,
+						dateField,singleNews,previewHiddenRecords',
+			'additional' => 'limit,offset,hidePagination,topNewsFirst,detailPid,backPid,excludeAlreadyDisplayedNews',
+			'template' => 'cropMaxCharacters,media.maxWidth,media.maxHeight'
+		);
 	/**
 	 * Hook function of t3lib_befunc
 	 * It is used to change the flexform if it is about news
@@ -87,7 +111,7 @@ class Tx_News_Hooks_T3libBefunc {
 	 * @param array &$dataStructure Flexform structure
 	 * @param array $conf some strange configuration
 	 * @param array $row row of current record
-	 * @param string $table table anme
+	 * @param string $table table name
 	 * @param string $fieldName some strange field name
 	 * @return void
 	 */
@@ -100,7 +124,7 @@ class Tx_News_Hooks_T3libBefunc {
 	/**
 	 * Update flexform configuration if a action is selected
 	 *
-	 * @param array|string &$dataStructure flexform structur
+	 * @param array|string &$dataStructure flexform structure
 	 * @param array $row row of current record
 	 * @return void
 	 */
@@ -117,14 +141,13 @@ class Tx_News_Hooks_T3libBefunc {
 			}
 
 			// new plugin element
-		} elseif(t3lib_div::isFirstPartOfStr($row['uid'], 'NEW')) {
+		} elseif (t3lib_div::isFirstPartOfStr($row['uid'], 'NEW')) {
 				// use List as starting view
-				// @todo dynamic check, getting view from $flexformSelection
 			$selectedView = 'News->list';
 		}
 
 		if (!empty($selectedView)) {
-				// modify the flexform structure depending on the first found action
+				// Modify the flexform structure depending on the first found action
 			switch ($selectedView) {
 				case 'News->list':
 				case 'News->searchResult':
@@ -139,6 +162,23 @@ class Tx_News_Hooks_T3libBefunc {
 				case 'News->dateMenu':
 					$this->deleteFromStructure($dataStructure, $this->removedFieldsInDateMenuView);
 					break;
+				case 'Category->list':
+					$this->deleteFromStructure($dataStructure, $this->removedFieldsInCategoryListView);
+					break;
+				case 'Tag->list':
+					$this->deleteFromStructure($dataStructure, $this->removedFieldsInTagListView);
+					break;
+				default:
+			}
+
+			if (is_array($GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['Hooks/T3libBefunc.php']['updateFlexforms'])) {
+				$params = array(
+					'selectedView' => $selectedView,
+					'dataStructure' => &$dataStructure,
+				);
+				foreach ($GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['Hooks/T3libBefunc.php']['updateFlexforms'] as $reference) {
+					t3lib_div::callUserFunction($reference, $params, $this);
+				}
 			}
 		}
 	}
@@ -150,7 +190,7 @@ class Tx_News_Hooks_T3libBefunc {
 	 * @param array $fieldsToBeRemoved fields which need to be removed
 	 * @return void
 	 */
-	private function deleteFromStructure(array &$dataStructure, array $fieldsToBeRemoved) {
+	protected function deleteFromStructure(array &$dataStructure, array $fieldsToBeRemoved) {
 		foreach ($fieldsToBeRemoved as $sheetName => $sheetFields) {
 			$fieldsInSheet = t3lib_div::trimExplode(',', $sheetFields, TRUE);
 

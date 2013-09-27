@@ -23,7 +23,7 @@ class tx_rzpagetreetools_tools {
         }
 
         return $returnValue;
-    }
+    }  
     
     public function showPageInMenu($nodeData) {
         /** @var $node t3lib_tree_pagetree_Node */
@@ -240,28 +240,51 @@ class tx_rzpagetreetools_tools {
 
         return $returnValue;
     }      
-
-    protected static function processTceCmdAndDataMap(array $cmd, array $data = array()) {
-        $tce = t3lib_div::makeInstance('t3lib_TCEmain');
-        $tce->stripslashes_values = 0;
-        $tce->start($data, $cmd);
-        $tce->copyTree = t3lib_div::intInRange($GLOBALS['BE_USER']->uc['copyLevels'], 0, 100);
-
-        if (count($cmd)) {
-            $tce->process_cmdmap();
-            $returnValues = $tce->copyMappingArray_merged;
-        } elseif (count($data)) {
-            $tce->process_datamap();
-            $returnValues = $tce->substNEWwithIDs;
+    
+	static protected function processTceCmdAndDataMap(array $cmd, array $data = array()) {
+        if (t3lib_div::int_from_ver(TYPO3_version) <= 6000000) {
+            $tce = t3lib_div::makeInstance('t3lib_TCEmain');
+            $tce->stripslashes_values = 0;
+            $tce->start($data, $cmd);
+            $tce->copyTree = t3lib_div::intInRange($GLOBALS['BE_USER']->uc['copyLevels'], 0, 100);
+    
+            if (count($cmd)) {
+                $tce->process_cmdmap();
+                $returnValues = $tce->copyMappingArray_merged;
+            } elseif (count($data)) {
+                $tce->process_datamap();
+                $returnValues = $tce->substNEWwithIDs;
+            }
+    
+            // check errors
+            if (count($tce->errorLog)) {
+                throw new Exception(implode(chr(10), $tce->errorLog));
+            }
+    
+            return $returnValues;        
         }
-
-        // check errors
-        if (count($tce->errorLog)) {
-            throw new Exception(implode(chr(10), $tce->errorLog));
-        }
-
-        return $returnValues;
-    }
+        else if(t3lib_div::int_from_ver(TYPO3_version) > 6000000) {
+    		/** @var $tce \TYPO3\CMS\Core\DataHandling\DataHandler */
+    		$tce = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\DataHandling\\DataHandler');
+    		$tce->stripslashes_values = 0;
+    		$tce->start($data, $cmd);
+    		$tce->copyTree = \TYPO3\CMS\Core\Utility\MathUtility::forceIntegerInRange($GLOBALS['BE_USER']->uc['copyLevels'], 0, 100);
+    		if (count($cmd)) {
+    			$tce->process_cmdmap();
+    			$returnValues = $tce->copyMappingArray_merged;
+    		} elseif (count($data)) {
+    			$tce->process_datamap();
+    			$returnValues = $tce->substNEWwithIDs;
+    		} else {
+    			$returnValues = array();
+    		}
+    		// check errors
+    		if (count($tce->errorLog)) {
+    			throw new \RuntimeException(implode(chr(10), $tce->errorLog), 1333754629);
+    		}
+    		return $returnValues;
+        } 
+	}    
 
 }
 

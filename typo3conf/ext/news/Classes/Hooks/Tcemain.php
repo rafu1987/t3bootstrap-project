@@ -28,19 +28,19 @@
  * @package TYPO3
  * @subpackage tx_news
  */
-class Tx_News_Hooks_Tcemain{
+class Tx_News_Hooks_Tcemain {
 
 	/**
 	 * Generate a different preview link
 	 *
 	 * @param string $status status
-	 * @param string $table tablename
+	 * @param string $table table name
 	 * @param integer $recordUid id of the record
-	 * @param array $fieldArray fieldArray
+	 * @param array $fields fieldArray
 	 * @param t3lib_TCEmain $parentObject parent Object
 	 * @return void
 	 */
-	public function processDatamap_afterDatabaseOperations($status, $table, $recordUid, array $fieldArray, t3lib_TCEmain $parentObject) {
+	public function processDatamap_afterDatabaseOperations($status, $table, $recordUid, array $fields, t3lib_TCEmain $parentObject) {
 			// Clear category cache
 		if ($table === 'tx_news_domain_model_category') {
 			$cache = t3lib_div::makeInstance('Tx_News_Service_CacheService', 'news_categorycache');
@@ -55,27 +55,26 @@ class Tx_News_Hooks_Tcemain{
 				$recordUid = $parentObject->substNEWwithIDs[$recordUid];
 			}
 
-			if (isset($GLOBALS['_POST']['_savedokview_x']) && !$fieldArray['type'] && !$GLOBALS['BE_USER']->workspace) {
-					// if "savedokview" has been pressed and current article has "type" 0 (= normal news article)
-					// and the beUser works in the LIVE workspace open current record in single view
+			if (isset($GLOBALS['_POST']['_savedokview_x']) && !$fields['type']) {
+				// If "savedokview" has been pressed and current article has "type" 0 (= normal news article)
 				$pagesTsConfig = t3lib_BEfunc::getPagesTSconfig($GLOBALS['_POST']['popViewId']);
 				if ($pagesTsConfig['tx_news.']['singlePid']) {
 					$record = t3lib_BEfunc::getRecord('tx_news_domain_model_news', $recordUid);
 
-					$params = '&no_cache=1&tx_news_pi1[controller]=News&tx_news_pi1[action]=detail';
+					$parameters = array(
+						'no_cache' => 1,
+						'tx_news_pi1[controller]' => 'News',
+						'tx_news_pi1[action]' => 'detail',
+						'tx_news_pi1[news_preview]' => $record['uid'],
+					);
 					if ($record['sys_language_uid'] > 0) {
 						if ($record['l10n_parent'] > 0) {
-							$params .= '&tx_news_pi1[news]=' . $record['l10n_parent'];
-						} else {
-							$params .= '&tx_news_pi1[news]=' . $record['uid'];
+							$parameters['tx_news_pi1[news_preview]'] = $record['l10n_parent'];
 						}
-
-						$params .= '&L=' . $record['sys_language_uid'];
-					} else {
-							$params .= '&tx_news_pi1[news]=' . $record['uid'];
+						$parameters['L'] = $record['sys_language_uid'];
 					}
 
-					$GLOBALS['_POST']['popViewId_addParams'] = $params;
+					$GLOBALS['_POST']['popViewId_addParams'] = t3lib_div::implodeArrayForUrl('', $parameters, '', FALSE, TRUE);
 					$GLOBALS['_POST']['popViewId'] = $pagesTsConfig['tx_news.']['singlePid'];
 				}
 			}

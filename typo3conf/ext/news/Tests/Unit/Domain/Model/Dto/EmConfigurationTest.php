@@ -39,24 +39,23 @@ class Tx_News_Tests_Unit_Domain_Model_Dto_EmConfigurationTest extends Tx_Extbase
 	 */
 	public function settingsCanBeRead() {
 		$configuration = array(
-			'removeListActionFromFlexforms' => '1',
 			'removeListActionFromFlexforms' => '2',
 			'pageModuleFieldsNews' => 'test',
 			'pageModuleFieldsCategory' => 'test',
 			'tagPid' => 123,
-			'hideMediaTable' => FALSE,
-			'hideFileTable' => FALSE,
 			'prependAtCopy' => TRUE,
 			'categoryRestriction' => 'fo',
 			'contentElementRelation' => FALSE,
 			'manualSorting' => FALSE,
 			'archiveDate' => 'bar',
 			'showImporter' => TRUE,
+			'showAdministrationModule' => FALSE,
+			'showMediaDescriptionField' => FALSE,
 		);
 
 		$configurationInstance = new Tx_News_Domain_Model_Dto_EmConfiguration($configuration);
 
-		foreach($configuration as $key => $value) {
+		foreach ($configuration as $key => $value) {
 			$functionName = 'get' . ucwords($key);
 			$this->assertEquals($value, $configurationInstance->$functionName());
 		}
@@ -75,19 +74,19 @@ class Tx_News_Tests_Unit_Domain_Model_Dto_EmConfigurationTest extends Tx_Extbase
 			'pageModuleFieldsNews' => '',
 			'pageModuleFieldsCategory' => '',
 			'tagPid' => 0,
-			'hideMediaTable' => TRUE,
-			'hideFileTable' => TRUE,
 			'prependAtCopy' => TRUE,
 			'categoryRestriction' => '',
 			'contentElementRelation' => FALSE,
 			'manualSorting' => FALSE,
 			'archiveDate' => 'date',
 			'showImporter' => FALSE,
+			'showAdministrationModule' => TRUE,
+			'showMediaDescriptionField' => FALSE,
 		);
 
 		$configurationInstance = new Tx_News_Domain_Model_Dto_EmConfiguration(array());
 
-		foreach($configuration as $key => $value) {
+		foreach ($configuration as $key => $value) {
 			$functionName = 'get' . ucwords($key);
 			$this->assertEquals($value, $configurationInstance->$functionName());
 		}

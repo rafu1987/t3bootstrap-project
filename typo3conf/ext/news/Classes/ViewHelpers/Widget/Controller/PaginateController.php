@@ -34,7 +34,8 @@ class Tx_News_ViewHelpers_Widget_Controller_PaginateController extends Tx_Fluid_
 	/**
 	 * @var array
 	 */
-	protected $configuration = array('itemsPerPage' => 10, 'insertAbove' => FALSE, 'insertBelow' => TRUE, 'pagesAfter' => 3, 'pagesBefore' => 3, 'lessPages' => TRUE, 'forcedNumberOfLinks' => 5);
+	protected $configuration = array('itemsPerPage' => 10, 'insertAbove' => FALSE, 'insertBelow' => TRUE, 'pagesAfter' => 3, 'pagesBefore' => 3, 'lessPages' => TRUE, 'forcedNumberOfLinks' => 5, 'templatePath' => '');
+
 	/**
 	 * @var Tx_Extbase_Persistence_QueryResultInterface
 	 */
@@ -66,6 +67,11 @@ class Tx_News_ViewHelpers_Widget_Controller_PaginateController extends Tx_Fluid_
 	protected $forcedNumberOfLinks = 10;
 
 	/**
+	 * @var string
+	 */
+	protected $templatePath = '';
+
+	/**
 	 * @var integer
 	 */
 	protected $numberOfPages = 1;
@@ -80,11 +86,12 @@ class Tx_News_ViewHelpers_Widget_Controller_PaginateController extends Tx_Fluid_
 		$this->configuration = t3lib_div::array_merge_recursive_overrule(
 								$this->configuration,
 								(array)$this->widgetConfiguration['configuration'], TRUE);
-		$this->numberOfPages = ceil(count($this->objects) / (integer)$this->configuration['itemsPerPage']);
+		$this->numberOfPages = (integer)ceil(count($this->objects) / (integer)$this->configuration['itemsPerPage']);
 		$this->pagesBefore = (integer)$this->configuration['pagesBefore'];
 		$this->pagesAfter = (integer)$this->configuration['pagesAfter'];
 		$this->lessPages = (boolean)$this->configuration['lessPages'];
 		$this->forcedNumberOfLinks = (integer)$this->configuration['forcedNumberOfLinks'];
+		$this->templatePath = t3lib_div::getFileAbsFileName($this->configuration['templatePath']);
 	}
 
 	/**
@@ -108,8 +115,7 @@ class Tx_News_ViewHelpers_Widget_Controller_PaginateController extends Tx_Fluid_
 					// Too little from the right to adjust
 				$this->pagesAfter = $forcedNumberOfLinks - $this->currentPage - 1;
 				$this->pagesBefore = $forcedNumberOfLinks - $this->pagesAfter - 1;
-			}
-			elseif ($this->currentPage + ($this->pagesAfter + $delta) >= $this->numberOfPages) {
+			} elseif ($this->currentPage + ($this->pagesAfter + $delta) >= $this->numberOfPages) {
 				$this->pagesBefore = $forcedNumberOfLinks - ($this->numberOfPages - $this->currentPage);
 				$this->pagesAfter = $forcedNumberOfLinks - $this->pagesBefore - 1;
 			} else {
@@ -139,8 +145,9 @@ class Tx_News_ViewHelpers_Widget_Controller_PaginateController extends Tx_Fluid_
 		$itemsPerPage = (integer)$this->configuration['itemsPerPage'];
 		$query = $this->objects->getQuery();
 
-			// limit should only be used if needed and pagination only if results > itemsPerPage
-		if ($itemsPerPage > $query->getLimit() && $itemsPerPage < $query->count()) {
+			// limit should only be used if needed
+			// and pagination only if results > itemsPerPage
+		if ($itemsPerPage > $query->getLimit() && $itemsPerPage < $this->objects->count()) {
 			$query->setLimit($itemsPerPage);
 		}
 
@@ -154,6 +161,10 @@ class Tx_News_ViewHelpers_Widget_Controller_PaginateController extends Tx_Fluid_
 		));
 		$this->view->assign('configuration', $this->configuration);
 		$this->view->assign('pagination', $this->buildPagination());
+
+		if (!empty($this->templatePath)) {
+			$this->view->setTemplatePathAndFilename($this->templatePath);
+		}
 	}
 
 	/**
@@ -166,8 +177,8 @@ class Tx_News_ViewHelpers_Widget_Controller_PaginateController extends Tx_Fluid_
 		$this->adjustForForcedNumberOfLinks();
 
 		$pages = array();
-		$start = max($this->currentPage - $this->pagesBefore, 0);
-		$end = min($this->numberOfPages, $this->currentPage + $this->pagesAfter + 1);
+		$start = max($this->currentPage - $this->pagesBefore - 1, 0);
+		$end = min($this->numberOfPages, $this->currentPage + $this->pagesAfter);
 		for ($i = $start; $i < $end; $i++) {
 			$j = $i + 1;
 			$pages[] = array('number' => $j, 'isCurrent' => ($j === $this->currentPage));
@@ -177,11 +188,16 @@ class Tx_News_ViewHelpers_Widget_Controller_PaginateController extends Tx_Fluid_
 			'pages' => $pages,
 			'current' => $this->currentPage,
 			'numberOfPages' => $this->numberOfPages,
+			'numberOfItems' => count($this->objects),
 			'pagesBefore' => $this->pagesBefore,
 			'pagesAfter' => $this->pagesAfter,
+			'firstPageItem' => ($this->currentPage - 1) * (int)$this->configuration['itemsPerPage'] + 1
 		);
 		if ($this->currentPage < $this->numberOfPages) {
 			$pagination['nextPage'] = $this->currentPage + 1;
+			$pagination['lastPageItem'] = $this->currentPage * (integer)$this->configuration['itemsPerPage'];
+		} else {
+			$pagination['lastPageItem'] = $pagination['numberOfItems'];
 		}
 		if ($this->currentPage > 1) {
 			$pagination['previousPage'] = $this->currentPage - 1;

@@ -2,7 +2,7 @@
 /***************************************************************
 *  Copyright notice
 *
-*  (c) 2010 Georg Ringer <typo3@ringerge.org>
+*  (c) 2010 Nikolas Hagelstein <nikolas.hagelstein@gmail.com>
 *  All rights reserved
 *
 *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -23,7 +23,7 @@
 ***************************************************************/
 
 /**
- * Utilitiy class for import jobs
+ * Utility class for import jobs
  *
  * @package TYPO3
  * @subpackage tx_news
@@ -54,7 +54,7 @@ class Tx_News_Utility_ImportJob {
 	}
 
 	/**
-	 * Get registered import jobs
+	 * Get all registered import jobs
 	 *
 	 * @static
 	 * @return array

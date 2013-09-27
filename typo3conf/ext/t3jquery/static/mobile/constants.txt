@@ -1,6 +1,6 @@
 plugin.tx_t3jquery {
 
 	# cat=plugin.tx_t3jquery.mobile-default/file/010; type=file[css]; label=jQuery Mobile
-	file.Mobile = EXT:t3jquery/res/css/mobile/default/jquery.mobile-1.2.0.min.css
+	file.Mobile = EXT:t3jquery/res/css/mobile/default/jquery.mobile-1.3.1.min.css
 
 }

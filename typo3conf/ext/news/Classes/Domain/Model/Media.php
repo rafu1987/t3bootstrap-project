@@ -30,6 +30,11 @@
  */
 class Tx_News_Domain_Model_Media extends Tx_Extbase_DomainObject_AbstractEntity {
 
+	const MEDIA_TYPE_IMAGE = 0;
+	const MEDIA_TYPE_MULTIMEDIA = 1;
+	const MEDIA_TYPE_HTML = 2;
+	const MEDIA_TYPE_DAM = 3;
+
 	/**
 	 * @var DateTime
 	 */
@@ -76,7 +81,7 @@ class Tx_News_Domain_Model_Media extends Tx_Extbase_DomainObject_AbstractEntity 
 	protected $type;
 
 	/**
-	 * @var boolean
+	 * @var integer
 	 */
 	protected $showinpreview;
 
@@ -114,6 +119,16 @@ class Tx_News_Domain_Model_Media extends Tx_Extbase_DomainObject_AbstractEntity 
 	 * @var string
 	 */
 	protected $html;
+
+	/**
+	 * @var string
+	 */
+	protected $copyright;
+
+	/**
+	 * @var string
+	 */
+	protected $description;
 
 		/**
 	 * Get title
@@ -439,6 +454,25 @@ class Tx_News_Domain_Model_Media extends Tx_Extbase_DomainObject_AbstractEntity 
 	}
 
 	/**
+	 * Set copyright text
+	 *
+	 * @param string $copyright
+	 * @return void
+	 */
+	public function setCopyright($copyright) {
+		$this->copyright = $copyright;
+	}
+
+	/**
+	 * Get copyright text
+	 *
+	 * @return string
+	 */
+	public function getCopyright() {
+		return $this->copyright;
+	}
+
+	/**
 	 * Get content of media element depending on its type
 	 *
 	 * @return mixed content of media element
@@ -446,23 +480,44 @@ class Tx_News_Domain_Model_Media extends Tx_Extbase_DomainObject_AbstractEntity 
 	public function getContent() {
 		$content = NULL;
 
-		switch ($this->type) {
-			case 0:
-				$content = $this->image;
+		switch ($this->getType()) {
+			case self::MEDIA_TYPE_MULTIMEDIA:
+				$content = $this->getMultimedia();
 				break;
-			case 1:
-				$content = $this->multimedia;
+			case self::MEDIA_TYPE_HTML:
+				$content = $this->getHtml();
 				break;
-			case 2:
-				$content = $this->html;
+			case self::MEDIA_TYPE_DAM:
+				$content = $this->getDam();
 				break;
-			case 3:
-				$content = $this->dam;
+			case self::MEDIA_TYPE_IMAGE:
+			default:
+				$content = $this->getImage();
 				break;
 		}
 
 		return $content;
 	}
+
+	/**
+	 * Set description
+	 *
+	 * @param string $description
+	 * @return void
+	 */
+	public function setDescription($description) {
+		$this->description = $description;
+	}
+
+	/**
+	 * Get description
+	 *
+	 * @return string
+	 */
+	public function getDescription() {
+		return $this->description;
+	}
+
 
 }
 

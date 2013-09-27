@@ -45,12 +45,163 @@ class Tx_News_Domain_Repository_CategoryRepository extends Tx_News_Domain_Reposi
 	public function findOneByImportSourceAndImportId($importSource, $importId) {
 		$query = $this->createQuery();
 		$query->getQuerySettings()->setRespectStoragePage(FALSE);
-		$query->getQuerySettings()->setRespectEnableFields(FALSE);
+		if (Tx_News_Utility_Compatibility::isEqualOrHigherSixZero()) {
+			$query->getQuerySettings()->setIgnoreEnableFields(TRUE);
+		} else {
+			$query->getQuerySettings()->setRespectEnableFields(FALSE);
+		}
 		return $query->matching(
 			$query->logicalAnd(
 				$query->equals('importSource', $importSource),
 				$query->equals('importId', $importId)
 			))->execute()->getFirst();
+	}
+
+	/**
+	 * Find categories by a given pid
+	 *
+	 * @param integer $pid pid
+	 * @return Tx_Extbase_Persistence_QueryInterface
+	 */
+	public function findParentCategoriesByPid($pid) {
+		$query = $this->createQuery();
+		$query->getQuerySettings()->setRespectStoragePage(FALSE);
+		return $query->matching(
+			$query->logicalAnd(
+				$query->equals('pid', (int)$pid),
+				$query->equals('parentcategory', 0)
+			))->execute();
+	}
+
+	/**
+	 * Find category tree
+	 *
+	 * @param array $rootIdList list of id s
+	 * @return Tx_Extbase_Persistence_QueryInterface
+	 */
+	public function findTree(array $rootIdList) {
+		$subCategories = Tx_News_Service_CategoryService::getChildrenCategories(implode(',',$rootIdList));
+		$ordering = array('sorting' => Tx_Extbase_Persistence_QueryInterface::ORDER_ASCENDING);
+
+		$categories = $this->findByIdList(explode(',',$subCategories), $ordering);
+		$flatCategories = array();
+		foreach ($categories as $category) {
+			$flatCategories[$category->getUid()] = Array(
+				'item' =>  $category,
+				'parent' => ($category->getParentcategory()) ? $category->getParentcategory()->getUid() : NULL
+			);
+		}
+
+		$tree = array();
+
+		// If leaves are selected without its parents selected, those are shown as parent
+		foreach($flatCategories as $id => &$flatCategory) {
+			if (!isset($flatCategories[$flatCategory['parent']])) {
+				$flatCategory['parent'] = NULL;
+			}
+		}
+
+		foreach ($flatCategories as $id => &$node) {
+			if ($node['parent'] === NULL) {
+				$tree[$id] = &$node;
+			} else {
+				$flatCategories[$node['parent']]['children'][$id] = &$node;
+			}
+		}
+
+		return $tree;
+	}
+
+	/**
+	 * Find categories by a given pid
+	 *
+	 * @param array $idList list of id s
+	 * @param array $ordering ordering
+	 * @return Tx_Extbase_Persistence_QueryInterface
+	 */
+	public function findByIdList(array $idList, array $ordering = array()) {
+		$query = $this->createQuery();
+		$query->getQuerySettings()->setRespectStoragePage(FALSE);
+
+		if (count($ordering) > 0) {
+			$query->setOrderings($ordering);
+		}
+		$this->overlayTranslatedCategoryIds($idList);
+
+		return $query->matching(
+			$query->logicalAnd(
+				$query->in('uid', $idList)
+			))->execute();
+	}
+
+	/**
+	 * Find categories by a given parent
+	 *
+	 * @param integer $parent parent
+	 * @return Tx_Extbase_Persistence_QueryInterface
+	 */
+	public function findChildren($parent) {
+		$query = $this->createQuery();
+		$query->getQuerySettings()->setRespectStoragePage(FALSE);
+		return $query->matching(
+			$query->logicalAnd(
+				$query->equals('parentcategory', (int)$parent)
+			))->execute();
+	}
+
+	/**
+	 * Overlay the category ids with the ones from current language
+	 *
+	 * @param array $idList
+	 * return void
+	 */
+	protected function overlayTranslatedCategoryIds(array &$idList) {
+		$language = $this->getSysLanguageUid();
+
+		if ($language > 0) {
+			if (isset($GLOBALS['TSFE']) && is_object($GLOBALS['TSFE'])) {
+				$whereClause = 'sys_language_uid=' . $language .' AND l10n_parent IN(' . implode(',', $idList) .')' . $GLOBALS['TSFE']->sys_page->enableFields('tx_news_domain_model_category');
+				$rows = $GLOBALS['TYPO3_DB']->exec_SELECTgetRows('l10n_parent, uid,sys_language_uid', 'tx_news_domain_model_category', $whereClause);
+
+				$idList = $this->replaceCategoryIds($idList, $rows);
+			} else {
+				// @todo currently only implemented for the frontend
+			}
+		}
+	}
+
+	/**
+	 * Get the current sys language uid
+	 *
+	 * @return integer
+	 */
+	protected function getSysLanguageUid() {
+		$sysLanguage = 0;
+		if (isset($GLOBALS['TSFE']) && is_object($GLOBALS['TSFE'])) {
+			$sysLanguage = $GLOBALS['TSFE']->sys_language_content;
+		} elseif (intval(t3lib_div::_GP('L'))) {
+			$sysLanguage = intval(t3lib_div::_GP('L'));
+		}
+
+		return $sysLanguage;
+	}
+
+	/**
+	 * Replace ids in array by the given ones
+	 *
+	 * @param array $idList
+	 * @param array $rows
+	 * @return array
+	 */
+	protected function replaceCategoryIds(array $idList, array $rows) {
+		foreach ($rows as $row) {
+			$pos = array_search($row['l10n_parent'], $idList);
+			if ($pos !== FALSE) {
+				$idList[$pos] = (int)$row['uid'];
+			}
+		}
+
+		return $idList;
 	}
 }
 

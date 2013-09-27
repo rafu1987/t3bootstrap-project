@@ -45,6 +45,8 @@ class Tx_News_Service_Import_TTNewsCategoryDataProviderService implements Tx_New
 		);
 
 		list($count) = $GLOBALS['TYPO3_DB']->sql_fetch_row($res);
+		$GLOBALS['TYPO3_DB']->sql_free_result($res);
+
 		return (int)$count;
 	}
 
@@ -66,12 +68,13 @@ class Tx_News_Service_Import_TTNewsCategoryDataProviderService implements Tx_New
 			$offset . ',' . $limit
 		);
 
-		while ($row = mysql_fetch_array($res)) {
+		while ($row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res)) {
 			$importData[] = array(
 				'pid' => $row['pid'],
 				'hidden' => $row['hidden'],
 				'starttime' => $row['starttime'],
 				'endtime'  => $row['endtime'],
+				'title_lang_ol'  => $row['title_lang_ol'],
 				'title'	=>	$row['title'],
 				'description' => $row['description'],
 				'image' => $row['image'],

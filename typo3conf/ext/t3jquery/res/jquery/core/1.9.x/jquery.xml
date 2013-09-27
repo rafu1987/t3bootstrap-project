@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<t3jquery>
+	<version type="array">
+		<act>1.9.1</act>
+		<cdn>1.9.1</cdn>
+	</version>
+	<groups type="array">
+		<numIndex index="1" type="array">
+			<name>jQuery Core</name>
+			<label>jQuery Core</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>jQuery</name>
+					<label>jQuery</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.jquery</detail>
+					<file>jquery.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">jQuery(</numIndex>
+						<numIndex index="2">$(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<name>noConflict</name>
+					<label>noConflict</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.noConflict</detail>
+					<file>jquery.noConflict.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.noConflict()</numIndex>
+					</sources>
+				</numIndex>
+			</files>
+		</numIndex>
+		<numIndex index="2" type="array">
+			<name>jQuery Plugins</name>
+			<label>jQuery Plugins</label>
+			<files type="array">
+				<numIndex index="1" type="array">
+					<name>MouseWheel</name>
+					<label>Mouse Wheel</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.mousewheel</detail>
+					<file>jquery.mousewheel.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.mousewheel(</numIndex>
+						<numIndex index="2">.bind("mousewheel"</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<name>Lint</name>
+					<label>Lint</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.lint</detail>
+					<file>jquery.lint.js</file>
+					<depends>jQuery</depends>
+				</numIndex>
+				<numIndex index="3" type="array">
+					<name>Mobile</name>
+					<label>Mobile</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.mobile</detail>
+					<file>jquery.mobile.js</file>
+					<depends>jQuery</depends>
+				</numIndex>
+				<numIndex index="4" type="array">
+					<name>Cookie</name>
+					<label>Cookie</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.cookie</detail>
+					<file>jquery.cookie.js</file>
+					<depends>jQuery</depends>
+					<sources type="array">
+						<numIndex index="1">.cookie(</numIndex>
+					</sources>
+				</numIndex>
+				<numIndex index="5" type="array">
+					<name>Migrate</name>
+					<label>Migrate</label>
+					<detail>LLL:EXT:t3jquery/mod1/locallang.xml:jquery.component.migrate</detail>
+					<file>jquery.migrate.js</file>
+					<depends>jQuery</depends>
+				</numIndex>
+			</files>
+		</numIndex>
+	</groups>
+</t3jquery>

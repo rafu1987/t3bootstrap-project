@@ -1,0 +1,14 @@
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', '{gaCode}']);
+<f:if condition="{gaIsAnonymize}">_gaq.push(['_gat._anonymizeIp']);</f:if>
+<f:if condition="{gaDomainName}">_gaq.push(['_setDomainName', '{gaDomainName}']);</f:if>
+_gaq.push(['_trackPageview']);
+<f:if condition="{gaCustomizationCode}"><f:format.html parseFuncTSPath="">{gaCustomizationCode}</f:format.html></f:if>
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>

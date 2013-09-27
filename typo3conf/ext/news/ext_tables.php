@@ -31,9 +31,6 @@ $TCA['tx_news_domain_model_news'] = array(
 	'ctrl' => array(
 		'title'     => 'LLL:EXT:news/Resources/Private/Language/locallang_db.xml:tx_news_domain_model_news',
 		'label'     => 'title',
-		'label_alt' => 'categories',
-		'label_alt_force' => 1,
-		'label_userFunc' => 'Tx_News_Hooks_Labels->getUserLabelNews',
 		'prependAtCopy' => $configuration->getPrependAtCopy() ? 'LLL:EXT:lang/locallang_general.xml:LGL.prependAtCopy' : '',
 		'hideAtCopy' => TRUE,
 		'tstamp'    => 'tstamp',
@@ -45,7 +42,7 @@ $TCA['tx_news_domain_model_news'] = array(
 		'type' => 'type',
 		'typeicon_column' => 'type',
 		'typeicons' => array (
-			'1' => t3lib_extMgm::extRelPath($_EXTKEY) . 'Resources/Public/Icons/news_domain_model_news_article.gif',
+			'1' => t3lib_extMgm::extRelPath($_EXTKEY) . 'Resources/Public/Icons/news_domain_model_news_internal.gif',
 			'2' => t3lib_extMgm::extRelPath($_EXTKEY) . 'Resources/Public/Icons/news_domain_model_news_external.gif',
 		),
 		'dividers2tabs' => TRUE,
@@ -53,7 +50,7 @@ $TCA['tx_news_domain_model_news'] = array(
 		'languageField'            => 'sys_language_uid',
 		'transOrigPointerField'    => 'l10n_parent',
 		'transOrigDiffSourceField' => 'l10n_diffsource',
-		'default_sortby' => 'ORDER BY crdate',
+		'default_sortby' => 'ORDER BY datetime DESC',
 		'sortby' => ($configuration->getManualSorting() ? 'sorting' : ''),
 		'delete' => 'deleted',
 		'enablecolumns' => array(
@@ -64,6 +61,8 @@ $TCA['tx_news_domain_model_news'] = array(
 		),
 		'dynamicConfigFile' => t3lib_extMgm::extPath($_EXTKEY) . 'Configuration/Tca/news.php',
 		'iconfile'          => t3lib_extMgm::extRelPath($_EXTKEY) . 'Resources/Public/Icons/news_domain_model_news.gif',
+		'searchFields' => 'uid,title',
+		'requestUpdate' => 'rte_disabled',
 	),
 );
 
@@ -95,6 +94,7 @@ $TCA['tx_news_domain_model_category'] = array(
 		'dynamicConfigFile' => t3lib_extMgm::extPath($_EXTKEY) . 'Configuration/Tca/category.php',
 		'iconfile'          => t3lib_extMgm::extRelPath($_EXTKEY) . 'Resources/Public/Icons/news_domain_model_category.gif',
 		'treeParentField' => 'parentcategory',
+		'searchFields' => 'uid,title',
 	),
 );
 
@@ -114,6 +114,8 @@ $TCA['tx_news_domain_model_media'] = array(
 		'languageField'            => 'sys_language_uid',
 		'transOrigPointerField'    => 'l10n_parent',
 		'transOrigDiffSourceField' => 'l10n_diffsource',
+		'versioningWS' => TRUE,
+		'origUid' => 't3_origuid',
 		'dividers2tabs' => TRUE,
 		'default_sortby' => 'ORDER BY sorting',
 		'sortby' => 'sorting',
@@ -123,7 +125,7 @@ $TCA['tx_news_domain_model_media'] = array(
 		),
 		'dynamicConfigFile' => t3lib_extMgm::extPath($_EXTKEY) . 'Configuration/Tca/media.php',
 		'iconfile'          => t3lib_extMgm::extRelPath($_EXTKEY) . 'Resources/Public/Icons/news_domain_model_media.gif',
-		'hideTable'			=> $configuration->getHideMediaTable(),
+		'hideTable'			=> TRUE,
 	),
 );
 
@@ -142,16 +144,19 @@ $TCA['tx_news_domain_model_file'] = array(
 		'languageField'            => 'sys_language_uid',
 		'transOrigPointerField'    => 'l10n_parent',
 		'transOrigDiffSourceField' => 'l10n_diffsource',
+		'versioningWS' => TRUE,
+		'origUid' => 't3_origuid',
 		'dividers2tabs' => TRUE,
 		'default_sortby' => 'ORDER BY sorting',
 		'sortby' => 'sorting',
 		'delete' => 'deleted',
 		'enablecolumns' => array(
 			'disabled' => 'hidden',
+			'fe_group' => 'fe_group',
 		),
 		'dynamicConfigFile' => t3lib_extMgm::extPath($_EXTKEY) . 'Configuration/Tca/file.php',
 		'iconfile'          => t3lib_extMgm::extRelPath($_EXTKEY) . 'Resources/Public/Icons/news_domain_model_file.gif',
-		'hideTable'			=> $configuration->getHideFileTable(),
+		'hideTable'			=> TRUE,
 	),
 );
 
@@ -170,6 +175,8 @@ $TCA['tx_news_domain_model_link'] = array(
 		'languageField'            => 'sys_language_uid',
 		'transOrigPointerField'    => 'l10n_parent',
 		'transOrigDiffSourceField' => 'l10n_diffsource',
+		'versioningWS' => TRUE,
+		'origUid' => 't3_origuid',
 		'dividers2tabs' => TRUE,
 		'default_sortby' => 'ORDER BY sorting',
 		'sortby' => 'sorting',
@@ -179,7 +186,7 @@ $TCA['tx_news_domain_model_link'] = array(
 		),
 		'dynamicConfigFile' => t3lib_extMgm::extPath($_EXTKEY) . 'Configuration/Tca/link.php',
 		'iconfile'          => t3lib_extMgm::extRelPath($_EXTKEY) . 'Resources/Public/Icons/news_domain_model_link.gif',
-		'hideTable'			=> $configuration->getHideFileTable(),
+		'hideTable'			=> TRUE,
 	),
 );
 
@@ -200,6 +207,7 @@ $TCA['tx_news_domain_model_tag'] = array(
 		),
 		'dynamicConfigFile' => t3lib_extMgm::extPath($_EXTKEY) . 'Configuration/Tca/tag.php',
 		'iconfile'          => t3lib_extMgm::extRelPath($_EXTKEY) . 'Resources/Public/Icons/news_domain_model_tag.png',
+		'searchFields' => 'uid,title',
 	),
 );
 
@@ -242,6 +250,21 @@ if (TYPO3_MODE == 'BE') {
 if (TYPO3_MODE == 'BE') {
 	unset($ICON_TYPES['news']);
 	t3lib_SpriteManager::addTcaTypeIcon('pages', 'contains-news', '../typo3conf/ext/news/Resources/Public/Icons/folder.gif');
+
+	$addNewsToModuleSelection = TRUE;
+	foreach ($GLOBALS['TCA']['pages']['columns']['module']['config']['items'] as $item) {
+		if ($item[1] === 'news') {
+			$addNewsToModuleSelection = FALSE;
+			continue;
+		}
+	}
+	if ($addNewsToModuleSelection) {
+		$GLOBALS['TCA']['pages']['columns']['module']['config']['items'][] = array(
+			0 => 'LLL:EXT:news/Resources/Private/Language/locallang_be.xml:news-folder',
+			1 => 'news',
+			2 => '../typo3conf/ext/news/Resources/Public/Icons/folder.gif'
+		);
+	}
 }
 
 
@@ -285,7 +308,10 @@ $GLOBALS['TYPO3_USER_SETTINGS']['columns']['newsoverlay'] = array(
 $GLOBALS['TYPO3_USER_SETTINGS']['showitem'] .= ',
 	--div--;LLL:EXT:news/Resources/Private/Language/locallang_be.xml:pi1_title,newsoverlay';
 
-
+// Add tables to livesearch (e.g. "#news:fo" or "#newscat:fo")
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['livesearch']['news'] = 'tx_news_domain_model_news';
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['livesearch']['newscat'] = 'tx_news_domain_model_category';
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['livesearch']['newstag'] = 'tx_news_domain_model_tag';
 
 /* ===========================================================================
  	Register BE-Modules
@@ -317,8 +343,39 @@ if (TYPO3_MODE === 'BE' && $configuration->getShowImporter()) {
 			'LLL:EXT:news/Resources/Private/Language/locallang_be.xml:ttnewscategory_importer_title',
 			'');
 	}
+
+	if (t3lib_extMgm::isLoaded('t3blog')) {
+		Tx_News_Utility_ImportJob::register(
+			'Tx_News_Jobs_T3BlogNewsImportJob',
+			'LLL:EXT:news/Resources/Private/Language/locallang_be.xml:t3blog_importer_title',
+			'');
+		Tx_News_Utility_ImportJob::register(
+			'Tx_News_Jobs_T3BlogCategoryImportJob',
+			'LLL:EXT:news/Resources/Private/Language/locallang_be.xml:t3blogcategory_importer_title',
+			'');
+	}
 }
 
+
+/* ===========================================================================
+ 	Register BE-Module for Administration
+=========================================================================== */
+if (TYPO3_MODE === 'BE' && $configuration->getShowAdministrationModule()) {
+	Tx_Extbase_Utility_Extension::registerModule(
+		$_EXTKEY,
+		'web',
+		'tx_news_m2',
+		'',
+		array(
+			'Administration' => 'index,newNews,newCategory,newsPidListing',
+		),
+		array(
+			'access' => 'user,group',
+			'icon'   => 'EXT:' . $_EXTKEY . '/Resources/Public/Icons/folder.gif',
+			'labels' => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_modadministration.xml',
+		)
+	);
+}
 
 /* ===========================================================================
  	Ajax call to save tags
@@ -332,5 +389,49 @@ if (TYPO3_MODE == 'BE') {
 =========================================================================== */
 $GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['orderByCategory'] = 'uid,title,tstamp,sorting';
 $GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['orderByNews'] = 'tstamp,datetime,crdate,title';
+$GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['orderByTag'] = 'tstamp,crdate,title';
 $GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['switchableControllerActions']['list'] = $configuration->getRemoveListActionFromFlexforms();
+
+/* ===========================================================================
+ 	Extend be_user/be_groups table by a category restriction
+=========================================================================== */
+if (version_compare(TYPO3_branch, '6.0', '>=') || t3lib_extMgm::isLoaded('tcatreeprovider')) {
+	$tempColumns = array(
+		'tx_news_categorymounts' => array(
+			'exclude' => 1,
+			'label' => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_db.xml:be_user.tx_news_categorymounts',
+			'config' => array(
+				'type' => 'select',
+				'foreign_table' => 'tx_news_domain_model_category',
+				'foreign_table_where' => ' AND (tx_news_domain_model_category.sys_language_uid = 0 OR tx_news_domain_model_category.l10n_parent = 0) ORDER BY tx_news_domain_model_category.sorting',
+				'renderMode' => 'tree',
+				'subType' => 'db',
+				'treeConfig' => array(
+					'parentField' => 'parentcategory',
+					'appearance' => array(
+						'expandAll' => TRUE,
+						'showHeader' => FALSE,
+						'maxLevels' => 99,
+					),
+				),
+				'size' => 10,
+				'autoSizeMax' => 20,
+				'minitems' => 0,
+				'maxitems' => 99
+			)
+		)
+	);
+
+	if (version_compare(TYPO3_branch, '6.1', '<')) {
+		t3lib_div::loadTCA('be_groups');
+	}
+	t3lib_extMgm::addTCAcolumns('be_groups', $tempColumns, 1);
+	t3lib_extMgm::addToAllTCAtypes('be_groups', 'tx_news_categorymounts;;;;1-1-1');
+
+	if (version_compare(TYPO3_branch, '6.1', '<')) {
+		t3lib_div::loadTCA('be_users');
+	}
+	t3lib_extMgm::addTCAcolumns('be_users', $tempColumns, 1);
+	t3lib_extMgm::addToAllTCAtypes('be_users', 'tx_news_categorymounts;;;;1-1-1');
+}
 ?>

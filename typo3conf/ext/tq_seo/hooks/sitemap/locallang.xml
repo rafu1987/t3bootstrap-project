@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<generator>ClearSeoCache</generator>
+		<type>module</type>
+		<authorName>Markus Blaschke</authorName>
+		<authorEmail>blaschke@teqneers.de</authorEmail>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="clearSeoSitemap">Clear SEO Sitemap</label>
+		</languageKey>
+	</data>
+</T3locallang>

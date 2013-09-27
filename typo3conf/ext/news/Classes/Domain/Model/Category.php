@@ -50,6 +50,11 @@ class Tx_News_Domain_Model_Category extends Tx_Extbase_DomainObject_AbstractEnti
 	protected $starttime;
 
 	/**
+	 * @var integer
+	 */
+	protected $hidden;
+
+	/**
 	 * @var DateTime
 	 */
 	protected $endtime;
@@ -157,7 +162,7 @@ class Tx_News_Domain_Model_Category extends Tx_Extbase_DomainObject_AbstractEnti
 	/**
 	 * Get starttime
 	 *
-	 * @return type
+	 * @return DateTime
 	 */
 	public function getStarttime() {
 		return $this->starttime;
@@ -193,12 +198,31 @@ class Tx_News_Domain_Model_Category extends Tx_Extbase_DomainObject_AbstractEnti
 	}
 
 	/**
+	 * Get Hidden
+	 *
+	 * @return integer
+	 */
+	public function getHidden() {
+		return $this->hidden;
+	}
+
+	/**
+	 * Set Hidden
+	 *
+	 * @param integer $hidden
+	 * @return void
+	 */
+	public function setHidden($hidden) {
+		$this->hidden = $hidden;
+	}
+
+	/**
 	 * Get sys language
 	 *
 	 * @return integer
 	 */
 	public function getSysLanguageUid() {
-		return $this->sysLanguageUid;
+		return $this->_languageUid;
 	}
 
 	/**
@@ -208,7 +232,7 @@ class Tx_News_Domain_Model_Category extends Tx_Extbase_DomainObject_AbstractEnti
 	 * @return void
 	 */
 	public function setSysLanguageUid($sysLanguageUid) {
-		$this->sysLanguageUid = $sysLanguageUid;
+		$this->_languageUid = $sysLanguageUid;
 	}
 
 	/**

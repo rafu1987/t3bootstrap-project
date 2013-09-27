@@ -1,0 +1,6 @@
+plugin.tx_t3jquery {
+
+	# cat=plugin.tx_t3jquery.ui-excite-bike/file/010; type=file[css]; label=jQuery UI Excite-Bike
+	file.UI-Excite-Bike = EXT:t3jquery/res/css/ui-1.10.x/excite-bike/jquery-ui-1.10.0.custom.min.css
+
+}

@@ -28,13 +28,13 @@
  *
  * Examples
  * ==============
- * <n:facebook.comment appId="165193833530000" xid="news-{newsItem.uid}" />
+ * <social.facebook.comment appId="165193833530000" xid="news-{newsItem.uid}" />
  * Result: Facebook widget to comment an article
  *
  * @package TYPO3
  * @subpackage tx_news
  */
-class Tx_News_ViewHelpers_Facebook_CommentViewHelper extends Tx_Fluid_Core_ViewHelper_AbstractTagBasedViewHelper {
+class Tx_News_ViewHelpers_Social_Facebook_CommentViewHelper extends Tx_Fluid_Core_ViewHelper_AbstractTagBasedViewHelper {
 
 	/**
 	 * @var	string
@@ -42,12 +42,25 @@ class Tx_News_ViewHelpers_Facebook_CommentViewHelper extends Tx_Fluid_Core_ViewH
 	protected $tagName = 'fb:comments';
 
 	/**
+	 * @var Tx_News_Service_SettingsService
+	 */
+	protected $pluginSettingsService;
+
+	/**
+	 * @var Tx_News_Service_SettingsService $pluginSettingsService
+	 * @return void
+	 */
+	public function injectSettingsService(Tx_News_Service_SettingsService $pluginSettingsService) {
+		$this->pluginSettingsService = $pluginSettingsService;
+	}
+
+	/**
 	 * Arguments initialization
 	 *
 	 * @return void
 	 */
 	public function initializeArguments() {
-		$this->registerTagAttribute('xid', 'string', 'An id associated with the comments object (defaults to URL-encoded page URL)', TRUE);
+		$this->registerTagAttribute('xid', 'string', 'An id associated with the comments object, Default: URL-encoded page URL', TRUE);
 		$this->registerTagAttribute('numposts', 'integer', 'the number of comments to display, or 0 to hide all comments');
 		$this->registerTagAttribute('width', 'integer', 'The width of the plugin in px, default = 425');
 		$this->registerTagAttribute('publishFeed', 'boolean', 'Whether the publish feed story checkbox is checked., default = TRUE');
@@ -60,13 +73,15 @@ class Tx_News_ViewHelpers_Facebook_CommentViewHelper extends Tx_Fluid_Core_ViewH
 	 * @return string
 	 */
 	public function render($appId) {
-		$pluginSettingsService = $this->objectManager->get('Tx_News_Service_SettingsService');
-		$tsSettings = $pluginSettingsService->getSettings();
+		$tsSettings = $this->pluginSettingsService->getSettings();
+		$this->tag->addAttribute('data-href', t3lib_div::getIndpEnv('TYPO3_REQUEST_URL'));
+		$this->tag->forceClosingTag(TRUE);
 
 		$locale = (!empty($tsSettings['facebookLocale'])) ? $tsSettings['facebookLocale'] : 'en_US';
 
 		$code = '<div id="fb-root"></div>
-					<script src="http://connect.facebook.net/' . $locale . '/all.js#appId=' . htmlspecialchars($appId) . '&amp;xfbml=1"></script>';
+					<script src="http://connect.facebook.net/' . $locale . '/all.js#appId=' . htmlspecialchars($appId) .
+			'&amp;xfbml=1"></script>';
 		$code .= $this->tag->render();
 
 		return $code;

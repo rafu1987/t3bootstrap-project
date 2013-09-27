@@ -25,46 +25,48 @@
  * ************************************************************* */
 
 /**
- * Base configuration an properties for markup manipulation 
+ * Base configuration an properties for markup manipulation
  */
 class Tx_Sourceopt_Service_MarkupManipulationConfigurationService {
 
 	/**
 	 * The new line char
-	 * 
-	 * @var string 
+	 *
+	 * @var string
 	 */
 	protected $newLine = "\n";
 
 	/**
 	 * The tab char
-	 * 
-	 * @var string 
+	 *
+	 * @var string
 	 */
 	protected $tab = "\t";
 
 	/**
 	 * The HTML for the manipulation
-	 * 
-	 * @var string 
+	 *
+	 * @var string
 	 */
 	protected $html = "";
 
 	/**
-	 * Init the object 
+	 * Init the object
 	 *
-	 * @param string $html 
+	 * @param string $html
 	 */
 	public function __construct($html = NULL) {
-		if (defined('TYPO3_OS') && TYPO3_OS === 'WIN')
+		if (defined('TYPO3_OS') && TYPO3_OS === 'WIN') {
 			$this->setNewLine("\r\n");
-		if ($html !== NULL)
+		}
+		if ($html !== NULL) {
 			$this->setHtml($html);
+		}
 	}
 
 	/**
 	 * get the new line string
-	 * 
+	 *
 	 * @return string
 	 */
 	public function getNewLine() {
@@ -73,8 +75,8 @@ class Tx_Sourceopt_Service_MarkupManipulationConfigurationService {
 
 	/**
 	 * Set the new line string
-	 * 
-	 * @param type $newLine 
+	 *
+	 * @param string $newLine
 	 */
 	public function setNewLine($newLine) {
 		$this->newLine = $newLine;
@@ -82,8 +84,8 @@ class Tx_Sourceopt_Service_MarkupManipulationConfigurationService {
 
 	/**
 	 * Get the tab string
-	 * 
-	 * @return string 
+	 *
+	 * @return string
 	 */
 	public function getTab() {
 		return $this->tab;
@@ -91,8 +93,8 @@ class Tx_Sourceopt_Service_MarkupManipulationConfigurationService {
 
 	/**
 	 * Set the tab string
-	 * 
-	 * @param type $tab 
+	 *
+	 * @param string $tab
 	 */
 	public function setTab($tab) {
 		$this->tab = $tab;
@@ -100,8 +102,8 @@ class Tx_Sourceopt_Service_MarkupManipulationConfigurationService {
 
 	/**
 	 * Set the html
-	 * 
-	 * @return string 
+	 *
+	 * @return string
 	 */
 	public function getHtml() {
 		return $this->html;
@@ -109,8 +111,8 @@ class Tx_Sourceopt_Service_MarkupManipulationConfigurationService {
 
 	/**
 	 * Get the html
-	 * 
-	 * @param string $html 
+	 *
+	 * @param string $html
 	 */
 	public function setHtml($html) {
 		$this->html = $html;

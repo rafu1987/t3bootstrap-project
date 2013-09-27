@@ -50,13 +50,11 @@ class Tx_News_Tests_Unit_Domain_Repository_NewsRepositoryTest extends Tx_Extbase
 	}
 
 	/**
-	 * Test createCategoryConstraint_creates_correct_junctions
-	 *
 	 * @test
 	 * @dataProvider conjunctionNameProvider
 	 * @return void
 	 */
-	public function createCategoryConstraint_creates_correct_junctions($junctionName, $outerConstraintType, $innerConstraintType) {
+	public function createCategoryConstraintCreatesCorrectJunctions($junctionName, $outerConstraintType, $innerConstraintType) {
 		$newsRepository = $this->getAccessibleMock('Tx_News_Domain_Repository_NewsRepository', array('dummy'));
 		$query = $newsRepository->createQuery();
 
@@ -70,13 +68,11 @@ class Tx_News_Tests_Unit_Domain_Repository_NewsRepositoryTest extends Tx_Extbase
 	}
 
 	/**
-	 * Test findDemanded_calls_createConstraintsFromDemand_once
-	 *
 	 * @test
 	 * @return void
 	 */
-	public function findDemanded_calls_createConstraintsFromDemand_once() {
-		$mockDemand = $this->getMock('Tx_News_Domain_Model_NewsDemand');
+	public function findDemandedCallsCreateConstraintsFromDemand_once() {
+		$mockDemand = $this->getMock('Tx_News_Domain_Model_Dto_NewsDemand');
 		$newsRepository = $this->getAccessibleMock('Tx_News_Domain_Repository_NewsRepository', array('createConstraintsFromDemand'));
 		$newsRepository->expects($this->once())->method('createConstraintsFromDemand');
 
@@ -84,26 +80,24 @@ class Tx_News_Tests_Unit_Domain_Repository_NewsRepositoryTest extends Tx_Extbase
 	}
 
 	/**
-	 * Test findDemanded_calls_createOrderingsFromDemand_once
-	 *
 	 * @test
 	 * @return void
 	 */
-	public function findDemanded_calls_createOrderingsFromDemand_once() {
-		$mockDemand = $this->getMock('Tx_News_Domain_Model_NewsDemand');
+	public function findDemandedCallsCreateOrderingsFromDemand_once() {
+		$mockDemand = $this->getMock('Tx_News_Domain_Model_Dto_NewsDemand');
 		$newsRepository = $this->getAccessibleMock('Tx_News_Domain_Repository_NewsRepository', array('createOrderingsFromDemand'));
 		$newsRepository->expects($this->once())->method('createOrderingsFromDemand');
 		$newsRepository->findDemanded($mockDemand);
 	}
 
 	/**
-	 * Test create cronstraints from demand including topnews setting
+	 * Test create constraints from demand including topnews setting
 	 *
 	 * @test
 	 * @return void
 	 */
 	public function createConstraintsFromDemandForDemandWithTopnewsSetting1QueriesForIsTopNews() {
-		$demand = $this->getMock('Tx_News_Domain_Model_NewsDemand');
+		$demand = $this->getMock('Tx_News_Domain_Model_Dto_NewsDemand');
 		$demand->expects($this->atLeastOnce())->method('getTopNewsRestriction')
 			->will($this->returnValue(1));
 

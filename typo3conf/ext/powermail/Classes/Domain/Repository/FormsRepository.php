@@ -25,39 +25,27 @@
 
 
 /**
- *
+ * FormsRepository
  *
  * @package powermail
  * @license http://www.gnu.org/licenses/lgpl.html GNU Lesser General Public License, version 3 or later
- *
  */
 class Tx_Powermail_Domain_Repository_FormsRepository extends Tx_Extbase_Persistence_Repository {
 
 	/**
 	 * Find Form objects by its given uids
 	 *
-	 * @param 	$uids	string		commaseparated list of uids
-	 * @return	void
+	 * @param string $uids commaseparated list of uids
+	 * @return Tx_Extbase_Persistence_QueryResult
 	 */
 	public function findByUids($uids) {
 		$query = $this->createQuery();
-		$query->getQuerySettings()->setRespectStoragePage(FALSE); // disable storage pid
+		$query->getQuerySettings()->setRespectStoragePage(FALSE);
+		$query->getQuerySettings()->setRespectSysLanguage(FALSE);
 
-		$and = array(
-			$query->greaterThan('uid', 0), // always true like 1=1
+		$query->matching(
 			$query->in('uid', t3lib_div::trimExplode(',', $uids, 1))
 		);
-
-		$constraint = $query->logicalAnd($and); // create where object with AND
-		$query->matching($constraint); // use constraint
-
-		// set sorting
-		//		$query->setOrderings(
-		//			array(
-		//				'date_start' => Tx_Extbase_Persistence_QueryInterface::ORDER_DESCENDING,
-		//				'languages.titel' => Tx_Extbase_Persistence_QueryInterface::ORDER_DESCENDING,
-		//			)
-		//		);
 
 		$result = $query->execute();
 		return $result;
@@ -66,8 +54,8 @@ class Tx_Powermail_Domain_Repository_FormsRepository extends Tx_Extbase_Persiste
 	/**
 	 * Returns form with captcha from given UID
 	 *
-	 * @param	$uid	int		Form Uid
-	 * @return	Query Object
+	 * @param int $uid Form Uid
+	 * @return Tx_Extbase_Persistence_QueryResult
 	 */
 	public function hasCaptcha($uid) {
 		$query = $this->createQuery();
@@ -83,6 +71,27 @@ class Tx_Powermail_Domain_Repository_FormsRepository extends Tx_Extbase_Persiste
 
 		$result = $query->execute();
 		return $result;
+	}
+
+	/**
+	 * This function is a workarround to get the field value of "pages" in the table "forms" (only relevant if IRRE was replaced by Element Browser)
+	 *
+	 * @param int $uid Form UID
+	 * @return string
+	 */
+	public function getPagesValue($uid) {
+		$query = $this->createQuery();
+		$query->getQuerySettings()->setReturnRawQueryResult(true);
+
+		// create sql statement
+		$sql = 'select pages';
+		$sql .= ' from tx_powermail_domain_model_forms';
+		$sql .= ' where uid = ' . intval($uid);
+		$sql .= ' limit 1';
+
+		$result = $query->statement($sql)->execute();
+
+		return $result[0]['pages'];
 	}
 }
 
