@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the less extension in the FRONTEND</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<!-- ErrorMessages -->
+			<label index="noLessFilesInFolder">There are no less-files in given folder: %s .</label>
+			<label index="emptyPathes">Please configure pathes to less- and css-folder using the constants-editor</label>
+			<label index="noDefinedLessFolder">Please define path to lessfolder using the constants-editor</label>
+			<label index="lesscRequired"><![CDATA[
+				To use the JS-Compiler via Node.js, it is required, that node.js and less.js are installed on the server.<br />
+				Try to install the "node package manager" (npm) and through it install "lessc".<br />
+				<pre><code>$ apt-get install npm && npm install -g less</code></pre>
+				]]>
+			</label>
+
+			<!-- ErrorMessages -->
+			<!-- German translations will come with next version -->
+		</languageKey>
+	</data>
+</T3locallang>

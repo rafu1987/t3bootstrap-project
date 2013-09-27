@@ -1,0 +1,96 @@
+plugin.tx_t3less {
+    files {
+        pathToLessFiles = {$plugin.tx_t3less.files.pathToLessFiles}
+        outputFolder = {$plugin.tx_t3less.files.outputFolder}
+    }
+    other {
+
+        activateCompiler = {$plugin.tx_t3less.other.activateCompiler}
+        unlinkCssFilesWithNoSourceFile = {$plugin.tx_t3less.other.unlinkCssFilesWithNoSourceFile}
+        compressed = {$plugin.tx_t3less.other.compressed}
+        forceMode = {$plugin.tx_t3less.other.forceMode}
+        importDirs = {$plugin.tx_t3less.other.importDirs}
+        lessJsScriptPath = {$plugin.tx_t3less.other.lessJsScriptPath}
+		lessPhpScriptPath = {$plugin.tx_t3less.other.lessPhpScriptPath}
+
+    }
+    enable {
+        mode = {$plugin.tx_t3less.enable.mode}
+    }
+
+
+}
+
+
+#### EXAMPLE for individual file settings ####
+#### configure this in your template ####
+/*
+plugin.tx_t3less {
+    ##Settings only for phpcompiler
+    phpcompiler {
+        filesettings {
+            ## "style" = Filename of your lessfile without ".less"-extension (source file is style.less)
+            style {
+                media = only screen and (max-device-width: 480px)
+                title = beispiel
+                compress = 1
+                forceOnTop = 1
+                allWrap = ''
+                excludeFromConcatenation = 0
+                sortOrder = 10
+            }
+            style2 {
+                sortOrder = 20
+            }
+            style3  {
+                excludeFromPageRenderer = 1 #this file will not be included via pagerenderer
+            }
+            ## "iehacks" = Filename of your lessfile without ".less"-extension (source file is iehacks.less)
+            iehacks {
+                allWrap = <!--[if IE]> | <![endif]-->
+            }
+        }
+        registerFunctions {
+            #Example user function
+            double = EXT:t3_less/Classes/UserFunction/class.user_exampleClass.php:user_exampleClass->exampleFunction
+        }
+    }
+    jscompiler {
+        filesettings {
+            style {
+                media = screen
+                title = lessdatei
+                allWrap = ''
+                sortOrder = 10
+            }
+            iehacks {
+                media = all
+                title = iehacks
+                allWrap = <!--[if IE]> | <![endif]-->
+                sortOrder = 500
+            }
+        }
+    }
+}
+*/
+
+### If you don't configure this values, default settings from getPageRenderer()->addCssFile(...) will be used ###
+### Following settings are the default settings for using phpcompiler: ###
+# media = 'all'
+# title = ''
+# compress = TRUE
+# forceOnTop = FALSE
+# allWrap = ''
+# excludeFromConcatenation = FALSE
+###
+### JS-Compiler has only three settings to configure, all other makes no sense by using less.js
+### the other settings are by default: compress & excludeFromConcatenation = FALSE, forceOnTop = TRUE
+### For media queries you should use something like this in your less-file,
+### but you can also use plugin.tx_t3less.jscompiler.filesettings.LESS-FILENAME_WITHOUT_EXTENSION.media
+/*
+@media screen and (max-width: 480px) {
+    #header {
+        display:none;
+    }
+}
+*/
